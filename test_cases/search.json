@@ -93,6 +93,24 @@
         "admin2": "Middlesex County",
         "text": "15 Call Street, Billerica, MA"
       }
+    },
+    {
+      "id": 1,
+      "user": "feedback-app",
+      "in": {
+        "input": "1"
+      },
+      "out": {
+        "type": "osmnode",
+        "layer": "osmnode",
+        "name": "1",
+        "alpha3": "DEU",
+        "admin0": "Bundesrepublik Deutschland",
+        "admin1": "Brandenburg",
+        "admin2": "Elbe-elster",
+        "locality": "Herzberg (elster)",
+        "text": "1, Herzberg (elster), Brandenburg"
+      }
     }
   ]
 }
