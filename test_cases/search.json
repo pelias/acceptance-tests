@@ -93,6 +93,47 @@
         "admin2": "Middlesex County",
         "text": "15 Call Street, Billerica, MA"
       }
+    },
+    {
+      "id": 1,
+      "user": "feedback-app",
+      "in": {
+        "input": "1"
+      },
+      "out": {
+        "type": "osmnode",
+        "layer": "osmnode",
+        "name": "1",
+        "alpha3": "DEU",
+        "admin0": "Bundesrepublik Deutschland",
+        "admin1": "Saarland",
+        "admin2": "Saarbrã¼cken",
+        "text": "1, Saarbrã¼cken, Saarland"
+      }
+    },
+    {
+      "id": 1,
+      "user": "feedback-app",
+      "in": {
+        "input": "2"
+      },
+      "out": "Leopoldstadt, Vienna, 1020, Austria"
+    },
+    {
+      "id": 1,
+      "user": "feedback-app",
+      "in": {
+        "input": "w"
+      },
+      "out": null
+    },
+    {
+      "id": 1,
+      "user": "feedback-app",
+      "in": {
+        "input": "we"
+      },
+      "out": null
     }
   ]
 }
