@@ -199,6 +199,53 @@
         "text": "London, Greater London"
       },
       "priorityThresh": 1
+    },
+    {
+      "id": 10,
+      "user": "hkrishna",
+      "in": {
+        "input": "chelsea, new york"
+      },
+      "priorityThresh": 1,
+      "out": {
+        "name": "Chelsea",
+        "alpha3": "USA",
+        "admin0": "United States",
+        "admin1": "New York",
+        "admin2": "Manhattan",
+        "text": "Chelsea, Manhattan, New York"
+      }
+    },
+    {
+      "id": 11,
+      "user": "hkrishna",
+      "in": {
+        "input": "soho, ny"
+      },
+      "priorityThresh": 1,
+      "out": {
+        "name": "Soho",
+        "admin0": "United States",
+        "admin1": "New York",
+        "admin2": "Manhattan",
+        "text": "Soho, Manhattan, New York"
+      }
+    },
+    {
+      "id": 12,
+      "user": "hkrishna",
+      "in": {
+        "input": "1 main st, GBR"
+      },
+      "priorityThresh": 3,
+      "out": {
+        "name": "1 Main St.",
+        "alpha3": "GBR",
+        "admin0": "United Kingdom",
+        "admin1": "Dungannon",
+        "admin2": "County Monaghan",
+        "text": "1 Main St., County Monaghan"
+      }
     }
   ]
 }
