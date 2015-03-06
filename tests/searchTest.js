@@ -8,7 +8,7 @@ var testSuite = require('./../test_cases/search');
 
 var errorFile = './errors-' + new Date() + '.json';
 
-var url = 'http://pelias.mapzen.com';
+var url = 'http://pelias.stage.mapzen.com';
 
 describe(testSuite.name, function () {
 

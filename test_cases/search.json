@@ -8,7 +8,7 @@
       "in": {
         "input": "brooklyn"
       },
-      "out": "Brooklyn , Cattaraugus County, New York"
+      "out": "Brooklyn , Kings County, New York"
     },
     {
       "id": 2,
@@ -16,7 +16,7 @@
       "in": {
         "input": "brooklyn, ny"
       },
-      "out": "Brooklyn , Cattaraugus County, New York"
+      "out": "Brooklyn , Kings County, New York"
     },
     {
       "id": 3,
@@ -33,7 +33,7 @@
         "input": "philadelphia"
       },
       "out": {
-        "text": "Philadelphia, Pennsylvania",
+        "text": "Philadelphia, Philadelphia County, Pennsylvania",
         "name": "Philadelphia",
         "admin1": "Pennsylvania",
         "admin0": "United States"
@@ -43,7 +43,7 @@
       "id": 5,
       "user": "Randy",
       "in": {
-        "input": "new york, ny"
+        "input": "new york, new york"
       },
       "out": "New York, New York"
     },
@@ -162,7 +162,13 @@
       "in": {
         "input": "france"
       },
-      "out": "France"
+      "priorityThresh": 1,
+      "out": {
+        "name": "France",
+        "alpha3": "MYT",
+        "admin0": "France",
+        "text": "France"
+      }
     },
     {
       "id": "1425586777012:5",
@@ -180,7 +186,7 @@
         "admin2": "Brooklyn",
         "text": "Prospect Park, Brooklyn, New York"
       },
-      "priorityThresh": 1
+      "priorityThresh": 5
     },
     {
       "id": "1425586777012:6",
@@ -199,6 +205,53 @@
         "text": "London, Greater London"
       },
       "priorityThresh": 1
+    },
+    {
+      "id": 10,
+      "user": "hkrishna",
+      "in": {
+        "input": "chelsea, new york"
+      },
+      "priorityThresh": 1,
+      "out": {
+        "name": "Chelsea",
+        "alpha3": "USA",
+        "admin0": "United States",
+        "admin1": "New York",
+        "admin2": "New York County",
+        "text": "Chelsea, New York County, New York"
+      }
+    },
+    {
+      "id": 11,
+      "user": "hkrishna",
+      "in": {
+        "input": "soho, new york"
+      },
+      "priorityThresh": 1,
+      "out": {
+        "name": "SoHo",
+        "admin0": "United States",
+        "admin1": "New York",
+        "admin2": "New York County",
+        "text": "SoHo, New York County, New York"
+      }
+    },
+    {
+      "id": 12,
+      "user": "hkrishna",
+      "in": {
+        "input": "1 main st, GBR"
+      },
+      "priorityThresh": 3,
+      "out": {
+        "name": "1 Main St.",
+        "alpha3": "GBR",
+        "admin0": "United Kingdom",
+        "admin1": "Dungannon",
+        "admin2": "County Monaghan",
+        "text": "1 Main St., County Monaghan"
+      }
     }
   ]
 }
