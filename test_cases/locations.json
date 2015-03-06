@@ -1,16 +1,18 @@
 {
-  "Brooklyn , Cattaraugus County, New York": {
+  "Brooklyn , Kings County, New York": {
     "name": "Brooklyn",
     "admin0": "United States",
     "admin1": "New York",
-    "admin2": "Cattaraugus County",
-    "text": "Brooklyn, Cattaraugus County, New York"
+    "admin2": "Kings County",
+    "text": "Brooklyn, Kings County, New York"
   },
   "New York, New York": {
     "name": "New York",
-    "admin1": "New York",
+    "alpha3": "USA",
     "admin0": "United States",
-    "text": "New York, New York"
+    "admin1": "New York",
+    "admin2": "New York",
+    "text": "New York"
   },
   "Billerica, Middlesex County, Massachusetts": {
     "name": "Billerica",
