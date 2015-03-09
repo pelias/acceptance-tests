@@ -252,6 +252,24 @@
         "admin2": "County Monaghan",
         "text": "1 Main St., County Monaghan"
       }
+    },
+    {
+      "id": "1425908601944:0",
+      "user": "feedback-app",
+      "in": {
+        "input": "he"
+      },
+      "out": {
+        "type": "osmnode",
+        "layer": "osmnode",
+        "name": "HE",
+        "alpha3": "RWA",
+        "admin0": "Rwanda",
+        "admin1": "Kigali City",
+        "admin2": "Nyarugenge District",
+        "text": "HE, Nyarugenge District, Kigali City"
+      },
+      "priorityThresh": 1
     }
   ]
 }
