@@ -252,6 +252,24 @@
         "admin2": "County Monaghan",
         "text": "1 Main St., County Monaghan"
       }
+    },
+    {
+      "id": "1426085141587:0",
+      "user": "feedback-app",
+      "in": {
+        "input": "perugia airport"
+      },
+      "out": {
+        "type": "geoname",
+        "layer": "geoname",
+        "name": "Perugia San Francesco d'Assisi – Umbria International Airport",
+        "alpha3": "ITA",
+        "admin0": "Italy",
+        "admin1": "Umbria",
+        "admin2": "Provincia di Perugia",
+        "text": "Perugia San Francesco d'Assisi – Umbria International Airport, Provincia di Perugia, Umbria"
+      },
+      "priorityThresh": 1
     }
   ]
 }
