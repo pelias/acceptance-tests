@@ -4,6 +4,7 @@
   "tests": [
     {
       "id": 1,
+      "status": "pass",
       "user": "Randy",
       "in": {
         "input": "brooklyn"
@@ -12,6 +13,7 @@
     },
     {
       "id": 2,
+      "status": "fail",
       "user": "Randy",
       "in": {
         "input": "brooklyn, ny"
@@ -20,6 +22,7 @@
     },
     {
       "id": 3,
+      "status": "fail",
       "user": "Randy",
       "in": {
         "input": "new york"
@@ -28,6 +31,7 @@
     },
     {
       "id": 4,
+      "status": "pass",
       "user": "Diana",
       "in": {
         "input": "philadelphia"
@@ -41,6 +45,7 @@
     },
     {
       "id": 5,
+      "status": "pass",
       "user": "Randy",
       "in": {
         "input": "new york, new york"
@@ -49,6 +54,7 @@
     },
     {
       "id": 6,
+      "status": "pass",
       "user": "Randy",
       "in": {
         "input": "130 dean street brooklyn, ny"
@@ -63,6 +69,7 @@
     },
     {
       "id": 7,
+      "status": "pass",
       "user": "Randy",
       "in": {
         "input": "billerica"
@@ -72,6 +79,7 @@
     },
     {
       "id": 8,
+      "status": "fail",
       "user": "Randy",
       "in": {
         "input": "billerica, ma"
@@ -81,6 +89,7 @@
     },
     {
       "id": 9,
+      "status": "fail",
       "user": "Randy",
       "in": {
         "input": "15 call street billerica, ma"
@@ -104,6 +113,7 @@
     },
     {
       "id": "1425586777012:1",
+      "status": "fail",
       "user": "feedback-app",
       "in": {
         "input": "union square"
@@ -122,6 +132,7 @@
     },
     {
       "id": "1425586777012:2",
+      "status": "pass",
       "user": "feedback-app",
       "in": {
         "input": "portland"
@@ -140,6 +151,7 @@
     },
     {
       "id": "1425586777012:3",
+      "status": "pass",
       "user": "feedback-app",
       "in": {
         "input": "paris"
@@ -158,6 +170,7 @@
     },
     {
       "id": "1425586777012:4",
+      "status": "pass",
       "user": "feedback-app",
       "in": {
         "input": "france"
@@ -172,6 +185,7 @@
     },
     {
       "id": "1425586777012:5",
+      "status": "fail",
       "user": "feedback-app",
       "in": {
         "input": "prospect park"
@@ -190,6 +204,7 @@
     },
     {
       "id": "1425586777012:6",
+      "status": "pass",
       "user": "feedback-app",
       "in": {
         "input": "london"
@@ -208,6 +223,7 @@
     },
     {
       "id": 10,
+      "status": "pass",
       "user": "hkrishna",
       "in": {
         "input": "chelsea, new york"
@@ -224,6 +240,7 @@
     },
     {
       "id": 11,
+      "status": "pass",
       "user": "hkrishna",
       "in": {
         "input": "soho, new york"
@@ -239,6 +256,7 @@
     },
     {
       "id": 12,
+      "status": "fail",
       "user": "hkrishna",
       "in": {
         "input": "1 main st, GBR"
@@ -255,6 +273,7 @@
     },
     {
       "id": "1426085141587:0",
+      "status": "pass",
       "user": "feedback-app",
       "in": {
         "input": "perugia airport"
