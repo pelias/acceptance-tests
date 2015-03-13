@@ -9,7 +9,11 @@
       "in": {
         "input": "brooklyn"
       },
-      "out": "Brooklyn , Kings County, New York"
+      "expected": {
+        "properties": [
+          "Brooklyn , Kings County, New York"
+        ]
+      }
     },
     {
       "id": 2,
@@ -18,7 +22,11 @@
       "in": {
         "input": "brooklyn, ny"
       },
-      "out": "Brooklyn , Kings County, New York"
+      "expected": {
+        "properties": [
+          "Brooklyn , Kings County, New York"
+        ]
+      }
     },
     {
       "id": 3,
@@ -27,7 +35,11 @@
       "in": {
         "input": "new york"
       },
-      "out": "New York, New York"
+      "expected": {
+        "properties": [
+          "New York, New York"
+        ]
+      }
     },
     {
       "id": 4,
@@ -36,11 +48,15 @@
       "in": {
         "input": "philadelphia"
       },
-      "out": {
-        "text": "Philadelphia, Philadelphia County, Pennsylvania",
-        "name": "Philadelphia",
-        "admin1": "Pennsylvania",
-        "admin0": "United States"
+      "expected": {
+        "properties": [
+          {
+            "text": "Philadelphia, Philadelphia County, Pennsylvania",
+            "name": "Philadelphia",
+            "admin1": "Pennsylvania",
+            "admin0": "United States"
+          }
+        ]
       }
     },
     {
@@ -50,7 +66,11 @@
       "in": {
         "input": "new york, new york"
       },
-      "out": "New York, New York"
+      "expected": {
+        "properties": [
+          "New York, New York"
+        ]
+      }
     },
     {
       "id": 6,
@@ -59,12 +79,16 @@
       "in": {
         "input": "130 dean street brooklyn, ny"
       },
-      "priorityThresh": 1,
-      "out": {
-        "text": "130 Dean Street, Brooklyn, NY",
-        "name": "130 Dean Street",
-        "admin0": "United States",
-        "admin1": "New York"
+      "expected": {
+        "priorityThresh": 1,
+        "properties": [
+          {
+            "text": "130 Dean Street, Brooklyn, NY",
+            "name": "130 Dean Street",
+            "admin0": "United States",
+            "admin1": "New York"
+          }
+        ]
       }
     },
     {
@@ -74,8 +98,12 @@
       "in": {
         "input": "billerica"
       },
-      "priorityThresh": 1,
-      "out": "Billerica, Middlesex County, Massachusetts"
+      "expected": {
+        "priorityThresh": 1,
+        "properties": [
+          "Billerica, Middlesex County, Massachusetts"
+        ]
+      }
     },
     {
       "id": 8,
@@ -84,8 +112,12 @@
       "in": {
         "input": "billerica, ma"
       },
-      "priorityThresh": 1,
-      "out": "Billerica, Middlesex County, Massachusetts"
+      "expected": {
+        "priorityThresh": 1,
+        "properties": [
+          "Billerica, Middlesex County, Massachusetts"
+        ]
+      }
     },
     {
       "id": 9,
@@ -94,13 +126,17 @@
       "in": {
         "input": "15 call street billerica, ma"
       },
-      "priorityThresh": 1,
-      "out": {
-        "name": "15 Call Street",
-        "admin0": "United States",
-        "admin1": "Massachusetts",
-        "admin2": "Middlesex County",
-        "text": "15 Call Street, Billerica, MA"
+      "expected": {
+        "priorityThresh": 1,
+        "properties": [
+          {
+            "name": "15 Call Street",
+            "admin0": "United States",
+            "admin1": "Massachusetts",
+            "admin2": "Middlesex County",
+            "text": "15 Call Street, Billerica, MA"
+          }
+        ]
       }
     },
     {
@@ -109,7 +145,11 @@
       "in": {
         "input": "union sq"
       },
-      "out": null
+      "expected": {
+        "properties": [
+          null
+        ]
+      }
     },
     {
       "id": "1425586777012:1",
@@ -118,17 +158,21 @@
       "in": {
         "input": "union square"
       },
-      "out": {
-        "type": "neighborhood",
-        "layer": "neighborhood",
-        "name": "Union Square",
-        "alpha3": "USA",
-        "admin0": "United States",
-        "admin1": "New York",
-        "admin2": "Manhattan",
-        "text": "Union Square, Manhattan, New York"
-      },
-      "priorityThresh": 1
+      "expected": {
+        "priorityThresh": 1,
+        "properties": [
+          {
+            "type": "neighborhood",
+            "layer": "neighborhood",
+            "name": "Union Square",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "New York",
+            "admin2": "Manhattan",
+            "text": "Union Square, Manhattan, New York"
+          }
+        ]
+      }
     },
     {
       "id": "1425586777012:2",
@@ -137,17 +181,21 @@
       "in": {
         "input": "portland"
       },
-      "out": {
-        "type": "geoname",
-        "layer": "geoname",
-        "name": "Portland",
-        "alpha3": "USA",
-        "admin0": "United States",
-        "admin1": "Oregon",
-        "admin2": "Multnomah County",
-        "text": "Portland, Multnomah County, Oregon"
-      },
-      "priorityThresh": 1
+      "expected": {
+        "priorityThresh": 1,
+        "properties": [
+          {
+            "type": "geoname",
+            "layer": "geoname",
+            "name": "Portland",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "Oregon",
+            "admin2": "Multnomah County",
+            "text": "Portland, Multnomah County, Oregon"
+          }
+        ]
+      }
     },
     {
       "id": "1425586777012:3",
@@ -156,17 +204,21 @@
       "in": {
         "input": "paris"
       },
-      "out": {
-        "type": "geoname",
-        "layer": "geoname",
-        "name": "Paris",
-        "alpha3": "FRA",
-        "admin0": "France",
-        "admin1": "Île-de-France",
-        "admin2": "Paris",
-        "text": "Paris, Île-de-France"
-      },
-      "priorityThresh": 1
+      "expected": {
+        "priorityThresh": 1,
+        "properties": [
+          {
+            "type": "geoname",
+            "layer": "geoname",
+            "name": "Paris",
+            "alpha3": "FRA",
+            "admin0": "France",
+            "admin1": "Île-de-France",
+            "admin2": "Paris",
+            "text": "Paris, Île-de-France"
+          }
+        ]
+      }
     },
     {
       "id": "1425586777012:4",
@@ -175,12 +227,16 @@
       "in": {
         "input": "france"
       },
-      "priorityThresh": 1,
-      "out": {
-        "name": "France",
-        "alpha3": "MYT",
-        "admin0": "France",
-        "text": "France"
+      "expected": {
+        "priorityThresh": 1,
+        "properties": [
+          {
+            "name": "France",
+            "alpha3": "MYT",
+            "admin0": "France",
+            "text": "France"
+          }
+        ]
       }
     },
     {
@@ -190,17 +246,21 @@
       "in": {
         "input": "prospect park"
       },
-      "out": {
-        "type": "neighborhood",
-        "layer": "neighborhood",
-        "name": "Prospect Park",
-        "alpha3": "USA",
-        "admin0": "United States",
-        "admin1": "New York",
-        "admin2": "Brooklyn",
-        "text": "Prospect Park, Brooklyn, New York"
-      },
-      "priorityThresh": 5
+      "expected": {
+        "priorityThresh": 5,
+        "properties": [
+          {
+            "type": "neighborhood",
+            "layer": "neighborhood",
+            "name": "Prospect Park",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "New York",
+            "admin2": "Brooklyn",
+            "text": "Prospect Park, Brooklyn, New York"
+          }
+        ]
+      }
     },
     {
       "id": "1425586777012:6",
@@ -209,17 +269,21 @@
       "in": {
         "input": "london"
       },
-      "out": {
-        "type": "geoname",
-        "layer": "geoname",
-        "name": "London",
-        "alpha3": "GBR",
-        "admin0": "United Kingdom",
-        "admin1": "England",
-        "admin2": "Greater London",
-        "text": "London, Greater London"
-      },
-      "priorityThresh": 1
+      "expected": {
+        "priorityThresh": 1,
+        "properties": [
+          {
+            "type": "geoname",
+            "layer": "geoname",
+            "name": "London",
+            "alpha3": "GBR",
+            "admin0": "United Kingdom",
+            "admin1": "England",
+            "admin2": "Greater London",
+            "text": "London, Greater London"
+          }
+        ]
+      }
     },
     {
       "id": 10,
@@ -228,14 +292,18 @@
       "in": {
         "input": "chelsea, new york"
       },
-      "priorityThresh": 1,
-      "out": {
-        "name": "Chelsea",
-        "alpha3": "USA",
-        "admin0": "United States",
-        "admin1": "New York",
-        "admin2": "New York County",
-        "text": "Chelsea, New York County, New York"
+      "expected": {
+        "priorityThresh": 1,
+        "properties": [
+          {
+            "name": "Chelsea",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "New York",
+            "admin2": "New York County",
+            "text": "Chelsea, New York County, New York"
+          }
+        ]
       }
     },
     {
@@ -245,13 +313,17 @@
       "in": {
         "input": "soho, new york"
       },
-      "priorityThresh": 1,
-      "out": {
-        "name": "SoHo",
-        "admin0": "United States",
-        "admin1": "New York",
-        "admin2": "New York County",
-        "text": "SoHo, New York County, New York"
+      "expected": {
+        "priorityThresh": 1,
+        "properties": [
+          {
+            "name": "SoHo",
+            "admin0": "United States",
+            "admin1": "New York",
+            "admin2": "New York County",
+            "text": "SoHo, New York County, New York"
+          }
+        ]
       }
     },
     {
@@ -261,14 +333,18 @@
       "in": {
         "input": "1 main st, GBR"
       },
-      "priorityThresh": 3,
-      "out": {
-        "name": "1 Main St.",
-        "alpha3": "GBR",
-        "admin0": "United Kingdom",
-        "admin1": "Dungannon",
-        "admin2": "County Monaghan",
-        "text": "1 Main St., County Monaghan"
+      "expected": {
+        "priorityThresh": 3,
+        "properties": [
+          {
+            "name": "1 Main St.",
+            "alpha3": "GBR",
+            "admin0": "United Kingdom",
+            "admin1": "Dungannon",
+            "admin2": "County Monaghan",
+            "text": "1 Main St., County Monaghan"
+          }
+        ]
       }
     },
     {
@@ -278,17 +354,21 @@
       "in": {
         "input": "perugia airport"
       },
-      "out": {
-        "type": "geoname",
-        "layer": "geoname",
-        "name": "Perugia San Francesco d'Assisi – Umbria International Airport",
-        "alpha3": "ITA",
-        "admin0": "Italy",
-        "admin1": "Umbria",
-        "admin2": "Provincia di Perugia",
-        "text": "Perugia San Francesco d'Assisi – Umbria International Airport, Provincia di Perugia, Umbria"
-      },
-      "priorityThresh": 1
+      "expected": {
+        "priorityThresh": 1,
+        "properties": [
+          {
+            "type": "geoname",
+            "layer": "geoname",
+            "name": "Perugia San Francesco d'Assisi – Umbria International Airport",
+            "alpha3": "ITA",
+            "admin0": "Italy",
+            "admin1": "Umbria",
+            "admin2": "Provincia di Perugia",
+            "text": "Perugia San Francesco d'Assisi – Umbria International Airport, Provincia di Perugia, Umbria"
+          }
+        ]
+      }
     }
   ]
 }
