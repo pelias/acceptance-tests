@@ -1,0 +1,26 @@
+{
+  "name": "admin lookup",
+  "priorityThresh": 3,
+  "tests": [
+    {
+      "id": "1",
+      "status": "fail",
+      "user": "sevko",
+      "endpoint": "reverse",
+      "in": {
+        "lat": 46.65132155014943,
+        "lon": 14.61353302001953
+      },
+      "expected": {
+        "properties": [{
+          "admin2": "Voelkermarkt"
+        }]
+      },
+      "unexpected": {
+        "properties": [{
+          "admin2": "Vã¶lkermarkt"
+        }]
+      }
+    }
+  ]
+}
