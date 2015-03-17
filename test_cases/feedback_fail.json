@@ -2,5 +2,65 @@
   "name": "feedback app failing tests",
   "priorityThresh": 3,
   "tests": [
+    {
+      "id": "1426613982957:0",
+      "user": "feedback-app",
+      "in": {
+        "input": "a"
+      },
+      "expected": {
+        "properties": null
+      }
+    },
+    {
+      "id": "1426613982957:1",
+      "user": "feedback-app",
+      "in": {
+        "input": "b"
+      },
+      "expected": {
+        "properties": null
+      }
+    },
+    {
+      "id": "1426613982957:2",
+      "user": "feedback-app",
+      "in": {
+        "input": "l"
+      },
+      "expected": {
+        "properties": null
+      }
+    },
+    {
+      "id": "1426613982957:3",
+      "user": "feedback-app",
+      "in": {
+        "input": "e"
+      },
+      "expected": {
+        "properties": "Hubei Province, People's Republic of China"
+      }
+    },
+    {
+      "id": "1426613982957:4",
+      "user": "feedback-app",
+      "in": {
+        "input": "who"
+      },
+      "expected": {
+        "properties": "WHO, 18 May School Road, Lixle, Hargeisa, Hargeysa, Woqooyi Galbeed, Somaliland, Somalia"
+      }
+    },
+    {
+      "id": "1426613982957:5",
+      "user": "feedback-app",
+      "in": {
+        "input": "uh"
+      },
+      "expected": {
+        "properties": "Uh, District of Michalovce, Region of Košice, Eastern Slovakia, Slovakia"
+      }
+    }
   ]
 }

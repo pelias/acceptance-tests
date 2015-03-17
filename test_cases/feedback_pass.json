@@ -2,5 +2,168 @@
   "name": "feedback app passing tests",
   "priorityThresh": 3,
   "tests": [
+    {
+      "id": "1426613982956:0",
+      "user": "feedback-app",
+      "in": {
+        "input": "w"
+      },
+      "expected": {
+        "properties": [
+          {
+            "type": "osmnode",
+            "layer": "osmnode",
+            "name": "W",
+            "alpha3": "AGO",
+            "admin0": "Angola",
+            "admin1": "Luanda",
+            "admin2": "Município Viana",
+            "text": "W, Município Viana, Luanda"
+          }
+        ],
+        "priorityThresh": 1
+      },
+      "status": "pass"
+    },
+    {
+      "id": "1426613982956:1",
+      "user": "feedback-app",
+      "in": {
+        "input": "e"
+      },
+      "expected": {
+        "properties": [
+          {
+            "type": "osmway",
+            "layer": "osmway",
+            "name": "E",
+            "alpha3": "DEU",
+            "admin1": "Schleswig-holstein",
+            "admin2": "Stormarn",
+            "locality": "Ahrensburg",
+            "neighborhood": "Dänenheide",
+            "text": "E, Ahrensburg, Schleswig-holstein"
+          }
+        ],
+        "priorityThresh": 1
+      },
+      "status": "pass"
+    },
+    {
+      "id": "1426613982956:2",
+      "user": "feedback-app",
+      "in": {
+        "input": "f"
+      },
+      "expected": {
+        "properties": [
+          {
+            "type": "osmnode",
+            "layer": "osmnode",
+            "name": "F",
+            "alpha3": "DEU",
+            "admin0": "Germany",
+            "admin1": "Hessen",
+            "admin2": "Limburg-weilburg",
+            "locality": "Hadamar",
+            "text": "F, Hadamar, Hessen"
+          },
+          {
+            "type": "osmway",
+            "layer": "osmway",
+            "name": "F",
+            "alpha3": "IDN",
+            "admin0": "Indonesia",
+            "admin1": "Jawa Tengah",
+            "admin2": "Purworejo",
+            "locality": "Purworejo",
+            "text": "F, Purworejo, Jawa Tengah"
+          },
+          {
+            "type": "osmway",
+            "layer": "osmway",
+            "name": "F",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "Oklahoma",
+            "admin1_abbr": "OK",
+            "admin2": "Payne",
+            "locality": "Stillwater",
+            "text": "F, Stillwater, OK"
+          }
+        ],
+        "priorityThresh": 6
+      },
+      "status": "pass"
+    },
+    {
+      "id": "1426613982956:3",
+      "user": "feedback-app",
+      "in": {
+        "input": "a"
+      },
+      "expected": {
+        "properties": [
+          {
+            "type": "osmnode",
+            "layer": "osmnode",
+            "name": "A",
+            "alpha3": "SWE",
+            "admin0": "Sverige",
+            "admin1": "Skåne Län",
+            "admin2": "Helsingborg",
+            "text": "A, Helsingborg, Skåne Län"
+          }
+        ],
+        "priorityThresh": 2
+      },
+      "status": "pass"
+    },
+    {
+      "id": "1426613982956:4",
+      "user": "feedback-app",
+      "in": {
+        "input": "b"
+      },
+      "expected": {
+        "properties": [
+          {
+            "type": "osmnode",
+            "layer": "osmnode",
+            "name": "B",
+            "alpha3": "SWE",
+            "admin0": "Sverige",
+            "admin1": "Västerbottens Län",
+            "admin2": "Umeå Kommun",
+            "text": "B, Umeå Kommun, Västerbottens Län"
+          }
+        ],
+        "priorityThresh": 8
+      },
+      "status": "pass"
+    },
+    {
+      "id": "1426613982956:5",
+      "user": "feedback-app",
+      "in": {
+        "input": "hullo"
+      },
+      "expected": {
+        "properties": [
+          {
+            "type": "geoname",
+            "layer": "geoname",
+            "name": "Hullo",
+            "alpha3": "EST",
+            "admin0": "Estonia",
+            "admin1": "Lääne",
+            "admin2": "Vormsi vald",
+            "text": "Hullo, Vormsi vald, Lääne"
+          }
+        ],
+        "priorityThresh": 1
+      },
+      "status": "pass"
+    }
   ]
 }
