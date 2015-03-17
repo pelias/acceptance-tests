@@ -369,6 +369,4365 @@
           }
         ]
       }
+    },
+    {
+      "id": "1426538192714:0",
+      "user": "feedback-app",
+      "in": {
+        "input": "JFK airport"
+      },
+      "expected": {
+        "properties": null
+      }
+    },
+    {
+      "id": "1426538192714:1",
+      "user": "feedback-app",
+      "in": {
+        "input": "EWR airport"
+      },
+      "expected": {
+        "properties": null
+      }
+    },
+    {
+      "id": "1426538192714:2",
+      "user": "feedback-app",
+      "in": {
+        "input": "Newark Airport"
+      },
+      "expected": {
+        "properties": [
+          {
+            "type": "osmway",
+            "layer": "osmway",
+            "name": "Newark Liberty International Airport",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "New Jersey",
+            "admin1_abbr": "NJ",
+            "admin2": "Union",
+            "local_admin": "Newark",
+            "locality": "Newark",
+            "neighborhood": "Dayton",
+            "text": "Newark Liberty International Airport, Newark, NJ"
+          },
+          {
+            "type": "osmnode",
+            "layer": "osmnode",
+            "name": "Newark Liberty Airport Station",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "New Jersey",
+            "admin1_abbr": "NJ",
+            "admin2": "Essex",
+            "local_admin": "Newark",
+            "locality": "Newark",
+            "neighborhood": "Dayton",
+            "text": "Newark Liberty Airport Station, Newark, NJ"
+          }
+        ],
+        "priorityThresh": 5
+      },
+      "status": "pass"
+    },
+    {
+      "id": "1426538192714:3",
+      "user": "feedback-app",
+      "in": {
+        "input": "130 dean street brooklyn ny"
+      },
+      "expected": {
+        "properties": [
+          {
+            "type": "osmaddress",
+            "layer": "osmaddress",
+            "name": "130 Dean Street",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "New York",
+            "admin1_abbr": "NY",
+            "admin2": "Kings",
+            "local_admin": "Brooklyn",
+            "locality": "New York",
+            "neighborhood": "Boerum Hill",
+            "text": "130 Dean Street, Brooklyn, NY"
+          }
+        ],
+        "priorityThresh": 5
+      },
+      "status": "pass"
+    },
+    {
+      "id": "1426538192714:4",
+      "user": "feedback-app",
+      "in": {
+        "input": "brooklyn inn"
+      },
+      "expected": {
+        "properties": [
+          {
+            "type": "osmnode",
+            "layer": "osmnode",
+            "name": "The Brooklyn Inn",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "New York",
+            "admin1_abbr": "NY",
+            "admin2": "Kings",
+            "local_admin": "Brooklyn",
+            "locality": "New York",
+            "neighborhood": "Boerum Hill",
+            "text": "The Brooklyn Inn, Brooklyn, NY"
+          }
+        ],
+        "priorityThresh": 2
+      },
+      "status": "pass"
+    },
+    {
+      "id": "1426538192714:5",
+      "user": "feedback-app",
+      "in": {
+        "input": "15 call street north billerica, ma"
+      },
+      "expected": {
+        "properties": null
+      }
+    },
+    {
+      "id": "1426538192714:6",
+      "user": "feedback-app",
+      "in": {
+        "input": "bascom hall"
+      },
+      "expected": {
+        "properties": [
+          {
+            "type": "osmway",
+            "layer": "osmway",
+            "name": "Bascom Hall",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "Wisconsin",
+            "admin1_abbr": "WI",
+            "admin2": "Dane",
+            "local_admin": "Madison",
+            "neighborhood": "South Campus",
+            "text": "Bascom Hall, Madison, WI"
+          }
+        ],
+        "priorityThresh": 1
+      },
+      "status": "pass"
+    },
+    {
+      "id": "1426538192714:7",
+      "user": "feedback-app",
+      "in": {
+        "input": "pyramid building"
+      },
+      "expected": {
+        "properties": null
+      }
+    },
+    {
+      "id": "1426538192714:8",
+      "user": "feedback-app",
+      "in": {
+        "input": "asiasf"
+      },
+      "expected": {
+        "properties": [
+          {
+            "type": "osmnode",
+            "layer": "osmnode",
+            "name": "AsiaSF",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "California",
+            "admin1_abbr": "CA",
+            "admin2": "San Francisco",
+            "locality": "San Francisco",
+            "neighborhood": "Civic Center",
+            "text": "AsiaSF, San Francisco, CA"
+          }
+        ],
+        "priorityThresh": 1
+      },
+      "status": "pass"
+    },
+    {
+      "id": "1426538192714:9",
+      "user": "feedback-app",
+      "in": {
+        "input": "volterrano"
+      },
+      "expected": {
+        "properties": null
+      }
+    },
+    {
+      "id": "1426538192714:10",
+      "user": "feedback-app",
+      "in": {
+        "input": "golden gate bridge"
+      },
+      "expected": {
+        "properties": [
+          {
+            "type": "osmway",
+            "layer": "osmway",
+            "name": "Golden Gate Bridge",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "California",
+            "admin1_abbr": "CA",
+            "admin2": "San Francisco",
+            "locality": "San Francisco",
+            "neighborhood": "Fort Winfield Scott",
+            "text": "Golden Gate Bridge, San Francisco, CA"
+          }
+        ],
+        "priorityThresh": 1
+      },
+      "status": "pass"
+    },
+    {
+      "id": "1426538192714:11",
+      "user": "feedback-app",
+      "in": {
+        "input": "20 montezuma street"
+      },
+      "expected": {
+        "properties": [
+          {
+            "type": "openaddresses",
+            "layer": "openaddresses",
+            "name": "20 Montezuma Street",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "California",
+            "admin2": "San Francisco",
+            "locality": "San Francisco",
+            "neighborhood": "Transmission",
+            "text": "20 Montezuma Street, San Francisco, California"
+          }
+        ],
+        "priorityThresh": 1
+      },
+      "status": "pass"
+    },
+    {
+      "id": "1426538192714:12",
+      "user": "feedback-app",
+      "in": {
+        "input": "little griddle"
+      },
+      "expected": {
+        "properties": [
+          {
+            "type": "osmnode",
+            "layer": "osmnode",
+            "name": "Little Griddle",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "California",
+            "admin1_abbr": "CA",
+            "admin2": "San Francisco",
+            "locality": "San Francisco",
+            "neighborhood": "Intermission",
+            "text": "Little Griddle, San Francisco, CA"
+          }
+        ],
+        "priorityThresh": 1
+      },
+      "status": "pass"
+    },
+    {
+      "id": "1426538192714:13",
+      "user": "feedback-app",
+      "in": {
+        "input": "pork store cafe"
+      },
+      "expected": {
+        "properties": [
+          {
+            "type": "osmnode",
+            "layer": "osmnode",
+            "name": "Pork Store Cafe Valencia",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "California",
+            "admin1_abbr": "CA",
+            "admin2": "San Francisco",
+            "locality": "San Francisco",
+            "neighborhood": "Mission Dolores",
+            "text": "Pork Store Cafe Valencia, San Francisco, CA"
+          }
+        ],
+        "priorityThresh": 1
+      },
+      "status": "pass"
+    },
+    {
+      "id": "1426538192714:14",
+      "user": "feedback-app",
+      "in": {
+        "input": "warming hut"
+      },
+      "expected": {
+        "properties": [
+          {
+            "type": "osmway",
+            "layer": "osmway",
+            "name": "Warming Hut",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "California",
+            "admin1_abbr": "CA",
+            "admin2": "San Francisco",
+            "locality": "San Francisco",
+            "neighborhood": "Presidio",
+            "text": "Warming Hut, San Francisco, CA"
+          }
+        ],
+        "priorityThresh": 2
+      },
+      "status": "pass"
+    },
+    {
+      "id": "1426538192714:15",
+      "user": "feedback-app",
+      "in": {
+        "input": "code for america"
+      },
+      "expected": {
+        "properties": [
+          {
+            "type": "osmnode",
+            "layer": "osmnode",
+            "name": "Code for America",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "California",
+            "admin1_abbr": "CA",
+            "admin2": "San Francisco",
+            "locality": "San Francisco",
+            "neighborhood": "Civic Center",
+            "text": "Code for America, San Francisco, CA"
+          }
+        ],
+        "priorityThresh": 1
+      },
+      "status": "pass"
+    },
+    {
+      "id": "1426538192714:16",
+      "user": "feedback-app",
+      "in": {
+        "input": "st. francis fountain"
+      },
+      "expected": {
+        "properties": [
+          {
+            "type": "osmnode",
+            "layer": "osmnode",
+            "name": "St Francis Fountain",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "California",
+            "admin1_abbr": "CA",
+            "admin2": "San Francisco",
+            "locality": "San Francisco",
+            "text": "St Francis Fountain, San Francisco, CA"
+          },
+          {
+            "type": "osmway",
+            "layer": "osmway",
+            "name": "St Francis Fountain",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "California",
+            "admin1_abbr": "CA",
+            "admin2": "San Francisco",
+            "locality": "San Francisco",
+            "text": "St Francis Fountain, San Francisco, CA"
+          }
+        ],
+        "priorityThresh": 2
+      },
+      "status": "pass"
+    },
+    {
+      "id": "1426538192714:17",
+      "user": "feedback-app",
+      "in": {
+        "input": "3107 Hyde, Oakland"
+      },
+      "expected": {
+        "properties": [
+          {
+            "type": "openaddresses",
+            "layer": "openaddresses",
+            "name": "3107 Hyde Street",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "California",
+            "admin2": "Alameda",
+            "locality": "Oakland",
+            "neighborhood": "Patten",
+            "text": "3107 Hyde Street, Oakland, California"
+          }
+        ],
+        "priorityThresh": 2
+      },
+      "status": "pass"
+    },
+    {
+      "id": "1426538192714:18",
+      "user": "feedback-app",
+      "in": {
+        "input": "2633 Telegraph"
+      },
+      "expected": {
+        "properties": [
+          {
+            "type": "openaddresses",
+            "layer": "openaddresses",
+            "name": "2633 Telegraph Avenue",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "California",
+            "admin2": "Alameda",
+            "locality": "Oakland",
+            "neighborhood": "Northgate",
+            "text": "2633 Telegraph Avenue, Oakland, California"
+          }
+        ],
+        "priorityThresh": 1
+      },
+      "status": "pass"
+    },
+    {
+      "id": "1426538192714:19",
+      "user": "feedback-app",
+      "in": {
+        "input": "1512 eleanor ave, st. paul, mn"
+      },
+      "expected": {
+        "properties": null
+      }
+    },
+    {
+      "id": "1426538192714:20",
+      "user": "feedback-app",
+      "in": {
+        "input": "961 Andover Way, Los Altos"
+      },
+      "expected": {
+        "properties": [
+          {
+            "type": "openaddresses",
+            "layer": "openaddresses",
+            "name": "961 Andover Way",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "California",
+            "admin2": "Santa Clara",
+            "locality": "Los Altos",
+            "neighborhood": "The Highlands",
+            "text": "961 Andover Way, Los Altos, California"
+          }
+        ],
+        "priorityThresh": 1
+      },
+      "status": "pass"
+    },
+    {
+      "id": "1426538192714:21",
+      "user": "feedback-app",
+      "in": {
+        "input": "lambeau field"
+      },
+      "expected": {
+        "properties": [
+          {
+            "type": "osmway",
+            "layer": "osmway",
+            "name": "Lambeau Field",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "Wisconsin",
+            "admin1_abbr": "WI",
+            "admin2": "Brown",
+            "local_admin": "Green Bay",
+            "locality": "Green Bay",
+            "neighborhood": "Lombardi",
+            "text": "Lambeau Field, Green Bay, WI"
+          }
+        ],
+        "priorityThresh": 1
+      },
+      "status": "pass"
+    },
+    {
+      "id": "1426538192714:22",
+      "user": "feedback-app",
+      "in": {
+        "input": "1710 Drew, Houston"
+      },
+      "expected": {
+        "properties": [
+          {
+            "type": "openaddresses",
+            "layer": "openaddresses",
+            "name": "1710 Drew Street",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "Texas",
+            "admin2": "Harris",
+            "locality": "Houston",
+            "neighborhood": "Midtown",
+            "text": "1710 Drew Street, Houston, Texas"
+          }
+        ],
+        "priorityThresh": 1
+      },
+      "status": "pass"
+    },
+    {
+      "id": "1426538192714:23",
+      "user": "feedback-app",
+      "in": {
+        "input": "419 E Magnolia, Angleton TX"
+      },
+      "expected": {
+        "properties": null
+      }
+    },
+    {
+      "id": "1426538192714:24",
+      "user": "feedback-app",
+      "in": {
+        "input": "IAH"
+      },
+      "expected": {
+        "properties": null
+      }
+    },
+    {
+      "id": "1426538192714:25",
+      "user": "feedback-app",
+      "in": {
+        "input": "golden gate park"
+      },
+      "expected": {
+        "properties": [
+          {
+            "type": "neighborhood",
+            "layer": "neighborhood",
+            "name": "Golden Gate Park",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "California",
+            "admin2": "San Francisco",
+            "text": "Golden Gate Park, San Francisco, California"
+          }
+        ],
+        "priorityThresh": 1
+      },
+      "status": "pass"
+    },
+    {
+      "id": "1426538192714:26",
+      "user": "feedback-app",
+      "in": {
+        "input": "precita park"
+      },
+      "expected": {
+        "properties": [
+          {
+            "type": "osmway",
+            "layer": "osmway",
+            "name": "Precita Park",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "California",
+            "admin1_abbr": "CA",
+            "admin2": "San Francisco",
+            "locality": "San Francisco",
+            "neighborhood": "Bernal Heights",
+            "text": "Precita Park, San Francisco, CA"
+          }
+        ],
+        "priorityThresh": 1
+      },
+      "status": "pass"
+    },
+    {
+      "id": "1426538192714:27",
+      "user": "feedback-app",
+      "in": {
+        "input": "aquatic park"
+      },
+      "expected": {
+        "properties": [
+          {
+            "type": "osmway",
+            "layer": "osmway",
+            "name": "Aquatic Park",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "California",
+            "admin1_abbr": "CA",
+            "admin2": "San Francisco",
+            "locality": "San Francisco",
+            "neighborhood": "Russian Hill",
+            "text": "Aquatic Park, San Francisco, CA"
+          }
+        ],
+        "priorityThresh": 3
+      },
+      "status": "pass"
+    },
+    {
+      "id": "1426538192714:28",
+      "user": "feedback-app",
+      "in": {
+        "input": "Statue of Liberty"
+      },
+      "expected": {
+        "properties": null
+      }
+    },
+    {
+      "id": "1426538192714:29",
+      "user": "feedback-app",
+      "in": {
+        "input": "transamerica building"
+      },
+      "expected": {
+        "properties": [
+          {
+            "type": "osmway",
+            "layer": "osmway",
+            "name": "Transamerica Pyramid",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "California",
+            "admin1_abbr": "CA",
+            "admin2": "San Francisco",
+            "locality": "San Francisco",
+            "neighborhood": "Jackson Square",
+            "text": "Transamerica Pyramid, San Francisco, CA"
+          }
+        ],
+        "priorityThresh": 3
+      },
+      "status": "pass"
+    },
+    {
+      "id": "1426538192714:30",
+      "user": "feedback-app",
+      "in": {
+        "input": "san francisco caltrain station"
+      },
+      "expected": {
+        "properties": [
+          {
+            "type": "osmway",
+            "layer": "osmway",
+            "name": "San Francisco Caltrain Station",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "California",
+            "admin1_abbr": "CA",
+            "admin2": "San Francisco",
+            "locality": "San Francisco",
+            "neighborhood": "Mission Bay",
+            "text": "San Francisco Caltrain Station, San Francisco, CA"
+          }
+        ],
+        "priorityThresh": 1
+      },
+      "status": "pass"
+    },
+    {
+      "id": "1426538192714:31",
+      "user": "feedback-app",
+      "in": {
+        "input": "55 acorn road wrentham"
+      },
+      "expected": {
+        "properties": null
+      }
+    },
+    {
+      "id": "1426538192714:32",
+      "user": "feedback-app",
+      "in": {
+        "input": "22nd street caltrain"
+      },
+      "expected": {
+        "properties": [
+          {
+            "type": "osmnode",
+            "layer": "osmnode",
+            "name": "22nd Street Caltrain Station",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "California",
+            "admin1_abbr": "CA",
+            "admin2": "San Francisco",
+            "locality": "San Francisco",
+            "neighborhood": "Dogpatch",
+            "text": "22nd Street Caltrain Station, San Francisco, CA"
+          }
+        ],
+        "priorityThresh": 1
+      },
+      "status": "pass"
+    },
+    {
+      "id": "1426538192714:33",
+      "user": "feedback-app",
+      "in": {
+        "input": "asia"
+      },
+      "expected": {
+        "properties": [
+          {
+            "type": "geoname",
+            "layer": "geoname",
+            "name": "Asia",
+            "text": "Asia"
+          }
+        ],
+        "priorityThresh": 1
+      },
+      "status": "pass"
+    },
+    {
+      "id": "1426538192714:34",
+      "user": "feedback-app",
+      "in": {
+        "input": "UCSF Mission Bay"
+      },
+      "expected": {
+        "properties": [
+          {
+            "type": "osmnode",
+            "layer": "osmnode",
+            "name": "UCSF Mission Bay",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "California",
+            "admin1_abbr": "CA",
+            "admin2": "San Francisco",
+            "locality": "San Francisco",
+            "neighborhood": "Mission Bay",
+            "text": "UCSF Mission Bay, San Francisco, CA"
+          }
+        ],
+        "priorityThresh": 1
+      },
+      "status": "pass"
+    },
+    {
+      "id": "1426538192714:35",
+      "user": "feedback-app",
+      "in": {
+        "input": "asia sf"
+      },
+      "expected": {
+        "properties": null
+      }
+    },
+    {
+      "id": "1426538192714:36",
+      "user": "feedback-app",
+      "in": {
+        "input": "434 king david drive linden,va"
+      },
+      "expected": {
+        "properties": null
+      }
+    },
+    {
+      "id": "1426538192714:37",
+      "user": "feedback-app",
+      "in": {
+        "input": "linden,va"
+      },
+      "expected": {
+        "properties": null
+      }
+    },
+    {
+      "id": "1426538192714:38",
+      "user": "feedback-app",
+      "in": {
+        "input": "Cowboys Stadium"
+      },
+      "expected": {
+        "properties": [
+          {
+            "type": "geoname",
+            "layer": "geoname",
+            "name": "Cowboys Stadium",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "Texas",
+            "admin2": "Tarrant County",
+            "text": "Cowboys Stadium, Tarrant County, Texas"
+          }
+        ],
+        "priorityThresh": 1
+      },
+      "status": "pass"
+    },
+    {
+      "id": "1426538192714:39",
+      "user": "feedback-app",
+      "in": {
+        "input": "san quentin"
+      },
+      "expected": {
+        "properties": [
+          {
+            "type": "geoname",
+            "layer": "geoname",
+            "name": "San Quentin",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "California",
+            "admin2": "Marin County",
+            "text": "San Quentin, Marin County, California"
+          },
+          {
+            "type": "geoname",
+            "layer": "geoname",
+            "name": "San Quentin State Prison",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "California",
+            "admin2": "Marin County",
+            "text": "San Quentin State Prison, Marin County, California"
+          }
+        ],
+        "priorityThresh": 5
+      },
+      "status": "pass"
+    },
+    {
+      "id": "1426538192714:40",
+      "user": "feedback-app",
+      "in": {
+        "input": "paris,va"
+      },
+      "expected": {
+        "properties": null
+      }
+    },
+    {
+      "id": "1426538192714:41",
+      "user": "feedback-app",
+      "in": {
+        "input": "melt shop"
+      },
+      "expected": {
+        "properties": [
+          {
+            "type": "osmnode",
+            "layer": "osmnode",
+            "name": "Melt Shop",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "New Jersey",
+            "admin1_abbr": "NJ",
+            "admin2": "New York",
+            "local_admin": "Manhattan",
+            "locality": "New York",
+            "neighborhood": "City Hall Area",
+            "text": "Melt Shop, Manhattan, NJ"
+          }
+        ],
+        "priorityThresh": 1
+      },
+      "status": "pass"
+    },
+    {
+      "id": "1426538192714:42",
+      "user": "feedback-app",
+      "in": {
+        "input": "world trade center"
+      },
+      "expected": {
+        "properties": null
+      }
+    },
+    {
+      "id": "1426538192714:43",
+      "user": "feedback-app",
+      "in": {
+        "input": "66 lafayette ave, brooklyn"
+      },
+      "expected": {
+        "properties": [
+          {
+            "type": "osmnode",
+            "layer": "osmnode",
+            "name": "Summit Ave @ Lafayette Ave",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "Massachusetts",
+            "admin1_abbr": "MA",
+            "admin2": "Suffolk",
+            "local_admin": "Chelsea",
+            "locality": "Chelsea",
+            "neighborhood": "Bellingham Square",
+            "text": "Summit Ave @ Lafayette Ave, Chelsea, MA"
+          },
+          {
+            "type": "osmnode",
+            "layer": "osmnode",
+            "name": "Lafayette St @ Clifton Ave",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "Massachusetts",
+            "admin1_abbr": "MA",
+            "admin2": "Essex",
+            "local_admin": "Salem",
+            "locality": "Salem",
+            "text": "Lafayette St @ Clifton Ave, Salem, MA"
+          }
+        ],
+        "priorityThresh": 7
+      },
+      "status": "pass"
+    },
+    {
+      "id": "1426538192714:44",
+      "user": "feedback-app",
+      "in": {
+        "input": "yankee stadium"
+      },
+      "expected": {
+        "properties": [
+          {
+            "type": "geoname",
+            "layer": "geoname",
+            "name": "Yankee Stadium",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "New York",
+            "admin2": "Bronx",
+            "text": "Yankee Stadium, Bronx, New York"
+          }
+        ],
+        "priorityThresh": 2
+      },
+      "status": "pass"
+    },
+    {
+      "id": "1426538192714:45",
+      "user": "feedback-app",
+      "in": {
+        "input": "4th and King Caltrain"
+      },
+      "expected": {
+        "properties": [
+          {
+            "type": "osmnode",
+            "layer": "osmnode",
+            "name": "San Francisco Caltrain (Townsend at 4th",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "California",
+            "admin1_abbr": "CA",
+            "admin2": "San Francisco",
+            "locality": "San Francisco",
+            "neighborhood": "Mission Bay",
+            "text": "San Francisco Caltrain (Townsend at 4th, San Francisco, CA"
+          }
+        ],
+        "priorityThresh": 1
+      },
+      "status": "pass"
+    },
+    {
+      "id": "1426538192714:46",
+      "user": "feedback-app",
+      "in": {
+        "input": "Nestldown"
+      },
+      "expected": {
+        "properties": [
+          {
+            "type": "osmnode",
+            "layer": "osmnode",
+            "name": "Nestldown",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "California",
+            "admin1_abbr": "CA",
+            "admin2": "Santa Clara",
+            "text": "Nestldown, Santa Clara, CA"
+          }
+        ],
+        "priorityThresh": 1
+      },
+      "status": "pass"
+    },
+    {
+      "id": "1426538192714:47",
+      "user": "feedback-app",
+      "in": {
+        "input": "haslital, ch"
+      },
+      "expected": {
+        "properties": [
+          {
+            "type": "geoname",
+            "layer": "geoname",
+            "name": "Haslital",
+            "alpha3": "CHE",
+            "admin0": "Switzerland",
+            "admin1": "Bern",
+            "text": "Haslital, Bern"
+          }
+        ],
+        "priorityThresh": 2
+      },
+      "status": "pass"
+    },
+    {
+      "id": "1426538192714:48",
+      "user": "feedback-app",
+      "in": {
+        "input": "central park"
+      },
+      "expected": {
+        "properties": null
+      }
+    },
+    {
+      "id": "1426538192714:49",
+      "user": "feedback-app",
+      "in": {
+        "input": "UIC"
+      },
+      "expected": {
+        "properties": [
+          {
+            "type": "osmway",
+            "layer": "osmway",
+            "name": "UIC",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "Illinois",
+            "admin1_abbr": "IL",
+            "admin2": "Cook",
+            "local_admin": "Chicago",
+            "locality": "Chicago",
+            "neighborhood": "Greektown",
+            "text": "UIC, Chicago, IL"
+          },
+          {
+            "type": "osmway",
+            "layer": "osmway",
+            "name": "UIC",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "Illinois",
+            "admin1_abbr": "IL",
+            "admin2": "Cook",
+            "local_admin": "Chicago",
+            "locality": "Chicago",
+            "neighborhood": "Greektown",
+            "text": "UIC, Chicago, IL"
+          },
+          {
+            "type": "osmnode",
+            "layer": "osmnode",
+            "name": "UIC-Halsted",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "Illinois",
+            "admin1_abbr": "IL",
+            "admin2": "Cook",
+            "local_admin": "Chicago",
+            "locality": "Chicago",
+            "neighborhood": "Greektown",
+            "text": "UIC-Halsted, Chicago, IL"
+          },
+          {
+            "type": "osmnode",
+            "layer": "osmnode",
+            "name": "UIC-Halsted",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "Illinois",
+            "admin1_abbr": "IL",
+            "admin2": "Cook",
+            "local_admin": "Chicago",
+            "locality": "Chicago",
+            "neighborhood": "Greektown",
+            "text": "UIC-Halsted, Chicago, IL"
+          }
+        ],
+        "priorityThresh": 9
+      },
+      "status": "pass"
+    },
+    {
+      "id": "1426538192714:50",
+      "user": "feedback-app",
+      "in": {
+        "input": "SF Ferry Building"
+      },
+      "expected": {
+        "properties": [
+          {
+            "type": "osmway",
+            "layer": "osmway",
+            "name": "Ferry Building",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "California",
+            "admin1_abbr": "CA",
+            "admin2": "San Francisco",
+            "locality": "San Francisco",
+            "neighborhood": "Financial District",
+            "text": "Ferry Building, San Francisco, CA"
+          },
+          {
+            "type": "geoname",
+            "layer": "geoname",
+            "name": "Ferry Building",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "California",
+            "admin2": "San Francisco County",
+            "text": "Ferry Building, San Francisco County, California"
+          }
+        ],
+        "priorityThresh": 4
+      },
+      "status": "pass"
+    },
+    {
+      "id": "1426538192714:51",
+      "user": "feedback-app",
+      "in": {
+        "input": "266 washington ave brooklyn"
+      },
+      "expected": {
+        "properties": [
+          {
+            "type": "openaddresses",
+            "layer": "openaddresses",
+            "name": "266 Brooklyn Avenue",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "New York",
+            "admin2": "Kings",
+            "local_admin": "Brooklyn",
+            "locality": "New York",
+            "neighborhood": "Crown Heights",
+            "text": "266 Brooklyn Avenue, Brooklyn, New York"
+          }
+        ],
+        "priorityThresh": 1
+      },
+      "status": "pass"
+    },
+    {
+      "id": "1426538192714:52",
+      "user": "feedback-app",
+      "in": {
+        "input": "fco airport"
+      },
+      "expected": {
+        "properties": null
+      }
+    },
+    {
+      "id": "1426538192714:53",
+      "user": "feedback-app",
+      "in": {
+        "input": "flr airport"
+      },
+      "expected": {
+        "properties": null
+      }
+    },
+    {
+      "id": "1426538192714:54",
+      "user": "feedback-app",
+      "in": {
+        "input": "511 Brinkerhoff Ave, Santa Barbara"
+      },
+      "expected": {
+        "properties": null
+      }
+    },
+    {
+      "id": "1426538192714:55",
+      "user": "feedback-app",
+      "in": {
+        "input": "iad airport"
+      },
+      "expected": {
+        "properties": null
+      }
+    },
+    {
+      "id": "1426538192714:56",
+      "user": "feedback-app",
+      "in": {
+        "input": "bos airport"
+      },
+      "expected": {
+        "properties": null
+      }
+    },
+    {
+      "id": "1426538192714:57",
+      "user": "feedback-app",
+      "in": {
+        "input": "721 broadway"
+      },
+      "expected": {
+        "properties": [
+          {
+            "type": "openaddresses",
+            "layer": "openaddresses",
+            "name": "721 Broadway",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "New York",
+            "admin2": "New York",
+            "local_admin": "Manhattan",
+            "locality": "New York",
+            "neighborhood": "NoHo",
+            "text": "721 Broadway, Manhattan, New York"
+          }
+        ],
+        "priorityThresh": 4
+      },
+      "status": "pass"
+    },
+    {
+      "id": "1426538192714:58",
+      "user": "feedback-app",
+      "in": {
+        "input": "fiumicino airport"
+      },
+      "expected": {
+        "properties": [
+          {
+            "type": "geoname",
+            "layer": "geoname",
+            "name": "Leonardo da Vinci–Fiumicino Airport",
+            "alpha3": "ITA",
+            "admin0": "Italy",
+            "admin1": "Latium",
+            "admin2": "Provincia di Roma",
+            "text": "Leonardo da Vinci–Fiumicino Airport, Provincia di Roma, Latium"
+          }
+        ],
+        "priorityThresh": 1
+      },
+      "status": "pass"
+    },
+    {
+      "id": "1426538192714:59",
+      "user": "feedback-app",
+      "in": {
+        "input": "dulles airport"
+      },
+      "expected": {
+        "properties": [
+          {
+            "type": "geoname",
+            "layer": "geoname",
+            "name": "Washington Dulles International Airport",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "Virginia",
+            "admin2": "Loudoun County",
+            "text": "Washington Dulles International Airport, Loudoun County, Virginia"
+          }
+        ],
+        "priorityThresh": 6
+      },
+      "status": "pass"
+    },
+    {
+      "id": "1426538192714:60",
+      "user": "feedback-app",
+      "in": {
+        "input": "madison square park"
+      },
+      "expected": {
+        "properties": [
+          {
+            "type": "geoname",
+            "layer": "geoname",
+            "name": "Madison Square Park",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "New York",
+            "admin2": "New York County",
+            "text": "Madison Square Park, New York County, New York"
+          }
+        ],
+        "priorityThresh": 5
+      },
+      "status": "pass"
+    },
+    {
+      "id": "1426538192714:61",
+      "user": "feedback-app",
+      "in": {
+        "input": "madison square garden"
+      },
+      "expected": {
+        "properties": [
+          {
+            "type": "osmway",
+            "layer": "osmway",
+            "name": "Madison Square Garden",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "New York",
+            "admin1_abbr": "NY",
+            "admin2": "New York",
+            "local_admin": "Manhattan",
+            "locality": "New York",
+            "neighborhood": "Garment District",
+            "text": "Madison Square Garden, Manhattan, NY"
+          }
+        ],
+        "priorityThresh": 2
+      },
+      "status": "pass"
+    },
+    {
+      "id": "1426538192714:62",
+      "user": "feedback-app",
+      "in": {
+        "input": "flatiron hall"
+      },
+      "expected": {
+        "properties": [
+          {
+            "type": "osmnode",
+            "layer": "osmnode",
+            "name": "Flatiron Hall",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "New York",
+            "admin1_abbr": "NY",
+            "admin2": "New York",
+            "local_admin": "Manhattan",
+            "locality": "New York",
+            "neighborhood": "Flatiron District",
+            "text": "Flatiron Hall, Manhattan, NY"
+          }
+        ],
+        "priorityThresh": 1
+      },
+      "status": "pass"
+    },
+    {
+      "id": "1426538192714:63",
+      "user": "feedback-app",
+      "in": {
+        "input": "macys herald square"
+      },
+      "expected": {
+        "properties": null
+      }
+    },
+    {
+      "id": "1426538192714:64",
+      "user": "feedback-app",
+      "in": {
+        "input": "koreatown ny"
+      },
+      "expected": {
+        "properties": [
+          {
+            "type": "neighborhood",
+            "layer": "neighborhood",
+            "name": "Koreatown",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "New York",
+            "admin2": "Manhattan",
+            "text": "Koreatown, Manhattan, New York"
+          },
+          {
+            "type": "geoname",
+            "layer": "geoname",
+            "name": "Koreatown",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "New York",
+            "admin2": "New York County",
+            "text": "Koreatown, New York County, New York"
+          }
+        ],
+        "priorityThresh": 9
+      },
+      "status": "pass"
+    },
+    {
+      "id": "1426538192714:65",
+      "user": "feedback-app",
+      "in": {
+        "input": "astoria park ny"
+      },
+      "expected": {
+        "properties": [
+          {
+            "type": "geoname",
+            "layer": "geoname",
+            "name": "Astoria Park",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "New York",
+            "admin2": "Queens County",
+            "text": "Astoria Park, Queens County, New York"
+          }
+        ],
+        "priorityThresh": 3
+      },
+      "status": "pass"
+    },
+    {
+      "id": "1426538192714:66",
+      "user": "feedback-app",
+      "in": {
+        "input": "triborough bridge"
+      },
+      "expected": {
+        "properties": null
+      }
+    },
+    {
+      "id": "1426538192714:67",
+      "user": "feedback-app",
+      "in": {
+        "input": "brooklyn bridge"
+      },
+      "expected": {
+        "properties": [
+          {
+            "type": "geoname",
+            "layer": "geoname",
+            "name": "Brooklyn Bridge",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "New York",
+            "admin2": "New York County",
+            "text": "Brooklyn Bridge, New York County, New York"
+          }
+        ],
+        "priorityThresh": 2
+      },
+      "status": "pass"
+    },
+    {
+      "id": "1426538192714:68",
+      "user": "feedback-app",
+      "in": {
+        "input": "washington square park"
+      },
+      "expected": {
+        "properties": [
+          {
+            "type": "osmway",
+            "layer": "osmway",
+            "name": "Washington Square Park",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "New York",
+            "admin1_abbr": "NY",
+            "admin2": "New York",
+            "local_admin": "Manhattan",
+            "locality": "New York",
+            "neighborhood": "Noho",
+            "text": "Washington Square Park, Manhattan, NY"
+          }
+        ],
+        "priorityThresh": 3
+      },
+      "status": "pass"
+    },
+    {
+      "id": "1426538192714:69",
+      "user": "feedback-app",
+      "in": {
+        "input": "brooklyn bridge park"
+      },
+      "expected": {
+        "properties": [
+          {
+            "type": "osmway",
+            "layer": "osmway",
+            "name": "Brooklyn Bridge Park",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "New York",
+            "admin1_abbr": "NY",
+            "admin2": "Kings",
+            "local_admin": "Brooklyn",
+            "locality": "New York",
+            "neighborhood": "Dumbo",
+            "text": "Brooklyn Bridge Park, Brooklyn, NY"
+          },
+          {
+            "type": "osmway",
+            "layer": "osmway",
+            "name": "Brooklyn Bridge Park",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "New York",
+            "admin1_abbr": "NY",
+            "admin2": "Kings",
+            "local_admin": "Brooklyn",
+            "locality": "New York",
+            "neighborhood": "Brooklyn Heights",
+            "text": "Brooklyn Bridge Park, Brooklyn, NY"
+          }
+        ],
+        "priorityThresh": 2
+      },
+      "status": "pass"
+    },
+    {
+      "id": "1426538192714:70",
+      "user": "feedback-app",
+      "in": {
+        "input": "manhattan bridge"
+      },
+      "expected": {
+        "properties": [
+          {
+            "type": "geoname",
+            "layer": "geoname",
+            "name": "Manhattan Bridge",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "New York",
+            "admin2": "New York County",
+            "text": "Manhattan Bridge, New York County, New York"
+          }
+        ],
+        "priorityThresh": 1
+      },
+      "status": "pass"
+    },
+    {
+      "id": "1426538192714:71",
+      "user": "feedback-app",
+      "in": {
+        "input": "empire state building"
+      },
+      "expected": {
+        "properties": [
+          {
+            "type": "osmway",
+            "layer": "osmway",
+            "name": "Empire State Building",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "New York",
+            "admin1_abbr": "NY",
+            "admin2": "New York",
+            "local_admin": "Manhattan",
+            "locality": "New York",
+            "neighborhood": "Koreatown",
+            "text": "Empire State Building, Manhattan, NY"
+          },
+          {
+            "type": "geoname",
+            "layer": "geoname",
+            "name": "Empire State Building",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "New York",
+            "admin2": "New York County",
+            "text": "Empire State Building, New York County, New York"
+          }
+        ],
+        "priorityThresh": 2
+      },
+      "status": "pass"
+    },
+    {
+      "id": "1426538192714:72",
+      "user": "feedback-app",
+      "in": {
+        "input": "chrysler building"
+      },
+      "expected": {
+        "properties": [
+          {
+            "type": "osmway",
+            "layer": "osmway",
+            "name": "Chrysler Building",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "New York",
+            "admin1_abbr": "NY",
+            "admin2": "New York",
+            "local_admin": "Manhattan",
+            "locality": "New York",
+            "neighborhood": "Murray Hill",
+            "text": "Chrysler Building, Manhattan, NY"
+          },
+          {
+            "type": "geoname",
+            "layer": "geoname",
+            "name": "Chrysler Building",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "New York",
+            "admin2": "New York County",
+            "text": "Chrysler Building, New York County, New York"
+          },
+          {
+            "type": "geoname",
+            "layer": "geoname",
+            "name": "Chrysler Building",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "New York",
+            "admin2": "New York County",
+            "text": "Chrysler Building, New York County, New York"
+          }
+        ],
+        "priorityThresh": 3
+      },
+      "status": "pass"
+    },
+    {
+      "id": "1426538192714:73",
+      "user": "feedback-app",
+      "in": {
+        "input": "30 rock"
+      },
+      "expected": {
+        "properties": null
+      }
+    },
+    {
+      "id": "1426538192714:74",
+      "user": "feedback-app",
+      "in": {
+        "input": "rockefeller center"
+      },
+      "expected": {
+        "properties": [
+          {
+            "type": "osmway",
+            "layer": "osmway",
+            "name": "Rockefeller Center",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "New York",
+            "admin1_abbr": "NY",
+            "admin2": "New York",
+            "local_admin": "Manhattan",
+            "locality": "New York",
+            "neighborhood": "Theatre District",
+            "text": "Rockefeller Center, Manhattan, NY"
+          },
+          {
+            "type": "geoname",
+            "layer": "geoname",
+            "name": "Rockefeller Center",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "New York",
+            "admin2": "New York County",
+            "text": "Rockefeller Center, New York County, New York"
+          }
+        ],
+        "priorityThresh": 4
+      },
+      "status": "pass"
+    },
+    {
+      "id": "1426538192714:75",
+      "user": "feedback-app",
+      "in": {
+        "input": "furlong pa"
+      },
+      "expected": {
+        "properties": [
+          {
+            "type": "geoname",
+            "layer": "geoname",
+            "name": "Furlong",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "Pennsylvania",
+            "admin2": "Bucks County",
+            "text": "Furlong, Bucks County, Pennsylvania"
+          }
+        ],
+        "priorityThresh": 3
+      },
+      "status": "pass"
+    },
+    {
+      "id": "1426538192714:76",
+      "user": "feedback-app",
+      "in": {
+        "input": "doylestown"
+      },
+      "expected": {
+        "properties": [
+          {
+            "type": "geoname",
+            "layer": "geoname",
+            "name": "Doylestown",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "Pennsylvania",
+            "admin2": "Bucks County",
+            "text": "Doylestown, Bucks County, Pennsylvania"
+          },
+          {
+            "type": "osmnode",
+            "layer": "osmnode",
+            "name": "Doylestown",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "Pennsylvania",
+            "admin1_abbr": "PA",
+            "admin2": "Bucks",
+            "local_admin": "Doylestown",
+            "locality": "Doylestown",
+            "neighborhood": "Pools Corner",
+            "text": "Doylestown, PA"
+          }
+        ],
+        "priorityThresh": 5
+      },
+      "status": "pass"
+    },
+    {
+      "id": "1426538192714:77",
+      "user": "feedback-app",
+      "in": {
+        "input": "301 commons park s, stamford ct 06902"
+      },
+      "expected": {
+        "properties": null
+      }
+    },
+    {
+      "id": "1426538192714:78",
+      "user": "feedback-app",
+      "in": {
+        "input": "times square"
+      },
+      "expected": {
+        "properties": [
+          {
+            "type": "osmnode",
+            "layer": "osmnode",
+            "name": "Times Square",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "New York",
+            "admin1_abbr": "NY",
+            "admin2": "New York",
+            "local_admin": "Manhattan",
+            "locality": "New York",
+            "neighborhood": "Theatre District",
+            "text": "Times Square, Manhattan, NY"
+          }
+        ],
+        "priorityThresh": 1
+      },
+      "status": "pass"
+    },
+    {
+      "id": "1426538192714:79",
+      "user": "feedback-app",
+      "in": {
+        "input": "janak puri west metro station, new delhi, india"
+      },
+      "expected": {
+        "properties": null
+      }
+    },
+    {
+      "id": "1426538192714:80",
+      "user": "feedback-app",
+      "in": {
+        "input": "11 times square"
+      },
+      "expected": {
+        "properties": [
+          {
+            "type": "osmway",
+            "layer": "osmway",
+            "name": "11 Times Square",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "New York",
+            "admin1_abbr": "NY",
+            "admin2": "New York",
+            "local_admin": "Manhattan",
+            "locality": "New York",
+            "neighborhood": "Midtown West",
+            "text": "11 Times Square, Manhattan, NY"
+          }
+        ],
+        "priorityThresh": 1
+      },
+      "status": "pass"
+    },
+    {
+      "id": "1426538192714:81",
+      "user": "feedback-app",
+      "in": {
+        "input": "janak puri new delhi"
+      },
+      "expected": {
+        "properties": null
+      }
+    },
+    {
+      "id": "1426538192714:82",
+      "user": "feedback-app",
+      "in": {
+        "input": "india gate new delhi"
+      },
+      "expected": {
+        "properties": null
+      }
+    },
+    {
+      "id": "1426538192714:83",
+      "user": "feedback-app",
+      "in": {
+        "input": "bombay sandwich co"
+      },
+      "expected": {
+        "properties": [
+          {
+            "type": "osmway",
+            "layer": "osmway",
+            "name": "Bombay Sandwich Co",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "New York",
+            "admin1_abbr": "NY",
+            "admin2": "New York",
+            "local_admin": "Manhattan",
+            "locality": "New York",
+            "neighborhood": "Flatiron District",
+            "text": "Bombay Sandwich Co, Manhattan, NY"
+          }
+        ],
+        "priorityThresh": 1
+      },
+      "status": "pass"
+    },
+    {
+      "id": "1426538192714:84",
+      "user": "feedback-app",
+      "in": {
+        "input": "flatiron building, new york"
+      },
+      "expected": {
+        "properties": [
+          {
+            "type": "osmway",
+            "layer": "osmway",
+            "name": "Flatiron Building",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "New York",
+            "admin1_abbr": "NY",
+            "admin2": "New York",
+            "local_admin": "Manhattan",
+            "locality": "New York",
+            "neighborhood": "Flatiron District",
+            "text": "Flatiron Building, Manhattan, NY"
+          }
+        ],
+        "priorityThresh": 1
+      },
+      "status": "pass"
+    },
+    {
+      "id": "1426538192714:85",
+      "user": "feedback-app",
+      "in": {
+        "input": "stamford metro station connecticut"
+      },
+      "expected": {
+        "properties": [
+          {
+            "type": "geoname",
+            "layer": "geoname",
+            "name": "Stamford Station",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "Connecticut",
+            "admin2": "Fairfield County",
+            "text": "Stamford Station, Fairfield County, Connecticut"
+          }
+        ],
+        "priorityThresh": 2
+      },
+      "status": "pass"
+    },
+    {
+      "id": "1426538192714:86",
+      "user": "feedback-app",
+      "in": {
+        "input": "momoya"
+      },
+      "expected": {
+        "properties": [
+          {
+            "type": "osmway",
+            "layer": "osmway",
+            "name": "Momoya",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "New York",
+            "admin1_abbr": "NY",
+            "admin2": "New York",
+            "local_admin": "Manhattan",
+            "locality": "New York",
+            "neighborhood": "Upper West Side",
+            "text": "Momoya, Manhattan, NY"
+          }
+        ],
+        "priorityThresh": 2
+      },
+      "status": "pass"
+    },
+    {
+      "id": "1426538192714:87",
+      "user": "feedback-app",
+      "in": {
+        "input": "479 grand st"
+      },
+      "expected": {
+        "properties": [
+          {
+            "type": "osmaddress",
+            "layer": "osmaddress",
+            "name": "479 Grand Street",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "New York",
+            "admin1_abbr": "NY",
+            "admin2": "Kings",
+            "local_admin": "Brooklyn",
+            "locality": "New York",
+            "neighborhood": "South Williamsburg",
+            "text": "479 Grand Street, Brooklyn, NY"
+          }
+        ],
+        "priorityThresh": 7
+      },
+      "status": "pass"
+    },
+    {
+      "id": "1426538192714:88",
+      "user": "feedback-app",
+      "in": {
+        "input": "69 west 9th st"
+      },
+      "expected": {
+        "properties": [
+          {
+            "type": "osmaddress",
+            "layer": "osmaddress",
+            "name": "69 West 9th Street",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "New York",
+            "admin1_abbr": "NY",
+            "admin2": "New York",
+            "local_admin": "Manhattan",
+            "locality": "New York",
+            "neighborhood": "West Village",
+            "text": "69 West 9th Street, Manhattan, NY"
+          }
+        ],
+        "priorityThresh": 2
+      },
+      "status": "pass"
+    },
+    {
+      "id": "1426538192714:89",
+      "user": "feedback-app",
+      "in": {
+        "input": "1000 flower street glendale ca 91201"
+      },
+      "expected": {
+        "properties": null
+      }
+    },
+    {
+      "id": "1426538192714:90",
+      "user": "feedback-app",
+      "in": {
+        "input": "rajiv chowk metro station"
+      },
+      "expected": {
+        "properties": null
+      }
+    },
+    {
+      "id": "1426538192714:91",
+      "user": "feedback-app",
+      "in": {
+        "input": "rajiv chowk"
+      },
+      "expected": {
+        "properties": [
+          {
+            "type": "osmnode",
+            "layer": "osmnode",
+            "name": "Rajiv Chowk",
+            "alpha3": "IND",
+            "admin0": "India",
+            "admin1": "Delhi",
+            "admin2": "Alīgarh",
+            "neighborhood": "Connaught Place",
+            "text": "Rajiv Chowk, Connaught Place, Delhi"
+          }
+        ],
+        "priorityThresh": 1
+      },
+      "status": "pass"
+    },
+    {
+      "id": "1426538192714:92",
+      "user": "feedback-app",
+      "in": {
+        "input": "taj mahal hotel new delhi"
+      },
+      "expected": {
+        "properties": [
+          {
+            "type": "geoname",
+            "layer": "geoname",
+            "name": "Taj Mahal New Delhi",
+            "alpha3": "IND",
+            "admin0": "India",
+            "admin1": "NCT",
+            "text": "Taj Mahal New Delhi, NCT"
+          }
+        ],
+        "priorityThresh": 1
+      },
+      "status": "pass"
+    },
+    {
+      "id": "1426538192714:93",
+      "user": "feedback-app",
+      "in": {
+        "input": "taj mansingh new delhi"
+      },
+      "expected": {
+        "properties": [
+          {
+            "type": "geoname",
+            "layer": "geoname",
+            "name": "Taj Palace New Delhi",
+            "alpha3": "IND",
+            "admin0": "India",
+            "admin1": "NCT",
+            "text": "Taj Palace New Delhi, NCT"
+          }
+        ],
+        "priorityThresh": 1
+      },
+      "status": "pass"
+    },
+    {
+      "id": "1426538192714:94",
+      "user": "feedback-app",
+      "in": {
+        "input": "princeton junction"
+      },
+      "expected": {
+        "properties": [
+          {
+            "type": "geoname",
+            "layer": "geoname",
+            "name": "Princeton Junction",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "New Jersey",
+            "admin2": "Mercer County",
+            "text": "Princeton Junction, Mercer County, New Jersey"
+          }
+        ],
+        "priorityThresh": 1
+      },
+      "status": "pass"
+    },
+    {
+      "id": "1426538192714:95",
+      "user": "feedback-app",
+      "in": {
+        "input": "339 w main street cheshire ct"
+      },
+      "expected": {
+        "properties": null
+      }
+    },
+    {
+      "id": "1426538192714:96",
+      "user": "feedback-app",
+      "in": {
+        "input": "339 W Main St, Cheshire, CT 06410"
+      },
+      "expected": {
+        "properties": null
+      }
+    },
+    {
+      "id": "1426538192714:97",
+      "user": "feedback-app",
+      "in": {
+        "input": "French Laundry"
+      },
+      "expected": {
+        "properties": null
+      }
+    },
+    {
+      "id": "1426538192714:98",
+      "user": "feedback-app",
+      "in": {
+        "input": "Per Se, New York City"
+      },
+      "expected": {
+        "properties": null
+      }
+    },
+    {
+      "id": "1426538192714:99",
+      "user": "feedback-app",
+      "in": {
+        "input": "toluca lake ca"
+      },
+      "expected": {
+        "properties": [
+          {
+            "type": "neighborhood",
+            "layer": "neighborhood",
+            "name": "Toluca Lake",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "California",
+            "admin2": "Los Angeles",
+            "text": "Toluca Lake, Los Angeles, California"
+          }
+        ],
+        "priorityThresh": 1
+      },
+      "status": "pass"
+    },
+    {
+      "id": "1426538192714:100",
+      "user": "feedback-app",
+      "in": {
+        "input": "Noma, Copenhagen"
+      },
+      "expected": {
+        "properties": null
+      }
+    },
+    {
+      "id": "1426538192714:101",
+      "user": "feedback-app",
+      "in": {
+        "input": "4636 Cahuenga Blvd, Toluca Lake, CA 91602"
+      },
+      "expected": {
+        "properties": [
+          {
+            "type": "openaddresses",
+            "layer": "openaddresses",
+            "name": "4636 Cahuenga Boulevard",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "California",
+            "admin2": "Los Angeles",
+            "locality": "Los Angeles",
+            "neighborhood": "Toluca Lake",
+            "text": "4636 Cahuenga Boulevard, Los Angeles, California"
+          }
+        ],
+        "priorityThresh": 1
+      },
+      "status": "pass"
+    },
+    {
+      "id": "1426538192714:102",
+      "user": "feedback-app",
+      "in": {
+        "input": "Exploratorium"
+      },
+      "expected": {
+        "properties": [
+          {
+            "type": "osmnode",
+            "layer": "osmnode",
+            "name": "Exploratorium",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "California",
+            "admin1_abbr": "CA",
+            "admin2": "San Francisco",
+            "locality": "San Francisco",
+            "neighborhood": "Jackson Square",
+            "text": "Exploratorium, San Francisco, CA"
+          }
+        ],
+        "priorityThresh": 2
+      },
+      "status": "pass"
+    },
+    {
+      "id": "1426538192714:103",
+      "user": "feedback-app",
+      "in": {
+        "input": "130 w mountain street, glendale, ca 91202"
+      },
+      "expected": {
+        "properties": null
+      }
+    },
+    {
+      "id": "1426538192714:104",
+      "user": "feedback-app",
+      "in": {
+        "input": "130 W Mountain St, Glendale, CA 91202"
+      },
+      "expected": {
+        "properties": null
+      }
+    },
+    {
+      "id": "1426538192714:105",
+      "user": "feedback-app",
+      "in": {
+        "input": "Facebook"
+      },
+      "expected": {
+        "properties": [
+          {
+            "type": "osmnode",
+            "layer": "osmnode",
+            "name": "Facebook HQ",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "California",
+            "admin1_abbr": "CA",
+            "admin2": "San Mateo",
+            "locality": "Menlo Park",
+            "neighborhood": "Henderson",
+            "text": "Facebook HQ, Menlo Park, CA"
+          }
+        ],
+        "priorityThresh": 6
+      },
+      "status": "pass"
+    },
+    {
+      "id": "1426538192714:106",
+      "user": "feedback-app",
+      "in": {
+        "input": "penn station new york"
+      },
+      "expected": {
+        "properties": [
+          {
+            "type": "osmnode",
+            "layer": "osmnode",
+            "name": "New York Penn Station",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "New York",
+            "admin1_abbr": "NY",
+            "admin2": "New York",
+            "local_admin": "Manhattan",
+            "locality": "New York",
+            "neighborhood": "Garment District",
+            "text": "New York Penn Station, Manhattan, NY"
+          }
+        ],
+        "priorityThresh": 1
+      },
+      "status": "pass"
+    },
+    {
+      "id": "1426538192714:107",
+      "user": "feedback-app",
+      "in": {
+        "input": "207 s 42nd st Philadelphia, PA 19104"
+      },
+      "expected": {
+        "properties": null
+      }
+    },
+    {
+      "id": "1426538192714:108",
+      "user": "feedback-app",
+      "in": {
+        "input": "4247 Locust St, Philadelphia, PA 19104"
+      },
+      "expected": {
+        "properties": null
+      }
+    },
+    {
+      "id": "1426538192714:109",
+      "user": "feedback-app",
+      "in": {
+        "input": "fairfax philadelphia PA 19104"
+      },
+      "expected": {
+        "properties": null
+      }
+    },
+    {
+      "id": "1426538192714:110",
+      "user": "feedback-app",
+      "in": {
+        "input": "Boston Convention Center"
+      },
+      "expected": {
+        "properties": [
+          {
+            "type": "osmway",
+            "layer": "osmway",
+            "name": "Boston Convention and Exhibition Center",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "Massachusetts",
+            "admin1_abbr": "MA",
+            "admin2": "Suffolk",
+            "local_admin": "Boston",
+            "locality": "Boston",
+            "neighborhood": "Fort Point",
+            "text": "Boston Convention and Exhibition Center, Boston, MA"
+          }
+        ],
+        "priorityThresh": 2
+      },
+      "status": "pass"
+    },
+    {
+      "id": "1426538192714:111",
+      "user": "feedback-app",
+      "in": {
+        "input": "822 Union St, Brooklyn, NY"
+      },
+      "expected": {
+        "properties": [
+          {
+            "type": "osmaddress",
+            "layer": "osmaddress",
+            "name": "822 Union Street",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "New York",
+            "admin1_abbr": "NY",
+            "admin2": "Kings",
+            "local_admin": "Brooklyn",
+            "locality": "New York",
+            "neighborhood": "Park Slope",
+            "text": "822 Union Street, Brooklyn, NY"
+          }
+        ],
+        "priorityThresh": 2
+      },
+      "status": "pass"
+    },
+    {
+      "id": "1426538192714:112",
+      "user": "feedback-app",
+      "in": {
+        "input": "astoria, queens"
+      },
+      "expected": {
+        "properties": [
+          {
+            "type": "neighborhood",
+            "layer": "neighborhood",
+            "name": "Astoria",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "New York",
+            "admin2": "Queens",
+            "text": "Astoria, Queens, New York"
+          },
+          {
+            "type": "geoname",
+            "layer": "geoname",
+            "name": "Astoria",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "New York",
+            "admin2": "Queens County",
+            "text": "Astoria, Queens County, New York"
+          }
+        ],
+        "priorityThresh": 2
+      },
+      "status": "pass"
+    },
+    {
+      "id": "1426538192714:113",
+      "user": "feedback-app",
+      "in": {
+        "input": "astoria, ny"
+      },
+      "expected": {
+        "properties": null
+      }
+    },
+    {
+      "id": "1426538192714:114",
+      "user": "feedback-app",
+      "in": {
+        "input": "astoria"
+      },
+      "expected": {
+        "properties": null
+      }
+    },
+    {
+      "id": "1426538192714:115",
+      "user": "feedback-app",
+      "in": {
+        "input": "1 infinite loop, Cupertino"
+      },
+      "expected": {
+        "properties": [
+          {
+            "type": "osmway",
+            "layer": "osmway",
+            "name": "Infinite Loop 1",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "California",
+            "admin1_abbr": "CA",
+            "admin2": "Santa Clara",
+            "locality": "Cupertino",
+            "neighborhood": "Monta Vista",
+            "text": "Infinite Loop 1, Cupertino, CA"
+          },
+          {
+            "type": "osmaddress",
+            "layer": "osmaddress",
+            "name": "1 Infinite Loop",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "California",
+            "admin1_abbr": "CA",
+            "admin2": "Santa Clara",
+            "locality": "Cupertino",
+            "neighborhood": "Monta Vista",
+            "text": "1 Infinite Loop, Cupertino, CA"
+          }
+        ],
+        "priorityThresh": 2
+      },
+      "status": "pass"
+    },
+    {
+      "id": "1426538192714:116",
+      "user": "feedback-app",
+      "in": {
+        "input": "367 Addison Avenue, Palo Alto"
+      },
+      "expected": {
+        "properties": null
+      }
+    },
+    {
+      "id": "1426538192714:117",
+      "user": "feedback-app",
+      "in": {
+        "input": "Samsung Accelerator"
+      },
+      "expected": {
+        "properties": [
+          {
+            "type": "osmnode",
+            "layer": "osmnode",
+            "name": "Samsung Accelerator",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "New York",
+            "admin1_abbr": "NY",
+            "admin2": "New York",
+            "local_admin": "Manhattan",
+            "locality": "New York",
+            "neighborhood": "Flatiron District",
+            "text": "Samsung Accelerator, Manhattan, NY"
+          }
+        ],
+        "priorityThresh": 1
+      },
+      "status": "pass"
+    },
+    {
+      "id": "1426538192714:118",
+      "user": "feedback-app",
+      "in": {
+        "input": "1827 Berkeley Way"
+      },
+      "expected": {
+        "properties": [
+          {
+            "type": "osmaddress",
+            "layer": "osmaddress",
+            "name": "1827 Berkeley Way",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "California",
+            "admin1_abbr": "CA",
+            "admin2": "Alameda",
+            "locality": "Berkeley",
+            "neighborhood": "Downtown",
+            "text": "1827 Berkeley Way, Berkeley, CA"
+          }
+        ],
+        "priorityThresh": 1
+      },
+      "status": "pass"
+    },
+    {
+      "id": "1426538192714:119",
+      "user": "feedback-app",
+      "in": {
+        "input": "1900 Chapala St"
+      },
+      "expected": {
+        "properties": [
+          {
+            "type": "openaddresses",
+            "layer": "openaddresses",
+            "name": "1900 Chapala  Street",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "California",
+            "admin2": "Santa Barbara",
+            "locality": "Santa Barbara",
+            "text": "1900 Chapala  Street, Santa Barbara, California"
+          }
+        ],
+        "priorityThresh": 1
+      },
+      "status": "pass"
+    },
+    {
+      "id": "1426538192714:120",
+      "user": "feedback-app",
+      "in": {
+        "input": "128 Lorton Ave."
+      },
+      "expected": {
+        "properties": [
+          {
+            "type": "openaddresses",
+            "layer": "openaddresses",
+            "name": "128 Lorton Avenue",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "California",
+            "admin2": "San Mateo",
+            "locality": "Burlingame",
+            "neighborhood": "Downtown Burlingame",
+            "text": "128 Lorton Avenue, Burlingame, California"
+          }
+        ],
+        "priorityThresh": 2
+      },
+      "status": "pass"
+    },
+    {
+      "id": "1426538192714:121",
+      "user": "feedback-app",
+      "in": {
+        "input": "Ace Hotel, NYC"
+      },
+      "expected": {
+        "properties": [
+          {
+            "type": "osmnode",
+            "layer": "osmnode",
+            "name": "Ace Hotel",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "New York",
+            "admin1_abbr": "NY",
+            "admin2": "New York",
+            "local_admin": "Manhattan",
+            "locality": "New York",
+            "neighborhood": "Flatiron District",
+            "text": "Ace Hotel, Manhattan, NY"
+          }
+        ],
+        "priorityThresh": 7
+      },
+      "status": "pass"
+    },
+    {
+      "id": "1426538192714:122",
+      "user": "feedback-app",
+      "in": {
+        "input": "1600 Pennsylvania"
+      },
+      "expected": {
+        "properties": [
+          {
+            "type": "openaddresses",
+            "layer": "openaddresses",
+            "name": "1600 Pennsylvania Avenue Northwest",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "District of Columbia",
+            "admin2": "District of Columbia",
+            "locality": "Washington",
+            "neighborhood": "Franklin Mcpherson Square",
+            "text": "1600 Pennsylvania Avenue Northwest, Washington, District of Columbia"
+          }
+        ],
+        "priorityThresh": 9
+      },
+      "status": "pass"
+    },
+    {
+      "id": "1426538192714:123",
+      "user": "feedback-app",
+      "in": {
+        "input": "2131 Raleigh rd, hummelstown, pa"
+      },
+      "expected": {
+        "properties": null
+      }
+    },
+    {
+      "id": "1426538192714:124",
+      "user": "feedback-app",
+      "in": {
+        "input": "modo design, lancaster, pa"
+      },
+      "expected": {
+        "properties": null
+      }
+    },
+    {
+      "id": "1426538192714:125",
+      "user": "feedback-app",
+      "in": {
+        "input": "97 ripton rd, shelton, ct"
+      },
+      "expected": {
+        "properties": null
+      }
+    },
+    {
+      "id": "1426538192714:126",
+      "user": "feedback-app",
+      "in": {
+        "input": "318 19th street"
+      },
+      "expected": {
+        "properties": [
+          {
+            "type": "osmaddress",
+            "layer": "osmaddress",
+            "name": "318 19th Street",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "New York",
+            "admin1_abbr": "NY",
+            "admin2": "Kings",
+            "local_admin": "Brooklyn",
+            "locality": "New York",
+            "neighborhood": "Windsor Teraace",
+            "text": "318 19th Street, Brooklyn, NY"
+          }
+        ],
+        "priorityThresh": 4
+      },
+      "status": "pass"
+    },
+    {
+      "id": "1426538192714:127",
+      "user": "feedback-app",
+      "in": {
+        "input": "54 Tiffany Ave"
+      },
+      "expected": {
+        "properties": [
+          {
+            "type": "openaddresses",
+            "layer": "openaddresses",
+            "name": "54 Tiffany Avenue",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "California",
+            "admin2": "San Francisco",
+            "locality": "San Francisco",
+            "neighborhood": "Transmission",
+            "text": "54 Tiffany Avenue, San Francisco, California"
+          }
+        ],
+        "priorityThresh": 1
+      },
+      "status": "pass"
+    },
+    {
+      "id": "1426538192714:128",
+      "user": "feedback-app",
+      "in": {
+        "input": "812 Newport Ave, Victoria BC"
+      },
+      "expected": {
+        "properties": null
+      }
+    },
+    {
+      "id": "1426538192714:129",
+      "user": "feedback-app",
+      "in": {
+        "input": "812 Newport Ave Victoria"
+      },
+      "expected": {
+        "properties": null
+      }
+    },
+    {
+      "id": "1426538192714:130",
+      "user": "feedback-app",
+      "in": {
+        "input": "Himeji-shi, Japan"
+      },
+      "expected": {
+        "properties": [
+          {
+            "type": "geoname",
+            "layer": "geoname",
+            "name": "Himeji Shi",
+            "alpha3": "JPN",
+            "admin0": "Japan",
+            "admin1": "Hyōgo",
+            "admin2": "Himeji Shi",
+            "text": "Himeji Shi, Hyōgo"
+          },
+          {
+            "type": "geoname",
+            "layer": "geoname",
+            "name": "Himeji",
+            "alpha3": "JPN",
+            "admin0": "Japan",
+            "admin1": "Hyōgo",
+            "text": "Himeji, Hyōgo"
+          }
+        ],
+        "priorityThresh": 2
+      },
+      "status": "pass"
+    },
+    {
+      "id": "1426538192714:131",
+      "user": "feedback-app",
+      "in": {
+        "input": "kōdera-cho, Hyogo JPN"
+      },
+      "expected": {
+        "properties": null
+      }
+    },
+    {
+      "id": "1426538192714:132",
+      "user": "feedback-app",
+      "in": {
+        "input": "himeji castle"
+      },
+      "expected": {
+        "properties": [
+          {
+            "type": "geoname",
+            "layer": "geoname",
+            "name": "Himeji castle",
+            "alpha3": "JPN",
+            "admin0": "Japan",
+            "admin1": "Hyōgo",
+            "text": "Himeji castle, Hyōgo"
+          }
+        ],
+        "priorityThresh": 1
+      },
+      "status": "pass"
+    },
+    {
+      "id": "1426538192714:133",
+      "user": "feedback-app",
+      "in": {
+        "input": "north pole"
+      },
+      "expected": {
+        "properties": [
+          {
+            "type": "geoname",
+            "layer": "geoname",
+            "name": "North Pole",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "Alaska",
+            "admin2": "Fairbanks North Star Borough",
+            "text": "North Pole, Fairbanks North Star Borough, Alaska"
+          }
+        ],
+        "priorityThresh": 1
+      },
+      "status": "pass"
+    },
+    {
+      "id": "1426538192714:134",
+      "user": "feedback-app",
+      "in": {
+        "input": "Dhahran"
+      },
+      "expected": {
+        "properties": [
+          {
+            "type": "geoname",
+            "layer": "geoname",
+            "name": "Dhahran",
+            "alpha3": "SAU",
+            "admin0": "Saudi Arabia",
+            "admin1": "Eastern Province",
+            "text": "Dhahran, Eastern Province"
+          }
+        ],
+        "priorityThresh": 1
+      },
+      "status": "pass"
+    },
+    {
+      "id": "1426538192714:135",
+      "user": "feedback-app",
+      "in": {
+        "input": "Traben-Trarbach"
+      },
+      "expected": {
+        "properties": [
+          {
+            "type": "geoname",
+            "layer": "geoname",
+            "name": "Traben-Trarbach",
+            "alpha3": "DEU",
+            "admin0": "Germany",
+            "admin1": "Rheinland-Pfalz",
+            "text": "Traben-Trarbach, Rheinland-Pfalz"
+          }
+        ],
+        "priorityThresh": 1
+      },
+      "status": "pass"
+    },
+    {
+      "id": "1426538192714:136",
+      "user": "feedback-app",
+      "in": {
+        "input": "Traben-Trarbach 14 Ginsterburg Strasse"
+      },
+      "expected": {
+        "properties": null
+      }
+    },
+    {
+      "id": "1426538192714:137",
+      "user": "feedback-app",
+      "in": {
+        "input": "14 Ginsterberg Strasse Traben-Trarbach"
+      },
+      "expected": {
+        "properties": null
+      }
+    },
+    {
+      "id": "1426538192714:138",
+      "user": "feedback-app",
+      "in": {
+        "input": "631 Chickasaw Dr Sumter SC"
+      },
+      "expected": {
+        "properties": null
+      }
+    },
+    {
+      "id": "1426538192714:139",
+      "user": "feedback-app",
+      "in": {
+        "input": "Pepe's Pizza New Haven CT"
+      },
+      "expected": {
+        "properties": [
+          {
+            "type": "osmnode",
+            "layer": "osmnode",
+            "name": "Pepe's Pizza",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "Connecticut",
+            "admin1_abbr": "CT",
+            "admin2": "New Haven",
+            "local_admin": "New Haven",
+            "locality": "New Haven",
+            "neighborhood": "Mill River",
+            "text": "Pepe's Pizza, New Haven, CT"
+          }
+        ],
+        "priorityThresh": 4
+      },
+      "status": "pass"
+    },
+    {
+      "id": "1426538192714:140",
+      "user": "feedback-app",
+      "in": {
+        "input": "112 Castellow Ct Grafton"
+      },
+      "expected": {
+        "properties": [
+          {
+            "type": "openaddresses",
+            "layer": "openaddresses",
+            "name": "112 Castellow Court",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "Virginia",
+            "admin2": "York",
+            "text": "112 Castellow Court, York, Virginia"
+          }
+        ],
+        "priorityThresh": 1
+      },
+      "status": "pass"
+    },
+    {
+      "id": "1426538192714:141",
+      "user": "feedback-app",
+      "in": {
+        "input": "1200 New Jersey Ave SE Washington, DC 20590"
+      },
+      "expected": {
+        "properties": [
+          {
+            "type": "osmaddress",
+            "layer": "osmaddress",
+            "name": "1200 New Jersey Ave SE",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "District Of Columbia",
+            "admin1_abbr": "DC",
+            "admin2": "District Of Columbia",
+            "locality": "Washington",
+            "neighborhood": "Near Southeast",
+            "text": "1200 New Jersey Ave SE, Washington, DC"
+          },
+          {
+            "type": "osmaddress",
+            "layer": "osmaddress",
+            "name": "1200 New Jersey Avenue SE",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "District Of Columbia",
+            "admin1_abbr": "DC",
+            "admin2": "District Of Columbia",
+            "locality": "Washington",
+            "neighborhood": "Near Southeast",
+            "text": "1200 New Jersey Avenue SE, Washington, DC"
+          }
+        ],
+        "priorityThresh": 2
+      },
+      "status": "pass"
+    },
+    {
+      "id": "1426538192714:142",
+      "user": "feedback-app",
+      "in": {
+        "input": "flatiron district"
+      },
+      "expected": {
+        "properties": [
+          {
+            "type": "neighborhood",
+            "layer": "neighborhood",
+            "name": "Flatiron District",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "New York",
+            "admin2": "Manhattan",
+            "text": "Flatiron District, Manhattan, New York"
+          },
+          {
+            "type": "geoname",
+            "layer": "geoname",
+            "name": "Flatiron District",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "New York",
+            "admin2": "New York County",
+            "text": "Flatiron District, New York County, New York"
+          },
+          {
+            "type": "neighborhood",
+            "layer": "neighborhood",
+            "name": "Flatiron",
+            "alpha3": "USA",
+            "admin2": "Manhattan",
+            "text": "Flatiron, Manhattan"
+          }
+        ],
+        "priorityThresh": 4
+      },
+      "status": "pass"
+    },
+    {
+      "id": "1426538192714:143",
+      "user": "feedback-app",
+      "in": {
+        "input": "soho"
+      },
+      "expected": {
+        "properties": [
+          {
+            "type": "neighborhood",
+            "layer": "neighborhood",
+            "name": "Soho",
+            "admin0": "United States",
+            "admin1": "New York",
+            "admin2": "Manhattan",
+            "text": "Soho, Manhattan, New York"
+          }
+        ],
+        "priorityThresh": 2
+      },
+      "status": "pass"
+    },
+    {
+      "id": "1426538192714:144",
+      "user": "feedback-app",
+      "in": {
+        "input": "dfw"
+      },
+      "expected": {
+        "properties": [
+          {
+            "type": "osmway",
+            "layer": "osmway",
+            "name": "DFW",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "Texas",
+            "admin1_abbr": "TX",
+            "admin2": "Dallas",
+            "text": "DFW, Dallas, TX"
+          }
+        ],
+        "priorityThresh": 1
+      },
+      "status": "pass"
+    },
+    {
+      "id": "1426538192714:145",
+      "user": "feedback-app",
+      "in": {
+        "input": "101 saint marks pl"
+      },
+      "expected": {
+        "properties": [
+          {
+            "type": "openaddresses",
+            "layer": "openaddresses",
+            "name": "101 Saint Marks Place",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "New York",
+            "admin2": "New York",
+            "local_admin": "Manhattan",
+            "locality": "New York",
+            "neighborhood": "East Village",
+            "text": "101 Saint Marks Place, Manhattan, New York"
+          },
+          {
+            "type": "osmaddress",
+            "layer": "osmaddress",
+            "name": "101 Saint Marks Place",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "New York",
+            "admin1_abbr": "NY",
+            "admin2": "New York",
+            "local_admin": "Manhattan",
+            "locality": "New York",
+            "neighborhood": "East Village",
+            "text": "101 Saint Marks Place, Manhattan, NY"
+          }
+        ],
+        "priorityThresh": 5
+      },
+      "status": "pass"
+    },
+    {
+      "id": "1426538192714:146",
+      "user": "feedback-app",
+      "in": {
+        "input": "sheldonville post office"
+      },
+      "expected": {
+        "properties": [
+          {
+            "type": "osmnode",
+            "layer": "osmnode",
+            "name": "Sheldonville Post Office",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "Massachusetts",
+            "admin1_abbr": "MA",
+            "admin2": "Norfolk",
+            "local_admin": "Wrentham",
+            "neighborhood": "West Wrentham",
+            "text": "Sheldonville Post Office, Wrentham, MA"
+          },
+          {
+            "type": "osmnode",
+            "layer": "osmnode",
+            "name": "Sheldonville Post Office",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "Massachusetts",
+            "admin1_abbr": "MA",
+            "admin2": "Norfolk",
+            "local_admin": "Wrentham",
+            "neighborhood": "West Wrentham",
+            "text": "Sheldonville Post Office, Wrentham, MA"
+          },
+          {
+            "type": "osmnode",
+            "layer": "osmnode",
+            "name": "Sheldonville Post Office",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "Massachusetts",
+            "admin1_abbr": "MA",
+            "admin2": "Norfolk",
+            "local_admin": "Wrentham",
+            "neighborhood": "West Wrentham",
+            "text": "Sheldonville Post Office, Wrentham, MA"
+          },
+          {
+            "type": "osmnode",
+            "layer": "osmnode",
+            "name": "Sheldonville Post Office",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "Massachusetts",
+            "admin1_abbr": "MA",
+            "admin2": "Norfolk",
+            "local_admin": "Wrentham",
+            "neighborhood": "West Wrentham",
+            "text": "Sheldonville Post Office, Wrentham, MA"
+          },
+          {
+            "type": "osmnode",
+            "layer": "osmnode",
+            "name": "Sheldonville Post Office",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "Massachusetts",
+            "admin1_abbr": "MA",
+            "admin2": "Norfolk",
+            "local_admin": "Wrentham",
+            "neighborhood": "West Wrentham",
+            "text": "Sheldonville Post Office, Wrentham, MA"
+          },
+          {
+            "type": "osmnode",
+            "layer": "osmnode",
+            "name": "Sheldonville Post Office",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "Massachusetts",
+            "admin1_abbr": "MA",
+            "admin2": "Norfolk",
+            "local_admin": "Wrentham",
+            "neighborhood": "West Wrentham",
+            "text": "Sheldonville Post Office, Wrentham, MA"
+          }
+        ],
+        "priorityThresh": 6
+      },
+      "status": "pass"
+    },
+    {
+      "id": "1426538192714:147",
+      "user": "feedback-app",
+      "in": {
+        "input": "flatiron building"
+      },
+      "expected": {
+        "properties": [
+          {
+            "type": "osmway",
+            "layer": "osmway",
+            "name": "Flatiron Building",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "New York",
+            "admin1_abbr": "NY",
+            "admin2": "New York",
+            "local_admin": "Manhattan",
+            "locality": "New York",
+            "neighborhood": "Flatiron District",
+            "text": "Flatiron Building, Manhattan, NY"
+          }
+        ],
+        "priorityThresh": 5
+      },
+      "status": "pass"
+    },
+    {
+      "id": "1426538192714:148",
+      "user": "feedback-app",
+      "in": {
+        "input": "iad"
+      },
+      "expected": {
+        "properties": null
+      }
+    },
+    {
+      "id": "1426538192714:149",
+      "user": "feedback-app",
+      "in": {
+        "input": "flr"
+      },
+      "expected": {
+        "properties": null
+      }
+    },
+    {
+      "id": "1426538192714:150",
+      "user": "feedback-app",
+      "in": {
+        "input": "dub"
+      },
+      "expected": {
+        "properties": null
+      }
+    },
+    {
+      "id": "1426538192714:151",
+      "user": "feedback-app",
+      "in": {
+        "input": "flatiron"
+      },
+      "expected": {
+        "properties": [
+          {
+            "type": "neighborhood",
+            "layer": "neighborhood",
+            "name": "Flatiron",
+            "alpha3": "USA",
+            "admin2": "Manhattan",
+            "text": "Flatiron, Manhattan"
+          }
+        ],
+        "priorityThresh": 1
+      },
+      "status": "pass"
+    },
+    {
+      "id": "1426538192714:152",
+      "user": "feedback-app",
+      "in": {
+        "input": "port deposit md"
+      },
+      "expected": {
+        "properties": [
+          {
+            "type": "geoname",
+            "layer": "geoname",
+            "name": "Port Deposit",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "Maryland",
+            "admin2": "Cecil County",
+            "text": "Port Deposit, Cecil County, Maryland"
+          }
+        ],
+        "priorityThresh": 1
+      },
+      "status": "pass"
+    },
+    {
+      "id": "1426538192714:153",
+      "user": "feedback-app",
+      "in": {
+        "input": "woodrow ln port deposit md"
+      },
+      "expected": {
+        "properties": null
+      }
+    },
+    {
+      "id": "1426538192714:154",
+      "user": "feedback-app",
+      "in": {
+        "input": "green point pennsylvania USA"
+      },
+      "expected": {
+        "properties": null
+      }
+    },
+    {
+      "id": "1426538192714:155",
+      "user": "feedback-app",
+      "in": {
+        "input": "lickdale pa usa"
+      },
+      "expected": {
+        "properties": [
+          {
+            "type": "neighborhood",
+            "layer": "neighborhood",
+            "name": "Lickdale",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "Pennsylvania",
+            "admin2": "Lebanon",
+            "text": "Lickdale, Lebanon, Pennsylvania"
+          },
+          {
+            "type": "geoname",
+            "layer": "geoname",
+            "name": "Lickdale",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "Pennsylvania",
+            "admin2": "Lebanon County",
+            "text": "Lickdale, Lebanon County, Pennsylvania"
+          }
+        ],
+        "priorityThresh": 2
+      },
+      "status": "pass"
+    },
+    {
+      "id": "1426538192714:156",
+      "user": "feedback-app",
+      "in": {
+        "input": "backfin blues port deposit md"
+      },
+      "expected": {
+        "properties": [
+          {
+            "type": "osmnode",
+            "layer": "osmnode",
+            "name": "Backfin Blues",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "Maryland",
+            "admin1_abbr": "MD",
+            "admin2": "Cecil",
+            "locality": "Port Deposit",
+            "text": "Backfin Blues, Port Deposit, MD"
+          }
+        ],
+        "priorityThresh": 1
+      },
+      "status": "pass"
+    },
+    {
+      "id": "1426538192714:157",
+      "user": "feedback-app",
+      "in": {
+        "input": "ono, pennsylvania, usa"
+      },
+      "expected": {
+        "properties": [
+          {
+            "type": "geoname",
+            "layer": "geoname",
+            "name": "Ono",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "Pennsylvania",
+            "admin2": "Lebanon County",
+            "text": "Ono, Lebanon County, Pennsylvania"
+          }
+        ],
+        "priorityThresh": 1
+      },
+      "status": "pass"
+    },
+    {
+      "id": "1426538192714:158",
+      "user": "feedback-app",
+      "in": {
+        "input": "10118 jonestown rd, grantville, pa, usa"
+      },
+      "expected": {
+        "properties": null
+      }
+    },
+    {
+      "id": "1426538192714:159",
+      "user": "feedback-app",
+      "in": {
+        "input": "17603"
+      },
+      "expected": {
+        "properties": null
+      }
+    },
+    {
+      "id": "1426538192714:160",
+      "user": "feedback-app",
+      "in": {
+        "input": "81 fisher ave, jonestown, pa, usa"
+      },
+      "expected": {
+        "properties": null
+      }
+    },
+    {
+      "id": "1426538192714:161",
+      "user": "feedback-app",
+      "in": {
+        "input": "291 woodrow lane port deposit md"
+      },
+      "expected": {
+        "properties": [
+          {
+            "type": "openaddresses",
+            "layer": "openaddresses",
+            "name": "291 Woodrow Lane",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "Maryland",
+            "admin2": "Cecil",
+            "text": "291 Woodrow Lane, Cecil, Maryland"
+          }
+        ],
+        "priorityThresh": 1
+      },
+      "status": "pass"
+    },
+    {
+      "id": "1426538192714:162",
+      "user": "feedback-app",
+      "in": {
+        "input": "nyc"
+      },
+      "expected": {
+        "properties": null
+      }
+    },
+    {
+      "id": "1426538192714:163",
+      "user": "feedback-app",
+      "in": {
+        "input": "pdx"
+      },
+      "expected": {
+        "properties": null
+      }
+    },
+    {
+      "id": "1426538192714:164",
+      "user": "feedback-app",
+      "in": {
+        "input": "2511 Hill Court, Berkeley, CA"
+      },
+      "expected": {
+        "properties": null
+      }
+    },
+    {
+      "id": "1426538192714:165",
+      "user": "feedback-app",
+      "in": {
+        "input": "AT&T Park"
+      },
+      "expected": {
+        "properties": [
+          {
+            "type": "osmnode",
+            "layer": "osmnode",
+            "name": "AT&T Park",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "California",
+            "admin1_abbr": "CA",
+            "admin2": "San Francisco",
+            "locality": "San Francisco",
+            "neighborhood": "Mission Bay",
+            "text": "AT&T Park, San Francisco, CA"
+          },
+          {
+            "type": "osmway",
+            "layer": "osmway",
+            "name": "AT&T Park",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "California",
+            "admin1_abbr": "CA",
+            "admin2": "San Francisco",
+            "locality": "San Francisco",
+            "neighborhood": "Mission Bay",
+            "text": "AT&T Park, San Francisco, CA"
+          },
+          {
+            "type": "osmway",
+            "layer": "osmway",
+            "name": "AT&T Park",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "California",
+            "admin1_abbr": "CA",
+            "admin2": "San Francisco",
+            "locality": "San Francisco",
+            "neighborhood": "Mission Bay",
+            "text": "AT&T Park, San Francisco, CA"
+          },
+          {
+            "type": "geoname",
+            "layer": "geoname",
+            "name": "AT&T Park",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "California",
+            "admin2": "San Francisco County",
+            "text": "AT&T Park, San Francisco County, California"
+          },
+          {
+            "type": "geoname",
+            "layer": "geoname",
+            "name": "AT&T Park",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "California",
+            "admin2": "San Francisco County",
+            "text": "AT&T Park, San Francisco County, California"
+          }
+        ],
+        "priorityThresh": 5
+      },
+      "status": "pass"
+    },
+    {
+      "id": "1426538192714:166",
+      "user": "feedback-app",
+      "in": {
+        "input": "urnäsch, ch"
+      },
+      "expected": {
+        "properties": [
+          {
+            "type": "geoname",
+            "layer": "geoname",
+            "name": "Urnäsch",
+            "alpha3": "CHE",
+            "admin0": "Switzerland",
+            "admin1": "Appenzell Ausserrhoden",
+            "admin2": "Bezirk Hinterland",
+            "text": "Urnäsch, Bezirk Hinterland, Appenzell Ausserrhoden"
+          },
+          {
+            "type": "geoname",
+            "layer": "geoname",
+            "name": "Urnäsch",
+            "alpha3": "CHE",
+            "admin0": "Switzerland",
+            "admin1": "Appenzell Ausserrhoden",
+            "admin2": "Bezirk Hinterland",
+            "text": "Urnäsch, Bezirk Hinterland, Appenzell Ausserrhoden"
+          },
+          {
+            "type": "osmway",
+            "layer": "osmway",
+            "name": "Urnäsch",
+            "alpha3": "CHE",
+            "admin0": "Switzerland",
+            "admin1": "Appenzell Ausserrhoden",
+            "admin2": "Bezirk Hinterland",
+            "local_admin": "Urnäsch",
+            "locality": "Urnã¤sch",
+            "text": "Urnäsch, Appenzell Ausserrhoden"
+          },
+          {
+            "type": "osmnode",
+            "layer": "osmnode",
+            "name": "Urnäsch",
+            "alpha3": "CHE",
+            "admin0": "Switzerland",
+            "admin1": "Appenzell Ausserrhoden",
+            "admin2": "Bezirk Hinterland",
+            "local_admin": "Urnäsch",
+            "locality": "Urnã¤sch",
+            "text": "Urnäsch, Appenzell Ausserrhoden"
+          }
+        ],
+        "priorityThresh": 4
+      },
+      "status": "pass"
+    },
+    {
+      "id": "1426538192714:167",
+      "user": "feedback-app",
+      "in": {
+        "input": "Carleton College"
+      },
+      "expected": {
+        "properties": [
+          {
+            "type": "osmway",
+            "layer": "osmway",
+            "name": "Carleton College",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "Minnesota",
+            "admin1_abbr": "MN",
+            "admin2": "Rice",
+            "local_admin": "Waterford",
+            "text": "Carleton College, Waterford, MN"
+          },
+          {
+            "type": "osmnode",
+            "layer": "osmnode",
+            "name": "Carleton College",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "Minnesota",
+            "admin1_abbr": "MN",
+            "admin2": "Rice",
+            "local_admin": "Northfield",
+            "locality": "Northfield",
+            "text": "Carleton College, Northfield, MN"
+          },
+          {
+            "type": "geoname",
+            "layer": "geoname",
+            "name": "Carleton College",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "Minnesota",
+            "admin2": "Rice County",
+            "text": "Carleton College, Rice County, Minnesota"
+          }
+        ],
+        "priorityThresh": 3
+      },
+      "status": "pass"
+    },
+    {
+      "id": "1426538192714:168",
+      "user": "feedback-app",
+      "in": {
+        "input": "eek ak"
+      },
+      "expected": {
+        "properties": [
+          {
+            "type": "geoname",
+            "layer": "geoname",
+            "name": "Eek",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "Alaska",
+            "admin2": "Bethel Census Area",
+            "text": "Eek, Bethel Census Area, Alaska"
+          }
+        ],
+        "priorityThresh": 1
+      },
+      "status": "pass"
+    },
+    {
+      "id": "1426538192714:169",
+      "user": "feedback-app",
+      "in": {
+        "input": "City Hall, San Francisco"
+      },
+      "expected": {
+        "properties": [
+          {
+            "type": "osmway",
+            "layer": "osmway",
+            "name": "San Francisco City Hall",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "California",
+            "admin1_abbr": "CA",
+            "admin2": "San Francisco",
+            "locality": "San Francisco",
+            "neighborhood": "Opera Plaza",
+            "text": "San Francisco City Hall, San Francisco, CA"
+          },
+          {
+            "type": "osmnode",
+            "layer": "osmnode",
+            "name": "San Francisco City Hall",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "California",
+            "admin1_abbr": "CA",
+            "admin2": "San Francisco",
+            "locality": "San Francisco",
+            "neighborhood": "Opera Plaza",
+            "text": "San Francisco City Hall, San Francisco, CA"
+          },
+          {
+            "type": "osmnode",
+            "layer": "osmnode",
+            "name": "Polk & McAllister (City Hall",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "California",
+            "admin1_abbr": "CA",
+            "admin2": "San Francisco",
+            "locality": "San Francisco",
+            "neighborhood": "Opera Plaza",
+            "text": "Polk & McAllister (City Hall, San Francisco, CA"
+          },
+          {
+            "type": "geoname",
+            "layer": "geoname",
+            "name": "San Francisco City Hall",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "California",
+            "admin2": "San Francisco County",
+            "text": "San Francisco City Hall, San Francisco County, California"
+          }
+        ],
+        "priorityThresh": 4
+      },
+      "status": "pass"
+    },
+    {
+      "id": "1426538192714:170",
+      "user": "feedback-app",
+      "in": {
+        "input": "1288 Pear Ave, Mountain View, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "type": "openaddresses",
+            "layer": "openaddresses",
+            "name": "1288 Pear Avenue",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "California",
+            "admin2": "Santa Clara",
+            "locality": "Mountain View",
+            "neighborhood": "Charleston Terrace",
+            "text": "1288 Pear Avenue, Mountain View, California"
+          }
+        ],
+        "priorityThresh": 1
+      },
+      "status": "pass"
+    },
+    {
+      "id": "1426538192714:171",
+      "user": "feedback-app",
+      "in": {
+        "input": "1065 La Avenida St., Mountain View, CA"
+      },
+      "expected": {
+        "properties": null
+      }
+    },
+    {
+      "id": "1426538192714:172",
+      "user": "feedback-app",
+      "in": {
+        "input": "dynamo donuts"
+      },
+      "expected": {
+        "properties": null
+      }
+    },
+    {
+      "id": "1426538192714:173",
+      "user": "feedback-app",
+      "in": {
+        "input": "cloud gate"
+      },
+      "expected": {
+        "properties": [
+          {
+            "type": "osmway",
+            "layer": "osmway",
+            "name": "Cloud Gate",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "Illinois",
+            "admin1_abbr": "IL",
+            "admin2": "Cook",
+            "local_admin": "Chicago",
+            "locality": "Chicago",
+            "neighborhood": "Fort Dearborn Addition",
+            "text": "Cloud Gate, Chicago, IL"
+          }
+        ],
+        "priorityThresh": 1
+      },
+      "status": "pass"
+    },
+    {
+      "id": "1426538192714:174",
+      "user": "feedback-app",
+      "in": {
+        "input": "1355 Market St., San Francisco"
+      },
+      "expected": {
+        "properties": [
+          {
+            "type": "openaddresses",
+            "layer": "openaddresses",
+            "name": "1355 Market Street",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "California",
+            "admin2": "San Francisco",
+            "locality": "San Francisco",
+            "neighborhood": "Civic Center",
+            "text": "1355 Market Street, San Francisco, California"
+          },
+          {
+            "type": "osmaddress",
+            "layer": "osmaddress",
+            "name": "1355 Market Street",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "California",
+            "admin1_abbr": "CA",
+            "admin2": "San Francisco",
+            "locality": "San Francisco",
+            "neighborhood": "Civic Center",
+            "text": "1355 Market Street, San Francisco, CA"
+          }
+        ],
+        "priorityThresh": 3
+      },
+      "status": "pass"
+    },
+    {
+      "id": "1426538192714:175",
+      "user": "feedback-app",
+      "in": {
+        "input": "568 Broadway New York"
+      },
+      "expected": {
+        "properties": [
+          {
+            "type": "openaddresses",
+            "layer": "openaddresses",
+            "name": "568 Broadway",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "New York",
+            "admin2": "New York",
+            "local_admin": "Manhattan",
+            "locality": "New York",
+            "neighborhood": "Nolita",
+            "text": "568 Broadway, Manhattan, New York"
+          }
+        ],
+        "priorityThresh": 6
+      },
+      "status": "pass"
+    },
+    {
+      "id": "1426538192714:176",
+      "user": "feedback-app",
+      "in": {
+        "input": "cafe regular"
+      },
+      "expected": {
+        "properties": [
+          {
+            "type": "osmway",
+            "layer": "osmway",
+            "name": "Cafe Regular du Nord",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "New York",
+            "admin1_abbr": "NY",
+            "admin2": "Kings",
+            "local_admin": "Brooklyn",
+            "locality": "New York",
+            "neighborhood": "Park Slope",
+            "text": "Cafe Regular du Nord, Brooklyn, NY"
+          }
+        ],
+        "priorityThresh": 1
+      },
+      "status": "pass"
+    },
+    {
+      "id": "1426538192714:177",
+      "user": "feedback-app",
+      "in": {
+        "input": "275 Brannan St San Francisco"
+      },
+      "expected": {
+        "properties": [
+          {
+            "type": "openaddresses",
+            "layer": "openaddresses",
+            "name": "275 Brannan Street",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "California",
+            "admin2": "San Francisco",
+            "locality": "San Francisco",
+            "neighborhood": "South Beach",
+            "text": "275 Brannan Street, San Francisco, California"
+          }
+        ],
+        "priorityThresh": 1
+      },
+      "status": "pass"
+    },
+    {
+      "id": "1426538192714:178",
+      "user": "feedback-app",
+      "in": {
+        "input": "155 9th St SF"
+      },
+      "expected": {
+        "properties": [
+          {
+            "type": "osmaddress",
+            "layer": "osmaddress",
+            "name": "155 9th",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "California",
+            "admin1_abbr": "CA",
+            "admin2": "San Francisco",
+            "locality": "San Francisco",
+            "neighborhood": "Civic Center",
+            "text": "155 9th, San Francisco, CA"
+          }
+        ],
+        "priorityThresh": 1
+      },
+      "status": "pass"
+    },
+    {
+      "id": "1426538192714:179",
+      "user": "feedback-app",
+      "in": {
+        "input": "1 Centerpoint Blvd, New Castle, DE"
+      },
+      "expected": {
+        "properties": null
+      }
+    },
+    {
+      "id": "1426538192714:180",
+      "user": "feedback-app",
+      "in": {
+        "input": "BWI"
+      },
+      "expected": {
+        "properties": null
+      }
+    },
+    {
+      "id": "1426538192714:181",
+      "user": "feedback-app",
+      "in": {
+        "input": "nueva york"
+      },
+      "expected": {
+        "properties": null
+      }
+    },
+    {
+      "id": "1426538192714:182",
+      "user": "feedback-app",
+      "in": {
+        "input": "louvre"
+      },
+      "expected": {
+        "properties": [
+          {
+            "type": "osmway",
+            "layer": "osmway",
+            "name": "Le Louvre",
+            "alpha3": "FRA",
+            "admin0": "France",
+            "admin1": "Paris",
+            "admin2": "Paris-1er-arrondissement",
+            "local_admin": "Paris-1er-arrondissement",
+            "locality": "Paris",
+            "neighborhood": "Quartier Saint-germain-l'auxerrois",
+            "text": "Le Louvre, Paris-1er-arrondissement, Paris"
+          }
+        ],
+        "priorityThresh": 7
+      },
+      "status": "pass"
+    },
+    {
+      "id": "1426538192714:183",
+      "user": "feedback-app",
+      "in": {
+        "input": "MoMa"
+      },
+      "expected": {
+        "properties": null
+      }
+    },
+    {
+      "id": "1426538192714:184",
+      "user": "feedback-app",
+      "in": {
+        "input": "Brooklyn Museum"
+      },
+      "expected": {
+        "properties": [
+          {
+            "type": "osmway",
+            "layer": "osmway",
+            "name": "Brooklyn Museum of Art",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "New York",
+            "admin1_abbr": "NY",
+            "admin2": "Kings",
+            "local_admin": "Brooklyn",
+            "locality": "New York",
+            "text": "Brooklyn Museum of Art, Brooklyn, NY"
+          }
+        ],
+        "priorityThresh": 1
+      },
+      "status": "pass"
+    },
+    {
+      "id": "1426538192714:185",
+      "user": "feedback-app",
+      "in": {
+        "input": "turntable mad for chicken"
+      },
+      "expected": {
+        "properties": null
+      }
+    },
+    {
+      "id": "1426538192714:186",
+      "user": "feedback-app",
+      "in": {
+        "input": "Cornell University"
+      },
+      "expected": {
+        "properties": [
+          {
+            "type": "osmnode",
+            "layer": "osmnode",
+            "name": "Cornell University",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "New York",
+            "admin1_abbr": "NY",
+            "admin2": "Tompkins",
+            "local_admin": "Ithaca",
+            "locality": "Ithaca",
+            "neighborhood": "East Ithaca",
+            "text": "Cornell University, Ithaca, NY"
+          }
+        ],
+        "priorityThresh": 1
+      },
+      "status": "pass"
+    },
+    {
+      "id": "1426538192714:187",
+      "user": "feedback-app",
+      "in": {
+        "input": "서울시청"
+      },
+      "expected": {
+        "properties": [
+          {
+            "type": "openaddresses",
+            "layer": "openaddresses",
+            "name": "37 덕수궁길 서울시청 서소문별관 서소문별관(제2동)",
+            "alpha3": "KOR",
+            "admin0": "South Korea",
+            "admin1": "Seoul",
+            "admin2": "종로구",
+            "locality": "Seoul",
+            "neighborhood": "사직동",
+            "text": "37 덕수궁길 서울시청 서소문별관 서소문별관(제2동), Seoul"
+          }
+        ],
+        "priorityThresh": 1
+      },
+      "status": "pass"
+    },
+    {
+      "id": "1426538192714:188",
+      "user": "feedback-app",
+      "in": {
+        "input": "Ithaca farmers market"
+      },
+      "expected": {
+        "properties": [
+          {
+            "type": "osmway",
+            "layer": "osmway",
+            "name": "Ithaca Farmers' Market",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "New York",
+            "admin1_abbr": "NY",
+            "admin2": "Tompkins",
+            "local_admin": "Ithaca",
+            "locality": "Ithaca",
+            "neighborhood": "Fall Creek",
+            "text": "Ithaca Farmers' Market, Ithaca, NY"
+          }
+        ],
+        "priorityThresh": 1
+      },
+      "status": "pass"
+    },
+    {
+      "id": "1426538192714:189",
+      "user": "feedback-app",
+      "in": {
+        "input": "cambridge, ma"
+      },
+      "expected": {
+        "properties": null
+      }
+    },
+    {
+      "id": "1426538192714:190",
+      "user": "feedback-app",
+      "in": {
+        "input": "65c dana st"
+      },
+      "expected": {
+        "properties": [
+          {
+            "type": "osmnode",
+            "layer": "osmnode",
+            "name": "Cambridge St @ Dana St",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "Massachusetts",
+            "admin1_abbr": "MA",
+            "admin2": "Middlesex",
+            "local_admin": "Cambridge",
+            "locality": "Cambridge",
+            "neighborhood": "Mid Cambridge",
+            "text": "Cambridge St @ Dana St, Cambridge, MA"
+          }
+        ],
+        "priorityThresh": 1
+      },
+      "status": "pass"
+    },
+    {
+      "id": "1426538192714:191",
+      "user": "feedback-app",
+      "in": {
+        "input": "seattle, wa"
+      },
+      "expected": {
+        "properties": null
+      }
+    },
+    {
+      "id": "1426538192714:192",
+      "user": "feedback-app",
+      "in": {
+        "input": "park slope"
+      },
+      "expected": {
+        "properties": [
+          {
+            "type": "neighborhood",
+            "layer": "neighborhood",
+            "name": "Park Slope",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "New York",
+            "admin2": "Brooklyn",
+            "text": "Park Slope, Brooklyn, New York"
+          }
+        ],
+        "priorityThresh": 1
+      },
+      "status": "pass"
+    },
+    {
+      "id": "1426538192714:193",
+      "user": "feedback-app",
+      "in": {
+        "input": "slope park"
+      },
+      "expected": {
+        "properties": [
+          {
+            "type": "osmnode",
+            "layer": "osmnode",
+            "name": "Slope Park",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "New York",
+            "admin1_abbr": "NY",
+            "admin2": "Kings",
+            "local_admin": "Brooklyn",
+            "locality": "New York",
+            "neighborhood": "South Slope",
+            "text": "Slope Park, Brooklyn, NY"
+          }
+        ],
+        "priorityThresh": 4
+      },
+      "status": "pass"
+    },
+    {
+      "id": "1426538192714:194",
+      "user": "feedback-app",
+      "in": {
+        "input": "jj byrne playground"
+      },
+      "expected": {
+        "properties": [
+          {
+            "type": "osmway",
+            "layer": "osmway",
+            "name": "J.J. Byrne Playground",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "New York",
+            "admin1_abbr": "NY",
+            "admin2": "Kings",
+            "local_admin": "Brooklyn",
+            "locality": "New York",
+            "neighborhood": "Park Slope",
+            "text": "J.J. Byrne Playground, Brooklyn, NY"
+          }
+        ],
+        "priorityThresh": 4
+      },
+      "status": "pass"
+    },
+    {
+      "id": "1426538192714:195",
+      "user": "feedback-app",
+      "in": {
+        "input": "one canada square"
+      },
+      "expected": {
+        "properties": [
+          {
+            "type": "osmway",
+            "layer": "osmway",
+            "name": "One Canada Square",
+            "alpha3": "GBR",
+            "admin0": "United Kingdom",
+            "admin1": "Tower Hamlets",
+            "admin2": "Greater London",
+            "neighborhood": "Canary Wharf",
+            "text": "One Canada Square, Canary Wharf, Greater London"
+          }
+        ],
+        "priorityThresh": 1
+      },
+      "status": "pass"
+    },
+    {
+      "id": "1426538192714:196",
+      "user": "feedback-app",
+      "in": {
+        "input": "taj mahal"
+      },
+      "expected": {
+        "properties": null
+      }
+    },
+    {
+      "id": "1426538192714:197",
+      "user": "feedback-app",
+      "in": {
+        "input": "space needle"
+      },
+      "expected": {
+        "properties": [
+          {
+            "type": "osmway",
+            "layer": "osmway",
+            "name": "Space Needle",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "Washington",
+            "admin1_abbr": "WA",
+            "admin2": "King",
+            "locality": "Seattle",
+            "neighborhood": "Belltown",
+            "text": "Space Needle, Seattle, WA"
+          }
+        ],
+        "priorityThresh": 1
+      },
+      "status": "pass"
+    },
+    {
+      "id": "1426538192714:198",
+      "user": "feedback-app",
+      "in": {
+        "input": "gasworks park"
+      },
+      "expected": {
+        "properties": null
+      }
     }
   ]
 }
