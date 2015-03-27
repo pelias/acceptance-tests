@@ -751,6 +751,96 @@
       "expected": {
         "properties": "Taj Mahal, Taj East Gate Road, Taj Ganj, Agra, Uttar Pradesh, 282001, India"
       }
+    },
+    {
+      "id": "1427414405160:0",
+      "user": "feedback-app",
+      "in": {
+        "input": "503 E Buffalo St, Ithaca, NY"
+      },
+      "expected": {
+        "properties": "503, East Buffalo Street, Ithaca, Tompkins County, New York, 14850, United States of America"
+      }
+    },
+    {
+      "id": "1427414405160:1",
+      "user": "feedback-app",
+      "in": {
+        "input": "11215"
+      },
+      "expected": {
+        "properties": "Brooklyn, Kings County, New York City, New York, 11215, United States of America"
+      }
+    },
+    {
+      "id": "1427414405160:2",
+      "user": "feedback-app",
+      "in": {
+        "input": "301 Commons Park S Stamford, CT 06902"
+      },
+      "expected": {
+        "properties": "Postmark Apartments, 301, Commons Park South, Stamford, Fairfield County, Connecticut, 06902, United States of America"
+      }
+    },
+    {
+      "id": "1427414405160:3",
+      "user": "feedback-app",
+      "in": {
+        "input": "203 Union Street Doylestown PA"
+      },
+      "expected": {
+        "properties": "203, Union Street, Doylestown, Bucks County, Pennsylvania, 18901, United States of America"
+      }
+    },
+    {
+      "id": "1427414405160:4",
+      "user": "feedback-app",
+      "in": {
+        "input": "203, Union St., Doylestown, PA"
+      },
+      "expected": {
+        "properties": "203, Union Street, Doylestown, Bucks County, Pennsylvania, 18901, United States of America"
+      }
+    },
+    {
+      "id": "1427414405160:5",
+      "user": "feedback-app",
+      "in": {
+        "input": "commons park s, stamford, ct 06902"
+      },
+      "expected": {
+        "properties": "Commons Park South, Stamford, Fairfield County, Connecticut, 06902, United States of America"
+      }
+    },
+    {
+      "id": "1427414405160:6",
+      "user": "feedback-app",
+      "in": {
+        "input": "Friedrichshain, Berlin"
+      },
+      "expected": {
+        "properties": null
+      }
+    },
+    {
+      "id": "1427414405160:7",
+      "user": "feedback-app",
+      "in": {
+        "input": "13 Maryland Ave, Towson, MD"
+      },
+      "expected": {
+        "properties": "13, Maryland Avenue, East Towson, Towson, Baltimore County, Maryland, 21286, United States of America"
+      }
+    },
+    {
+      "id": "1427414405160:8",
+      "user": "feedback-app",
+      "in": {
+        "input": "Boiling Springs, PA"
+      },
+      "expected": {
+        "properties": "Boiling Springs, Cumberland County, Pennsylvania, United States of America"
+      }
     }
   ]
 }
