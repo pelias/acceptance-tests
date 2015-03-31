@@ -116,7 +116,8 @@
             "admin0": "United States",
             "admin1": "New York",
             "admin2": "Bronx County",
-            "text": "Yankee Stadium, Bronx, New York"
+            "text": "Yankee Stadium, Bronx, NY",
+            "admin1_abbr": "NY"
           }
         ],
         "priorityThresh": 2
@@ -211,7 +212,8 @@
             "admin0": "United States",
             "admin1": "Pennsylvania",
             "admin2": "Lebanon",
-            "text": "Lickdale, Lebanon, Pennsylvania"
+            "text": "Lickdale, Lebanon, PA",
+            "admin1_abbr": "PA"
           },
           {
             "layer": "geoname",
@@ -220,7 +222,8 @@
             "admin0": "United States",
             "admin1": "Pennsylvania",
             "admin2": "Lebanon County",
-            "text": "Lickdale, Lebanon County, Pennsylvania"
+            "text": "Lickdale, Lebanon County, PA",
+            "admin1_abbr": "PA"
           }
         ],
         "priorityThresh": 2
@@ -242,7 +245,8 @@
             "admin0": "United States",
             "admin1": "Pennsylvania",
             "admin2": "Lebanon County",
-            "text": "Ono, Lebanon County, Pennsylvania"
+            "text": "Ono, Lebanon County, PA",
+            "admin1_abbr": "PA"
           }
         ],
         "priorityThresh": 1
@@ -264,7 +268,8 @@
             "admin0": "United States",
             "admin1": "Maryland",
             "admin2": "Cecil County",
-            "text": "291 Woodrow Lane, Cecil, Maryland"
+            "text": "291 Woodrow Lane, Cecil, MD",
+            "admin1_abbr": "MD"
           }
         ],
         "priorityThresh": 1
@@ -322,7 +327,8 @@
             "admin0": "United States",
             "admin1": "California",
             "admin2": "San Francisco County",
-            "text": "AT&T Park, San Francisco County, California"
+            "text": "AT&T Park, San Francisco County, CA",
+            "admin1_abbr": "CA"
           },
           {
             "layer": "geoname",
@@ -331,7 +337,8 @@
             "admin0": "United States",
             "admin1": "California",
             "admin2": "San Francisco County",
-            "text": "AT&T Park, San Francisco County, California"
+            "text": "AT&T Park, San Francisco County, CA",
+            "admin1_abbr": "CA"
           }
         ],
         "priorityThresh": 5
@@ -429,7 +436,8 @@
             "admin0": "United States",
             "admin1": "Minnesota",
             "admin2": "Rice County",
-            "text": "Carleton College, Rice County, Minnesota"
+            "text": "Carleton College, Rice County, MN",
+            "admin1_abbr": "MN"
           }
         ],
         "priorityThresh": 3
@@ -451,7 +459,8 @@
             "admin0": "United States",
             "admin1": "Alaska",
             "admin2": "Bethel Census Area",
-            "text": "Eek, Bethel Census Area, Alaska"
+            "text": "Eek, Bethel Census Area, AK",
+            "admin1_abbr": "AK"
           }
         ],
         "priorityThresh": 1
@@ -509,7 +518,8 @@
             "admin0": "United States",
             "admin1": "California",
             "admin2": "San Francisco County",
-            "text": "San Francisco City Hall, San Francisco County, California"
+            "text": "San Francisco City Hall, San Francisco County, CA",
+            "admin1_abbr": "CA"
           }
         ],
         "priorityThresh": 4
@@ -533,7 +543,8 @@
             "admin2": "Santa Clara County",
             "locality": "Mountain View",
             "neighborhood": "Charleston Terrace",
-            "text": "1288 Pear Avenue, Mountain View, California"
+            "text": "1288 Pear Avenue, Mountain View, CA",
+            "admin1_abbr": "CA"
           }
         ],
         "priorityThresh": 1
@@ -583,7 +594,8 @@
             "admin2": "San Francisco County",
             "locality": "San Francisco",
             "neighborhood": "Civic Center",
-            "text": "1355 Market Street, San Francisco, California"
+            "text": "1355 Market Street, San Francisco, CA",
+            "admin1_abbr": "CA"
           },
           {
             "layer": "osmaddress",
@@ -620,7 +632,8 @@
             "local_admin": "Manhattan",
             "locality": "New York",
             "neighborhood": "Nolita",
-            "text": "568 Broadway, Manhattan, New York"
+            "text": "568 Broadway, Manhattan, NY",
+            "admin1_abbr": "NY"
           }
         ],
         "priorityThresh": 6
@@ -670,7 +683,8 @@
             "admin2": "San Francisco County",
             "locality": "San Francisco",
             "neighborhood": "South Beach",
-            "text": "275 Brannan Street, San Francisco, California"
+            "text": "275 Brannan Street, San Francisco, CA",
+            "admin1_abbr": "CA"
           }
         ],
         "priorityThresh": 1
@@ -845,7 +859,8 @@
             "admin0": "United States",
             "admin1": "New York",
             "admin2": "Brooklyn",
-            "text": "Park Slope, Brooklyn, New York"
+            "text": "Park Slope, Brooklyn, NY",
+            "admin1_abbr": "NY"
           }
         ],
         "priorityThresh": 1
@@ -1090,7 +1105,8 @@
             "admin2": "Alameda County",
             "locality": "Oakland",
             "neighborhood": "Patten",
-            "text": "3107 Hyde Street, Oakland, California"
+            "text": "3107 Hyde Street, Oakland, CA",
+            "admin1_abbr": "CA"
           }
         ],
         "priorityThresh": 2
@@ -1114,7 +1130,8 @@
             "admin2": "Alameda County",
             "locality": "Oakland",
             "neighborhood": "Northgate",
-            "text": "2633 Telegraph Avenue, Oakland, California"
+            "text": "2633 Telegraph Avenue, Oakland, CA",
+            "admin1_abbr": "CA"
           }
         ],
         "priorityThresh": 1
@@ -1138,7 +1155,8 @@
             "admin2": "Santa Clara County",
             "locality": "Los Altos",
             "neighborhood": "The Highlands",
-            "text": "961 Andover Way, Los Altos, California"
+            "text": "961 Andover Way, Los Altos, CA",
+            "admin1_abbr": "CA"
           }
         ],
         "priorityThresh": 1
@@ -1188,7 +1206,8 @@
             "admin2": "Harris County",
             "locality": "Houston",
             "neighborhood": "Midtown",
-            "text": "1710 Drew Street, Houston, Texas"
+            "text": "1710 Drew Street, Houston, TX",
+            "admin1_abbr": "TX"
           }
         ],
         "priorityThresh": 1
@@ -1228,7 +1247,8 @@
             "admin0": "United States",
             "admin1": "California",
             "admin2": "San Francisco County",
-            "text": "Golden Gate Park, San Francisco, California"
+            "text": "Golden Gate Park, San Francisco, CA",
+            "admin1_abbr": "CA"
           }
         ],
         "priorityThresh": 1
@@ -1400,7 +1420,8 @@
             "admin0": "United States",
             "admin1": "Texas",
             "admin2": "Tarrant County",
-            "text": "Cowboys Stadium, Tarrant County, Texas"
+            "text": "Cowboys Stadium, Tarrant County, TX",
+            "admin1_abbr": "TX"
           }
         ],
         "priorityThresh": 1
@@ -1422,7 +1443,8 @@
             "admin0": "United States",
             "admin1": "California",
             "admin2": "Marin County",
-            "text": "San Quentin, Marin County, California"
+            "text": "San Quentin, Marin County, CA",
+            "admin1_abbr": "CA"
           },
           {
             "layer": "geoname",
@@ -1431,7 +1453,8 @@
             "admin0": "United States",
             "admin1": "California",
             "admin2": "Marin County",
-            "text": "San Quentin State Prison, Marin County, California"
+            "text": "San Quentin State Prison, Marin County, CA",
+            "admin1_abbr": "CA"
           }
         ],
         "priorityThresh": 5
@@ -1642,7 +1665,8 @@
             "admin0": "United States",
             "admin1": "California",
             "admin2": "San Francisco County",
-            "text": "Ferry Building, San Francisco County, California"
+            "text": "Ferry Building, San Francisco County, CA",
+            "admin1_abbr": "CA"
           }
         ],
         "priorityThresh": 4
@@ -1667,7 +1691,8 @@
             "local_admin": "Brooklyn",
             "locality": "New York",
             "neighborhood": "Crown Heights",
-            "text": "266 Brooklyn Avenue, Brooklyn, New York"
+            "text": "266 Brooklyn Avenue, Brooklyn, NY",
+            "admin1_abbr": "NY"
           }
         ],
         "priorityThresh": 1
@@ -1692,7 +1717,8 @@
             "local_admin": "Manhattan",
             "locality": "New York",
             "neighborhood": "NoHo",
-            "text": "721 Broadway, Manhattan, New York"
+            "text": "721 Broadway, Manhattan, NY",
+            "admin1_abbr": "NY"
           }
         ],
         "priorityThresh": 4
@@ -1758,7 +1784,8 @@
             "admin0": "United States",
             "admin1": "Virginia",
             "admin2": "Loudoun County",
-            "text": "Washington Dulles International Airport, Loudoun County, Virginia"
+            "text": "Washington Dulles International Airport, Loudoun County, VA",
+            "admin1_abbr": "VA"
           }
         ],
         "priorityThresh": 6
@@ -1780,7 +1807,8 @@
             "admin0": "United States",
             "admin1": "New York",
             "admin2": "New York County",
-            "text": "Madison Square Park, New York County, New York"
+            "text": "Madison Square Park, New York County, NY",
+            "admin1_abbr": "NY"
           }
         ],
         "priorityThresh": 5
@@ -1854,7 +1882,8 @@
             "admin0": "United States",
             "admin1": "New York",
             "admin2": "Manhattan",
-            "text": "Koreatown, Manhattan, New York"
+            "text": "Koreatown, Manhattan, NY",
+            "admin1_abbr": "NY"
           },
           {
             "layer": "geoname",
@@ -1863,7 +1892,8 @@
             "admin0": "United States",
             "admin1": "New York",
             "admin2": "New York County",
-            "text": "Koreatown, New York County, New York"
+            "text": "Koreatown, New York County, NY",
+            "admin1_abbr": "NY"
           }
         ],
         "priorityThresh": 9
@@ -1885,7 +1915,8 @@
             "admin0": "United States",
             "admin1": "New York",
             "admin2": "Queens County",
-            "text": "Astoria Park, Queens County, New York"
+            "text": "Astoria Park, Queens County, NY",
+            "admin1_abbr": "NY"
           }
         ],
         "priorityThresh": 3
@@ -1907,7 +1938,8 @@
             "admin0": "United States",
             "admin1": "New York",
             "admin2": "New York County",
-            "text": "Brooklyn Bridge, New York County, New York"
+            "text": "Brooklyn Bridge, New York County, NY",
+            "admin1_abbr": "NY"
           }
         ],
         "priorityThresh": 2
@@ -1994,7 +2026,8 @@
             "admin0": "United States",
             "admin1": "New York",
             "admin2": "New York County",
-            "text": "Manhattan Bridge, New York County, New York"
+            "text": "Manhattan Bridge, New York County, NY",
+            "admin1_abbr": "NY"
           }
         ],
         "priorityThresh": 1
@@ -2029,7 +2062,8 @@
             "admin0": "United States",
             "admin1": "New York",
             "admin2": "New York County",
-            "text": "Empire State Building, New York County, New York"
+            "text": "Empire State Building, New York County, NY",
+            "admin1_abbr": "NY"
           }
         ],
         "priorityThresh": 2
@@ -2064,7 +2098,8 @@
             "admin0": "United States",
             "admin1": "New York",
             "admin2": "New York County",
-            "text": "Chrysler Building, New York County, New York"
+            "text": "Chrysler Building, New York County, NY",
+            "admin1_abbr": "NY"
           },
           {
             "layer": "geoname",
@@ -2073,7 +2108,8 @@
             "admin0": "United States",
             "admin1": "New York",
             "admin2": "New York County",
-            "text": "Chrysler Building, New York County, New York"
+            "text": "Chrysler Building, New York County, NY",
+            "admin1_abbr": "NY"
           }
         ],
         "priorityThresh": 3
@@ -2108,7 +2144,8 @@
             "admin0": "United States",
             "admin1": "New York",
             "admin2": "New York County",
-            "text": "Rockefeller Center, New York County, New York"
+            "text": "Rockefeller Center, New York County, NY",
+            "admin1_abbr": "NY"
           }
         ],
         "priorityThresh": 4
@@ -2130,7 +2167,8 @@
             "admin0": "United States",
             "admin1": "Pennsylvania",
             "admin2": "Bucks County",
-            "text": "Furlong, Bucks County, Pennsylvania"
+            "text": "Furlong, Bucks County, PA",
+            "admin1_abbr": "PA"
           }
         ],
         "priorityThresh": 3
@@ -2152,7 +2190,8 @@
             "admin0": "United States",
             "admin1": "Pennsylvania",
             "admin2": "Bucks County",
-            "text": "Doylestown, Bucks County, Pennsylvania"
+            "text": "Doylestown, Bucks County, PA",
+            "admin1_abbr": "PA"
           },
           {
             "layer": "osmnode",
@@ -2291,7 +2330,8 @@
             "admin0": "United States",
             "admin1": "Connecticut",
             "admin2": "Fairfield County",
-            "text": "Stamford Station, Fairfield County, Connecticut"
+            "text": "Stamford Station, Fairfield County, CT",
+            "admin1_abbr": "CT"
           }
         ],
         "priorityThresh": 2
@@ -2456,7 +2496,8 @@
             "admin0": "United States",
             "admin1": "New Jersey",
             "admin2": "Mercer County",
-            "text": "Princeton Junction, Mercer County, New Jersey"
+            "text": "Princeton Junction, Mercer County, NJ",
+            "admin1_abbr": "NJ"
           }
         ],
         "priorityThresh": 1
@@ -2478,7 +2519,8 @@
             "admin0": "United States",
             "admin1": "California",
             "admin2": "Los Angeles County",
-            "text": "Toluca Lake, Los Angeles, California"
+            "text": "Toluca Lake, Los Angeles, CA",
+            "admin1_abbr": "CA"
           }
         ],
         "priorityThresh": 1
@@ -2502,7 +2544,8 @@
             "admin2": "Los Angeles County",
             "locality": "Los Angeles",
             "neighborhood": "Toluca Lake",
-            "text": "4636 Cahuenga Boulevard, Los Angeles, California"
+            "text": "4636 Cahuenga Boulevard, Los Angeles, CA",
+            "admin1_abbr": "CA"
           }
         ],
         "priorityThresh": 1
@@ -2652,7 +2695,8 @@
             "admin0": "United States",
             "admin1": "New York",
             "admin2": "Queens",
-            "text": "Astoria, Queens, New York"
+            "text": "Astoria, Queens, NY",
+            "admin1_abbr": "NY"
           },
           {
             "layer": "geoname",
@@ -2661,7 +2705,8 @@
             "admin0": "United States",
             "admin1": "New York",
             "admin2": "Queens County",
-            "text": "Astoria, Queens County, New York"
+            "text": "Astoria, Queens County, NY",
+            "admin1_abbr": "NY"
           }
         ],
         "priorityThresh": 2
@@ -2772,7 +2817,8 @@
             "admin1": "California",
             "admin2": "Santa Barbara County",
             "locality": "Santa Barbara",
-            "text": "1900 Chapala  Street, Santa Barbara, California"
+            "text": "1900 Chapala  Street, Santa Barbara, CA",
+            "admin1_abbr": "CA"
           }
         ],
         "priorityThresh": 1
@@ -2796,7 +2842,8 @@
             "admin2": "San Mateo County",
             "locality": "Burlingame",
             "neighborhood": "Downtown Burlingame",
-            "text": "128 Lorton Avenue, Burlingame, California"
+            "text": "128 Lorton Avenue, Burlingame, CA",
+            "admin1_abbr": "CA"
           }
         ],
         "priorityThresh": 2
@@ -2846,7 +2893,8 @@
             "admin2": "District of Columbia",
             "locality": "Washington",
             "neighborhood": "Franklin Mcpherson Square",
-            "text": "1600 Pennsylvania Avenue Northwest, Washington, District of Columbia"
+            "text": "1600 Pennsylvania Avenue Northwest, Washington, DC",
+            "admin1_abbr": "DC"
           }
         ],
         "priorityThresh": 9
@@ -2896,7 +2944,8 @@
             "admin2": "San Francisco County",
             "locality": "San Francisco",
             "neighborhood": "Transmission",
-            "text": "54 Tiffany Avenue, San Francisco, California"
+            "text": "54 Tiffany Avenue, San Francisco, CA",
+            "admin1_abbr": "CA"
           }
         ],
         "priorityThresh": 1
@@ -2969,7 +3018,8 @@
             "admin0": "United States",
             "admin1": "Alaska",
             "admin2": "Fairbanks North Star Borough",
-            "text": "North Pole, Fairbanks North Star Borough, Alaska"
+            "text": "North Pole, Fairbanks North Star Borough, AK",
+            "admin1_abbr": "AK"
           }
         ],
         "priorityThresh": 1
@@ -3059,7 +3109,8 @@
             "admin0": "United States",
             "admin1": "Virginia",
             "admin2": "York County",
-            "text": "112 Castellow Court, York, Virginia"
+            "text": "112 Castellow Court, York, VA",
+            "admin1_abbr": "VA"
           }
         ],
         "priorityThresh": 1
@@ -3081,7 +3132,8 @@
             "admin0": "United States",
             "admin1": "New York",
             "admin2": "Manhattan",
-            "text": "Flatiron District, Manhattan, New York"
+            "text": "Flatiron District, Manhattan, NY",
+            "admin1_abbr": "NY"
           },
           {
             "layer": "geoname",
@@ -3090,7 +3142,8 @@
             "admin0": "United States",
             "admin1": "New York",
             "admin2": "New York County",
-            "text": "Flatiron District, New York County, New York"
+            "text": "Flatiron District, New York County, NY",
+            "admin1_abbr": "NY"
           },
           {
             "layer": "neighborhood",
@@ -3118,7 +3171,8 @@
             "admin0": "United States",
             "admin1": "New York",
             "admin2": "Manhattan",
-            "text": "Soho, Manhattan, New York"
+            "text": "Soho, Manhattan, NY",
+            "admin1_abbr": "NY"
           }
         ],
         "priorityThresh": 2
@@ -3166,7 +3220,8 @@
             "local_admin": "Manhattan",
             "locality": "New York",
             "neighborhood": "East Village",
-            "text": "101 Saint Marks Place, Manhattan, New York"
+            "text": "101 Saint Marks Place, Manhattan, NY",
+            "admin1_abbr": "NY"
           },
           {
             "layer": "osmaddress",
@@ -3247,7 +3302,8 @@
             "admin0": "United States",
             "admin1": "Maryland",
             "admin2": "Cecil County",
-            "text": "Port Deposit, Cecil County, Maryland"
+            "text": "Port Deposit, Cecil County, MD",
+            "admin1_abbr": "MD"
           }
         ],
         "priorityThresh": 1
@@ -3397,7 +3453,8 @@
             "admin2": "San Francisco County",
             "locality": "San Francisco",
             "neighborhood": "Transmission",
-            "text": "20 Montezuma Street, San Francisco, California"
+            "text": "20 Montezuma Street, San Francisco, CA",
+            "admin1_abbr": "CA"
           }
         ],
         "priorityThresh": 1
