@@ -11,7 +11,6 @@
       "expected": {
         "properties": [
           {
-            "type": "osmnode",
             "layer": "osmnode",
             "name": "AsiaSF",
             "alpha3": "USA",
@@ -37,7 +36,6 @@
       "expected": {
         "properties": [
           {
-            "type": "openaddresses",
             "layer": "openaddresses",
             "name": "37 덕수궁길 서울시청 서소문별관 서소문별관(제2동)",
             "alpha3": "KOR",
@@ -62,7 +60,6 @@
       "expected": {
         "properties": [
           {
-            "type": "osmaddress",
             "layer": "osmaddress",
             "name": "1200 New Jersey Ave SE",
             "alpha3": "USA",
@@ -75,7 +72,6 @@
             "text": "1200 New Jersey Ave SE, Washington, DC"
           },
           {
-            "type": "osmaddress",
             "layer": "osmaddress",
             "name": "1200 New Jersey Avenue SE",
             "alpha3": "USA",
@@ -101,7 +97,6 @@
       "expected": {
         "properties": [
           {
-            "type": "osmway",
             "layer": "osmway",
             "name": "Yankee Stadium",
             "alpha3": "USA",
@@ -115,7 +110,6 @@
             "text": "Yankee Stadium, Bronx, NY"
           },
           {
-            "type": "geoname",
             "layer": "geoname",
             "name": "Yankee Stadium",
             "alpha3": "USA",
@@ -138,7 +132,6 @@
       "expected": {
         "properties": [
           {
-            "type": "osmnode",
             "layer": "osmnode",
             "name": "Sheldonville Post Office",
             "alpha3": "USA",
@@ -151,7 +144,6 @@
             "text": "Sheldonville Post Office, Wrentham, MA"
           },
           {
-            "type": "osmnode",
             "layer": "osmnode",
             "name": "Sheldonville Post Office",
             "alpha3": "USA",
@@ -164,7 +156,6 @@
             "text": "Sheldonville Post Office, Wrentham, MA"
           },
           {
-            "type": "osmnode",
             "layer": "osmnode",
             "name": "Sheldonville Post Office",
             "alpha3": "USA",
@@ -177,7 +168,6 @@
             "text": "Sheldonville Post Office, Wrentham, MA"
           },
           {
-            "type": "osmnode",
             "layer": "osmnode",
             "name": "Sheldonville Post Office",
             "alpha3": "USA",
@@ -190,7 +180,6 @@
             "text": "Sheldonville Post Office, Wrentham, MA"
           },
           {
-            "type": "osmnode",
             "layer": "osmnode",
             "name": "Sheldonville Post Office",
             "alpha3": "USA",
@@ -216,7 +205,6 @@
       "expected": {
         "properties": [
           {
-            "type": "neighborhood",
             "layer": "neighborhood",
             "name": "Lickdale",
             "alpha3": "USA",
@@ -226,7 +214,6 @@
             "text": "Lickdale, Lebanon, Pennsylvania"
           },
           {
-            "type": "geoname",
             "layer": "geoname",
             "name": "Lickdale",
             "alpha3": "USA",
@@ -249,7 +236,6 @@
       "expected": {
         "properties": [
           {
-            "type": "geoname",
             "layer": "geoname",
             "name": "Ono",
             "alpha3": "USA",
@@ -272,7 +258,6 @@
       "expected": {
         "properties": [
           {
-            "type": "openaddresses",
             "layer": "openaddresses",
             "name": "291 Woodrow Lane",
             "alpha3": "USA",
@@ -295,7 +280,6 @@
       "expected": {
         "properties": [
           {
-            "type": "osmnode",
             "layer": "osmnode",
             "name": "AT&T Park",
             "alpha3": "USA",
@@ -308,7 +292,6 @@
             "text": "AT&T Park, San Francisco, CA"
           },
           {
-            "type": "osmway",
             "layer": "osmway",
             "name": "AT&T Park",
             "alpha3": "USA",
@@ -321,7 +304,6 @@
             "text": "AT&T Park, San Francisco, CA"
           },
           {
-            "type": "osmway",
             "layer": "osmway",
             "name": "AT&T Park",
             "alpha3": "USA",
@@ -334,7 +316,6 @@
             "text": "AT&T Park, San Francisco, CA"
           },
           {
-            "type": "geoname",
             "layer": "geoname",
             "name": "AT&T Park",
             "alpha3": "USA",
@@ -344,7 +325,6 @@
             "text": "AT&T Park, San Francisco County, California"
           },
           {
-            "type": "geoname",
             "layer": "geoname",
             "name": "AT&T Park",
             "alpha3": "USA",
@@ -367,7 +347,6 @@
       "expected": {
         "properties": [
           {
-            "type": "geoname",
             "layer": "geoname",
             "name": "Urnäsch",
             "alpha3": "CHE",
@@ -377,7 +356,6 @@
             "text": "Urnäsch, Bezirk Hinterland, Appenzell Ausserrhoden"
           },
           {
-            "type": "geoname",
             "layer": "geoname",
             "name": "Urnäsch",
             "alpha3": "CHE",
@@ -387,7 +365,6 @@
             "text": "Urnäsch, Bezirk Hinterland, Appenzell Ausserrhoden"
           },
           {
-            "type": "osmway",
             "layer": "osmway",
             "name": "Urnäsch",
             "alpha3": "CHE",
@@ -399,7 +376,6 @@
             "text": "Urnäsch, Appenzell Ausserrhoden"
           },
           {
-            "type": "osmnode",
             "layer": "osmnode",
             "name": "Urnäsch",
             "alpha3": "CHE",
@@ -424,7 +400,6 @@
       "expected": {
         "properties": [
           {
-            "type": "osmway",
             "layer": "osmway",
             "name": "Carleton College",
             "alpha3": "USA",
@@ -436,7 +411,6 @@
             "text": "Carleton College, Waterford, MN"
           },
           {
-            "type": "osmnode",
             "layer": "osmnode",
             "name": "Carleton College",
             "alpha3": "USA",
@@ -449,7 +423,6 @@
             "text": "Carleton College, Northfield, MN"
           },
           {
-            "type": "geoname",
             "layer": "geoname",
             "name": "Carleton College",
             "alpha3": "USA",
@@ -472,7 +445,6 @@
       "expected": {
         "properties": [
           {
-            "type": "geoname",
             "layer": "geoname",
             "name": "Eek",
             "alpha3": "USA",
@@ -495,7 +467,6 @@
       "expected": {
         "properties": [
           {
-            "type": "osmway",
             "layer": "osmway",
             "name": "San Francisco City Hall",
             "alpha3": "USA",
@@ -508,7 +479,6 @@
             "text": "San Francisco City Hall, San Francisco, CA"
           },
           {
-            "type": "osmnode",
             "layer": "osmnode",
             "name": "San Francisco City Hall",
             "alpha3": "USA",
@@ -521,7 +491,6 @@
             "text": "San Francisco City Hall, San Francisco, CA"
           },
           {
-            "type": "osmnode",
             "layer": "osmnode",
             "name": "Polk & McAllister (City Hall",
             "alpha3": "USA",
@@ -534,7 +503,6 @@
             "text": "Polk & McAllister (City Hall, San Francisco, CA"
           },
           {
-            "type": "geoname",
             "layer": "geoname",
             "name": "San Francisco City Hall",
             "alpha3": "USA",
@@ -557,7 +525,6 @@
       "expected": {
         "properties": [
           {
-            "type": "openaddresses",
             "layer": "openaddresses",
             "name": "1288 Pear Avenue",
             "alpha3": "USA",
@@ -582,7 +549,6 @@
       "expected": {
         "properties": [
           {
-            "type": "osmway",
             "layer": "osmway",
             "name": "Cloud Gate",
             "alpha3": "USA",
@@ -609,7 +575,6 @@
       "expected": {
         "properties": [
           {
-            "type": "openaddresses",
             "layer": "openaddresses",
             "name": "1355 Market Street",
             "alpha3": "USA",
@@ -621,7 +586,6 @@
             "text": "1355 Market Street, San Francisco, California"
           },
           {
-            "type": "osmaddress",
             "layer": "osmaddress",
             "name": "1355 Market Street",
             "alpha3": "USA",
@@ -647,7 +611,6 @@
       "expected": {
         "properties": [
           {
-            "type": "openaddresses",
             "layer": "openaddresses",
             "name": "568 Broadway",
             "alpha3": "USA",
@@ -673,7 +636,6 @@
       "expected": {
         "properties": [
           {
-            "type": "osmway",
             "layer": "osmway",
             "name": "Cafe Regular du Nord",
             "alpha3": "USA",
@@ -700,7 +662,6 @@
       "expected": {
         "properties": [
           {
-            "type": "openaddresses",
             "layer": "openaddresses",
             "name": "275 Brannan Street",
             "alpha3": "USA",
@@ -725,7 +686,6 @@
       "expected": {
         "properties": [
           {
-            "type": "osmaddress",
             "layer": "osmaddress",
             "name": "155 9th",
             "alpha3": "USA",
@@ -751,7 +711,6 @@
       "expected": {
         "properties": [
           {
-            "type": "osmway",
             "layer": "osmway",
             "name": "Le Louvre",
             "alpha3": "FRA",
@@ -777,7 +736,6 @@
       "expected": {
         "properties": [
           {
-            "type": "osmway",
             "layer": "osmway",
             "name": "Brooklyn Museum of Art",
             "alpha3": "USA",
@@ -803,7 +761,6 @@
       "expected": {
         "properties": [
           {
-            "type": "osmnode",
             "layer": "osmnode",
             "name": "Cornell University",
             "alpha3": "USA",
@@ -830,7 +787,6 @@
       "expected": {
         "properties": [
           {
-            "type": "osmway",
             "layer": "osmway",
             "name": "Ithaca Farmers' Market",
             "alpha3": "USA",
@@ -857,7 +813,6 @@
       "expected": {
         "properties": [
           {
-            "type": "osmnode",
             "layer": "osmnode",
             "name": "Cambridge St @ Dana St",
             "alpha3": "USA",
@@ -884,7 +839,6 @@
       "expected": {
         "properties": [
           {
-            "type": "neighborhood",
             "layer": "neighborhood",
             "name": "Park Slope",
             "alpha3": "USA",
@@ -907,7 +861,6 @@
       "expected": {
         "properties": [
           {
-            "type": "osmnode",
             "layer": "osmnode",
             "name": "Slope Park",
             "alpha3": "USA",
@@ -934,7 +887,6 @@
       "expected": {
         "properties": [
           {
-            "type": "osmway",
             "layer": "osmway",
             "name": "J.J. Byrne Playground",
             "alpha3": "USA",
@@ -961,7 +913,6 @@
       "expected": {
         "properties": [
           {
-            "type": "osmway",
             "layer": "osmway",
             "name": "One Canada Square",
             "alpha3": "GBR",
@@ -985,7 +936,6 @@
       "expected": {
         "properties": [
           {
-            "type": "osmway",
             "layer": "osmway",
             "name": "Space Needle",
             "alpha3": "USA",
@@ -1011,7 +961,6 @@
       "expected": {
         "properties": [
           {
-            "type": "osmway",
             "layer": "osmway",
             "name": "Newark Liberty International Airport",
             "alpha3": "USA",
@@ -1025,7 +974,6 @@
             "text": "Newark Liberty International Airport, Newark, NJ"
           },
           {
-            "type": "osmnode",
             "layer": "osmnode",
             "name": "Newark Liberty Airport Station",
             "alpha3": "USA",
@@ -1052,7 +1000,6 @@
       "expected": {
         "properties": [
           {
-            "type": "geoname",
             "layer": "geoname",
             "name": "Volterrano",
             "alpha3": "ITA",
@@ -1075,7 +1022,6 @@
       "expected": {
         "properties": [
           {
-            "type": "osmnode",
             "layer": "osmnode",
             "name": "Code for America",
             "alpha3": "USA",
@@ -1101,7 +1047,6 @@
       "expected": {
         "properties": [
           {
-            "type": "osmnode",
             "layer": "osmnode",
             "name": "St Francis Fountain",
             "alpha3": "USA",
@@ -1113,7 +1058,6 @@
             "text": "St Francis Fountain, San Francisco, CA"
           },
           {
-            "type": "osmway",
             "layer": "osmway",
             "name": "St Francis Fountain",
             "alpha3": "USA",
@@ -1138,7 +1082,6 @@
       "expected": {
         "properties": [
           {
-            "type": "openaddresses",
             "layer": "openaddresses",
             "name": "3107 Hyde Street",
             "alpha3": "USA",
@@ -1163,7 +1106,6 @@
       "expected": {
         "properties": [
           {
-            "type": "openaddresses",
             "layer": "openaddresses",
             "name": "2633 Telegraph Avenue",
             "alpha3": "USA",
@@ -1188,7 +1130,6 @@
       "expected": {
         "properties": [
           {
-            "type": "openaddresses",
             "layer": "openaddresses",
             "name": "961 Andover Way",
             "alpha3": "USA",
@@ -1213,7 +1154,6 @@
       "expected": {
         "properties": [
           {
-            "type": "osmway",
             "layer": "osmway",
             "name": "Lambeau Field",
             "alpha3": "USA",
@@ -1240,7 +1180,6 @@
       "expected": {
         "properties": [
           {
-            "type": "openaddresses",
             "layer": "openaddresses",
             "name": "1710 Drew Street",
             "alpha3": "USA",
@@ -1265,7 +1204,6 @@
       "expected": {
         "properties": [
           {
-            "type": "geoname",
             "layer": "geoname",
             "name": "Asia",
             "text": "Asia"
@@ -1284,7 +1222,6 @@
       "expected": {
         "properties": [
           {
-            "type": "neighborhood",
             "layer": "neighborhood",
             "name": "Golden Gate Park",
             "alpha3": "USA",
@@ -1307,7 +1244,6 @@
       "expected": {
         "properties": [
           {
-            "type": "osmway",
             "layer": "osmway",
             "name": "Precita Park",
             "alpha3": "USA",
@@ -1333,7 +1269,6 @@
       "expected": {
         "properties": [
           {
-            "type": "osmway",
             "layer": "osmway",
             "name": "Aquatic Park",
             "alpha3": "USA",
@@ -1359,7 +1294,6 @@
       "expected": {
         "properties": [
           {
-            "type": "osmway",
             "layer": "osmway",
             "name": "Transamerica Pyramid",
             "alpha3": "USA",
@@ -1385,7 +1319,6 @@
       "expected": {
         "properties": [
           {
-            "type": "osmway",
             "layer": "osmway",
             "name": "San Francisco Caltrain Station",
             "alpha3": "USA",
@@ -1411,7 +1344,6 @@
       "expected": {
         "properties": [
           {
-            "type": "osmnode",
             "layer": "osmnode",
             "name": "22nd Street Caltrain Station",
             "alpha3": "USA",
@@ -1437,7 +1369,6 @@
       "expected": {
         "properties": [
           {
-            "type": "osmnode",
             "layer": "osmnode",
             "name": "UCSF Mission Bay",
             "alpha3": "USA",
@@ -1463,7 +1394,6 @@
       "expected": {
         "properties": [
           {
-            "type": "geoname",
             "layer": "geoname",
             "name": "Cowboys Stadium",
             "alpha3": "USA",
@@ -1486,7 +1416,6 @@
       "expected": {
         "properties": [
           {
-            "type": "geoname",
             "layer": "geoname",
             "name": "San Quentin",
             "alpha3": "USA",
@@ -1496,7 +1425,6 @@
             "text": "San Quentin, Marin County, California"
           },
           {
-            "type": "geoname",
             "layer": "geoname",
             "name": "San Quentin State Prison",
             "alpha3": "USA",
@@ -1519,7 +1447,6 @@
       "expected": {
         "properties": [
           {
-            "type": "osmnode",
             "layer": "osmnode",
             "name": "Melt Shop",
             "alpha3": "USA",
@@ -1546,7 +1473,6 @@
       "expected": {
         "properties": [
           {
-            "type": "osmnode",
             "layer": "osmnode",
             "name": "Summit Ave @ Lafayette Ave",
             "alpha3": "USA",
@@ -1560,7 +1486,6 @@
             "text": "Summit Ave @ Lafayette Ave, Chelsea, MA"
           },
           {
-            "type": "osmnode",
             "layer": "osmnode",
             "name": "Lafayette St @ Clifton Ave",
             "alpha3": "USA",
@@ -1586,7 +1511,6 @@
       "expected": {
         "properties": [
           {
-            "type": "osmnode",
             "layer": "osmnode",
             "name": "San Francisco Caltrain (Townsend at 4th",
             "alpha3": "USA",
@@ -1612,7 +1536,6 @@
       "expected": {
         "properties": [
           {
-            "type": "osmnode",
             "layer": "osmnode",
             "name": "Nestldown",
             "alpha3": "USA",
@@ -1636,7 +1559,6 @@
       "expected": {
         "properties": [
           {
-            "type": "osmway",
             "layer": "osmway",
             "name": "UIC",
             "alpha3": "USA",
@@ -1650,7 +1572,6 @@
             "text": "UIC, Chicago, IL"
           },
           {
-            "type": "osmway",
             "layer": "osmway",
             "name": "UIC",
             "alpha3": "USA",
@@ -1664,7 +1585,6 @@
             "text": "UIC, Chicago, IL"
           },
           {
-            "type": "osmnode",
             "layer": "osmnode",
             "name": "UIC-Halsted",
             "alpha3": "USA",
@@ -1678,7 +1598,6 @@
             "text": "UIC-Halsted, Chicago, IL"
           },
           {
-            "type": "osmnode",
             "layer": "osmnode",
             "name": "UIC-Halsted",
             "alpha3": "USA",
@@ -1705,7 +1624,6 @@
       "expected": {
         "properties": [
           {
-            "type": "osmway",
             "layer": "osmway",
             "name": "Ferry Building",
             "alpha3": "USA",
@@ -1718,7 +1636,6 @@
             "text": "Ferry Building, San Francisco, CA"
           },
           {
-            "type": "geoname",
             "layer": "geoname",
             "name": "Ferry Building",
             "alpha3": "USA",
@@ -1741,7 +1658,6 @@
       "expected": {
         "properties": [
           {
-            "type": "openaddresses",
             "layer": "openaddresses",
             "name": "266 Brooklyn Avenue",
             "alpha3": "USA",
@@ -1767,7 +1683,6 @@
       "expected": {
         "properties": [
           {
-            "type": "openaddresses",
             "layer": "openaddresses",
             "name": "721 Broadway",
             "alpha3": "USA",
@@ -1793,7 +1708,6 @@
       "expected": {
         "properties": [
           {
-            "type": "geoname",
             "layer": "geoname",
             "name": "Perugia San Francesco d'Assisi – Umbria International Airport",
             "alpha3": "ITA",
@@ -1816,7 +1730,6 @@
       "expected": {
         "properties": [
           {
-            "type": "geoname",
             "layer": "geoname",
             "name": "Leonardo da Vinci–Fiumicino Airport",
             "alpha3": "ITA",
@@ -1839,7 +1752,6 @@
       "expected": {
         "properties": [
           {
-            "type": "geoname",
             "layer": "geoname",
             "name": "Washington Dulles International Airport",
             "alpha3": "USA",
@@ -1862,7 +1774,6 @@
       "expected": {
         "properties": [
           {
-            "type": "geoname",
             "layer": "geoname",
             "name": "Madison Square Park",
             "alpha3": "USA",
@@ -1885,7 +1796,6 @@
       "expected": {
         "properties": [
           {
-            "type": "osmway",
             "layer": "osmway",
             "name": "Madison Square Garden",
             "alpha3": "USA",
@@ -1912,7 +1822,6 @@
       "expected": {
         "properties": [
           {
-            "type": "osmnode",
             "layer": "osmnode",
             "name": "Flatiron Hall",
             "alpha3": "USA",
@@ -1939,7 +1848,6 @@
       "expected": {
         "properties": [
           {
-            "type": "neighborhood",
             "layer": "neighborhood",
             "name": "Koreatown",
             "alpha3": "USA",
@@ -1949,7 +1857,6 @@
             "text": "Koreatown, Manhattan, New York"
           },
           {
-            "type": "geoname",
             "layer": "geoname",
             "name": "Koreatown",
             "alpha3": "USA",
@@ -1972,7 +1879,6 @@
       "expected": {
         "properties": [
           {
-            "type": "geoname",
             "layer": "geoname",
             "name": "Astoria Park",
             "alpha3": "USA",
@@ -1995,7 +1901,6 @@
       "expected": {
         "properties": [
           {
-            "type": "geoname",
             "layer": "geoname",
             "name": "Brooklyn Bridge",
             "alpha3": "USA",
@@ -2018,7 +1923,6 @@
       "expected": {
         "properties": [
           {
-            "type": "osmway",
             "layer": "osmway",
             "name": "Washington Square Park",
             "alpha3": "USA",
@@ -2045,7 +1949,6 @@
       "expected": {
         "properties": [
           {
-            "type": "osmway",
             "layer": "osmway",
             "name": "Brooklyn Bridge Park",
             "alpha3": "USA",
@@ -2059,7 +1962,6 @@
             "text": "Brooklyn Bridge Park, Brooklyn, NY"
           },
           {
-            "type": "osmway",
             "layer": "osmway",
             "name": "Brooklyn Bridge Park",
             "alpha3": "USA",
@@ -2086,7 +1988,6 @@
       "expected": {
         "properties": [
           {
-            "type": "geoname",
             "layer": "geoname",
             "name": "Manhattan Bridge",
             "alpha3": "USA",
@@ -2109,7 +2010,6 @@
       "expected": {
         "properties": [
           {
-            "type": "osmway",
             "layer": "osmway",
             "name": "Empire State Building",
             "alpha3": "USA",
@@ -2123,7 +2023,6 @@
             "text": "Empire State Building, Manhattan, NY"
           },
           {
-            "type": "geoname",
             "layer": "geoname",
             "name": "Empire State Building",
             "alpha3": "USA",
@@ -2146,7 +2045,6 @@
       "expected": {
         "properties": [
           {
-            "type": "osmway",
             "layer": "osmway",
             "name": "Chrysler Building",
             "alpha3": "USA",
@@ -2160,7 +2058,6 @@
             "text": "Chrysler Building, Manhattan, NY"
           },
           {
-            "type": "geoname",
             "layer": "geoname",
             "name": "Chrysler Building",
             "alpha3": "USA",
@@ -2170,7 +2067,6 @@
             "text": "Chrysler Building, New York County, New York"
           },
           {
-            "type": "geoname",
             "layer": "geoname",
             "name": "Chrysler Building",
             "alpha3": "USA",
@@ -2193,7 +2089,6 @@
       "expected": {
         "properties": [
           {
-            "type": "osmway",
             "layer": "osmway",
             "name": "Rockefeller Center",
             "alpha3": "USA",
@@ -2207,7 +2102,6 @@
             "text": "Rockefeller Center, Manhattan, NY"
           },
           {
-            "type": "geoname",
             "layer": "geoname",
             "name": "Rockefeller Center",
             "alpha3": "USA",
@@ -2230,7 +2124,6 @@
       "expected": {
         "properties": [
           {
-            "type": "geoname",
             "layer": "geoname",
             "name": "Furlong",
             "alpha3": "USA",
@@ -2253,7 +2146,6 @@
       "expected": {
         "properties": [
           {
-            "type": "geoname",
             "layer": "geoname",
             "name": "Doylestown",
             "alpha3": "USA",
@@ -2263,7 +2155,6 @@
             "text": "Doylestown, Bucks County, Pennsylvania"
           },
           {
-            "type": "osmnode",
             "layer": "osmnode",
             "name": "Doylestown",
             "alpha3": "USA",
@@ -2290,7 +2181,6 @@
       "expected": {
         "properties": [
           {
-            "type": "osmnode",
             "layer": "osmnode",
             "name": "Times Square",
             "alpha3": "USA",
@@ -2317,7 +2207,6 @@
       "expected": {
         "properties": [
           {
-            "type": "osmway",
             "layer": "osmway",
             "name": "11 Times Square",
             "alpha3": "USA",
@@ -2344,7 +2233,6 @@
       "expected": {
         "properties": [
           {
-            "type": "osmway",
             "layer": "osmway",
             "name": "Bombay Sandwich Co",
             "alpha3": "USA",
@@ -2371,7 +2259,6 @@
       "expected": {
         "properties": [
           {
-            "type": "osmway",
             "layer": "osmway",
             "name": "Flatiron Building",
             "alpha3": "USA",
@@ -2398,7 +2285,6 @@
       "expected": {
         "properties": [
           {
-            "type": "geoname",
             "layer": "geoname",
             "name": "Stamford Station",
             "alpha3": "USA",
@@ -2421,7 +2307,6 @@
       "expected": {
         "properties": [
           {
-            "type": "osmway",
             "layer": "osmway",
             "name": "Momoya",
             "alpha3": "USA",
@@ -2448,7 +2333,6 @@
       "expected": {
         "properties": [
           {
-            "type": "osmaddress",
             "layer": "osmaddress",
             "name": "479 Grand Street",
             "alpha3": "USA",
@@ -2475,7 +2359,6 @@
       "expected": {
         "properties": [
           {
-            "type": "osmaddress",
             "layer": "osmaddress",
             "name": "69 West 9th Street",
             "alpha3": "USA",
@@ -2502,7 +2385,6 @@
       "expected": {
         "properties": [
           {
-            "type": "osmnode",
             "layer": "osmnode",
             "name": "Rajiv Chowk",
             "alpha3": "IND",
@@ -2526,7 +2408,6 @@
       "expected": {
         "properties": [
           {
-            "type": "geoname",
             "layer": "geoname",
             "name": "Taj Mahal New Delhi",
             "alpha3": "IND",
@@ -2548,7 +2429,6 @@
       "expected": {
         "properties": [
           {
-            "type": "geoname",
             "layer": "geoname",
             "name": "Taj Palace New Delhi",
             "alpha3": "IND",
@@ -2570,7 +2450,6 @@
       "expected": {
         "properties": [
           {
-            "type": "geoname",
             "layer": "geoname",
             "name": "Princeton Junction",
             "alpha3": "USA",
@@ -2593,7 +2472,6 @@
       "expected": {
         "properties": [
           {
-            "type": "neighborhood",
             "layer": "neighborhood",
             "name": "Toluca Lake",
             "alpha3": "USA",
@@ -2616,7 +2494,6 @@
       "expected": {
         "properties": [
           {
-            "type": "openaddresses",
             "layer": "openaddresses",
             "name": "4636 Cahuenga Boulevard",
             "alpha3": "USA",
@@ -2641,7 +2518,6 @@
       "expected": {
         "properties": [
           {
-            "type": "osmnode",
             "layer": "osmnode",
             "name": "Exploratorium",
             "alpha3": "USA",
@@ -2667,7 +2543,6 @@
       "expected": {
         "properties": [
           {
-            "type": "osmnode",
             "layer": "osmnode",
             "name": "Facebook HQ",
             "alpha3": "USA",
@@ -2693,7 +2568,6 @@
       "expected": {
         "properties": [
           {
-            "type": "osmnode",
             "layer": "osmnode",
             "name": "New York Penn Station",
             "alpha3": "USA",
@@ -2720,7 +2594,6 @@
       "expected": {
         "properties": [
           {
-            "type": "osmway",
             "layer": "osmway",
             "name": "Boston Convention and Exhibition Center",
             "alpha3": "USA",
@@ -2747,7 +2620,6 @@
       "expected": {
         "properties": [
           {
-            "type": "osmaddress",
             "layer": "osmaddress",
             "name": "822 Union Street",
             "alpha3": "USA",
@@ -2774,7 +2646,6 @@
       "expected": {
         "properties": [
           {
-            "type": "neighborhood",
             "layer": "neighborhood",
             "name": "Astoria",
             "alpha3": "USA",
@@ -2784,7 +2655,6 @@
             "text": "Astoria, Queens, New York"
           },
           {
-            "type": "geoname",
             "layer": "geoname",
             "name": "Astoria",
             "alpha3": "USA",
@@ -2807,7 +2677,6 @@
       "expected": {
         "properties": [
           {
-            "type": "osmway",
             "layer": "osmway",
             "name": "Infinite Loop 1",
             "alpha3": "USA",
@@ -2820,7 +2689,6 @@
             "text": "Infinite Loop 1, Cupertino, CA"
           },
           {
-            "type": "osmaddress",
             "layer": "osmaddress",
             "name": "1 Infinite Loop",
             "alpha3": "USA",
@@ -2846,7 +2714,6 @@
       "expected": {
         "properties": [
           {
-            "type": "osmnode",
             "layer": "osmnode",
             "name": "Samsung Accelerator",
             "alpha3": "USA",
@@ -2873,7 +2740,6 @@
       "expected": {
         "properties": [
           {
-            "type": "osmaddress",
             "layer": "osmaddress",
             "name": "1827 Berkeley Way",
             "alpha3": "USA",
@@ -2899,7 +2765,6 @@
       "expected": {
         "properties": [
           {
-            "type": "openaddresses",
             "layer": "openaddresses",
             "name": "1900 Chapala  Street",
             "alpha3": "USA",
@@ -2923,7 +2788,6 @@
       "expected": {
         "properties": [
           {
-            "type": "openaddresses",
             "layer": "openaddresses",
             "name": "128 Lorton Avenue",
             "alpha3": "USA",
@@ -2948,7 +2812,6 @@
       "expected": {
         "properties": [
           {
-            "type": "osmnode",
             "layer": "osmnode",
             "name": "Ace Hotel",
             "alpha3": "USA",
@@ -2975,7 +2838,6 @@
       "expected": {
         "properties": [
           {
-            "type": "openaddresses",
             "layer": "openaddresses",
             "name": "1600 Pennsylvania Avenue Northwest",
             "alpha3": "USA",
@@ -3000,7 +2862,6 @@
       "expected": {
         "properties": [
           {
-            "type": "osmaddress",
             "layer": "osmaddress",
             "name": "318 19th Street",
             "alpha3": "USA",
@@ -3027,7 +2888,6 @@
       "expected": {
         "properties": [
           {
-            "type": "openaddresses",
             "layer": "openaddresses",
             "name": "54 Tiffany Avenue",
             "alpha3": "USA",
@@ -3052,7 +2912,6 @@
       "expected": {
         "properties": [
           {
-            "type": "geoname",
             "layer": "geoname",
             "name": "Himeji Shi",
             "alpha3": "JPN",
@@ -3062,7 +2921,6 @@
             "text": "Himeji Shi, Hyōgo"
           },
           {
-            "type": "geoname",
             "layer": "geoname",
             "name": "Himeji",
             "alpha3": "JPN",
@@ -3084,7 +2942,6 @@
       "expected": {
         "properties": [
           {
-            "type": "geoname",
             "layer": "geoname",
             "name": "Himeji castle",
             "alpha3": "JPN",
@@ -3106,7 +2963,6 @@
       "expected": {
         "properties": [
           {
-            "type": "geoname",
             "layer": "geoname",
             "name": "North Pole",
             "alpha3": "USA",
@@ -3129,7 +2985,6 @@
       "expected": {
         "properties": [
           {
-            "type": "geoname",
             "layer": "geoname",
             "name": "Dhahran",
             "alpha3": "SAU",
@@ -3151,7 +3006,6 @@
       "expected": {
         "properties": [
           {
-            "type": "geoname",
             "layer": "geoname",
             "name": "Traben-Trarbach",
             "alpha3": "DEU",
@@ -3173,7 +3027,6 @@
       "expected": {
         "properties": [
           {
-            "type": "osmnode",
             "layer": "osmnode",
             "name": "Pepe's Pizza",
             "alpha3": "USA",
@@ -3200,7 +3053,6 @@
       "expected": {
         "properties": [
           {
-            "type": "openaddresses",
             "layer": "openaddresses",
             "name": "112 Castellow Court",
             "alpha3": "USA",
@@ -3223,7 +3075,6 @@
       "expected": {
         "properties": [
           {
-            "type": "neighborhood",
             "layer": "neighborhood",
             "name": "Flatiron District",
             "alpha3": "USA",
@@ -3233,7 +3084,6 @@
             "text": "Flatiron District, Manhattan, New York"
           },
           {
-            "type": "geoname",
             "layer": "geoname",
             "name": "Flatiron District",
             "alpha3": "USA",
@@ -3243,7 +3093,6 @@
             "text": "Flatiron District, New York County, New York"
           },
           {
-            "type": "neighborhood",
             "layer": "neighborhood",
             "name": "Flatiron",
             "alpha3": "USA",
@@ -3264,7 +3113,6 @@
       "expected": {
         "properties": [
           {
-            "type": "neighborhood",
             "layer": "neighborhood",
             "name": "Soho",
             "admin0": "United States",
@@ -3286,7 +3134,6 @@
       "expected": {
         "properties": [
           {
-            "type": "osmway",
             "layer": "osmway",
             "name": "DFW",
             "alpha3": "USA",
@@ -3310,7 +3157,6 @@
       "expected": {
         "properties": [
           {
-            "type": "openaddresses",
             "layer": "openaddresses",
             "name": "101 Saint Marks Place",
             "alpha3": "USA",
@@ -3323,7 +3169,6 @@
             "text": "101 Saint Marks Place, Manhattan, New York"
           },
           {
-            "type": "osmaddress",
             "layer": "osmaddress",
             "name": "101 Saint Marks Place",
             "alpha3": "USA",
@@ -3350,7 +3195,6 @@
       "expected": {
         "properties": [
           {
-            "type": "osmway",
             "layer": "osmway",
             "name": "Flatiron Building",
             "alpha3": "USA",
@@ -3377,7 +3221,6 @@
       "expected": {
         "properties": [
           {
-            "type": "neighborhood",
             "layer": "neighborhood",
             "name": "Flatiron",
             "alpha3": "USA",
@@ -3398,7 +3241,6 @@
       "expected": {
         "properties": [
           {
-            "type": "geoname",
             "layer": "geoname",
             "name": "Port Deposit",
             "alpha3": "USA",
@@ -3421,7 +3263,6 @@
       "expected": {
         "properties": [
           {
-            "type": "osmnode",
             "layer": "osmnode",
             "name": "Backfin Blues",
             "alpha3": "USA",
@@ -3446,7 +3287,6 @@
       "expected": {
         "properties": [
           {
-            "type": "osmaddress",
             "layer": "osmaddress",
             "name": "130 Dean Street",
             "alpha3": "USA",
@@ -3473,7 +3313,6 @@
       "expected": {
         "properties": [
           {
-            "type": "osmnode",
             "layer": "osmnode",
             "name": "The Brooklyn Inn",
             "alpha3": "USA",
@@ -3500,7 +3339,6 @@
       "expected": {
         "properties": [
           {
-            "type": "osmway",
             "layer": "osmway",
             "name": "Bascom Hall",
             "alpha3": "USA",
@@ -3526,7 +3364,6 @@
       "expected": {
         "properties": [
           {
-            "type": "osmway",
             "layer": "osmway",
             "name": "Golden Gate Bridge",
             "alpha3": "USA",
@@ -3552,7 +3389,6 @@
       "expected": {
         "properties": [
           {
-            "type": "openaddresses",
             "layer": "openaddresses",
             "name": "20 Montezuma Street",
             "alpha3": "USA",
@@ -3577,7 +3413,6 @@
       "expected": {
         "properties": [
           {
-            "type": "osmnode",
             "layer": "osmnode",
             "name": "Little Griddle",
             "alpha3": "USA",
@@ -3603,7 +3438,6 @@
       "expected": {
         "properties": [
           {
-            "type": "osmnode",
             "layer": "osmnode",
             "name": "Pork Store Cafe Valencia",
             "alpha3": "USA",
@@ -3629,7 +3463,6 @@
       "expected": {
         "properties": [
           {
-            "type": "osmway",
             "layer": "osmway",
             "name": "Warming Hut",
             "alpha3": "USA",
@@ -3655,7 +3488,6 @@
       "expected": {
         "properties": [
           {
-            "type": "geoname",
             "layer": "geoname",
             "name": "Haslital",
             "alpha3": "CHE",

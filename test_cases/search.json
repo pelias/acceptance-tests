@@ -162,7 +162,6 @@
         "priorityThresh": 1,
         "properties": [
           {
-            "type": "neighborhood",
             "layer": "neighborhood",
             "name": "Union Square",
             "alpha3": "USA",
@@ -185,7 +184,6 @@
         "priorityThresh": 1,
         "properties": [
           {
-            "type": "geoname",
             "layer": "geoname",
             "name": "Portland",
             "alpha3": "USA",
@@ -208,7 +206,6 @@
         "priorityThresh": 1,
         "properties": [
           {
-            "type": "geoname",
             "layer": "geoname",
             "name": "Paris",
             "alpha3": "FRA",
@@ -250,7 +247,6 @@
         "priorityThresh": 5,
         "properties": [
           {
-            "type": "neighborhood",
             "layer": "neighborhood",
             "name": "Prospect Park",
             "alpha3": "USA",
@@ -273,7 +269,6 @@
         "priorityThresh": 1,
         "properties": [
           {
-            "type": "geoname",
             "layer": "geoname",
             "name": "London",
             "alpha3": "GBR",
@@ -358,7 +353,6 @@
         "priorityThresh": 1,
         "properties": [
           {
-            "type": "geoname",
             "layer": "geoname",
             "name": "Perugia San Francesco d'Assisi – Umbria International Airport",
             "alpha3": "ITA",
