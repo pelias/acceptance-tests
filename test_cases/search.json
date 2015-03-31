@@ -399,7 +399,7 @@
           {
             "admin0": "United States",
             "admin1": "New York",
-            "admin2": "New York",
+            "admin2": "New York County",
             "alpha3": "USA",
             "local_admin": "Manhattan",
             "locality": "New York",
@@ -423,7 +423,7 @@
           {
             "admin0": "United States",
             "admin1": "New York",
-            "admin2": "New York",
+            "admin2": "New York County",
             "alpha3": "USA",
             "local_admin": "Manhattan",
             "locality": "New York",
@@ -470,7 +470,7 @@
           {
             "admin0": "United States",
             "admin1": "New York",
-            "admin2": "New York",
+            "admin2": "New York County",
             "alpha3": "USA",
             "local_admin": "Manhattan",
             "locality": "New York",
