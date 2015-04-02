@@ -245,7 +245,8 @@
             "admin0": "United States",
             "admin1": "Pennsylvania",
             "admin2": "Lebanon County",
-            "text": "Ono, Lebanon County, PA",
+            "local_admin": "East Hanover",
+            "text": "Ono, East Hanover, PA",
             "admin1_abbr": "PA"
           }
         ],
@@ -268,7 +269,7 @@
             "admin0": "United States",
             "admin1": "Maryland",
             "admin2": "Cecil County",
-            "text": "291 Woodrow Lane, Cecil, MD",
+            "text": "291 Woodrow Lane, Cecil County, MD",
             "admin1_abbr": "MD"
           }
         ],
@@ -360,7 +361,9 @@
             "admin0": "Switzerland",
             "admin1": "Appenzell Ausserrhoden",
             "admin2": "Bezirk Hinterland",
-            "text": "Urnäsch, Bezirk Hinterland, Appenzell Ausserrhoden"
+            "locality": "UrnÃ¤sch",
+            "local_admin": "Urnäsch",
+            "text": "Urnäsch, Appenzell Ausserrhoden"
           },
           {
             "layer": "geoname",
@@ -459,7 +462,8 @@
             "admin0": "United States",
             "admin1": "Alaska",
             "admin2": "Bethel Census Area",
-            "text": "Eek, Bethel Census Area, AK",
+            "locality": "Eek",
+            "text": "Eek, AK",
             "admin1_abbr": "AK"
           }
         ],
@@ -1021,7 +1025,8 @@
             "admin0": "Italy",
             "admin1": "Umbria",
             "admin2": "Provincia di Perugia",
-            "text": "Volterrano, Provincia di Perugia, Umbria"
+            "local_admin": "Città di Castello",
+            "text": "Volterrano, Città di Castello, Umbria"
           }
         ],
         "priorityThresh": 1
@@ -1420,7 +1425,8 @@
             "admin0": "United States",
             "admin1": "Texas",
             "admin2": "Tarrant County",
-            "text": "Cowboys Stadium, Tarrant County, TX",
+            "locality": "Arlington",
+            "text": "Cowboys Stadium, Arlington, TX",
             "admin1_abbr": "TX"
           }
         ],
@@ -1740,7 +1746,8 @@
             "admin0": "Italy",
             "admin1": "Umbria",
             "admin2": "Provincia di Perugia",
-            "text": "Perugia San Francesco d'Assisi – Umbria International Airport, Provincia di Perugia, Umbria"
+            "local_admin": "Perugia",
+            "text": "Perugia San Francesco d'Assisi – Umbria International Airport, Perugia, Umbria"
           }
         ],
         "priorityThresh": 1
@@ -1762,7 +1769,8 @@
             "admin0": "Italy",
             "admin1": "Latium",
             "admin2": "Provincia di Roma",
-            "text": "Leonardo da Vinci–Fiumicino Airport, Provincia di Roma, Latium"
+            "local_admin": "Fiumicino",
+            "text": "Leonardo da Vinci–Fiumicino Airport, Fiumicino, Latium"
           }
         ],
         "priorityThresh": 1
@@ -1915,7 +1923,10 @@
             "admin0": "United States",
             "admin1": "New York",
             "admin2": "Queens County",
-            "text": "Astoria Park, Queens County, NY",
+            "neighborhood": "Steinway",
+            "locality": "New York",
+            "local_admin": "Queens",
+            "text": "Astoria Park, Queens, NY",
             "admin1_abbr": "NY"
           }
         ],
@@ -1938,7 +1949,9 @@
             "admin0": "United States",
             "admin1": "New York",
             "admin2": "New York County",
-            "text": "Brooklyn Bridge, New York County, NY",
+            "locality": "New York",
+            "local_admin": "Manhattan",
+            "text": "Brooklyn Bridge, Manhattan, NY",
             "admin1_abbr": "NY"
           }
         ],
@@ -1968,7 +1981,7 @@
             "text": "Washington Square Park, Manhattan, NY"
           }
         ],
-        "priorityThresh": 3
+        "priorityThresh": 4
       },
       "status": "pass"
     },
@@ -2167,7 +2180,9 @@
             "admin0": "United States",
             "admin1": "Pennsylvania",
             "admin2": "Bucks County",
+            "local_admin": "Buckingham",
             "text": "Furlong, Bucks County, PA",
+            "text": "Furlong, Buckingham, PA",
             "admin1_abbr": "PA"
           }
         ],
@@ -2190,7 +2205,9 @@
             "admin0": "United States",
             "admin1": "Pennsylvania",
             "admin2": "Bucks County",
-            "text": "Doylestown, Bucks County, PA",
+            "locality": "Doylestown",
+            "local_admin": "Doylestown",
+            "text": "Doylestown, PA",
             "admin1_abbr": "PA"
           },
           {
@@ -2330,7 +2347,10 @@
             "admin0": "United States",
             "admin1": "Connecticut",
             "admin2": "Fairfield County",
-            "text": "Stamford Station, Fairfield County, CT",
+            "neighborhood": "Downtown Stamford",
+            "locality": "Stamford",
+            "local_admin": "Stamford",
+            "text": "Stamford Station, Stamford, CT",
             "admin1_abbr": "CT"
           }
         ],
@@ -2430,9 +2450,10 @@
             "alpha3": "IND",
             "admin0": "India",
             "admin1": "Delhi",
-            "admin2": "Alīgarh",
+            "admin2": "New Delhi",
+            "locality": "New Delhi",
             "neighborhood": "Connaught Place",
-            "text": "Rajiv Chowk, Connaught Place, Delhi"
+            "text": "Rajiv Chowk, New Delhi, Delhi"
           }
         ],
         "priorityThresh": 1
@@ -2453,7 +2474,8 @@
             "alpha3": "IND",
             "admin0": "India",
             "admin1": "NCT",
-            "text": "Taj Mahal New Delhi, NCT"
+            "admin2": "New Delhi",
+            "text": "Taj Mahal New Delhi, New Delhi, NCT"
           }
         ],
         "priorityThresh": 1
@@ -2474,7 +2496,10 @@
             "alpha3": "IND",
             "admin0": "India",
             "admin1": "NCT",
-            "text": "Taj Palace New Delhi, NCT"
+            "admin2": "South West Delhi",
+            "neighborhood": "Dhaula Kuan",
+            "locality": "New Delhi",
+            "text": "Taj Palace New Delhi, New Delhi, NCT"
           }
         ],
         "priorityThresh": 1
@@ -2496,7 +2521,9 @@
             "admin0": "United States",
             "admin1": "New Jersey",
             "admin2": "Mercer County",
-            "text": "Princeton Junction, Mercer County, NJ",
+            "locality": "Princeton Junction",
+            "local_admin": "West Windsor",
+            "text": "Princeton Junction, West Windsor, NJ",
             "admin1_abbr": "NJ"
           }
         ],
@@ -2638,7 +2665,7 @@
         "properties": [
           {
             "layer": "osmway",
-            "name": "Boston Convention and Exhibition Center",
+            "name": "Boston Convention & Exhibition Center",
             "alpha3": "USA",
             "admin0": "United States",
             "admin1": "Massachusetts",
@@ -2647,7 +2674,7 @@
             "local_admin": "Boston",
             "locality": "Boston",
             "neighborhood": "Fort Point",
-            "text": "Boston Convention and Exhibition Center, Boston, MA"
+            "text": "Boston Convention & Exhibition Center, Boston, MA"
           }
         ],
         "priorityThresh": 2
@@ -2676,7 +2703,7 @@
             "text": "822 Union Street, Brooklyn, NY"
           }
         ],
-        "priorityThresh": 2
+        "priorityThresh": 3
       },
       "status": "pass"
     },
@@ -2948,7 +2975,7 @@
             "admin1_abbr": "CA"
           }
         ],
-        "priorityThresh": 1
+        "priorityThresh": 3
       },
       "status": "pass"
     },
@@ -2996,7 +3023,8 @@
             "alpha3": "JPN",
             "admin0": "Japan",
             "admin1": "Hyōgo",
-            "text": "Himeji castle, Hyōgo"
+            "locality": "Himeji",
+            "text": "Himeji castle, Himeji, Hyōgo"
           }
         ],
         "priorityThresh": 1
@@ -3018,7 +3046,8 @@
             "admin0": "United States",
             "admin1": "Alaska",
             "admin2": "Fairbanks North Star Borough",
-            "text": "North Pole, Fairbanks North Star Borough, AK",
+            "text": "North Pole, AK",
+            "locality": "North Pole",
             "admin1_abbr": "AK"
           }
         ],
@@ -3040,7 +3069,8 @@
             "alpha3": "SAU",
             "admin0": "Saudi Arabia",
             "admin1": "Eastern Province",
-            "text": "Dhahran, Eastern Province"
+            "admin2": "الدمام",
+            "text": "Dhahran, الدمام, Eastern Province"
           }
         ],
         "priorityThresh": 1
@@ -3109,7 +3139,7 @@
             "admin0": "United States",
             "admin1": "Virginia",
             "admin2": "York County",
-            "text": "112 Castellow Court, York, VA",
+            "text": "112 Castellow Court, York County, VA",
             "admin1_abbr": "VA"
           }
         ],
@@ -3302,7 +3332,8 @@
             "admin0": "United States",
             "admin1": "Maryland",
             "admin2": "Cecil County",
-            "text": "Port Deposit, Cecil County, MD",
+            "locality": "Port Deposit",
+            "text": "Port Deposit, MD",
             "admin1_abbr": "MD"
           }
         ],
@@ -3478,7 +3509,7 @@
             "admin1_abbr": "CA",
             "admin2": "San Francisco County",
             "locality": "San Francisco",
-            "neighborhood": "Intermission",
+            "neighborhood": "Civic Center",
             "text": "Little Griddle, San Francisco, CA"
           }
         ],
@@ -3550,7 +3581,9 @@
             "alpha3": "CHE",
             "admin0": "Switzerland",
             "admin1": "Bern",
-            "text": "Haslital, Bern"
+            "admin2": "Interlaken-Oberhasli",
+            "local_admin": "Innertkirchen",
+            "text": "Haslital, Innertkirchen, Bern"
           }
         ],
         "priorityThresh": 2
