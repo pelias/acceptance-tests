@@ -86,7 +86,7 @@
         ],
         "priorityThresh": 2
       },
-      "status": "pass"
+      "status": "fail"
     },
     {
       "id": "1426636804303:3",
@@ -734,16 +734,16 @@
             "alpha3": "FRA",
             "admin0": "France",
             "admin1": "Paris",
-            "admin2": "Paris-1er-arrondissement",
-            "local_admin": "Paris-1er-arrondissement",
+            "admin2": "Paris-1er-Arrondissement",
+            "local_admin": "Paris-1er-Arrondissement",
             "locality": "Paris",
             "neighborhood": "Quartier Saint-germain-l'auxerrois",
-            "text": "Le Louvre, Paris-1er-arrondissement, Paris"
+            "text": "Le Louvre, Paris-1er-Arrondissement, Paris"
           }
         ],
         "priorityThresh": 7
       },
-      "status": "pass"
+      "status": "fail"
     },
     {
       "id": "1426636804303:21",
@@ -1217,7 +1217,7 @@
         ],
         "priorityThresh": 1
       },
-      "status": "pass"
+      "status": "fail"
     },
     {
       "id": "1426636804303:39",
@@ -1251,14 +1251,14 @@
             "alpha3": "USA",
             "admin0": "United States",
             "admin1": "California",
-            "admin2": "San Francisco County",
+            "admin2": "San Francisco",
             "text": "Golden Gate Park, San Francisco, CA",
             "admin1_abbr": "CA"
           }
         ],
         "priorityThresh": 1
       },
-      "status": "pass"
+      "status": "fail"
     },
     {
       "id": "1426636804303:41",
@@ -1974,7 +1974,7 @@
             "admin0": "United States",
             "admin1": "New York",
             "admin1_abbr": "NY",
-            "admin2": "New York County",
+            "admin2": "New York",
             "local_admin": "Manhattan",
             "locality": "New York",
             "neighborhood": "Noho",
@@ -1983,7 +1983,7 @@
         ],
         "priorityThresh": 5
       },
-      "status": "pass"
+      "status": "fail"
     },
     {
       "id": "1426636804303:67",
@@ -2548,13 +2548,13 @@
             "admin0": "United States",
             "admin1": "California",
             "admin2": "Los Angeles County",
-            "text": "Toluca Lake, Los Angeles, CA",
+            "text": "Toluca Lake, Los Angeles County, CA",
             "admin1_abbr": "CA"
           }
         ],
         "priorityThresh": 1
       },
-      "status": "pass"
+      "status": "fail"
     },
     {
       "id": "1426636804303:87",
@@ -3209,7 +3209,7 @@
         ],
         "priorityThresh": 2
       },
-      "status": "pass"
+      "status": "fail"
     },
     {
       "id": "1426636804303:112",
