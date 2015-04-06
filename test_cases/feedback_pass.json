@@ -36,15 +36,15 @@
       "expected": {
         "properties": [
           {
+            "text": "31 세종대로 서울시청 본관동, Seoul",
+            "neighborhood": "사직동",
+            "locality": "Seoul",
             "layer": "openaddresses",
-            "name": "37 덕수궁길 서울시청 서소문별관 서소문별관(제2동)",
+            "name": "31 세종대로 서울시청 본관동",
             "alpha3": "KOR",
             "admin0": "South Korea",
             "admin1": "Seoul",
-            "admin2": "종로구",
-            "locality": "Seoul",
-            "neighborhood": "사직동",
-            "text": "37 덕수궁길 서울시청 서소문별관 서소문별관(제2동), Seoul"
+            "admin2": "종로구"
           }
         ],
         "priorityThresh": 1
@@ -1480,13 +1480,13 @@
             "name": "Melt Shop",
             "alpha3": "USA",
             "admin0": "United States",
-            "admin1": "New Jersey",
-            "admin1_abbr": "NJ",
+            "admin1": "New York",
+            "admin1_abbr": "NY",
             "admin2": "New York County",
             "local_admin": "Manhattan",
             "locality": "New York",
             "neighborhood": "City Hall Area",
-            "text": "Melt Shop, Manhattan, NJ"
+            "text": "Melt Shop, Manhattan, NY"
           }
         ],
         "priorityThresh": 1
@@ -1572,7 +1572,7 @@
             "admin1": "California",
             "admin1_abbr": "CA",
             "admin2": "Santa Clara County",
-            "text": "Nestldown, Santa Clara, CA"
+            "text": "Nestldown, Santa Clara County, CA"
           }
         ],
         "priorityThresh": 1
@@ -1688,7 +1688,6 @@
       "expected": {
         "properties": [
           {
-            "layer": "openaddresses",
             "name": "266 Brooklyn Avenue",
             "alpha3": "USA",
             "admin0": "United States",
@@ -1714,7 +1713,6 @@
       "expected": {
         "properties": [
           {
-            "layer": "openaddresses",
             "name": "721 Broadway",
             "alpha3": "USA",
             "admin0": "United States",
@@ -1796,7 +1794,7 @@
             "admin1_abbr": "VA"
           }
         ],
-        "priorityThresh": 6
+        "priorityThresh": 7
       },
       "status": "pass"
     },
@@ -1815,7 +1813,9 @@
             "admin0": "United States",
             "admin1": "New York",
             "admin2": "New York County",
-            "text": "Madison Square Park, New York County, NY",
+            "local_admin": "Manhattan",
+            "locality": "New York",
+            "text": "Madison Square Park, Manhattan, NY",
             "admin1_abbr": "NY"
           }
         ],
@@ -1981,7 +1981,7 @@
             "text": "Washington Square Park, Manhattan, NY"
           }
         ],
-        "priorityThresh": 4
+        "priorityThresh": 5
       },
       "status": "pass"
     },
@@ -2003,7 +2003,7 @@
             "admin2": "Kings County",
             "local_admin": "Brooklyn",
             "locality": "New York",
-            "neighborhood": "Dumbo",
+            "neighborhood": "DUMBO",
             "text": "Brooklyn Bridge Park, Brooklyn, NY"
           },
           {
@@ -2039,7 +2039,9 @@
             "admin0": "United States",
             "admin1": "New York",
             "admin2": "New York County",
-            "text": "Manhattan Bridge, New York County, NY",
+            "locality": "New York",
+            "local_admin": "Manhattan",
+            "text": "Manhattan Bridge, Manhattan, NY",
             "admin1_abbr": "NY"
           }
         ],
