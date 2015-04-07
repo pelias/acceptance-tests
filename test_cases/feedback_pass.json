@@ -1258,7 +1258,7 @@
         ],
         "priorityThresh": 1
       },
-      "status": "fail"
+      "status": "pass"
     },
     {
       "id": "1426636804303:41",
@@ -3209,7 +3209,7 @@
         ],
         "priorityThresh": 2
       },
-      "status": "fail"
+      "status": "pass"
     },
     {
       "id": "1426636804303:112",

@@ -324,10 +324,11 @@
             "name": "SoHo",
             "admin0": "United States",
             "admin1": "New York",
+            "admin1_abbr": "NY",
             "admin2": "New York County",
-            "text": "SoHo, New York County, New York",
             "locality": "New York",
-            "local_admin": "Manhattan"
+            "local_admin": "Manhattan",
+            "text": "SoHo, Manhattan, NY"
           }
         ]
       }
