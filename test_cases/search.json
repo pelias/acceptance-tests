@@ -17,7 +17,7 @@
     },
     {
       "id": 2,
-      "status": "fail",
+      "status": "pass",
       "user": "Randy",
       "in": {
         "input": "brooklyn, ny"
@@ -51,10 +51,14 @@
       "expected": {
         "properties": [
           {
-            "text": "Philadelphia, Philadelphia County, Pennsylvania",
+            "text": "Philadelphia, PA",
             "name": "Philadelphia",
             "admin1": "Pennsylvania",
-            "admin0": "United States"
+            "admin0": "United States",
+            "locality": "Philadelphia",
+            "local_admin": "Philadelphia",
+            "admin1_abbr": "PA",
+            "admin2": "Philadelphia County"
           }
         ]
       }
@@ -107,7 +111,7 @@
     },
     {
       "id": 8,
-      "status": "fail",
+      "status": "pass",
       "user": "Randy",
       "in": {
         "input": "billerica, ma"
@@ -162,7 +166,6 @@
         "priorityThresh": 1,
         "properties": [
           {
-            "type": "neighborhood",
             "layer": "neighborhood",
             "name": "Union Square",
             "alpha3": "USA",
@@ -185,14 +188,15 @@
         "priorityThresh": 1,
         "properties": [
           {
-            "type": "geoname",
             "layer": "geoname",
             "name": "Portland",
             "alpha3": "USA",
             "admin0": "United States",
             "admin1": "Oregon",
+            "admin1_abbr": "OR",
             "admin2": "Multnomah County",
-            "text": "Portland, Multnomah County, Oregon"
+            "locality": "Portland",
+            "text": "Portland, OR"
           }
         ]
       }
@@ -205,10 +209,9 @@
         "input": "paris"
       },
       "expected": {
-        "priorityThresh": 1,
+        "priorityThresh": 2,
         "properties": [
           {
-            "type": "geoname",
             "layer": "geoname",
             "name": "Paris",
             "alpha3": "FRA",
@@ -250,7 +253,6 @@
         "priorityThresh": 5,
         "properties": [
           {
-            "type": "neighborhood",
             "layer": "neighborhood",
             "name": "Prospect Park",
             "alpha3": "USA",
@@ -273,7 +275,6 @@
         "priorityThresh": 1,
         "properties": [
           {
-            "type": "geoname",
             "layer": "geoname",
             "name": "London",
             "alpha3": "GBR",
@@ -300,8 +301,11 @@
             "alpha3": "USA",
             "admin0": "United States",
             "admin1": "New York",
+            "admin1_abbr": "NY",
             "admin2": "New York County",
-            "text": "Chelsea, New York County, New York"
+            "locality": "New York",
+            "local_admin": "Manhattan",
+            "text": "Chelsea, Manhattan, NY"
           }
         ]
       }
@@ -320,8 +324,11 @@
             "name": "SoHo",
             "admin0": "United States",
             "admin1": "New York",
+            "admin1_abbr": "NY",
             "admin2": "New York County",
-            "text": "SoHo, New York County, New York"
+            "locality": "New York",
+            "local_admin": "Manhattan",
+            "text": "SoHo, Manhattan, NY"
           }
         ]
       }
@@ -358,14 +365,14 @@
         "priorityThresh": 1,
         "properties": [
           {
-            "type": "geoname",
             "layer": "geoname",
             "name": "Perugia San Francesco d'Assisi – Umbria International Airport",
             "alpha3": "ITA",
             "admin0": "Italy",
             "admin1": "Umbria",
             "admin2": "Provincia di Perugia",
-            "text": "Perugia San Francesco d'Assisi – Umbria International Airport, Provincia di Perugia, Umbria"
+            "local_admin": "Perugia",
+            "text": "Perugia San Francesco d'Assisi – Umbria International Airport, Perugia, Umbria"
           }
         ]
       }
@@ -382,8 +389,9 @@
         "properties": [
           {
             "admin0": "United Kingdom",
-            "admin1": "City and County of the City of London",
+            "admin1": "Southwark",
             "admin2": "Greater London",
+            "locality": "London",
             "alpha3": "GBR",
             "name": "London Bridge",
             "neighborhood": "Bankside",
@@ -394,7 +402,7 @@
     },
     {
       "id": 14,
-      "status": "pass",
+      "status": "fail",
       "user": "hkrishna",
       "in": {
         "input": "statue of liberty"
@@ -405,7 +413,7 @@
           {
             "admin0": "United States",
             "admin1": "New York",
-            "admin2": "New York",
+            "admin2": "New York County",
             "alpha3": "USA",
             "local_admin": "Manhattan",
             "locality": "New York",
@@ -429,20 +437,21 @@
           {
             "admin0": "United States",
             "admin1": "New York",
-            "admin2": "New York",
+            "admin1_abbr": "NY",
+            "admin2": "New York County",
             "alpha3": "USA",
             "local_admin": "Manhattan",
             "locality": "New York",
             "name": "101 Saint Marks Place",
             "neighborhood": "East Village",
-            "text": "101 Saint Marks Place, Manhattan, New York"
+            "text": "101 Saint Marks Place, Manhattan, NY"
           }
         ]
       }
     },
     {
       "id": 16,
-      "status": "pass",
+      "status": "fail",
       "user": "hkrishna",
       "in": {
         "input": "big ben"
@@ -465,7 +474,7 @@
     },
     {
       "id": 17,
-      "status": "pass",
+      "status": "fail",
       "user": "hkrishna",
       "in": {
         "input": "wall street"
@@ -476,7 +485,7 @@
           {
             "admin0": "United States",
             "admin1": "New York",
-            "admin2": "New York",
+            "admin2": "New York County",
             "alpha3": "USA",
             "local_admin": "Manhattan",
             "locality": "New York",
