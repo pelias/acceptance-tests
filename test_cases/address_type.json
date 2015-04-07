@@ -1,0 +1,72 @@
+{
+  "name": "address type",
+  "priorityThresh": 3,
+  "description": [
+    "These tests ensure that address records are stored in a layer which is distict from the POI layers",
+    "see: https://github.com/pelias/openstreetmap/issues/29",
+    "see: https://github.com/pelias/pelias/issues/60"
+  ],
+  "tests": [
+    {
+      "id": "1",
+      "user": "missinglink",
+      "endpoint": "search",
+      "description": [
+        "Ensure address records are stored in the 'osmaddress' layer."
+      ],
+      "in": {
+        "input": "102 Fleet Street",
+        "lat": 51.53177,
+        "lon": -0.06672
+      },
+      "expected": {
+        "properties": [{
+          "id": "address-osmnode-1401849738",
+          "layer": "osmaddress"
+        }]
+      }
+    },
+    {
+      "id": "2",
+      "user": "missinglink",
+      "endpoint": "search",
+      "description": [
+        "Ensure address records are stored in the 'osmaddress' layer.",
+        "Ensure POI records are cloned to 2x different layers",
+        "related: test(3)"
+      ],
+      "in": {
+        "input": "Shepherd and Flock",
+        "lat": 51.219671,
+        "lon": -0.779389
+      },
+      "expected": {
+        "properties": [{
+          "id": "26489964",
+          "layer": "osmnode"
+        }]
+      }
+    },
+    {
+      "id": "3",
+      "user": "missinglink",
+      "endpoint": "search",
+      "description": [
+        "Ensure address records are stored in the 'osmaddress' layer.",
+        "Ensure POI records are cloned to 2x different layers",
+        "related: test(2)"
+      ],
+      "in": {
+        "input": "22 Moor Park Lane",
+        "lat": 51.219671,
+        "lon": -0.779389
+      },
+      "expected": {
+        "properties": [{
+          "id": "poi-address-osmnode-26489964",
+          "layer": "osmaddress"
+        }]
+      }
+    }
+  ]
+}
