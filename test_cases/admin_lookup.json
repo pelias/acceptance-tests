@@ -21,6 +21,72 @@
           "admin2": "Vã¶lkermarkt"
         }]
       }
+    },
+    {
+      "id": "2",
+      "status": "pass",
+      "endpoint": "reverse",
+      "in": {
+        "lat": 40.83667117059108,
+        "lon": -73.90228271484375
+      },
+      "expected": {
+        "properties": [{
+          "admin2": "Bronx County"
+        }]
+      }
+    },
+    {
+      "id": "3",
+      "status": "pass",
+      "endpoint": "reverse",
+      "in": {
+        "lat": 39.07890809706475,
+        "lon": -122.82714843749999
+      },
+      "expected": {
+        "properties": [{
+          "admin2": "Lake County"
+        }]
+      }
+    },
+    {
+      "id": "4",
+      "status": "pass",
+      "endpoint": "reverse",
+      "in": {
+        "lat": -40.58058466412763,
+        "lon": 145.01953124999997
+      },
+      "expected": {
+        "properties": [{
+          "admin2": "Circular Head"
+        }]
+      },
+      "unexpected": {
+        "properties": [{
+          "admin2": "Circular Head (m)"
+        }]
+      }
+    },
+    {
+      "id": "5",
+      "status": "pass",
+      "endpoint": "reverse",
+      "in": {
+        "lat": 51.515049,
+        "lon": -0.093229
+      },
+      "expected": {
+        "properties": [{
+          "admin1": "London"
+        }]
+      },
+      "unexpected": {
+        "properties": [{
+          "admin1": "City And County Of The City Of London"
+        }]
+      }
     }
   ]
 }
