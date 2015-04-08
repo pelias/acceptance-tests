@@ -25,10 +25,9 @@
     {
       "id": "2",
       "status": "pass",
-      "endpoint": "reverse",
       "in": {
-        "lat": 40.83667117059108,
-        "lon": -73.90228271484375
+        "input": "bronx",
+        "layers": "admin2"
       },
       "expected": {
         "properties": [{
@@ -39,10 +38,9 @@
     {
       "id": "3",
       "status": "pass",
-      "endpoint": "reverse",
       "in": {
-        "lat": 39.07890809706475,
-        "lon": -122.82714843749999
+        "input": "Lake, MT",
+        "layers": "admin2"
       },
       "expected": {
         "properties": [{
@@ -85,6 +83,81 @@
       "unexpected": {
         "properties": [{
           "admin1": "City And County Of The City Of London"
+        }]
+      }
+    },
+    {
+      "id": "6",
+      "status": "pass",
+      "in": {
+        "layers": "neighborhood",
+        "input": "hoboken"
+      },
+      "expected": {
+        "properties": [{
+          "name": "West Hoboken",
+          "alpha3": "USA",
+          "admin0": "United States",
+          "admin1": "New Jersey",
+          "admin1_abbr": "NJ",
+          "admin2": "Hudson",
+          "text": "West Hoboken, Hudson, NJ"
+        }]
+      }
+    },
+    {
+      "id": "7",
+      "status": "pass",
+      "in": {
+        "input": "mission",
+        "layers": "admin"
+      },
+      "expected": {
+        "properties": [{
+          "name": "Mission",
+          "alpha3": "USA",
+          "admin0": "United States",
+          "admin1": "California",
+          "admin1_abbr": "CA",
+          "admin2": "San Francisco",
+          "text": "Mission, San Francisco, CA"
+        }]
+      }
+    },
+    {
+      "id": "8",
+      "status": "pass",
+      "in": {
+        "input": "crown heights",
+        "layers": "admin"
+      },
+      "expected": {
+        "properties": [{
+          "text": "Crown Heights, Brooklyn, NY",
+          "name": "Crown Heights",
+          "alpha3": "USA",
+          "admin0": "United States",
+          "admin1": "New York",
+          "admin1_abbr": "NY",
+          "admin2": "Brooklyn"
+        }]
+      }
+    },
+    {
+      "id": "9",
+      "status": "pass",
+      "in": {
+        "input": "palo alto",
+        "layers": "admin"
+      },
+      "expected": {
+        "properties": [{
+          "text": "Palo Alto County, IA",
+          "alpha3": "USA",
+          "admin0": "United States",
+          "admin1": "Iowa",
+          "admin1_abbr": "IA",
+          "admin2": "Palo Alto County"
         }]
       }
     }
