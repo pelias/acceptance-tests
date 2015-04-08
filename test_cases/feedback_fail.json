@@ -751,6 +751,16 @@
       "expected": {
         "properties": "Taj Mahal, Taj East Gate Road, Taj Ganj, Agra, Uttar Pradesh, 282001, India"
       }
+    },
+    {
+      "id": "1428451202916:0",
+      "user": "feedback-app",
+      "in": {
+        "input": "485 28th Street San Francisco CA 94131"
+      },
+      "expected": {
+        "properties": "485, 28th Street, Noe Valley, San Francisco, San Francisco City and County, California, 94131, United States of America"
+      }
     }
   ]
 }
