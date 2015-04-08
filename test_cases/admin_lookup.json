@@ -160,6 +160,63 @@
           "admin2": "Palo Alto County"
         }]
       }
+    },
+    {
+      "id": "10",
+      "status": "pass",
+      "endpoint": "reverse",
+      "in": {
+        "lat": 51.47945855891035,
+        "lon": -3.2018280029296875
+      },
+      "expected": {
+        "properties": [{
+          "admin1": "Cardiff"
+        }]
+      },
+      "unexpected": {
+        "properties": [{
+          "admin1": "Caerdydd#Cardiff"
+        }]
+      }
+    },
+    {
+      "id": "10",
+      "status": "pass",
+      "endpoint": "reverse",
+      "in": {
+        "lat": 51.52754263322114,
+        "lon": -3.115997314453125
+      },
+      "expected": {
+        "properties": [{
+          "admin1": "Cardiff"
+        }]
+      },
+      "unexpected": {
+        "properties": [{
+          "admin1": "Caerdydd#Cardiff"
+        }]
+      }
+    },
+    {
+      "id": "11",
+      "status": "pass",
+      "endpoint": "reverse",
+      "in": {
+        "lat": 53.08654986822245,
+        "lon": -3.393487930297851
+      },
+      "expected": {
+        "properties": [{
+          "admin1": "Denbighshire"
+        }]
+      },
+      "unexpected": {
+        "properties": [{
+          "admin2": "Sir Ddinbych#Denbighshire"
+        }]
+      }
     }
   ]
 }
