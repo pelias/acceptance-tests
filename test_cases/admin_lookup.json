@@ -25,6 +25,7 @@
     {
       "id": "2",
       "status": "pass",
+      "type": "dev",
       "in": {
         "input": "bronx",
         "layers": "admin2"
@@ -38,6 +39,7 @@
     {
       "id": "3",
       "status": "pass",
+      "type": "dev",
       "in": {
         "input": "Lake, MT",
         "layers": "admin2"
@@ -71,6 +73,7 @@
       "id": "5",
       "status": "pass",
       "endpoint": "reverse",
+      "type": "dev",
       "in": {
         "lat": 51.515049,
         "lon": -0.093229
@@ -89,6 +92,7 @@
     {
       "id": "6",
       "status": "pass",
+      "type": "dev",
       "in": {
         "layers": "neighborhood",
         "input": "hoboken"
@@ -100,52 +104,57 @@
           "admin0": "United States",
           "admin1": "New Jersey",
           "admin1_abbr": "NJ",
-          "admin2": "Hudson",
-          "text": "West Hoboken, Hudson, NJ"
+          "admin2": "Hudson County",
+          "text": "West Hoboken, Hudson County, NJ"
         }]
       }
     },
     {
       "id": "7",
       "status": "pass",
+      "type": "dev",
       "in": {
-        "input": "mission",
+        "input": "mission, ca",
         "layers": "admin"
       },
       "expected": {
+        "priorityThresh": 2,
         "properties": [{
           "name": "Mission",
           "alpha3": "USA",
           "admin0": "United States",
           "admin1": "California",
           "admin1_abbr": "CA",
-          "admin2": "San Francisco",
-          "text": "Mission, San Francisco, CA"
+          "admin2": "San Francisco County",
+          "text": "Mission, San Francisco County, CA"
         }]
       }
     },
     {
       "id": "8",
       "status": "pass",
+      "type": "dev",
       "in": {
         "input": "crown heights",
         "layers": "admin"
       },
       "expected": {
+        "priorityThresh": 2,
         "properties": [{
-          "text": "Crown Heights, Brooklyn, NY",
+          "text": "Crown Heights, Kings County, NY",
           "name": "Crown Heights",
           "alpha3": "USA",
           "admin0": "United States",
           "admin1": "New York",
           "admin1_abbr": "NY",
-          "admin2": "Brooklyn"
+          "admin2": "Kings County"
         }]
       }
     },
     {
       "id": "9",
       "status": "pass",
+      "type": "dev",
       "in": {
         "input": "palo alto",
         "layers": "admin"
@@ -168,6 +177,24 @@
       "in": {
         "lat": 51.47945855891035,
         "lon": -3.2018280029296875
+      },
+      "expected": {
+        "properties": [{
+          "admin1": "Cardiff"
+        }]
+      },
+      "unexpected": {
+        "properties": [{
+          "admin1": "Caerdydd#Cardiff"
+        }]
+      }
+    },
+    {
+      "id": "15",
+      "status": "pass",
+      "in": {
+        "input": "cardiff, gbr",
+        "layers": "admin"
       },
       "expected": {
         "properties": [{
@@ -215,6 +242,119 @@
       "unexpected": {
         "properties": [{
           "admin2": "Sir Ddinbych#Denbighshire"
+        }]
+      }
+    },
+    {
+      "id": "12",
+      "status": "pass",
+      "type": "dev",
+      "in": {
+        "input": "Vista Center",
+        "layers": "neighborhood"
+      },
+      "expected": {
+        "properties": [{
+          "admin0": "United States",
+          "alpha3": "USA",
+          "admin1": "New Jersey",
+          "admin1_abbr": "NJ",
+          "admin2": "Ocean County"
+        }]
+      },
+      "unexpected": {
+        "properties": [{
+          "admin2": "Ocean"
+        }]
+      }
+    },
+    {
+      "id": "13",
+      "status": "pass",
+      "type": "dev",
+      "in": {
+        "input": "Yadkin Trail",
+        "layers": "neighborhood"
+      },
+      "expected": {
+        "properties": [{
+          "admin0": "United States",
+          "alpha3": "USA",
+          "admin1": "North Carolina",
+          "admin1_abbr": "NC",
+          "admin2": "Moore County"
+        }]
+      },
+      "unexpected": {
+        "properties": [{
+          "admin2": "Moore"
+        }]
+      }
+    },
+    {
+      "id": "14",
+      "status": "pass",
+      "type": "dev",
+      "in": {
+        "input": "Hillside, Santa Clara",
+        "layers": "neighborhood"
+      },
+      "expected": {
+        "properties": [{
+          "admin0": "United States",
+          "alpha3": "USA",
+          "admin1": "California",
+          "admin1_abbr": "CA",
+          "admin2": "Santa Clara County"
+        }]
+      },
+      "unexpected": {
+        "properties": [{
+          "admin2": "Moore"
+        }]
+      }
+    },
+    {
+      "id": "15",
+      "status": "pass",
+      "type": "dev",
+      "in": {
+        "input": "Cardiff, GBR",
+        "layers": "admin"
+      },
+      "expected": {
+        "properties": [{
+          "alpha3": "GBR",
+          "admin0": "United Kingdom",
+          "admin1": "Cardiff"
+        }]
+      },
+      "unexpected": {
+        "properties": [{
+          "admin1": "Caerdydd#cardiff"
+        }]
+      }
+    },
+    {
+      "id": "16",
+      "status": "pass",
+      "type": "dev",
+      "in": {
+        "input": "ringland",
+        "layers": "neighborhood"
+      },
+      "expected": {
+        "properties": [{
+          "alpha3": "GBR",
+          "admin0": "United Kingdom",
+          "admin1": "Newport",
+          "admin2": "Newport City"
+        }]
+      },
+      "unexpected": {
+        "properties": [{
+          "admin1": "Casnewydd#Newport",
+          "admin2": "Newport"
         }]
       }
     }
