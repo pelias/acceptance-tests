@@ -77,7 +77,14 @@
       },
       "expected": {
         "properties": [
-          "New York, New York"
+          "New York, New York",
+          {
+            "text": "New York, NY",
+            "admin1": "New York",
+            "admin1_abbr": "NY",
+            "admin0": "United States",
+            "alpha3": "USA"
+          }
         ]
       }
     },
