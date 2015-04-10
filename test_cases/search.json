@@ -329,6 +329,9 @@
             "locality": "New York",
             "local_admin": "Manhattan",
             "text": "Chelsea, Manhattan, NY"
+          },
+          {
+            "text": "Chelsea, New York County, NY"
           }
         ]
       }

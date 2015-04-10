@@ -139,7 +139,7 @@
         "layers": "admin"
       },
       "expected": {
-        "priorityThresh": 2,
+        "priorityThresh": 3,
         "properties": [{
           "text": "Crown Heights, Kings County, NY",
           "name": "Crown Heights",
@@ -161,12 +161,12 @@
       },
       "expected": {
         "properties": [{
-          "text": "Palo Alto County, IA",
+          "text": "Palo Alto, Santa Clara County, CA",
           "alpha3": "USA",
           "admin0": "United States",
-          "admin1": "Iowa",
-          "admin1_abbr": "IA",
-          "admin2": "Palo Alto County"
+          "admin1": "California",
+          "admin1_abbr": "CA",
+          "admin2": "Santa Clara County"
         }]
       }
     },
