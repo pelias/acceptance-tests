@@ -3579,6 +3579,202 @@
         "priorityThresh": 2
       },
       "status": "pass"
+    },
+    {
+      "id": "1427414405152:0",
+      "user": "feedback-app",
+      "in": {
+        "input": "Berlin"
+      },
+      "expected": {
+        "properties": [
+          {
+            "type": "geoname",
+            "layer": "geoname",
+            "name": "Berlin",
+            "alpha3": "DEU",
+            "admin0": "Germany",
+            "admin1": "Berlin",
+            "text": "Berlin"
+          },
+          {
+            "type": "geoname",
+            "layer": "geoname",
+            "name": "Berlin",
+            "alpha3": "DEU",
+            "admin0": "Germany",
+            "admin1": "Berlin",
+            "text": "Berlin"
+          }
+        ],
+        "priorityThresh": 2
+      },
+      "status": "pass"
+    },
+    {
+      "id": "1427414405152:1",
+      "user": "feedback-app",
+      "in": {
+        "input": "florence"
+      },
+      "expected": {
+        "properties": [
+          {
+            "type": "geoname",
+            "layer": "geoname",
+            "name": "Florence",
+            "alpha3": "ITA",
+            "admin0": "Italy",
+            "admin1": "Tuscany",
+            "admin2": "Province of Florence",
+            "text": "Florence, Province of Florence, Tuscany"
+          }
+        ],
+        "priorityThresh": 1
+      },
+      "status": "pass"
+    },
+    {
+      "id": "1427414405152:2",
+      "user": "feedback-app",
+      "in": {
+        "input": "stamford amtrak station"
+      },
+      "expected": {
+        "properties": [
+          {
+            "type": "geoname",
+            "layer": "geoname",
+            "name": "Stamford Amtrak Station",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "Connecticut",
+            "admin2": "Fairfield County",
+            "text": "Stamford Amtrak Station, Fairfield County, Connecticut"
+          }
+        ],
+        "priorityThresh": 1
+      },
+      "status": "pass"
+    },
+    {
+      "id": "1427414405152:3",
+      "user": "feedback-app",
+      "in": {
+        "input": "Simon-Dach-Straße"
+      },
+      "expected": {
+        "properties": [
+          {
+            "type": "osmaddress",
+            "layer": "osmaddress",
+            "name": "1 Simon-Dach-Straße",
+            "alpha3": "DEU",
+            "admin1": "Berlin",
+            "admin2": "Berlin",
+            "locality": "Berlin",
+            "neighborhood": "Friedrichsberg",
+            "text": "1 Simon-Dach-Straße, Berlin"
+          }
+        ],
+        "priorityThresh": 2
+      },
+      "status": "pass"
+    },
+    {
+      "id": "1427414405152:4",
+      "user": "feedback-app",
+      "in": {
+        "input": "IGI Airport, Delhi"
+      },
+      "expected": {
+        "properties": [
+          {
+            "type": "osmnode",
+            "layer": "osmnode",
+            "name": "Indira Gandhi International Airport",
+            "alpha3": "IND",
+            "admin0": "India",
+            "admin1": "Delhi",
+            "admin2": "Alīgarh",
+            "neighborhood": "Nangal Dewat",
+            "text": "Indira Gandhi International Airport, Nangal Dewat, Delhi"
+          }
+        ],
+        "priorityThresh": 5
+      },
+      "status": "pass"
+    },
+    {
+      "id": "1427414405152:5",
+      "user": "feedback-app",
+      "in": {
+        "input": "san francisco"
+      },
+      "expected": {
+        "properties": [
+          {
+            "type": "geoname",
+            "layer": "geoname",
+            "name": "San Francisco",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "California",
+            "admin2": "San Francisco County",
+            "text": "San Francisco, San Francisco County, California"
+          }
+        ],
+        "priorityThresh": 2
+      },
+      "status": "pass"
+    },
+    {
+      "id": "1427414405152:6",
+      "user": "feedback-app",
+      "in": {
+        "input": "Lake Cayuga"
+      },
+      "expected": {
+        "properties": [
+          {
+            "type": "geoname",
+            "layer": "geoname",
+            "name": "Cayuga Lake",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "New York",
+            "admin2": "Tompkins County",
+            "text": "Cayuga Lake, Tompkins County, New York"
+          }
+        ],
+        "priorityThresh": 3
+      },
+      "status": "pass"
+    },
+    {
+      "id": "1427414405152:7",
+      "user": "feedback-app",
+      "in": {
+        "input": "9 Earlshall drive, flat bush, auckland 2016, new zealand"
+      },
+      "expected": {
+        "properties": [
+          {
+            "type": "openaddresses",
+            "layer": "openaddresses",
+            "name": "9 Earlshall Drive",
+            "alpha3": "NZL",
+            "admin0": "New Zealand",
+            "admin1": "Auckland Region",
+            "admin2": "Auckland",
+            "locality": "East Tamaki Heights",
+            "neighborhood": "East Tamaki",
+            "text": "9 Earlshall Drive, East Tamaki Heights, Auckland Region"
+          }
+        ],
+        "priorityThresh": 1
+      },
+      "status": "pass"
     }
   ]
 }
