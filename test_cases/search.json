@@ -356,6 +356,15 @@
             "locality": "New York",
             "local_admin": "Manhattan",
             "text": "SoHo, Manhattan, NY"
+          },
+          {
+            "admin0": "United States",
+            "name": "Soho",
+            "alpha3": "USA",
+            "text": "Soho, New York County, NY",
+            "admin1": "New York",
+            "admin1_abbr": "NY",
+            "admin2": "New York County"
           }
         ]
       }

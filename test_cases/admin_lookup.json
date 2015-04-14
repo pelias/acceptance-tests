@@ -55,8 +55,8 @@
       "status": "pass",
       "endpoint": "reverse",
       "in": {
-        "lat": -40.58058466412763,
-        "lon": 145.01953124999997
+        "lat": -40.806533324215565,
+        "lon": 144.8101043701172
       },
       "expected": {
         "properties": [{
