@@ -6,6 +6,7 @@
       "id": 1,
       "status": "pass",
       "user": "Randy",
+      "type": "dev",
       "in": {
         "input": "brooklyn"
       },
@@ -19,6 +20,7 @@
       "id": 2,
       "status": "pass",
       "user": "Randy",
+      "type": "dev",
       "in": {
         "input": "brooklyn, ny"
       },
@@ -32,6 +34,7 @@
       "id": 3,
       "status": "fail",
       "user": "Randy",
+      "type": "dev",
       "in": {
         "input": "new york"
       },
@@ -45,6 +48,7 @@
       "id": 4,
       "status": "pass",
       "user": "Diana",
+      "type": "dev",
       "in": {
         "input": "philadelphia"
       },
@@ -66,19 +70,28 @@
     {
       "id": 5,
       "status": "pass",
+      "type": "dev",
       "user": "Randy",
       "in": {
         "input": "new york, new york"
       },
       "expected": {
         "properties": [
-          "New York, New York"
+          "New York, New York",
+          {
+            "text": "New York, NY",
+            "admin1": "New York",
+            "admin1_abbr": "NY",
+            "admin0": "United States",
+            "alpha3": "USA"
+          }
         ]
       }
     },
     {
       "id": 6,
       "status": "pass",
+      "type": "dev",
       "user": "Randy",
       "in": {
         "input": "130 dean street brooklyn, ny"
@@ -98,6 +111,7 @@
     {
       "id": 7,
       "status": "pass",
+      "type": "dev",
       "user": "Randy",
       "in": {
         "input": "billerica"
@@ -112,6 +126,7 @@
     {
       "id": 8,
       "status": "pass",
+      "type": "dev",
       "user": "Randy",
       "in": {
         "input": "billerica, ma"
@@ -146,6 +161,7 @@
     {
       "id": "1425586777012:0",
       "user": "feedback-app",
+      "type": "dev",
       "in": {
         "input": "union sq"
       },
@@ -158,6 +174,7 @@
     {
       "id": "1425586777012:1",
       "status": "fail",
+      "type": "dev",
       "user": "feedback-app",
       "in": {
         "input": "union square"
@@ -171,8 +188,9 @@
             "alpha3": "USA",
             "admin0": "United States",
             "admin1": "New York",
-            "admin2": "Manhattan",
-            "text": "Union Square, Manhattan, New York"
+            "admin1_abbr": "NY",
+            "admin2": "New York County",
+            "text": "Union Square, New York County, New York"
           }
         ]
       }
@@ -181,6 +199,7 @@
       "id": "1425586777012:2",
       "status": "pass",
       "user": "feedback-app",
+      "type": "dev",
       "in": {
         "input": "portland"
       },
@@ -246,6 +265,7 @@
       "id": "1425586777012:5",
       "status": "fail",
       "user": "feedback-app",
+      "type": "dev",
       "in": {
         "input": "prospect park"
       },
@@ -258,8 +278,9 @@
             "alpha3": "USA",
             "admin0": "United States",
             "admin1": "New York",
-            "admin2": "Brooklyn",
-            "text": "Prospect Park, Brooklyn, New York"
+            "admin1_abbr": "NY",
+            "admin2": "Kings County",
+            "text": "Prospect Park, Kings County, New York"
           }
         ]
       }
@@ -268,6 +289,7 @@
       "id": "1425586777012:6",
       "status": "pass",
       "user": "feedback-app",
+      "type": "dev",
       "in": {
         "input": "london"
       },
@@ -290,6 +312,7 @@
       "id": 10,
       "status": "pass",
       "user": "hkrishna",
+      "type": "dev",
       "in": {
         "input": "chelsea, new york"
       },
@@ -306,6 +329,9 @@
             "locality": "New York",
             "local_admin": "Manhattan",
             "text": "Chelsea, Manhattan, NY"
+          },
+          {
+            "text": "Chelsea, New York County, NY"
           }
         ]
       }
@@ -313,6 +339,7 @@
     {
       "id": 11,
       "status": "pass",
+      "type": "dev",
       "user": "hkrishna",
       "in": {
         "input": "soho, new york"
@@ -329,6 +356,15 @@
             "locality": "New York",
             "local_admin": "Manhattan",
             "text": "SoHo, Manhattan, NY"
+          },
+          {
+            "admin0": "United States",
+            "name": "Soho",
+            "alpha3": "USA",
+            "text": "Soho, New York County, NY",
+            "admin1": "New York",
+            "admin1_abbr": "NY",
+            "admin2": "New York County"
           }
         ]
       }
@@ -337,6 +373,7 @@
       "id": 12,
       "status": "fail",
       "user": "hkrishna",
+      "type": "dev",
       "in": {
         "input": "1 main st, GBR"
       },
@@ -381,6 +418,7 @@
       "id": 13,
       "status": "pass",
       "user": "hkrishna",
+      "type": "dev",
       "in": {
         "input": "london bridge"
       },
@@ -403,6 +441,7 @@
     {
       "id": 14,
       "status": "fail",
+      "type": "dev",
       "user": "hkrishna",
       "in": {
         "input": "statue of liberty"
@@ -427,6 +466,7 @@
     {
       "id": 15,
       "status": "pass",
+      "type": "dev",
       "user": "hkrishna",
       "in": {
         "input": "101 saint marks pl, new york"
@@ -452,6 +492,7 @@
     {
       "id": 16,
       "status": "fail",
+      "type": "dev",
       "user": "hkrishna",
       "in": {
         "input": "big ben"
@@ -475,6 +516,7 @@
     {
       "id": 17,
       "status": "fail",
+      "type": "dev",
       "user": "hkrishna",
       "in": {
         "input": "wall street"

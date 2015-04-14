@@ -36,11 +36,11 @@
       "expected": {
         "properties": [
           {
-            "text": "31 세종대로 서울시청 본관동, Seoul",
+            "text": "31 세종대로 서울시청 신관동, Seoul",
             "neighborhood": "사직동",
             "locality": "Seoul",
             "layer": "openaddresses",
-            "name": "31 세종대로 서울시청 본관동",
+            "name": "31 세종대로 서울시청 신관동",
             "alpha3": "KOR",
             "admin0": "South Korea",
             "admin1": "Seoul",
@@ -211,9 +211,9 @@
             "alpha3": "USA",
             "admin0": "United States",
             "admin1": "Pennsylvania",
-            "admin2": "Lebanon",
-            "text": "Lickdale, Lebanon, PA",
-            "admin1_abbr": "PA"
+            "admin1_abbr": "PA",
+            "admin2": "Lebanon County",
+            "text": "Lickdale, Lebanon County, PA"
           },
           {
             "layer": "geoname",
@@ -222,7 +222,8 @@
             "admin0": "United States",
             "admin1": "Pennsylvania",
             "admin2": "Lebanon County",
-            "text": "Lickdale, Lebanon County, PA",
+            "local_admin": "Union",
+            "text": "Lickdale, Union, PA",
             "admin1_abbr": "PA"
           }
         ],
@@ -640,7 +641,7 @@
             "admin1_abbr": "NY"
           }
         ],
-        "priorityThresh": 6
+        "priorityThresh": 8
       },
       "status": "pass"
     },
@@ -862,8 +863,8 @@
             "alpha3": "USA",
             "admin0": "United States",
             "admin1": "New York",
-            "admin2": "Brooklyn",
-            "text": "Park Slope, Brooklyn, NY",
+            "admin2": "Kings County",
+            "text": "Park Slope, Kings County, NY",
             "admin1_abbr": "NY"
           }
         ],
@@ -1114,7 +1115,7 @@
             "admin1_abbr": "CA"
           }
         ],
-        "priorityThresh": 2
+        "priorityThresh": 4
       },
       "status": "pass"
     },
@@ -1251,8 +1252,8 @@
             "alpha3": "USA",
             "admin0": "United States",
             "admin1": "California",
-            "admin2": "San Francisco",
-            "text": "Golden Gate Park, San Francisco, CA",
+            "admin2": "San Francisco County",
+            "text": "Golden Gate Park, San Francisco County, CA",
             "admin1_abbr": "CA"
           }
         ],
@@ -1889,8 +1890,8 @@
             "alpha3": "USA",
             "admin0": "United States",
             "admin1": "New York",
-            "admin2": "Manhattan",
-            "text": "Koreatown, Manhattan, NY",
+            "admin2": "New York County",
+            "text": "Koreatown, New York County, NY",
             "admin1_abbr": "NY"
           },
           {
@@ -2252,7 +2253,7 @@
             "text": "Times Square, Manhattan, NY"
           }
         ],
-        "priorityThresh": 1
+        "priorityThresh": 2
       },
       "status": "pass"
     },
@@ -2395,7 +2396,6 @@
       "expected": {
         "properties": [
           {
-            "layer": "osmaddress",
             "name": "479 Grand Street",
             "alpha3": "USA",
             "admin0": "United States",
@@ -2554,7 +2554,7 @@
         ],
         "priorityThresh": 1
       },
-      "status": "fail"
+      "status": "pass"
     },
     {
       "id": "1426636804303:87",
@@ -2566,20 +2566,20 @@
         "properties": [
           {
             "layer": "openaddresses",
-            "name": "4636 Cahuenga Boulevard",
+            "name": "4636 North Cahuenga Boulevard",
             "alpha3": "USA",
             "admin0": "United States",
             "admin1": "California",
             "admin2": "Los Angeles County",
             "locality": "Los Angeles",
             "neighborhood": "Toluca Lake",
-            "text": "4636 Cahuenga Boulevard, Los Angeles, CA",
+            "text": "4636 North Cahuenga Boulevard, Los Angeles, CA",
             "admin1_abbr": "CA"
           }
         ],
         "priorityThresh": 1
       },
-      "status": "pass"
+      "status": "fail"
     },
     {
       "id": "1426636804303:88",
@@ -2627,7 +2627,7 @@
             "text": "Facebook HQ, Menlo Park, CA"
           }
         ],
-        "priorityThresh": 6
+        "priorityThresh": 7
       },
       "status": "pass"
     },
@@ -2718,17 +2718,6 @@
       "expected": {
         "properties": [
           {
-            "layer": "neighborhood",
-            "name": "Astoria",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "New York",
-            "admin2": "Queens",
-            "text": "Astoria, Queens, NY",
-            "admin1_abbr": "NY"
-          },
-          {
-            "layer": "geoname",
             "name": "Astoria",
             "alpha3": "USA",
             "admin0": "United States",
@@ -2952,7 +2941,7 @@
             "text": "318 19th Street, Brooklyn, NY"
           }
         ],
-        "priorityThresh": 4
+        "priorityThresh": 5
       },
       "status": "pass"
     },
@@ -3158,31 +3147,25 @@
       "expected": {
         "properties": [
           {
-            "layer": "neighborhood",
             "name": "Flatiron District",
             "alpha3": "USA",
             "admin0": "United States",
             "admin1": "New York",
-            "admin2": "Manhattan",
-            "text": "Flatiron District, Manhattan, NY",
-            "admin1_abbr": "NY"
-          },
-          {
-            "layer": "geoname",
-            "name": "Flatiron District",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "New York",
+            "admin1_abbr": "NY",
             "admin2": "New York County",
             "text": "Flatiron District, New York County, NY",
             "admin1_abbr": "NY"
           },
           {
             "layer": "neighborhood",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "New York",
             "name": "Flatiron",
             "alpha3": "USA",
-            "admin2": "Manhattan",
-            "text": "Flatiron, Manhattan"
+            "admin1_abbr": "NY",
+            "admin2": "New York County",
+            "text": "Flatiron, New York County, NY"
           }
         ],
         "priorityThresh": 4
@@ -3202,8 +3185,9 @@
             "name": "Soho",
             "admin0": "United States",
             "admin1": "New York",
-            "admin2": "Manhattan",
-            "text": "Soho, Manhattan, NY",
+            "admin1_abbr": "NY",
+            "admin2": "New York County",
+            "text": "Soho, New York County, NY",
             "admin1_abbr": "NY"
           }
         ],
@@ -3309,10 +3293,14 @@
         "properties": [
           {
             "layer": "neighborhood",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "New York",
             "name": "Flatiron",
             "alpha3": "USA",
-            "admin2": "Manhattan",
-            "text": "Flatiron, Manhattan"
+            "admin1_abbr": "NY",
+            "admin2": "New York County",
+            "text": "Flatiron, New York County, NY"
           }
         ],
         "priorityThresh": 1
