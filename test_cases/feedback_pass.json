@@ -2184,7 +2184,6 @@
             "admin1": "Pennsylvania",
             "admin2": "Bucks County",
             "local_admin": "Buckingham",
-            "text": "Furlong, Bucks County, PA",
             "text": "Furlong, Buckingham, PA",
             "admin1_abbr": "PA"
           }
@@ -3153,8 +3152,7 @@
             "admin1": "New York",
             "admin1_abbr": "NY",
             "admin2": "New York County",
-            "text": "Flatiron District, New York County, NY",
-            "admin1_abbr": "NY"
+            "text": "Flatiron District, New York County, NY"
           },
           {
             "layer": "neighborhood",
@@ -3162,7 +3160,6 @@
             "admin0": "United States",
             "admin1": "New York",
             "name": "Flatiron",
-            "alpha3": "USA",
             "admin1_abbr": "NY",
             "admin2": "New York County",
             "text": "Flatiron, New York County, NY"
@@ -3187,8 +3184,7 @@
             "admin1": "New York",
             "admin1_abbr": "NY",
             "admin2": "New York County",
-            "text": "Soho, New York County, NY",
-            "admin1_abbr": "NY"
+            "text": "Soho, New York County, NY"
           }
         ],
         "priorityThresh": 2
@@ -3297,7 +3293,6 @@
             "admin0": "United States",
             "admin1": "New York",
             "name": "Flatiron",
-            "alpha3": "USA",
             "admin1_abbr": "NY",
             "admin2": "New York County",
             "text": "Flatiron, New York County, NY"
@@ -3772,6 +3767,67 @@
           }
         ],
         "priorityThresh": 1
+      },
+      "status": "pass"
+    },
+    {
+      "id": "1429056003129:0",
+      "user": "feedback-app",
+      "in": {
+        "input": "Filoli"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "osmway",
+            "name": "Filoli Estate",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "California",
+            "admin1_abbr": "CA",
+            "admin2": "San Mateo County",
+            "neighborhood": "Crestview",
+            "text": "Filoli Estate, Crestview, CA"
+          }
+        ],
+        "priorityThresh": 1
+      },
+      "status": "pass"
+    },
+    {
+      "id": "1429056003129:1",
+      "user": "feedback-app",
+      "in": {
+        "input": "Cantor Art Center"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "osmway",
+            "name": "Cantor Art Center",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "California",
+            "admin1_abbr": "CA",
+            "admin2": "Santa Clara County",
+            "locality": "Stanford",
+            "neighborhood": "Oak Creek",
+            "text": "Cantor Art Center, Stanford, CA"
+          },
+          {
+            "layer": "osmway",
+            "name": "Cantor Art Center",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "California",
+            "admin1_abbr": "CA",
+            "admin2": "Santa Clara County",
+            "locality": "Stanford",
+            "neighborhood": "Oak Creek",
+            "text": "Cantor Art Center, Stanford, CA"
+          }
+        ],
+        "priorityThresh": 2
       },
       "status": "pass"
     }
