@@ -357,6 +357,26 @@
           "admin2": "Newport"
         }]
       }
+    },
+    {
+      "id": "18",
+      "status": "pass",
+      "type": "dev",
+      "in": {
+        "input": "california",
+        "layers": "admin1"
+      },
+      "expected": {
+        "properties": [{
+          "layer": "admin1",
+          "name": "California",
+          "alpha3": "USA",
+          "admin0": "United States",
+          "admin1": "California",
+          "admin1_abbr": "CA",
+          "text": "California, CA"
+        }]
+      }
     }
   ]
 }
