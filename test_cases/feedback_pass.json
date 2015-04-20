@@ -47,7 +47,7 @@
             "admin2": "종로구"
           }
         ],
-        "priorityThresh": 1
+        "priorityThresh": 2
       },
       "status": "pass"
     },
@@ -2829,13 +2829,13 @@
         "properties": [
           {
             "layer": "openaddresses",
-            "name": "1900 Chapala  Street",
+            "name": "1900 Chapala Street",
             "alpha3": "USA",
             "admin0": "United States",
             "admin1": "California",
             "admin2": "Santa Barbara County",
             "locality": "Santa Barbara",
-            "text": "1900 Chapala  Street, Santa Barbara, CA",
+            "text": "1900 Chapala Street, Santa Barbara, CA",
             "admin1_abbr": "CA"
           }
         ],
@@ -2898,12 +2898,11 @@
       "id": "1426636804303:100",
       "user": "feedback-app",
       "in": {
-        "input": "1600 Pennsylvania"
+        "input": "1600 Pennsylvania Northwest"
       },
       "expected": {
         "properties": [
           {
-            "layer": "openaddresses",
             "name": "1600 Pennsylvania Avenue Northwest",
             "alpha3": "USA",
             "admin0": "United States",
@@ -2915,9 +2914,9 @@
             "admin1_abbr": "DC"
           }
         ],
-        "priorityThresh": 9
+        "priorityThresh": 7
       },
-      "status": "pass"
+      "status": "fail"
     },
     {
       "id": "1426636804303:101",
@@ -2968,7 +2967,7 @@
         ],
         "priorityThresh": 3
       },
-      "status": "pass"
+      "status": "fail"
     },
     {
       "id": "1426636804303:103",
@@ -3364,7 +3363,6 @@
       "expected": {
         "properties": [
           {
-            "layer": "osmaddress",
             "name": "130 Dean Street",
             "alpha3": "USA",
             "admin0": "United States",
@@ -3676,7 +3674,7 @@
             "text": "1 Simon-Dach-Straße, Berlin"
           }
         ],
-        "priorityThresh": 2
+        "priorityThresh": 3
       },
       "status": "pass"
     },
