@@ -761,6 +761,26 @@
       "expected": {
         "properties": "Postmark Apartments, 301, Commons Park South, Stamford, Fairfield County, Connecticut, 06902, United States of America"
       }
+    },
+    {
+      "id": "1429747205548:0",
+      "user": "feedback-app",
+      "in": {
+        "input": "94105"
+      },
+      "expected": {
+        "properties": null
+      }
+    },
+    {
+      "id": "1429747205548:1",
+      "user": "feedback-app",
+      "in": {
+        "input": "94015"
+      },
+      "expected": {
+        "properties": "Daly City, San Mateo County, California, 94015, United States of America"
+      }
     }
   ]
 }
