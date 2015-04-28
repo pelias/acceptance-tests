@@ -1,0 +1,60 @@
+{
+  "name": "GET /search?bbox",
+  "priorityThresh": 3,
+  "endpoint": "search",
+  "tests": [
+    {
+      "id": 1,
+      "status": "pass",
+      "user": "Diana",
+      "type": "dev",
+      "in": {
+        "bbox": "-74.0330,40.7306,-73.9009,40.8265",
+        "input": "didi dumplings"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "DiDi Dumpling",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "New York",
+            "admin1_abbr": "NY",
+            "admin2": "New York County",
+            "local_admin": "Manhattan",
+            "locality": "New York",
+            "neighborhood": "Rose Hill",
+            "text": "DiDi Dumpling, Manhattan, NY"
+          }
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "status": "pass",
+      "user": "Diana",
+      "type": "dev",
+      "description": "invalid bbox coord order",
+      "in": {
+        "bbox": "40.7306,-74.0330,40.8265,-73.9009",
+        "input": "didi dumplings"
+      },
+      "unexpected": {
+        "properties": [
+          {
+            "name": "DiDi Dumpling",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "New York",
+            "admin1_abbr": "NY",
+            "admin2": "New York County",
+            "local_admin": "Manhattan",
+            "locality": "New York",
+            "neighborhood": "Rose Hill",
+            "text": "DiDi Dumpling, Manhattan, NY"
+          }
+        ]
+      }
+    }
+  ]
+}
