@@ -1,0 +1,73 @@
+{
+  "name": "GET /search",
+  "priorityThresh": 3,
+  "comment": "Test cases for boosting Quattro records by popularity values.",
+  "tests": [
+    {
+      "id": 1,
+      "user": "sevko",
+      "status": "pass",
+      "type": "dev",
+      "in": {
+        "layers": "admin",
+        "input": "chelsea"
+      },
+      "expected": {
+        "priorityThresh": 1,
+        "properties": [{
+          "name": "Chelsea",
+          "alpha3": "USA",
+          "admin0": "United States",
+          "admin1": "New York",
+          "admin1_abbr": "NY",
+          "admin2": "New York County",
+          "text": "Chelsea, New York County, NY"
+        }]
+      }
+    },
+    {
+      "id": 2,
+      "user": "sevko",
+      "status": "pass",
+      "type": "dev",
+      "in": {
+        "layers": "neighborhood",
+        "input": "williamsburg"
+      },
+      "expected": {
+        "priorityThresh": 1,
+        "properties": [{
+          "name": "Williamsburg",
+          "alpha3": "USA",
+          "admin0": "United States",
+          "admin1": "New York",
+          "admin1_abbr": "NY",
+          "admin2": "Kings County",
+          "text": "Williamsburg, Kings County, NY"
+        }]
+      }
+    },
+    {
+      "id": 3,
+      "user": "sevko",
+      "status": "pass",
+      "type": "dev",
+      "in": {
+        "layers": "admin",
+        "input": "ridgewood"
+      },
+      "expected": {
+        "priorityThresh": 1,
+        "properties": [{
+          "name": "Ridgewood",
+          "alpha3": "USA",
+          "admin0": "United States",
+          "admin1": "New York",
+          "admin1_abbr": "NY",
+          "admin2": "Queens County",
+          "text": "Ridgewood, Queens County, NY"
+        }]
+      }
+    }
+  ]
+}
