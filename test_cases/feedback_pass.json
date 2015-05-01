@@ -2252,7 +2252,7 @@
             "text": "Times Square, Manhattan, NY"
           }
         ],
-        "priorityThresh": 2
+        "priorityThresh": 3
       },
       "status": "pass"
     },
@@ -2626,7 +2626,7 @@
             "text": "Facebook HQ, Menlo Park, CA"
           }
         ],
-        "priorityThresh": 7
+        "priorityThresh": 9
       },
       "status": "pass"
     },

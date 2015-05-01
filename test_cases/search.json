@@ -254,8 +254,8 @@
         "properties": [
           {
             "name": "France",
-            "alpha3": "MYT",
             "admin0": "France",
+            "alpha3": "FRA",
             "text": "France"
           }
         ]
@@ -434,6 +434,16 @@
             "name": "London Bridge",
             "neighborhood": "Bankside",
             "text": "London Bridge, Bankside, Greater London"
+          },
+          {
+            "admin0": "United Kingdom",
+            "admin1": "Southwark",
+            "admin2": "Greater London",
+            "locality": "London",
+            "alpha3": "GBR",
+            "name": "London Bridge",
+            "neighborhood": "The Borough",
+            "text": "London Bridge, The Borough, Greater London"
           }
         ]
       }
@@ -547,7 +557,7 @@
         "input": "newark airport"
       },
       "expected": {
-        "priorityThresh": 1,
+        "priorityThresh": 2,
         "properties": [{
           "name": "Newark Liberty International Airport",
           "alpha3": "USA",
