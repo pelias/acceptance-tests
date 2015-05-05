@@ -5,7 +5,8 @@
   "tests": [
     {
       "id": 1,
-      "status": "pass",
+      "status": "fail",
+      "comment": "Currently fails due to the fact that suggest doesn't boost more popular records to the top of search results, so `Brooklyn` appears below other less well-known records with `Brooklyn` in their name.",
       "user": "Diana",
       "type": "dev",
       "in": {
@@ -14,6 +15,32 @@
         "input": "brooklyn"
       },
       "expected": {
+        "properties": [
+          {
+            "layer": "local_admin",
+            "name": "Brooklyn",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "New York",
+            "admin1_abbr": "NY",
+            "admin2": "Kings County",
+            "text": "Brooklyn, Kings County, NY"
+          }
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "status": "pass",
+      "user": "sev",
+      "type": "dev",
+      "in": {
+        "lat": 40.744243,
+        "lon": -73.990342,
+        "input": "brooklyn"
+      },
+      "expected": {
+        "priorityThresh": 10,
         "properties": [
           {
             "layer": "local_admin",
