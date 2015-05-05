@@ -1,0 +1,60 @@
+{
+  "name": "GET /reverse?categories",
+  "priorityThresh": 3,
+  "endpoint": "reverse",
+  "description": "Verify that the API supports longitude wrapping as expected.",
+  "tests": [
+    {
+      "id": 3,
+      "status": "pass",
+      "user": "sev",
+      "type": "dev",
+      "in": {
+        "lat": 40.72956780913899,
+        "lon": -73.99463653564453
+      },
+      "expected": {
+        "properties": ["NoHo, New York"]
+      }
+    },
+    {
+      "id": 4,
+      "status": "pass",
+      "user": "sev",
+      "type": "dev",
+      "in": {
+        "lat": 40.72956780913899,
+        "lon": 286.00536346435547
+      },
+      "expected": {
+        "properties": ["NoHo, New York"]
+      }
+    },
+    {
+      "id": 5,
+      "status": "pass",
+      "user": "sev",
+      "type": "dev",
+      "in": {
+        "lat": 40.72956780913899,
+        "lon": -433.99463653564453
+      },
+      "expected": {
+        "properties": ["NoHo, New York"]
+      }
+    },
+    {
+      "id": 5,
+      "status": "pass",
+      "user": "sev",
+      "type": "dev",
+      "in": {
+        "lat": 40.72956780913899,
+        "lon": -793.9946365356445
+      },
+      "expected": {
+        "properties": ["NoHo, New York"]
+      }
+    }
+  ]
+}
