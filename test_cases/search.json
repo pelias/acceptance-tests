@@ -77,14 +77,7 @@
       },
       "expected": {
         "properties": [
-          "New York, New York",
-          {
-            "text": "New York, NY",
-            "admin1": "New York",
-            "admin1_abbr": "NY",
-            "admin0": "United States",
-            "alpha3": "USA"
-          }
+          "New York, New York"
         ]
       }
     },
@@ -317,7 +310,7 @@
         "input": "chelsea, new york"
       },
       "expected": {
-        "priorityThresh": 1,
+        "priorityThresh": 2,
         "properties": [
           {
             "name": "Chelsea",
@@ -331,7 +324,15 @@
             "text": "Chelsea, Manhattan, NY"
           },
           {
+            "layer": "neighborhood",
+            "name": "Chelsea",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "New York",
+            "admin1_abbr": "NY",
+            "admin2": "New York County",
             "text": "Chelsea, New York County, NY"
+
           }
         ]
       }
@@ -345,26 +346,18 @@
         "input": "soho, new york"
       },
       "expected": {
-        "priorityThresh": 1,
+        "priorityThresh": 2,
         "properties": [
           {
             "name": "SoHo",
+            "alpha3": "USA",
             "admin0": "United States",
             "admin1": "New York",
             "admin1_abbr": "NY",
             "admin2": "New York County",
-            "locality": "New York",
             "local_admin": "Manhattan",
+            "locality": "New York",
             "text": "SoHo, Manhattan, NY"
-          },
-          {
-            "admin0": "United States",
-            "name": "Soho",
-            "alpha3": "USA",
-            "text": "Soho, New York County, NY",
-            "admin1": "New York",
-            "admin1_abbr": "NY",
-            "admin2": "New York County"
           }
         ]
       }
@@ -423,7 +416,7 @@
         "input": "london bridge"
       },
       "expected": {
-        "priorityThresh": 3,
+        "priorityThresh": 8,
         "properties": [
           {
             "admin0": "United Kingdom",
@@ -450,14 +443,14 @@
     },
     {
       "id": 14,
-      "status": "fail",
+      "status": "pass",
       "type": "dev",
       "user": "hkrishna",
       "in": {
         "input": "statue of liberty"
       },
       "expected": {
-        "priorityThresh": 3,
+        "priorityThresh": 1,
         "properties": [
           {
             "admin0": "United States",
@@ -468,7 +461,7 @@
             "locality": "New York",
             "name": "Statue of Liberty",
             "neighborhood": "Southern Tip",
-            "text": "Statue of Liberty, Manhattan, New York"
+            "text": "Statue of Liberty, Manhattan, NY"
           }
         ]
       }

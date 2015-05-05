@@ -55,7 +55,7 @@
       "id": "1426636804303:2",
       "user": "feedback-app",
       "in": {
-        "input": "1200 New Jersey Ave SE Washington, DC 20590"
+        "input": "1200 New Jersey Ave SE, Washington, DC 20590"
       },
       "expected": {
         "properties": [
@@ -115,7 +115,7 @@
             "alpha3": "USA",
             "admin0": "United States",
             "admin1": "New York",
-            "admin2": "Bronx County",
+            "admin2": "Bronx",
             "text": "Yankee Stadium, Bronx, NY",
             "admin1_abbr": "NY"
           }
@@ -329,7 +329,7 @@
             "admin0": "United States",
             "admin1": "California",
             "admin2": "San Francisco County",
-            "text": "AT&T Park, San Francisco County, CA",
+            "text": "AT&T Park, San Francisco, CA",
             "admin1_abbr": "CA"
           },
           {
@@ -339,7 +339,7 @@
             "admin0": "United States",
             "admin1": "California",
             "admin2": "San Francisco County",
-            "text": "AT&T Park, San Francisco County, CA",
+            "text": "AT&T Park, San Francisco, CA",
             "admin1_abbr": "CA"
           }
         ],
@@ -373,32 +373,29 @@
             "admin0": "Switzerland",
             "admin1": "Appenzell Ausserrhoden",
             "admin2": "Bezirk Hinterland",
-            "text": "Urnäsch, Bezirk Hinterland, Appenzell Ausserrhoden"
+            "local_admin": "Urnäsch",
+            "text": "Urnäsch, Appenzell Ausserrhoden"
           },
           {
             "layer": "osmway",
             "name": "Urnäsch",
             "alpha3": "CHE",
             "admin0": "Switzerland",
-            "admin1": "Appenzell Ausserrhoden",
-            "admin2": "Bezirk Hinterland",
             "local_admin": "Urnäsch",
-            "locality": "Urnã¤sch",
-            "text": "Urnäsch, Appenzell Ausserrhoden"
+            "locality": "UrnÃ¤sch",
+            "text": "Urnäsch, Switzerland"
           },
           {
             "layer": "osmnode",
             "name": "Urnäsch",
             "alpha3": "CHE",
             "admin0": "Switzerland",
-            "admin1": "Appenzell Ausserrhoden",
-            "admin2": "Bezirk Hinterland",
             "local_admin": "Urnäsch",
-            "locality": "Urnã¤sch",
-            "text": "Urnäsch, Appenzell Ausserrhoden"
+            "locality": "UrnÃ¤sch",
+            "text": "Urnäsch, Switzerland"
           }
         ],
-        "priorityThresh": 4
+        "priorityThresh": 5
       },
       "status": "pass"
     },
@@ -417,7 +414,7 @@
             "admin0": "United States",
             "admin1": "Minnesota",
             "admin1_abbr": "MN",
-            "admin2": "Rice County",
+            "admin2": "Dakota County",
             "local_admin": "Waterford",
             "text": "Carleton College, Waterford, MN"
           },
@@ -440,7 +437,9 @@
             "admin0": "United States",
             "admin1": "Minnesota",
             "admin2": "Rice County",
-            "text": "Carleton College, Rice County, MN",
+            "local_admin": "Northfield",
+            "locality": "Northfield",
+            "text": "Carleton College, Northfield, MN",
             "admin1_abbr": "MN"
           }
         ],
@@ -523,7 +522,8 @@
             "admin0": "United States",
             "admin1": "California",
             "admin2": "San Francisco County",
-            "text": "San Francisco City Hall, San Francisco County, CA",
+            "locality": "San Francisco",
+            "text": "San Francisco City Hall, San Francisco, CA",
             "admin1_abbr": "CA"
           }
         ],
@@ -749,6 +749,7 @@
     {
       "id": "1426636804303:21",
       "user": "feedback-app",
+      "type": "dev",
       "in": {
         "input": "Brooklyn Museum"
       },
@@ -852,6 +853,7 @@
     {
       "id": "1426636804303:25",
       "user": "feedback-app",
+      "type": "dev",
       "in": {
         "input": "park slope"
       },
@@ -875,6 +877,7 @@
     {
       "id": "1426636804303:26",
       "user": "feedback-app",
+      "type": "dev",
       "in": {
         "input": "slope park"
       },
@@ -901,6 +904,7 @@
     {
       "id": "1426636804303:27",
       "user": "feedback-app",
+      "type": "dev",
       "in": {
         "input": "jj byrne playground"
       },
@@ -987,7 +991,7 @@
             "admin0": "United States",
             "admin1": "New Jersey",
             "admin1_abbr": "NJ",
-            "admin2": "Union",
+            "admin2": "Essex County",
             "local_admin": "Newark",
             "locality": "Newark",
             "neighborhood": "Dayton",
@@ -1460,7 +1464,8 @@
             "admin0": "United States",
             "admin1": "California",
             "admin2": "Marin County",
-            "text": "San Quentin State Prison, Marin County, CA",
+            "neighborhood": "East Larkspur",
+            "text": "San Quentin State Prison, East Larkspur, CA",
             "admin1_abbr": "CA"
           }
         ],
@@ -1672,11 +1677,13 @@
             "admin0": "United States",
             "admin1": "California",
             "admin2": "San Francisco County",
-            "text": "Ferry Building, San Francisco County, CA",
+            "locality": "San Francisco",
+            "neighborhood": "Financial District",
+            "text": "Ferry Building, San Francisco, CA",
             "admin1_abbr": "CA"
           }
         ],
-        "priorityThresh": 4
+        "priorityThresh": 5
       },
       "status": "pass"
     },
@@ -1708,6 +1715,7 @@
     {
       "id": "1426636804303:56",
       "user": "feedback-app",
+      "type": "dev",
       "in": {
         "input": "721 broadway"
       },
@@ -1802,6 +1810,7 @@
     {
       "id": "1426636804303:60",
       "user": "feedback-app",
+      "type": "dev",
       "in": {
         "input": "madison square park"
       },
@@ -1827,6 +1836,7 @@
     {
       "id": "1426636804303:61",
       "user": "feedback-app",
+      "type": "dev",
       "in": {
         "input": "madison square garden"
       },
@@ -1853,6 +1863,7 @@
     {
       "id": "1426636804303:62",
       "user": "feedback-app",
+      "type": "dev",
       "in": {
         "input": "flatiron hall"
       },
@@ -1879,6 +1890,7 @@
     {
       "id": "1426636804303:63",
       "user": "feedback-app",
+      "type": "dev",
       "in": {
         "input": "koreatown ny"
       },
@@ -1901,7 +1913,9 @@
             "admin0": "United States",
             "admin1": "New York",
             "admin2": "New York County",
-            "text": "Koreatown, New York County, NY",
+            "local_admin": "Manhattan",
+            "locality": "New York",
+            "text": "Koreatown, Manhattan, NY",
             "admin1_abbr": "NY"
           }
         ],
@@ -1912,6 +1926,7 @@
     {
       "id": "1426636804303:64",
       "user": "feedback-app",
+      "type": "dev",
       "in": {
         "input": "astoria park ny"
       },
@@ -1938,6 +1953,7 @@
     {
       "id": "1426636804303:65",
       "user": "feedback-app",
+      "type": "dev",
       "in": {
         "input": "brooklyn bridge"
       },
@@ -1963,6 +1979,7 @@
     {
       "id": "1426636804303:66",
       "user": "feedback-app",
+      "type": "dev",
       "in": {
         "input": "washington square park"
       },
@@ -1975,25 +1992,39 @@
             "admin0": "United States",
             "admin1": "New York",
             "admin1_abbr": "NY",
-            "admin2": "New York",
+            "admin2": "New York County",
             "local_admin": "Manhattan",
             "locality": "New York",
-            "neighborhood": "Noho",
+            "neighborhood": "NoHo",
             "text": "Washington Square Park, Manhattan, NY"
           }
         ],
         "priorityThresh": 5
       },
-      "status": "fail"
+      "status": "pass"
     },
     {
       "id": "1426636804303:67",
       "user": "feedback-app",
+      "type": "dev",
       "in": {
         "input": "brooklyn bridge park"
       },
       "expected": {
         "properties": [
+          {
+            "layer": "osmnode",
+            "name": "Brooklyn Bridge Park/DUMBO",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "New York",
+            "admin1_abbr": "NY",
+            "admin2": "New York County",
+            "local_admin": "Manhattan",
+            "locality": "New York",
+            "neighborhood": "Fulton Ferry",
+            "text": "Brooklyn Bridge Park/DUMBO, Manhattan, NY"
+          },
           {
             "layer": "osmway",
             "name": "Brooklyn Bridge Park",
@@ -2014,20 +2045,21 @@
             "admin0": "United States",
             "admin1": "New York",
             "admin1_abbr": "NY",
-            "admin2": "Kings County",
-            "local_admin": "Brooklyn",
+            "admin2": "New York County",
+            "local_admin": "Manhattan",
             "locality": "New York",
             "neighborhood": "Brooklyn Heights",
-            "text": "Brooklyn Bridge Park, Brooklyn, NY"
+            "text": "Brooklyn Bridge Park, Manhattan, NY"
           }
         ],
-        "priorityThresh": 2
+        "priorityThresh": 4
       },
       "status": "pass"
     },
     {
       "id": "1426636804303:68",
       "user": "feedback-app",
+      "type": "dev",
       "in": {
         "input": "manhattan bridge"
       },
@@ -2053,6 +2085,7 @@
     {
       "id": "1426636804303:69",
       "user": "feedback-app",
+      "type": "dev",
       "in": {
         "input": "empire state building"
       },
@@ -2078,7 +2111,10 @@
             "admin0": "United States",
             "admin1": "New York",
             "admin2": "New York County",
-            "text": "Empire State Building, New York County, NY",
+            "local_admin": "Manhattan",
+            "locality": "New York",
+            "neighborhood": "Koreatown",
+            "text": "Empire State Building, Manhattan, NY",
             "admin1_abbr": "NY"
           }
         ],
@@ -2089,6 +2125,7 @@
     {
       "id": "1426636804303:70",
       "user": "feedback-app",
+      "type": "dev",
       "in": {
         "input": "chrysler building"
       },
@@ -2114,7 +2151,7 @@
             "admin0": "United States",
             "admin1": "New York",
             "admin2": "New York County",
-            "text": "Chrysler Building, New York County, NY",
+            "text": "Chrysler Building, Manhattan, NY",
             "admin1_abbr": "NY"
           },
           {
@@ -2124,7 +2161,10 @@
             "admin0": "United States",
             "admin1": "New York",
             "admin2": "New York County",
-            "text": "Chrysler Building, New York County, NY",
+            "local_admin": "Manhattan",
+            "locality": "New York",
+            "neighborhood": "Murray Hill",
+            "text": "Chrysler Building, Manhattan, NY",
             "admin1_abbr": "NY"
           }
         ],
@@ -2135,6 +2175,7 @@
     {
       "id": "1426636804303:71",
       "user": "feedback-app",
+      "type": "dev",
       "in": {
         "input": "rockefeller center"
       },
@@ -2160,7 +2201,10 @@
             "admin0": "United States",
             "admin1": "New York",
             "admin2": "New York County",
-            "text": "Rockefeller Center, New York County, NY",
+            "local_admin": "Manhattan",
+            "locality": "New York",
+            "neighborhood": "Theatre District",
+            "text": "Rockefeller Center, Manhattan, NY",
             "admin1_abbr": "NY"
           }
         ],
@@ -2211,19 +2255,6 @@
             "local_admin": "Doylestown",
             "text": "Doylestown, PA",
             "admin1_abbr": "PA"
-          },
-          {
-            "layer": "osmnode",
-            "name": "Doylestown",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "Pennsylvania",
-            "admin1_abbr": "PA",
-            "admin2": "Bucks County",
-            "local_admin": "Doylestown",
-            "locality": "Doylestown",
-            "neighborhood": "Pools Corner",
-            "text": "Doylestown, PA"
           }
         ],
         "priorityThresh": 5
@@ -2233,6 +2264,7 @@
     {
       "id": "1426636804303:74",
       "user": "feedback-app",
+      "type": "dev",
       "in": {
         "input": "times square"
       },
@@ -2259,6 +2291,7 @@
     {
       "id": "1426636804303:75",
       "user": "feedback-app",
+      "type": "dev",
       "in": {
         "input": "11 times square"
       },
@@ -2285,6 +2318,7 @@
     {
       "id": "1426636804303:76",
       "user": "feedback-app",
+      "type": "dev",
       "in": {
         "input": "bombay sandwich co"
       },
@@ -2311,6 +2345,7 @@
     {
       "id": "1426636804303:77",
       "user": "feedback-app",
+      "type": "dev",
       "in": {
         "input": "flatiron building, new york"
       },
@@ -2363,6 +2398,7 @@
     {
       "id": "1426636804303:79",
       "user": "feedback-app",
+      "type": "dev",
       "in": {
         "input": "momoya"
       },
@@ -2389,6 +2425,7 @@
     {
       "id": "1426636804303:80",
       "user": "feedback-app",
+      "type": "dev",
       "in": {
         "input": "479 grand st"
       },
@@ -2414,6 +2451,7 @@
     {
       "id": "1426636804303:81",
       "user": "feedback-app",
+      "type": "dev",
       "in": {
         "input": "69 west 9th st"
       },
@@ -2578,7 +2616,7 @@
         ],
         "priorityThresh": 1
       },
-      "status": "fail"
+      "status": "pass"
     },
     {
       "id": "1426636804303:88",
@@ -2633,6 +2671,7 @@
     {
       "id": "1426636804303:90",
       "user": "feedback-app",
+      "type": "dev",
       "in": {
         "input": "penn station new york"
       },
@@ -2711,6 +2750,7 @@
     {
       "id": "1426636804303:93",
       "user": "feedback-app",
+      "type": "dev",
       "in": {
         "input": "astoria, queens"
       },
@@ -2770,6 +2810,7 @@
     {
       "id": "1426636804303:95",
       "user": "feedback-app",
+      "type": "dev",
       "in": {
         "input": "Samsung Accelerator"
       },
@@ -2870,6 +2911,7 @@
     {
       "id": "1426636804303:99",
       "user": "feedback-app",
+      "type": "dev",
       "in": {
         "input": "Ace Hotel, NYC"
       },
@@ -2915,11 +2957,12 @@
         ],
         "priorityThresh": 7
       },
-      "status": "fail"
+      "status": "pass"
     },
     {
       "id": "1426636804303:101",
       "user": "feedback-app",
+      "type": "dev",
       "in": {
         "input": "318 19th street"
       },
@@ -3139,6 +3182,7 @@
     {
       "id": "1426636804303:110",
       "user": "feedback-app",
+      "type": "dev",
       "in": {
         "input": "flatiron district"
       },
@@ -3216,6 +3260,7 @@
     {
       "id": "1426636804303:113",
       "user": "feedback-app",
+      "type": "dev",
       "in": {
         "input": "101 saint marks pl"
       },
@@ -3255,6 +3300,7 @@
     {
       "id": "1426636804303:114",
       "user": "feedback-app",
+      "type": "dev",
       "in": {
         "input": "flatiron building"
       },
@@ -3281,6 +3327,7 @@
     {
       "id": "1426636804303:115",
       "user": "feedback-app",
+      "type": "dev",
       "in": {
         "input": "flatiron"
       },
@@ -3352,6 +3399,7 @@
     {
       "id": "1426636804303:118",
       "user": "feedback-app",
+      "type": "dev",
       "in": {
         "input": "130 dean street brooklyn ny"
       },
