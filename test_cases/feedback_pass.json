@@ -3657,14 +3657,13 @@
       "expected": {
         "properties": [
           {
-            "layer": "osmaddress",
-            "name": "1 Simon-Dach-Straße",
+            "name": "Simon-Dach-Straße",
             "alpha3": "DEU",
             "admin1": "Berlin",
             "admin2": "Berlin",
             "locality": "Berlin",
             "neighborhood": "Friedrichsberg",
-            "text": "1 Simon-Dach-Straße, Berlin"
+            "text": "Simon-Dach-Straße, Berlin"
           }
         ],
         "priorityThresh": 3
@@ -3723,7 +3722,7 @@
       "id": "1427414405152:6",
       "user": "feedback-app",
       "in": {
-        "input": "Lake Cayuga"
+        "input": "Lake Cayuga, ny"
       },
       "expected": {
         "properties": [
