@@ -1,0 +1,517 @@
+{
+  "name": "Verify presence of categories data.",
+  "priorityThresh": 1,
+  "tests": [
+    {
+      "in": {
+        "input": "East 34th Street Heliport",
+        "layers": "geoname"
+      },
+      "status": "pass",
+      "user": "sevko",
+      "type": "dev",
+      "id": 1,
+      "expected": {
+        "properties": [
+          {
+            "name": "East 34th Street Heliport",
+            "admin1": "New York",
+            "text": "East 34th Street Heliport, Manhattan, NY",
+            "local_admin": "Manhattan",
+            "neighborhood": "East Side",
+            "locality": "New York",
+            "alpha3": "USA",
+            "admin2": "New York County",
+            "admin1_abbr": "NY",
+            "admin0": "United States",
+            "category": [
+              "transport:air:airport",
+              "transport:air",
+              "transport"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "in": {
+        "input": "Sixtyninth Regiment Armory",
+        "layers": "geoname"
+      },
+      "status": "pass",
+      "user": "sevko",
+      "type": "dev",
+      "id": 2,
+      "expected": {
+        "properties": [
+          {
+            "name": "Sixtyninth Regiment Armory (historical)",
+            "admin1": "New York",
+            "text": "Sixtyninth Regiment Armory (historical), Manhattan, NY",
+            "local_admin": "Manhattan",
+            "neighborhood": "Midtown South",
+            "locality": "New York",
+            "alpha3": "USA",
+            "admin2": "New York County",
+            "admin1_abbr": "NY",
+            "admin0": "United States",
+            "category": [
+              "government",
+              "government:military"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "in": {
+        "input": "Fashion Institute of Technology",
+        "layers": "geoname"
+      },
+      "status": "pass",
+      "user": "sevko",
+      "type": "dev",
+      "id": 3,
+      "expected": {
+        "properties": [
+          {
+            "name": "Fashion Institute of Technology",
+            "admin1": "New York",
+            "text": "Fashion Institute of Technology, Manhattan, NY",
+            "local_admin": "Manhattan",
+            "neighborhood": "Garment District",
+            "locality": "New York",
+            "alpha3": "USA",
+            "admin2": "New York County",
+            "admin1_abbr": "NY",
+            "admin0": "United States",
+            "category": [
+              "academic"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "in": {
+        "input": "Cabrini Medical Center",
+        "layers": "geoname"
+      },
+      "status": "pass",
+      "user": "sevko",
+      "type": "dev",
+      "id": 4,
+      "expected": {
+        "properties": [
+          {
+            "name": "Cabrini Medical Center",
+            "admin1": "New York",
+            "text": "Cabrini Medical Center, Manhattan, NY",
+            "local_admin": "Manhattan",
+            "neighborhood": "Gramercy",
+            "locality": "New York",
+            "alpha3": "USA",
+            "admin2": "New York County",
+            "admin1_abbr": "NY",
+            "admin0": "United States",
+            "category": [
+              "health"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "in": {
+        "input": "Port Authority Bus Terminal",
+        "layers": "geoname"
+      },
+      "status": "pass",
+      "user": "sevko",
+      "type": "dev",
+      "id": 5,
+      "expected": {
+        "properties": [
+          {
+            "name": "Port Authority Bus Terminal",
+            "admin1": "New York",
+            "text": "Port Authority Bus Terminal, Manhattan, NY",
+            "local_admin": "Manhattan",
+            "neighborhood": "Midtown West",
+            "locality": "New York",
+            "alpha3": "USA",
+            "admin2": "New York County",
+            "admin1_abbr": "NY",
+            "admin0": "United States",
+            "category": [
+              "transport:bus",
+              "transport"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "in": {
+        "input": "Manhattan Mall Shopping Center",
+        "layers": "geoname"
+      },
+      "status": "pass",
+      "user": "sevko",
+      "type": "dev",
+      "id": 6,
+      "expected": {
+        "properties": [
+          {
+            "name": "Manhattan Mall Shopping Center",
+            "admin1": "New York",
+            "text": "Manhattan Mall Shopping Center, Manhattan, NY",
+            "local_admin": "Manhattan",
+            "neighborhood": "Garment District",
+            "locality": "New York",
+            "alpha3": "USA",
+            "admin2": "New York County",
+            "admin1_abbr": "NY",
+            "admin0": "United States",
+            "category": [
+              "retail"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "in": {
+        "input": "Cooper Station New York Post Office",
+        "layers": "geoname"
+      },
+      "status": "pass",
+      "user": "sevko",
+      "type": "dev",
+      "id": 7,
+      "expected": {
+        "properties": [
+          {
+            "name": "Cooper Station New York Post Office",
+            "admin1": "New York",
+            "text": "Cooper Station New York Post Office, Manhattan, NY",
+            "local_admin": "Manhattan",
+            "neighborhood": "NoHo",
+            "locality": "New York",
+            "alpha3": "USA",
+            "admin2": "New York County",
+            "admin1_abbr": "NY",
+            "admin0": "United States",
+            "category": [
+              "government",
+              "professional"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "in": {
+        "input": "Ed Sullivan Theatre",
+        "layers": "geoname"
+      },
+      "status": "pass",
+      "user": "sevko",
+      "type": "dev",
+      "id": 8,
+      "expected": {
+        "properties": [
+          {
+            "name": "Ed Sullivan Theatre",
+            "admin1": "New York",
+            "text": "Ed Sullivan Theatre, Manhattan, NY",
+            "local_admin": "Manhattan",
+            "neighborhood": "San Juan Hill",
+            "locality": "New York",
+            "alpha3": "USA",
+            "admin2": "New York County",
+            "admin1_abbr": "NY",
+            "admin0": "United States",
+            "category": [
+              "entertainment"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "in": {
+        "input": "Glad Tidings Tabernacle Church",
+        "layers": "geoname"
+      },
+      "status": "pass",
+      "user": "sevko",
+      "type": "dev",
+      "id": 9,
+      "expected": {
+        "properties": [
+          {
+            "name": "Glad Tidings Tabernacle Church",
+            "admin1": "New York",
+            "text": "Glad Tidings Tabernacle Church, Manhattan, NY",
+            "local_admin": "Manhattan",
+            "neighborhood": "Garment District",
+            "locality": "New York",
+            "alpha3": "USA",
+            "admin2": "New York County",
+            "admin1_abbr": "NY",
+            "admin0": "United States",
+            "category": [
+              "religion"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "in": {
+        "input": "National 9/11 memorial",
+        "layers": "geoname"
+      },
+      "status": "pass",
+      "user": "sevko",
+      "type": "dev",
+      "id": 10,
+      "expected": {
+        "properties": [
+          {
+            "name": "National 9/11 memorial",
+            "admin1": "New York",
+            "text": "National 9/11 memorial, Manhattan, NY",
+            "local_admin": "Manhattan",
+            "neighborhood": "Battery Park City",
+            "locality": "New York",
+            "alpha3": "USA",
+            "admin2": "New York County",
+            "admin1_abbr": "NY",
+            "admin0": "United States",
+            "category": [
+              "landmark"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "in": {
+        "input": "Weehawken Cove",
+        "layers": "geoname"
+      },
+      "status": "pass",
+      "user": "sevko",
+      "type": "dev",
+      "id": 11,
+      "expected": {
+        "properties": [
+          {
+            "name": "Weehawken Cove",
+            "admin1": "New Jersey",
+            "text": "Weehawken Cove, Hoboken, NJ",
+            "local_admin": "Hoboken",
+            "neighborhood": "West Hoboken",
+            "locality": "Hoboken",
+            "alpha3": "USA",
+            "admin2": "Hudson County",
+            "admin1_abbr": "NJ",
+            "admin0": "United States",
+            "category": [
+              "natural",
+              "natural:water"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "in": {
+        "input": "Howard Johnson Midtown Manhattan",
+        "layers": "geoname"
+      },
+      "status": "pass",
+      "user": "sevko",
+      "type": "dev",
+      "id": 12,
+      "expected": {
+        "properties": [
+          {
+            "name": "Howard Johnson Midtown Manhattan",
+            "admin1": "New York",
+            "text": "Howard Johnson Midtown Manhattan, Manhattan, NY",
+            "local_admin": "Manhattan",
+            "neighborhood": "Midtown West",
+            "locality": "New York",
+            "alpha3": "USA",
+            "admin2": "New York County",
+            "admin1_abbr": "NY",
+            "admin0": "United States",
+            "category": [
+              "accomodation"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "in": {
+        "input": "East River Park",
+        "layers": "geoname"
+      },
+      "status": "pass",
+      "user": "sevko",
+      "type": "dev",
+      "id": 13,
+      "expected": {
+        "properties": [
+          {
+            "name": "East River Park",
+            "admin1": "New York",
+            "text": "East River Park, Manhattan, NY",
+            "local_admin": "Manhattan",
+            "neighborhood": "LoHo",
+            "locality": "New York",
+            "alpha3": "USA",
+            "admin2": "New York County",
+            "admin1_abbr": "NY",
+            "admin0": "United States",
+            "category": [
+              "natural",
+              "recreation"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "in": {
+        "input": "Chelsea Piers",
+        "layers": "geoname"
+      },
+      "status": "pass",
+      "user": "sevko",
+      "type": "dev",
+      "id": 14,
+      "expected": {
+        "properties": [
+          {
+            "name": "Chelsea Piers",
+            "admin1": "New York",
+            "text": "Chelsea Piers, Manhattan, NY",
+            "local_admin": "Manhattan",
+            "neighborhood": "Chelsea",
+            "locality": "New York",
+            "alpha3": "USA",
+            "admin2": "New York County",
+            "admin1_abbr": "NY",
+            "admin0": "United States",
+            "category": [
+              "transport:sea",
+              "transport",
+              "industry"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 15,
+      "status": "pass",
+      "user": "sevko",
+      "in": {
+        "input": "Goshen Point",
+        "layers": "geoname"
+      },
+      "expected": {
+        "properties": [
+          {
+            "admin1": "Connecticut",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin2": "New London County",
+            "text": "Goshen Point, Waterford, CT",
+            "admin1_abbr": "CT",
+            "local_admin": "Waterford",
+            "name": "Goshen Point",
+            "category": ["natural"]
+          }
+        ]
+      }
+    },
+    {
+      "id": 16,
+      "status": "pass",
+      "user": "sevko",
+      "in": {
+        "input": "Grant Swamp",
+        "layers": "geoname"
+      },
+      "expected": {
+        "properties": [
+          {
+            "text": "Grant Swamp, Winchester, CT",
+            "admin2": "Litchfield County",
+            "admin1": "Connecticut",
+            "alpha3": "USA",
+            "name": "Grant Swamp",
+            "local_admin": "Winchester",
+            "admin0": "United States",
+            "admin1_abbr": "CT",
+            "category": ["natural", "natural:water"]
+          }
+        ]
+      }
+    },
+    {
+      "id": 17,
+      "status": "pass",
+      "user": "sevko",
+      "in": {
+        "input": "Grassmere Golf Course",
+        "layers": "geoname"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Grassmere Golf Course",
+            "admin1": "Connecticut",
+            "admin2": "Hartford County",
+            "text": "Grassmere Golf Course, Enfield, CT",
+            "alpha3": "USA",
+            "local_admin": "Enfield",
+            "admin1_abbr": "CT",
+            "admin0": "United States",
+            "category": ["recreation", "entertainment"]
+          }
+        ]
+      }
+    },
+    {
+      "id": 18,
+      "status": "pass",
+      "user": "sevko",
+      "in": {
+        "input": "Town of Hamden",
+        "layers": "geoname"
+      },
+      "expected": {
+        "properties": [
+          {
+            "admin2": "Delaware County",
+            "name": "Town of Hamden",
+            "admin0": "United States",
+            "alpha3": "USA",
+            "text": "Town of Hamden, Hamden, NY",
+            "admin1": "New York",
+            "local_admin": "Hamden",
+            "admin1_abbr": "NY",
+            "category": ["admin"]
+          }
+        ]
+      }
+    }
+  ]
+}
