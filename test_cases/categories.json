@@ -56,8 +56,8 @@
             "admin1_abbr": "NY",
             "admin0": "United States",
             "category": [
-              "government",
-              "government:military"
+              "government:military",
+              "government"
             ]
           }
         ]
@@ -320,8 +320,8 @@
             "admin1_abbr": "NJ",
             "admin0": "United States",
             "category": [
-              "natural",
-              "natural:water"
+              "natural:water",
+              "natural"
             ]
           }
         ]
