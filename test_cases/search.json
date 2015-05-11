@@ -427,23 +427,13 @@
             "name": "London Bridge",
             "neighborhood": "Bankside",
             "text": "London Bridge, Bankside, Greater London"
-          },
-          {
-            "admin0": "United Kingdom",
-            "admin1": "Southwark",
-            "admin2": "Greater London",
-            "locality": "London",
-            "alpha3": "GBR",
-            "name": "London Bridge",
-            "neighborhood": "The Borough",
-            "text": "London Bridge, The Borough, Greater London"
           }
         ]
       }
     },
     {
       "id": 14,
-      "status": "pass",
+      "status": "fail",
       "type": "dev",
       "user": "hkrishna",
       "in": {
@@ -564,6 +554,49 @@
           "text": "Newark Liberty International Airport, Newark, NJ"
         }]
       }
+    },
+    {
+      "id": "1427414405152:3",
+      "user": "sevko",
+      "in": {
+        "input": "7 Simon-Dach-Straße"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "7 Simon-Dach-Straße",
+            "alpha3": "DEU",
+            "admin1": "Bayern",
+            "admin2": "Erlangen-Hoechstadt",
+            "locality": "Uttenreuth",
+            "text": "7 Simon-Dach-Straße, Uttenreuth, Bayern"
+          }
+        ],
+        "priorityThresh": 1
+      },
+      "status": "pass"
+    },
+    {
+      "id": "1427414405152:3",
+      "user": "sevko",
+      "in": {
+        "input": "Simon-Dach-Straße"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Simon-Dach-Straße",
+            "alpha3": "DEU",
+            "admin1": "Berlin",
+            "admin2": "Berlin",
+            "locality": "Berlin",
+            "neighborhood": "Friedrichsberg",
+            "text": "Simon-Dach-Straße, Berlin"
+          }
+        ],
+        "priorityThresh": 1
+      },
+      "status": "fail"
     }
   ]
 }
