@@ -25,7 +25,13 @@
             "local_admin": "Manhattan",
             "locality": "New York",
             "neighborhood": "Rose Hill",
-            "text": "DiDi Dumpling, Manhattan, NY"
+            "text": "DiDi Dumpling, Manhattan, NY",
+            "category": [
+              "food",
+              "retail",
+              "nightlife",
+              "food:cuisine:chinese"
+            ]
           }
         ]
       }
@@ -52,7 +58,11 @@
             "local_admin": "Manhattan",
             "locality": "New York",
             "neighborhood": "Flatiron District",
-            "text": "BMT Broadway Line, Manhattan, NY"
+            "text": "BMT Broadway Line, Manhattan, NY",
+            "category": [
+              "transport",
+              "transport:rail"
+            ]
           },
           {
             "name": "28th Street (N,R",
@@ -64,7 +74,12 @@
             "local_admin": "Manhattan",
             "locality": "New York",
             "neighborhood": "Flatiron District",
-            "text": "28th Street (N,R, Manhattan, NY"
+            "text": "28th Street (N,R, Manhattan, NY",
+            "category": [
+              "transport",
+              "transport:rail",
+              "transport:station"
+            ]
           }
         ]
       }
