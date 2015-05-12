@@ -1,0 +1,104 @@
+{
+  "name": "/search with categories",
+  "priorityThresh": 3,
+  "tests": [
+    {
+      "id": 1,
+      "status": "pass",
+      "user": "sevko",
+      "type": "dev",
+      "in": {
+        "categories": ["transport:taxi"],
+        "input": "newark"
+      },
+      "expected": {
+        "properties": [{
+          "name": "Taxi Newark Airport",
+          "alpha3": "USA",
+          "admin0": "United States",
+          "admin1": "New Jersey",
+          "admin1_abbr": "NJ",
+          "admin2": "Essex County",
+          "local_admin": "Newark",
+          "locality": "Newark",
+          "neighborhood": "Dayton",
+          "category": [
+            "transport",
+            "transport:taxi"
+          ],
+          "text": "Taxi Newark Airport, Newark, NJ"
+        }]
+      }
+    },
+    {
+      "id": 2,
+      "status": "pass",
+      "user": "sevko",
+      "type": "dev",
+      "in": {
+        "categories": ["recreation"],
+        "input": "east river"
+      },
+      "expected": {
+        "properties": [{
+          "name": "East River Park",
+          "alpha3": "USA",
+          "admin0": "United States",
+          "admin1": "New York",
+          "admin1_abbr": "NY",
+          "admin2": "New York County",
+          "local_admin": "Manhattan",
+          "locality": "New York",
+          "neighborhood": "LoHo",
+          "category": [
+            "recreation"
+          ],
+          "address": {},
+          "text": "East River Park, Manhattan, NY"
+        }]
+      }
+    },
+    {
+      "id": 3,
+      "status": "pass",
+      "user": "sevko",
+      "type": "dev",
+      "in": {
+        "categories": ["accommodation"],
+        "input": "new york city"
+      },
+      "expected": {
+        "properties": [{
+          "alpha3": "USA",
+          "admin0": "United States",
+          "admin1": "New York",
+          "admin1_abbr": "NY",
+          "admin2": "New York County",
+          "local_admin": "Manhattan",
+          "locality": "New York",
+          "category": [
+            "accomodation"
+          ]
+        }]
+      }
+    },
+    {
+      "id": 4,
+      "status": "pass",
+      "user": "sevko",
+      "type": "dev",
+      "in": {
+        "categories": ["natural:water"],
+        "input": "portland"
+      },
+      "expected": {
+        "properties": [{
+          "categories": [
+            "natural",
+            "natural:water"
+          ]
+        }]
+      }
+    }
+  ]
+}
