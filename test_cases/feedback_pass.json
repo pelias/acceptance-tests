@@ -1009,7 +1009,7 @@
             "text": "Newark Liberty Airport Station, Newark, NJ"
           }
         ],
-        "priorityThresh": 5
+        "priorityThresh": 6
       },
       "status": "pass"
     },
@@ -3693,28 +3693,6 @@
           }
         ],
         "priorityThresh": 1
-      },
-      "status": "pass"
-    },
-    {
-      "id": "1427414405152:3",
-      "user": "feedback-app",
-      "in": {
-        "input": "Simon-Dach-Straße"
-      },
-      "expected": {
-        "properties": [
-          {
-            "name": "Simon-Dach-Straße",
-            "alpha3": "DEU",
-            "admin1": "Berlin",
-            "admin2": "Berlin",
-            "locality": "Berlin",
-            "neighborhood": "Friedrichsberg",
-            "text": "Simon-Dach-Straße, Berlin"
-          }
-        ],
-        "priorityThresh": 3
       },
       "status": "pass"
     },
