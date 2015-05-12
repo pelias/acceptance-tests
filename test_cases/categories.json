@@ -86,7 +86,7 @@
             "admin1_abbr": "NY",
             "admin0": "United States",
             "category": [
-              "academic"
+              "education"
             ]
           }
         ]
@@ -358,7 +358,7 @@
     },
     {
       "in": {
-        "input": "East River Park",
+        "input": "East River Park, ny",
         "layers": "geoname"
       },
       "status": "pass",
