@@ -3790,6 +3790,305 @@
         "priorityThresh": 1
       },
       "status": "pass"
+    },
+    {
+      "id": "1431043206881:0",
+      "user": "feedback-app",
+      "in": {
+        "input": "Dhaka, Dhaka, Bangladesh"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "geoname",
+            "name": "Dhaka",
+            "alpha3": "BGD",
+            "admin0": "Bangladesh",
+            "admin1": "Dhaka",
+            "admin2": "Dhaka",
+            "text": "Dhaka"
+          }
+        ],
+        "priorityThresh": 1
+      },
+      "status": "pass"
+    },
+    {
+      "id": "1431043206881:1",
+      "user": "feedback-app",
+      "in": {
+        "input": "Tbilisi, Republic of Georgia, Georgia"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "geoname",
+            "name": "Tbilisi",
+            "alpha3": "GEO",
+            "admin0": "Georgia",
+            "admin1": "T'bilisi",
+            "text": "Tbilisi, T'bilisi"
+          },
+          {
+            "layer": "admin1",
+            "name": "Tbilisi",
+            "alpha3": "GEO",
+            "admin0": "Georgia",
+            "admin1": "Tbilisi",
+            "text": "Tbilisi"
+          },
+          {
+            "layer": "osmnode",
+            "name": "Tbilisi",
+            "alpha3": "GEO",
+            "admin0": "Georgia",
+            "admin1": "Tbilisi",
+            "text": "Tbilisi"
+          }
+        ],
+        "priorityThresh": 3
+      },
+      "status": "pass"
+    },
+    {
+      "id": "1431043206881:2",
+      "user": "feedback-app",
+      "in": {
+        "input": "Suva, Fiji"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "geoname",
+            "name": "Suva",
+            "alpha3": "FJI",
+            "admin0": "Fiji",
+            "admin1": "Central",
+            "text": "Suva, Central"
+          },
+          {
+            "layer": "geoname",
+            "name": "Suva",
+            "alpha3": "FJI",
+            "admin0": "Fiji",
+            "admin1": "Central",
+            "text": "Suva, Central"
+          }
+        ],
+        "priorityThresh": 2
+      },
+      "status": "pass"
+    },
+    {
+      "id": "1431043206881:3",
+      "user": "feedback-app",
+      "in": {
+        "input": "Dili, Dili, Timor leste"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "geoname",
+            "name": "Dili",
+            "alpha3": "TLS",
+            "admin0": "East Timor",
+            "admin1": "Díli",
+            "text": "Dili, Díli"
+          }
+        ],
+        "priorityThresh": 1
+      },
+      "status": "pass"
+    },
+    {
+      "id": "1431043206881:4",
+      "user": "feedback-app",
+      "in": {
+        "input": "Washington, District of Columbia, USA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "locality",
+            "name": "Washington",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "District of Columbia",
+            "admin1_abbr": "DC",
+            "admin2": "District of Columbia",
+            "text": "Washington, District of Columbia, DC"
+          }
+        ],
+        "priorityThresh": 1
+      },
+      "status": "pass"
+    },
+    {
+      "id": "1431043206881:5",
+      "user": "feedback-app",
+      "in": {
+        "input": "Silver Spring, Maryland, USA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "geoname",
+            "name": "Silver Spring",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "Maryland",
+            "admin1_abbr": "MD",
+            "admin2": "Montgomery County",
+            "locality": "Silver Spring",
+            "text": "Silver Spring, MD"
+          },
+          {
+            "layer": "locality",
+            "name": "Silver Spring",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "Maryland",
+            "admin1_abbr": "MD",
+            "admin2": "Montgomery County",
+            "text": "Silver Spring, Montgomery County, MD"
+          },
+          {
+            "layer": "osmway",
+            "name": "Silver Spring",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "Maryland",
+            "admin1_abbr": "MD",
+            "admin2": "Montgomery County",
+            "locality": "Silver Spring",
+            "neighborhood": "Blair Portal",
+            "text": "Silver Spring, MD"
+          },
+          {
+            "layer": "osmnode",
+            "name": "Silver Spring",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "Maryland",
+            "admin1_abbr": "MD",
+            "admin2": "Montgomery County",
+            "locality": "Silver Spring",
+            "neighborhood": "North Gate",
+            "text": "Silver Spring, MD"
+          }
+        ],
+        "priorityThresh": 4
+      },
+      "status": "pass"
+    },
+    {
+      "id": "1431043206881:6",
+      "user": "feedback-app",
+      "in": {
+        "input": "Markdorf, Germany"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "geoname",
+            "name": "Markdorf",
+            "alpha3": "DEU",
+            "admin0": "Germany",
+            "admin1": "Baden-Württemberg",
+            "admin2": "Tübingen Region",
+            "locality": "Markdorf",
+            "text": "Markdorf, Baden-Württemberg"
+          },
+          {
+            "layer": "geoname",
+            "name": "Markdorf",
+            "alpha3": "DEU",
+            "admin0": "Germany",
+            "admin1": "Baden-Württemberg",
+            "admin2": "Tübingen Region",
+            "locality": "Markdorf",
+            "text": "Markdorf, Baden-Württemberg"
+          }
+        ],
+        "priorityThresh": 2
+      },
+      "status": "pass"
+    },
+    {
+      "id": "1431043206881:7",
+      "user": "feedback-app",
+      "in": {
+        "input": "manteca, ca, united states"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "geoname",
+            "name": "Manteca",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "California",
+            "admin1_abbr": "CA",
+            "admin2": "San Joaquin County",
+            "locality": "Manteca",
+            "text": "Manteca, CA"
+          }
+        ],
+        "priorityThresh": 1
+      },
+      "status": "pass"
+    },
+    {
+      "id": "1431043206881:8",
+      "user": "feedback-app",
+      "in": {
+        "input": "Buenos Aires, Buenos Aires, Argentina"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "geoname",
+            "name": "Buenos Aires",
+            "alpha3": "ARG",
+            "admin0": "Argentina",
+            "admin1": "Buenos Aires F.D.",
+            "admin2": "Ciudad de Buenos Aires",
+            "text": "Buenos Aires, Ciudad de Buenos Aires, Buenos Aires F.D."
+          },
+          {
+            "layer": "osmnode",
+            "name": "Buenos Aires",
+            "alpha3": "ARG",
+            "admin0": "Argentina",
+            "admin1": "Ciudad de Buenos Aires",
+            "admin2": "Ciudad de Buenos Aires",
+            "neighborhood": "Barracas",
+            "text": "Buenos Aires, Barracas, Ciudad de Buenos Aires"
+          },
+          {
+            "layer": "osmnode",
+            "name": "Buenos Aires",
+            "alpha3": "ARG",
+            "admin0": "Argentina",
+            "admin1": "Ciudad de Buenos Aires",
+            "admin2": "Ciudad de Buenos Aires",
+            "neighborhood": "Barracas",
+            "text": "Buenos Aires, Barracas, Ciudad de Buenos Aires"
+          },
+          {
+            "layer": "osmnode",
+            "name": "Buenos Aires",
+            "alpha3": "ARG",
+            "admin0": "Argentina",
+            "admin1": "Ciudad de Buenos Aires",
+            "admin2": "Ciudad de Buenos Aires",
+            "neighborhood": "Barracas",
+            "text": "Buenos Aires, Barracas, Ciudad de Buenos Aires"
+          }
+        ],
+        "priorityThresh": 4
+      },
+      "status": "pass"
     }
   ]
 }
