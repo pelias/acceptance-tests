@@ -995,21 +995,9 @@
             "locality": "Newark",
             "neighborhood": "Dayton",
             "text": "Newark Liberty International Airport, Newark, NJ"
-          },
-          {
-            "name": "Newark Liberty Airport Station",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "New Jersey",
-            "admin1_abbr": "NJ",
-            "admin2": "Essex County",
-            "local_admin": "Newark",
-            "locality": "Newark",
-            "neighborhood": "Dayton",
-            "text": "Newark Liberty Airport Station, Newark, NJ"
           }
         ],
-        "priorityThresh": 6
+        "priorityThresh": 2
       },
       "status": "pass"
     },
