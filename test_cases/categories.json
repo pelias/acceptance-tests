@@ -460,7 +460,7 @@
             "local_admin": "Winchester",
             "admin0": "United States",
             "admin1_abbr": "CT",
-            "category": ["natural", "natural:water"]
+            "category": ["natural:water", "natural"]
           }
         ]
       }
