@@ -350,7 +350,7 @@
             "admin1_abbr": "NY",
             "admin0": "United States",
             "category": [
-              "accomodation"
+              "accommodation"
             ]
           }
         ]
@@ -509,6 +509,23 @@
             "local_admin": "Hamden",
             "admin1_abbr": "NY",
             "category": ["admin"]
+          }
+        ]
+      }
+    },
+    {
+      "id": 19,
+      "status": "pass",
+      "user": "sevko",
+      "type": "dev",
+      "in": {
+        "input": "howard winchester",
+        "layers": "osmway,osmnode,osmaddress"
+      },
+      "expected": {
+        "properties": [
+          {
+            "category": ["accommodation"]
           }
         ]
       }
