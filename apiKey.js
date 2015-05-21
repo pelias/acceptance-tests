@@ -5,7 +5,6 @@ var url = require('url'),
 module.exports = function( uri ){
 
   var settings = config.generate();
-  console.log( 'a', settings );
 
   if( settings && settings.hasOwnProperty('mapzen') ){
     var host = url.parse( uri ).host;
