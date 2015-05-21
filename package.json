@@ -22,8 +22,10 @@
     "nodemailer": "^1.x.x",
     "nodemailer-ses-transport": "1.2.0",
     "pelias-config": "^0.x.x",
+    "request": "^2.55.0",
     "require-dir": "0.1.0",
-    "request": "^2.55.0"
+    "tap-spec": "^3.0.0",
+    "tape": "^4.0.0"
   },
   "devDependencies": {
     "jshint": "^2.6.3",
