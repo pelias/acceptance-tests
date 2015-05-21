@@ -12,7 +12,9 @@
       },
       "expected": {
         "properties": [
-          "Brooklyn , Kings County, New York"
+          {
+            "text": "Brooklyn, NY"
+          }
         ]
       }
     },
@@ -26,7 +28,9 @@
       },
       "expected": {
         "properties": [
-          "Brooklyn , Kings County, New York"
+          {
+            "text": "Brooklyn, NY"
+          }
         ]
       }
     },
@@ -40,7 +44,9 @@
       },
       "expected": {
         "properties": [
-          "New York, New York"
+          {
+            "text": "New York, NY"
+          }
         ]
       }
     },
@@ -77,7 +83,9 @@
       },
       "expected": {
         "properties": [
-          "New York, New York"
+          {
+            "text": "New York City, Manhattan, NY"
+          }
         ]
       }
     },
@@ -112,7 +120,9 @@
       "expected": {
         "priorityThresh": 1,
         "properties": [
-          "Billerica, Middlesex County, Massachusetts"
+          {
+            "text": "Billerica, MA"
+          }
         ]
       }
     },
@@ -127,7 +137,9 @@
       "expected": {
         "priorityThresh": 1,
         "properties": [
-          "Billerica, Middlesex County, Massachusetts"
+          {
+            "text": "Billerica, MA"
+          }
         ]
       }
     },
@@ -357,7 +369,7 @@
             "admin2": "New York County",
             "local_admin": "Manhattan",
             "locality": "New York",
-            "text": "SoHo, Manhattan, NY"
+            "text": "Soho, New York County, NY"
           }
         ]
       }
@@ -374,12 +386,11 @@
         "priorityThresh": 3,
         "properties": [
           {
-            "name": "1 Main St.",
+            "name": "1 Main St",
             "alpha3": "GBR",
             "admin0": "United Kingdom",
             "admin1": "Dungannon",
-            "admin2": "County Monaghan",
-            "text": "1 Main St., County Monaghan"
+            "text": "1 Main St, United Kingdom"
           }
         ]
       }
