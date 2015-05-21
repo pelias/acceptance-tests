@@ -23,15 +23,13 @@
     "nodemailer-ses-transport": "1.2.0",
     "pelias-config": "^0.x.x",
     "request": "^2.55.0",
-    "require-dir": "0.1.0",
-    "tap-spec": "^3.0.0",
-    "tape": "^4.0.0"
+    "require-dir": "0.1.0"
   },
   "devDependencies": {
     "jshint": "^2.6.3",
     "precommit-hook": "1.0.7",
     "tape": "3.5.0",
-    "tap-spec": "^3.0.0"
+    "tap-spec": "^4.0.0"
   },
   "repository": {
     "type": "git",
