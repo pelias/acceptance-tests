@@ -4077,6 +4077,68 @@
         "priorityThresh": 4
       },
       "status": "pass"
+    },
+    {
+      "id": "1432771203570:0",
+      "user": "feedback-app",
+      "in": {
+        "input": "483A 28th Street, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "osmaddress",
+            "name": "483A 28th Street",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "California",
+            "admin1_abbr": "CA",
+            "admin2": "San Francisco County",
+            "locality": "San Francisco",
+            "neighborhood": "Noe Valley",
+            "category": [],
+            "address": {
+              "zip": "94131",
+              "number": "483A",
+              "street": "28th Street"
+            },
+            "text": "483A 28th Street, San Francisco, CA"
+          }
+        ],
+        "priorityThresh": 1
+      },
+      "status": "pass"
+    },
+    {
+      "id": "1432771203570:1",
+      "user": "feedback-app",
+      "in": {
+        "input": "485 28th Street, San Francisco, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "osmaddress",
+            "name": "485 28th Street",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "California",
+            "admin1_abbr": "CA",
+            "admin2": "San Francisco County",
+            "locality": "San Francisco",
+            "neighborhood": "Noe Valley",
+            "category": [],
+            "address": {
+              "zip": "94131",
+              "number": "483;485",
+              "street": "28th Street"
+            },
+            "text": "485 28th Street, San Francisco, CA"
+          }
+        ],
+        "priorityThresh": 1
+      },
+      "status": "pass"
     }
   ]
 }
