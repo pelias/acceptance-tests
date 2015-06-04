@@ -28,67 +28,6 @@
       "status": "pass"
     },
     {
-      "id": "1426636804303:1",
-      "user": "feedback-app",
-      "in": {
-        "input": "서울시청"
-      },
-      "expected": {
-        "properties": [
-          {
-            "text": "31 세종대로 서울시청 신관동, Seoul",
-            "neighborhood": "사직동",
-            "locality": "Seoul",
-            "layer": "openaddresses",
-            "name": "31 세종대로 서울시청 신관동",
-            "alpha3": "KOR",
-            "admin0": "South Korea",
-            "admin1": "Seoul",
-            "admin2": "종로구"
-          }
-        ],
-        "priorityThresh": 2
-      },
-      "status": "pass"
-    },
-    {
-      "id": "1426636804303:2",
-      "user": "feedback-app",
-      "in": {
-        "input": "1200 New Jersey Ave SE, Washington, DC 20590"
-      },
-      "expected": {
-        "properties": [
-          {
-            "layer": "osmaddress",
-            "name": "1200 New Jersey Ave SE",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "District Of Columbia",
-            "admin1_abbr": "DC",
-            "admin2": "District Of Columbia",
-            "locality": "Washington",
-            "neighborhood": "Near Southeast",
-            "text": "1200 New Jersey Ave SE, Washington, DC"
-          },
-          {
-            "layer": "osmaddress",
-            "name": "1200 New Jersey Avenue SE",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "District Of Columbia",
-            "admin1_abbr": "DC",
-            "admin2": "District Of Columbia",
-            "locality": "Washington",
-            "neighborhood": "Near Southeast",
-            "text": "1200 New Jersey Avenue SE, Washington, DC"
-          }
-        ],
-        "priorityThresh": 2
-      },
-      "status": "fail"
-    },
-    {
       "id": "1426636804303:3",
       "user": "feedback-app",
       "in": {
@@ -348,58 +287,6 @@
       "status": "pass"
     },
     {
-      "id": "1426636804303:9",
-      "user": "feedback-app",
-      "in": {
-        "input": "urnäsch, ch"
-      },
-      "expected": {
-        "properties": [
-          {
-            "layer": "geoname",
-            "name": "Urnäsch",
-            "alpha3": "CHE",
-            "admin0": "Switzerland",
-            "admin1": "Appenzell Ausserrhoden",
-            "admin2": "Bezirk Hinterland",
-            "locality": "UrnÃ¤sch",
-            "local_admin": "Urnäsch",
-            "text": "Urnäsch, Appenzell Ausserrhoden"
-          },
-          {
-            "layer": "geoname",
-            "name": "Urnäsch",
-            "alpha3": "CHE",
-            "admin0": "Switzerland",
-            "admin1": "Appenzell Ausserrhoden",
-            "admin2": "Bezirk Hinterland",
-            "local_admin": "Urnäsch",
-            "text": "Urnäsch, Appenzell Ausserrhoden"
-          },
-          {
-            "layer": "osmway",
-            "name": "Urnäsch",
-            "alpha3": "CHE",
-            "admin0": "Switzerland",
-            "local_admin": "Urnäsch",
-            "locality": "UrnÃ¤sch",
-            "text": "Urnäsch, Switzerland"
-          },
-          {
-            "layer": "osmnode",
-            "name": "Urnäsch",
-            "alpha3": "CHE",
-            "admin0": "Switzerland",
-            "local_admin": "Urnäsch",
-            "locality": "UrnÃ¤sch",
-            "text": "Urnäsch, Switzerland"
-          }
-        ],
-        "priorityThresh": 5
-      },
-      "status": "pass"
-    },
-    {
       "id": "1426636804303:10",
       "user": "feedback-app",
       "in": {
@@ -447,91 +334,7 @@
       },
       "status": "pass"
     },
-    {
-      "id": "1426636804303:11",
-      "user": "feedback-app",
-      "in": {
-        "input": "eek ak"
-      },
-      "expected": {
-        "properties": [
-          {
-            "layer": "geoname",
-            "name": "Eek",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "Alaska",
-            "admin2": "Bethel Census Area",
-            "locality": "Eek",
-            "text": "Eek, AK",
-            "admin1_abbr": "AK"
-          }
-        ],
-        "priorityThresh": 1
-      },
-      "status": "pass"
-    },
-    {
-      "id": "1426636804303:12",
-      "user": "feedback-app",
-      "in": {
-        "input": "City Hall, San Francisco"
-      },
-      "expected": {
-        "properties": [
-          {
-            "layer": "osmway",
-            "name": "San Francisco City Hall",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "California",
-            "admin1_abbr": "CA",
-            "admin2": "San Francisco County",
-            "locality": "San Francisco",
-            "neighborhood": "Opera Plaza",
-            "text": "San Francisco City Hall, San Francisco, CA"
-          },
-          {
-            "layer": "osmnode",
-            "name": "San Francisco City Hall",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "California",
-            "admin1_abbr": "CA",
-            "admin2": "San Francisco County",
-            "locality": "San Francisco",
-            "neighborhood": "Opera Plaza",
-            "text": "San Francisco City Hall, San Francisco, CA"
-          },
-          {
-            "layer": "osmnode",
-            "name": "Polk & McAllister (City Hall",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "California",
-            "admin1_abbr": "CA",
-            "admin2": "San Francisco County",
-            "locality": "San Francisco",
-            "neighborhood": "Opera Plaza",
-            "text": "Polk & McAllister (City Hall, San Francisco, CA"
-          },
-          {
-            "layer": "geoname",
-            "name": "San Francisco City Hall",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "California",
-            "admin2": "San Francisco County",
-            "locality": "San Francisco",
-            "text": "San Francisco City Hall, San Francisco, CA",
-            "admin1_abbr": "CA"
-          }
-        ],
-        "priorityThresh": 4
-      },
-      "status": "pass"
-    },
-    {
+        {
       "id": "1426636804303:13",
       "user": "feedback-app",
       "in": {
@@ -550,32 +353,6 @@
             "neighborhood": "Charleston Terrace",
             "text": "1288 Pear Avenue, Mountain View, CA",
             "admin1_abbr": "CA"
-          }
-        ],
-        "priorityThresh": 1
-      },
-      "status": "pass"
-    },
-    {
-      "id": "1426636804303:14",
-      "user": "feedback-app",
-      "in": {
-        "input": "cloud gate"
-      },
-      "expected": {
-        "properties": [
-          {
-            "layer": "osmway",
-            "name": "Cloud Gate",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "Illinois",
-            "admin1_abbr": "IL",
-            "admin2": "Cook County",
-            "local_admin": "Chicago",
-            "locality": "Chicago",
-            "neighborhood": "Fort Dearborn Addition",
-            "text": "Cloud Gate, Chicago, IL"
           }
         ],
         "priorityThresh": 1
@@ -646,32 +423,6 @@
       "status": "pass"
     },
     {
-      "id": "1426636804303:17",
-      "user": "feedback-app",
-      "in": {
-        "input": "cafe regular"
-      },
-      "expected": {
-        "properties": [
-          {
-            "layer": "osmway",
-            "name": "Cafe Regular du Nord",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "New York",
-            "admin1_abbr": "NY",
-            "admin2": "Kings County",
-            "local_admin": "Brooklyn",
-            "locality": "New York",
-            "neighborhood": "Park Slope",
-            "text": "Cafe Regular du Nord, Brooklyn, NY"
-          }
-        ],
-        "priorityThresh": 1
-      },
-      "status": "pass"
-    },
-    {
       "id": "1426636804303:18",
       "user": "feedback-app",
       "in": {
@@ -722,31 +473,6 @@
       "status": "pass"
     },
     {
-      "id": "1426636804303:20",
-      "user": "feedback-app",
-      "in": {
-        "input": "louvre"
-      },
-      "expected": {
-        "properties": [
-          {
-            "layer": "osmway",
-            "name": "Le Louvre",
-            "alpha3": "FRA",
-            "admin0": "France",
-            "admin1": "Paris",
-            "admin2": "Paris-1er-Arrondissement",
-            "local_admin": "Paris-1er-Arrondissement",
-            "locality": "Paris",
-            "neighborhood": "Quartier Saint-germain-l'auxerrois",
-            "text": "Le Louvre, Paris-1er-Arrondissement, Paris"
-          }
-        ],
-        "priorityThresh": 7
-      },
-      "status": "fail"
-    },
-    {
       "id": "1426636804303:21",
       "user": "feedback-app",
       "type": "dev",
@@ -792,58 +518,6 @@
             "locality": "Ithaca",
             "neighborhood": "East Ithaca",
             "text": "Cornell University, Ithaca, NY"
-          }
-        ],
-        "priorityThresh": 1
-      },
-      "status": "pass"
-    },
-    {
-      "id": "1426636804303:23",
-      "user": "feedback-app",
-      "in": {
-        "input": "Ithaca farmers market"
-      },
-      "expected": {
-        "properties": [
-          {
-            "layer": "osmway",
-            "name": "Ithaca Farmers' Market",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "New York",
-            "admin1_abbr": "NY",
-            "admin2": "Tompkins County",
-            "local_admin": "Ithaca",
-            "locality": "Ithaca",
-            "neighborhood": "Fall Creek",
-            "text": "Ithaca Farmers' Market, Ithaca, NY"
-          }
-        ],
-        "priorityThresh": 1
-      },
-      "status": "pass"
-    },
-    {
-      "id": "1426636804303:24",
-      "user": "feedback-app",
-      "in": {
-        "input": "65c dana st"
-      },
-      "expected": {
-        "properties": [
-          {
-            "layer": "osmnode",
-            "name": "Cambridge St @ Dana St",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "Massachusetts",
-            "admin1_abbr": "MA",
-            "admin2": "Middlesex County",
-            "local_admin": "Cambridge",
-            "locality": "Cambridge",
-            "neighborhood": "Mid Cambridge",
-            "text": "Cambridge St @ Dana St, Cambridge, MA"
           }
         ],
         "priorityThresh": 1
@@ -973,31 +647,6 @@
           }
         ],
         "priorityThresh": 1
-      },
-      "status": "pass"
-    },
-    {
-      "id": "1426636804303:30",
-      "user": "feedback-app",
-      "in": {
-        "input": "Newark Airport"
-      },
-      "expected": {
-        "properties": [
-          {
-            "name": "Newark Liberty International Airport",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "New Jersey",
-            "admin1_abbr": "NJ",
-            "admin2": "Essex County",
-            "local_admin": "Newark",
-            "locality": "Newark",
-            "neighborhood": "Dayton",
-            "text": "Newark Liberty International Airport, Newark, NJ"
-          }
-        ],
-        "priorityThresh": 2
       },
       "status": "pass"
     },
@@ -1186,31 +835,6 @@
       "status": "pass"
     },
     {
-      "id": "1426636804303:38",
-      "user": "feedback-app",
-      "in": {
-        "input": "1710 Drew, Houston"
-      },
-      "expected": {
-        "properties": [
-          {
-            "layer": "openaddresses",
-            "name": "1710 Drew Street",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "Texas",
-            "admin2": "Harris County",
-            "locality": "Houston",
-            "neighborhood": "Midtown",
-            "text": "1710 Drew Street, Houston, TX",
-            "admin1_abbr": "TX"
-          }
-        ],
-        "priorityThresh": 1
-      },
-      "status": "fail"
-    },
-    {
       "id": "1426636804303:39",
       "user": "feedback-app",
       "in": {
@@ -1302,81 +926,6 @@
       "status": "pass"
     },
     {
-      "id": "1426636804303:43",
-      "user": "feedback-app",
-      "in": {
-        "input": "transamerica building"
-      },
-      "expected": {
-        "properties": [
-          {
-            "layer": "osmway",
-            "name": "Transamerica Pyramid",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "California",
-            "admin1_abbr": "CA",
-            "admin2": "San Francisco County",
-            "locality": "San Francisco",
-            "neighborhood": "Jackson Square",
-            "text": "Transamerica Pyramid, San Francisco, CA"
-          }
-        ],
-        "priorityThresh": 3
-      },
-      "status": "pass"
-    },
-    {
-      "id": "1426636804303:44",
-      "user": "feedback-app",
-      "in": {
-        "input": "san francisco caltrain station"
-      },
-      "expected": {
-        "properties": [
-          {
-            "layer": "osmway",
-            "name": "San Francisco Caltrain Station",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "California",
-            "admin1_abbr": "CA",
-            "admin2": "San Francisco County",
-            "locality": "San Francisco",
-            "neighborhood": "Mission Bay",
-            "text": "San Francisco Caltrain Station, San Francisco, CA"
-          }
-        ],
-        "priorityThresh": 1
-      },
-      "status": "pass"
-    },
-    {
-      "id": "1426636804303:45",
-      "user": "feedback-app",
-      "in": {
-        "input": "22nd street caltrain"
-      },
-      "expected": {
-        "properties": [
-          {
-            "layer": "osmnode",
-            "name": "22nd Street Caltrain Station",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "California",
-            "admin1_abbr": "CA",
-            "admin2": "San Francisco County",
-            "locality": "San Francisco",
-            "neighborhood": "Dogpatch",
-            "text": "22nd Street Caltrain Station, San Francisco, CA"
-          }
-        ],
-        "priorityThresh": 1
-      },
-      "status": "pass"
-    },
-    {
       "id": "1426636804303:46",
       "user": "feedback-app",
       "in": {
@@ -1426,40 +975,6 @@
       "status": "pass"
     },
     {
-      "id": "1426636804303:48",
-      "user": "feedback-app",
-      "in": {
-        "input": "san quentin"
-      },
-      "expected": {
-        "properties": [
-          {
-            "layer": "geoname",
-            "name": "San Quentin",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "California",
-            "admin2": "Marin County",
-            "text": "San Quentin, Marin County, CA",
-            "admin1_abbr": "CA"
-          },
-          {
-            "layer": "geoname",
-            "name": "San Quentin State Prison",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "California",
-            "admin2": "Marin County",
-            "neighborhood": "East Larkspur",
-            "text": "San Quentin State Prison, East Larkspur, CA",
-            "admin1_abbr": "CA"
-          }
-        ],
-        "priorityThresh": 5
-      },
-      "status": "pass"
-    },
-    {
       "id": "1426636804303:49",
       "user": "feedback-app",
       "in": {
@@ -1486,69 +1001,6 @@
       "status": "pass"
     },
     {
-      "id": "1426636804303:50",
-      "user": "feedback-app",
-      "in": {
-        "input": "66 lafayette ave, brooklyn"
-      },
-      "expected": {
-        "properties": [
-          {
-            "layer": "osmnode",
-            "name": "Summit Ave @ Lafayette Ave",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "Massachusetts",
-            "admin1_abbr": "MA",
-            "admin2": "Suffolk County",
-            "local_admin": "Chelsea",
-            "locality": "Chelsea",
-            "neighborhood": "Bellingham Square",
-            "text": "Summit Ave @ Lafayette Ave, Chelsea, MA"
-          },
-          {
-            "layer": "osmnode",
-            "name": "Lafayette St @ Clifton Ave",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "Massachusetts",
-            "admin1_abbr": "MA",
-            "admin2": "Essex County",
-            "local_admin": "Salem",
-            "locality": "Salem",
-            "text": "Lafayette St @ Clifton Ave, Salem, MA"
-          }
-        ],
-        "priorityThresh": 7
-      },
-      "status": "pass"
-    },
-    {
-      "id": "1426636804303:51",
-      "user": "feedback-app",
-      "in": {
-        "input": "4th and King Caltrain"
-      },
-      "expected": {
-        "properties": [
-          {
-            "layer": "osmnode",
-            "name": "San Francisco Caltrain (Townsend at 4th",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "California",
-            "admin1_abbr": "CA",
-            "admin2": "San Francisco County",
-            "locality": "San Francisco",
-            "neighborhood": "Mission Bay",
-            "text": "San Francisco Caltrain (Townsend at 4th, San Francisco, CA"
-          }
-        ],
-        "priorityThresh": 1
-      },
-      "status": "pass"
-    },
-    {
       "id": "1426636804303:52",
       "user": "feedback-app",
       "in": {
@@ -1568,71 +1020,6 @@
           }
         ],
         "priorityThresh": 1
-      },
-      "status": "pass"
-    },
-    {
-      "id": "1426636804303:53",
-      "user": "feedback-app",
-      "in": {
-        "input": "UIC"
-      },
-      "expected": {
-        "properties": [
-          {
-            "layer": "osmway",
-            "name": "UIC",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "Illinois",
-            "admin1_abbr": "IL",
-            "admin2": "Cook County",
-            "local_admin": "Chicago",
-            "locality": "Chicago",
-            "neighborhood": "Greektown",
-            "text": "UIC, Chicago, IL"
-          },
-          {
-            "layer": "osmway",
-            "name": "UIC",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "Illinois",
-            "admin1_abbr": "IL",
-            "admin2": "Cook County",
-            "local_admin": "Chicago",
-            "locality": "Chicago",
-            "neighborhood": "Greektown",
-            "text": "UIC, Chicago, IL"
-          },
-          {
-            "layer": "osmnode",
-            "name": "UIC-Halsted",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "Illinois",
-            "admin1_abbr": "IL",
-            "admin2": "Cook County",
-            "local_admin": "Chicago",
-            "locality": "Chicago",
-            "neighborhood": "Greektown",
-            "text": "UIC-Halsted, Chicago, IL"
-          },
-          {
-            "layer": "osmnode",
-            "name": "UIC-Halsted",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "Illinois",
-            "admin1_abbr": "IL",
-            "admin2": "Cook County",
-            "local_admin": "Chicago",
-            "locality": "Chicago",
-            "neighborhood": "Greektown",
-            "text": "UIC-Halsted, Chicago, IL"
-          }
-        ],
-        "priorityThresh": 9
       },
       "status": "pass"
     },
@@ -1670,31 +1057,6 @@
           }
         ],
         "priorityThresh": 5
-      },
-      "status": "pass"
-    },
-    {
-      "id": "1426636804303:55",
-      "user": "feedback-app",
-      "in": {
-        "input": "266 washington ave brooklyn"
-      },
-      "expected": {
-        "properties": [
-          {
-            "name": "266 Brooklyn Avenue",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "New York",
-            "admin2": "Kings County",
-            "local_admin": "Brooklyn",
-            "locality": "New York",
-            "neighborhood": "Crown Heights",
-            "text": "266 Brooklyn Avenue, Brooklyn, NY",
-            "admin1_abbr": "NY"
-          }
-        ],
-        "priorityThresh": 1
       },
       "status": "pass"
     },
@@ -1767,29 +1129,6 @@
           }
         ],
         "priorityThresh": 1
-      },
-      "status": "pass"
-    },
-    {
-      "id": "1426636804303:59",
-      "user": "feedback-app",
-      "in": {
-        "input": "dulles airport"
-      },
-      "expected": {
-        "properties": [
-          {
-            "layer": "geoname",
-            "name": "Washington Dulles International Airport",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "Virginia",
-            "admin2": "Loudoun County",
-            "text": "Washington Dulles International Airport, Loudoun County, VA",
-            "admin1_abbr": "VA"
-          }
-        ],
-        "priorityThresh": 7
       },
       "status": "pass"
     },
@@ -1990,59 +1329,6 @@
       "status": "pass"
     },
     {
-      "id": "1426636804303:67",
-      "user": "feedback-app",
-      "type": "dev",
-      "in": {
-        "input": "brooklyn bridge park"
-      },
-      "expected": {
-        "properties": [
-          {
-            "layer": "osmnode",
-            "name": "Brooklyn Bridge Park/DUMBO",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "New York",
-            "admin1_abbr": "NY",
-            "admin2": "New York County",
-            "local_admin": "Manhattan",
-            "locality": "New York",
-            "neighborhood": "Fulton Ferry",
-            "text": "Brooklyn Bridge Park/DUMBO, Manhattan, NY"
-          },
-          {
-            "layer": "osmway",
-            "name": "Brooklyn Bridge Park",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "New York",
-            "admin1_abbr": "NY",
-            "admin2": "Kings County",
-            "local_admin": "Brooklyn",
-            "locality": "New York",
-            "neighborhood": "DUMBO",
-            "text": "Brooklyn Bridge Park, Brooklyn, NY"
-          },
-          {
-            "layer": "osmway",
-            "name": "Brooklyn Bridge Park",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "New York",
-            "admin1_abbr": "NY",
-            "admin2": "New York County",
-            "local_admin": "Manhattan",
-            "locality": "New York",
-            "neighborhood": "Brooklyn Heights",
-            "text": "Brooklyn Bridge Park, Manhattan, NY"
-          }
-        ],
-        "priorityThresh": 4
-      },
-      "status": "pass"
-    },
-    {
       "id": "1426636804303:68",
       "user": "feedback-app",
       "type": "dev",
@@ -2199,30 +1485,6 @@
       "status": "pass"
     },
     {
-      "id": "1426636804303:72",
-      "user": "feedback-app",
-      "in": {
-        "input": "furlong pa"
-      },
-      "expected": {
-        "properties": [
-          {
-            "layer": "geoname",
-            "name": "Furlong",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "Pennsylvania",
-            "admin2": "Bucks County",
-            "local_admin": "Buckingham",
-            "text": "Furlong, Buckingham, PA",
-            "admin1_abbr": "PA"
-          }
-        ],
-        "priorityThresh": 3
-      },
-      "status": "pass"
-    },
-    {
       "id": "1426636804303:73",
       "user": "feedback-app",
       "in": {
@@ -2244,33 +1506,6 @@
           }
         ],
         "priorityThresh": 5
-      },
-      "status": "pass"
-    },
-    {
-      "id": "1426636804303:74",
-      "user": "feedback-app",
-      "type": "dev",
-      "in": {
-        "input": "times square"
-      },
-      "expected": {
-        "properties": [
-          {
-            "layer": "osmnode",
-            "name": "Times Square",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "New York",
-            "admin1_abbr": "NY",
-            "admin2": "New York County",
-            "local_admin": "Manhattan",
-            "locality": "New York",
-            "neighborhood": "Theatre District",
-            "text": "Times Square, Manhattan, NY"
-          }
-        ],
-        "priorityThresh": 3
       },
       "status": "pass"
     },
@@ -2352,32 +1587,6 @@
           }
         ],
         "priorityThresh": 1
-      },
-      "status": "pass"
-    },
-    {
-      "id": "1426636804303:78",
-      "user": "feedback-app",
-      "in": {
-        "input": "stamford metro station connecticut"
-      },
-      "expected": {
-        "properties": [
-          {
-            "layer": "geoname",
-            "name": "Stamford Station",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "Connecticut",
-            "admin2": "Fairfield County",
-            "neighborhood": "Downtown Stamford",
-            "locality": "Stamford",
-            "local_admin": "Stamford",
-            "text": "Stamford Station, Stamford, CT",
-            "admin1_abbr": "CT"
-          }
-        ],
-        "priorityThresh": 2
       },
       "status": "pass"
     },
@@ -2508,30 +1717,6 @@
       "status": "pass"
     },
     {
-      "id": "1426636804303:84",
-      "user": "feedback-app",
-      "in": {
-        "input": "taj mansingh new delhi"
-      },
-      "expected": {
-        "properties": [
-          {
-            "layer": "geoname",
-            "name": "Taj Palace New Delhi",
-            "alpha3": "IND",
-            "admin0": "India",
-            "admin1": "NCT",
-            "admin2": "South West Delhi",
-            "neighborhood": "Dhaula Kuan",
-            "locality": "New Delhi",
-            "text": "Taj Palace New Delhi, New Delhi, NCT"
-          }
-        ],
-        "priorityThresh": 1
-      },
-      "status": "pass"
-    },
-    {
       "id": "1426636804303:85",
       "user": "feedback-app",
       "in": {
@@ -2580,31 +1765,6 @@
       "status": "pass"
     },
     {
-      "id": "1426636804303:87",
-      "user": "feedback-app",
-      "in": {
-        "input": "4636 Cahuenga Blvd, Toluca Lake, CA 91602"
-      },
-      "expected": {
-        "properties": [
-          {
-            "layer": "openaddresses",
-            "name": "4636 North Cahuenga Boulevard",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "California",
-            "admin2": "Los Angeles County",
-            "locality": "Los Angeles",
-            "neighborhood": "Toluca Lake",
-            "text": "4636 North Cahuenga Boulevard, Los Angeles, CA",
-            "admin1_abbr": "CA"
-          }
-        ],
-        "priorityThresh": 1
-      },
-      "status": "pass"
-    },
-    {
       "id": "1426636804303:88",
       "user": "feedback-app",
       "in": {
@@ -2626,31 +1786,6 @@
           }
         ],
         "priorityThresh": 2
-      },
-      "status": "pass"
-    },
-    {
-      "id": "1426636804303:89",
-      "user": "feedback-app",
-      "in": {
-        "input": "Facebook"
-      },
-      "expected": {
-        "properties": [
-          {
-            "layer": "osmnode",
-            "name": "Facebook HQ",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "California",
-            "admin1_abbr": "CA",
-            "admin2": "San Mateo County",
-            "locality": "Menlo Park",
-            "neighborhood": "Henderson",
-            "text": "Facebook HQ, Menlo Park, CA"
-          }
-        ],
-        "priorityThresh": 9
       },
       "status": "pass"
     },
@@ -2750,43 +1885,6 @@
             "admin2": "Queens County",
             "text": "Astoria, Queens County, NY",
             "admin1_abbr": "NY"
-          }
-        ],
-        "priorityThresh": 2
-      },
-      "status": "pass"
-    },
-    {
-      "id": "1426636804303:94",
-      "user": "feedback-app",
-      "in": {
-        "input": "1 infinite loop, Cupertino"
-      },
-      "expected": {
-        "properties": [
-          {
-            "layer": "osmway",
-            "name": "Infinite Loop 1",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "California",
-            "admin1_abbr": "CA",
-            "admin2": "Santa Clara County",
-            "locality": "Cupertino",
-            "neighborhood": "Monta Vista",
-            "text": "Infinite Loop 1, Cupertino, CA"
-          },
-          {
-            "layer": "osmaddress",
-            "name": "1 Infinite Loop",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "California",
-            "admin1_abbr": "CA",
-            "admin2": "Santa Clara County",
-            "locality": "Cupertino",
-            "neighborhood": "Monta Vista",
-            "text": "1 Infinite Loop, Cupertino, CA"
           }
         ],
         "priorityThresh": 2
@@ -2922,30 +2020,6 @@
       "status": "pass"
     },
     {
-      "id": "1426636804303:100",
-      "user": "feedback-app",
-      "in": {
-        "input": "1600 Pennsylvania Northwest"
-      },
-      "expected": {
-        "properties": [
-          {
-            "name": "1600 Pennsylvania Avenue Northwest",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "District of Columbia",
-            "admin2": "District of Columbia",
-            "locality": "Washington",
-            "neighborhood": "Franklin Mcpherson Square",
-            "text": "1600 Pennsylvania Avenue Northwest, Washington, DC",
-            "admin1_abbr": "DC"
-          }
-        ],
-        "priorityThresh": 7
-      },
-      "status": "pass"
-    },
-    {
       "id": "1426636804303:101",
       "user": "feedback-app",
       "type": "dev",
@@ -2996,36 +2070,6 @@
         "priorityThresh": 3
       },
       "status": "fail"
-    },
-    {
-      "id": "1426636804303:103",
-      "user": "feedback-app",
-      "in": {
-        "input": "Himeji-shi, Japan"
-      },
-      "expected": {
-        "properties": [
-          {
-            "layer": "geoname",
-            "name": "Himeji Shi",
-            "alpha3": "JPN",
-            "admin0": "Japan",
-            "admin1": "Hyōgo",
-            "admin2": "Himeji Shi",
-            "text": "Himeji Shi, Hyōgo"
-          },
-          {
-            "layer": "geoname",
-            "name": "Himeji",
-            "alpha3": "JPN",
-            "admin0": "Japan",
-            "admin1": "Hyōgo",
-            "text": "Himeji, Hyōgo"
-          }
-        ],
-        "priorityThresh": 2
-      },
-      "status": "pass"
     },
     {
       "id": "1426636804303:104",
@@ -3199,28 +2243,6 @@
       "status": "pass"
     },
     {
-      "id": "1426636804303:111",
-      "user": "feedback-app",
-      "in": {
-        "input": "soho"
-      },
-      "expected": {
-        "properties": [
-          {
-            "layer": "neighborhood",
-            "name": "Soho",
-            "admin0": "United States",
-            "admin1": "New York",
-            "admin1_abbr": "NY",
-            "admin2": "New York County",
-            "text": "Soho, New York County, NY"
-          }
-        ],
-        "priorityThresh": 2
-      },
-      "status": "pass"
-    },
-    {
       "id": "1426636804303:112",
       "user": "feedback-app",
       "in": {
@@ -3240,46 +2262,6 @@
           }
         ],
         "priorityThresh": 1
-      },
-      "status": "pass"
-    },
-    {
-      "id": "1426636804303:113",
-      "user": "feedback-app",
-      "type": "dev",
-      "in": {
-        "input": "101 saint marks pl"
-      },
-      "expected": {
-        "properties": [
-          {
-            "layer": "openaddresses",
-            "name": "101 Saint Marks Place",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "New York",
-            "admin2": "New York County",
-            "local_admin": "Manhattan",
-            "locality": "New York",
-            "neighborhood": "East Village",
-            "text": "101 Saint Marks Place, Manhattan, NY",
-            "admin1_abbr": "NY"
-          },
-          {
-            "layer": "osmaddress",
-            "name": "101 Saint Marks Place",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "New York",
-            "admin1_abbr": "NY",
-            "admin2": "New York County",
-            "local_admin": "Manhattan",
-            "locality": "New York",
-            "neighborhood": "East Village",
-            "text": "101 Saint Marks Place, Manhattan, NY"
-          }
-        ],
-        "priorityThresh": 5
       },
       "status": "pass"
     },
@@ -3560,31 +2542,6 @@
       "status": "pass"
     },
     {
-      "id": "1426636804303:125",
-      "user": "feedback-app",
-      "in": {
-        "input": "warming hut"
-      },
-      "expected": {
-        "properties": [
-          {
-            "layer": "osmway",
-            "name": "Warming Hut",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "California",
-            "admin1_abbr": "CA",
-            "admin2": "San Francisco County",
-            "locality": "San Francisco",
-            "neighborhood": "Presidio",
-            "text": "Warming Hut, San Francisco, CA"
-          }
-        ],
-        "priorityThresh": 2
-      },
-      "status": "pass"
-    },
-    {
       "id": "1426636804303:126",
       "user": "feedback-app",
       "in": {
@@ -3685,30 +2642,6 @@
       "status": "pass"
     },
     {
-      "id": "1427414405152:4",
-      "user": "feedback-app",
-      "in": {
-        "input": "IGI Airport, Delhi"
-      },
-      "expected": {
-        "properties": [
-          {
-            "layer": "osmnode",
-            "name": "Indira Gandhi International Airport",
-            "alpha3": "IND",
-            "admin0": "India",
-            "admin1": "Delhi",
-            "admin2": "South West Delhi",
-            "locality": "New Delhi",
-            "neighborhood": "Nangal Dewat",
-            "text": "Indira Gandhi International Airport, New Delhi, Delhi"
-          }
-        ],
-        "priorityThresh": 8
-      },
-      "status": "pass"
-    },
-    {
       "id": "1427414405152:5",
       "user": "feedback-app",
       "in": {
@@ -3729,29 +2662,6 @@
           }
         ],
         "priorityThresh": 2
-      },
-      "status": "pass"
-    },
-    {
-      "id": "1427414405152:6",
-      "user": "feedback-app",
-      "in": {
-        "input": "Lake Cayuga, ny"
-      },
-      "expected": {
-        "properties": [
-          {
-            "layer": "geoname",
-            "name": "Cayuga Lake",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "New York",
-            "admin1_abbr": "NY",
-            "admin2": "Tompkins County",
-            "text": "Cayuga Lake, Tompkins County, NY"
-          }
-        ],
-        "priorityThresh": 3
       },
       "status": "pass"
     },
@@ -3864,27 +2774,6 @@
           }
         ],
         "priorityThresh": 2
-      },
-      "status": "pass"
-    },
-    {
-      "id": "1431043206881:3",
-      "user": "feedback-app",
-      "in": {
-        "input": "Dili, Dili, Timor leste"
-      },
-      "expected": {
-        "properties": [
-          {
-            "layer": "geoname",
-            "name": "Dili",
-            "alpha3": "TLS",
-            "admin0": "East Timor",
-            "admin1": "Díli",
-            "text": "Dili, Díli"
-          }
-        ],
-        "priorityThresh": 1
       },
       "status": "pass"
     },

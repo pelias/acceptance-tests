@@ -23,20 +23,6 @@
       }
     },
     {
-      "id": "2",
-      "status": "pass",
-      "type": "dev",
-      "in": {
-        "input": "bronx",
-        "layers": "admin2"
-      },
-      "expected": {
-        "properties": [{
-          "admin2": "Bronx County"
-        }]
-      }
-    },
-    {
       "id": "3",
       "status": "pass",
       "type": "dev",
