@@ -5,6 +5,7 @@
 'use strict';
 
 var locations = require( './locations.json' );
+var apiKey = require( './apiKey' );
 var util = require( 'util' );
 var request = require( 'request' );
 
@@ -180,6 +181,12 @@ function execTestSuite( apiUrl, testSuite, cb ){
     }
 
     var testCase = testSuite.tests.pop();
+
+    // load api_key from pelias config
+    var key = apiKey( apiUrl );
+    if( key ){
+      testCase.in.api_key = key;
+    }
 
     var requestOpts = {
       url: testCase.endpoint || testSuite.endpoint || 'search',
