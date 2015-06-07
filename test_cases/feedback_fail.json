@@ -781,6 +781,16 @@
       "expected": {
         "properties": "Daly City, San Mateo County, California, 94015, United States of America"
       }
+    },
+    {
+      "id": "1433635204996:0",
+      "user": "feedback-app",
+      "in": {
+        "input": "Pear House, Philadelphia"
+      },
+      "expected": {
+        "properties": "Pear House, 4630, Spruce Street, Garden Court, Philadelphia, Philadelphia County, Pennsylvania, 19139, United States of America"
+      }
     }
   ]
 }
