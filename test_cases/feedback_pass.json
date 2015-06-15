@@ -36,11 +36,11 @@
       "expected": {
         "properties": [
           {
-            "text": "31 세종대로 서울시청 신관동, Seoul",
+            "text": "31 세종대로 서울시청 본관동, Seoul",
             "neighborhood": "사직동",
             "locality": "Seoul",
             "layer": "openaddresses",
-            "name": "31 세종대로 서울시청 신관동",
+            "name": "31 세종대로 서울시청 본관동",
             "alpha3": "KOR",
             "admin0": "South Korea",
             "admin1": "Seoul",
