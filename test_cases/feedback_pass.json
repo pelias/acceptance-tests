@@ -1330,7 +1330,7 @@
       "id": "1426636804303:44",
       "user": "feedback-app",
       "in": {
-        "input": "san francisco caltrain station"
+        "input": "san francisco caltrain station 4th"
       },
       "expected": {
         "properties": [
