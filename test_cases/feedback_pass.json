@@ -1501,7 +1501,7 @@
       "id": "1426636804303:51",
       "user": "feedback-app",
       "in": {
-        "input": "4th and King Caltrain"
+        "input": "4th Caltrain San Francisco"
       },
       "expected": {
         "properties": [
