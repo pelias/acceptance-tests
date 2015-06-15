@@ -1474,31 +1474,6 @@
       "status": "pass"
     },
     {
-      "id": "1426636804303:51",
-      "user": "feedback-app",
-      "in": {
-        "input": "4th and King Caltrain"
-      },
-      "expected": {
-        "properties": [
-          {
-            "layer": "osmnode",
-            "name": "San Francisco Caltrain (Townsend at 4th",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "California",
-            "admin1_abbr": "CA",
-            "admin2": "San Francisco County",
-            "locality": "San Francisco",
-            "neighborhood": "Mission Bay",
-            "text": "San Francisco Caltrain (Townsend at 4th, San Francisco, CA"
-          }
-        ],
-        "priorityThresh": 1
-      },
-      "status": "pass"
-    },
-    {
       "id": "1426636804303:52",
       "user": "feedback-app",
       "in": {
