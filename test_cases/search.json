@@ -472,6 +472,23 @@
           "country_a": "USA"
         }]
       }
+    },
+    {
+      "id": "1426636804303:51",
+      "user": "feedback-app",
+      "in": {
+        "text": "4th and King"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "San Francisco 4th & King Street Station",
+            "country_a": "USA"
+          }
+        ],
+        "priorityThresh": 2
+      },
+      "status": "pass"
     }
   ]
 }
