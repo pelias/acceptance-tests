@@ -36,11 +36,11 @@
       "expected": {
         "properties": [
           {
-            "text": "31 세종대로 서울시청 신관동, Seoul",
+            "text": "31 세종대로 서울시청 본관동, Seoul",
             "neighborhood": "사직동",
             "locality": "Seoul",
             "layer": "openaddresses",
-            "name": "31 세종대로 서울시청 신관동",
+            "name": "31 세종대로 서울시청 본관동",
             "alpha3": "KOR",
             "admin0": "South Korea",
             "admin1": "Seoul",
@@ -1322,57 +1322,7 @@
             "text": "Transamerica Pyramid, San Francisco, CA"
           }
         ],
-        "priorityThresh": 3
-      },
-      "status": "pass"
-    },
-    {
-      "id": "1426636804303:44",
-      "user": "feedback-app",
-      "in": {
-        "input": "san francisco caltrain station"
-      },
-      "expected": {
-        "properties": [
-          {
-            "layer": "osmway",
-            "name": "San Francisco Caltrain Station",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "California",
-            "admin1_abbr": "CA",
-            "admin2": "San Francisco County",
-            "locality": "San Francisco",
-            "neighborhood": "Mission Bay",
-            "text": "San Francisco Caltrain Station, San Francisco, CA"
-          }
-        ],
-        "priorityThresh": 1
-      },
-      "status": "pass"
-    },
-    {
-      "id": "1426636804303:45",
-      "user": "feedback-app",
-      "in": {
-        "input": "22nd street caltrain"
-      },
-      "expected": {
-        "properties": [
-          {
-            "layer": "osmnode",
-            "name": "22nd Street Caltrain Station",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "California",
-            "admin1_abbr": "CA",
-            "admin2": "San Francisco County",
-            "locality": "San Francisco",
-            "neighborhood": "Dogpatch",
-            "text": "22nd Street Caltrain Station, San Francisco, CA"
-          }
-        ],
-        "priorityThresh": 1
+        "priorityThresh": 4
       },
       "status": "pass"
     },
@@ -1520,31 +1470,6 @@
           }
         ],
         "priorityThresh": 7
-      },
-      "status": "pass"
-    },
-    {
-      "id": "1426636804303:51",
-      "user": "feedback-app",
-      "in": {
-        "input": "4th and King Caltrain"
-      },
-      "expected": {
-        "properties": [
-          {
-            "layer": "osmnode",
-            "name": "San Francisco Caltrain (Townsend at 4th",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "California",
-            "admin1_abbr": "CA",
-            "admin2": "San Francisco County",
-            "locality": "San Francisco",
-            "neighborhood": "Mission Bay",
-            "text": "San Francisco Caltrain (Townsend at 4th, San Francisco, CA"
-          }
-        ],
-        "priorityThresh": 1
       },
       "status": "pass"
     },
