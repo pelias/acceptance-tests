@@ -1352,31 +1352,6 @@
       "status": "pass"
     },
     {
-      "id": "1426636804303:45",
-      "user": "feedback-app",
-      "in": {
-        "input": "22nd street caltrain"
-      },
-      "expected": {
-        "properties": [
-          {
-            "layer": "osmnode",
-            "name": "22nd Street Caltrain Station",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "California",
-            "admin1_abbr": "CA",
-            "admin2": "San Francisco County",
-            "locality": "San Francisco",
-            "neighborhood": "Dogpatch",
-            "text": "22nd Street Caltrain Station, San Francisco, CA"
-          }
-        ],
-        "priorityThresh": 1
-      },
-      "status": "pass"
-    },
-    {
       "id": "1426636804303:46",
       "user": "feedback-app",
       "in": {
