@@ -197,30 +197,6 @@
       }
     },
     {
-      "id": "1425586777012:5",
-      "status": "fail",
-      "user": "feedback-app",
-      "type": "dev",
-      "in": {
-        "input": "prospect park"
-      },
-      "expected": {
-        "priorityThresh": 5,
-        "properties": [
-          {
-            "layer": "neighborhood",
-            "name": "Prospect Park",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "New York",
-            "admin1_abbr": "NY",
-            "admin2": "Kings County",
-            "text": "Prospect Park, Kings County, New York"
-          }
-        ]
-      }
-    },
-    {
       "id": "1425586777012:6",
       "status": "pass",
       "user": "feedback-app",
