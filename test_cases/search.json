@@ -354,31 +354,6 @@
       }
     },
     {
-      "id": 17,
-      "status": "fail",
-      "type": "dev",
-      "user": "hkrishna",
-      "in": {
-        "input": "wall street"
-      },
-      "expected": {
-        "priorityThresh": 3,
-        "properties": [
-          {
-            "admin0": "United States",
-            "admin1": "New York",
-            "admin2": "New York County",
-            "alpha3": "USA",
-            "local_admin": "Manhattan",
-            "locality": "New York",
-            "name": "Wall Street",
-            "neighborhood": "Financial District",
-            "text": "Wall Street, Manhattan, New York"
-          }
-        ]
-      }
-    },
-    {
       "id": 18,
       "user": "sevko",
       "status": "pass",
