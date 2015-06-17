@@ -354,30 +354,6 @@
       }
     },
     {
-      "id": 16,
-      "status": "fail",
-      "type": "dev",
-      "user": "hkrishna",
-      "in": {
-        "input": "big ben"
-      },
-      "expected": {
-        "priorityThresh": 3,
-        "properties": [
-          {
-            "admin0": "United Kingdom",
-            "admin1": "City of Westminster",
-            "admin2": "Greater London",
-            "alpha3": "GBR",
-            "locality": "London",
-            "name": "Big Ben",
-            "neighborhood": "Whitehall",
-            "text": "Big Ben, Whitehall, Greater London"
-          }
-        ]
-      }
-    },
-    {
       "id": 17,
       "status": "fail",
       "type": "dev",
