@@ -781,6 +781,16 @@
       "expected": {
         "properties": "Daly City, San Mateo County, California, 94015, United States of America"
       }
+    },
+    {
+      "id": "1434585604567:0",
+      "user": "feedback-app",
+      "in": {
+        "input": "montreal"
+      },
+      "expected": {
+        "properties": "Montreal city, Montreal (06), Quebec, Canada"
+      }
     }
   ]
 }
