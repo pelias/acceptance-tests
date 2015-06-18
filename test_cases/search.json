@@ -31,20 +31,6 @@
       }
     },
     {
-      "id": 3,
-      "status": "fail",
-      "user": "Randy",
-      "type": "dev",
-      "in": {
-        "input": "new york"
-      },
-      "expected": {
-        "properties": [
-          "New York, New York"
-        ]
-      }
-    },
-    {
       "id": 4,
       "status": "pass",
       "user": "Diana",
@@ -132,26 +118,6 @@
       }
     },
     {
-      "id": 9,
-      "status": "fail",
-      "user": "Randy",
-      "in": {
-        "input": "15 call street billerica, ma"
-      },
-      "expected": {
-        "priorityThresh": 1,
-        "properties": [
-          {
-            "name": "15 Call Street",
-            "admin0": "United States",
-            "admin1": "Massachusetts",
-            "admin2": "Middlesex County",
-            "text": "15 Call Street, Billerica, MA"
-          }
-        ]
-      }
-    },
-    {
       "id": "1425586777012:0",
       "user": "feedback-app",
       "type": "dev",
@@ -161,30 +127,6 @@
       "expected": {
         "properties": [
           null
-        ]
-      }
-    },
-    {
-      "id": "1425586777012:1",
-      "status": "fail",
-      "type": "dev",
-      "user": "feedback-app",
-      "in": {
-        "input": "union square"
-      },
-      "expected": {
-        "priorityThresh": 1,
-        "properties": [
-          {
-            "layer": "neighborhood",
-            "name": "Union Square",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "New York",
-            "admin1_abbr": "NY",
-            "admin2": "New York County",
-            "text": "Union Square, New York County, New York"
-          }
         ]
       }
     },
@@ -250,30 +192,6 @@
             "admin0": "France",
             "alpha3": "FRA",
             "text": "France"
-          }
-        ]
-      }
-    },
-    {
-      "id": "1425586777012:5",
-      "status": "fail",
-      "user": "feedback-app",
-      "type": "dev",
-      "in": {
-        "input": "prospect park"
-      },
-      "expected": {
-        "priorityThresh": 5,
-        "properties": [
-          {
-            "layer": "neighborhood",
-            "name": "Prospect Park",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "New York",
-            "admin1_abbr": "NY",
-            "admin2": "Kings County",
-            "text": "Prospect Park, Kings County, New York"
           }
         ]
       }
@@ -363,28 +281,6 @@
       }
     },
     {
-      "id": 12,
-      "status": "fail",
-      "user": "hkrishna",
-      "type": "dev",
-      "in": {
-        "input": "1 main st, GBR"
-      },
-      "expected": {
-        "priorityThresh": 3,
-        "properties": [
-          {
-            "name": "1 Main St.",
-            "alpha3": "GBR",
-            "admin0": "United Kingdom",
-            "admin1": "Dungannon",
-            "admin2": "County Monaghan",
-            "text": "1 Main St., County Monaghan"
-          }
-        ]
-      }
-    },
-    {
       "id": "1426085141587:0",
       "status": "pass",
       "user": "feedback-app",
@@ -432,31 +328,6 @@
       }
     },
     {
-      "id": 14,
-      "status": "fail",
-      "type": "dev",
-      "user": "hkrishna",
-      "in": {
-        "input": "statue of liberty"
-      },
-      "expected": {
-        "priorityThresh": 1,
-        "properties": [
-          {
-            "admin0": "United States",
-            "admin1": "New York",
-            "admin2": "New York County",
-            "alpha3": "USA",
-            "local_admin": "Manhattan",
-            "locality": "New York",
-            "name": "Statue of Liberty",
-            "neighborhood": "Southern Tip",
-            "text": "Statue of Liberty, Manhattan, NY"
-          }
-        ]
-      }
-    },
-    {
       "id": 15,
       "status": "pass",
       "type": "dev",
@@ -478,55 +349,6 @@
             "name": "101 Saint Marks Place",
             "neighborhood": "East Village",
             "text": "101 Saint Marks Place, Manhattan, NY"
-          }
-        ]
-      }
-    },
-    {
-      "id": 16,
-      "status": "fail",
-      "type": "dev",
-      "user": "hkrishna",
-      "in": {
-        "input": "big ben"
-      },
-      "expected": {
-        "priorityThresh": 3,
-        "properties": [
-          {
-            "admin0": "United Kingdom",
-            "admin1": "City of Westminster",
-            "admin2": "Greater London",
-            "alpha3": "GBR",
-            "locality": "London",
-            "name": "Big Ben",
-            "neighborhood": "Whitehall",
-            "text": "Big Ben, Whitehall, Greater London"
-          }
-        ]
-      }
-    },
-    {
-      "id": 17,
-      "status": "fail",
-      "type": "dev",
-      "user": "hkrishna",
-      "in": {
-        "input": "wall street"
-      },
-      "expected": {
-        "priorityThresh": 3,
-        "properties": [
-          {
-            "admin0": "United States",
-            "admin1": "New York",
-            "admin2": "New York County",
-            "alpha3": "USA",
-            "local_admin": "Manhattan",
-            "locality": "New York",
-            "name": "Wall Street",
-            "neighborhood": "Financial District",
-            "text": "Wall Street, Manhattan, New York"
           }
         ]
       }
@@ -575,28 +397,6 @@
         "priorityThresh": 1
       },
       "status": "pass"
-    },
-    {
-      "id": "1427414405152:3",
-      "user": "sevko",
-      "in": {
-        "input": "Simon-Dach-Straße"
-      },
-      "expected": {
-        "properties": [
-          {
-            "name": "Simon-Dach-Straße",
-            "alpha3": "DEU",
-            "admin1": "Berlin",
-            "admin2": "Berlin",
-            "locality": "Berlin",
-            "neighborhood": "Friedrichsberg",
-            "text": "Simon-Dach-Straße, Berlin"
-          }
-        ],
-        "priorityThresh": 1
-      },
-      "status": "fail"
     }
   ]
 }

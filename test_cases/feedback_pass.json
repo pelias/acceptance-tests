@@ -52,43 +52,6 @@
       "status": "pass"
     },
     {
-      "id": "1426636804303:2",
-      "user": "feedback-app",
-      "in": {
-        "input": "1200 New Jersey Ave SE, Washington, DC 20590"
-      },
-      "expected": {
-        "properties": [
-          {
-            "layer": "osmaddress",
-            "name": "1200 New Jersey Ave SE",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "District Of Columbia",
-            "admin1_abbr": "DC",
-            "admin2": "District Of Columbia",
-            "locality": "Washington",
-            "neighborhood": "Near Southeast",
-            "text": "1200 New Jersey Ave SE, Washington, DC"
-          },
-          {
-            "layer": "osmaddress",
-            "name": "1200 New Jersey Avenue SE",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "District Of Columbia",
-            "admin1_abbr": "DC",
-            "admin2": "District Of Columbia",
-            "locality": "Washington",
-            "neighborhood": "Near Southeast",
-            "text": "1200 New Jersey Avenue SE, Washington, DC"
-          }
-        ],
-        "priorityThresh": 2
-      },
-      "status": "fail"
-    },
-    {
       "id": "1426636804303:3",
       "user": "feedback-app",
       "in": {
@@ -722,31 +685,6 @@
       "status": "pass"
     },
     {
-      "id": "1426636804303:20",
-      "user": "feedback-app",
-      "in": {
-        "input": "louvre"
-      },
-      "expected": {
-        "properties": [
-          {
-            "layer": "osmway",
-            "name": "Le Louvre",
-            "alpha3": "FRA",
-            "admin0": "France",
-            "admin1": "Paris",
-            "admin2": "Paris-1er-Arrondissement",
-            "local_admin": "Paris-1er-Arrondissement",
-            "locality": "Paris",
-            "neighborhood": "Quartier Saint-germain-l'auxerrois",
-            "text": "Le Louvre, Paris-1er-Arrondissement, Paris"
-          }
-        ],
-        "priorityThresh": 7
-      },
-      "status": "fail"
-    },
-    {
       "id": "1426636804303:21",
       "user": "feedback-app",
       "type": "dev",
@@ -1208,7 +1146,7 @@
         ],
         "priorityThresh": 1
       },
-      "status": "fail"
+      "status": "pass"
     },
     {
       "id": "1426636804303:39",
@@ -2896,31 +2834,6 @@
         "priorityThresh": 5
       },
       "status": "pass"
-    },
-    {
-      "id": "1426636804303:102",
-      "user": "feedback-app",
-      "in": {
-        "input": "54 Tiffany Ave"
-      },
-      "expected": {
-        "properties": [
-          {
-            "layer": "openaddresses",
-            "name": "54 Tiffany Avenue",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "California",
-            "admin2": "San Francisco County",
-            "locality": "San Francisco",
-            "neighborhood": "Transmission",
-            "text": "54 Tiffany Avenue, San Francisco, CA",
-            "admin1_abbr": "CA"
-          }
-        ],
-        "priorityThresh": 3
-      },
-      "status": "fail"
     },
     {
       "id": "1426636804303:103",
