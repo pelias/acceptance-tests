@@ -397,6 +397,32 @@
         "priorityThresh": 1
       },
       "status": "pass"
-    }
+    },
+    {		
+-      "id": 19,		
+-      "status": "pass",		
+-      "type": "dev",		
+-      "user": "diana",
+       "description": "match on name.*",
+-      "in": {		
+-        "input": "Статуя Свободы"		
+-      },		
+-      "expected": {		
+-        "priorityThresh": 1,		
+-        "properties": [		
+-          {		
+-            "admin0": "United States",		
+-            "admin1": "New York",		
+-            "admin2": "New York County",		
+-            "alpha3": "USA",		
+-            "local_admin": "Manhattan",		
+-            "locality": "New York",		
+-            "name": "Statue of Liberty",		
+-            "neighborhood": "Southern Tip",		
+-            "text": "Statue of Liberty, Manhattan, NY"		
+-          }		
+-        ]		
+-      }		
+     }
   ]
 }
