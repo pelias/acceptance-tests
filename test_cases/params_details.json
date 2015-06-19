@@ -220,8 +220,87 @@
       },
       "expected": {
         "properties": [
+            "30 West 26th Street, Manhattan, NY"
+        ]
+      }
+    },
+    {
+      "id": 7,
+      "status": "pass",
+      "user": "Diana",
+      "type": "dev",
+      "endpoint": "search",
+      "in": {
+        "lat": 40.744243,
+        "lon": -73.990342,
+        "input": "30 West 26th Street",
+        "details": 1
+      },
+      "expected": {
+        "properties": [
+          "30 West 26th Street, Manhattan, NY"
+        ]
+      }
+    },
+    {
+      "id": 8,
+      "status": "pass",
+      "user": "Diana",
+      "type": "dev",
+      "endpoint": "search",
+      "in": {
+        "lat": 40.744243,
+        "lon": -73.990342,
+        "input": "30 West 26th Street",
+        "details": "yes"
+      },
+      "expected": {
+        "properties": [
+          "30 West 26th Street, Manhattan, NY"
+        ]
+      }
+    },
+    {
+      "id": 9,
+      "status": "pass",
+      "user": "Diana",
+      "type": "dev",
+      "endpoint": "search",
+      "in": {
+        "lat": 40.744243,
+        "lon": -73.990342,
+        "input": "30 West 26th Street",
+        "details": "y"
+      },
+      "expected": {
+        "properties": [
+          "30 West 26th Street, Manhattan, NY"
+        ]
+      }
+    },
+    {
+      "id": 10,
+      "status": "pass",
+      "user": "Diana",
+      "type": "dev",
+      "endpoint": "search",
+      "in": {
+        "lat": 40.744243,
+        "lon": -73.990342,
+        "input": "30 West 26th Street",
+        "details": "no"
+      },
+      "expected": {
+        "properties": [
           {
             "layer": "osmaddress",
+            "text": "30 West 26th Street, Manhattan, NY"
+          }
+        ]
+      },
+      "unexpected": {
+        "properties": [
+          {
             "name": "30 West 26th Street",
             "alpha3": "USA",
             "admin0": "United States",
@@ -236,8 +315,7 @@
               "zip": "10010",
               "number": "30",
               "street": "West 26th Street"
-            },
-            "text": "30 West 26th Street, Manhattan, NY"
+            }
           }
         ]
       }
