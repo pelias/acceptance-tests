@@ -281,6 +281,28 @@
       }
     },
     {
+      "id": 12,
+      "status": "pass",
+      "user": "hkrishna",
+      "type": "dev",
+      "in": {
+        "input": "1 main st, GBR"
+      },
+      "expected": {
+        "priorityThresh": 3,
+        "properties": [
+          {
+            "name": "1 Main St.",
+            "alpha3": "GBR",
+            "admin0": "United Kingdom",
+            "admin1": "Dungannon",
+            "admin2": "County Monaghan",
+            "text": "1 Main St., County Monaghan"
+          }
+        ]
+      }
+    },
+    {
       "id": "1426085141587:0",
       "status": "pass",
       "user": "feedback-app",
