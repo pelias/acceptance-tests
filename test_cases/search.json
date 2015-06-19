@@ -1,0 +1,427 @@
+{
+  "name": "GET /search",
+  "priorityThresh": 3,
+  "tests": [
+    {
+      "id": 1,
+      "status": "pass",
+      "user": "Randy",
+      "type": "dev",
+      "in": {
+        "input": "brooklyn"
+      },
+      "expected": {
+        "properties": [
+          "Brooklyn , Kings County, New York"
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "status": "pass",
+      "user": "Randy",
+      "type": "dev",
+      "in": {
+        "input": "brooklyn, ny"
+      },
+      "expected": {
+        "properties": [
+          "Brooklyn , Kings County, New York"
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "status": "pass",
+      "user": "Diana",
+      "type": "dev",
+      "in": {
+        "input": "philadelphia"
+      },
+      "expected": {
+        "properties": [
+          {
+            "text": "Philadelphia, PA",
+            "name": "Philadelphia",
+            "admin1": "Pennsylvania",
+            "admin0": "United States",
+            "locality": "Philadelphia",
+            "local_admin": "Philadelphia",
+            "admin1_abbr": "PA",
+            "admin2": "Philadelphia County"
+          }
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "status": "pass",
+      "type": "dev",
+      "user": "Randy",
+      "in": {
+        "input": "new york, new york"
+      },
+      "expected": {
+        "properties": [
+          "New York, New York"
+        ]
+      }
+    },
+    {
+      "id": 6,
+      "status": "pass",
+      "type": "dev",
+      "user": "Randy",
+      "in": {
+        "input": "130 dean street brooklyn, ny"
+      },
+      "expected": {
+        "priorityThresh": 1,
+        "properties": [
+          {
+            "text": "130 Dean Street, Brooklyn, NY",
+            "name": "130 Dean Street",
+            "admin0": "United States",
+            "admin1": "New York"
+          }
+        ]
+      }
+    },
+    {
+      "id": 7,
+      "status": "pass",
+      "type": "dev",
+      "user": "Randy",
+      "in": {
+        "input": "billerica"
+      },
+      "expected": {
+        "priorityThresh": 1,
+        "properties": [
+          "Billerica, Middlesex County, Massachusetts"
+        ]
+      }
+    },
+    {
+      "id": 8,
+      "status": "pass",
+      "type": "dev",
+      "user": "Randy",
+      "in": {
+        "input": "billerica, ma"
+      },
+      "expected": {
+        "priorityThresh": 1,
+        "properties": [
+          "Billerica, Middlesex County, Massachusetts"
+        ]
+      }
+    },
+    {
+      "id": "1425586777012:0",
+      "user": "feedback-app",
+      "type": "dev",
+      "in": {
+        "input": "union sq"
+      },
+      "expected": {
+        "properties": [
+          null
+        ]
+      }
+    },
+    {
+      "id": "1425586777012:2",
+      "status": "pass",
+      "user": "feedback-app",
+      "type": "dev",
+      "in": {
+        "input": "portland"
+      },
+      "expected": {
+        "priorityThresh": 1,
+        "properties": [
+          {
+            "layer": "geoname",
+            "name": "Portland",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "Oregon",
+            "admin1_abbr": "OR",
+            "admin2": "Multnomah County",
+            "locality": "Portland",
+            "text": "Portland, OR"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1425586777012:3",
+      "status": "pass",
+      "user": "feedback-app",
+      "in": {
+        "input": "paris"
+      },
+      "expected": {
+        "priorityThresh": 2,
+        "properties": [
+          {
+            "layer": "geoname",
+            "name": "Paris",
+            "alpha3": "FRA",
+            "admin0": "France",
+            "admin1": "Île-de-France",
+            "admin2": "Paris",
+            "text": "Paris, Île-de-France"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1425586777012:4",
+      "status": "pass",
+      "user": "feedback-app",
+      "in": {
+        "input": "france"
+      },
+      "expected": {
+        "priorityThresh": 1,
+        "properties": [
+          {
+            "name": "France",
+            "admin0": "France",
+            "alpha3": "FRA",
+            "text": "France"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1425586777012:6",
+      "status": "pass",
+      "user": "feedback-app",
+      "type": "dev",
+      "in": {
+        "input": "london"
+      },
+      "expected": {
+        "priorityThresh": 1,
+        "properties": [
+          {
+            "layer": "geoname",
+            "name": "London",
+            "alpha3": "GBR",
+            "admin0": "United Kingdom",
+            "admin1": "England",
+            "admin2": "Greater London",
+            "text": "London, Greater London"
+          }
+        ]
+      }
+    },
+    {
+      "id": 10,
+      "status": "pass",
+      "user": "hkrishna",
+      "type": "dev",
+      "in": {
+        "input": "chelsea, new york"
+      },
+      "expected": {
+        "priorityThresh": 2,
+        "properties": [
+          {
+            "name": "Chelsea",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "New York",
+            "admin1_abbr": "NY",
+            "admin2": "New York County",
+            "locality": "New York",
+            "local_admin": "Manhattan",
+            "text": "Chelsea, Manhattan, NY"
+          },
+          {
+            "layer": "neighborhood",
+            "name": "Chelsea",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "New York",
+            "admin1_abbr": "NY",
+            "admin2": "New York County",
+            "text": "Chelsea, New York County, NY"
+
+          }
+        ]
+      }
+    },
+    {
+      "id": 11,
+      "status": "pass",
+      "type": "dev",
+      "user": "hkrishna",
+      "in": {
+        "input": "soho, new york"
+      },
+      "expected": {
+        "priorityThresh": 2,
+        "properties": [
+          {
+            "name": "SoHo",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "New York",
+            "admin1_abbr": "NY",
+            "admin2": "New York County",
+            "local_admin": "Manhattan",
+            "locality": "New York",
+            "text": "SoHo, Manhattan, NY"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1426085141587:0",
+      "status": "pass",
+      "user": "feedback-app",
+      "in": {
+        "input": "perugia airport"
+      },
+      "expected": {
+        "priorityThresh": 1,
+        "properties": [
+          {
+            "layer": "geoname",
+            "name": "Perugia San Francesco d'Assisi – Umbria International Airport",
+            "alpha3": "ITA",
+            "admin0": "Italy",
+            "admin1": "Umbria",
+            "admin2": "Provincia di Perugia",
+            "local_admin": "Perugia",
+            "text": "Perugia San Francesco d'Assisi – Umbria International Airport, Perugia, Umbria"
+          }
+        ]
+      }
+    },
+    {
+      "id": 13,
+      "status": "pass",
+      "user": "hkrishna",
+      "type": "dev",
+      "in": {
+        "input": "london bridge"
+      },
+      "expected": {
+        "priorityThresh": 8,
+        "properties": [
+          {
+            "admin0": "United Kingdom",
+            "admin1": "Southwark",
+            "admin2": "Greater London",
+            "locality": "London",
+            "alpha3": "GBR",
+            "name": "London Bridge",
+            "neighborhood": "Bankside",
+            "text": "London Bridge, Bankside, Greater London"
+          }
+        ]
+      }
+    },
+    {
+      "id": 15,
+      "status": "pass",
+      "type": "dev",
+      "user": "hkrishna",
+      "in": {
+        "input": "101 saint marks pl, new york"
+      },
+      "expected": {
+        "priorityThresh": 3,
+        "properties": [
+          {
+            "admin0": "United States",
+            "admin1": "New York",
+            "admin1_abbr": "NY",
+            "admin2": "New York County",
+            "alpha3": "USA",
+            "local_admin": "Manhattan",
+            "locality": "New York",
+            "name": "101 Saint Marks Place",
+            "neighborhood": "East Village",
+            "text": "101 Saint Marks Place, Manhattan, NY"
+          }
+        ]
+      }
+    },
+    {
+      "id": 17,
+      "status": "pass",
+      "type": "dev",
+      "user": "hkrishna",
+      "in": {
+        "input": "wall street"
+      },
+      "expected": {
+        "priorityThresh": 3,
+        "properties": [
+          {
+            "admin0": "United States",
+            "admin1": "New York",
+            "admin2": "New York County",
+            "alpha3": "USA",
+            "local_admin": "Manhattan",
+            "locality": "New York",
+            "name": "Wall Street",
+            "neighborhood": "Financial District",
+            "text": "Wall Street, Manhattan, New York"
+          }
+        ]
+      }
+    },
+    {
+      "id": 18,
+      "user": "sevko",
+      "status": "pass",
+      "type": "dev",
+      "in": {
+        "input": "newark airport"
+      },
+      "expected": {
+        "priorityThresh": 2,
+        "properties": [{
+          "name": "Newark Liberty International Airport",
+          "alpha3": "USA",
+          "admin0": "United States",
+          "admin1": "New Jersey",
+          "admin1_abbr": "NJ",
+          "admin2": "Essex County",
+          "local_admin": "Newark",
+          "locality": "Newark",
+          "neighborhood": "Dayton",
+          "text": "Newark Liberty International Airport, Newark, NJ"
+        }]
+      }
+    },
+    {
+      "id": "1427414405152:3",
+      "user": "sevko",
+      "in": {
+        "input": "7 Simon-Dach-Straße"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "7 Simon-Dach-Straße",
+            "alpha3": "DEU",
+            "admin1": "Bayern",
+            "admin2": "Erlangen-Hoechstadt",
+            "locality": "Uttenreuth",
+            "text": "7 Simon-Dach-Straße, Uttenreuth, Bayern"
+          }
+        ],
+        "priorityThresh": 1
+      },
+      "status": "pass"
+    }
+  ]
+}
