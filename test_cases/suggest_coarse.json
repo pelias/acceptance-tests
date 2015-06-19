@@ -5,8 +5,7 @@
   "tests": [
     {
       "id": 1,
-      "status": "fail",
-      "comment": "Currently fails due to the fact that suggest doesn't boost more popular records to the top of search results, so `Brooklyn` appears below other less well-known records with `Brooklyn` in their name.",
+      "status": "pass",
       "user": "Diana",
       "type": "dev",
       "in": {
