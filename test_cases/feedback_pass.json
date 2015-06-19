@@ -631,6 +631,31 @@
       "status": "pass"
     },
     {
+      "id": "1426636804303:20",
+      "user": "feedback-app",
+      "in": {
+        "input": "louvre"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "osmway",
+            "name": "Le Louvre",
+            "alpha3": "FRA",
+            "admin0": "France",
+            "admin1": "Paris",
+            "admin2": "Paris-1er-Arrondissement",
+            "local_admin": "Paris-1er-Arrondissement",
+            "locality": "Paris",
+            "neighborhood": "Quartier Saint-germain-l'auxerrois",
+            "text": "Le Louvre, Paris-1er-Arrondissement, Paris"
+          }
+        ],
+        "priorityThresh": 7
+      },
+      "status": "pass"
+    },
+    {
       "id": "1426636804303:21",
       "user": "feedback-app",
       "type": "dev",
