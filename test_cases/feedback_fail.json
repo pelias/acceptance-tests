@@ -781,6 +781,36 @@
       "expected": {
         "properties": "Daly City, San Mateo County, California, 94015, United States of America"
       }
+    },
+    {
+      "id": "1434672002813:0",
+      "user": "feedback-app",
+      "in": {
+        "input": "gowanus heights"
+      },
+      "expected": {
+        "properties": null
+      }
+    },
+    {
+      "id": "1434672002813:1",
+      "user": "feedback-app",
+      "in": {
+        "input": "montreal"
+      },
+      "expected": {
+        "properties": "Montreal city, Montreal (06), Quebec, Canada"
+      }
+    },
+    {
+      "id": "1434672002813:2",
+      "user": "feedback-app",
+      "in": {
+        "input": "sf"
+      },
+      "expected": {
+        "properties": "San Francisco, San Francisco City and County, California, United States of America"
+      }
     }
   ]
 }
