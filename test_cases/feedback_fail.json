@@ -781,6 +781,16 @@
       "expected": {
         "properties": "Daly City, San Mateo County, California, 94015, United States of America"
       }
+    },
+    {
+      "id": "1433808004811:0",
+      "user": "feedback-app",
+      "in": {
+        "input": "nyu"
+      },
+      "expected": {
+        "properties": "New York University, West 4th Street, Washington Square Village, New York, New York City, New York, 10012, United States of America"
+      }
     }
   ]
 }
