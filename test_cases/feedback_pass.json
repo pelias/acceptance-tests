@@ -1375,32 +1375,6 @@
             "locality": "Chicago",
             "neighborhood": "Greektown",
             "text": "UIC, Chicago, IL"
-          },
-          {
-            "layer": "osmnode",
-            "name": "UIC-Halsted",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "Illinois",
-            "admin1_abbr": "IL",
-            "admin2": "Cook County",
-            "local_admin": "Chicago",
-            "locality": "Chicago",
-            "neighborhood": "Greektown",
-            "text": "UIC-Halsted, Chicago, IL"
-          },
-          {
-            "layer": "osmnode",
-            "name": "UIC-Halsted",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "Illinois",
-            "admin1_abbr": "IL",
-            "admin2": "Cook County",
-            "local_admin": "Chicago",
-            "locality": "Chicago",
-            "neighborhood": "Greektown",
-            "text": "UIC-Halsted, Chicago, IL"
           }
         ]
       },
