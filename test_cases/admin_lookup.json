@@ -26,11 +26,13 @@
       "id": "2",
       "status": "pass",
       "type": "dev",
+      "description": "checking for County to be part of the admin2 value",
       "in": {
         "input": "bronx",
         "layers": "admin2"
       },
       "expected": {
+        "priorityThresh": 4,
         "properties": [{
           "admin2": "Bronx County"
         }]
