@@ -177,14 +177,14 @@
       "in": {
         "lat": 40.744243,
         "lon": -73.990342,
-        "input": "new york",
+        "input": "new york city",
         "details": false
       },
       "expected": {
         "properties": [
           {
-            "text": "New York, NY",
-            "layer": "admin1"
+            "text": "New York City, Manhattan, NY",
+            "layer": "geoname"
           }
         ]
       },
@@ -199,7 +199,6 @@
             "admin2": "New York County",
             "local_admin": "Manhattan",
             "locality": "New York",
-            "text": "New York City, Manhattan, NY",
             "category": [],
             "address": {}
           }

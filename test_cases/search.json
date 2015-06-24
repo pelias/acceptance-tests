@@ -31,6 +31,20 @@
       }
     },
     {
+      "id": 3,
+      "status": "pass",
+      "user": "Randy",
+      "type": "dev",
+      "in": {
+        "input": "new york"
+      },
+      "expected": {
+        "properties": [
+          "New York, NY"
+        ]
+      }
+    },
+    {
       "id": 4,
       "status": "pass",
       "user": "Diana",
@@ -63,7 +77,7 @@
       },
       "expected": {
         "properties": [
-          "New York, New York"
+          "New York, NY"
         ]
       }
     },
@@ -264,18 +278,16 @@
         "input": "soho, new york"
       },
       "expected": {
-        "priorityThresh": 2,
+        "priorityThresh": 1,
         "properties": [
           {
-            "name": "SoHo",
+            "name": "Soho",
             "alpha3": "USA",
             "admin0": "United States",
             "admin1": "New York",
             "admin1_abbr": "NY",
             "admin2": "New York County",
-            "local_admin": "Manhattan",
-            "locality": "New York",
-            "text": "SoHo, Manhattan, NY"
+            "text": "Soho, New York County, NY"
           }
         ]
       }
@@ -363,18 +375,20 @@
       },
       "expected": {
         "priorityThresh": 2,
-        "properties": [{
-          "name": "Newark Liberty International Airport",
-          "alpha3": "USA",
-          "admin0": "United States",
-          "admin1": "New Jersey",
-          "admin1_abbr": "NJ",
-          "admin2": "Essex County",
-          "local_admin": "Newark",
-          "locality": "Newark",
-          "neighborhood": "Dayton",
-          "text": "Newark Liberty International Airport, Newark, NJ"
-        }]
+        "properties": [
+          {
+            "name": "Newark Liberty International Airport",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "New Jersey",
+            "admin1_abbr": "NJ",
+            "admin2": "Essex County",
+            "local_admin": "Newark",
+            "locality": "Newark",
+            "neighborhood": "Dayton",
+            "text": "Newark Liberty International Airport, Newark, NJ"
+          }
+        ]
       }
     },
     {
