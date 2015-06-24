@@ -3306,29 +3306,6 @@
       "status": "pass"
     },
     {
-      "id": "1427414405152:4",
-      "user": "feedback-app",
-      "in": {
-        "input": "IGI Airport, Delhi"
-      },
-      "expected": {
-        "properties": [
-          {
-            "layer": "osmnode",
-            "name": "Indira Gandhi International Airport",
-            "alpha3": "IND",
-            "admin0": "India",
-            "admin1": "Delhi",
-            "admin2": "South West Delhi",
-            "locality": "New Delhi",
-            "neighborhood": "Nangal Dewat",
-            "text": "Indira Gandhi International Airport, New Delhi, Delhi"
-          }
-        ]
-      },
-      "status": "pass"
-    },
-    {
       "id": "1427414405152:5",
       "user": "feedback-app",
       "in": {
