@@ -3186,30 +3186,6 @@
       "status": "pass"
     },
     {
-      "id": "1426636804303:125",
-      "user": "feedback-app",
-      "in": {
-        "input": "warming hut"
-      },
-      "expected": {
-        "properties": [
-          {
-            "layer": "osmway",
-            "name": "Warming Hut",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "California",
-            "admin1_abbr": "CA",
-            "admin2": "San Francisco County",
-            "locality": "San Francisco",
-            "neighborhood": "Presidio",
-            "text": "Warming Hut, San Francisco, CA"
-          }
-        ]
-      },
-      "status": "pass"
-    },
-    {
       "id": "1426636804303:126",
       "user": "feedback-app",
       "in": {
