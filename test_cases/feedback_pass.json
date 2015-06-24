@@ -1166,7 +1166,7 @@
       "id": "1426636804303:43",
       "user": "feedback-app",
       "in": {
-        "input": "transamerica building"
+        "input": "transamerica pyramid"
       },
       "expected": {
         "properties": [
