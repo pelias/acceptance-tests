@@ -456,18 +456,6 @@
             "text": "San Francisco City Hall, San Francisco, CA"
           },
           {
-            "layer": "osmnode",
-            "name": "Polk & McAllister (City Hall",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "California",
-            "admin1_abbr": "CA",
-            "admin2": "San Francisco County",
-            "locality": "San Francisco",
-            "neighborhood": "Opera Plaza",
-            "text": "Polk & McAllister (City Hall, San Francisco, CA"
-          },
-          {
             "layer": "geoname",
             "name": "San Francisco City Hall",
             "alpha3": "USA",
