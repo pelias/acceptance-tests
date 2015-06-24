@@ -503,7 +503,7 @@
       "expected": {
         "properties": [
           {
-            "layer": "osmway",
+            "layer": "osmnode",
             "name": "Cloud Gate",
             "alpha3": "USA",
             "admin0": "United States",
