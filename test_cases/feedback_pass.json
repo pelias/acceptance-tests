@@ -2597,29 +2597,6 @@
       "status": "pass"
     },
     {
-      "id": "1426636804303:100",
-      "user": "feedback-app",
-      "in": {
-        "input": "1600 Pennsylvania Northwest"
-      },
-      "expected": {
-        "properties": [
-          {
-            "name": "1600 Pennsylvania Avenue Northwest",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "District of Columbia",
-            "admin2": "District of Columbia",
-            "locality": "Washington",
-            "neighborhood": "Franklin Mcpherson Square",
-            "text": "1600 Pennsylvania Avenue Northwest, Washington, DC",
-            "admin1_abbr": "DC"
-          }
-        ]
-      },
-      "status": "pass"
-    },
-    {
       "id": "1426636804303:101",
       "user": "feedback-app",
       "type": "dev",
