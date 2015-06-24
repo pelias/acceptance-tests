@@ -875,31 +875,6 @@
       "status": "pass"
     },
     {
-      "id": "1426636804303:30",
-      "user": "feedback-app",
-      "in": {
-        "input": "Newark Airport"
-      },
-      "expected": {
-        "properties": [
-          {
-            "name": "Newark Liberty International Airport",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "New Jersey",
-            "admin1_abbr": "NJ",
-            "admin2": "Essex County",
-            "local_admin": "Newark",
-            "locality": "Newark",
-            "neighborhood": "Dayton",
-            "text": "Newark Liberty International Airport, Newark, NJ"
-          }
-        ],
-        "priorityThresh": 2
-      },
-      "status": "pass"
-    },
-    {
       "id": "1426636804303:31",
       "user": "feedback-app",
       "in": {
