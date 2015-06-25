@@ -313,16 +313,6 @@
       }
     },
     {
-      "id": "1426636804315:56",
-      "user": "feedback-app",
-      "in": {
-        "input": "Traben-Trarbach 14 Ginsterburg Strasse"
-      },
-      "expected": {
-        "properties": null
-      }
-    },
-    {
       "id": "1426636804315:57",
       "user": "feedback-app",
       "in": {
