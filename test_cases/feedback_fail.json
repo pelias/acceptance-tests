@@ -33,16 +33,6 @@
       }
     },
     {
-      "id": "1426636804315:4",
-      "user": "feedback-app",
-      "in": {
-        "input": "janak puri new delhi"
-      },
-      "expected": {
-        "properties": null
-      }
-    },
-    {
       "id": "1426636804315:5",
       "user": "feedback-app",
       "in": {
