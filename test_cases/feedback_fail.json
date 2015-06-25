@@ -83,16 +83,6 @@
       }
     },
     {
-      "id": "1426636804315:13",
-      "user": "feedback-app",
-      "in": {
-        "input": "pyramid building"
-      },
-      "expected": {
-        "properties": null
-      }
-    },
-    {
       "id": "1426636804315:14",
       "user": "feedback-app",
       "in": {
