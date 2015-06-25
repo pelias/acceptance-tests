@@ -313,16 +313,6 @@
       }
     },
     {
-      "id": "1426636804315:54",
-      "user": "feedback-app",
-      "in": {
-        "input": "812 Newport Ave Victoria"
-      },
-      "expected": {
-        "properties": null
-      }
-    },
-    {
       "id": "1426636804315:55",
       "user": "feedback-app",
       "in": {
