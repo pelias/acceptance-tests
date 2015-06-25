@@ -253,16 +253,6 @@
       }
     },
     {
-      "id": "1426636804315:40",
-      "user": "feedback-app",
-      "in": {
-        "input": "Per Se, New York City"
-      },
-      "expected": {
-        "properties": null
-      }
-    },
-    {
       "id": "1426636804315:41",
       "user": "feedback-app",
       "in": {
