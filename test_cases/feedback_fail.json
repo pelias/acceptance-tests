@@ -83,16 +83,6 @@
       }
     },
     {
-      "id": "1426636804315:15",
-      "user": "feedback-app",
-      "in": {
-        "input": "1512 eleanor ave, st. paul, mn"
-      },
-      "expected": {
-        "properties": null
-      }
-    },
-    {
       "id": "1426636804315:16",
       "user": "feedback-app",
       "in": {
