@@ -463,16 +463,6 @@
       }
     },
     {
-      "id": "1429747205548:0",
-      "user": "feedback-app",
-      "in": {
-        "input": "94105"
-      },
-      "expected": {
-        "properties": null
-      }
-    },
-    {
       "id": "1429747205548:1",
       "user": "feedback-app",
       "in": {
