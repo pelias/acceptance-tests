@@ -273,16 +273,6 @@
       }
     },
     {
-      "id": "1426636804315:45",
-      "user": "feedback-app",
-      "in": {
-        "input": "4247 Locust St, Philadelphia, PA 19104"
-      },
-      "expected": {
-        "properties": null
-      }
-    },
-    {
       "id": "1426636804315:46",
       "user": "feedback-app",
       "in": {
