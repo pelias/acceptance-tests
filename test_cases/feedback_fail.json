@@ -223,16 +223,6 @@
       }
     },
     {
-      "id": "1426636804315:34",
-      "user": "feedback-app",
-      "in": {
-        "input": "janak puri west metro station, new delhi, india"
-      },
-      "expected": {
-        "properties": null
-      }
-    },
-    {
       "id": "1426636804315:35",
       "user": "feedback-app",
       "in": {
