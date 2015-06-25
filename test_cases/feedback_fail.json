@@ -443,16 +443,6 @@
       }
     },
     {
-      "id": "1426636804315:73",
-      "user": "feedback-app",
-      "in": {
-        "input": "cambridge, ma"
-      },
-      "expected": {
-        "properties": null
-      }
-    },
-    {
       "id": "1426636804315:74",
       "user": "feedback-app",
       "in": {
