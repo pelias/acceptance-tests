@@ -83,16 +83,6 @@
       }
     },
     {
-      "id": "1426636804315:14",
-      "user": "feedback-app",
-      "in": {
-        "input": "volterrano"
-      },
-      "expected": {
-        "properties": null
-      }
-    },
-    {
       "id": "1426636804315:15",
       "user": "feedback-app",
       "in": {
