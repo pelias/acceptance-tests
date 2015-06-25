@@ -33,16 +33,6 @@
       }
     },
     {
-      "id": "1426636804315:5",
-      "user": "feedback-app",
-      "in": {
-        "input": "81 fisher ave, jonestown, pa, usa"
-      },
-      "expected": {
-        "properties": null
-      }
-    },
-    {
       "id": "1426636804315:6",
       "user": "feedback-app",
       "in": {
