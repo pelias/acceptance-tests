@@ -343,16 +343,6 @@
       }
     },
     {
-      "id": "1426636804315:61",
-      "user": "feedback-app",
-      "in": {
-        "input": "woodrow ln port deposit md"
-      },
-      "expected": {
-        "properties": null
-      }
-    },
-    {
       "id": "1426636804315:62",
       "user": "feedback-app",
       "in": {
