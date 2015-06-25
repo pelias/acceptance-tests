@@ -83,16 +83,6 @@
       }
     },
     {
-      "id": "1426636804315:16",
-      "user": "feedback-app",
-      "in": {
-        "input": "419 E Magnolia, Angleton TX"
-      },
-      "expected": {
-        "properties": null
-      }
-    },
-    {
       "id": "1426636804315:17",
       "user": "feedback-app",
       "in": {
