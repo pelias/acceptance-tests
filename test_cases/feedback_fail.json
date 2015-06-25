@@ -303,16 +303,6 @@
       }
     },
     {
-      "id": "1426636804315:50",
-      "user": "feedback-app",
-      "in": {
-        "input": "2131 Raleigh rd, hummelstown, pa"
-      },
-      "expected": {
-        "properties": null
-      }
-    },
-    {
       "id": "1426636804315:51",
       "user": "feedback-app",
       "in": {
