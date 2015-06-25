@@ -133,16 +133,6 @@
       }
     },
     {
-      "id": "1426636804315:24",
-      "user": "feedback-app",
-      "in": {
-        "input": "central park"
-      },
-      "expected": {
-        "properties": null
-      }
-    },
-    {
       "id": "1426636804315:25",
       "user": "feedback-app",
       "in": {
