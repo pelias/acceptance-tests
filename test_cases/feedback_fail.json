@@ -263,16 +263,6 @@
       }
     },
     {
-      "id": "1426636804315:42",
-      "user": "feedback-app",
-      "in": {
-        "input": "130 w mountain street, glendale, ca 91202"
-      },
-      "expected": {
-        "properties": null
-      }
-    },
-    {
       "id": "1426636804315:43",
       "user": "feedback-app",
       "in": {
