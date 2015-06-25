@@ -103,16 +103,6 @@
       }
     },
     {
-      "id": "1426636804315:19",
-      "user": "feedback-app",
-      "in": {
-        "input": "asia sf"
-      },
-      "expected": {
-        "properties": null
-      }
-    },
-    {
       "id": "1426636804315:20",
       "user": "feedback-app",
       "in": {
