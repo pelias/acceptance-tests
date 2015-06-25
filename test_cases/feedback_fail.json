@@ -3,16 +3,6 @@
   "priorityThresh": 3,
   "tests": [
     {
-      "id": "1426636804315:0",
-      "user": "feedback-app",
-      "in": {
-        "input": "rajiv chowk metro station"
-      },
-      "expected": {
-        "properties": null
-      }
-    },
-    {
       "id": "1426636804315:1",
       "user": "feedback-app",
       "in": {
