@@ -253,16 +253,6 @@
       }
     },
     {
-      "id": "1426636804315:39",
-      "user": "feedback-app",
-      "in": {
-        "input": "French Laundry"
-      },
-      "expected": {
-        "properties": null
-      }
-    },
-    {
       "id": "1426636804315:40",
       "user": "feedback-app",
       "in": {
