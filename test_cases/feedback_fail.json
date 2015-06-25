@@ -3,16 +3,6 @@
   "priorityThresh": 3,
   "tests": [
     {
-      "id": "1426636804315:0",
-      "user": "feedback-app",
-      "in": {
-        "input": "rajiv chowk metro station"
-      },
-      "expected": {
-        "properties": null
-      }
-    },
-    {
       "id": "1426636804315:1",
       "user": "feedback-app",
       "in": {
@@ -43,26 +33,6 @@
       }
     },
     {
-      "id": "1426636804315:4",
-      "user": "feedback-app",
-      "in": {
-        "input": "janak puri new delhi"
-      },
-      "expected": {
-        "properties": null
-      }
-    },
-    {
-      "id": "1426636804315:5",
-      "user": "feedback-app",
-      "in": {
-        "input": "81 fisher ave, jonestown, pa, usa"
-      },
-      "expected": {
-        "properties": null
-      }
-    },
-    {
       "id": "1426636804315:6",
       "user": "feedback-app",
       "in": {
@@ -80,16 +50,6 @@
       },
       "expected": {
         "properties": "1065, La Avenida Street, Mountain View, Santa Clara County, California, 94043, United States of America"
-      }
-    },
-    {
-      "id": "1426636804315:8",
-      "user": "feedback-app",
-      "in": {
-        "input": "dynamo donuts"
-      },
-      "expected": {
-        "properties": null
       }
     },
     {
@@ -113,16 +73,6 @@
       }
     },
     {
-      "id": "1426636804315:11",
-      "user": "feedback-app",
-      "in": {
-        "input": "turntable mad for chicken"
-      },
-      "expected": {
-        "properties": null
-      }
-    },
-    {
       "id": "1426636804315:12",
       "user": "feedback-app",
       "in": {
@@ -130,46 +80,6 @@
       },
       "expected": {
         "properties": "15, Call Street, Billerica, Middlesex County, Massachusetts, 01862, United States of America"
-      }
-    },
-    {
-      "id": "1426636804315:13",
-      "user": "feedback-app",
-      "in": {
-        "input": "pyramid building"
-      },
-      "expected": {
-        "properties": null
-      }
-    },
-    {
-      "id": "1426636804315:14",
-      "user": "feedback-app",
-      "in": {
-        "input": "volterrano"
-      },
-      "expected": {
-        "properties": null
-      }
-    },
-    {
-      "id": "1426636804315:15",
-      "user": "feedback-app",
-      "in": {
-        "input": "1512 eleanor ave, st. paul, mn"
-      },
-      "expected": {
-        "properties": null
-      }
-    },
-    {
-      "id": "1426636804315:16",
-      "user": "feedback-app",
-      "in": {
-        "input": "419 E Magnolia, Angleton TX"
-      },
-      "expected": {
-        "properties": null
       }
     },
     {
@@ -190,26 +100,6 @@
       },
       "expected": {
         "properties": "55, Acorn Road, Wrentham, Norfolk County, Massachusetts, 02093, United States of America"
-      }
-    },
-    {
-      "id": "1426636804315:19",
-      "user": "feedback-app",
-      "in": {
-        "input": "asia sf"
-      },
-      "expected": {
-        "properties": null
-      }
-    },
-    {
-      "id": "1426636804315:20",
-      "user": "feedback-app",
-      "in": {
-        "input": "434 king david drive linden,va"
-      },
-      "expected": {
-        "properties": null
       }
     },
     {
@@ -240,16 +130,6 @@
       },
       "expected": {
         "properties": "World Trade Center, New York, New York City, New York, United States of America"
-      }
-    },
-    {
-      "id": "1426636804315:24",
-      "user": "feedback-app",
-      "in": {
-        "input": "central park"
-      },
-      "expected": {
-        "properties": null
       }
     },
     {
@@ -343,16 +223,6 @@
       }
     },
     {
-      "id": "1426636804315:34",
-      "user": "feedback-app",
-      "in": {
-        "input": "janak puri west metro station, new delhi, india"
-      },
-      "expected": {
-        "properties": null
-      }
-    },
-    {
       "id": "1426636804315:35",
       "user": "feedback-app",
       "in": {
@@ -373,16 +243,6 @@
       }
     },
     {
-      "id": "1426636804315:37",
-      "user": "feedback-app",
-      "in": {
-        "input": "339 w main street cheshire ct"
-      },
-      "expected": {
-        "properties": null
-      }
-    },
-    {
       "id": "1426636804315:38",
       "user": "feedback-app",
       "in": {
@@ -390,26 +250,6 @@
       },
       "expected": {
         "properties": "339, West Main Street, Cheshire, New Haven County, Connecticut, 06410, United States of America"
-      }
-    },
-    {
-      "id": "1426636804315:39",
-      "user": "feedback-app",
-      "in": {
-        "input": "French Laundry"
-      },
-      "expected": {
-        "properties": null
-      }
-    },
-    {
-      "id": "1426636804315:40",
-      "user": "feedback-app",
-      "in": {
-        "input": "Per Se, New York City"
-      },
-      "expected": {
-        "properties": null
       }
     },
     {
@@ -423,26 +263,6 @@
       }
     },
     {
-      "id": "1426636804315:42",
-      "user": "feedback-app",
-      "in": {
-        "input": "130 w mountain street, glendale, ca 91202"
-      },
-      "expected": {
-        "properties": null
-      }
-    },
-    {
-      "id": "1426636804315:43",
-      "user": "feedback-app",
-      "in": {
-        "input": "130 W Mountain St, Glendale, CA 91202"
-      },
-      "expected": {
-        "properties": null
-      }
-    },
-    {
       "id": "1426636804315:44",
       "user": "feedback-app",
       "in": {
@@ -450,26 +270,6 @@
       },
       "expected": {
         "properties": "207, South 42nd Street, Southwest Schuylkill, Philadelphia, Philadelphia County, Pennsylvania, 19104, United States of America"
-      }
-    },
-    {
-      "id": "1426636804315:45",
-      "user": "feedback-app",
-      "in": {
-        "input": "4247 Locust St, Philadelphia, PA 19104"
-      },
-      "expected": {
-        "properties": null
-      }
-    },
-    {
-      "id": "1426636804315:46",
-      "user": "feedback-app",
-      "in": {
-        "input": "fairfax philadelphia PA 19104"
-      },
-      "expected": {
-        "properties": null
       }
     },
     {
@@ -503,26 +303,6 @@
       }
     },
     {
-      "id": "1426636804315:50",
-      "user": "feedback-app",
-      "in": {
-        "input": "2131 Raleigh rd, hummelstown, pa"
-      },
-      "expected": {
-        "properties": null
-      }
-    },
-    {
-      "id": "1426636804315:51",
-      "user": "feedback-app",
-      "in": {
-        "input": "modo design, lancaster, pa"
-      },
-      "expected": {
-        "properties": null
-      }
-    },
-    {
       "id": "1426636804315:52",
       "user": "feedback-app",
       "in": {
@@ -530,56 +310,6 @@
       },
       "expected": {
         "properties": "97, Ripton Road, Shelton, Fairfield County, Connecticut, 06484, United States of America"
-      }
-    },
-    {
-      "id": "1426636804315:53",
-      "user": "feedback-app",
-      "in": {
-        "input": "812 Newport Ave, Victoria BC"
-      },
-      "expected": {
-        "properties": null
-      }
-    },
-    {
-      "id": "1426636804315:54",
-      "user": "feedback-app",
-      "in": {
-        "input": "812 Newport Ave Victoria"
-      },
-      "expected": {
-        "properties": null
-      }
-    },
-    {
-      "id": "1426636804315:55",
-      "user": "feedback-app",
-      "in": {
-        "input": "kōdera-cho, Hyogo JPN"
-      },
-      "expected": {
-        "properties": null
-      }
-    },
-    {
-      "id": "1426636804315:56",
-      "user": "feedback-app",
-      "in": {
-        "input": "Traben-Trarbach 14 Ginsterburg Strasse"
-      },
-      "expected": {
-        "properties": null
-      }
-    },
-    {
-      "id": "1426636804315:57",
-      "user": "feedback-app",
-      "in": {
-        "input": "14 Ginsterberg Strasse Traben-Trarbach"
-      },
-      "expected": {
-        "properties": null
       }
     },
     {
@@ -610,16 +340,6 @@
       },
       "expected": {
         "properties": "Aeroporto Firenze Amerigo Vespucci, Autostrada Firenze-Mare, Brozzi, Florence, FI, Tuscany, 50129, Italy"
-      }
-    },
-    {
-      "id": "1426636804315:61",
-      "user": "feedback-app",
-      "in": {
-        "input": "woodrow ln port deposit md"
-      },
-      "expected": {
-        "properties": null
       }
     },
     {
@@ -673,16 +393,6 @@
       }
     },
     {
-      "id": "1426636804315:67",
-      "user": "feedback-app",
-      "in": {
-        "input": "Statue of Liberty"
-      },
-      "expected": {
-        "properties": null
-      }
-    },
-    {
       "id": "1426636804315:68",
       "user": "feedback-app",
       "in": {
@@ -733,16 +443,6 @@
       }
     },
     {
-      "id": "1426636804315:73",
-      "user": "feedback-app",
-      "in": {
-        "input": "cambridge, ma"
-      },
-      "expected": {
-        "properties": null
-      }
-    },
-    {
       "id": "1426636804315:74",
       "user": "feedback-app",
       "in": {
@@ -760,16 +460,6 @@
       },
       "expected": {
         "properties": "Postmark Apartments, 301, Commons Park South, Stamford, Fairfield County, Connecticut, 06902, United States of America"
-      }
-    },
-    {
-      "id": "1429747205548:0",
-      "user": "feedback-app",
-      "in": {
-        "input": "94105"
-      },
-      "expected": {
-        "properties": null
       }
     },
     {
