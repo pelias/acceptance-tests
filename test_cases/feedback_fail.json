@@ -53,16 +53,6 @@
       }
     },
     {
-      "id": "1426636804315:8",
-      "user": "feedback-app",
-      "in": {
-        "input": "dynamo donuts"
-      },
-      "expected": {
-        "properties": null
-      }
-    },
-    {
       "id": "1426636804315:9",
       "user": "feedback-app",
       "in": {
