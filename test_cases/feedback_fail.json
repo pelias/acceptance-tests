@@ -313,16 +313,6 @@
       }
     },
     {
-      "id": "1426636804315:55",
-      "user": "feedback-app",
-      "in": {
-        "input": "kōdera-cho, Hyogo JPN"
-      },
-      "expected": {
-        "properties": null
-      }
-    },
-    {
       "id": "1426636804315:56",
       "user": "feedback-app",
       "in": {
