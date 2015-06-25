@@ -303,16 +303,6 @@
       }
     },
     {
-      "id": "1426636804315:51",
-      "user": "feedback-app",
-      "in": {
-        "input": "modo design, lancaster, pa"
-      },
-      "expected": {
-        "properties": null
-      }
-    },
-    {
       "id": "1426636804315:52",
       "user": "feedback-app",
       "in": {
