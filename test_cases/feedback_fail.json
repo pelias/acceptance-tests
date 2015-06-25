@@ -243,16 +243,6 @@
       }
     },
     {
-      "id": "1426636804315:37",
-      "user": "feedback-app",
-      "in": {
-        "input": "339 w main street cheshire ct"
-      },
-      "expected": {
-        "properties": null
-      }
-    },
-    {
       "id": "1426636804315:38",
       "user": "feedback-app",
       "in": {
