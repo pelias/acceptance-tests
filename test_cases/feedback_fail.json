@@ -393,16 +393,6 @@
       }
     },
     {
-      "id": "1426636804315:67",
-      "user": "feedback-app",
-      "in": {
-        "input": "Statue of Liberty"
-      },
-      "expected": {
-        "properties": null
-      }
-    },
-    {
       "id": "1426636804315:68",
       "user": "feedback-app",
       "in": {
