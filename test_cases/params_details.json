@@ -183,22 +183,20 @@
       "expected": {
         "properties": [
           {
-            "text": "New York City, Manhattan, NY",
-            "layer": "geoname"
+            "layer": "locality",
+            "text": "New York, Kings County, NY"
           }
         ]
       },
       "unexpected": {
         "properties": [
           {
-            "name": "New York City",
+            "name": "New York",
             "alpha3": "USA",
             "admin0": "United States",
             "admin1": "New York",
             "admin1_abbr": "NY",
-            "admin2": "New York County",
-            "local_admin": "Manhattan",
-            "locality": "New York",
+            "admin2": "Kings County",
             "category": [],
             "address": {}
           }
