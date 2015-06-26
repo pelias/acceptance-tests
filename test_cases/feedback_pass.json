@@ -1310,7 +1310,27 @@
             "local_admin": "Brooklyn",
             "locality": "New York",
             "neighborhood": "Fort Greene",
+            "category": [ ],
             "address": {
+              "number": "66",
+              "street": "Lafayette Avenue"
+            },
+            "text": "66 Lafayette Avenue, Brooklyn, NY"
+          },
+          {
+            "layer": "osmaddress",
+            "name": "66 Lafayette Avenue",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "New York",
+            "admin1_abbr": "NY",
+            "admin2": "Kings County",
+            "local_admin": "Brooklyn",
+            "locality": "New York",
+            "neighborhood": "Fort Greene",
+            "category": [ ],
+            "address": {
+              "zip": "11217",
               "number": "66",
               "street": "Lafayette Avenue"
             },
