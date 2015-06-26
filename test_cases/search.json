@@ -31,20 +31,6 @@
       }
     },
     {
-      "id": 3,
-      "status": "pass",
-      "user": "Randy",
-      "type": "dev",
-      "in": {
-        "input": "new york"
-      },
-      "expected": {
-        "properties": [
-          "New York, NY"
-        ]
-      }
-    },
-    {
       "id": 4,
       "status": "pass",
       "user": "Diana",
@@ -77,7 +63,7 @@
       },
       "expected": {
         "properties": [
-          "New York, NY"
+          "New York City, NY"
         ]
       }
     },
