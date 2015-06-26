@@ -471,6 +471,16 @@
       "expected": {
         "properties": "Daly City, San Mateo County, California, 94015, United States of America"
       }
+    },
+    {
+      "id": "1435276803390:0",
+      "user": "feedback-app",
+      "in": {
+        "input": "801 bering drive, arlington tx 76013"
+      },
+      "expected": {
+        "properties": "Bering Drive, Arlington, Tarrant County, Texas, 76013, United States of America"
+      }
     }
   ]
 }
