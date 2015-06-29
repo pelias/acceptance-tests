@@ -136,7 +136,7 @@
       "type": "dev",
       "user": "feedback-app",
       "in": {
-        "input": "union square"
+        "input": "union square, ny"
       },
       "expected": {
         "priorityThresh": 1,
