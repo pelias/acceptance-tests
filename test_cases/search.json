@@ -359,7 +359,7 @@
       "type": "dev",
       "user": "hkrishna",
       "in": {
-        "input": "big ben"
+        "input": "big ben, london"
       },
       "expected": {
         "priorityThresh": 3,
