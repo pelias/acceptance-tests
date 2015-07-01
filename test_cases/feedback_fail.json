@@ -471,6 +471,16 @@
       "expected": {
         "properties": "Daly City, San Mateo County, California, 94015, United States of America"
       }
+    },
+    {
+      "id": "1435622402643:0",
+      "user": "feedback-app",
+      "in": {
+        "input": "44 butler place, brooklyn"
+      },
+      "expected": {
+        "properties": "44, Butler Place, Prospect Heights, Brooklyn, Kings County, New York City, New York, 11238, United States of America"
+      }
     }
   ]
 }
