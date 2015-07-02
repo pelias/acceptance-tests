@@ -30,6 +30,7 @@
       "id": "1426636804303:1",
       "user": "feedback-app",
       "status": "fail",
+      "issue": "https://github.com/pelias/acceptance-tests/pull/96",
       "in": {
         "input": "서울시청"
       },
