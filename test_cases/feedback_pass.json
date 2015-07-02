@@ -306,44 +306,12 @@
       "id": "1426636804303:10",
       "user": "feedback-app",
       "in": {
-        "input": "Carleton College"
+        "input": "Carleton College, MN"
       },
       "expected": {
         "properties": [
           {
-            "layer": "osmway",
-            "name": "Carleton College",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "Minnesota",
-            "admin1_abbr": "MN",
-            "admin2": "Dakota County",
-            "local_admin": "Waterford",
-            "text": "Carleton College, Waterford, MN"
-          },
-          {
-            "layer": "osmnode",
-            "name": "Carleton College",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "Minnesota",
-            "admin1_abbr": "MN",
-            "admin2": "Rice County",
-            "local_admin": "Northfield",
-            "locality": "Northfield",
             "text": "Carleton College, Northfield, MN"
-          },
-          {
-            "layer": "geoname",
-            "name": "Carleton College",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "Minnesota",
-            "admin2": "Rice County",
-            "local_admin": "Northfield",
-            "locality": "Northfield",
-            "text": "Carleton College, Northfield, MN",
-            "admin1_abbr": "MN"
           }
         ]
       },
