@@ -30,26 +30,18 @@
     {
       "id": "1426636804303:1",
       "user": "feedback-app",
+      "status": "fail",
       "in": {
         "input": "서울시청"
       },
       "expected": {
         "properties": [
           {
-            "text": "31 세종대로 서울시청 본관동, Seoul",
-            "neighborhood": "사직동",
-            "locality": "Seoul",
-            "layer": "openaddresses",
-            "name": "31 세종대로 서울시청 본관동",
-            "alpha3": "KOR",
-            "admin0": "South Korea",
-            "admin1": "Seoul",
-            "admin2": "종로구"
+            "text": "서울특별시청 (Seoul City Hall), Seoul"
           }
         ],
         "priorityThresh": 2
-      },
-      "status": "pass"
+      }
     },
     {
       "id": "1426636804303:3",
