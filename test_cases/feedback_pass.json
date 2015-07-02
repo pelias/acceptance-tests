@@ -319,43 +319,9 @@
       "expected": {
         "properties": [
           {
-            "layer": "geoname",
-            "name": "Urnäsch",
-            "alpha3": "CHE",
             "admin0": "Switzerland",
-            "admin1": "Appenzell Ausserrhoden",
-            "admin2": "Bezirk Hinterland",
-            "locality": "UrnÃ¤sch",
-            "local_admin": "Urnäsch",
-            "text": "Urnäsch, Appenzell Ausserrhoden"
-          },
-          {
-            "layer": "geoname",
-            "name": "Urnäsch",
-            "alpha3": "CHE",
-            "admin0": "Switzerland",
-            "admin1": "Appenzell Ausserrhoden",
-            "admin2": "Bezirk Hinterland",
-            "local_admin": "Urnäsch",
-            "text": "Urnäsch, Appenzell Ausserrhoden"
-          },
-          {
-            "layer": "osmway",
-            "name": "Urnäsch",
-            "alpha3": "CHE",
-            "admin0": "Switzerland",
-            "local_admin": "Urnäsch",
-            "locality": "UrnÃ¤sch",
-            "text": "Urnäsch, Switzerland"
-          },
-          {
-            "layer": "osmnode",
-            "name": "Urnäsch",
-            "alpha3": "CHE",
-            "admin0": "Switzerland",
-            "local_admin": "Urnäsch",
-            "locality": "UrnÃ¤sch",
-            "text": "Urnäsch, Switzerland"
+            "text": "Urnäsch, Appenzell Ausserrhoden",
+            "category": [ "admin:city" ]
           }
         ],
         "priorityThresh": 5
