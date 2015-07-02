@@ -56,31 +56,8 @@
         "input": "yankee stadium"
       },
       "expected": {
-        "properties": [
-          {
-            "layer": "osmway",
-            "name": "Yankee Stadium",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "New York",
-            "admin1_abbr": "NY",
-            "admin2": "Bronx County",
-            "local_admin": "Bronx",
-            "locality": "New York",
-            "neighborhood": "West Concourse",
-            "text": "Yankee Stadium, Bronx, NY"
-          },
-          {
-            "layer": "geoname",
-            "name": "Yankee Stadium",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "New York",
-            "admin2": "Bronx",
-            "text": "Yankee Stadium, Bronx, NY",
-            "admin1_abbr": "NY"
-          }
-        ]
+        "properties": [ { "text": "Yankee Stadium, Bronx, NY" } ],
+        "priorityThresh": 1
       },
       "status": "pass"
     },

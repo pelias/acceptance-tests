@@ -55,11 +55,26 @@
     },
     {
       "id": 5,
-      "status": "pass",
+      "status": "fail",
+      "issue": "https://github.com/pelias/api/issues/149",
       "type": "dev",
       "user": "Randy",
       "in": {
         "input": "new york, new york"
+      },
+      "expected": {
+        "properties": [
+          "New York City, NY"
+        ]
+      }
+    },
+    {
+      "id": "5:2",
+      "status": "pass",
+      "type": "dev",
+      "user": "missinglink",
+      "in": {
+        "input": "new york city"
       },
       "expected": {
         "properties": [
@@ -257,7 +272,8 @@
     },
     {
       "id": 11,
-      "status": "pass",
+      "status": "fail",
+      "issue": "https://github.com/pelias/api/issues/150",
       "type": "dev",
       "user": "hkrishna",
       "in": {
@@ -354,7 +370,8 @@
     {
       "id": 18,
       "user": "sevko",
-      "status": "pass",
+      "status": "fail",
+      "issue": "https://github.com/pelias/api/issues/151",
       "type": "dev",
       "in": {
         "input": "newark airport"

@@ -171,34 +171,32 @@
     {
       "id": 5,
       "status": "pass",
-      "user": "Diana",
+      "user": "missinglink",
       "type": "dev",
       "endpoint": "suggest/coarse",
       "in": {
-        "lat": 40.744243,
-        "lon": -73.990342,
-        "input": "new york city",
+        "lat": 9.91,
+        "lon": 78.10,
+        "input": "Singarpuram, Madurai, Tamil Nadu",
         "details": false
       },
       "expected": {
         "properties": [
           {
-            "layer": "locality",
-            "text": "New York, Kings County, NY"
+            "text": "Singarpuram, Madurai, Tamil Nadu",
+            "layer": "neighborhood"
           }
         ]
       },
       "unexpected": {
         "properties": [
           {
-            "name": "New York",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "New York",
-            "admin1_abbr": "NY",
-            "admin2": "Kings County",
-            "category": [],
-            "address": {}
+            "id": "4679:_:_:ind:singarpuram",
+            "name": "Singarpuram",
+            "alpha3": "IND",
+            "admin0": "India",
+            "admin1": "Tamil Nadu",
+            "admin2": "Madurai"
           }
         ]
       }
