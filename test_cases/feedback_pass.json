@@ -688,21 +688,31 @@
       "id": "1426636804303:21",
       "user": "feedback-app",
       "type": "dev",
+      "see": "http://pelias.mapzen.com/doc?id=osmway:250229991",
       "in": {
         "input": "Brooklyn Museum"
       },
       "expected": {
         "properties": [
           {
-            "layer": "osmway",
-            "name": "Brooklyn Museum of Art",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "New York",
-            "admin1_abbr": "NY",
-            "admin2": "Kings County",
-            "local_admin": "Brooklyn",
-            "locality": "New York",
+            "text": "Brooklyn Museum, Brooklyn, NY"
+          }
+        ],
+        "priorityThresh": 1
+      },
+      "status": "pass"
+    },
+    {
+      "id": "1426636804303:21:2",
+      "user": "feedback-app",
+      "type": "dev",
+      "see": "http://pelias.mapzen.com/doc?id=geoname:6343439",
+      "in": {
+        "input": "Brooklyn Museum of Art"
+      },
+      "expected": {
+        "properties": [
+          {
             "text": "Brooklyn Museum of Art, Brooklyn, NY"
           }
         ],
