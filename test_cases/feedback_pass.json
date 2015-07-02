@@ -1613,6 +1613,8 @@
     {
       "id": "1426636804303:58",
       "user": "feedback-app",
+      "status": "fail",
+      "issue": "https://github.com/pelias/schema/issues/65",
       "in": {
         "input": "fiumicino airport"
       },
@@ -1630,8 +1632,7 @@
           }
         ],
         "priorityThresh": 1
-      },
-      "status": "pass"
+      }
     },
     {
       "id": "1426636804303:59",
