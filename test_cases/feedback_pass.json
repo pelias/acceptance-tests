@@ -1693,43 +1693,7 @@
       "expected": {
         "properties": [
           {
-            "layer": "osmnode",
-            "name": "Brooklyn Bridge Park/DUMBO",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "New York",
-            "admin1_abbr": "NY",
-            "admin2": "New York County",
-            "local_admin": "Manhattan",
-            "locality": "New York",
-            "neighborhood": "Fulton Ferry",
-            "text": "Brooklyn Bridge Park/DUMBO, Manhattan, NY"
-          },
-          {
-            "layer": "osmway",
-            "name": "Brooklyn Bridge Park",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "New York",
-            "admin1_abbr": "NY",
-            "admin2": "Kings County",
-            "local_admin": "Brooklyn",
-            "locality": "New York",
-            "neighborhood": "DUMBO",
             "text": "Brooklyn Bridge Park, Brooklyn, NY"
-          },
-          {
-            "layer": "osmway",
-            "name": "Brooklyn Bridge Park",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "New York",
-            "admin1_abbr": "NY",
-            "admin2": "New York County",
-            "local_admin": "Manhattan",
-            "locality": "New York",
-            "neighborhood": "Brooklyn Heights",
-            "text": "Brooklyn Bridge Park, Manhattan, NY"
           }
         ]
       },
