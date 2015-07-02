@@ -3915,6 +3915,37 @@
         "priorityThresh": 4
       },
       "status": "pass"
+    },
+    {
+      "id": "1435017604203:0",
+      "user": "feedback-app",
+      "in": {
+        "input": "20 Broad St, ny"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "openaddresses",
+            "name": "20 Broad Street",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "New York",
+            "admin1_abbr": "NY",
+            "admin2": "New York County",
+            "local_admin": "Manhattan",
+            "locality": "New York",
+            "neighborhood": "Financial District",
+            "category": [],
+            "address": {
+              "number": "20",
+              "street": "Broad Street"
+            },
+            "text": "20 Broad Street, Manhattan, NY"
+          }
+        ],
+        "priorityThresh": 2
+      },
+      "status": "pass"
     }
   ]
 }
