@@ -2496,24 +2496,15 @@
       "id": "1426636804303:89",
       "user": "feedback-app",
       "in": {
-        "input": "Facebook"
+        "input": "Facebook HQ, CA"
       },
       "expected": {
         "properties": [
           {
-            "layer": "osmnode",
-            "name": "Facebook HQ",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "California",
-            "admin1_abbr": "CA",
-            "admin2": "San Mateo County",
-            "locality": "Menlo Park",
-            "neighborhood": "Henderson",
             "text": "Facebook HQ, Menlo Park, CA"
           }
         ],
-        "priorityThresh": 9
+        "priorityThresh": 1
       },
       "status": "pass"
     },
