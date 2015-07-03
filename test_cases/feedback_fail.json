@@ -471,6 +471,16 @@
       "expected": {
         "properties": "Daly City, San Mateo County, California, 94015, United States of America"
       }
+    },
+    {
+      "id": "1435881602217:0",
+      "user": "feedback-app",
+      "in": {
+        "input": "40 dean street, ny"
+      },
+      "expected": {
+        "properties": null
+      }
     }
   ]
 }
