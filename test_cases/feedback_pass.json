@@ -1,6 +1,6 @@
 {
   "name": "feedback app passing tests",
-  "priorityThresh": 3,
+  "priorityThresh": 10,
   "tests": [
     {
       "id": "1426636804303:0",
@@ -22,8 +22,7 @@
             "neighborhood": "Civic Center",
             "text": "AsiaSF, San Francisco, CA"
           }
-        ],
-        "priorityThresh": 1
+        ]
       },
       "status": "pass"
     },
@@ -46,8 +45,7 @@
             "admin1": "Seoul",
             "admin2": "종로구"
           }
-        ],
-        "priorityThresh": 2
+        ]
       },
       "status": "pass"
     },
@@ -58,32 +56,8 @@
         "input": "yankee stadium"
       },
       "expected": {
-        "properties": [
-          {
-            "layer": "osmway",
-            "name": "Yankee Stadium",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "New York",
-            "admin1_abbr": "NY",
-            "admin2": "Bronx County",
-            "local_admin": "Bronx",
-            "locality": "New York",
-            "neighborhood": "West Concourse",
-            "text": "Yankee Stadium, Bronx, NY"
-          },
-          {
-            "layer": "geoname",
-            "name": "Yankee Stadium",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "New York",
-            "admin2": "Bronx",
-            "text": "Yankee Stadium, Bronx, NY",
-            "admin1_abbr": "NY"
-          }
-        ],
-        "priorityThresh": 2
+        "properties": [ { "text": "Yankee Stadium, Bronx, NY" } ],
+        "priorityThresh": 1
       },
       "status": "pass"
     },
@@ -155,8 +129,7 @@
             "neighborhood": "West Wrentham",
             "text": "Sheldonville Post Office, Wrentham, MA"
           }
-        ],
-        "priorityThresh": 6
+        ]
       },
       "status": "pass"
     },
@@ -189,8 +162,7 @@
             "text": "Lickdale, Union, PA",
             "admin1_abbr": "PA"
           }
-        ],
-        "priorityThresh": 2
+        ]
       },
       "status": "pass"
     },
@@ -213,8 +185,7 @@
             "text": "Ono, East Hanover, PA",
             "admin1_abbr": "PA"
           }
-        ],
-        "priorityThresh": 1
+        ]
       },
       "status": "pass"
     },
@@ -236,8 +207,7 @@
             "text": "291 Woodrow Lane, Cecil County, MD",
             "admin1_abbr": "MD"
           }
-        ],
-        "priorityThresh": 1
+        ]
       },
       "status": "pass"
     },
@@ -305,8 +275,7 @@
             "text": "AT&T Park, San Francisco, CA",
             "admin1_abbr": "CA"
           }
-        ],
-        "priorityThresh": 5
+        ]
       },
       "status": "pass"
     },
@@ -357,8 +326,7 @@
             "locality": "UrnÃ¤sch",
             "text": "Urnäsch, Switzerland"
           }
-        ],
-        "priorityThresh": 5
+        ]
       },
       "status": "pass"
     },
@@ -405,8 +373,7 @@
             "text": "Carleton College, Northfield, MN",
             "admin1_abbr": "MN"
           }
-        ],
-        "priorityThresh": 3
+        ]
       },
       "status": "pass"
     },
@@ -429,8 +396,7 @@
             "text": "Eek, AK",
             "admin1_abbr": "AK"
           }
-        ],
-        "priorityThresh": 1
+        ]
       },
       "status": "pass"
     },
@@ -467,18 +433,6 @@
             "text": "San Francisco City Hall, San Francisco, CA"
           },
           {
-            "layer": "osmnode",
-            "name": "Polk & McAllister (City Hall",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "California",
-            "admin1_abbr": "CA",
-            "admin2": "San Francisco County",
-            "locality": "San Francisco",
-            "neighborhood": "Opera Plaza",
-            "text": "Polk & McAllister (City Hall, San Francisco, CA"
-          },
-          {
             "layer": "geoname",
             "name": "San Francisco City Hall",
             "alpha3": "USA",
@@ -489,8 +443,7 @@
             "text": "San Francisco City Hall, San Francisco, CA",
             "admin1_abbr": "CA"
           }
-        ],
-        "priorityThresh": 4
+        ]
       },
       "status": "pass"
     },
@@ -514,8 +467,7 @@
             "text": "1288 Pear Avenue, Mountain View, CA",
             "admin1_abbr": "CA"
           }
-        ],
-        "priorityThresh": 1
+        ]
       },
       "status": "pass"
     },
@@ -528,7 +480,7 @@
       "expected": {
         "properties": [
           {
-            "layer": "osmway",
+            "layer": "osmnode",
             "name": "Cloud Gate",
             "alpha3": "USA",
             "admin0": "United States",
@@ -540,8 +492,7 @@
             "neighborhood": "Fort Dearborn Addition",
             "text": "Cloud Gate, Chicago, IL"
           }
-        ],
-        "priorityThresh": 1
+        ]
       },
       "status": "pass"
     },
@@ -577,8 +528,7 @@
             "neighborhood": "Civic Center",
             "text": "1355 Market Street, San Francisco, CA"
           }
-        ],
-        "priorityThresh": 3
+        ]
       },
       "status": "pass"
     },
@@ -603,8 +553,7 @@
             "text": "568 Broadway, Manhattan, NY",
             "admin1_abbr": "NY"
           }
-        ],
-        "priorityThresh": 8
+        ]
       },
       "status": "pass"
     },
@@ -629,8 +578,7 @@
             "neighborhood": "Park Slope",
             "text": "Cafe Regular du Nord, Brooklyn, NY"
           }
-        ],
-        "priorityThresh": 1
+        ]
       },
       "status": "pass"
     },
@@ -654,8 +602,7 @@
             "text": "275 Brannan Street, San Francisco, CA",
             "admin1_abbr": "CA"
           }
-        ],
-        "priorityThresh": 1
+        ]
       },
       "status": "pass"
     },
@@ -679,8 +626,7 @@
             "neighborhood": "Civic Center",
             "text": "155 9th, San Francisco, CA"
           }
-        ],
-        "priorityThresh": 1
+        ]
       },
       "status": "pass"
     },
@@ -705,8 +651,7 @@
             "locality": "New York",
             "text": "Brooklyn Museum of Art, Brooklyn, NY"
           }
-        ],
-        "priorityThresh": 1
+        ]
       },
       "status": "pass"
     },
@@ -731,8 +676,7 @@
             "neighborhood": "East Ithaca",
             "text": "Cornell University, Ithaca, NY"
           }
-        ],
-        "priorityThresh": 1
+        ]
       },
       "status": "pass"
     },
@@ -757,8 +701,7 @@
             "neighborhood": "Fall Creek",
             "text": "Ithaca Farmers' Market, Ithaca, NY"
           }
-        ],
-        "priorityThresh": 1
+        ]
       },
       "status": "pass"
     },
@@ -783,8 +726,7 @@
             "neighborhood": "Mid Cambridge",
             "text": "Cambridge St @ Dana St, Cambridge, MA"
           }
-        ],
-        "priorityThresh": 1
+        ]
       },
       "status": "pass"
     },
@@ -807,8 +749,7 @@
             "text": "Park Slope, Kings County, NY",
             "admin1_abbr": "NY"
           }
-        ],
-        "priorityThresh": 1
+        ]
       },
       "status": "pass"
     },
@@ -834,8 +775,7 @@
             "neighborhood": "South Slope",
             "text": "Slope Park, Brooklyn, NY"
           }
-        ],
-        "priorityThresh": 4
+        ]
       },
       "status": "pass"
     },
@@ -861,8 +801,7 @@
             "neighborhood": "Park Slope",
             "text": "J.J. Byrne Playground, Brooklyn, NY"
           }
-        ],
-        "priorityThresh": 4
+        ]
       },
       "status": "pass"
     },
@@ -884,8 +823,7 @@
             "neighborhood": "Canary Wharf",
             "text": "One Canada Square, Canary Wharf, Greater London"
           }
-        ],
-        "priorityThresh": 1
+        ]
       },
       "status": "pass"
     },
@@ -909,33 +847,7 @@
             "neighborhood": "Belltown",
             "text": "Space Needle, Seattle, WA"
           }
-        ],
-        "priorityThresh": 1
-      },
-      "status": "pass"
-    },
-    {
-      "id": "1426636804303:30",
-      "user": "feedback-app",
-      "in": {
-        "input": "Newark Airport"
-      },
-      "expected": {
-        "properties": [
-          {
-            "name": "Newark Liberty International Airport",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "New Jersey",
-            "admin1_abbr": "NJ",
-            "admin2": "Essex County",
-            "local_admin": "Newark",
-            "locality": "Newark",
-            "neighborhood": "Dayton",
-            "text": "Newark Liberty International Airport, Newark, NJ"
-          }
-        ],
-        "priorityThresh": 2
+        ]
       },
       "status": "pass"
     },
@@ -957,8 +869,7 @@
             "local_admin": "Città di Castello",
             "text": "Volterrano, Città di Castello, Umbria"
           }
-        ],
-        "priorityThresh": 1
+        ]
       },
       "status": "pass"
     },
@@ -982,8 +893,7 @@
             "neighborhood": "Civic Center",
             "text": "Code for America, San Francisco, CA"
           }
-        ],
-        "priorityThresh": 1
+        ]
       },
       "status": "pass"
     },
@@ -1017,8 +927,7 @@
             "locality": "San Francisco",
             "text": "St Francis Fountain, San Francisco, CA"
           }
-        ],
-        "priorityThresh": 2
+        ]
       },
       "status": "pass"
     },
@@ -1042,8 +951,7 @@
             "text": "3107 Hyde Street, Oakland, CA",
             "admin1_abbr": "CA"
           }
-        ],
-        "priorityThresh": 4
+        ]
       },
       "status": "pass"
     },
@@ -1067,8 +975,7 @@
             "text": "2633 Telegraph Avenue, Oakland, CA",
             "admin1_abbr": "CA"
           }
-        ],
-        "priorityThresh": 1
+        ]
       },
       "status": "pass"
     },
@@ -1092,8 +999,7 @@
             "text": "961 Andover Way, Los Altos, CA",
             "admin1_abbr": "CA"
           }
-        ],
-        "priorityThresh": 1
+        ]
       },
       "status": "pass"
     },
@@ -1118,8 +1024,7 @@
             "neighborhood": "Lombardi",
             "text": "Lambeau Field, Green Bay, WI"
           }
-        ],
-        "priorityThresh": 1
+        ]
       },
       "status": "pass"
     },
@@ -1143,8 +1048,7 @@
             "text": "1710 Drew Street, Houston, TX",
             "admin1_abbr": "TX"
           }
-        ],
-        "priorityThresh": 1
+        ]
       },
       "status": "pass"
     },
@@ -1161,8 +1065,7 @@
             "name": "Asia",
             "text": "Asia"
           }
-        ],
-        "priorityThresh": 1
+        ]
       },
       "status": "pass"
     },
@@ -1184,8 +1087,7 @@
             "text": "Golden Gate Park, San Francisco County, CA",
             "admin1_abbr": "CA"
           }
-        ],
-        "priorityThresh": 1
+        ]
       },
       "status": "pass"
     },
@@ -1209,8 +1111,7 @@
             "neighborhood": "Bernal Heights",
             "text": "Precita Park, San Francisco, CA"
           }
-        ],
-        "priorityThresh": 1
+        ]
       },
       "status": "pass"
     },
@@ -1234,8 +1135,7 @@
             "neighborhood": "Russian Hill",
             "text": "Aquatic Park, San Francisco, CA"
           }
-        ],
-        "priorityThresh": 3
+        ]
       },
       "status": "pass"
     },
@@ -1243,7 +1143,7 @@
       "id": "1426636804303:43",
       "user": "feedback-app",
       "in": {
-        "input": "transamerica building"
+        "input": "transamerica pyramid"
       },
       "expected": {
         "properties": [
@@ -1259,8 +1159,7 @@
             "neighborhood": "Jackson Square",
             "text": "Transamerica Pyramid, San Francisco, CA"
           }
-        ],
-        "priorityThresh": 4
+        ]
       },
       "status": "pass"
     },
@@ -1284,8 +1183,7 @@
             "neighborhood": "Mission Bay",
             "text": "UCSF Mission Bay, San Francisco, CA"
           }
-        ],
-        "priorityThresh": 1
+        ]
       },
       "status": "pass"
     },
@@ -1308,8 +1206,7 @@
             "text": "Cowboys Stadium, Arlington, TX",
             "admin1_abbr": "TX"
           }
-        ],
-        "priorityThresh": 1
+        ]
       },
       "status": "pass"
     },
@@ -1342,8 +1239,7 @@
             "text": "San Quentin State Prison, East Larkspur, CA",
             "admin1_abbr": "CA"
           }
-        ],
-        "priorityThresh": 5
+        ]
       },
       "status": "pass"
     },
@@ -1368,8 +1264,7 @@
             "neighborhood": "City Hall Area",
             "text": "Melt Shop, Manhattan, NY"
           }
-        ],
-        "priorityThresh": 1
+        ]
       },
       "status": "pass"
     },
@@ -1382,32 +1277,35 @@
       "expected": {
         "properties": [
           {
-            "layer": "osmnode",
-            "name": "Summit Ave @ Lafayette Ave",
+            "layer": "openaddresses",
+            "name": "66 Lafayette Avenue",
             "alpha3": "USA",
             "admin0": "United States",
-            "admin1": "Massachusetts",
-            "admin1_abbr": "MA",
-            "admin2": "Suffolk County",
-            "local_admin": "Chelsea",
-            "locality": "Chelsea",
-            "neighborhood": "Bellingham Square",
-            "text": "Summit Ave @ Lafayette Ave, Chelsea, MA"
+            "admin1": "New York",
+            "admin1_abbr": "NY",
+            "admin2": "Kings County",
+            "local_admin": "Brooklyn",
+            "locality": "New York",
+            "neighborhood": "Fort Greene",
+            "category": [ ],
+            "address": {
+              "number": "66",
+              "street": "Lafayette Avenue"
+            },
+            "text": "66 Lafayette Avenue, Brooklyn, NY"
           },
           {
-            "layer": "osmnode",
-            "name": "Lafayette St @ Clifton Ave",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "Massachusetts",
-            "admin1_abbr": "MA",
-            "admin2": "Essex County",
-            "local_admin": "Salem",
-            "locality": "Salem",
-            "text": "Lafayette St @ Clifton Ave, Salem, MA"
+            "layer": "osmaddress",
+            "name": "66 Lafayette Avenue",
+            "category": [ ],
+            "address": {
+              "zip": "11217",
+              "number": "66",
+              "street": "Lafayette Avenue"
+            },
+            "text": "66 Lafayette Avenue, Brooklyn, NY"
           }
-        ],
-        "priorityThresh": 7
+        ]
       },
       "status": "pass"
     },
@@ -1429,8 +1327,7 @@
             "admin2": "Santa Clara County",
             "text": "Nestldown, Santa Clara County, CA"
           }
-        ],
-        "priorityThresh": 1
+        ]
       },
       "status": "pass"
     },
@@ -1467,35 +1364,8 @@
             "locality": "Chicago",
             "neighborhood": "Greektown",
             "text": "UIC, Chicago, IL"
-          },
-          {
-            "layer": "osmnode",
-            "name": "UIC-Halsted",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "Illinois",
-            "admin1_abbr": "IL",
-            "admin2": "Cook County",
-            "local_admin": "Chicago",
-            "locality": "Chicago",
-            "neighborhood": "Greektown",
-            "text": "UIC-Halsted, Chicago, IL"
-          },
-          {
-            "layer": "osmnode",
-            "name": "UIC-Halsted",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "Illinois",
-            "admin1_abbr": "IL",
-            "admin2": "Cook County",
-            "local_admin": "Chicago",
-            "locality": "Chicago",
-            "neighborhood": "Greektown",
-            "text": "UIC-Halsted, Chicago, IL"
           }
-        ],
-        "priorityThresh": 9
+        ]
       },
       "status": "pass"
     },
@@ -1531,8 +1401,7 @@
             "text": "Ferry Building, San Francisco, CA",
             "admin1_abbr": "CA"
           }
-        ],
-        "priorityThresh": 5
+        ]
       },
       "status": "pass"
     },
@@ -1556,8 +1425,7 @@
             "text": "266 Brooklyn Avenue, Brooklyn, NY",
             "admin1_abbr": "NY"
           }
-        ],
-        "priorityThresh": 1
+        ]
       },
       "status": "pass"
     },
@@ -1582,8 +1450,7 @@
             "text": "721 Broadway, Manhattan, NY",
             "admin1_abbr": "NY"
           }
-        ],
-        "priorityThresh": 4
+        ]
       },
       "status": "pass"
     },
@@ -1605,8 +1472,7 @@
             "local_admin": "Perugia",
             "text": "Perugia San Francesco d'Assisi – Umbria International Airport, Perugia, Umbria"
           }
-        ],
-        "priorityThresh": 1
+        ]
       },
       "status": "pass"
     },
@@ -1628,8 +1494,7 @@
             "local_admin": "Fiumicino",
             "text": "Leonardo da Vinci–Fiumicino Airport, Fiumicino, Latium"
           }
-        ],
-        "priorityThresh": 1
+        ]
       },
       "status": "pass"
     },
@@ -1651,8 +1516,7 @@
             "text": "Washington Dulles International Airport, Loudoun County, VA",
             "admin1_abbr": "VA"
           }
-        ],
-        "priorityThresh": 7
+        ]
       },
       "status": "pass"
     },
@@ -1677,8 +1541,7 @@
             "text": "Madison Square Park, Manhattan, NY",
             "admin1_abbr": "NY"
           }
-        ],
-        "priorityThresh": 5
+        ]
       },
       "status": "pass"
     },
@@ -1704,8 +1567,7 @@
             "neighborhood": "Garment District",
             "text": "Madison Square Garden, Manhattan, NY"
           }
-        ],
-        "priorityThresh": 2
+        ]
       },
       "status": "pass"
     },
@@ -1731,8 +1593,7 @@
             "neighborhood": "Flatiron District",
             "text": "Flatiron Hall, Manhattan, NY"
           }
-        ],
-        "priorityThresh": 1
+        ]
       },
       "status": "pass"
     },
@@ -1767,8 +1628,7 @@
             "text": "Koreatown, Manhattan, NY",
             "admin1_abbr": "NY"
           }
-        ],
-        "priorityThresh": 9
+        ]
       },
       "status": "pass"
     },
@@ -1794,8 +1654,7 @@
             "text": "Astoria Park, Queens, NY",
             "admin1_abbr": "NY"
           }
-        ],
-        "priorityThresh": 3
+        ]
       },
       "status": "pass"
     },
@@ -1820,8 +1679,7 @@
             "text": "Brooklyn Bridge, Manhattan, NY",
             "admin1_abbr": "NY"
           }
-        ],
-        "priorityThresh": 2
+        ]
       },
       "status": "pass"
     },
@@ -1847,8 +1705,7 @@
             "neighborhood": "NoHo",
             "text": "Washington Square Park, Manhattan, NY"
           }
-        ],
-        "priorityThresh": 5
+        ]
       },
       "status": "pass"
     },
@@ -1900,8 +1757,7 @@
             "neighborhood": "Brooklyn Heights",
             "text": "Brooklyn Bridge Park, Manhattan, NY"
           }
-        ],
-        "priorityThresh": 4
+        ]
       },
       "status": "pass"
     },
@@ -1926,8 +1782,7 @@
             "text": "Manhattan Bridge, Manhattan, NY",
             "admin1_abbr": "NY"
           }
-        ],
-        "priorityThresh": 1
+        ]
       },
       "status": "pass"
     },
@@ -1966,8 +1821,7 @@
             "text": "Empire State Building, Manhattan, NY",
             "admin1_abbr": "NY"
           }
-        ],
-        "priorityThresh": 2
+        ]
       },
       "status": "pass"
     },
@@ -2016,8 +1870,7 @@
             "text": "Chrysler Building, Manhattan, NY",
             "admin1_abbr": "NY"
           }
-        ],
-        "priorityThresh": 3
+        ]
       },
       "status": "pass"
     },
@@ -2056,32 +1909,7 @@
             "text": "Rockefeller Center, Manhattan, NY",
             "admin1_abbr": "NY"
           }
-        ],
-        "priorityThresh": 4
-      },
-      "status": "pass"
-    },
-    {
-      "id": "1426636804303:72",
-      "user": "feedback-app",
-      "in": {
-        "input": "furlong pa"
-      },
-      "expected": {
-        "properties": [
-          {
-            "layer": "geoname",
-            "name": "Furlong",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "Pennsylvania",
-            "admin2": "Bucks County",
-            "local_admin": "Buckingham",
-            "text": "Furlong, Buckingham, PA",
-            "admin1_abbr": "PA"
-          }
-        ],
-        "priorityThresh": 3
+        ]
       },
       "status": "pass"
     },
@@ -2105,8 +1933,7 @@
             "text": "Doylestown, PA",
             "admin1_abbr": "PA"
           }
-        ],
-        "priorityThresh": 5
+        ]
       },
       "status": "pass"
     },
@@ -2132,8 +1959,7 @@
             "neighborhood": "Theatre District",
             "text": "Times Square, Manhattan, NY"
           }
-        ],
-        "priorityThresh": 3
+        ]
       },
       "status": "pass"
     },
@@ -2159,8 +1985,7 @@
             "neighborhood": "Midtown West",
             "text": "11 Times Square, Manhattan, NY"
           }
-        ],
-        "priorityThresh": 1
+        ]
       },
       "status": "pass"
     },
@@ -2186,8 +2011,7 @@
             "neighborhood": "Flatiron District",
             "text": "Bombay Sandwich Co, Manhattan, NY"
           }
-        ],
-        "priorityThresh": 1
+        ]
       },
       "status": "pass"
     },
@@ -2213,8 +2037,7 @@
             "neighborhood": "Flatiron District",
             "text": "Flatiron Building, Manhattan, NY"
           }
-        ],
-        "priorityThresh": 1
+        ]
       },
       "status": "pass"
     },
@@ -2239,8 +2062,7 @@
             "text": "Stamford Station, Stamford, CT",
             "admin1_abbr": "CT"
           }
-        ],
-        "priorityThresh": 2
+        ]
       },
       "status": "pass"
     },
@@ -2266,8 +2088,7 @@
             "neighborhood": "Upper West Side",
             "text": "Momoya, Manhattan, NY"
           }
-        ],
-        "priorityThresh": 2
+        ]
       },
       "status": "pass"
     },
@@ -2292,8 +2113,7 @@
             "neighborhood": "South Williamsburg",
             "text": "479 Grand Street, Brooklyn, NY"
           }
-        ],
-        "priorityThresh": 7
+        ]
       },
       "status": "pass"
     },
@@ -2319,8 +2139,7 @@
             "neighborhood": "West Village",
             "text": "69 West 9th Street, Manhattan, NY"
           }
-        ],
-        "priorityThresh": 2
+        ]
       },
       "status": "pass"
     },
@@ -2343,8 +2162,7 @@
             "neighborhood": "Connaught Place",
             "text": "Rajiv Chowk, New Delhi, Delhi"
           }
-        ],
-        "priorityThresh": 1
+        ]
       },
       "status": "pass"
     },
@@ -2365,8 +2183,7 @@
             "admin2": "New Delhi",
             "text": "Taj Mahal New Delhi, New Delhi, NCT"
           }
-        ],
-        "priorityThresh": 1
+        ]
       },
       "status": "pass"
     },
@@ -2389,8 +2206,7 @@
             "locality": "New Delhi",
             "text": "Taj Palace New Delhi, New Delhi, NCT"
           }
-        ],
-        "priorityThresh": 1
+        ]
       },
       "status": "pass"
     },
@@ -2414,8 +2230,7 @@
             "text": "Princeton Junction, West Windsor, NJ",
             "admin1_abbr": "NJ"
           }
-        ],
-        "priorityThresh": 1
+        ]
       },
       "status": "pass"
     },
@@ -2437,8 +2252,7 @@
             "text": "Toluca Lake, Los Angeles County, CA",
             "admin1_abbr": "CA"
           }
-        ],
-        "priorityThresh": 1
+        ]
       },
       "status": "pass"
     },
@@ -2462,8 +2276,7 @@
             "text": "4636 North Cahuenga Boulevard, Los Angeles, CA",
             "admin1_abbr": "CA"
           }
-        ],
-        "priorityThresh": 1
+        ]
       },
       "status": "pass"
     },
@@ -2487,8 +2300,7 @@
             "neighborhood": "Jackson Square",
             "text": "Exploratorium, San Francisco, CA"
           }
-        ],
-        "priorityThresh": 2
+        ]
       },
       "status": "pass"
     },
@@ -2512,8 +2324,7 @@
             "neighborhood": "Henderson",
             "text": "Facebook HQ, Menlo Park, CA"
           }
-        ],
-        "priorityThresh": 9
+        ]
       },
       "status": "pass"
     },
@@ -2539,8 +2350,7 @@
             "neighborhood": "Garment District",
             "text": "New York Penn Station, Manhattan, NY"
           }
-        ],
-        "priorityThresh": 1
+        ]
       },
       "status": "pass"
     },
@@ -2565,8 +2375,7 @@
             "neighborhood": "Fort Point",
             "text": "Boston Convention & Exhibition Center, Boston, MA"
           }
-        ],
-        "priorityThresh": 2
+        ]
       },
       "status": "pass"
     },
@@ -2591,8 +2400,7 @@
             "neighborhood": "Park Slope",
             "text": "822 Union Street, Brooklyn, NY"
           }
-        ],
-        "priorityThresh": 3
+        ]
       },
       "status": "pass"
     },
@@ -2614,8 +2422,7 @@
             "text": "Astoria, Queens County, NY",
             "admin1_abbr": "NY"
           }
-        ],
-        "priorityThresh": 2
+        ]
       },
       "status": "pass"
     },
@@ -2651,8 +2458,7 @@
             "neighborhood": "Monta Vista",
             "text": "1 Infinite Loop, Cupertino, CA"
           }
-        ],
-        "priorityThresh": 2
+        ]
       },
       "status": "pass"
     },
@@ -2678,8 +2484,7 @@
             "neighborhood": "Flatiron District",
             "text": "Samsung Accelerator, Manhattan, NY"
           }
-        ],
-        "priorityThresh": 1
+        ]
       },
       "status": "pass"
     },
@@ -2703,8 +2508,7 @@
             "neighborhood": "Downtown",
             "text": "1827 Berkeley Way, Berkeley, CA"
           }
-        ],
-        "priorityThresh": 1
+        ]
       },
       "status": "pass"
     },
@@ -2727,8 +2531,7 @@
             "text": "1900 Chapala Street, Santa Barbara, CA",
             "admin1_abbr": "CA"
           }
-        ],
-        "priorityThresh": 1
+        ]
       },
       "status": "pass"
     },
@@ -2752,8 +2555,7 @@
             "text": "128 Lorton Avenue, Burlingame, CA",
             "admin1_abbr": "CA"
           }
-        ],
-        "priorityThresh": 2
+        ]
       },
       "status": "pass"
     },
@@ -2779,32 +2581,7 @@
             "neighborhood": "Flatiron District",
             "text": "Ace Hotel, Manhattan, NY"
           }
-        ],
-        "priorityThresh": 7
-      },
-      "status": "pass"
-    },
-    {
-      "id": "1426636804303:100",
-      "user": "feedback-app",
-      "in": {
-        "input": "1600 Pennsylvania Northwest"
-      },
-      "expected": {
-        "properties": [
-          {
-            "name": "1600 Pennsylvania Avenue Northwest",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "District of Columbia",
-            "admin2": "District of Columbia",
-            "locality": "Washington",
-            "neighborhood": "Franklin Mcpherson Square",
-            "text": "1600 Pennsylvania Avenue Northwest, Washington, DC",
-            "admin1_abbr": "DC"
-          }
-        ],
-        "priorityThresh": 7
+        ]
       },
       "status": "pass"
     },
@@ -2830,8 +2607,7 @@
             "neighborhood": "Windsor Teraace",
             "text": "318 19th Street, Brooklyn, NY"
           }
-        ],
-        "priorityThresh": 5
+        ]
       },
       "status": "pass"
     },
@@ -2860,8 +2636,7 @@
             "admin1": "Hyōgo",
             "text": "Himeji, Hyōgo"
           }
-        ],
-        "priorityThresh": 2
+        ]
       },
       "status": "pass"
     },
@@ -2882,8 +2657,7 @@
             "locality": "Himeji",
             "text": "Himeji castle, Himeji, Hyōgo"
           }
-        ],
-        "priorityThresh": 1
+        ]
       },
       "status": "pass"
     },
@@ -2906,8 +2680,7 @@
             "locality": "North Pole",
             "admin1_abbr": "AK"
           }
-        ],
-        "priorityThresh": 1
+        ]
       },
       "status": "pass"
     },
@@ -2928,8 +2701,7 @@
             "admin2": "الدمام",
             "text": "Dhahran, الدمام, Eastern Province"
           }
-        ],
-        "priorityThresh": 1
+        ]
       },
       "status": "pass"
     },
@@ -2949,8 +2721,7 @@
             "admin1": "Rheinland-Pfalz",
             "text": "Traben-Trarbach, Rheinland-Pfalz"
           }
-        ],
-        "priorityThresh": 1
+        ]
       },
       "status": "pass"
     },
@@ -2975,8 +2746,7 @@
             "neighborhood": "Mill River",
             "text": "Pepe's Pizza, New Haven, CT"
           }
-        ],
-        "priorityThresh": 4
+        ]
       },
       "status": "pass"
     },
@@ -2998,8 +2768,7 @@
             "text": "112 Castellow Court, York County, VA",
             "admin1_abbr": "VA"
           }
-        ],
-        "priorityThresh": 1
+        ]
       },
       "status": "pass"
     },
@@ -3031,8 +2800,7 @@
             "admin2": "New York County",
             "text": "Flatiron, New York County, NY"
           }
-        ],
-        "priorityThresh": 4
+        ]
       },
       "status": "pass"
     },
@@ -3053,8 +2821,7 @@
             "admin2": "New York County",
             "text": "Soho, New York County, NY"
           }
-        ],
-        "priorityThresh": 2
+        ]
       },
       "status": "pass"
     },
@@ -3076,8 +2843,7 @@
             "admin2": "Dallas County",
             "text": "DFW, Dallas, TX"
           }
-        ],
-        "priorityThresh": 1
+        ]
       },
       "status": "pass"
     },
@@ -3116,8 +2882,7 @@
             "neighborhood": "East Village",
             "text": "101 Saint Marks Place, Manhattan, NY"
           }
-        ],
-        "priorityThresh": 5
+        ]
       },
       "status": "pass"
     },
@@ -3143,8 +2908,7 @@
             "neighborhood": "Flatiron District",
             "text": "Flatiron Building, Manhattan, NY"
           }
-        ],
-        "priorityThresh": 5
+        ]
       },
       "status": "pass"
     },
@@ -3167,8 +2931,7 @@
             "admin2": "New York County",
             "text": "Flatiron, New York County, NY"
           }
-        ],
-        "priorityThresh": 1
+        ]
       },
       "status": "pass"
     },
@@ -3191,8 +2954,7 @@
             "text": "Port Deposit, MD",
             "admin1_abbr": "MD"
           }
-        ],
-        "priorityThresh": 1
+        ]
       },
       "status": "pass"
     },
@@ -3215,8 +2977,7 @@
             "locality": "Port Deposit",
             "text": "Backfin Blues, Port Deposit, MD"
           }
-        ],
-        "priorityThresh": 1
+        ]
       },
       "status": "pass"
     },
@@ -3241,8 +3002,7 @@
             "neighborhood": "Boerum Hill",
             "text": "130 Dean Street, Brooklyn, NY"
           }
-        ],
-        "priorityThresh": 5
+        ]
       },
       "status": "pass"
     },
@@ -3267,8 +3027,7 @@
             "neighborhood": "Boerum Hill",
             "text": "The Brooklyn Inn, Brooklyn, NY"
           }
-        ],
-        "priorityThresh": 2
+        ]
       },
       "status": "pass"
     },
@@ -3292,8 +3051,7 @@
             "neighborhood": "South Campus",
             "text": "Bascom Hall, Madison, WI"
           }
-        ],
-        "priorityThresh": 1
+        ]
       },
       "status": "pass"
     },
@@ -3317,8 +3075,7 @@
             "neighborhood": "Fort Winfield Scott",
             "text": "Golden Gate Bridge, San Francisco, CA"
           }
-        ],
-        "priorityThresh": 1
+        ]
       },
       "status": "pass"
     },
@@ -3342,8 +3099,7 @@
             "text": "20 Montezuma Street, San Francisco, CA",
             "admin1_abbr": "CA"
           }
-        ],
-        "priorityThresh": 1
+        ]
       },
       "status": "pass"
     },
@@ -3367,8 +3123,7 @@
             "neighborhood": "Civic Center",
             "text": "Little Griddle, San Francisco, CA"
           }
-        ],
-        "priorityThresh": 1
+        ]
       },
       "status": "pass"
     },
@@ -3392,33 +3147,7 @@
             "neighborhood": "Mission Dolores",
             "text": "Pork Store Cafe Valencia, San Francisco, CA"
           }
-        ],
-        "priorityThresh": 1
-      },
-      "status": "pass"
-    },
-    {
-      "id": "1426636804303:125",
-      "user": "feedback-app",
-      "in": {
-        "input": "warming hut"
-      },
-      "expected": {
-        "properties": [
-          {
-            "layer": "osmway",
-            "name": "Warming Hut",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "California",
-            "admin1_abbr": "CA",
-            "admin2": "San Francisco County",
-            "locality": "San Francisco",
-            "neighborhood": "Presidio",
-            "text": "Warming Hut, San Francisco, CA"
-          }
-        ],
-        "priorityThresh": 2
+        ]
       },
       "status": "pass"
     },
@@ -3440,8 +3169,7 @@
             "local_admin": "Innertkirchen",
             "text": "Haslital, Innertkirchen, Bern"
           }
-        ],
-        "priorityThresh": 2
+        ]
       },
       "status": "pass"
     },
@@ -3469,8 +3197,7 @@
             "admin1": "Berlin",
             "text": "Berlin"
           }
-        ],
-        "priorityThresh": 2
+        ]
       },
       "status": "pass"
     },
@@ -3493,8 +3220,7 @@
             "local_admin": "Firenze",
             "text": "Florence, Firenze, Tuscany"
           }
-        ],
-        "priorityThresh": 1
+        ]
       },
       "status": "pass"
     },
@@ -3517,32 +3243,7 @@
             "local_admin": "Stamford",
             "text": "Stamford Amtrak Station, Stamford, CT"
           }
-        ],
-        "priorityThresh": 1
-      },
-      "status": "pass"
-    },
-    {
-      "id": "1427414405152:4",
-      "user": "feedback-app",
-      "in": {
-        "input": "IGI Airport, Delhi"
-      },
-      "expected": {
-        "properties": [
-          {
-            "layer": "osmnode",
-            "name": "Indira Gandhi International Airport",
-            "alpha3": "IND",
-            "admin0": "India",
-            "admin1": "Delhi",
-            "admin2": "South West Delhi",
-            "locality": "New Delhi",
-            "neighborhood": "Nangal Dewat",
-            "text": "Indira Gandhi International Airport, New Delhi, Delhi"
-          }
-        ],
-        "priorityThresh": 8
+        ]
       },
       "status": "pass"
     },
@@ -3565,8 +3266,7 @@
             "locality": "San Francisco",
             "text": "San Francisco, CA"
           }
-        ],
-        "priorityThresh": 2
+        ]
       },
       "status": "pass"
     },
@@ -3588,8 +3288,7 @@
             "admin2": "Tompkins County",
             "text": "Cayuga Lake, Tompkins County, NY"
           }
-        ],
-        "priorityThresh": 3
+        ]
       },
       "status": "pass"
     },
@@ -3612,8 +3311,7 @@
             "neighborhood": "East Tamaki",
             "text": "9 Earlshall Drive, East Tamaki Heights, Auckland Region"
           }
-        ],
-        "priorityThresh": 1
+        ]
       },
       "status": "pass"
     },
@@ -3634,8 +3332,7 @@
             "admin2": "Dhaka",
             "text": "Dhaka"
           }
-        ],
-        "priorityThresh": 1
+        ]
       },
       "status": "pass"
     },
@@ -3671,8 +3368,7 @@
             "admin1": "Tbilisi",
             "text": "Tbilisi"
           }
-        ],
-        "priorityThresh": 3
+        ]
       },
       "status": "pass"
     },
@@ -3700,8 +3396,7 @@
             "admin1": "Central",
             "text": "Suva, Central"
           }
-        ],
-        "priorityThresh": 2
+        ]
       },
       "status": "pass"
     },
@@ -3721,8 +3416,7 @@
             "admin1": "Díli",
             "text": "Dili, Díli"
           }
-        ],
-        "priorityThresh": 1
+        ]
       },
       "status": "pass"
     },
@@ -3744,8 +3438,7 @@
             "admin2": "District of Columbia",
             "text": "Washington, District of Columbia, DC"
           }
-        ],
-        "priorityThresh": 1
+        ]
       },
       "status": "pass"
     },
@@ -3802,8 +3495,7 @@
             "neighborhood": "North Gate",
             "text": "Silver Spring, MD"
           }
-        ],
-        "priorityThresh": 4
+        ]
       },
       "status": "pass"
     },
@@ -3835,8 +3527,7 @@
             "locality": "Markdorf",
             "text": "Markdorf, Baden-Württemberg"
           }
-        ],
-        "priorityThresh": 2
+        ]
       },
       "status": "pass"
     },
@@ -3859,8 +3550,7 @@
             "locality": "Manteca",
             "text": "Manteca, CA"
           }
-        ],
-        "priorityThresh": 1
+        ]
       },
       "status": "pass"
     },
@@ -3911,8 +3601,37 @@
             "neighborhood": "Barracas",
             "text": "Buenos Aires, Barracas, Ciudad de Buenos Aires"
           }
-        ],
-        "priorityThresh": 4
+        ]
+      },
+      "status": "pass"
+    },
+    {
+      "id": "1435017604203:0",
+      "user": "feedback-app",
+      "in": {
+        "input": "20 Broad St, ny"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "openaddresses",
+            "name": "20 Broad Street",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "New York",
+            "admin1_abbr": "NY",
+            "admin2": "New York County",
+            "local_admin": "Manhattan",
+            "locality": "New York",
+            "neighborhood": "Financial District",
+            "category": [],
+            "address": {
+              "number": "20",
+              "street": "Broad Street"
+            },
+            "text": "20 Broad Street, Manhattan, NY"
+          }
+        ]
       },
       "status": "pass"
     }

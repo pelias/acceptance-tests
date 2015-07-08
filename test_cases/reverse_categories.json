@@ -39,48 +39,19 @@
     {
       "id": 2,
       "status": "pass",
-      "user": "Diana",
+      "user": "missinglink",
       "type": "dev",
       "in": {
         "lat": 40.744243,
         "lon": -73.990342,
-        "categories": "transport,transport:station"
+        "categories": "transport:rail,transport:station",
+        "size": 5
       },
       "expected": {
+        "priorityThresh": 5,
         "properties": [
-          {
-            "name": "BMT Broadway Line",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "New York",
-            "admin1_abbr": "NY",
-            "admin2": "New York County",
-            "local_admin": "Manhattan",
-            "locality": "New York",
-            "neighborhood": "Flatiron District",
-            "text": "BMT Broadway Line, Manhattan, NY",
-            "category": [
-              "transport",
-              "transport:rail"
-            ]
-          },
-          {
-            "name": "28th Street (N,R",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "New York",
-            "admin1_abbr": "NY",
-            "admin2": "New York County",
-            "local_admin": "Manhattan",
-            "locality": "New York",
-            "neighborhood": "Flatiron District",
-            "text": "28th Street (N,R, Manhattan, NY",
-            "category": [
-              "transport",
-              "transport:rail",
-              "transport:station"
-            ]
-          }
+          { "text": "28th Street (N,R, Manhattan, NY" },
+          { "text": "23rd Street (F,M,PATH, Manhattan, NY" }
         ]
       }
     }
