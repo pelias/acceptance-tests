@@ -1,6 +1,6 @@
-#### status of [pelias.mapzen.com](http://pelias.mapzen.com): [![Build Status](https://travis-ci.org/pelias/acceptance-tests.png)](https://travis-ci.org/pelias/acceptance-tests)
+#### status of [pelias.mapzen.com](http://pelias.mapzen.com): [![Build Status](https://travis-ci.org/pelias/fuzzy-tests.png)](https://travis-ci.org/pelias/fuzzy-tests)
 
-# acceptance tests
+# fuzzy tests
 
 This repository contains all of the Pelias API "acceptance" tests, which are automated tests used to identify
 improvements and regressions between various versions of the API and the underlying data. Since it's
@@ -47,7 +47,7 @@ following properties:
   array does *not* support strings.
 
 ## output generators
-The acceptance-tests support multiple different output generators, like an email and terminal output. See `node test
+The fuzzy-tests support multiple different output generators, like an email and terminal output. See `node test
 --help` for details on how to specify a generator besides the default. Note that the `email` generator requires an
 AWS account, and that your `pelias-config` file contain the following configuration:
 

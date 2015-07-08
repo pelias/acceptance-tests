@@ -67,9 +67,9 @@ function emailResults( suiteResults  ){
   var transporter = nodemailer.createTransport( nodemailerSesTransport( emailConfig.ses ) );
 
   var emailOpts = {
-    from: emailConfig.from || '"pelias-acceptance-tests" <noreply@pelias-acceptance-tests>',
+    from: emailConfig.from || '"pelias-fuzzy-tests" <noreply@pelias-fuzzy-tests>',
     to: emailConfig.recipients.join( ', ' ),
-    subject: 'pelias acceptance-tests results ' + new Date().toString(),
+    subject: 'pelias fuzzy-tests results ' + new Date().toString(),
     html: emailHtml,
     attachments: [{
       filename: 'results.json',

@@ -1,5 +1,5 @@
 /**
- * A tool for executing all of the `acceptance-tests` tests and formatting
+ * A tool for executing all of the `fuzzy-tests` tests and formatting
  * their results into grokkable output.
  */
 

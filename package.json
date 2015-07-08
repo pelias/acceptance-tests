@@ -1,11 +1,11 @@
 {
-  "name": "pelias-acceptance-tests",
+  "name": "pelias-fuzzy-tests",
   "version": "0.0.0",
-  "description": "Acceptance tests for Pelias Geocoder API",
+  "description": "Fuzzy tests for Pelias Geocoder API",
   "keywords": [
     "tests",
     "api",
-    "acceptance",
+    "fuzzy",
     "regression",
     "continuous-integration"
   ],
@@ -33,11 +33,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/pelias/acceptance-tests"
+    "url": "https://github.com/pelias/fuzzy-tests"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/pelias/acceptance-tests/issues"
+    "url": "https://github.com/pelias/fuzzy-tests/issues"
   },
-  "homepage": "https://github.com/pelias/acceptance-tests"
+  "homepage": "https://github.com/pelias/fuzzy-tests"
 }
