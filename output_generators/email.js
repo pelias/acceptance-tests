@@ -20,7 +20,7 @@ catch ( ex ) {
   ['recipients'].forEach( function ( prop ) {
     if( !emailConfig.hasOwnProperty( prop )) {
       console.error( [
-        'Your pelias-config\'s acceptance-tests.email object is missing one or more properties.',
+        'Your pelias-config\'s fuzzy-tests.email object is missing one or more properties.',
         'Expected properties are:',
         '\trecipients: an array of recipients\'s mailing addresses.',
         '\tses: options for nodemailer-ses-transport, for Amazon\'s SES.'

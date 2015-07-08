@@ -2,11 +2,15 @@
 
 # fuzzy tests
 
-This repository contains all of the Pelias API "acceptance" tests, which are automated tests used to identify
-improvements and regressions between various versions of the API and the underlying data. Since it's
-difficult/impossible to manually verify whether things have begun silently failing (eg, a certain query stopped
-returning the right results) after a data or search logic change, the acceptance tests should provide us with a
-shotgun overview of the status of any Pelias instance.
+This repository contains all of the Pelias API "fuzzy" tests, which are automated tests used to identify
+improvements and regressions between various versions of the API and the underlying data.
+
+Unlike the [acceptance-tests](https://github.com/pelias/acceptance-tests), which are carefully
+curated and should nearly all be passing, the fuzzy tests are intended to focus on having lots of
+tests, and looking more at the percentage of tests that pass over time rather than individual
+failures. See the original [problem statement](https://github.com/pelias/acceptance-tests/issues/109) for more info.
+
+This repo began as a clone of the acceptance-test repo, so they share a similar structure and usage.
 
 ## Usage
 
@@ -66,7 +70,7 @@ AWS account, and that your `pelias-config` file contain the following configurat
 ```
 
 ## API URL aliases
-The acceptance-tests runner recognizes a number of aliases for Pelias API URLs (eg, `stage` corresponds to
+The fuzzy-tests runner recognizes a number of aliases for Pelias API URLs (eg, `stage` corresponds to
 `pelias.stage.mapzen.com`), which can be specified as command-line arguments when running a test suite. You can
 override the default aliases and define your own in `pelias-config`:
 
