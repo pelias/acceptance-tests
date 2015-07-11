@@ -2612,6 +2612,31 @@
       "status": "pass"
     },
     {
+      "id": "1426636804303:102",
+      "user": "feedback-app",
+      "in": {
+        "input": "54 Tiffany Ave"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "openaddresses",
+            "name": "54 Tiffany Avenue",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "California",
+            "admin2": "San Francisco County",
+            "locality": "San Francisco",
+            "neighborhood": "Transmission",
+            "text": "54 Tiffany Avenue, San Francisco, CA",
+            "admin1_abbr": "CA"
+          }
+        ],
+        "priorityThresh": 3
+      },
+      "status": "pass"
+    },
+    {
       "id": "1426636804303:103",
       "user": "feedback-app",
       "in": {
