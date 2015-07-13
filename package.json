@@ -29,5 +29,6 @@
   "bugs": {
     "url": "https://github.com/pelias/acceptance-tests/issues"
   },
+  "pre-commit": ["lint"],
   "homepage": "https://github.com/pelias/acceptance-tests"
 }
