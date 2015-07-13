@@ -6,6 +6,7 @@
 
 var locations = require( './locations.json' );
 var util = require( 'util' );
+var isObject = require( 'is-object' );
 var request = require( 'request' );
 
 /**
@@ -43,7 +44,7 @@ function evalTest( priorityThresh, testCase, apiResults ){
     };
   }
 
-  if ( !apiResults || apiResults.length === 0 ) {
+  if ( !isObject(apiResults) || apiResults.length === 0 ) {
     return {
       result: 'fail',
       msg: 'no results returned'
