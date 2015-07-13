@@ -12,7 +12,7 @@
   "author": "mapzen",
   "main": "index.js",
   "scripts": {
-    "test": "node test/test | tap-spec"
+    "test": "./node_modules/pelias-fuzzy-tester/bin/fuzzy-tester"
   },
   "dependencies": {
     "pelias-fuzzy-tester": "0.0.1"
