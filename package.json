@@ -15,21 +15,11 @@
     "test": "node test/test | tap-spec"
   },
   "dependencies": {
-    "colors": "^1.x.x",
-    "commander": "2.7.0",
-    "handlebars": "^3.x.x",
-    "juice": "^1.x.x",
-    "nodemailer": "^1.x.x",
-    "nodemailer-ses-transport": "1.2.0",
-    "pelias-config": "^0.x.x",
-    "require-dir": "0.1.0",
-    "request": "^2.55.0"
+    "pelias-fuzzy-tester": "0.0.1"
   },
   "devDependencies": {
     "jshint": "^2.6.3",
-    "precommit-hook": "1.0.7",
-    "tape": "3.5.0",
-    "tap-spec": "^3.0.0"
+    "precommit-hook": "1.0.7"
   },
   "repository": {
     "type": "git",
