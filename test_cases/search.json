@@ -55,7 +55,8 @@
     },
     {
       "id": 5,
-      "status": "pass",
+      "status": "fail",
+      "issue": "https://github.com/pelias/api/issues/149",
       "type": "dev",
       "user": "Randy",
       "in": {
@@ -63,7 +64,21 @@
       },
       "expected": {
         "properties": [
-          "New York, New York"
+          "New York City, NY"
+        ]
+      }
+    },
+    {
+      "id": "5:2",
+      "status": "pass",
+      "type": "dev",
+      "user": "missinglink",
+      "in": {
+        "input": "new york city"
+      },
+      "expected": {
+        "properties": [
+          "New York City, NY"
         ]
       }
     },
@@ -281,25 +296,24 @@
     },
     {
       "id": 11,
-      "status": "pass",
+      "status": "fail",
+      "issue": "https://github.com/pelias/api/issues/150",
       "type": "dev",
       "user": "hkrishna",
       "in": {
         "input": "soho, new york"
       },
       "expected": {
-        "priorityThresh": 2,
+        "priorityThresh": 1,
         "properties": [
           {
-            "name": "SoHo",
+            "name": "Soho",
             "alpha3": "USA",
             "admin0": "United States",
             "admin1": "New York",
             "admin1_abbr": "NY",
             "admin2": "New York County",
-            "local_admin": "Manhattan",
-            "locality": "New York",
-            "text": "SoHo, Manhattan, NY"
+            "text": "Soho, New York County, NY"
           }
         ]
       }
@@ -404,25 +418,28 @@
     {
       "id": 18,
       "user": "sevko",
-      "status": "pass",
+      "status": "fail",
+      "issue": "https://github.com/pelias/api/issues/151",
       "type": "dev",
       "in": {
         "input": "newark airport"
       },
       "expected": {
         "priorityThresh": 2,
-        "properties": [{
-          "name": "Newark Liberty International Airport",
-          "alpha3": "USA",
-          "admin0": "United States",
-          "admin1": "New Jersey",
-          "admin1_abbr": "NJ",
-          "admin2": "Essex County",
-          "local_admin": "Newark",
-          "locality": "Newark",
-          "neighborhood": "Dayton",
-          "text": "Newark Liberty International Airport, Newark, NJ"
-        }]
+        "properties": [
+          {
+            "name": "Newark Liberty International Airport",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "New Jersey",
+            "admin1_abbr": "NJ",
+            "admin2": "Essex County",
+            "local_admin": "Newark",
+            "locality": "Newark",
+            "neighborhood": "Dayton",
+            "text": "Newark Liberty International Airport, Newark, NJ"
+          }
+        ]
       }
     },
     {

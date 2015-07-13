@@ -173,16 +173,6 @@
       }
     },
     {
-      "id": "1426636804315:29",
-      "user": "feedback-app",
-      "in": {
-        "input": "66 lafayette ave, brooklyn"
-      },
-      "expected": {
-        "properties": "66, Lafayette Avenue, Clinton Hill, Brooklyn, Kings County, New York City, New York, 11217, United States of America"
-      }
-    },
-    {
       "id": "1426636804315:30",
       "user": "feedback-app",
       "in": {
