@@ -172,12 +172,22 @@ function execTestSuite( apiUrl, testSuite, cb ){
   var totalTestsNum = testSuite.tests.length;
 
   /**
-   * Rate limit HTTP requests to one per 100ms, to prevent the API from
+   * Rate limit HTTP requests to one per 5ms, to prevent the API from
    * shutting us out.
    */
+  var intervalTime = 50;
+  testSuite.test408s = [];
+
+
   var intervalId = setInterval( function (){
     if( testSuite.tests.length === 0 ){
-      return;
+      if ( testSuite.test408s.length === 0 ) {
+        return;  
+      } else {
+        // console.log('setting interval 500');
+        testSuite.tests = testSuite.test408s;
+        intervalTime = 500;
+      }
     }
 
     var testCase = testSuite.tests.pop();
@@ -196,7 +206,11 @@ function execTestSuite( apiUrl, testSuite, cb ){
         return;
       }
       else if( retry_codes.indexOf(res.statusCode) !== -1 ){
-        testSuite.tests.push( testCase );
+        if (res.statusCode === 408) {
+          testSuite.test408s.push( testCase );
+        } else {
+          testSuite.tests.push( testCase );  
+        }
         return;
       }
       else if( res.statusCode !== 200 ){
@@ -261,7 +275,7 @@ function execTestSuite( apiUrl, testSuite, cb ){
         cb( testResults );
       }
     });
-  }, 50);
+  }, intervalTime);
 }
 
 var stats = {
