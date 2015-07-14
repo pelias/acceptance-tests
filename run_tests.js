@@ -4,6 +4,7 @@
 
 'use strict';
 
+var ExponentialBackoff = require( './lib/ExponentialBackoff');
 var locations = require( './locations.json' );
 var util = require( 'util' );
 var isObject = require( 'is-object' );
@@ -150,6 +151,7 @@ function execTestSuite( apiUrl, testSuite, cb ){
     return;
   }
 
+  var test_interval = new ExponentialBackoff();
   testSuite.tests.forEach( function ( testCase ){
     if( validTestStatuses.indexOf( testCase.status ) === -1 ){
       throw util.format(
@@ -196,6 +198,7 @@ function execTestSuite( apiUrl, testSuite, cb ){
         return;
       }
       else if( retry_codes.indexOf(res.statusCode) !== -1 ){
+        test_interval.increaseBackoff();
         testSuite.tests.push( testCase );
         return;
       }
@@ -212,6 +215,8 @@ function execTestSuite( apiUrl, testSuite, cb ){
         console.error( '\nInvestigate manually:\n  curl %s', res.request.url.href );
         process.exit( 1 );
       }
+
+      test_interval.decreaseBackoff();
 
       stats.testsCompleted++;
       process.stderr.write( util.format(
@@ -261,7 +266,7 @@ function execTestSuite( apiUrl, testSuite, cb ){
         cb( testResults );
       }
     });
-  }, 50);
+  }, test_interval.getBackoff());
 }
 
 var stats = {
