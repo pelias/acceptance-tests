@@ -146,30 +146,6 @@
       }
     },
     {
-      "id": "1425586777012:1",
-      "status": "pass",
-      "type": "dev",
-      "user": "feedback-app",
-      "in": {
-        "input": "union square, ny"
-      },
-      "expected": {
-        "priorityThresh": 1,
-        "properties": [
-          {
-            "layer": "neighborhood",
-            "name": "Union Square",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "New York",
-            "admin1_abbr": "NY",
-            "admin2": "New York County",
-            "text": "Union Square, New York County, NY"
-          }
-        ]
-      }
-    },
-    {
       "id": "1425586777012:2",
       "status": "pass",
       "user": "feedback-app",
@@ -387,30 +363,6 @@
             "name": "101 Saint Marks Place",
             "neighborhood": "East Village",
             "text": "101 Saint Marks Place, Manhattan, NY"
-          }
-        ]
-      }
-    },
-    {
-      "id": 16,
-      "status": "pass",
-      "type": "dev",
-      "user": "hkrishna",
-      "in": {
-        "input": "big ben, london"
-      },
-      "expected": {
-        "priorityThresh": 3,
-        "properties": [
-          {
-            "admin0": "United Kingdom",
-            "admin1": "Westminster",
-            "admin2": "Greater London",
-            "alpha3": "GBR",
-            "locality": "London",
-            "name": "Big Ben",
-            "neighborhood": "Whitehall",
-            "text": "Big Ben, Whitehall, Greater London"
           }
         ]
       }

@@ -3273,6 +3273,8 @@
     {
       "id": "1427414405152:6",
       "user": "feedback-app",
+      "status": "fail",
+      "issue": "https://github.com/pelias/schema/issues/66",
       "in": {
         "input": "Lake Cayuga, ny"
       },
@@ -3289,8 +3291,7 @@
             "text": "Cayuga Lake, Tompkins County, NY"
           }
         ]
-      },
-      "status": "pass"
+      }
     },
     {
       "id": "1427414405152:7",
