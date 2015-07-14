@@ -194,12 +194,12 @@ function execTestSuite( apiUrl, testSuite, cb ){
         console.error( err );
         return;
       }
-      else if( res.statusCode === 413 || res.statusCode === 429 ){
+      else if( res.statusCode === 408 || res.statusCode === 413 || res.statusCode === 429 ){
         testSuite.tests.push( testCase );
         return;
       }
       else if( res.statusCode !== 200 ){
-        console.error( 'Non-{200,413} status code %s, exiting.\n'.red, res.statusCode );
+        console.error( 'Non-{200,408,413,429} status code %s, exiting.\n'.red, res.statusCode );
         console.error(
           'Failed for test case:\n%s\n',
           JSON.stringify( testCase, undefined, 4 ).replace( /^|\n/g, '\n\t' )
