@@ -678,31 +678,6 @@
       "status": "pass"
     },
     {
-      "id": "1426636804303:24",
-      "user": "feedback-app",
-      "in": {
-        "input": "65c dana st"
-      },
-      "expected": {
-        "properties": [
-          {
-            "layer": "osmnode",
-            "name": "Cambridge St @ Dana St",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "Massachusetts",
-            "admin1_abbr": "MA",
-            "admin2": "Middlesex County",
-            "local_admin": "Cambridge",
-            "locality": "Cambridge",
-            "neighborhood": "Mid Cambridge",
-            "text": "Cambridge St @ Dana St, Cambridge, MA"
-          }
-        ]
-      },
-      "status": "pass"
-    },
-    {
       "id": "1426636804303:25",
       "user": "feedback-app",
       "type": "dev",
