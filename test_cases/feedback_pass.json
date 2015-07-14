@@ -1501,6 +1501,8 @@
     {
       "id": "1426636804303:59",
       "user": "feedback-app",
+      "status": "fail",
+      "issue": "https://github.com/pelias/api/issues/151",
       "in": {
         "input": "dulles airport"
       },
@@ -1517,8 +1519,7 @@
             "admin1_abbr": "VA"
           }
         ]
-      },
-      "status": "pass"
+      }
     },
     {
       "id": "1426636804303:60",
