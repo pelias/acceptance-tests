@@ -639,23 +639,6 @@
       "status": "pass"
     },
     {
-      "id": "1426636804303:21:2",
-      "user": "feedback-app",
-      "type": "dev",
-      "see": "http://pelias.mapzen.com/doc?id=geoname:6343439",
-      "in": {
-        "input": "Brooklyn Museum of Art"
-      },
-      "expected": {
-        "properties": [
-          {
-            "text": "Brooklyn Museum of Art, Brooklyn, NY"
-          }
-        ]
-      },
-      "status": "pass"
-    },
-    {
       "id": "1426636804303:22",
       "user": "feedback-app",
       "in": {
