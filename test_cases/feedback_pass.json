@@ -606,6 +606,7 @@
       "id": "1426636804303:21",
       "user": "feedback-app",
       "type": "dev",
+      "see": "http://pelias.mapzen.com/doc?id=osmway:250229991",
       "in": {
         "input": "Brooklyn Museum"
       },
@@ -613,7 +614,7 @@
         "properties": [
           {
             "layer": "osmway",
-            "name": "Brooklyn Museum of Art",
+            "name": "Brooklyn Museum",
             "alpha3": "USA",
             "admin0": "United States",
             "admin1": "New York",
@@ -621,7 +622,17 @@
             "admin2": "Kings County",
             "local_admin": "Brooklyn",
             "locality": "New York",
-            "text": "Brooklyn Museum of Art, Brooklyn, NY"
+            "neighborhood": "Prospect Hights",
+            "category": [
+              "education",
+              "entertainment"
+            ],
+            "address": {
+              "zip": "11238",
+              "number": "200",
+              "street": "Eastern Parkway"
+            },
+            "text": "Brooklyn Museum, Brooklyn, NY"
           }
         ]
       },
