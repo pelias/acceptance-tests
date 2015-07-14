@@ -613,10 +613,28 @@
       "expected": {
         "properties": [
           {
+            "layer": "osmway",
+            "name": "Brooklyn Museum",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "New York",
+            "admin1_abbr": "NY",
+            "admin2": "Kings County",
+            "local_admin": "Brooklyn",
+            "locality": "New York",
+            "neighborhood": "Prospect Hights",
+            "category": [
+              "education",
+              "entertainment"
+            ],
+            "address": {
+              "zip": "11238",
+              "number": "200",
+              "street": "Eastern Parkway"
+            },
             "text": "Brooklyn Museum, Brooklyn, NY"
           }
-        ],
-        "priorityThresh": 1
+        ]
       },
       "status": "pass"
     },
