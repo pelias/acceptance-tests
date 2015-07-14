@@ -1378,30 +1378,6 @@
       "status": "pass"
     },
     {
-      "id": "1426636804303:55",
-      "user": "feedback-app",
-      "in": {
-        "input": "266 washington ave brooklyn"
-      },
-      "expected": {
-        "properties": [
-          {
-            "name": "266 Brooklyn Avenue",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "New York",
-            "admin2": "Kings County",
-            "local_admin": "Brooklyn",
-            "locality": "New York",
-            "neighborhood": "Crown Heights",
-            "text": "266 Brooklyn Avenue, Brooklyn, NY",
-            "admin1_abbr": "NY"
-          }
-        ]
-      },
-      "status": "pass"
-    },
-    {
       "id": "1426636804303:56",
       "user": "feedback-app",
       "type": "dev",
