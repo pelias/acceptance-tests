@@ -306,11 +306,28 @@
       "id": "1426636804303:10",
       "user": "feedback-app",
       "in": {
-        "input": "Carleton College, MN"
+        "input": "Carleton College"
       },
       "expected": {
         "properties": [
           {
+            "layer": "osmway",
+            "name": "Carleton College",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "Minnesota",
+            "admin1_abbr": "MN",
+            "admin2": "Rice County",
+            "local_admin": "Northfield",
+            "locality": "Northfield",
+            "category": [
+              "education"
+            ],
+            "address": {
+              "zip": "55057",
+              "number": "1",
+              "street": "North College Street"
+            },
             "text": "Carleton College, Northfield, MN"
           }
         ]
