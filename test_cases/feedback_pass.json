@@ -587,6 +587,19 @@
       "expected": {
         "properties": [
           {
+            "layer": "osmaddress",
+            "name": "155 9th Street",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "California",
+            "admin1_abbr": "CA",
+            "admin2": "San Francisco County",
+            "locality": "San Francisco",
+            "neighborhood": "Civic Center",
+            "address": {
+              "number": "155",
+              "street": "9th Street"
+            },
             "text": "155 9th Street, San Francisco, CA"
           }
         ]
