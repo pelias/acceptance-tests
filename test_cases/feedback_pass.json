@@ -2282,12 +2282,25 @@
       "id": "1426636804303:89",
       "user": "feedback-app",
       "in": {
-        "input": "Facebook HQ, CA"
+        "input": "facebook"
       },
       "expected": {
         "properties": [
           {
-            "text": "Facebook HQ, Menlo Park, CA"
+            "layer": "osmway",
+            "name": "Facebook Campus",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "California",
+            "admin1_abbr": "CA",
+            "admin2": "San Mateo County",
+            "locality": "Menlo Park",
+            "neighborhood": "Henderson",
+            "address": {
+              "number": "1601",
+              "street": "Willow Road"
+            },
+            "text": "Facebook Campus, Menlo Park, CA"
           }
         ]
       },
