@@ -194,7 +194,7 @@ function execTestSuite( apiUrl, testSuite, cb ){
         console.error( err );
         return;
       }
-      else if( res.statusCode === 413 || res.statusCode === 429 ){
+      else if( res.statusCode === 413 || res.statusCode === 429 || res.statusCode === 500 ){
         testSuite.tests.push( testCase );
         return;
       }
