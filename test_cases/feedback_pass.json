@@ -588,7 +588,7 @@
         "properties": [
           {
             "layer": "osmaddress",
-            "name": "155 9th",
+            "name": "155 9th Street",
             "alpha3": "USA",
             "admin0": "United States",
             "admin1": "California",
@@ -596,7 +596,11 @@
             "admin2": "San Francisco County",
             "locality": "San Francisco",
             "neighborhood": "Civic Center",
-            "text": "155 9th, San Francisco, CA"
+            "address": {
+              "number": "155",
+              "street": "9th Street"
+            },
+            "text": "155 9th Street, San Francisco, CA"
           }
         ]
       },
