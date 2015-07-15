@@ -1,0 +1,187 @@
+{
+  "name": "address parsing",
+  "priorityThresh": 1,
+  "endpoint": "search",
+  "tests": [
+    {
+      "id": 1,
+      "status": "pass",
+      "user": "Harish",
+      "type": "dev",
+      "in": {
+        "input": "101 saint mark pl 10009"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "101 Saint Marks Place",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "New York",
+            "admin1_abbr": "NY",
+            "admin2": "New York County",
+            "local_admin": "Manhattan",
+            "locality": "New York",
+            "neighborhood": "East Village",
+            "address": {
+              "zip": "10009",
+              "number": "101",
+              "street": "Saint Marks Place"
+            },
+            "text": "101 Saint Marks Place, Manhattan, NY"
+          }
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "status": "pass",
+      "user": "Harish",
+      "type": "dev",
+      "in": {
+        "input": "1 water st new york ny"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "1 Water Street",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "New York",
+            "admin1_abbr": "NY",
+            "admin2": "New York County",
+            "local_admin": "Manhattan",
+            "locality": "New York",
+            "neighborhood": "Financial District",
+            "address": {
+              "zip": "10004",
+              "number": "1",
+              "street": "Water Street"
+            },
+            "text": "1 Water Street, Manhattan, NY"
+          }
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "status": "pass",
+      "user": "Harish",
+      "type": "dev",
+      "in": {
+        "input": "450 w 37th st, new york, ny 11232"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "450 37th Street",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "New York",
+            "admin1_abbr": "NY",
+            "admin2": "Kings County",
+            "local_admin": "Brooklyn",
+            "locality": "New York",
+            "neighborhood": "Windsor Teraace",
+            "address": {
+              "zip": "11232",
+              "number": "450",
+              "street": "37th Street"
+            },
+            "text": "450 37th Street, Brooklyn, NY"
+          }
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "status": "pass",
+      "user": "Harish",
+      "type": "dev",
+      "in": {
+        "input": "starbucks 10010"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Starbucks",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "New York",
+            "admin1_abbr": "NY",
+            "admin2": "New York County",
+            "local_admin": "Manhattan",
+            "locality": "New York",
+            "neighborhood": "Midtown South",
+            "address": {
+              "zip": "10010",
+              "number": "304",
+              "street": "Park Avenue South"
+            },
+            "text": "Starbucks, Manhattan, NY"
+          }
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "status": "pass",
+      "user": "Harish",
+      "type": "dev",
+      "in": {
+        "input": "455 w 43rd st new york ny 11232"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "455 West 43rd Street",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "New York",
+            "admin1_abbr": "NY",
+            "admin2": "New York County",
+            "local_admin": "Manhattan",
+            "locality": "New York",
+            "neighborhood": "Midtown West",
+            "address": {
+              "zip": "10036",
+              "number": "455",
+              "street": "West 43rd Street"
+            },
+            "text": "455 West 43rd Street, Manhattan, NY"
+          }
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "status": "pass",
+      "user": "Harish",
+      "type": "dev",
+      "in": {
+        "input": "1 main st ny 11201"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "1 Main Street",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "New York",
+            "admin1_abbr": "NY",
+            "admin2": "Kings County",
+            "local_admin": "Brooklyn",
+            "locality": "New York",
+            "neighborhood": "DUMBO",
+            "address": {
+              "zip": "11201",
+              "number": "1",
+              "street": "Main Street"
+            },
+            "text": "1 Main Street, Brooklyn, NY"
+          }
+        ]
+      }
+    }
+  ]
+}
