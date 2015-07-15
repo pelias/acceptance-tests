@@ -461,6 +461,86 @@
       "expected": {
         "properties": "Daly City, San Mateo County, California, 94015, United States of America"
       }
+    },
+    {
+      "id": "1436918401947:0",
+      "user": "feedback-app",
+      "in": {
+        "input": "ewk"
+      },
+      "expected": {
+        "properties": null
+      }
+    },
+    {
+      "id": "1436918401947:1",
+      "user": "feedback-app",
+      "in": {
+        "input": "sf ca"
+      },
+      "expected": {
+        "properties": "San Francisco, San Francisco City and County, California, United States of America"
+      }
+    },
+    {
+      "id": "1436918401947:2",
+      "user": "feedback-app",
+      "in": {
+        "input": "sfca"
+      },
+      "expected": {
+        "properties": null
+      }
+    },
+    {
+      "id": "1436918401947:3",
+      "user": "feedback-app",
+      "in": {
+        "input": "sfo"
+      },
+      "expected": {
+        "properties": "San Francisco International Airport, Walkway thru SFO Terminals, Millbrae, San Mateo County, California, 94128, United States of America"
+      }
+    },
+    {
+      "id": "1436918401947:4",
+      "user": "feedback-app",
+      "in": {
+        "input": "jfk"
+      },
+      "expected": {
+        "properties": "John F. Kennedy International Airport, Pedestrian path from Terminal 4 to Terminal 5, Bayswater, Queens County, New York City, New York, 11010, United States of America"
+      }
+    },
+    {
+      "id": "1436918401947:5",
+      "user": "feedback-app",
+      "in": {
+        "input": "lhr"
+      },
+      "expected": {
+        "properties": "London Heathrow, Heathrow Airside Road Tunnel, Harmondsworth, London Borough of Hillingdon, London, Greater London, England, United Kingdom"
+      }
+    },
+    {
+      "id": "1436918401947:6",
+      "user": "feedback-app",
+      "in": {
+        "input": "NYC amtrak"
+      },
+      "expected": {
+        "properties": null
+      }
+    },
+    {
+      "id": "1436918401947:7",
+      "user": "feedback-app",
+      "in": {
+        "input": "SF CA"
+      },
+      "expected": {
+        "properties": "San Francisco, San Francisco City and County, California, United States of America"
+      }
     }
   ]
 }
