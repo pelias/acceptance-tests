@@ -12,25 +12,16 @@
   "author": "mapzen",
   "main": "index.js",
   "scripts": {
-    "test": "node test/test | tap-spec"
+    "test": "./node_modules/pelias-fuzzy-tester/bin/fuzzy-tester",
+    "lint": "jshint .",
+    "validate": "npm ls"
   },
   "dependencies": {
-    "colors": "^1.x.x",
-    "commander": "2.7.0",
-    "handlebars": "^3.x.x",
-    "juice": "^1.x.x",
-    "nodemailer": "^1.x.x",
-    "nodemailer-ses-transport": "1.2.0",
-    "pelias-config": "^0.x.x",
-    "require-dir": "0.1.0",
-    "request": "^2.55.0",
-    "is-object": "^1.0.1"
+    "pelias-fuzzy-tester": "0.1.0"
   },
   "devDependencies": {
     "jshint": "^2.6.3",
-    "precommit-hook": "1.0.7",
-    "tape": "3.5.0",
-    "tap-spec": "^3.0.0"
+    "precommit-hook": "3.0.0"
   },
   "repository": {
     "type": "git",
@@ -40,5 +31,9 @@
   "bugs": {
     "url": "https://github.com/pelias/acceptance-tests/issues"
   },
+  "pre-commit": [
+    "lint",
+    "validate"
+  ],
   "homepage": "https://github.com/pelias/acceptance-tests"
 }
