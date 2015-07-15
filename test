@@ -1,2 +1,0 @@
-#!/bin/bash
-./node_modules/pelias-fuzzy-tester/bin/fuzzy-tester $@
