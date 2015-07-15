@@ -16,6 +16,8 @@ This repo began as a clone of the acceptance-test repo, so they share a similar 
 
 ```
 npm test
+npm test -- -e prod
+npm test -- -e stage -t dev
 ```
 
 ## Test Case Files
