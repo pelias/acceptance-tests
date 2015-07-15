@@ -12,6 +12,8 @@ shotgun overview of the status of any Pelias instance.
 
 ```
 npm test
+npm test -- -e prod
+npm test -- -e stage -t dev
 ```
 
 ## Test Case Files
