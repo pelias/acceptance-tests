@@ -14,8 +14,8 @@
       "expected": {
         "properties": [
           {
-            "text": "Philadelphia, PA",
-            "layer": "geoname"
+            "layer": "locality",
+            "text": "Philadelphia, Philadelphia County, PA"
           }
         ]
       },
@@ -172,7 +172,6 @@
       "id": 5,
       "status": "pass",
       "user": "missinglink",
-      "type": "dev",
       "endpoint": "suggest/coarse",
       "in": {
         "lat": 9.91,

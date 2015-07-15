@@ -1,14 +1,12 @@
 {
   "Brooklyn , Kings County, New York": {
     "name": "Brooklyn",
+    "alpha3": "USA",
     "admin0": "United States",
     "admin1": "New York",
     "admin1_abbr": "NY",
     "admin2": "Kings County",
-    "locality": "New York",
-    "local_admin": "Brooklyn",
-    "alpha3": "USA",
-    "text": "Brooklyn, NY"
+    "text"  : "Brooklyn, Kings County, NY"
   },
   "New York City, NY": {
     "name": "New York City",
@@ -34,8 +32,7 @@
     "text": "New York, NY"
   },
   "Billerica, Middlesex County, Massachusetts": {
-    "text": "Billerica, MA",
-    "local_admin": "Billerica",
+    "text": "Billerica, Middlesex County, MA",
     "admin2": "Middlesex County",
     "name": "Billerica",
     "alpha3": "USA",
