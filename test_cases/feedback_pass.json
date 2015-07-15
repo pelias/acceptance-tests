@@ -49,7 +49,11 @@
         "input": "yankee stadium"
       },
       "expected": {
-        "properties": [ { "text": "Yankee Stadium, Bronx, NY" } ],
+        "properties": [
+          {
+            "text": "Yankee Stadium, Bronx, NY"
+          }
+        ],
         "priorityThresh": 1
       },
       "status": "pass"
@@ -1237,7 +1241,7 @@
             "local_admin": "Brooklyn",
             "locality": "New York",
             "neighborhood": "Fort Greene",
-            "category": [ ],
+            "category": [],
             "address": {
               "number": "66",
               "street": "Lafayette Avenue"
@@ -1247,7 +1251,7 @@
           {
             "layer": "osmaddress",
             "name": "66 Lafayette Avenue",
-            "category": [ ],
+            "category": [],
             "address": {
               "zip": "11217",
               "number": "66",
