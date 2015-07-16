@@ -182,6 +182,34 @@
           }
         ]
       }
+    },
+    {
+      "id": 5,
+      "status": "pass",
+      "user": "Harish",
+      "in": {
+        "input": "186 Tuskegee St SE Atlanta GA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "186 Tuskegee Street Southeast",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "Georgia",
+            "admin1_abbr": "GA",
+            "admin2": "Fulton County",
+            "locality": "Atlanta",
+            "neighborhood": "Peoplestown",
+            "address": {
+              "zip": "30315",
+              "number": "186",
+              "street": "Tuskegee Street Southeast"
+            },
+            "text": "186 Tuskegee Street Southeast, Atlanta, GA"
+          }
+        ]
+      }
     }
   ]
 }
