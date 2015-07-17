@@ -308,29 +308,6 @@
       }
     },
     {
-      "id": 13,
-      "status": "pass",
-      "user": "hkrishna",
-      "type": "dev",
-      "in": {
-        "input": "london bridge"
-      },
-      "expected": {
-        "priorityThresh": 8,
-        "properties": [
-          {
-            "admin0": "United Kingdom",
-            "admin1": "England",
-            "admin2": "Greater London",
-            "locality": "London",
-            "alpha3": "GBR",
-            "name": "London Bridge",
-            "text": "London Bridge, Greater London"
-          }
-        ]
-      }
-    },
-    {
       "id": 15,
       "status": "pass",
       "type": "dev",
