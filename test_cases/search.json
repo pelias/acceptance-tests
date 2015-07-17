@@ -228,8 +228,8 @@
             "name": "London",
             "alpha3": "GBR",
             "admin0": "United Kingdom",
-            "admin1": "London",
-            "text"  : "London, United Kingdom"
+            "admin2": "Greater London",
+            "text": "London, Greater London"
           }
         ]
       }
@@ -261,7 +261,7 @@
     },
     {
       "id": 11,
-      "status": "fail",
+      "status": "pass",
       "issue": "https://github.com/pelias/api/issues/150",
       "type": "dev",
       "user": "hkrishna",
@@ -272,14 +272,13 @@
         "priorityThresh": 1,
         "properties": [
           {
-            "name": "SoHo",
+            "name": "Soho",
             "alpha3": "USA",
             "admin0": "United States",
             "admin1": "New York",
             "admin1_abbr": "NY",
             "admin2": "New York County",
-            "local_admin": "Manhattan",
-            "text": "SoHo, Manhattan, NY"
+            "text": "Soho, New York County, NY"
           }
         ]
       }

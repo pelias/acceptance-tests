@@ -24,7 +24,7 @@
     },
     {
       "id": "2",
-      "status": "fail",
+      "status": "pass",
       "issue": "https://github.com/pelias/api/issues/150",
       "type": "dev",
       "description": "checking for County to be part of the admin2 value",
