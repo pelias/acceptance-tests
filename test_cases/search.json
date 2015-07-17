@@ -185,13 +185,11 @@
         "priorityThresh": 2,
         "properties": [
           {
-            "layer": "geoname",
             "name": "Paris",
             "alpha3": "FRA",
             "admin0": "France",
-            "admin1": "Île-de-France",
-            "admin2": "Paris",
-            "text": "Paris, Île-de-France"
+            "admin1": "Paris",
+            "text": "Paris"
           }
         ]
       }

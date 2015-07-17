@@ -134,21 +134,21 @@
       "expected": {
         "properties": [
           {
-            "name": "455 West 43rd Street",
+            "name": "455 43rd Street",
             "alpha3": "USA",
             "admin0": "United States",
             "admin1": "New York",
             "admin1_abbr": "NY",
-            "admin2": "New York County",
-            "local_admin": "Manhattan",
+            "admin2": "Kings County",
+            "local_admin": "Brooklyn",
             "locality": "New York",
-            "neighborhood": "Midtown West",
+            "neighborhood": "Sunset Park",
             "address": {
-              "zip": "10036",
+              "zip": "11232",
               "number": "455",
-              "street": "West 43rd Street"
+              "street": "43rd Street"
             },
-            "text": "455 West 43rd Street, Manhattan, NY"
+            "text": "455 43rd Street, Brooklyn, NY"
           }
         ]
       }
