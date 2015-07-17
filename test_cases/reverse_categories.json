@@ -50,8 +50,8 @@
       "expected": {
         "priorityThresh": 5,
         "properties": [
-          { "text": "28th Street (N,R, Manhattan, NY" },
-          { "text": "23rd Street (F,M,PATH, Manhattan, NY" }
+          { "text": "28th Street (N,R), Manhattan, NY" },
+          { "text": "23rd Street (F,M,PATH), Manhattan, NY" }
         ]
       }
     }
