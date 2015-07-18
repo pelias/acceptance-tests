@@ -124,7 +124,7 @@
       }
     },
     {
-      "id": 4,
+      "id": 5,
       "status": "pass",
       "user": "Harish",
       "type": "dev",
@@ -154,7 +154,7 @@
       }
     },
     {
-      "id": 4,
+      "id": 6,
       "status": "pass",
       "user": "Harish",
       "type": "dev",
@@ -184,7 +184,7 @@
       }
     },
     {
-      "id": 5,
+      "id": 7,
       "status": "pass",
       "user": "Harish",
       "in": {
@@ -207,6 +207,91 @@
               "street": "Tuskegee Street Southeast"
             },
             "text": "186 Tuskegee Street Southeast, Atlanta, GA"
+          }
+        ]
+      }
+    },
+    {
+      "id": 8,
+      "status": "pass",
+      "user": "Harish",
+      "in": {
+        "input": "3122 16th St San Francisco, CA 94103"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "3122 16th Street",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "California",
+            "admin1_abbr": "CA",
+            "admin2": "San Francisco County",
+            "locality": "San Francisco",
+            "neighborhood": "Mission Dolores",
+            "address": {
+              "zip": "94103",
+              "number": "3122",
+              "street": "16th Street"
+            },
+            "text": "3122 16th Street, San Francisco, CA"
+          }
+        ]
+      }
+    },
+    {
+      "id": 9,
+      "status": "pass",
+      "user": "Harish",
+      "in": {
+        "input": "3010 20th St San Francisco CA 94110"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "3010 20th Street",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "California",
+            "admin1_abbr": "CA",
+            "admin2": "San Francisco County",
+            "locality": "San Francisco",
+            "neighborhood": "Inner Mission",
+            "address": {
+              "zip": "94110",
+              "number": "3010",
+              "street": "20th Street"
+            },
+            "text": "3010 20th Street, San Francisco, CA"
+          }
+        ]
+      }
+    },
+    {
+      "id": 10,
+      "status": "pass",
+      "user": "Harish",
+      "in": {
+        "input": "3577 Jackson St San Francisco, CA 94118"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "3577 Jackson Street",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "California",
+            "admin1_abbr": "CA",
+            "admin2": "San Francisco County",
+            "locality": "San Francisco",
+            "neighborhood": "Presidio Heights",
+            "category": [],
+            "address": {
+              "zip": "94118",
+              "number": "3577",
+              "street": "Jackson Street"
+            },
+            "text": "3577 Jackson Street, San Francisco, CA"
           }
         ]
       }
