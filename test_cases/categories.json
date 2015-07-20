@@ -517,7 +517,6 @@
       "id": 19,
       "status": "pass",
       "user": "sevko",
-      "type": "dev",
       "in": {
         "input": "howard winchester",
         "layers": "osmway,osmnode,osmaddress"

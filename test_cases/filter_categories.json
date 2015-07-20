@@ -1,0 +1,56 @@
+{
+  "name": "GET /seach?categories",
+  "priorityThresh": 3,
+  "endpoint": "search",
+  "tests": [
+    {
+      "id": 1,
+      "status": "pass",
+      "user": "Diana",
+      "type": "dev",
+      "in": {
+        "input":"Didi Dumpling",
+        "categories": "food:cuisine:chinese"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "DiDi Dumpling",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "New York",
+            "admin1_abbr": "NY",
+            "admin2": "New York County",
+            "local_admin": "Manhattan",
+            "locality": "New York",
+            "neighborhood": "Rose Hill",
+            "text": "DiDi Dumpling, Manhattan, NY",
+            "category": [
+              "food",
+              "retail",
+              "nightlife",
+              "food:cuisine:chinese"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "status": "pass",
+      "user": "missinglink",
+      "type": "dev",
+      "in": {
+        "input":"john f kennedy",
+        "categories": "transport,transport:air",
+        "size": 5
+      },
+      "expected": {
+        "priorityThresh": 5,
+        "properties": [
+          { "text": "John F. Kennedy International Airport, Queens, NY" }
+        ]
+      }
+    }
+  ]
+}
