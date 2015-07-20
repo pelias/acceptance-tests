@@ -35,5 +35,8 @@
     "lint",
     "validate"
   ],
-  "homepage": "https://github.com/pelias/acceptance-tests"
+  "homepage": "https://github.com/pelias/acceptance-tests",
+  "engines" : {
+    "npm" : "~2.0.0"
+  }
 }
