@@ -12,6 +12,10 @@ failures. See the original [problem statement](https://github.com/pelias/accepta
 
 This repo began as a clone of the acceptance-test repo, so they share a similar structure and usage.
 
+## prerequisites
+
+You will need to have `npm` version `2.0` or higher installed.
+
 ## Usage
 
 ```
