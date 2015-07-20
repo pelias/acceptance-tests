@@ -172,7 +172,6 @@
       "id": 5,
       "status": "pass",
       "user": "missinglink",
-      "type": "dev",
       "endpoint": "suggest/coarse",
       "in": {
         "lat": 9.91,
