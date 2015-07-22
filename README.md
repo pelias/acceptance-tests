@@ -8,6 +8,10 @@ difficult/impossible to manually verify whether things have begun silently faili
 returning the right results) after a data or search logic change, the acceptance tests should provide us with a
 shotgun overview of the status of any Pelias instance.
 
+## prerequisites
+
+You will need to have `npm` version `2.0` or higher installed.
+
 ## Usage
 
 ```
