@@ -129,7 +129,7 @@
       "user": "Harish",
       "type": "dev",
       "in": {
-        "input": "455 w 43rd st new york ny 11232"
+        "input": "455 43rd st new york ny 11232"
       },
       "expected": {
         "properties": [
