@@ -295,6 +295,26 @@
           }
         ]
       }
+    },
+    {
+      "id": 11,
+      "status": "pass",
+      "user": "Harish",
+      "type": "dev",
+      "in": {
+        "input": "whole foods NY"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Whole Foods",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "New York",
+            "admin1_abbr": "NY"
+          }
+        ]
+      }
     }
   ]
 }
