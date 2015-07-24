@@ -14,8 +14,8 @@
       "expected": {
         "properties": [
           {
-            "text": "Philadelphia, PA",
-            "layer": "geoname"
+            "layer": "locality",
+            "text": "Philadelphia, Philadelphia County, PA"
           }
         ]
       },
