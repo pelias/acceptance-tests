@@ -59,27 +59,15 @@
         "properties": [
           {
             "layer": "osmaddress",
-            "name": "1200 New Jersey Ave SE",
+            "name": "1200 New Jersey Avenue Southeast",
             "alpha3": "USA",
             "admin0": "United States",
-            "admin1": "District Of Columbia",
+            "admin1": "District of Columbia",
             "admin1_abbr": "DC",
-            "admin2": "District Of Columbia",
+            "admin2": "District of Columbia",
             "locality": "Washington",
             "neighborhood": "Near Southeast",
-            "text": "1200 New Jersey Ave SE, Washington, DC"
-          },
-          {
-            "layer": "osmaddress",
-            "name": "1200 New Jersey Avenue SE",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "District Of Columbia",
-            "admin1_abbr": "DC",
-            "admin2": "District Of Columbia",
-            "locality": "Washington",
-            "neighborhood": "Near Southeast",
-            "text": "1200 New Jersey Avenue SE, Washington, DC"
+            "text": "1200 New Jersey Avenue Southeast, Washington, DC"
           }
         ],
         "priorityThresh": 2
