@@ -35,32 +35,22 @@
     },
     {
       "id": 2,
-      "status": "pass",
+      "status": "fail",
+      "issue": "https://github.com/pelias/api/issues/187",
       "user": "Harish",
       "type": "dev",
+      "notes": [
+        "at last count there are 21 exact matches for '1 water street' in",
+        "new york state, the manhattan result should sort to the top due to it",
+        "also being part of 'new york city' and therefore admin matching twice"
+      ],
       "in": {
         "input": "1 water st new york ny"
       },
       "expected": {
-        "properties": [
-          {
-            "name": "1 Water Street",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "New York",
-            "admin1_abbr": "NY",
-            "admin2": "New York County",
-            "local_admin": "Manhattan",
-            "locality": "New York",
-            "neighborhood": "Financial District",
-            "address": {
-              "zip": "10004",
-              "number": "1",
-              "street": "Water Street"
-            },
-            "text": "1 Water Street, Manhattan, NY"
-          }
-        ]
+        "properties": [{
+          "text": "1 Water Street, Manhattan, NY"
+        }]
       }
     },
     {

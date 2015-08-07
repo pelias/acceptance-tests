@@ -1,0 +1,32 @@
+{
+  "name": "landmarks",
+  "priorityThresh": 3,
+  "tests": [
+    {
+      "id": 14,
+      "status": "fail",
+      "issue": "https://github.com/pelias/pelias/issues/73",
+      "type": "dev",
+      "user": "hkrishna",
+      "in": {
+        "input": "statue of liberty"
+      },
+      "expected": {
+        "priorityThresh": 1,
+        "properties": [
+          {
+            "admin0": "United States",
+            "admin1": "New York",
+            "admin2": "New York County",
+            "alpha3": "USA",
+            "local_admin": "Manhattan",
+            "locality": "New York",
+            "name": "Statue of Liberty",
+            "neighborhood": "Southern Tip",
+            "text": "Statue of Liberty, Manhattan, NY"
+          }
+        ]
+      }
+    }
+  ]
+}

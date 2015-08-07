@@ -214,7 +214,25 @@
       },
       "expected": {
         "properties": [
-            "30 West 26th Street, Manhattan, NY"
+          {
+            "layer": "osmaddress",
+            "name": "30 West 26th Street",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "New York",
+            "admin1_abbr": "NY",
+            "admin2": "New York County",
+            "local_admin": "Manhattan",
+            "locality": "New York",
+            "neighborhood": "Flatiron District",
+            "category": [],
+            "address": {
+              "zip": "10010",
+              "number": "30",
+              "street": "West 26th Street"
+            },
+            "text": "30 West 26th Street, Manhattan, NY"
+          }
         ]
       }
     },
@@ -232,7 +250,25 @@
       },
       "expected": {
         "properties": [
-          "30 West 26th Street, Manhattan, NY"
+          {
+            "layer": "osmaddress",
+            "name": "30 West 26th Street",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "New York",
+            "admin1_abbr": "NY",
+            "admin2": "New York County",
+            "local_admin": "Manhattan",
+            "locality": "New York",
+            "neighborhood": "Flatiron District",
+            "category": [],
+            "address": {
+              "zip": "10010",
+              "number": "30",
+              "street": "West 26th Street"
+            },
+            "text": "30 West 26th Street, Manhattan, NY"
+          }
         ]
       }
     },
@@ -250,7 +286,25 @@
       },
       "expected": {
         "properties": [
-          "30 West 26th Street, Manhattan, NY"
+          {
+            "layer": "osmaddress",
+            "name": "30 West 26th Street",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "New York",
+            "admin1_abbr": "NY",
+            "admin2": "New York County",
+            "local_admin": "Manhattan",
+            "locality": "New York",
+            "neighborhood": "Flatiron District",
+            "category": [],
+            "address": {
+              "zip": "10010",
+              "number": "30",
+              "street": "West 26th Street"
+            },
+            "text": "30 West 26th Street, Manhattan, NY"
+          }
         ]
       }
     },
@@ -268,7 +322,25 @@
       },
       "expected": {
         "properties": [
-          "30 West 26th Street, Manhattan, NY"
+          {
+            "layer": "osmaddress",
+            "name": "30 West 26th Street",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "New York",
+            "admin1_abbr": "NY",
+            "admin2": "New York County",
+            "local_admin": "Manhattan",
+            "locality": "New York",
+            "neighborhood": "Flatiron District",
+            "category": [],
+            "address": {
+              "zip": "10010",
+              "number": "30",
+              "street": "West 26th Street"
+            },
+            "text": "30 West 26th Street, Manhattan, NY"
+          }
         ]
       }
     },
