@@ -35,7 +35,8 @@
     },
     {
       "id": 2,
-      "status": "pass",
+      "status": "fail",
+      "issue": "https://github.com/pelias/api/issues/187",
       "user": "Harish",
       "type": "dev",
       "notes": [
