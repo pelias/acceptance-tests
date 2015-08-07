@@ -12,7 +12,15 @@
       },
       "expected": {
         "properties": [
-          "Brooklyn , Kings County, New York"
+          {
+            "name": "Brooklyn",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "New York",
+            "admin1_abbr": "NY",
+            "admin2": "Kings County",
+            "text"  : "Brooklyn, Kings County, NY"
+          }
         ]
       }
     },
@@ -26,7 +34,15 @@
       },
       "expected": {
         "properties": [
-          "Brooklyn , Kings County, New York"
+          {
+            "name": "Brooklyn",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "New York",
+            "admin1_abbr": "NY",
+            "admin2": "Kings County",
+            "text"  : "Brooklyn, Kings County, NY"
+          }
         ]
       }
     },
@@ -62,7 +78,17 @@
       },
       "expected": {
         "properties": [
-          "New York City, NY"
+          {
+            "name": "New York City",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "New York",
+            "admin1_abbr": "NY",
+            "admin2": "New York County",
+            "local_admin": "Manhattan",
+            "locality": "New York",
+            "text": "New York City, Manhattan, NY"
+          }
         ]
       }
     },
@@ -76,7 +102,17 @@
       },
       "expected": {
         "properties": [
-          "New York City, NY"
+          {
+            "name": "New York City",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "New York",
+            "admin1_abbr": "NY",
+            "admin2": "New York County",
+            "local_admin": "Manhattan",
+            "locality": "New York",
+            "text": "New York City, Manhattan, NY"
+          }
         ]
       }
     },
@@ -111,7 +147,15 @@
       "expected": {
         "priorityThresh": 1,
         "properties": [
-          "Billerica, Middlesex County, Massachusetts"
+          {
+            "text": "Billerica, Middlesex County, MA",
+            "admin2": "Middlesex County",
+            "name": "Billerica",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "Massachusetts",
+            "admin1_abbr": "MA"
+          }
         ]
       }
     },
@@ -126,7 +170,15 @@
       "expected": {
         "priorityThresh": 1,
         "properties": [
-          "Billerica, Middlesex County, Massachusetts"
+          {
+            "text": "Billerica, Middlesex County, MA",
+            "admin2": "Middlesex County",
+            "name": "Billerica",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "Massachusetts",
+            "admin1_abbr": "MA"
+          }
         ]
       }
     },
