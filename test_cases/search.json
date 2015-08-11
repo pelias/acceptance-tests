@@ -315,6 +315,7 @@
       "id": 11,
       "status": "pass",
       "issue": "https://github.com/pelias/api/issues/150",
+      "note": "attempting to fix this by adding weight to admin category when not searching for address",
       "type": "dev",
       "user": "hkrishna",
       "in": {
@@ -324,13 +325,15 @@
         "priorityThresh": 1,
         "properties": [
           {
-            "name": "Soho",
+            "name": "SoHo",
             "alpha3": "USA",
             "admin0": "United States",
             "admin1": "New York",
             "admin1_abbr": "NY",
             "admin2": "New York County",
-            "text": "Soho, New York County, NY"
+            "local_admin": "Manhattan",
+            "locality": "New York",
+            "text": "SoHo, Manhattan, NY"
           }
         ]
       }
