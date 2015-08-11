@@ -157,7 +157,6 @@
     {
       "id": "9",
       "status": "pass",
-      "type": "dev",
       "in": {
         "input": "palo alto",
         "layers": "admin"
