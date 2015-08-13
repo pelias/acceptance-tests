@@ -45,7 +45,7 @@
         "also being part of 'new york city' and therefore admin matching twice"
       ],
       "in": {
-        "input": "1 water st new york ny"
+        "input": "1 water st manhattan ny"
       },
       "expected": {
         "properties": [{
