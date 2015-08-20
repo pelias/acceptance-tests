@@ -537,6 +537,46 @@
           }
         ]
       }
+    },
+    {
+      "id": 20,
+      "user": "orangejulius",
+      "in": {
+        "text": "statue of liberty",
+        "boundary.country": "USA"
+      },
+      "expected": {
+        "properties": [{
+          "name": "Statue of Liberty",
+          "country_a": "USA",
+          "country": "New York"
+        }]
+      },
+      "unexpected": {
+        "properties": [{
+          "country_a": "FRA"
+        }]
+      }
+    },
+    {
+      "id": 20,
+      "user": "orangejulius",
+      "in": {
+        "text": "statue of liberty",
+        "boundary.country": "FRA"
+      },
+      "expected": {
+        "properties": [{
+          "name": "Statue of Liberty",
+          "country_a": "FRA",
+          "country": "Paris"
+        }]
+      },
+      "unexpected": {
+        "properties": [{
+          "country_a": "USA"
+        }]
+      }
     }
   ]
 }
