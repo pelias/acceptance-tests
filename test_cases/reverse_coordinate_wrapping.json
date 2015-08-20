@@ -91,6 +91,72 @@
           "neighborhood": "NoHo"
         }]
       }
+    },
+    {
+      "id": 6,
+      "status": "pass",
+      "user": "orangejulius",
+      "type": "dev",
+      "in": {
+        "lat": 40.744131,
+        "lon": 286.009575
+      },
+      "expected": {
+        "properties": [{
+          "alpha3": "USA",
+          "admin0": "United States",
+          "admin1": "New York",
+          "admin1_abbr": "NY",
+          "admin2": "New York County",
+          "local_admin": "Manhattan",
+          "locality": "New York",
+          "name": "30 West 26th Street"
+        }]
+      }
+    },
+    {
+      "id": 7,
+      "status": "pass",
+      "user": "orangejulius",
+      "type": "dev",
+      "in": {
+        "lat": 40.744131,
+        "lon": -433.990425
+      },
+      "expected": {
+        "properties": [{
+          "alpha3": "USA",
+          "admin0": "United States",
+          "admin1": "New York",
+          "admin1_abbr": "NY",
+          "admin2": "New York County",
+          "local_admin": "Manhattan",
+          "locality": "New York",
+          "name": "30 West 26th Street"
+        }]
+      }
+    },
+    {
+      "id": 8,
+      "status": "pass",
+      "user": "orangejulius",
+      "type": "dev",
+      "in": {
+        "lat": 139.255869,
+        "lon": 106.009575
+      },
+      "expected": {
+        "properties": [{
+          "alpha3": "USA",
+          "admin0": "United States",
+          "admin1": "New York",
+          "admin1_abbr": "NY",
+          "admin2": "New York County",
+          "local_admin": "Manhattan",
+          "locality": "New York",
+          "name": "30 West 26th Street"
+        }]
+      }
     }
   ]
 }
