@@ -14,7 +14,16 @@
         "lon": -73.99463653564453
       },
       "expected": {
-        "properties": ["NoHo, New York"]
+        "properties": [{
+          "alpha3": "USA",
+          "admin0": "United States",
+          "admin1": "New York",
+          "admin1_abbr": "NY",
+          "admin2": "New York County",
+          "local_admin": "Manhattan",
+          "locality": "New York",
+          "neighborhood": "NoHo"
+        }]
       }
     },
     {
@@ -27,7 +36,16 @@
         "lon": 286.00536346435547
       },
       "expected": {
-        "properties": ["NoHo, New York"]
+        "properties": [{
+          "alpha3": "USA",
+          "admin0": "United States",
+          "admin1": "New York",
+          "admin1_abbr": "NY",
+          "admin2": "New York County",
+          "local_admin": "Manhattan",
+          "locality": "New York",
+          "neighborhood": "NoHo"
+        }]
       }
     },
     {
@@ -40,7 +58,16 @@
         "lon": -433.99463653564453
       },
       "expected": {
-        "properties": ["NoHo, New York"]
+        "properties": [{
+          "alpha3": "USA",
+          "admin0": "United States",
+          "admin1": "New York",
+          "admin1_abbr": "NY",
+          "admin2": "New York County",
+          "local_admin": "Manhattan",
+          "locality": "New York",
+          "neighborhood": "NoHo"
+        }]
       }
     },
     {
@@ -53,7 +80,16 @@
         "lon": -793.9946365356445
       },
       "expected": {
-        "properties": ["NoHo, New York"]
+        "properties": [{
+          "alpha3": "USA",
+          "admin0": "United States",
+          "admin1": "New York",
+          "admin1_abbr": "NY",
+          "admin2": "New York County",
+          "local_admin": "Manhattan",
+          "locality": "New York",
+          "neighborhood": "NoHo"
+        }]
       }
     }
   ]
