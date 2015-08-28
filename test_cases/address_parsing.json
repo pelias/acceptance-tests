@@ -1,6 +1,6 @@
 {
   "name": "address parsing",
-  "priorityThresh": 1,
+  "priorityThresh": 5,
   "endpoint": "search",
   "tests": [
     {

@@ -1,6 +1,6 @@
 {
   "name": "landmarks",
-  "priorityThresh": 3,
+  "priorityThresh": 5,
   "tests": [
     {
       "id": 14,
@@ -12,7 +12,6 @@
         "input": "statue of liberty"
       },
       "expected": {
-        "priorityThresh": 1,
         "properties": [
           {
             "admin0": "United States",

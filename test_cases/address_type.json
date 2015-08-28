@@ -1,6 +1,6 @@
 {
   "name": "address type",
-  "priorityThresh": 3,
+  "priorityThresh": 5,
   "description": [
     "These tests ensure that address records are stored in a layer which is distict from the POI layers",
     "see: https://github.com/pelias/openstreetmap/issues/29",

@@ -1,6 +1,6 @@
 {
-  "name": "GET /suggest/coarse",
-  "priorityThresh": 3,
+  "name": "suggest coarse",
+  "priorityThresh": 5,
   "endpoint": "suggest/coarse",
   "tests": [
     {

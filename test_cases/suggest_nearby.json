@@ -1,6 +1,6 @@
 {
-  "name": "GET /suggest/nearby",
-  "priorityThresh": 3,
+  "name": "suggest nearby",
+  "priorityThresh": 5,
   "endpoint": "suggest/nearby",
   "tests": [
     {
