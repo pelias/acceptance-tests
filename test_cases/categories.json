@@ -1,6 +1,6 @@
 {
-  "name": "Verify presence of categories data.",
-  "priorityThresh": 1,
+  "name": "categories",
+  "priorityThresh": 5,
   "tests": [
     {
       "in": {

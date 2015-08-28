@@ -1,6 +1,6 @@
 {
-  "name": "GET /*?details={false|true}",
-  "priorityThresh": 3,
+  "name": "param details",
+  "priorityThresh": 5,
   "tests": [
     {
       "id": 1,
@@ -8,7 +8,7 @@
       "user": "Diana",
       "type": "dev",
       "in": {
-        "input": "philadelphia",
+        "input": "Philadelphia, Philadelphia County, PA",
         "details": false
       },
       "expected": {

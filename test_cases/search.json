@@ -1,10 +1,11 @@
 {
-  "name": "GET /search",
-  "priorityThresh": 3,
+  "name": "search",
+  "priorityThresh": 5,
   "tests": [
     {
       "id": 1,
-      "status": "pass",
+      "status": "fail",
+      "issue": "non definitive 'brooklyn' (common name globally)",
       "user": "Randy",
       "type": "dev",
       "in": {
@@ -48,11 +49,38 @@
     },
     {
       "id": 4,
-      "status": "pass",
+      "status": "fail",
+      "issue": "non definitive 'brooklyn' (common name globally)",
+      "notes": [
+        "this is a non definitive 'philadelphia' (common name globally)",
+        "due to admin weighting this record *should* actually rank higher",
+        "because it matches 'philadelphia' in the name AND the admin field"
+      ],
       "user": "Diana",
       "type": "dev",
       "in": {
         "input": "philadelphia"
+      },
+      "expected": {
+        "properties": [
+          {
+            "text": "Philadelphia, Philadelphia County, PA",
+            "name": "Philadelphia",
+            "admin1": "Pennsylvania",
+            "admin0": "United States",
+            "admin1_abbr": "PA",
+            "admin2": "Philadelphia County"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4-1",
+      "status": "pass",
+      "user": "Diana",
+      "type": "dev",
+      "in": {
+        "input": "philadelphia, pa"
       },
       "expected": {
         "properties": [
@@ -94,11 +122,36 @@
     },
     {
       "id": "5:2",
-      "status": "pass",
+      "status": "fail",
+      "issue": "non definitive 'new york city' (common name globally)",
       "type": "dev",
       "user": "missinglink",
       "in": {
         "input": "new york city"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "New York City",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "New York",
+            "admin1_abbr": "NY",
+            "admin2": "New York County",
+            "local_admin": "Manhattan",
+            "locality": "New York",
+            "text": "New York City, Manhattan, NY"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5:3",
+      "status": "pass",
+      "type": "dev",
+      "user": "missinglink",
+      "in": {
+        "input": "new york city, usa"
       },
       "expected": {
         "properties": [
@@ -125,7 +178,6 @@
         "input": "130 dean street brooklyn, ny"
       },
       "expected": {
-        "priorityThresh": 1,
         "properties": [
           {
             "text": "130 Dean Street, Brooklyn, NY",
@@ -145,7 +197,6 @@
         "input": "billerica"
       },
       "expected": {
-        "priorityThresh": 1,
         "properties": [
           {
             "text": "Billerica, Middlesex County, MA",
@@ -168,7 +219,6 @@
         "input": "billerica, ma"
       },
       "expected": {
-        "priorityThresh": 1,
         "properties": [
           {
             "text": "Billerica, Middlesex County, MA",
@@ -205,14 +255,36 @@
     },
     {
       "id": "1425586777012:2",
-      "status": "pass",
+      "status": "fail",
+      "issue": "non definitive 'portland' (common name globally)",
       "user": "feedback-app",
       "type": "dev",
       "in": {
         "input": "portland"
       },
       "expected": {
-        "priorityThresh": 1,
+        "properties": [
+          {
+            "name": "Portland",
+            "alpha3": "USA",
+            "admin0": "United States",
+            "admin1": "Oregon",
+            "admin1_abbr": "OR",
+            "admin2": "Multnomah County",
+            "text": "Portland, Multnomah County, OR"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1425586777012:2-1",
+      "status": "pass",
+      "user": "feedback-app",
+      "type": "dev",
+      "in": {
+        "input": "portland, oregon"
+      },
+      "expected": {
         "properties": [
           {
             "name": "Portland",
@@ -234,7 +306,6 @@
         "input": "paris"
       },
       "expected": {
-        "priorityThresh": 2,
         "properties": [
           {
             "name": "Paris",
@@ -249,12 +320,15 @@
     {
       "id": "1425586777012:4",
       "status": "pass",
+      "notes": [
+        "the quattroshapes data contains entries for 'France' in",
+        "French Guiana (GUF), not sure of the politics behind this"
+      ],
       "user": "feedback-app",
       "in": {
         "input": "france"
       },
       "expected": {
-        "priorityThresh": 1,
         "properties": [
           {
             "name": "France",
@@ -274,14 +348,12 @@
         "input": "london"
       },
       "expected": {
-        "priorityThresh": 1,
         "properties": [
           {
             "name": "London",
             "alpha3": "GBR",
             "admin0": "United Kingdom",
-            "admin2": "Greater London",
-            "text": "London, Greater London"
+            "text": "London, United Kingdom"
           }
         ]
       }
@@ -295,7 +367,6 @@
         "input": "chelsea, new york"
       },
       "expected": {
-        "priorityThresh": 2,
         "properties": [
           {
             "layer": "neighborhood",
@@ -322,7 +393,6 @@
         "input": "soho, new york"
       },
       "expected": {
-        "priorityThresh": 1,
         "properties": [
           {
             "name": "SoHo",
@@ -346,7 +416,6 @@
         "input": "perugia airport"
       },
       "expected": {
-        "priorityThresh": 1,
         "properties": [
           {
             "layer": "geoname",
@@ -370,7 +439,6 @@
         "input": "101 saint marks pl, new york"
       },
       "expected": {
-        "priorityThresh": 3,
         "properties": [
           {
             "admin0": "United States",
@@ -397,7 +465,6 @@
         "input": "newark airport"
       },
       "expected": {
-        "priorityThresh": 2,
         "properties": [
           {
             "name": "Newark Liberty International Airport",
@@ -430,8 +497,7 @@
             "locality": "Uttenreuth",
             "text": "7 Simon-Dach-Straße, Uttenreuth, Bayern"
           }
-        ],
-        "priorityThresh": 1
+        ]
       },
       "status": "pass"
     }
