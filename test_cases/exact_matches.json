@@ -1,6 +1,6 @@
 {
   "name": "exact matches",
-  "priorityThresh": 1,
+  "priorityThresh": 5,
   "tests": [
     {
       "id": 1,

@@ -1,6 +1,6 @@
 {
   "name": "admin lookup",
-  "priorityThresh": 3,
+  "priorityThresh": 5,
   "tests": [
     {
       "id": "1",
@@ -33,7 +33,6 @@
         "layers": "admin2"
       },
       "expected": {
-        "priorityThresh": 4,
         "properties": [{
           "admin2": "Bronx County"
         }]
@@ -121,7 +120,6 @@
         "layers": "admin"
       },
       "expected": {
-        "priorityThresh": 2,
         "properties": [{
           "name": "Mission",
           "alpha3": "USA",
@@ -142,7 +140,6 @@
         "layers": "admin"
       },
       "expected": {
-        "priorityThresh": 3,
         "properties": [{
           "text": "Crown Heights, Kings County, NY",
           "name": "Crown Heights",
@@ -156,10 +153,28 @@
     },
     {
       "id": "9",
-      "status": "pass",
-      "type": "dev",
+      "status": "fail",
+      "issue": "non definitive 'palo alto' (common name globally)",
       "in": {
         "input": "palo alto",
+        "layers": "admin"
+      },
+      "expected": {
+        "properties": [{
+          "text": "Palo Alto, Santa Clara County, CA",
+          "alpha3": "USA",
+          "admin0": "United States",
+          "admin1": "California",
+          "admin1_abbr": "CA",
+          "admin2": "Santa Clara County"
+        }]
+      }
+    },
+    {
+      "id": "9-1",
+      "status": "pass",
+      "in": {
+        "input": "palo alto, ca",
         "layers": "admin"
       },
       "expected": {

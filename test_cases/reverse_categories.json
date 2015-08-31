@@ -1,6 +1,6 @@
 {
-  "name": "GET /reverse?categories",
-  "priorityThresh": 3,
+  "name": "reverse categories",
+  "priorityThresh": 5,
   "endpoint": "reverse",
   "tests": [
     {
@@ -48,7 +48,6 @@
         "size": 5
       },
       "expected": {
-        "priorityThresh": 5,
         "properties": [
           { "text": "28th Street (N,R), Manhattan, NY" },
           { "text": "23rd Street (F,M,PATH), Manhattan, NY" }

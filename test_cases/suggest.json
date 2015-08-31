@@ -1,6 +1,6 @@
 {
-  "name": "GET /suggest",
-  "priorityThresh": 3,
+  "name": "suggest",
+  "priorityThresh": 5,
   "endpoint": "suggest",
   "tests": [
     {
