@@ -1,0 +1,22 @@
+{
+  "name": "GET /place",
+  "endpoint": "place",
+  "priorityThresh": 1,
+  "tests": [
+    {
+      "id": 1,
+      "status": "pass",
+      "in": {
+        "id": "osmnode:2562438641"
+      },
+      "expected": {
+        "properties": [
+          {
+            "id": "2562438641",
+            "layer": "osmnode"
+          }
+        ]
+      }
+    }
+  ]
+}
