@@ -9,7 +9,8 @@
       "type": "dev",
       "in": {
         "input": "Philadelphia, Philadelphia County, PA",
-        "details": false
+        "details": false,
+        "layers": "locality"
       },
       "expected": {
         "properties": [
@@ -46,7 +47,8 @@
         "lat": 40.744243,
         "lon": -73.990342,
         "categories": "food:cuisine:chinese",
-        "details": false
+        "details": false,
+        "layers": "osmnode"
       },
       "expected": {
         "properties": [
@@ -90,7 +92,8 @@
         "lat": 40.744243,
         "lon": -73.990342,
         "input": "DiDi",
-        "details": false
+        "details": false,
+        "layers": "osmnode"
       },
       "expected": {
         "properties": [
@@ -134,7 +137,8 @@
         "lat": 40.744243,
         "lon": -73.990342,
         "input": "DiDi dump",
-        "details": false
+        "details": false,
+        "layers": "osmnode"
       },
       "expected": {
         "properties": [
@@ -177,7 +181,8 @@
         "lat": 9.91,
         "lon": 78.10,
         "input": "Singarpuram, Madurai, Tamil Nadu",
-        "details": false
+        "details": false,
+        "layers": "neighborhood"
       },
       "expected": {
         "properties": [
@@ -210,7 +215,8 @@
         "lat": 40.744243,
         "lon": -73.990342,
         "input": "30 West 26th Street",
-        "details": true
+        "details": true,
+        "layers": "osmaddress"
       },
       "expected": {
         "properties": [
@@ -246,7 +252,8 @@
         "lat": 40.744243,
         "lon": -73.990342,
         "input": "30 West 26th Street",
-        "details": 1
+        "details": 1,
+        "layers": "osmaddress"
       },
       "expected": {
         "properties": [
@@ -282,7 +289,8 @@
         "lat": 40.744243,
         "lon": -73.990342,
         "input": "30 West 26th Street",
-        "details": "yes"
+        "details": "yes",
+        "layers": "osmaddress"
       },
       "expected": {
         "properties": [
@@ -318,7 +326,8 @@
         "lat": 40.744243,
         "lon": -73.990342,
         "input": "30 West 26th Street",
-        "details": "y"
+        "details": "y",
+        "layers": "osmaddress"
       },
       "expected": {
         "properties": [
@@ -354,7 +363,8 @@
         "lat": 40.744243,
         "lon": -73.990342,
         "input": "30 West 26th Street",
-        "details": "no"
+        "details": "no",
+        "layers": "osmaddress"
       },
       "expected": {
         "properties": [
