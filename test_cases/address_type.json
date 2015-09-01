@@ -20,10 +20,15 @@
         "lon": -0.06672
       },
       "expected": {
-        "properties": [{
-          "id": "address-osmnode-1401849738",
-          "layer": "osmaddress"
-        }]
+        "properties": [
+          {
+            "geocoding": {
+              "id": "address-osmnode-1401849738",
+              "type": "address",
+              "source": "osm"
+            }
+          }
+        ]
       }
     },
     {
@@ -41,10 +46,15 @@
         "lon": -0.779389
       },
       "expected": {
-        "properties": [{
-          "id": "26489964",
-          "layer": "osmnode"
-        }]
+        "properties": [
+          {
+            "geocoding": {
+              "id": "26489964",
+              "type": "venue",
+              "source": "osm"
+            }
+          }
+        ]
       }
     },
     {
@@ -62,10 +72,15 @@
         "lon": -0.779389
       },
       "expected": {
-        "properties": [{
-          "id": "poi-address-osmnode-26489964",
-          "layer": "osmaddress"
-        }]
+        "properties": [
+          {
+            "geocoding": {
+              "id": "poi-address-osmnode-26489964",
+              "type": "address",
+              "source": "osm"
+            }
+          }
+        ]
       }
     }
   ]

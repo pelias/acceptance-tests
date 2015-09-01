@@ -16,22 +16,24 @@
       "expected": {
         "properties": [
           {
-            "name": "DiDi Dumpling",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "New York",
-            "admin1_abbr": "NY",
-            "admin2": "New York County",
-            "local_admin": "Manhattan",
-            "locality": "New York",
-            "neighborhood": "Rose Hill",
-            "text": "DiDi Dumpling, Manhattan, NY",
-            "category": [
-              "food",
-              "retail",
-              "nightlife",
-              "food:cuisine:chinese"
-            ]
+            "geocoding": {
+              "name": "DiDi Dumpling",
+              "country_a": "USA",
+              "country": "United States",
+              "region": "New York",
+              "region_a": "NY",
+              "county": "New York County",
+              "localadmin": "Manhattan",
+              "locality": "New York",
+              "neighbourhood": "Rose Hill",
+              "label": "DiDi Dumpling, Manhattan, NY",
+              "category": [
+                "food",
+                "retail",
+                "nightlife",
+                "food:cuisine:chinese"
+              ]
+            }
           }
         ]
       }
@@ -49,8 +51,16 @@
       },
       "expected": {
         "properties": [
-          { "text": "28th Street (N,R), Manhattan, NY" },
-          { "text": "23rd Street (F,M,PATH), Manhattan, NY" }
+          {
+            "geocoding": {
+              "label": "28th Street (N,R), Manhattan, NY"
+            }
+          },
+          {
+            "geocoding": {
+              "label": "23rd Street (F,M,PATH), Manhattan, NY"
+            }
+          }
         ]
       }
     }

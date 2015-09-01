@@ -12,14 +12,22 @@
         "lon": 14.61353302001953
       },
       "expected": {
-        "properties": [{
-          "admin2": "Voelkermarkt"
-        }]
+        "properties": [
+          {
+            "geocoding": {
+              "county": "Voelkermarkt"
+            }
+          }
+        ]
       },
       "unexpected": {
-        "properties": [{
-          "admin2": "Vã¶lkermarkt"
-        }]
+        "properties": [
+          {
+            "geocoding": {
+              "county": "Vã¶lkermarkt"
+            }
+          }
+        ]
       }
     },
     {
@@ -33,9 +41,13 @@
         "layers": "admin2"
       },
       "expected": {
-        "properties": [{
-          "admin2": "Bronx County"
-        }]
+        "properties": [
+          {
+            "geocoding": {
+              "county": "Bronx County"
+            }
+          }
+        ]
       }
     },
     {
@@ -47,9 +59,13 @@
         "layers": "admin2"
       },
       "expected": {
-        "properties": [{
-          "admin2": "Lake County"
-        }]
+        "properties": [
+          {
+            "geocoding": {
+              "county": "Lake County"
+            }
+          }
+        ]
       }
     },
     {
@@ -61,14 +77,22 @@
         "lon": 144.8101043701172
       },
       "expected": {
-        "properties": [{
-          "admin2": "Circular Head"
-        }]
+        "properties": [
+          {
+            "geocoding": {
+              "county": "Circular Head"
+            }
+          }
+        ]
       },
       "unexpected": {
-        "properties": [{
-          "admin2": "Circular Head (m)"
-        }]
+        "properties": [
+          {
+            "geocoding": {
+              "county": "Circular Head (m)"
+            }
+          }
+        ]
       }
     },
     {
@@ -81,14 +105,22 @@
         "lon": -0.093229
       },
       "expected": {
-        "properties": [{
-          "admin1": "London"
-        }]
+        "properties": [
+          {
+            "geocoding": {
+              "region": "London"
+            }
+          }
+        ]
       },
       "unexpected": {
-        "properties": [{
-          "admin1": "City And County Of The City Of London"
-        }]
+        "properties": [
+          {
+            "geocoding": {
+              "region": "City And County Of The City Of London"
+            }
+          }
+        ]
       }
     },
     {
@@ -100,15 +132,19 @@
         "input": "hoboken"
       },
       "expected": {
-        "properties": [{
-          "name": "West Hoboken",
-          "alpha3": "USA",
-          "admin0": "United States",
-          "admin1": "New Jersey",
-          "admin1_abbr": "NJ",
-          "admin2": "Hudson County",
-          "text": "West Hoboken, Hudson County, NJ"
-        }]
+        "properties": [
+          {
+            "geocoding": {
+              "name": "West Hoboken",
+              "country_a": "USA",
+              "country": "United States",
+              "region": "New Jersey",
+              "region_a": "NJ",
+              "county": "Hudson County",
+              "label": "West Hoboken, Hudson County, NJ"
+            }
+          }
+        ]
       }
     },
     {
@@ -120,15 +156,19 @@
         "layers": "admin"
       },
       "expected": {
-        "properties": [{
-          "name": "Mission",
-          "alpha3": "USA",
-          "admin0": "United States",
-          "admin1": "California",
-          "admin1_abbr": "CA",
-          "admin2": "San Francisco County",
-          "text": "Mission, San Francisco County, CA"
-        }]
+        "properties": [
+          {
+            "geocoding": {
+              "name": "Mission",
+              "country_a": "USA",
+              "country": "United States",
+              "region": "California",
+              "region_a": "CA",
+              "county": "San Francisco County",
+              "label": "Mission, San Francisco County, CA"
+            }
+          }
+        ]
       }
     },
     {
@@ -140,15 +180,19 @@
         "layers": "admin"
       },
       "expected": {
-        "properties": [{
-          "text": "Crown Heights, Kings County, NY",
-          "name": "Crown Heights",
-          "alpha3": "USA",
-          "admin0": "United States",
-          "admin1": "New York",
-          "admin1_abbr": "NY",
-          "admin2": "Kings County"
-        }]
+        "properties": [
+          {
+            "geocoding": {
+              "label": "Crown Heights, Kings County, NY",
+              "name": "Crown Heights",
+              "country_a": "USA",
+              "country": "United States",
+              "region": "New York",
+              "region_a": "NY",
+              "county": "Kings County"
+            }
+          }
+        ]
       }
     },
     {
@@ -160,14 +204,18 @@
         "layers": "admin"
       },
       "expected": {
-        "properties": [{
-          "text": "Palo Alto, Santa Clara County, CA",
-          "alpha3": "USA",
-          "admin0": "United States",
-          "admin1": "California",
-          "admin1_abbr": "CA",
-          "admin2": "Santa Clara County"
-        }]
+        "properties": [
+          {
+            "geocoding": {
+              "label": "Palo Alto, Santa Clara County, CA",
+              "country_a": "USA",
+              "country": "United States",
+              "region": "California",
+              "region_a": "CA",
+              "county": "Santa Clara County"
+            }
+          }
+        ]
       }
     },
     {
@@ -178,14 +226,18 @@
         "layers": "admin"
       },
       "expected": {
-        "properties": [{
-          "text": "Palo Alto, Santa Clara County, CA",
-          "alpha3": "USA",
-          "admin0": "United States",
-          "admin1": "California",
-          "admin1_abbr": "CA",
-          "admin2": "Santa Clara County"
-        }]
+        "properties": [
+          {
+            "geocoding": {
+              "label": "Palo Alto, Santa Clara County, CA",
+              "country_a": "USA",
+              "country": "United States",
+              "region": "California",
+              "region_a": "CA",
+              "county": "Santa Clara County"
+            }
+          }
+        ]
       }
     },
     {
@@ -197,14 +249,22 @@
         "lon": -3.2018280029296875
       },
       "expected": {
-        "properties": [{
-          "admin1": "Cardiff"
-        }]
+        "properties": [
+          {
+            "geocoding": {
+              "region": "Cardiff"
+            }
+          }
+        ]
       },
       "unexpected": {
-        "properties": [{
-          "admin1": "Caerdydd#Cardiff"
-        }]
+        "properties": [
+          {
+            "geocoding": {
+              "region": "Caerdydd#Cardiff"
+            }
+          }
+        ]
       }
     },
     {
@@ -215,14 +275,22 @@
         "layers": "admin"
       },
       "expected": {
-        "properties": [{
-          "admin1": "Cardiff"
-        }]
+        "properties": [
+          {
+            "geocoding": {
+              "region": "Cardiff"
+            }
+          }
+        ]
       },
       "unexpected": {
-        "properties": [{
-          "admin1": "Caerdydd#Cardiff"
-        }]
+        "properties": [
+          {
+            "geocoding": {
+              "region": "Caerdydd#Cardiff"
+            }
+          }
+        ]
       }
     },
     {
@@ -234,14 +302,22 @@
         "lon": -3.115997314453125
       },
       "expected": {
-        "properties": [{
-          "admin1": "Cardiff"
-        }]
+        "properties": [
+          {
+            "geocoding": {
+              "region": "Cardiff"
+            }
+          }
+        ]
       },
       "unexpected": {
-        "properties": [{
-          "admin1": "Caerdydd#Cardiff"
-        }]
+        "properties": [
+          {
+            "geocoding": {
+              "region": "Caerdydd#Cardiff"
+            }
+          }
+        ]
       }
     },
     {
@@ -253,14 +329,22 @@
         "lon": -3.393487930297851
       },
       "expected": {
-        "properties": [{
-          "admin1": "Denbighshire"
-        }]
+        "properties": [
+          {
+            "geocoding": {
+              "region": "Denbighshire"
+            }
+          }
+        ]
       },
       "unexpected": {
-        "properties": [{
-          "admin2": "Sir Ddinbych#Denbighshire"
-        }]
+        "properties": [
+          {
+            "geocoding": {
+              "county": "Sir Ddinbych#Denbighshire"
+            }
+          }
+        ]
       }
     },
     {
@@ -272,18 +356,26 @@
         "layers": "neighborhood"
       },
       "expected": {
-        "properties": [{
-          "admin0": "United States",
-          "alpha3": "USA",
-          "admin1": "New Jersey",
-          "admin1_abbr": "NJ",
-          "admin2": "Ocean County"
-        }]
+        "properties": [
+          {
+            "geocoding": {
+              "country": "United States",
+              "country_a": "USA",
+              "region": "New Jersey",
+              "region_a": "NJ",
+              "county": "Ocean County"
+            }
+          }
+        ]
       },
       "unexpected": {
-        "properties": [{
-          "admin2": "Ocean"
-        }]
+        "properties": [
+          {
+            "geocoding": {
+              "county": "Ocean"
+            }
+          }
+        ]
       }
     },
     {
@@ -295,18 +387,26 @@
         "layers": "neighborhood"
       },
       "expected": {
-        "properties": [{
-          "admin0": "United States",
-          "alpha3": "USA",
-          "admin1": "North Carolina",
-          "admin1_abbr": "NC",
-          "admin2": "Moore County"
-        }]
+        "properties": [
+          {
+            "geocoding": {
+              "country": "United States",
+              "country_a": "USA",
+              "region": "North Carolina",
+              "region_a": "NC",
+              "county": "Moore County"
+            }
+          }
+        ]
       },
       "unexpected": {
-        "properties": [{
-          "admin2": "Moore"
-        }]
+        "properties": [
+          {
+            "geocoding": {
+              "county": "Moore"
+            }
+          }
+        ]
       }
     },
     {
@@ -318,18 +418,26 @@
         "layers": "neighborhood"
       },
       "expected": {
-        "properties": [{
-          "admin0": "United States",
-          "alpha3": "USA",
-          "admin1": "California",
-          "admin1_abbr": "CA",
-          "admin2": "Santa Clara County"
-        }]
+        "properties": [
+          {
+            "geocoding": {
+              "country": "United States",
+              "country_a": "USA",
+              "region": "California",
+              "region_a": "CA",
+              "county": "Santa Clara County"
+            }
+          }
+        ]
       },
       "unexpected": {
-        "properties": [{
-          "admin2": "Moore"
-        }]
+        "properties": [
+          {
+            "geocoding": {
+              "county": "Moore"
+            }
+          }
+        ]
       }
     },
     {
@@ -341,16 +449,24 @@
         "layers": "admin"
       },
       "expected": {
-        "properties": [{
-          "alpha3": "GBR",
-          "admin0": "United Kingdom",
-          "admin1": "Cardiff"
-        }]
+        "properties": [
+          {
+            "geocoding": {
+              "country_a": "GBR",
+              "country": "United Kingdom",
+              "region": "Cardiff"
+            }
+          }
+        ]
       },
       "unexpected": {
-        "properties": [{
-          "admin1": "Caerdydd#cardiff"
-        }]
+        "properties": [
+          {
+            "geocoding": {
+              "region": "Caerdydd#cardiff"
+            }
+          }
+        ]
       }
     },
     {
@@ -362,18 +478,26 @@
         "layers": "neighborhood"
       },
       "expected": {
-        "properties": [{
-          "alpha3": "GBR",
-          "admin0": "United Kingdom",
-          "admin1": "Newport",
-          "admin2": "Newport City"
-        }]
+        "properties": [
+          {
+            "geocoding": {
+              "country_a": "GBR",
+              "country": "United Kingdom",
+              "region": "Newport",
+              "county": "Newport City"
+            }
+          }
+        ]
       },
       "unexpected": {
-        "properties": [{
-          "admin1": "Casnewydd#Newport",
-          "admin2": "Newport"
-        }]
+        "properties": [
+          {
+            "geocoding": {
+              "region": "Casnewydd#Newport",
+              "county": "Newport"
+            }
+          }
+        ]
       }
     },
     {
@@ -385,15 +509,20 @@
         "layers": "admin1"
       },
       "expected": {
-        "properties": [{
-          "layer": "admin1",
-          "name": "California",
-          "alpha3": "USA",
-          "admin0": "United States",
-          "admin1": "California",
-          "admin1_abbr": "CA",
-          "text": "California, CA"
-        }]
+        "properties": [
+          {
+            "geocoding": {
+              "type": "region",
+              "name": "California",
+              "country_a": "USA",
+              "country": "United States",
+              "region": "California",
+              "region_a": "CA",
+              "label": "California, CA",
+              "source": "qs"
+            }
+          }
+        ]
       }
     }
   ]

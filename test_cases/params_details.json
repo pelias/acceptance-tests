@@ -15,24 +15,28 @@
       "expected": {
         "properties": [
           {
-            "layer": "locality",
-            "text": "Philadelphia, Philadelphia County, PA"
+            "geocoding": {
+              "type": "locality",
+              "label": "Philadelphia, Philadelphia County, PA",
+              "source": "qs"
+            }
           }
         ]
       },
       "unexpected": {
         "properties": [
           {
-            "text": "Philadelphia, PA",
-            "name": "Philadelphia",
-            "admin1": "Pennsylvania",
-            "admin0": "United States",
-            "locality": "Philadelphia",
-            "local_admin": "Philadelphia",
-            "admin1_abbr": "PA",
-            "admin2": "Philadelphia County",
-            "categories": [],
-            "address": {}
+            "geocoding": {
+              "label": "Philadelphia, PA",
+              "name": "Philadelphia",
+              "region": "Pennsylvania",
+              "country": "United States",
+              "locality": "Philadelphia",
+              "localadmin": "Philadelphia",
+              "region_a": "PA",
+              "county": "Philadelphia County",
+              "categories": []
+            }
           }
         ]
       }
@@ -53,31 +57,35 @@
       "expected": {
         "properties": [
           {
-            "text": "DiDi Dumpling, Manhattan, NY",
-            "layer": "osmnode"
+            "geocoding": {
+              "label": "DiDi Dumpling, Manhattan, NY",
+              "type": "venue",
+              "source": "osm"
+            }
           }
         ]
       },
       "unexpected": {
         "properties": [
           {
-            "name": "DiDi Dumpling",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "New York",
-            "admin1_abbr": "NY",
-            "admin2": "New York County",
-            "local_admin": "Manhattan",
-            "locality": "New York",
-            "neighborhood": "Rose Hill",
-            "text": "DiDi Dumpling, Manhattan, NY",
-            "category": [
-              "food",
-              "retail",
-              "nightlife",
-              "food:cuisine:chinese"
-            ],
-            "address": {}
+            "geocoding": {
+              "name": "DiDi Dumpling",
+              "country_a": "USA",
+              "country": "United States",
+              "region": "New York",
+              "region_a": "NY",
+              "county": "New York County",
+              "localadmin": "Manhattan",
+              "locality": "New York",
+              "neighbourhood": "Rose Hill",
+              "label": "DiDi Dumpling, Manhattan, NY",
+              "category": [
+                "food",
+                "retail",
+                "nightlife",
+                "food:cuisine:chinese"
+              ]
+            }
           }
         ]
       }
@@ -87,7 +95,7 @@
       "status": "pass",
       "user": "Diana",
       "type": "dev",
-      "endpoint": "suggest",
+      "endpoint": "autocomplete",
       "in": {
         "lat": 40.744243,
         "lon": -73.990342,
@@ -98,31 +106,35 @@
       "expected": {
         "properties": [
           {
-            "text": "DiDi Dumpling, Manhattan, NY",
-            "layer": "osmnode"
+            "geocoding": {
+              "label": "DiDi Dumpling, Manhattan, NY",
+              "type": "venue",
+              "source": "osm"
+            }
           }
         ]
       },
       "unexpected": {
         "properties": [
           {
-            "name": "DiDi Dumpling",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "New York",
-            "admin1_abbr": "NY",
-            "admin2": "New York County",
-            "local_admin": "Manhattan",
-            "locality": "New York",
-            "neighborhood": "Rose Hill",
-            "text": "DiDi Dumpling, Manhattan, NY",
-            "category": [
-              "food",
-              "retail",
-              "nightlife",
-              "food:cuisine:chinese"
-            ],
-            "address": {}
+            "geocoding": {
+              "name": "DiDi Dumpling",
+              "country_a": "USA",
+              "country": "United States",
+              "region": "New York",
+              "region_a": "NY",
+              "county": "New York County",
+              "localadmin": "Manhattan",
+              "locality": "New York",
+              "neighbourhood": "Rose Hill",
+              "label": "DiDi Dumpling, Manhattan, NY",
+              "category": [
+                "food",
+                "retail",
+                "nightlife",
+                "food:cuisine:chinese"
+              ]
+            }
           }
         ]
       }
@@ -132,7 +144,7 @@
       "status": "pass",
       "user": "Diana",
       "type": "dev",
-      "endpoint": "suggest/nearby",
+      "endpoint": "autocomplete",
       "in": {
         "lat": 40.744243,
         "lon": -73.990342,
@@ -143,31 +155,35 @@
       "expected": {
         "properties": [
           {
-            "text": "DiDi Dumpling, Manhattan, NY",
-            "layer": "osmnode"
+            "geocoding": {
+              "label": "DiDi Dumpling, Manhattan, NY",
+              "type": "venue",
+              "source": "osm"
+            }
           }
         ]
       },
       "unexpected": {
         "properties": [
           {
-            "name": "DiDi Dumpling",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "New York",
-            "admin1_abbr": "NY",
-            "admin2": "New York County",
-            "local_admin": "Manhattan",
-            "locality": "New York",
-            "neighborhood": "Rose Hill",
-            "text": "DiDi Dumpling, Manhattan, NY",
-            "category": [
-              "food",
-              "retail",
-              "nightlife",
-              "food:cuisine:chinese"
-            ],
-            "address": {}
+            "geocoding": {
+              "name": "DiDi Dumpling",
+              "country_a": "USA",
+              "country": "United States",
+              "region": "New York",
+              "region_a": "NY",
+              "county": "New York County",
+              "localadmin": "Manhattan",
+              "locality": "New York",
+              "neighbourhood": "Rose Hill",
+              "label": "DiDi Dumpling, Manhattan, NY",
+              "category": [
+                "food",
+                "retail",
+                "nightlife",
+                "food:cuisine:chinese"
+              ]
+            }
           }
         ]
       }
@@ -176,10 +192,10 @@
       "id": 5,
       "status": "pass",
       "user": "missinglink",
-      "endpoint": "suggest/coarse",
+      "endpoint": "autocomplete",
       "in": {
         "lat": 9.91,
-        "lon": 78.10,
+        "lon": 78.1,
         "input": "Singarpuram, Madurai, Tamil Nadu",
         "details": false,
         "layers": "neighborhood"
@@ -187,20 +203,25 @@
       "expected": {
         "properties": [
           {
-            "text": "Singarpuram, Madurai, Tamil Nadu",
-            "layer": "neighborhood"
+            "geocoding": {
+              "label": "Singarpuram, Madurai, Tamil Nadu",
+              "type": "neighbourhood",
+              "source": "qs"
+            }
           }
         ]
       },
       "unexpected": {
         "properties": [
           {
-            "id": "4679:_:_:ind:singarpuram",
-            "name": "Singarpuram",
-            "alpha3": "IND",
-            "admin0": "India",
-            "admin1": "Tamil Nadu",
-            "admin2": "Madurai"
+            "geocoding": {
+              "id": "4679:_:_:ind:singarpuram",
+              "name": "Singarpuram",
+              "country_a": "IND",
+              "country": "India",
+              "region": "Tamil Nadu",
+              "county": "Madurai"
+            }
           }
         ]
       }
@@ -221,23 +242,24 @@
       "expected": {
         "properties": [
           {
-            "layer": "osmaddress",
-            "name": "30 West 26th Street",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "New York",
-            "admin1_abbr": "NY",
-            "admin2": "New York County",
-            "local_admin": "Manhattan",
-            "locality": "New York",
-            "neighborhood": "Flatiron District",
-            "category": [],
-            "address": {
-              "zip": "10010",
-              "number": "30",
-              "street": "West 26th Street"
-            },
-            "text": "30 West 26th Street, Manhattan, NY"
+            "geocoding": {
+              "type": "address",
+              "name": "30 West 26th Street",
+              "country_a": "USA",
+              "country": "United States",
+              "region": "New York",
+              "region_a": "NY",
+              "county": "New York County",
+              "localadmin": "Manhattan",
+              "locality": "New York",
+              "neighbourhood": "Flatiron District",
+              "category": [],
+              "postalcode": "10010",
+              "housenumber": "30",
+              "street": "West 26th Street",
+              "label": "30 West 26th Street, Manhattan, NY",
+              "source": "osm"
+            }
           }
         ]
       }
@@ -258,23 +280,24 @@
       "expected": {
         "properties": [
           {
-            "layer": "osmaddress",
-            "name": "30 West 26th Street",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "New York",
-            "admin1_abbr": "NY",
-            "admin2": "New York County",
-            "local_admin": "Manhattan",
-            "locality": "New York",
-            "neighborhood": "Flatiron District",
-            "category": [],
-            "address": {
-              "zip": "10010",
-              "number": "30",
-              "street": "West 26th Street"
-            },
-            "text": "30 West 26th Street, Manhattan, NY"
+            "geocoding": {
+              "type": "address",
+              "name": "30 West 26th Street",
+              "country_a": "USA",
+              "country": "United States",
+              "region": "New York",
+              "region_a": "NY",
+              "county": "New York County",
+              "localadmin": "Manhattan",
+              "locality": "New York",
+              "neighbourhood": "Flatiron District",
+              "category": [],
+              "postalcode": "10010",
+              "housenumber": "30",
+              "street": "West 26th Street",
+              "label": "30 West 26th Street, Manhattan, NY",
+              "source": "osm"
+            }
           }
         ]
       }
@@ -295,23 +318,24 @@
       "expected": {
         "properties": [
           {
-            "layer": "osmaddress",
-            "name": "30 West 26th Street",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "New York",
-            "admin1_abbr": "NY",
-            "admin2": "New York County",
-            "local_admin": "Manhattan",
-            "locality": "New York",
-            "neighborhood": "Flatiron District",
-            "category": [],
-            "address": {
-              "zip": "10010",
-              "number": "30",
-              "street": "West 26th Street"
-            },
-            "text": "30 West 26th Street, Manhattan, NY"
+            "geocoding": {
+              "type": "address",
+              "name": "30 West 26th Street",
+              "country_a": "USA",
+              "country": "United States",
+              "region": "New York",
+              "region_a": "NY",
+              "county": "New York County",
+              "localadmin": "Manhattan",
+              "locality": "New York",
+              "neighbourhood": "Flatiron District",
+              "category": [],
+              "postalcode": "10010",
+              "housenumber": "30",
+              "street": "West 26th Street",
+              "label": "30 West 26th Street, Manhattan, NY",
+              "source": "osm"
+            }
           }
         ]
       }
@@ -332,23 +356,24 @@
       "expected": {
         "properties": [
           {
-            "layer": "osmaddress",
-            "name": "30 West 26th Street",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "New York",
-            "admin1_abbr": "NY",
-            "admin2": "New York County",
-            "local_admin": "Manhattan",
-            "locality": "New York",
-            "neighborhood": "Flatiron District",
-            "category": [],
-            "address": {
-              "zip": "10010",
-              "number": "30",
-              "street": "West 26th Street"
-            },
-            "text": "30 West 26th Street, Manhattan, NY"
+            "geocoding": {
+              "type": "address",
+              "name": "30 West 26th Street",
+              "country_a": "USA",
+              "country": "United States",
+              "region": "New York",
+              "region_a": "NY",
+              "county": "New York County",
+              "localadmin": "Manhattan",
+              "locality": "New York",
+              "neighbourhood": "Flatiron District",
+              "category": [],
+              "postalcode": "10010",
+              "housenumber": "30",
+              "street": "West 26th Street",
+              "label": "30 West 26th Street, Manhattan, NY",
+              "source": "osm"
+            }
           }
         ]
       }
@@ -369,27 +394,30 @@
       "expected": {
         "properties": [
           {
-            "layer": "osmaddress",
-            "text": "30 West 26th Street, Manhattan, NY"
+            "geocoding": {
+              "type": "address",
+              "label": "30 West 26th Street, Manhattan, NY",
+              "source": "osm"
+            }
           }
         ]
       },
       "unexpected": {
         "properties": [
           {
-            "name": "30 West 26th Street",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "New York",
-            "admin1_abbr": "NY",
-            "admin2": "New York County",
-            "local_admin": "Manhattan",
-            "locality": "New York",
-            "neighborhood": "Flatiron District",
-            "category": [],
-            "address": {
-              "zip": "10010",
-              "number": "30",
+            "geocoding": {
+              "name": "30 West 26th Street",
+              "country_a": "USA",
+              "country": "United States",
+              "region": "New York",
+              "region_a": "NY",
+              "county": "New York County",
+              "localadmin": "Manhattan",
+              "locality": "New York",
+              "neighbourhood": "Flatiron District",
+              "category": [],
+              "postalcode": "10010",
+              "housenumber": "30",
               "street": "West 26th Street"
             }
           }

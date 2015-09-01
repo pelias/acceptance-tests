@@ -14,16 +14,20 @@
         "lon": -73.99463653564453
       },
       "expected": {
-        "properties": [{
-          "alpha3": "USA",
-          "admin0": "United States",
-          "admin1": "New York",
-          "admin1_abbr": "NY",
-          "admin2": "New York County",
-          "local_admin": "Manhattan",
-          "locality": "New York",
-          "neighborhood": "NoHo"
-        }]
+        "properties": [
+          {
+            "geocoding": {
+              "country_a": "USA",
+              "country": "United States",
+              "region": "New York",
+              "region_a": "NY",
+              "county": "New York County",
+              "localadmin": "Manhattan",
+              "locality": "New York",
+              "neighbourhood": "NoHo"
+            }
+          }
+        ]
       }
     },
     {
@@ -36,16 +40,20 @@
         "lon": 286.00536346435547
       },
       "expected": {
-        "properties": [{
-          "alpha3": "USA",
-          "admin0": "United States",
-          "admin1": "New York",
-          "admin1_abbr": "NY",
-          "admin2": "New York County",
-          "local_admin": "Manhattan",
-          "locality": "New York",
-          "neighborhood": "NoHo"
-        }]
+        "properties": [
+          {
+            "geocoding": {
+              "country_a": "USA",
+              "country": "United States",
+              "region": "New York",
+              "region_a": "NY",
+              "county": "New York County",
+              "localadmin": "Manhattan",
+              "locality": "New York",
+              "neighbourhood": "NoHo"
+            }
+          }
+        ]
       }
     },
     {
@@ -58,16 +66,20 @@
         "lon": -433.99463653564453
       },
       "expected": {
-        "properties": [{
-          "alpha3": "USA",
-          "admin0": "United States",
-          "admin1": "New York",
-          "admin1_abbr": "NY",
-          "admin2": "New York County",
-          "local_admin": "Manhattan",
-          "locality": "New York",
-          "neighborhood": "NoHo"
-        }]
+        "properties": [
+          {
+            "geocoding": {
+              "country_a": "USA",
+              "country": "United States",
+              "region": "New York",
+              "region_a": "NY",
+              "county": "New York County",
+              "localadmin": "Manhattan",
+              "locality": "New York",
+              "neighbourhood": "NoHo"
+            }
+          }
+        ]
       }
     },
     {
@@ -80,16 +92,20 @@
         "lon": -793.9946365356445
       },
       "expected": {
-        "properties": [{
-          "alpha3": "USA",
-          "admin0": "United States",
-          "admin1": "New York",
-          "admin1_abbr": "NY",
-          "admin2": "New York County",
-          "local_admin": "Manhattan",
-          "locality": "New York",
-          "neighborhood": "NoHo"
-        }]
+        "properties": [
+          {
+            "geocoding": {
+              "country_a": "USA",
+              "country": "United States",
+              "region": "New York",
+              "region_a": "NY",
+              "county": "New York County",
+              "localadmin": "Manhattan",
+              "locality": "New York",
+              "neighbourhood": "NoHo"
+            }
+          }
+        ]
       }
     },
     {
@@ -102,16 +118,20 @@
         "lon": 286.009575
       },
       "expected": {
-        "properties": [{
-          "alpha3": "USA",
-          "admin0": "United States",
-          "admin1": "New York",
-          "admin1_abbr": "NY",
-          "admin2": "New York County",
-          "local_admin": "Manhattan",
-          "locality": "New York",
-          "name": "30 West 26th Street"
-        }]
+        "properties": [
+          {
+            "geocoding": {
+              "country_a": "USA",
+              "country": "United States",
+              "region": "New York",
+              "region_a": "NY",
+              "county": "New York County",
+              "localadmin": "Manhattan",
+              "locality": "New York",
+              "name": "30 West 26th Street"
+            }
+          }
+        ]
       }
     },
     {
@@ -124,16 +144,20 @@
         "lon": -433.990425
       },
       "expected": {
-        "properties": [{
-          "alpha3": "USA",
-          "admin0": "United States",
-          "admin1": "New York",
-          "admin1_abbr": "NY",
-          "admin2": "New York County",
-          "local_admin": "Manhattan",
-          "locality": "New York",
-          "name": "30 West 26th Street"
-        }]
+        "properties": [
+          {
+            "geocoding": {
+              "country_a": "USA",
+              "country": "United States",
+              "region": "New York",
+              "region_a": "NY",
+              "county": "New York County",
+              "localadmin": "Manhattan",
+              "locality": "New York",
+              "name": "30 West 26th Street"
+            }
+          }
+        ]
       }
     },
     {
@@ -146,16 +170,20 @@
         "lon": 106.009575
       },
       "expected": {
-        "properties": [{
-          "alpha3": "USA",
-          "admin0": "United States",
-          "admin1": "New York",
-          "admin1_abbr": "NY",
-          "admin2": "New York County",
-          "local_admin": "Manhattan",
-          "locality": "New York",
-          "name": "30 West 26th Street"
-        }]
+        "properties": [
+          {
+            "geocoding": {
+              "country_a": "USA",
+              "country": "United States",
+              "region": "New York",
+              "region_a": "NY",
+              "county": "New York County",
+              "localadmin": "Manhattan",
+              "locality": "New York",
+              "name": "30 West 26th Street"
+            }
+          }
+        ]
       }
     }
   ]
