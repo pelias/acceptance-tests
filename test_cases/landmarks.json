@@ -14,15 +14,17 @@
       "expected": {
         "properties": [
           {
-            "admin0": "United States",
-            "admin1": "New York",
-            "admin2": "New York County",
-            "alpha3": "USA",
-            "local_admin": "Manhattan",
-            "locality": "New York",
-            "name": "Statue of Liberty",
-            "neighborhood": "Southern Tip",
-            "text": "Statue of Liberty, Manhattan, NY"
+            "geocoding": {
+              "country": "United States",
+              "region": "New York",
+              "county": "New York County",
+              "country_a": "USA",
+              "localadmin": "Manhattan",
+              "locality": "New York",
+              "name": "Statue of Liberty",
+              "neighbourhood": "Southern Tip",
+              "label": "Statue of Liberty, Manhattan, NY"
+            }
           }
         ]
       }

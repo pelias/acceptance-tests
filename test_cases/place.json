@@ -12,8 +12,11 @@
       "expected": {
         "properties": [
           {
-            "id": "2562438641",
-            "layer": "osmnode"
+            "geocoding": {
+              "id": "2562438641",
+              "layer": "venue",
+              "source": "osm"
+            }
           }
         ]
       }

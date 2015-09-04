@@ -1,7 +1,7 @@
 {
   "name": "search coarse",
   "priorityThresh": 5,
-  "endpoint": "search/coarse",
+  "endpoint": "search",
   "tests": [
     {
       "id": 1,
@@ -16,14 +16,17 @@
       "expected": {
         "properties": [
           {
-            "layer": "local_admin",
-            "name": "Brooklyn",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "New York",
-            "admin1_abbr": "NY",
-            "admin2": "Kings County",
-            "text": "Brooklyn, Kings County, NY"
+            "geocoding": {
+              "layer": "local_admin",
+              "name": "Brooklyn",
+              "country_a": "USA",
+              "country": "United States",
+              "region": "New York",
+              "region_a": "NY",
+              "county": "Kings County",
+              "label": "Brooklyn, Kings County, NY",
+              "source": "qs"
+            }
           }
         ]
       }
@@ -41,15 +44,17 @@
       "unexpected": {
         "properties": [
           {
-            "name": "New York City",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "New York",
-            "admin1_abbr": "NY",
-            "admin2": "New York County",
-            "local_admin": "Manhattan",
-            "locality": "New York",
-            "text": "New York City, Manhattan, NY"
+            "geocoding": {
+              "name": "New York City",
+              "country_a": "USA",
+              "country": "United States",
+              "region": "New York",
+              "region_a": "NY",
+              "county": "New York County",
+              "localadmin": "Manhattan",
+              "locality": "New York",
+              "label": "New York City, Manhattan, NY"
+            }
           }
         ]
       }
