@@ -11,7 +11,7 @@
       "in": {
         "lat": 40.744243,
         "lon": -73.990342,
-        "input": "brooklyn"
+        "text": "brooklyn"
       },
       "expected": {
         "properties": [
@@ -39,7 +39,7 @@
       "in": {
         "lat": 40.744243,
         "lon": -73.990342,
-        "input": "new york"
+        "text": "new york"
       },
       "unexpected": {
         "properties": [

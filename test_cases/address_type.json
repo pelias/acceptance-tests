@@ -15,7 +15,7 @@
         "Ensure address records are stored in the 'osmaddress' layer."
       ],
       "in": {
-        "input": "102 Fleet Street",
+        "text": "102 Fleet Street",
         "lat": 51.53177,
         "lon": -0.06672
       },
@@ -41,7 +41,7 @@
         "related: test(3)"
       ],
       "in": {
-        "input": "Shepherd and Flock",
+        "text": "Shepherd and Flock",
         "lat": 51.219671,
         "lon": -0.779389
       },
@@ -67,7 +67,7 @@
         "related: test(2)"
       ],
       "in": {
-        "input": "22 Moor Park Lane",
+        "text": "22 Moor Park Lane",
         "lat": 51.219671,
         "lon": -0.779389
       },

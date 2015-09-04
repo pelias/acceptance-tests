@@ -12,7 +12,7 @@
       "in": {
         "lat": 40.744243,
         "lon": -73.990342,
-        "input": "DiDi"
+        "text": "DiDi"
       },
       "expected": {
         "properties": [

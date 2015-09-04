@@ -37,7 +37,7 @@
       "type": "dev",
       "description": "checking for County to be part of the admin2 value",
       "in": {
-        "input": "bronx",
+        "text": "bronx",
         "layers": "admin2"
       },
       "expected": {
@@ -55,7 +55,7 @@
       "status": "pass",
       "type": "dev",
       "in": {
-        "input": "Lake, MT",
+        "text": "Lake, MT",
         "layers": "admin2"
       },
       "expected": {
@@ -129,7 +129,7 @@
       "type": "dev",
       "in": {
         "layers": "neighborhood",
-        "input": "hoboken"
+        "text": "hoboken"
       },
       "expected": {
         "properties": [
@@ -152,7 +152,7 @@
       "status": "pass",
       "type": "dev",
       "in": {
-        "input": "mission, ca",
+        "text": "mission, ca",
         "layers": "admin"
       },
       "expected": {
@@ -176,7 +176,7 @@
       "status": "pass",
       "type": "dev",
       "in": {
-        "input": "crown heights",
+        "text": "crown heights",
         "layers": "admin"
       },
       "expected": {
@@ -200,7 +200,7 @@
       "status": "fail",
       "issue": "non definitive 'palo alto' (common name globally)",
       "in": {
-        "input": "palo alto",
+        "text": "palo alto",
         "layers": "admin"
       },
       "expected": {
@@ -222,7 +222,7 @@
       "id": "9-1",
       "status": "pass",
       "in": {
-        "input": "palo alto, ca",
+        "text": "palo alto, ca",
         "layers": "admin"
       },
       "expected": {
@@ -271,7 +271,7 @@
       "id": "15",
       "status": "pass",
       "in": {
-        "input": "cardiff, gbr",
+        "text": "cardiff, gbr",
         "layers": "admin"
       },
       "expected": {
@@ -352,7 +352,7 @@
       "status": "pass",
       "type": "dev",
       "in": {
-        "input": "Vista Center",
+        "text": "Vista Center",
         "layers": "neighborhood"
       },
       "expected": {
@@ -383,7 +383,7 @@
       "status": "pass",
       "type": "dev",
       "in": {
-        "input": "Yadkin Trail",
+        "text": "Yadkin Trail",
         "layers": "neighborhood"
       },
       "expected": {
@@ -414,7 +414,7 @@
       "status": "pass",
       "type": "dev",
       "in": {
-        "input": "Hillside, Santa Clara",
+        "text": "Hillside, Santa Clara",
         "layers": "neighborhood"
       },
       "expected": {
@@ -445,7 +445,7 @@
       "status": "pass",
       "type": "dev",
       "in": {
-        "input": "Cardiff, GBR",
+        "text": "Cardiff, GBR",
         "layers": "admin"
       },
       "expected": {
@@ -474,7 +474,7 @@
       "status": "pass",
       "type": "dev",
       "in": {
-        "input": "ringland",
+        "text": "ringland",
         "layers": "neighborhood"
       },
       "expected": {
@@ -505,7 +505,7 @@
       "status": "pass",
       "type": "dev",
       "in": {
-        "input": "california",
+        "text": "california",
         "layers": "admin1"
       },
       "expected": {
