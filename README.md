@@ -1,5 +1,3 @@
-#### status of [pelias.mapzen.com](http://pelias.mapzen.com): [![Build Status](https://travis-ci.org/pelias/acceptance-tests.png)](https://travis-ci.org/pelias/acceptance-tests)
-
 # acceptance tests
 
 This repository contains all of the Pelias API "acceptance" tests, which are automated tests used to identify
