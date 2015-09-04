@@ -14,7 +14,7 @@
           {
             "geocoding": {
               "id": "2562438641",
-              "type": "venue",
+              "layer": "venue",
               "source": "osm"
             }
           }

@@ -512,7 +512,7 @@
         "properties": [
           {
             "geocoding": {
-              "type": "region",
+              "layer": "region",
               "name": "California",
               "country_a": "USA",
               "country": "United States",

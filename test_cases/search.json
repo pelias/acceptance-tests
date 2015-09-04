@@ -402,7 +402,7 @@
         "properties": [
           {
             "geocoding": {
-              "type": "neighbourhood",
+              "layer": "neighbourhood",
               "name": "Chelsea",
               "country_a": "USA",
               "country": "United States",
@@ -455,7 +455,7 @@
         "properties": [
           {
             "geocoding": {
-              "type": "???",
+              "layer": "venue",
               "name": "Perugia San Francesco d'Assisi – Umbria International Airport",
               "country_a": "ITA",
               "country": "Italy",

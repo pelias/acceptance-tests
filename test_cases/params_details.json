@@ -16,7 +16,7 @@
         "properties": [
           {
             "geocoding": {
-              "type": "locality",
+              "layer": "locality",
               "label": "Philadelphia, Philadelphia County, PA",
               "source": "qs"
             }
@@ -59,7 +59,7 @@
           {
             "geocoding": {
               "label": "DiDi Dumpling, Manhattan, NY",
-              "type": "venue",
+              "layer": "venue",
               "source": "osm"
             }
           }
@@ -108,7 +108,7 @@
           {
             "geocoding": {
               "label": "DiDi Dumpling, Manhattan, NY",
-              "type": "venue",
+              "layer": "venue",
               "source": "osm"
             }
           }
@@ -157,7 +157,7 @@
           {
             "geocoding": {
               "label": "DiDi Dumpling, Manhattan, NY",
-              "type": "venue",
+              "layer": "venue",
               "source": "osm"
             }
           }
@@ -205,7 +205,7 @@
           {
             "geocoding": {
               "label": "Singarpuram, Madurai, Tamil Nadu",
-              "type": "neighbourhood",
+              "layer": "neighbourhood",
               "source": "qs"
             }
           }
@@ -243,7 +243,7 @@
         "properties": [
           {
             "geocoding": {
-              "type": "address",
+              "layer": "address",
               "name": "30 West 26th Street",
               "country_a": "USA",
               "country": "United States",
@@ -281,7 +281,7 @@
         "properties": [
           {
             "geocoding": {
-              "type": "address",
+              "layer": "address",
               "name": "30 West 26th Street",
               "country_a": "USA",
               "country": "United States",
@@ -319,7 +319,7 @@
         "properties": [
           {
             "geocoding": {
-              "type": "address",
+              "layer": "address",
               "name": "30 West 26th Street",
               "country_a": "USA",
               "country": "United States",
@@ -357,7 +357,7 @@
         "properties": [
           {
             "geocoding": {
-              "type": "address",
+              "layer": "address",
               "name": "30 West 26th Street",
               "country_a": "USA",
               "country": "United States",
@@ -395,7 +395,7 @@
         "properties": [
           {
             "geocoding": {
-              "type": "address",
+              "layer": "address",
               "label": "30 West 26th Street, Manhattan, NY",
               "source": "osm"
             }

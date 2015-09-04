@@ -17,7 +17,7 @@
         "properties": [
           {
             "geocoding": {
-              "type": "local_admin",
+              "layer": "local_admin",
               "name": "Brooklyn",
               "country_a": "USA",
               "country": "United States",

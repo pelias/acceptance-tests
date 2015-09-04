@@ -24,7 +24,7 @@
           {
             "geocoding": {
               "id": "address-osmnode-1401849738",
-              "type": "address",
+              "layer": "address",
               "source": "osm"
             }
           }
@@ -50,7 +50,7 @@
           {
             "geocoding": {
               "id": "26489964",
-              "type": "venue",
+              "layer": "venue",
               "source": "osm"
             }
           }
@@ -76,7 +76,7 @@
           {
             "geocoding": {
               "id": "poi-address-osmnode-26489964",
-              "type": "address",
+              "layer": "address",
               "source": "osm"
             }
           }
