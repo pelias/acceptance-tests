@@ -9,7 +9,7 @@
       "user": "Randy",
       "type": "dev",
       "in": {
-        "input": "brooklyn"
+        "text": "brooklyn"
       },
       "expected": {
         "properties": [
@@ -33,7 +33,7 @@
       "user": "Randy",
       "type": "dev",
       "in": {
-        "input": "brooklyn, ny"
+        "text": "brooklyn, ny"
       },
       "expected": {
         "properties": [
@@ -63,7 +63,7 @@
       "user": "Diana",
       "type": "dev",
       "in": {
-        "input": "philadelphia"
+        "text": "philadelphia"
       },
       "expected": {
         "properties": [
@@ -86,7 +86,7 @@
       "user": "Diana",
       "type": "dev",
       "in": {
-        "input": "philadelphia, pa"
+        "text": "philadelphia, pa"
       },
       "expected": {
         "properties": [
@@ -110,7 +110,7 @@
       "type": "dev",
       "user": "Randy",
       "in": {
-        "input": "new york, new york"
+        "text": "new york, new york"
       },
       "expected": {
         "properties": [
@@ -137,7 +137,7 @@
       "type": "dev",
       "user": "missinglink",
       "in": {
-        "input": "new york city"
+        "text": "new york city"
       },
       "expected": {
         "properties": [
@@ -163,7 +163,7 @@
       "type": "dev",
       "user": "missinglink",
       "in": {
-        "input": "new york city, usa"
+        "text": "new york city, usa"
       },
       "expected": {
         "properties": [
@@ -189,7 +189,7 @@
       "type": "dev",
       "user": "Randy",
       "in": {
-        "input": "130 dean street brooklyn, ny"
+        "text": "130 dean street brooklyn, ny"
       },
       "expected": {
         "properties": [
@@ -210,7 +210,7 @@
       "type": "dev",
       "user": "Randy",
       "in": {
-        "input": "billerica"
+        "text": "billerica"
       },
       "expected": {
         "properties": [
@@ -234,7 +234,7 @@
       "type": "dev",
       "user": "Randy",
       "in": {
-        "input": "billerica, ma"
+        "text": "billerica, ma"
       },
       "expected": {
         "properties": [
@@ -257,7 +257,7 @@
       "user": "feedback-app",
       "type": "dev",
       "in": {
-        "input": "union sq"
+        "text": "union sq"
       },
       "expected": {
         "properties": [
@@ -282,7 +282,7 @@
       "user": "feedback-app",
       "type": "dev",
       "in": {
-        "input": "portland"
+        "text": "portland"
       },
       "expected": {
         "properties": [
@@ -306,7 +306,7 @@
       "user": "feedback-app",
       "type": "dev",
       "in": {
-        "input": "portland, oregon"
+        "text": "portland, oregon"
       },
       "expected": {
         "properties": [
@@ -329,7 +329,7 @@
       "status": "pass",
       "user": "feedback-app",
       "in": {
-        "input": "paris"
+        "text": "paris"
       },
       "expected": {
         "properties": [
@@ -354,7 +354,7 @@
       ],
       "user": "feedback-app",
       "in": {
-        "input": "france"
+        "text": "france"
       },
       "expected": {
         "properties": [
@@ -375,7 +375,7 @@
       "user": "feedback-app",
       "type": "dev",
       "in": {
-        "input": "london"
+        "text": "london"
       },
       "expected": {
         "properties": [
@@ -396,7 +396,7 @@
       "user": "hkrishna",
       "type": "dev",
       "in": {
-        "input": "chelsea, new york"
+        "text": "chelsea, new york"
       },
       "expected": {
         "properties": [
@@ -424,7 +424,7 @@
       "type": "dev",
       "user": "hkrishna",
       "in": {
-        "input": "soho, new york"
+        "text": "soho, new york"
       },
       "expected": {
         "properties": [
@@ -449,7 +449,7 @@
       "status": "pass",
       "user": "feedback-app",
       "in": {
-        "input": "perugia airport"
+        "text": "perugia airport"
       },
       "expected": {
         "properties": [
@@ -475,7 +475,7 @@
       "type": "dev",
       "user": "hkrishna",
       "in": {
-        "input": "101 saint marks pl, new york"
+        "text": "101 saint marks pl, new york"
       },
       "expected": {
         "properties": [
@@ -503,7 +503,7 @@
       "issue": "https://github.com/pelias/api/issues/151",
       "type": "dev",
       "in": {
-        "input": "newark airport"
+        "text": "newark airport"
       },
       "expected": {
         "properties": [
@@ -528,7 +528,7 @@
       "id": "1427414405152:3",
       "user": "sevko",
       "in": {
-        "input": "7 Simon-Dach-Straße"
+        "text": "7 Simon-Dach-Straße"
       },
       "expected": {
         "properties": [

@@ -11,7 +11,7 @@
       "type": "dev",
       "in": {
         "layers": "admin",
-        "input": "chelsea"
+        "text": "chelsea"
       },
       "expected": {
         "properties": [
@@ -36,7 +36,7 @@
       "type": "dev",
       "in": {
         "layers": "admin",
-        "input": "chelsea, ny"
+        "text": "chelsea, ny"
       },
       "expected": {
         "properties": [
@@ -62,7 +62,7 @@
       "type": "dev",
       "in": {
         "layers": "neighborhood",
-        "input": "williamsburg"
+        "text": "williamsburg"
       },
       "expected": {
         "properties": [
@@ -87,7 +87,7 @@
       "type": "dev",
       "in": {
         "layers": "neighborhood",
-        "input": "williamsburg, ny"
+        "text": "williamsburg, ny"
       },
       "expected": {
         "properties": [
@@ -113,7 +113,7 @@
       "type": "dev",
       "in": {
         "layers": "admin",
-        "input": "ridgewood"
+        "text": "ridgewood"
       },
       "expected": {
         "properties": [
@@ -138,7 +138,7 @@
       "type": "dev",
       "in": {
         "layers": "admin",
-        "input": "ridgewood, ny"
+        "text": "ridgewood, ny"
       },
       "expected": {
         "properties": [

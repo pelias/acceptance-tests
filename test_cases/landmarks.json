@@ -9,7 +9,7 @@
       "type": "dev",
       "user": "hkrishna",
       "in": {
-        "input": "statue of liberty"
+        "text": "statue of liberty"
       },
       "expected": {
         "properties": [

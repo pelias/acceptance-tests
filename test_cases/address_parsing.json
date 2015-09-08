@@ -9,7 +9,7 @@
       "user": "Harish",
       "type": "dev",
       "in": {
-        "input": "101 saint mark pl 10009"
+        "text": "101 saint mark pl 10009"
       },
       "expected": {
         "properties": [
@@ -45,7 +45,7 @@
         "also being part of 'new york city' and therefore admin matching twice"
       ],
       "in": {
-        "input": "1 water st manhattan ny"
+        "text": "1 water st manhattan ny"
       },
       "expected": {
         "properties": [
@@ -63,7 +63,7 @@
       "user": "Diana",
       "type": "dev",
       "in": {
-        "input": "1 water st manhattan ny"
+        "text": "1 water st manhattan ny"
       },
       "expected": {
         "properties": [
@@ -81,7 +81,7 @@
       "user": "Harish",
       "type": "dev",
       "in": {
-        "input": "450 w 37th st, new york, ny 11232"
+        "text": "450 w 37th st, new york, ny 11232"
       },
       "expected": {
         "properties": [
@@ -111,7 +111,7 @@
       "user": "Harish",
       "type": "dev",
       "in": {
-        "input": "starbucks 10010"
+        "text": "starbucks 10010"
       },
       "expected": {
         "properties": [
@@ -141,7 +141,7 @@
       "user": "Harish",
       "type": "dev",
       "in": {
-        "input": "455 43rd st new york ny 11232"
+        "text": "455 43rd st new york ny 11232"
       },
       "expected": {
         "properties": [
@@ -171,7 +171,7 @@
       "user": "Harish",
       "type": "dev",
       "in": {
-        "input": "1 main st ny 11201"
+        "text": "1 main st ny 11201"
       },
       "expected": {
         "properties": [
@@ -200,7 +200,7 @@
       "status": "pass",
       "user": "Harish",
       "in": {
-        "input": "186 Tuskegee St SE Atlanta GA"
+        "text": "186 Tuskegee St SE Atlanta GA"
       },
       "expected": {
         "properties": [
@@ -228,7 +228,7 @@
       "status": "pass",
       "user": "Harish",
       "in": {
-        "input": "3122 16th St San Francisco, CA 94103"
+        "text": "3122 16th St San Francisco, CA 94103"
       },
       "expected": {
         "properties": [
@@ -256,7 +256,7 @@
       "status": "pass",
       "user": "Harish",
       "in": {
-        "input": "3010 20th St San Francisco CA 94110"
+        "text": "3010 20th St San Francisco CA 94110"
       },
       "expected": {
         "properties": [
@@ -284,7 +284,7 @@
       "status": "pass",
       "user": "Harish",
       "in": {
-        "input": "3577 Jackson St San Francisco, CA 94118"
+        "text": "3577 Jackson St San Francisco, CA 94118"
       },
       "expected": {
         "properties": [
@@ -314,7 +314,7 @@
       "user": "Harish",
       "type": "dev",
       "in": {
-        "input": "whole foods NY"
+        "text": "whole foods NY"
       },
       "expected": {
         "properties": [

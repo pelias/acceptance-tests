@@ -8,7 +8,7 @@
       "user": "Diana",
       "type": "dev",
       "in": {
-        "input": "Philadelphia, Philadelphia County, PA",
+        "text": "Philadelphia, Philadelphia County, PA",
         "details": false,
         "layers": "locality"
       },
@@ -99,7 +99,7 @@
       "in": {
         "lat": 40.744243,
         "lon": -73.990342,
-        "input": "DiDi",
+        "text": "DiDi",
         "details": false,
         "layers": "osmnode"
       },
@@ -148,7 +148,7 @@
       "in": {
         "lat": 40.744243,
         "lon": -73.990342,
-        "input": "DiDi dump",
+        "text": "DiDi dump",
         "details": false,
         "layers": "osmnode"
       },
@@ -196,7 +196,7 @@
       "in": {
         "lat": 9.91,
         "lon": 78.1,
-        "input": "Singarpuram, Madurai, Tamil Nadu",
+        "text": "Singarpuram, Madurai, Tamil Nadu",
         "details": false,
         "layers": "neighborhood"
       },
@@ -235,7 +235,7 @@
       "in": {
         "lat": 40.744243,
         "lon": -73.990342,
-        "input": "30 West 26th Street",
+        "text": "30 West 26th Street",
         "details": true,
         "layers": "osmaddress"
       },
@@ -273,7 +273,7 @@
       "in": {
         "lat": 40.744243,
         "lon": -73.990342,
-        "input": "30 West 26th Street",
+        "text": "30 West 26th Street",
         "details": 1,
         "layers": "osmaddress"
       },
@@ -311,7 +311,7 @@
       "in": {
         "lat": 40.744243,
         "lon": -73.990342,
-        "input": "30 West 26th Street",
+        "text": "30 West 26th Street",
         "details": "yes",
         "layers": "osmaddress"
       },
@@ -349,7 +349,7 @@
       "in": {
         "lat": 40.744243,
         "lon": -73.990342,
-        "input": "30 West 26th Street",
+        "text": "30 West 26th Street",
         "details": "y",
         "layers": "osmaddress"
       },
@@ -387,7 +387,7 @@
       "in": {
         "lat": 40.744243,
         "lon": -73.990342,
-        "input": "30 West 26th Street",
+        "text": "30 West 26th Street",
         "details": "no",
         "layers": "osmaddress"
       },
