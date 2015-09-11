@@ -42,55 +42,6 @@
       }
     },
     {
-      "id": 2,
-      "status": "pass",
-      "user": "Diana",
-      "type": "dev",
-      "endpoint": "reverse",
-      "in": {
-        "point.lat": 40.744243,
-        "point.lon": -73.990342,
-        "categories": "food:cuisine:chinese",
-        "details": false,
-        "layers": "osmnode"
-      },
-      "expected": {
-        "properties": [
-          {
-            "geocoding": {
-              "label": "DiDi Dumpling, Manhattan, NY",
-              "layer": "venue",
-              "source": "osm"
-            }
-          }
-        ]
-      },
-      "unexpected": {
-        "properties": [
-          {
-            "geocoding": {
-              "name": "DiDi Dumpling",
-              "country_a": "USA",
-              "country": "United States",
-              "region": "New York",
-              "region_a": "NY",
-              "county": "New York County",
-              "localadmin": "Manhattan",
-              "locality": "New York",
-              "neighbourhood": "Rose Hill",
-              "label": "DiDi Dumpling, Manhattan, NY",
-              "category": [
-                "food",
-                "retail",
-                "nightlife",
-                "food:cuisine:chinese"
-              ]
-            }
-          }
-        ]
-      }
-    },
-    {
       "id": 3,
       "status": "pass",
       "user": "Diana",
