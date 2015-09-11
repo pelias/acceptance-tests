@@ -9,8 +9,8 @@
       "user": "Diana",
       "type": "dev",
       "in": {
-        "lat": 40.744243,
-        "lon": -73.990342,
+        "point.lat": 40.744243,
+        "point.lon": -73.990342,
         "categories": "food:cuisine:chinese"
       },
       "expected": {
@@ -44,8 +44,8 @@
       "user": "missinglink",
       "type": "dev",
       "in": {
-        "lat": 40.744243,
-        "lon": -73.990342,
+        "point.lat": 40.744243,
+        "point.lon": -73.990342,
         "categories": "transport:rail,transport:station",
         "size": 5
       },

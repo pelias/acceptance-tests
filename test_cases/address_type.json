@@ -16,8 +16,8 @@
       ],
       "in": {
         "text": "102 Fleet Street",
-        "lat": 51.53177,
-        "lon": -0.06672
+        "focus.point.lat": 51.53177,
+        "focus.point.lon": -0.06672
       },
       "expected": {
         "properties": [
@@ -42,8 +42,8 @@
       ],
       "in": {
         "text": "Shepherd and Flock",
-        "lat": 51.219671,
-        "lon": -0.779389
+        "focus.point.lat": 51.219671,
+        "focus.point.lon": -0.779389
       },
       "expected": {
         "properties": [
@@ -68,8 +68,8 @@
       ],
       "in": {
         "text": "22 Moor Park Lane",
-        "lat": 51.219671,
-        "lon": -0.779389
+        "focus.point.lat": 51.219671,
+        "focus.point.lon": -0.779389
       },
       "expected": {
         "properties": [

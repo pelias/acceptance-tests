@@ -9,8 +9,8 @@
       "user": "Diana",
       "type": "dev",
       "in": {
-        "lat": 40.744243,
-        "lon": -73.990342,
+        "focus.point.lat": 40.744243,
+        "focus.point.lon": -73.990342,
         "text": "brooklyn"
       },
       "expected": {
@@ -37,8 +37,8 @@
       "user": "Diana",
       "type": "dev",
       "in": {
-        "lat": 40.744243,
-        "lon": -73.990342,
+        "focus.point.lat": 40.744243,
+        "focus.point.lon": -73.990342,
         "text": "new york"
       },
       "unexpected": {

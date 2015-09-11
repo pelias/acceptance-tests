@@ -8,8 +8,8 @@
       "user": "sevko",
       "endpoint": "reverse",
       "in": {
-        "lat": 46.65132155014943,
-        "lon": 14.61353302001953
+        "point.lat": 46.65132155014943,
+        "point.lon": 14.61353302001953
       },
       "expected": {
         "properties": [
@@ -73,8 +73,8 @@
       "status": "pass",
       "endpoint": "reverse",
       "in": {
-        "lat": -40.806533324215565,
-        "lon": 144.8101043701172
+        "point.lat": -40.806533324215565,
+        "point.lon": 144.8101043701172
       },
       "expected": {
         "properties": [
@@ -101,8 +101,8 @@
       "endpoint": "reverse",
       "type": "dev",
       "in": {
-        "lat": 51.515049,
-        "lon": -0.093229
+        "point.lat": 51.515049,
+        "point.lon": -0.093229
       },
       "expected": {
         "properties": [
@@ -245,8 +245,8 @@
       "status": "pass",
       "endpoint": "reverse",
       "in": {
-        "lat": 51.47945855891035,
-        "lon": -3.2018280029296875
+        "point.lat": 51.47945855891035,
+        "point.lon": -3.2018280029296875
       },
       "expected": {
         "properties": [
@@ -298,8 +298,8 @@
       "status": "pass",
       "endpoint": "reverse",
       "in": {
-        "lat": 51.52754263322114,
-        "lon": -3.115997314453125
+        "point.lat": 51.52754263322114,
+        "point.lon": -3.115997314453125
       },
       "expected": {
         "properties": [
@@ -325,8 +325,8 @@
       "status": "pass",
       "endpoint": "reverse",
       "in": {
-        "lat": 53.08654986822245,
-        "lon": -3.393487930297851
+        "point.lat": 53.08654986822245,
+        "point.lon": -3.393487930297851
       },
       "expected": {
         "properties": [

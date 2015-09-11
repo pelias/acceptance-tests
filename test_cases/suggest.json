@@ -10,8 +10,8 @@
       "type": "dev",
       "endpoint": "autocomplete",
       "in": {
-        "lat": 40.744243,
-        "lon": -73.990342,
+        "focus.point.lat": 40.744243,
+        "focus.point.lon": -73.990342,
         "text": "DiDi"
       },
       "expected": {
