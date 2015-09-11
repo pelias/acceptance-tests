@@ -48,8 +48,8 @@
       "type": "dev",
       "endpoint": "reverse",
       "in": {
-        "lat": 40.744243,
-        "lon": -73.990342,
+        "point.lat": 40.744243,
+        "point.lon": -73.990342,
         "categories": "food:cuisine:chinese",
         "details": false,
         "layers": "osmnode"
