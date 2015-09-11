@@ -97,8 +97,8 @@
       "type": "dev",
       "endpoint": "autocomplete",
       "in": {
-        "lat": 40.744243,
-        "lon": -73.990342,
+        "focus.point.lat": 40.744243,
+        "focus.point.lon": -73.990342,
         "text": "DiDi",
         "details": false,
         "layers": "osmnode"
@@ -146,8 +146,8 @@
       "type": "dev",
       "endpoint": "autocomplete",
       "in": {
-        "lat": 40.744243,
-        "lon": -73.990342,
+        "focus.point.lat": 40.744243,
+        "focus.point.lon": -73.990342,
         "text": "DiDi dump",
         "details": false,
         "layers": "osmnode"
@@ -194,8 +194,8 @@
       "user": "missinglink",
       "endpoint": "autocomplete",
       "in": {
-        "lat": 9.91,
-        "lon": 78.1,
+        "focus.point.lat": 9.91,
+        "focus.point.lon": 78.1,
         "text": "Singarpuram, Madurai, Tamil Nadu",
         "details": false,
         "layers": "neighborhood"
@@ -233,8 +233,8 @@
       "type": "dev",
       "endpoint": "search",
       "in": {
-        "lat": 40.744243,
-        "lon": -73.990342,
+        "focus.point.lat": 40.744243,
+        "focus.point.lon": -73.990342,
         "text": "30 West 26th Street",
         "details": true,
         "layers": "osmaddress"
@@ -271,8 +271,8 @@
       "type": "dev",
       "endpoint": "search",
       "in": {
-        "lat": 40.744243,
-        "lon": -73.990342,
+        "focus.point.lat": 40.744243,
+        "focus.point.lon": -73.990342,
         "text": "30 West 26th Street",
         "details": 1,
         "layers": "osmaddress"
@@ -309,8 +309,8 @@
       "type": "dev",
       "endpoint": "search",
       "in": {
-        "lat": 40.744243,
-        "lon": -73.990342,
+        "focus.point.lat": 40.744243,
+        "focus.point.lon": -73.990342,
         "text": "30 West 26th Street",
         "details": "yes",
         "layers": "osmaddress"
@@ -347,8 +347,8 @@
       "type": "dev",
       "endpoint": "search",
       "in": {
-        "lat": 40.744243,
-        "lon": -73.990342,
+        "focus.point.lat": 40.744243,
+        "focus.point.lon": -73.990342,
         "text": "30 West 26th Street",
         "details": "y",
         "layers": "osmaddress"
@@ -385,8 +385,8 @@
       "type": "dev",
       "endpoint": "search",
       "in": {
-        "lat": 40.744243,
-        "lon": -73.990342,
+        "focus.point.lat": 40.744243,
+        "focus.point.lon": -73.990342,
         "text": "30 West 26th Street",
         "details": "no",
         "layers": "osmaddress"
