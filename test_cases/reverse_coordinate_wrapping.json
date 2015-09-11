@@ -1,5 +1,5 @@
 {
-  "name": "GET /reverse?categories",
+  "name": "reverse coordinate wrapping",
   "priorityThresh": 3,
   "endpoint": "reverse",
   "description": "Verify that the API supports longitude wrapping as expected.",
