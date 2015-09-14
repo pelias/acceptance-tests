@@ -1,5 +1,5 @@
 {
-  "name": "GET /reverse?categories",
+  "name": "reverse coordinate wrapping",
   "priorityThresh": 3,
   "endpoint": "reverse",
   "description": "Verify that the API supports longitude wrapping as expected.",
@@ -10,8 +10,8 @@
       "user": "sev",
       "type": "dev",
       "in": {
-        "lat": 40.72956780913899,
-        "lon": -73.99463653564453
+        "point.lat": 40.72956780913899,
+        "point.lon": -73.99463653564453
       },
       "expected": {
         "properties": [
@@ -36,8 +36,8 @@
       "user": "sev",
       "type": "dev",
       "in": {
-        "lat": 40.72956780913899,
-        "lon": 286.00536346435547
+        "point.lat": 40.72956780913899,
+        "point.lon": 286.00536346435547
       },
       "expected": {
         "properties": [
@@ -62,8 +62,8 @@
       "user": "sev",
       "type": "dev",
       "in": {
-        "lat": 40.72956780913899,
-        "lon": -433.99463653564453
+        "point.lat": 40.72956780913899,
+        "point.lon": -433.99463653564453
       },
       "expected": {
         "properties": [
@@ -88,8 +88,8 @@
       "user": "sev",
       "type": "dev",
       "in": {
-        "lat": 40.72956780913899,
-        "lon": -793.9946365356445
+        "point.lat": 40.72956780913899,
+        "point.lon": -793.9946365356445
       },
       "expected": {
         "properties": [
@@ -114,8 +114,8 @@
       "user": "orangejulius",
       "type": "dev",
       "in": {
-        "lat": 40.744131,
-        "lon": 286.009575
+        "point.lat": 40.744131,
+        "point.lon": 286.009575
       },
       "expected": {
         "properties": [
@@ -140,8 +140,8 @@
       "user": "orangejulius",
       "type": "dev",
       "in": {
-        "lat": 40.744131,
-        "lon": -433.990425
+        "point.lat": 40.744131,
+        "point.lon": -433.990425
       },
       "expected": {
         "properties": [
@@ -166,8 +166,8 @@
       "user": "orangejulius",
       "type": "dev",
       "in": {
-        "lat": 139.255869,
-        "lon": 106.009575
+        "point.lat": 139.255869,
+        "point.lon": 106.009575
       },
       "expected": {
         "properties": [

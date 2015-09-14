@@ -42,66 +42,18 @@
       }
     },
     {
-      "id": 2,
-      "status": "pass",
-      "user": "Diana",
-      "type": "dev",
-      "endpoint": "reverse",
-      "in": {
-        "lat": 40.744243,
-        "lon": -73.990342,
-        "categories": "food:cuisine:chinese",
-        "details": false,
-        "layers": "osmnode"
-      },
-      "expected": {
-        "properties": [
-          {
-            "geocoding": {
-              "label": "DiDi Dumpling, Manhattan, NY",
-              "layer": "venue",
-              "source": "osm"
-            }
-          }
-        ]
-      },
-      "unexpected": {
-        "properties": [
-          {
-            "geocoding": {
-              "name": "DiDi Dumpling",
-              "country_a": "USA",
-              "country": "United States",
-              "region": "New York",
-              "region_a": "NY",
-              "county": "New York County",
-              "localadmin": "Manhattan",
-              "locality": "New York",
-              "neighbourhood": "Rose Hill",
-              "label": "DiDi Dumpling, Manhattan, NY",
-              "category": [
-                "food",
-                "retail",
-                "nightlife",
-                "food:cuisine:chinese"
-              ]
-            }
-          }
-        ]
-      }
-    },
-    {
       "id": 3,
       "status": "pass",
       "user": "Diana",
       "type": "dev",
       "endpoint": "autocomplete",
       "in": {
-        "lat": 40.744243,
-        "lon": -73.990342,
+        "focus.point.lat": 40.744243,
+        "focus.point.lon": -73.990342,
         "text": "DiDi",
         "details": false,
-        "layers": "osmnode"
+        "layers": "venue",
+        "sources": "osm"
       },
       "expected": {
         "properties": [
@@ -146,11 +98,12 @@
       "type": "dev",
       "endpoint": "autocomplete",
       "in": {
-        "lat": 40.744243,
-        "lon": -73.990342,
+        "focus.point.lat": 40.744243,
+        "focus.point.lon": -73.990342,
         "text": "DiDi dump",
         "details": false,
-        "layers": "osmnode"
+        "layers": "venue",
+        "sources": "osm"
       },
       "expected": {
         "properties": [
@@ -194,11 +147,11 @@
       "user": "missinglink",
       "endpoint": "autocomplete",
       "in": {
-        "lat": 9.91,
-        "lon": 78.1,
+        "focus.point.lat": 9.91,
+        "focus.point.lon": 78.1,
         "text": "Singarpuram, Madurai, Tamil Nadu",
         "details": false,
-        "layers": "neighborhood"
+        "layers": "neighbourhood"
       },
       "expected": {
         "properties": [
@@ -233,11 +186,12 @@
       "type": "dev",
       "endpoint": "search",
       "in": {
-        "lat": 40.744243,
-        "lon": -73.990342,
+        "focus.point.lat": 40.744243,
+        "focus.point.lon": -73.990342,
         "text": "30 West 26th Street",
         "details": true,
-        "layers": "osmaddress"
+        "layers": "address",
+        "sources": "osm"
       },
       "expected": {
         "properties": [
@@ -271,11 +225,12 @@
       "type": "dev",
       "endpoint": "search",
       "in": {
-        "lat": 40.744243,
-        "lon": -73.990342,
+        "focus.point.lat": 40.744243,
+        "focus.point.lon": -73.990342,
         "text": "30 West 26th Street",
         "details": 1,
-        "layers": "osmaddress"
+        "layers": "address",
+        "sources": "osm"
       },
       "expected": {
         "properties": [
@@ -309,11 +264,12 @@
       "type": "dev",
       "endpoint": "search",
       "in": {
-        "lat": 40.744243,
-        "lon": -73.990342,
+        "focus.point.lat": 40.744243,
+        "focus.point.lon": -73.990342,
         "text": "30 West 26th Street",
         "details": "yes",
-        "layers": "osmaddress"
+        "layers": "address",
+        "sources": "osm"
       },
       "expected": {
         "properties": [
@@ -347,11 +303,12 @@
       "type": "dev",
       "endpoint": "search",
       "in": {
-        "lat": 40.744243,
-        "lon": -73.990342,
+        "focus.point.lat": 40.744243,
+        "focus.point.lon": -73.990342,
         "text": "30 West 26th Street",
         "details": "y",
-        "layers": "osmaddress"
+        "layers": "address",
+        "sources": "osm"
       },
       "expected": {
         "properties": [
@@ -385,11 +342,12 @@
       "type": "dev",
       "endpoint": "search",
       "in": {
-        "lat": 40.744243,
-        "lon": -73.990342,
+        "focus.point.lat": 40.744243,
+        "focus.point.lon": -73.990342,
         "text": "30 West 26th Street",
         "details": "no",
-        "layers": "osmaddress"
+        "layers": "address",
+        "sources": "osm"
       },
       "expected": {
         "properties": [
