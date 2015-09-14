@@ -10,7 +10,7 @@
       "issue": "non definitive 'chelsea' (common name globally)",
       "type": "dev",
       "in": {
-        "layers": "admin",
+        "layers": "coarse",
         "text": "chelsea"
       },
       "expected": {
@@ -35,7 +35,7 @@
       "status": "pass",
       "type": "dev",
       "in": {
-        "layers": "admin",
+        "layers": "coarse",
         "text": "chelsea, ny"
       },
       "expected": {
@@ -58,10 +58,10 @@
       "id": 2,
       "user": "sevko",
       "status": "fail",
-      "issue": "non definitive 'neighborhood' (common name globally)",
+      "issue": "non definitive 'neighbourhood' (common name globally)",
       "type": "dev",
       "in": {
-        "layers": "neighborhood",
+        "layers": "neighbourhood",
         "text": "williamsburg"
       },
       "expected": {
@@ -86,7 +86,7 @@
       "status": "pass",
       "type": "dev",
       "in": {
-        "layers": "neighborhood",
+        "layers": "neighbourhood",
         "text": "williamsburg, ny"
       },
       "expected": {
@@ -112,7 +112,7 @@
       "issue": "non definitive 'ridgewood' (common name globally)",
       "type": "dev",
       "in": {
-        "layers": "admin",
+        "layers": "coarse",
         "text": "ridgewood"
       },
       "expected": {
@@ -137,7 +137,7 @@
       "status": "pass",
       "type": "dev",
       "in": {
-        "layers": "admin",
+        "layers": "coarse",
         "text": "ridgewood, ny"
       },
       "expected": {

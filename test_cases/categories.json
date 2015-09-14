@@ -5,7 +5,7 @@
     {
       "in": {
         "text": "East 34th Street Heliport",
-        "layers": "geoname"
+        "sources": "geonames"
       },
       "status": "pass",
       "user": "sevko",
@@ -38,7 +38,7 @@
     {
       "in": {
         "text": "Sixtyninth Regiment Armory",
-        "layers": "geoname"
+        "sources": "geonames"
       },
       "status": "pass",
       "user": "sevko",
@@ -70,7 +70,7 @@
     {
       "in": {
         "text": "Fashion Institute of Technology",
-        "layers": "geoname"
+        "sources": "geonames"
       },
       "status": "pass",
       "user": "sevko",
@@ -101,7 +101,7 @@
     {
       "in": {
         "text": "Cabrini Medical Center",
-        "layers": "geoname"
+        "sources": "geonames"
       },
       "status": "pass",
       "user": "sevko",
@@ -132,7 +132,7 @@
     {
       "in": {
         "text": "Port Authority Bus Terminal",
-        "layers": "geoname"
+        "sources": "geonames"
       },
       "status": "pass",
       "user": "sevko",
@@ -164,7 +164,7 @@
     {
       "in": {
         "text": "Manhattan Mall Shopping Center",
-        "layers": "geoname"
+        "sources": "geonames"
       },
       "status": "pass",
       "user": "sevko",
@@ -195,7 +195,7 @@
     {
       "in": {
         "text": "Cooper Station New York Post Office",
-        "layers": "geoname"
+        "sources": "geonames"
       },
       "status": "pass",
       "user": "sevko",
@@ -227,7 +227,7 @@
     {
       "in": {
         "text": "Ed Sullivan Theatre",
-        "layers": "geoname"
+        "sources": "geonames"
       },
       "status": "pass",
       "user": "sevko",
@@ -258,7 +258,7 @@
     {
       "in": {
         "text": "Glad Tidings Tabernacle Church",
-        "layers": "geoname"
+        "sources": "geonames"
       },
       "status": "pass",
       "user": "sevko",
@@ -289,7 +289,7 @@
     {
       "in": {
         "text": "National 9/11 memorial",
-        "layers": "geoname"
+        "sources": "geonames"
       },
       "status": "pass",
       "user": "sevko",
@@ -320,7 +320,7 @@
     {
       "in": {
         "text": "Weehawken Cove",
-        "layers": "geoname"
+        "sources": "geonames"
       },
       "status": "pass",
       "user": "sevko",
@@ -352,7 +352,7 @@
     {
       "in": {
         "text": "Howard Johnson Midtown Manhattan",
-        "layers": "geoname"
+        "sources": "geonames"
       },
       "status": "pass",
       "user": "sevko",
@@ -383,7 +383,7 @@
     {
       "in": {
         "text": "East River Park, ny",
-        "layers": "geoname"
+        "sources": "geonames"
       },
       "status": "pass",
       "user": "sevko",
@@ -415,7 +415,7 @@
     {
       "in": {
         "text": "Chelsea Piers",
-        "layers": "geoname"
+        "sources": "geonames"
       },
       "status": "pass",
       "user": "sevko",
@@ -451,7 +451,7 @@
       "user": "sevko",
       "in": {
         "text": "Goshen Point",
-        "layers": "geoname"
+        "sources": "geonames"
       },
       "expected": {
         "properties": [
@@ -479,7 +479,7 @@
       "user": "sevko",
       "in": {
         "text": "Grant Swamp",
-        "layers": "geoname"
+        "sources": "geonames"
       },
       "expected": {
         "properties": [
@@ -508,7 +508,7 @@
       "user": "sevko",
       "in": {
         "text": "Grassmere Golf Course",
-        "layers": "geoname"
+        "sources": "geonames"
       },
       "expected": {
         "properties": [
@@ -537,7 +537,7 @@
       "user": "sevko",
       "in": {
         "text": "Town of Hamden",
-        "layers": "geoname"
+        "sources": "geonames"
       },
       "expected": {
         "properties": [
@@ -565,7 +565,7 @@
       "user": "sevko",
       "in": {
         "text": "howard winchester",
-        "layers": "osmway,osmnode,osmaddress"
+        "sources": "osm"
       },
       "expected": {
         "properties": [

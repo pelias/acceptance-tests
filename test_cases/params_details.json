@@ -52,7 +52,8 @@
         "focus.point.lon": -73.990342,
         "text": "DiDi",
         "details": false,
-        "layers": "osmnode"
+        "layers": "venue",
+        "sources": "osm"
       },
       "expected": {
         "properties": [
@@ -101,7 +102,8 @@
         "focus.point.lon": -73.990342,
         "text": "DiDi dump",
         "details": false,
-        "layers": "osmnode"
+        "layers": "venue",
+        "sources": "osm"
       },
       "expected": {
         "properties": [
@@ -149,7 +151,7 @@
         "focus.point.lon": 78.1,
         "text": "Singarpuram, Madurai, Tamil Nadu",
         "details": false,
-        "layers": "neighborhood"
+        "layers": "neighbourhood"
       },
       "expected": {
         "properties": [
@@ -188,7 +190,8 @@
         "focus.point.lon": -73.990342,
         "text": "30 West 26th Street",
         "details": true,
-        "layers": "osmaddress"
+        "layers": "address",
+        "sources": "osm"
       },
       "expected": {
         "properties": [
@@ -226,7 +229,8 @@
         "focus.point.lon": -73.990342,
         "text": "30 West 26th Street",
         "details": 1,
-        "layers": "osmaddress"
+        "layers": "address",
+        "sources": "osm"
       },
       "expected": {
         "properties": [
@@ -264,7 +268,8 @@
         "focus.point.lon": -73.990342,
         "text": "30 West 26th Street",
         "details": "yes",
-        "layers": "osmaddress"
+        "layers": "address",
+        "sources": "osm"
       },
       "expected": {
         "properties": [
@@ -302,7 +307,8 @@
         "focus.point.lon": -73.990342,
         "text": "30 West 26th Street",
         "details": "y",
-        "layers": "osmaddress"
+        "layers": "address",
+        "sources": "osm"
       },
       "expected": {
         "properties": [
@@ -340,7 +346,8 @@
         "focus.point.lon": -73.990342,
         "text": "30 West 26th Street",
         "details": "no",
-        "layers": "osmaddress"
+        "layers": "address",
+        "sources": "osm"
       },
       "expected": {
         "properties": [

@@ -38,7 +38,7 @@
       "description": "checking for County to be part of the admin2 value",
       "in": {
         "text": "bronx",
-        "layers": "admin2"
+        "layers": "county"
       },
       "expected": {
         "properties": [
@@ -56,7 +56,7 @@
       "type": "dev",
       "in": {
         "text": "Lake, MT",
-        "layers": "admin2"
+        "layers": "county"
       },
       "expected": {
         "properties": [
@@ -128,7 +128,7 @@
       "status": "pass",
       "type": "dev",
       "in": {
-        "layers": "neighborhood",
+        "layers": "neighbourhood",
         "text": "hoboken"
       },
       "expected": {
@@ -153,7 +153,7 @@
       "type": "dev",
       "in": {
         "text": "mission, ca",
-        "layers": "admin"
+        "layers": "coarse"
       },
       "expected": {
         "properties": [
@@ -177,7 +177,7 @@
       "type": "dev",
       "in": {
         "text": "crown heights",
-        "layers": "admin"
+        "layers": "coarse"
       },
       "expected": {
         "properties": [
@@ -201,7 +201,7 @@
       "issue": "non definitive 'palo alto' (common name globally)",
       "in": {
         "text": "palo alto",
-        "layers": "admin"
+        "layers": "coarse"
       },
       "expected": {
         "properties": [
@@ -223,7 +223,7 @@
       "status": "pass",
       "in": {
         "text": "palo alto, ca",
-        "layers": "admin"
+        "layers": "coarse"
       },
       "expected": {
         "properties": [
@@ -272,7 +272,7 @@
       "status": "pass",
       "in": {
         "text": "cardiff, gbr",
-        "layers": "admin"
+        "layers": "coarse"
       },
       "expected": {
         "properties": [
@@ -353,7 +353,7 @@
       "type": "dev",
       "in": {
         "text": "Vista Center",
-        "layers": "neighborhood"
+        "layers": "neighbourhood"
       },
       "expected": {
         "properties": [
@@ -384,7 +384,7 @@
       "type": "dev",
       "in": {
         "text": "Yadkin Trail",
-        "layers": "neighborhood"
+        "layers": "neighbourhood"
       },
       "expected": {
         "properties": [
@@ -415,7 +415,7 @@
       "type": "dev",
       "in": {
         "text": "Hillside, Santa Clara",
-        "layers": "neighborhood"
+        "layers": "neighbourhood"
       },
       "expected": {
         "properties": [
@@ -446,7 +446,7 @@
       "type": "dev",
       "in": {
         "text": "Cardiff, GBR",
-        "layers": "admin"
+        "layers": "coarse"
       },
       "expected": {
         "properties": [
@@ -475,7 +475,7 @@
       "type": "dev",
       "in": {
         "text": "ringland",
-        "layers": "neighborhood"
+        "layers": "neighbourhood"
       },
       "expected": {
         "properties": [
@@ -506,7 +506,7 @@
       "type": "dev",
       "in": {
         "text": "california",
-        "layers": "admin1"
+        "layers": "region"
       },
       "expected": {
         "properties": [
