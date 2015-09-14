@@ -12,9 +12,7 @@
       "expected": {
         "properties": [
           {
-            "geocoding": {
-              "name": "100 20th Street"
-            }
+            "name": "100 20th Street"
           }
         ]
       }
@@ -29,9 +27,7 @@
       "expected": {
         "properties": [
           {
-            "geocoding": {
-              "name": "40 20th Street"
-            }
+            "name": "40 20th Street"
           }
         ]
       }
@@ -46,9 +42,7 @@
       "expected": {
         "properties": [
           {
-            "geocoding": {
-              "name": "120 42nd Street"
-            }
+            "name": "120 42nd Street"
           }
         ]
       }
@@ -64,9 +58,7 @@
       "expected": {
         "properties": [
           {
-            "geocoding": {
-              "name": "358 41st Street"
-            }
+            "name": "358 41st Street"
           }
         ]
       }
@@ -82,9 +74,7 @@
       "expected": {
         "properties": [
           {
-            "geocoding": {
-              "name": "1359 54 Street"
-            }
+            "name": "1359 54 Street"
           }
         ]
       }
@@ -100,9 +90,7 @@
       "expected": {
         "properties": [
           {
-            "geocoding": {
-              "name": "310 7 Street"
-            }
+            "name": "310 7 Street"
           }
         ]
       }
@@ -118,9 +106,7 @@
       "expected": {
         "properties": [
           {
-            "geocoding": {
-              "name": "921 83 Street"
-            }
+            "name": "921 83 Street"
           }
         ]
       }
@@ -136,9 +122,7 @@
       "expected": {
         "properties": [
           {
-            "geocoding": {
-              "name": "518 3 Street"
-            }
+            "name": "518 3 Street"
           }
         ]
       }

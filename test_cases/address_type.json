@@ -22,11 +22,9 @@
       "expected": {
         "properties": [
           {
-            "geocoding": {
-              "id": "address-osmnode-1401849738",
-              "layer": "address",
-              "source": "osm"
-            }
+            "id": "address-osmnode-1401849738",
+            "layer": "address",
+            "source": "osm"
           }
         ]
       }
@@ -48,11 +46,9 @@
       "expected": {
         "properties": [
           {
-            "geocoding": {
-              "id": "26489964",
-              "layer": "venue",
-              "source": "osm"
-            }
+            "id": "26489964",
+            "layer": "venue",
+            "source": "osm"
           }
         ]
       }
@@ -74,11 +70,9 @@
       "expected": {
         "properties": [
           {
-            "geocoding": {
-              "id": "poi-address-osmnode-26489964",
-              "layer": "address",
-              "source": "osm"
-            }
+            "id": "poi-address-osmnode-26489964",
+            "layer": "address",
+            "source": "osm"
           }
         ]
       }

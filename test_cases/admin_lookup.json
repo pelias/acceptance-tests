@@ -14,18 +14,14 @@
       "expected": {
         "properties": [
           {
-            "geocoding": {
-              "county": "Voelkermarkt"
-            }
+            "county": "Voelkermarkt"
           }
         ]
       },
       "unexpected": {
         "properties": [
           {
-            "geocoding": {
-              "county": "Vã¶lkermarkt"
-            }
+            "county": "Vã¶lkermarkt"
           }
         ]
       }
@@ -43,9 +39,7 @@
       "expected": {
         "properties": [
           {
-            "geocoding": {
-              "county": "Bronx County"
-            }
+            "county": "Bronx County"
           }
         ]
       }
@@ -61,9 +55,7 @@
       "expected": {
         "properties": [
           {
-            "geocoding": {
-              "county": "Lake County"
-            }
+            "county": "Lake County"
           }
         ]
       }
@@ -79,18 +71,14 @@
       "expected": {
         "properties": [
           {
-            "geocoding": {
-              "county": "Circular Head"
-            }
+            "county": "Circular Head"
           }
         ]
       },
       "unexpected": {
         "properties": [
           {
-            "geocoding": {
-              "county": "Circular Head (m)"
-            }
+            "county": "Circular Head (m)"
           }
         ]
       }
@@ -107,18 +95,14 @@
       "expected": {
         "properties": [
           {
-            "geocoding": {
-              "region": "London"
-            }
+            "region": "London"
           }
         ]
       },
       "unexpected": {
         "properties": [
           {
-            "geocoding": {
-              "region": "City And County Of The City Of London"
-            }
+            "region": "City And County Of The City Of London"
           }
         ]
       }
@@ -134,15 +118,13 @@
       "expected": {
         "properties": [
           {
-            "geocoding": {
-              "name": "West Hoboken",
-              "country_a": "USA",
-              "country": "United States",
-              "region": "New Jersey",
-              "region_a": "NJ",
-              "county": "Hudson County",
-              "label": "West Hoboken, Hudson County, NJ"
-            }
+            "name": "West Hoboken",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "New Jersey",
+            "region_a": "NJ",
+            "county": "Hudson County",
+            "label": "West Hoboken, Hudson County, NJ"
           }
         ]
       }
@@ -158,15 +140,13 @@
       "expected": {
         "properties": [
           {
-            "geocoding": {
-              "name": "Mission",
-              "country_a": "USA",
-              "country": "United States",
-              "region": "California",
-              "region_a": "CA",
-              "county": "San Francisco County",
-              "label": "Mission, San Francisco County, CA"
-            }
+            "name": "Mission",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "California",
+            "region_a": "CA",
+            "county": "San Francisco County",
+            "label": "Mission, San Francisco County, CA"
           }
         ]
       }
@@ -182,15 +162,13 @@
       "expected": {
         "properties": [
           {
-            "geocoding": {
-              "label": "Crown Heights, Kings County, NY",
-              "name": "Crown Heights",
-              "country_a": "USA",
-              "country": "United States",
-              "region": "New York",
-              "region_a": "NY",
-              "county": "Kings County"
-            }
+            "label": "Crown Heights, Kings County, NY",
+            "name": "Crown Heights",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "New York",
+            "region_a": "NY",
+            "county": "Kings County"
           }
         ]
       }
@@ -206,14 +184,12 @@
       "expected": {
         "properties": [
           {
-            "geocoding": {
-              "label": "Palo Alto, Santa Clara County, CA",
-              "country_a": "USA",
-              "country": "United States",
-              "region": "California",
-              "region_a": "CA",
-              "county": "Santa Clara County"
-            }
+            "label": "Palo Alto, Santa Clara County, CA",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "California",
+            "region_a": "CA",
+            "county": "Santa Clara County"
           }
         ]
       }
@@ -228,14 +204,12 @@
       "expected": {
         "properties": [
           {
-            "geocoding": {
-              "label": "Palo Alto, Santa Clara County, CA",
-              "country_a": "USA",
-              "country": "United States",
-              "region": "California",
-              "region_a": "CA",
-              "county": "Santa Clara County"
-            }
+            "label": "Palo Alto, Santa Clara County, CA",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "California",
+            "region_a": "CA",
+            "county": "Santa Clara County"
           }
         ]
       }
@@ -251,18 +225,14 @@
       "expected": {
         "properties": [
           {
-            "geocoding": {
-              "region": "Cardiff"
-            }
+            "region": "Cardiff"
           }
         ]
       },
       "unexpected": {
         "properties": [
           {
-            "geocoding": {
-              "region": "Caerdydd#Cardiff"
-            }
+            "region": "Caerdydd#Cardiff"
           }
         ]
       }
@@ -277,18 +247,14 @@
       "expected": {
         "properties": [
           {
-            "geocoding": {
-              "region": "Cardiff"
-            }
+            "region": "Cardiff"
           }
         ]
       },
       "unexpected": {
         "properties": [
           {
-            "geocoding": {
-              "region": "Caerdydd#Cardiff"
-            }
+            "region": "Caerdydd#Cardiff"
           }
         ]
       }
@@ -304,18 +270,14 @@
       "expected": {
         "properties": [
           {
-            "geocoding": {
-              "region": "Cardiff"
-            }
+            "region": "Cardiff"
           }
         ]
       },
       "unexpected": {
         "properties": [
           {
-            "geocoding": {
-              "region": "Caerdydd#Cardiff"
-            }
+            "region": "Caerdydd#Cardiff"
           }
         ]
       }
@@ -331,18 +293,14 @@
       "expected": {
         "properties": [
           {
-            "geocoding": {
-              "region": "Denbighshire"
-            }
+            "region": "Denbighshire"
           }
         ]
       },
       "unexpected": {
         "properties": [
           {
-            "geocoding": {
-              "county": "Sir Ddinbych#Denbighshire"
-            }
+            "county": "Sir Ddinbych#Denbighshire"
           }
         ]
       }
@@ -358,22 +316,18 @@
       "expected": {
         "properties": [
           {
-            "geocoding": {
-              "country": "United States",
-              "country_a": "USA",
-              "region": "New Jersey",
-              "region_a": "NJ",
-              "county": "Ocean County"
-            }
+            "country": "United States",
+            "country_a": "USA",
+            "region": "New Jersey",
+            "region_a": "NJ",
+            "county": "Ocean County"
           }
         ]
       },
       "unexpected": {
         "properties": [
           {
-            "geocoding": {
-              "county": "Ocean"
-            }
+            "county": "Ocean"
           }
         ]
       }
@@ -389,22 +343,18 @@
       "expected": {
         "properties": [
           {
-            "geocoding": {
-              "country": "United States",
-              "country_a": "USA",
-              "region": "North Carolina",
-              "region_a": "NC",
-              "county": "Moore County"
-            }
+            "country": "United States",
+            "country_a": "USA",
+            "region": "North Carolina",
+            "region_a": "NC",
+            "county": "Moore County"
           }
         ]
       },
       "unexpected": {
         "properties": [
           {
-            "geocoding": {
-              "county": "Moore"
-            }
+            "county": "Moore"
           }
         ]
       }
@@ -420,22 +370,18 @@
       "expected": {
         "properties": [
           {
-            "geocoding": {
-              "country": "United States",
-              "country_a": "USA",
-              "region": "California",
-              "region_a": "CA",
-              "county": "Santa Clara County"
-            }
+            "country": "United States",
+            "country_a": "USA",
+            "region": "California",
+            "region_a": "CA",
+            "county": "Santa Clara County"
           }
         ]
       },
       "unexpected": {
         "properties": [
           {
-            "geocoding": {
-              "county": "Moore"
-            }
+            "county": "Moore"
           }
         ]
       }
@@ -451,20 +397,16 @@
       "expected": {
         "properties": [
           {
-            "geocoding": {
-              "country_a": "GBR",
-              "country": "United Kingdom",
-              "region": "Cardiff"
-            }
+            "country_a": "GBR",
+            "country": "United Kingdom",
+            "region": "Cardiff"
           }
         ]
       },
       "unexpected": {
         "properties": [
           {
-            "geocoding": {
-              "region": "Caerdydd#cardiff"
-            }
+            "region": "Caerdydd#cardiff"
           }
         ]
       }
@@ -480,22 +422,18 @@
       "expected": {
         "properties": [
           {
-            "geocoding": {
-              "country_a": "GBR",
-              "country": "United Kingdom",
-              "region": "Newport",
-              "county": "Newport City"
-            }
+            "country_a": "GBR",
+            "country": "United Kingdom",
+            "region": "Newport",
+            "county": "Newport City"
           }
         ]
       },
       "unexpected": {
         "properties": [
           {
-            "geocoding": {
-              "region": "Casnewydd#Newport",
-              "county": "Newport"
-            }
+            "region": "Casnewydd#Newport",
+            "county": "Newport"
           }
         ]
       }
@@ -511,16 +449,14 @@
       "expected": {
         "properties": [
           {
-            "geocoding": {
-              "layer": "region",
-              "name": "California",
-              "country_a": "USA",
-              "country": "United States",
-              "region": "California",
-              "region_a": "CA",
-              "label": "California, CA",
-              "source": "qs"
-            }
+            "layer": "region",
+            "name": "California",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "California",
+            "region_a": "CA",
+            "label": "California, CA",
+            "source": "qs"
           }
         ]
       }

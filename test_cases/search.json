@@ -14,15 +14,13 @@
       "expected": {
         "properties": [
           {
-            "geocoding": {
-              "name": "Brooklyn",
-              "country_a": "USA",
-              "country": "United States",
-              "region": "New York",
-              "region_a": "NY",
-              "county": "Kings County",
-              "label": "Brooklyn, Kings County, NY"
-            }
+            "name": "Brooklyn",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "New York",
+            "region_a": "NY",
+            "county": "Kings County",
+            "label": "Brooklyn, Kings County, NY"
           }
         ]
       }
@@ -38,15 +36,13 @@
       "expected": {
         "properties": [
           {
-            "geocoding": {
-              "name": "Brooklyn",
-              "country_a": "USA",
-              "country": "United States",
-              "region": "New York",
-              "region_a": "NY",
-              "county": "Kings County",
-              "label": "Brooklyn, Kings County, NY"
-            }
+            "name": "Brooklyn",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "New York",
+            "region_a": "NY",
+            "county": "Kings County",
+            "label": "Brooklyn, Kings County, NY"
           }
         ]
       }
@@ -68,14 +64,12 @@
       "expected": {
         "properties": [
           {
-            "geocoding": {
-              "label": "Philadelphia, Philadelphia County, PA",
-              "name": "Philadelphia",
-              "region": "Pennsylvania",
-              "country": "United States",
-              "region_a": "PA",
-              "county": "Philadelphia County"
-            }
+            "label": "Philadelphia, Philadelphia County, PA",
+            "name": "Philadelphia",
+            "region": "Pennsylvania",
+            "country": "United States",
+            "region_a": "PA",
+            "county": "Philadelphia County"
           }
         ]
       }
@@ -91,14 +85,12 @@
       "expected": {
         "properties": [
           {
-            "geocoding": {
-              "label": "Philadelphia, Philadelphia County, PA",
-              "name": "Philadelphia",
-              "region": "Pennsylvania",
-              "country": "United States",
-              "region_a": "PA",
-              "county": "Philadelphia County"
-            }
+            "label": "Philadelphia, Philadelphia County, PA",
+            "name": "Philadelphia",
+            "region": "Pennsylvania",
+            "country": "United States",
+            "region_a": "PA",
+            "county": "Philadelphia County"
           }
         ]
       }
@@ -115,17 +107,15 @@
       "expected": {
         "properties": [
           {
-            "geocoding": {
-              "name": "New York City",
-              "country_a": "USA",
-              "country": "United States",
-              "region": "New York",
-              "region_a": "NY",
-              "county": "New York County",
-              "localadmin": "Manhattan",
-              "locality": "New York",
-              "label": "New York City, Manhattan, NY"
-            }
+            "name": "New York City",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "New York",
+            "region_a": "NY",
+            "county": "New York County",
+            "localadmin": "Manhattan",
+            "locality": "New York",
+            "label": "New York City, Manhattan, NY"
           }
         ]
       }
@@ -142,17 +132,15 @@
       "expected": {
         "properties": [
           {
-            "geocoding": {
-              "name": "New York City",
-              "country_a": "USA",
-              "country": "United States",
-              "region": "New York",
-              "region_a": "NY",
-              "county": "New York County",
-              "localadmin": "Manhattan",
-              "locality": "New York",
-              "label": "New York City, Manhattan, NY"
-            }
+            "name": "New York City",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "New York",
+            "region_a": "NY",
+            "county": "New York County",
+            "localadmin": "Manhattan",
+            "locality": "New York",
+            "label": "New York City, Manhattan, NY"
           }
         ]
       }
@@ -168,17 +156,15 @@
       "expected": {
         "properties": [
           {
-            "geocoding": {
-              "name": "New York City",
-              "country_a": "USA",
-              "country": "United States",
-              "region": "New York",
-              "region_a": "NY",
-              "county": "New York County",
-              "localadmin": "Manhattan",
-              "locality": "New York",
-              "label": "New York City, Manhattan, NY"
-            }
+            "name": "New York City",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "New York",
+            "region_a": "NY",
+            "county": "New York County",
+            "localadmin": "Manhattan",
+            "locality": "New York",
+            "label": "New York City, Manhattan, NY"
           }
         ]
       }
@@ -194,12 +180,10 @@
       "expected": {
         "properties": [
           {
-            "geocoding": {
-              "label": "130 Dean Street, Brooklyn, NY",
-              "name": "130 Dean Street",
-              "country": "United States",
-              "region": "New York"
-            }
+            "label": "130 Dean Street, Brooklyn, NY",
+            "name": "130 Dean Street",
+            "country": "United States",
+            "region": "New York"
           }
         ]
       }
@@ -215,15 +199,13 @@
       "expected": {
         "properties": [
           {
-            "geocoding": {
-              "label": "Billerica, Middlesex County, MA",
-              "county": "Middlesex County",
-              "name": "Billerica",
-              "country_a": "USA",
-              "country": "United States",
-              "region": "Massachusetts",
-              "region_a": "MA"
-            }
+            "label": "Billerica, Middlesex County, MA",
+            "county": "Middlesex County",
+            "name": "Billerica",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "Massachusetts",
+            "region_a": "MA"
           }
         ]
       }
@@ -239,15 +221,13 @@
       "expected": {
         "properties": [
           {
-            "geocoding": {
-              "label": "Billerica, Middlesex County, MA",
-              "county": "Middlesex County",
-              "name": "Billerica",
-              "country_a": "USA",
-              "country": "United States",
-              "region": "Massachusetts",
-              "region_a": "MA"
-            }
+            "label": "Billerica, Middlesex County, MA",
+            "county": "Middlesex County",
+            "name": "Billerica",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "Massachusetts",
+            "region_a": "MA"
           }
         ]
       }
@@ -262,15 +242,13 @@
       "expected": {
         "properties": [
           {
-            "geocoding": {
-              "name": "Union Square",
-              "country_a": "USA",
-              "country": "United States",
-              "region": "California",
-              "region_a": "CA",
-              "county": "San Francisco County",
-              "label": "Union Square, San Francisco County, CA"
-            }
+            "name": "Union Square",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "California",
+            "region_a": "CA",
+            "county": "San Francisco County",
+            "label": "Union Square, San Francisco County, CA"
           }
         ]
       }
@@ -287,15 +265,13 @@
       "expected": {
         "properties": [
           {
-            "geocoding": {
-              "name": "Portland",
-              "country_a": "USA",
-              "country": "United States",
-              "region": "Oregon",
-              "region_a": "OR",
-              "county": "Multnomah County",
-              "label": "Portland, Multnomah County, OR"
-            }
+            "name": "Portland",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "Oregon",
+            "region_a": "OR",
+            "county": "Multnomah County",
+            "label": "Portland, Multnomah County, OR"
           }
         ]
       }
@@ -311,15 +287,13 @@
       "expected": {
         "properties": [
           {
-            "geocoding": {
-              "name": "Portland",
-              "country_a": "USA",
-              "country": "United States",
-              "region": "Oregon",
-              "region_a": "OR",
-              "county": "Multnomah County",
-              "label": "Portland, Multnomah County, OR"
-            }
+            "name": "Portland",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "Oregon",
+            "region_a": "OR",
+            "county": "Multnomah County",
+            "label": "Portland, Multnomah County, OR"
           }
         ]
       }
@@ -334,13 +308,11 @@
       "expected": {
         "properties": [
           {
-            "geocoding": {
-              "name": "Paris",
-              "country_a": "FRA",
-              "country": "France",
-              "region": "Paris",
-              "label": "Paris"
-            }
+            "name": "Paris",
+            "country_a": "FRA",
+            "country": "France",
+            "region": "Paris",
+            "label": "Paris"
           }
         ]
       }
@@ -359,12 +331,10 @@
       "expected": {
         "properties": [
           {
-            "geocoding": {
-              "name": "France",
-              "country": "France",
-              "country_a": "FRA",
-              "label": "France"
-            }
+            "name": "France",
+            "country": "France",
+            "country_a": "FRA",
+            "label": "France"
           }
         ]
       }
@@ -380,12 +350,10 @@
       "expected": {
         "properties": [
           {
-            "geocoding": {
-              "name": "London",
-              "country_a": "GBR",
-              "country": "United Kingdom",
-              "label": "London, United Kingdom"
-            }
+            "name": "London",
+            "country_a": "GBR",
+            "country": "United Kingdom",
+            "label": "London, United Kingdom"
           }
         ]
       }
@@ -401,17 +369,15 @@
       "expected": {
         "properties": [
           {
-            "geocoding": {
-              "layer": "neighbourhood",
-              "name": "Chelsea",
-              "country_a": "USA",
-              "country": "United States",
-              "region": "New York",
-              "region_a": "NY",
-              "county": "New York County",
-              "label": "Chelsea, New York County, NY",
-              "source": "qs"
-            }
+            "layer": "neighbourhood",
+            "name": "Chelsea",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "New York",
+            "region_a": "NY",
+            "county": "New York County",
+            "label": "Chelsea, New York County, NY",
+            "source": "qs"
           }
         ]
       }
@@ -429,17 +395,15 @@
       "expected": {
         "properties": [
           {
-            "geocoding": {
-              "name": "SoHo",
-              "country_a": "USA",
-              "country": "United States",
-              "region": "New York",
-              "region_a": "NY",
-              "county": "New York County",
-              "localadmin": "Manhattan",
-              "locality": "New York",
-              "label": "SoHo, Manhattan, NY"
-            }
+            "name": "SoHo",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "New York",
+            "region_a": "NY",
+            "county": "New York County",
+            "localadmin": "Manhattan",
+            "locality": "New York",
+            "label": "SoHo, Manhattan, NY"
           }
         ]
       }
@@ -454,17 +418,15 @@
       "expected": {
         "properties": [
           {
-            "geocoding": {
-              "layer": "venue",
-              "name": "Perugia San Francesco d'Assisi – Umbria International Airport",
-              "country_a": "ITA",
-              "country": "Italy",
-              "region": "Umbria",
-              "county": "Provincia di Perugia",
-              "localadmin": "Perugia",
-              "label": "Perugia San Francesco d'Assisi – Umbria International Airport, Perugia, Umbria",
-              "source": "gn"
-            }
+            "layer": "venue",
+            "name": "Perugia San Francesco d'Assisi – Umbria International Airport",
+            "country_a": "ITA",
+            "country": "Italy",
+            "region": "Umbria",
+            "county": "Provincia di Perugia",
+            "localadmin": "Perugia",
+            "label": "Perugia San Francesco d'Assisi – Umbria International Airport, Perugia, Umbria",
+            "source": "gn"
           }
         ]
       }
@@ -480,18 +442,16 @@
       "expected": {
         "properties": [
           {
-            "geocoding": {
-              "country": "United States",
-              "region": "New York",
-              "region_a": "NY",
-              "county": "New York County",
-              "country_a": "USA",
-              "localadmin": "Manhattan",
-              "locality": "New York",
-              "name": "101 Saint Marks Place",
-              "neighbourhood": "East Village",
-              "label": "101 Saint Marks Place, Manhattan, NY"
-            }
+            "country": "United States",
+            "region": "New York",
+            "region_a": "NY",
+            "county": "New York County",
+            "country_a": "USA",
+            "localadmin": "Manhattan",
+            "locality": "New York",
+            "name": "101 Saint Marks Place",
+            "neighbourhood": "East Village",
+            "label": "101 Saint Marks Place, Manhattan, NY"
           }
         ]
       }
@@ -508,18 +468,16 @@
       "expected": {
         "properties": [
           {
-            "geocoding": {
-              "name": "Newark Liberty International Airport",
-              "country_a": "USA",
-              "country": "United States",
-              "region": "New Jersey",
-              "region_a": "NJ",
-              "county": "Essex County",
-              "localadmin": "Newark",
-              "locality": "Newark",
-              "neighbourhood": "Dayton",
-              "label": "Newark Liberty International Airport, Newark, NJ"
-            }
+            "name": "Newark Liberty International Airport",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "New Jersey",
+            "region_a": "NJ",
+            "county": "Essex County",
+            "localadmin": "Newark",
+            "locality": "Newark",
+            "neighbourhood": "Dayton",
+            "label": "Newark Liberty International Airport, Newark, NJ"
           }
         ]
       }
@@ -533,14 +491,12 @@
       "expected": {
         "properties": [
           {
-            "geocoding": {
-              "name": "7 Simon-Dach-Straße",
-              "country_a": "DEU",
-              "region": "Bayern",
-              "county": "Erlangen-Hoechstadt",
-              "locality": "Uttenreuth",
-              "label": "7 Simon-Dach-Straße, Uttenreuth, Bayern"
-            }
+            "name": "7 Simon-Dach-Straße",
+            "country_a": "DEU",
+            "region": "Bayern",
+            "county": "Erlangen-Hoechstadt",
+            "locality": "Uttenreuth",
+            "label": "7 Simon-Dach-Straße, Uttenreuth, Bayern"
           }
         ]
       },

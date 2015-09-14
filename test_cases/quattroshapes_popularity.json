@@ -16,15 +16,13 @@
       "expected": {
         "properties": [
           {
-            "geocoding": {
-              "name": "Chelsea",
-              "country_a": "USA",
-              "country": "United States",
-              "region": "New York",
-              "region_a": "NY",
-              "county": "New York County",
-              "label": "Chelsea, New York County, NY"
-            }
+            "name": "Chelsea",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "New York",
+            "region_a": "NY",
+            "county": "New York County",
+            "label": "Chelsea, New York County, NY"
           }
         ]
       }
@@ -41,15 +39,13 @@
       "expected": {
         "properties": [
           {
-            "geocoding": {
-              "name": "Chelsea",
-              "country_a": "USA",
-              "country": "United States",
-              "region": "New York",
-              "region_a": "NY",
-              "county": "New York County",
-              "label": "Chelsea, New York County, NY"
-            }
+            "name": "Chelsea",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "New York",
+            "region_a": "NY",
+            "county": "New York County",
+            "label": "Chelsea, New York County, NY"
           }
         ]
       }
@@ -67,15 +63,13 @@
       "expected": {
         "properties": [
           {
-            "geocoding": {
-              "name": "Williamsburg",
-              "country_a": "USA",
-              "country": "United States",
-              "region": "New York",
-              "region_a": "NY",
-              "county": "Kings County",
-              "label": "Williamsburg, Kings County, NY"
-            }
+            "name": "Williamsburg",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "New York",
+            "region_a": "NY",
+            "county": "Kings County",
+            "label": "Williamsburg, Kings County, NY"
           }
         ]
       }
@@ -92,15 +86,13 @@
       "expected": {
         "properties": [
           {
-            "geocoding": {
-              "name": "Williamsburg",
-              "country_a": "USA",
-              "country": "United States",
-              "region": "New York",
-              "region_a": "NY",
-              "county": "Kings County",
-              "label": "Williamsburg, Kings County, NY"
-            }
+            "name": "Williamsburg",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "New York",
+            "region_a": "NY",
+            "county": "Kings County",
+            "label": "Williamsburg, Kings County, NY"
           }
         ]
       }
@@ -118,15 +110,13 @@
       "expected": {
         "properties": [
           {
-            "geocoding": {
-              "name": "Ridgewood",
-              "country_a": "USA",
-              "country": "United States",
-              "region": "New York",
-              "region_a": "NY",
-              "county": "Queens County",
-              "label": "Ridgewood, Queens County, NY"
-            }
+            "name": "Ridgewood",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "New York",
+            "region_a": "NY",
+            "county": "Queens County",
+            "label": "Ridgewood, Queens County, NY"
           }
         ]
       }
@@ -143,15 +133,13 @@
       "expected": {
         "properties": [
           {
-            "geocoding": {
-              "name": "Ridgewood",
-              "country_a": "USA",
-              "country": "United States",
-              "region": "New York",
-              "region_a": "NY",
-              "county": "Queens County",
-              "label": "Ridgewood, Queens County, NY"
-            }
+            "name": "Ridgewood",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "New York",
+            "region_a": "NY",
+            "county": "Queens County",
+            "label": "Ridgewood, Queens County, NY"
           }
         ]
       }
