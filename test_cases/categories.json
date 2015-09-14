@@ -14,23 +14,21 @@
       "expected": {
         "properties": [
           {
-            "geocoding": {
-              "name": "East 34th Street Heliport",
-              "region": "New York",
-              "label": "East 34th Street Heliport, Manhattan, NY",
-              "localadmin": "Manhattan",
-              "neighbourhood": "East Side",
-              "locality": "New York",
-              "country_a": "USA",
-              "county": "New York County",
-              "region_a": "NY",
-              "country": "United States",
-              "category": [
-                "transport:air:airport",
-                "transport:air",
-                "transport"
-              ]
-            }
+            "name": "East 34th Street Heliport",
+            "region": "New York",
+            "label": "East 34th Street Heliport, Manhattan, NY",
+            "localadmin": "Manhattan",
+            "neighbourhood": "East Side",
+            "locality": "New York",
+            "country_a": "USA",
+            "county": "New York County",
+            "region_a": "NY",
+            "country": "United States",
+            "category": [
+              "transport:air:airport",
+              "transport:air",
+              "transport"
+            ]
           }
         ]
       }
@@ -47,22 +45,20 @@
       "expected": {
         "properties": [
           {
-            "geocoding": {
-              "name": "Sixtyninth Regiment Armory (historical)",
-              "region": "New York",
-              "label": "Sixtyninth Regiment Armory (historical), Manhattan, NY",
-              "localadmin": "Manhattan",
-              "neighbourhood": "Midtown South",
-              "locality": "New York",
-              "country_a": "USA",
-              "county": "New York County",
-              "region_a": "NY",
-              "country": "United States",
-              "category": [
-                "government:military",
-                "government"
-              ]
-            }
+            "name": "Sixtyninth Regiment Armory (historical)",
+            "region": "New York",
+            "label": "Sixtyninth Regiment Armory (historical), Manhattan, NY",
+            "localadmin": "Manhattan",
+            "neighbourhood": "Midtown South",
+            "locality": "New York",
+            "country_a": "USA",
+            "county": "New York County",
+            "region_a": "NY",
+            "country": "United States",
+            "category": [
+              "government:military",
+              "government"
+            ]
           }
         ]
       }
@@ -79,21 +75,19 @@
       "expected": {
         "properties": [
           {
-            "geocoding": {
-              "name": "Fashion Institute of Technology",
-              "region": "New York",
-              "label": "Fashion Institute of Technology, Manhattan, NY",
-              "localadmin": "Manhattan",
-              "neighbourhood": "Garment District",
-              "locality": "New York",
-              "country_a": "USA",
-              "county": "New York County",
-              "region_a": "NY",
-              "country": "United States",
-              "category": [
-                "education"
+            "name": "Fashion Institute of Technology",
+            "region": "New York",
+            "label": "Fashion Institute of Technology, Manhattan, NY",
+            "localadmin": "Manhattan",
+            "neighbourhood": "Garment District",
+            "locality": "New York",
+            "country_a": "USA",
+            "county": "New York County",
+            "region_a": "NY",
+            "country": "United States",
+            "category": [
+              "education"
               ]
-            }
           }
         ]
       }
@@ -110,21 +104,19 @@
       "expected": {
         "properties": [
           {
-            "geocoding": {
-              "name": "Cabrini Medical Center",
-              "region": "New York",
-              "label": "Cabrini Medical Center, Manhattan, NY",
-              "localadmin": "Manhattan",
-              "neighbourhood": "Gramercy",
-              "locality": "New York",
-              "country_a": "USA",
-              "county": "New York County",
-              "region_a": "NY",
-              "country": "United States",
-              "category": [
-                "health"
+            "name": "Cabrini Medical Center",
+            "region": "New York",
+            "label": "Cabrini Medical Center, Manhattan, NY",
+            "localadmin": "Manhattan",
+            "neighbourhood": "Gramercy",
+            "locality": "New York",
+            "country_a": "USA",
+            "county": "New York County",
+            "region_a": "NY",
+            "country": "United States",
+            "category": [
+              "health"
               ]
-            }
           }
         ]
       }
@@ -141,22 +133,20 @@
       "expected": {
         "properties": [
           {
-            "geocoding": {
-              "name": "Port Authority Bus Terminal",
-              "region": "New York",
-              "label": "Port Authority Bus Terminal, Manhattan, NY",
-              "localadmin": "Manhattan",
-              "neighbourhood": "Midtown West",
-              "locality": "New York",
-              "country_a": "USA",
-              "county": "New York County",
-              "region_a": "NY",
-              "country": "United States",
-              "category": [
-                "transport:bus",
-                "transport"
-              ]
-            }
+            "name": "Port Authority Bus Terminal",
+            "region": "New York",
+            "label": "Port Authority Bus Terminal, Manhattan, NY",
+            "localadmin": "Manhattan",
+            "neighbourhood": "Midtown West",
+            "locality": "New York",
+            "country_a": "USA",
+            "county": "New York County",
+            "region_a": "NY",
+            "country": "United States",
+            "category": [
+              "transport:bus",
+              "transport"
+            ]
           }
         ]
       }
@@ -173,21 +163,19 @@
       "expected": {
         "properties": [
           {
-            "geocoding": {
-              "name": "Manhattan Mall Shopping Center",
-              "region": "New York",
-              "label": "Manhattan Mall Shopping Center, Manhattan, NY",
-              "localadmin": "Manhattan",
-              "neighbourhood": "Garment District",
-              "locality": "New York",
-              "country_a": "USA",
-              "county": "New York County",
-              "region_a": "NY",
-              "country": "United States",
-              "category": [
-                "retail"
+            "name": "Manhattan Mall Shopping Center",
+            "region": "New York",
+            "label": "Manhattan Mall Shopping Center, Manhattan, NY",
+            "localadmin": "Manhattan",
+            "neighbourhood": "Garment District",
+            "locality": "New York",
+            "country_a": "USA",
+            "county": "New York County",
+            "region_a": "NY",
+            "country": "United States",
+            "category": [
+              "retail"
               ]
-            }
           }
         ]
       }
@@ -204,22 +192,20 @@
       "expected": {
         "properties": [
           {
-            "geocoding": {
-              "name": "Cooper Station New York Post Office",
-              "region": "New York",
-              "label": "Cooper Station New York Post Office, Manhattan, NY",
-              "localadmin": "Manhattan",
-              "neighbourhood": "NoHo",
-              "locality": "New York",
-              "country_a": "USA",
-              "county": "New York County",
-              "region_a": "NY",
-              "country": "United States",
-              "category": [
-                "government",
-                "professional"
-              ]
-            }
+            "name": "Cooper Station New York Post Office",
+            "region": "New York",
+            "label": "Cooper Station New York Post Office, Manhattan, NY",
+            "localadmin": "Manhattan",
+            "neighbourhood": "NoHo",
+            "locality": "New York",
+            "country_a": "USA",
+            "county": "New York County",
+            "region_a": "NY",
+            "country": "United States",
+            "category": [
+              "government",
+              "professional"
+            ]
           }
         ]
       }
@@ -236,21 +222,19 @@
       "expected": {
         "properties": [
           {
-            "geocoding": {
-              "name": "Ed Sullivan Theatre",
-              "region": "New York",
-              "label": "Ed Sullivan Theatre, Manhattan, NY",
-              "localadmin": "Manhattan",
-              "neighbourhood": "San Juan Hill",
-              "locality": "New York",
-              "country_a": "USA",
-              "county": "New York County",
-              "region_a": "NY",
-              "country": "United States",
-              "category": [
-                "entertainment"
+            "name": "Ed Sullivan Theatre",
+            "region": "New York",
+            "label": "Ed Sullivan Theatre, Manhattan, NY",
+            "localadmin": "Manhattan",
+            "neighbourhood": "San Juan Hill",
+            "locality": "New York",
+            "country_a": "USA",
+            "county": "New York County",
+            "region_a": "NY",
+            "country": "United States",
+            "category": [
+              "entertainment"
               ]
-            }
           }
         ]
       }
@@ -267,21 +251,19 @@
       "expected": {
         "properties": [
           {
-            "geocoding": {
-              "name": "Glad Tidings Tabernacle Church",
-              "region": "New York",
-              "label": "Glad Tidings Tabernacle Church, Manhattan, NY",
-              "localadmin": "Manhattan",
-              "neighbourhood": "Garment District",
-              "locality": "New York",
-              "country_a": "USA",
-              "county": "New York County",
-              "region_a": "NY",
-              "country": "United States",
-              "category": [
-                "religion"
+            "name": "Glad Tidings Tabernacle Church",
+            "region": "New York",
+            "label": "Glad Tidings Tabernacle Church, Manhattan, NY",
+            "localadmin": "Manhattan",
+            "neighbourhood": "Garment District",
+            "locality": "New York",
+            "country_a": "USA",
+            "county": "New York County",
+            "region_a": "NY",
+            "country": "United States",
+            "category": [
+              "religion"
               ]
-            }
           }
         ]
       }
@@ -298,21 +280,19 @@
       "expected": {
         "properties": [
           {
-            "geocoding": {
-              "name": "National 9/11 memorial",
-              "region": "New York",
-              "label": "National 9/11 memorial, Manhattan, NY",
-              "localadmin": "Manhattan",
-              "neighbourhood": "Battery Park City",
-              "locality": "New York",
-              "country_a": "USA",
-              "county": "New York County",
-              "region_a": "NY",
-              "country": "United States",
-              "category": [
-                "landmark"
+            "name": "National 9/11 memorial",
+            "region": "New York",
+            "label": "National 9/11 memorial, Manhattan, NY",
+            "localadmin": "Manhattan",
+            "neighbourhood": "Battery Park City",
+            "locality": "New York",
+            "country_a": "USA",
+            "county": "New York County",
+            "region_a": "NY",
+            "country": "United States",
+            "category": [
+              "landmark"
               ]
-            }
           }
         ]
       }
@@ -329,22 +309,20 @@
       "expected": {
         "properties": [
           {
-            "geocoding": {
-              "name": "Weehawken Cove",
-              "region": "New Jersey",
-              "label": "Weehawken Cove, Hoboken, NJ",
-              "localadmin": "Hoboken",
-              "neighbourhood": "West Hoboken",
-              "locality": "Hoboken",
-              "country_a": "USA",
-              "county": "Hudson County",
-              "region_a": "NJ",
-              "country": "United States",
-              "category": [
-                "natural:water",
-                "natural"
-              ]
-            }
+            "name": "Weehawken Cove",
+            "region": "New Jersey",
+            "label": "Weehawken Cove, Hoboken, NJ",
+            "localadmin": "Hoboken",
+            "neighbourhood": "West Hoboken",
+            "locality": "Hoboken",
+            "country_a": "USA",
+            "county": "Hudson County",
+            "region_a": "NJ",
+            "country": "United States",
+            "category": [
+              "natural:water",
+              "natural"
+            ]
           }
         ]
       }
@@ -361,21 +339,19 @@
       "expected": {
         "properties": [
           {
-            "geocoding": {
-              "name": "Howard Johnson Midtown Manhattan",
-              "region": "New York",
-              "label": "Howard Johnson Midtown Manhattan, Manhattan, NY",
-              "localadmin": "Manhattan",
-              "neighbourhood": "Midtown West",
-              "locality": "New York",
-              "country_a": "USA",
-              "county": "New York County",
-              "region_a": "NY",
-              "country": "United States",
-              "category": [
-                "accommodation"
+            "name": "Howard Johnson Midtown Manhattan",
+            "region": "New York",
+            "label": "Howard Johnson Midtown Manhattan, Manhattan, NY",
+            "localadmin": "Manhattan",
+            "neighbourhood": "Midtown West",
+            "locality": "New York",
+            "country_a": "USA",
+            "county": "New York County",
+            "region_a": "NY",
+            "country": "United States",
+            "category": [
+              "accommodation"
               ]
-            }
           }
         ]
       }
@@ -392,22 +368,20 @@
       "expected": {
         "properties": [
           {
-            "geocoding": {
-              "name": "East River Park",
-              "region": "New York",
-              "label": "East River Park, Manhattan, NY",
-              "localadmin": "Manhattan",
-              "neighbourhood": "LoHo",
-              "locality": "New York",
-              "country_a": "USA",
-              "county": "New York County",
-              "region_a": "NY",
-              "country": "United States",
-              "category": [
-                "natural",
-                "recreation"
-              ]
-            }
+            "name": "East River Park",
+            "region": "New York",
+            "label": "East River Park, Manhattan, NY",
+            "localadmin": "Manhattan",
+            "neighbourhood": "LoHo",
+            "locality": "New York",
+            "country_a": "USA",
+            "county": "New York County",
+            "region_a": "NY",
+            "country": "United States",
+            "category": [
+              "natural",
+              "recreation"
+            ]
           }
         ]
       }
@@ -424,23 +398,21 @@
       "expected": {
         "properties": [
           {
-            "geocoding": {
-              "name": "Chelsea Piers",
-              "region": "New York",
-              "label": "Chelsea Piers, Manhattan, NY",
-              "localadmin": "Manhattan",
-              "neighbourhood": "Chelsea",
-              "locality": "New York",
-              "country_a": "USA",
-              "county": "New York County",
-              "region_a": "NY",
-              "country": "United States",
-              "category": [
-                "transport:sea",
-                "transport",
-                "industry"
-              ]
-            }
+            "name": "Chelsea Piers",
+            "region": "New York",
+            "label": "Chelsea Piers, Manhattan, NY",
+            "localadmin": "Manhattan",
+            "neighbourhood": "Chelsea",
+            "locality": "New York",
+            "country_a": "USA",
+            "county": "New York County",
+            "region_a": "NY",
+            "country": "United States",
+            "category": [
+              "transport:sea",
+              "transport",
+              "industry"
+            ]
           }
         ]
       }
@@ -456,19 +428,17 @@
       "expected": {
         "properties": [
           {
-            "geocoding": {
-              "region": "Connecticut",
-              "country_a": "USA",
-              "country": "United States",
-              "county": "New London County",
-              "label": "Goshen Point, Waterford, CT",
-              "region_a": "CT",
-              "localadmin": "Waterford",
-              "name": "Goshen Point",
-              "category": [
-                "natural"
+            "region": "Connecticut",
+            "country_a": "USA",
+            "country": "United States",
+            "county": "New London County",
+            "label": "Goshen Point, Waterford, CT",
+            "region_a": "CT",
+            "localadmin": "Waterford",
+            "name": "Goshen Point",
+            "category": [
+              "natural"
               ]
-            }
           }
         ]
       }
@@ -484,20 +454,18 @@
       "expected": {
         "properties": [
           {
-            "geocoding": {
-              "label": "Grant Swamp, Winchester, CT",
-              "county": "Litchfield County",
-              "region": "Connecticut",
-              "country_a": "USA",
-              "name": "Grant Swamp",
-              "localadmin": "Winchester",
-              "country": "United States",
-              "region_a": "CT",
-              "category": [
-                "natural:water",
-                "natural"
-              ]
-            }
+            "label": "Grant Swamp, Winchester, CT",
+            "county": "Litchfield County",
+            "region": "Connecticut",
+            "country_a": "USA",
+            "name": "Grant Swamp",
+            "localadmin": "Winchester",
+            "country": "United States",
+            "region_a": "CT",
+            "category": [
+              "natural:water",
+              "natural"
+            ]
           }
         ]
       }
@@ -513,20 +481,18 @@
       "expected": {
         "properties": [
           {
-            "geocoding": {
-              "name": "Grassmere Golf Course",
-              "region": "Connecticut",
-              "county": "Hartford County",
-              "label": "Grassmere Golf Course, Enfield, CT",
-              "country_a": "USA",
-              "localadmin": "Enfield",
-              "region_a": "CT",
-              "country": "United States",
-              "category": [
-                "recreation",
-                "entertainment"
-              ]
-            }
+            "name": "Grassmere Golf Course",
+            "region": "Connecticut",
+            "county": "Hartford County",
+            "label": "Grassmere Golf Course, Enfield, CT",
+            "country_a": "USA",
+            "localadmin": "Enfield",
+            "region_a": "CT",
+            "country": "United States",
+            "category": [
+              "recreation",
+              "entertainment"
+            ]
           }
         ]
       }
@@ -542,19 +508,17 @@
       "expected": {
         "properties": [
           {
-            "geocoding": {
-              "county": "Delaware County",
-              "name": "Town of Hamden",
-              "country": "United States",
-              "country_a": "USA",
-              "label": "Town of Hamden, Hamden, NY",
-              "region": "New York",
-              "localadmin": "Hamden",
-              "region_a": "NY",
-              "category": [
-                "admin"
+            "county": "Delaware County",
+            "name": "Town of Hamden",
+            "country": "United States",
+            "country_a": "USA",
+            "label": "Town of Hamden, Hamden, NY",
+            "region": "New York",
+            "localadmin": "Hamden",
+            "region_a": "NY",
+            "category": [
+              "admin"
               ]
-            }
           }
         ]
       }
@@ -570,11 +534,9 @@
       "expected": {
         "properties": [
           {
-            "geocoding": {
-              "category": [
-                "accommodation"
+            "category": [
+              "accommodation"
               ]
-            }
           }
         ]
       }

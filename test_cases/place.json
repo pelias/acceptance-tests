@@ -12,11 +12,9 @@
       "expected": {
         "properties": [
           {
-            "geocoding": {
-              "id": "2562438641",
-              "layer": "venue",
-              "source": "osm"
-            }
+            "id": "2562438641",
+            "layer": "venue",
+            "source": "osm"
           }
         ]
       }

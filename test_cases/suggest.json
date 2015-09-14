@@ -17,18 +17,16 @@
       "expected": {
         "properties": [
           {
-            "geocoding": {
-              "name": "DiDi Dumpling",
-              "country_a": "USA",
-              "country": "United States",
-              "region": "New York",
-              "region_a": "NY",
-              "county": "New York County",
-              "localadmin": "Manhattan",
-              "locality": "New York",
-              "neighbourhood": "Rose Hill",
-              "label": "DiDi Dumpling, Manhattan, NY"
-            }
+            "name": "DiDi Dumpling",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "New York",
+            "region_a": "NY",
+            "county": "New York County",
+            "localadmin": "Manhattan",
+            "locality": "New York",
+            "neighbourhood": "Rose Hill",
+            "label": "DiDi Dumpling, Manhattan, NY"
           }
         ]
       }

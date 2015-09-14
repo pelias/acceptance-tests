@@ -16,17 +16,15 @@
       "expected": {
         "properties": [
           {
-            "geocoding": {
-              "layer": "local_admin",
-              "name": "Brooklyn",
-              "country_a": "USA",
-              "country": "United States",
-              "region": "New York",
-              "region_a": "NY",
-              "county": "Kings County",
-              "label": "Brooklyn, Kings County, NY",
-              "source": "qs"
-            }
+            "layer": "local_admin",
+            "name": "Brooklyn",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "New York",
+            "region_a": "NY",
+            "county": "Kings County",
+            "label": "Brooklyn, Kings County, NY",
+            "source": "qs"
           }
         ]
       }
@@ -44,17 +42,15 @@
       "unexpected": {
         "properties": [
           {
-            "geocoding": {
-              "name": "New York City",
-              "country_a": "USA",
-              "country": "United States",
-              "region": "New York",
-              "region_a": "NY",
-              "county": "New York County",
-              "localadmin": "Manhattan",
-              "locality": "New York",
-              "label": "New York City, Manhattan, NY"
-            }
+            "name": "New York City",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "New York",
+            "region_a": "NY",
+            "county": "New York County",
+            "localadmin": "Manhattan",
+            "locality": "New York",
+            "label": "New York City, Manhattan, NY"
           }
         ]
       }
