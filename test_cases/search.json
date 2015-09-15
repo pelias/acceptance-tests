@@ -501,6 +501,42 @@
         ]
       },
       "status": "pass"
+    },
+    {
+      "id": 19,
+      "status": "pass",
+      "user": "Diana",
+      "type": "dev",
+      "endpoint": "search",
+      "in": {
+        "focus.point.lat": 40.744243,
+        "focus.point.lon": -73.990342,
+        "text": "30 West 26th Street",
+        "layers": "address",
+        "sources": "osm"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "address",
+            "name": "30 West 26th Street",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "New York",
+            "region_a": "NY",
+            "county": "New York County",
+            "localadmin": "Manhattan",
+            "locality": "New York",
+            "neighbourhood": "Flatiron District",
+            "category": [],
+            "postalcode": "10010",
+            "housenumber": "30",
+            "street": "West 26th Street",
+            "label": "30 West 26th Street, Manhattan, NY",
+            "source": "osm"
+          }
+        ]
+      }
     }
   ]
 }
