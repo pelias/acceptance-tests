@@ -30,6 +30,33 @@
           }
         ]
       }
+    },
+    {
+      "id": 2,
+      "status": "pass",
+      "user": "missinglink",
+      "endpoint": "autocomplete",
+      "in": {
+        "focus.point.lat": 9.91,
+        "focus.point.lon": 78.1,
+        "text": "Singarpuram, Madurai, Tamil Nadu",
+        "layers": "neighbourhood"
+      },
+      "expected": {
+        "properties": [
+          {
+            "label": "Singarpuram, Madurai, Tamil Nadu",
+            "layer": "neighbourhood",
+            "source": "qs",
+            "id": "4679:_:_:ind:singarpuram",
+            "name": "Singarpuram",
+            "country_a": "IND",
+            "country": "India",
+            "region": "Tamil Nadu",
+            "county": "Madurai"
+          }
+        ]
+      }
     }
   ]
 }
