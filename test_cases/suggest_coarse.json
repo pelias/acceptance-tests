@@ -16,7 +16,7 @@
       "expected": {
         "properties": [
           {
-            "layer": "local_admin",
+            "layer": "localadmin",
             "name": "Brooklyn",
             "country_a": "USA",
             "country": "United States",
