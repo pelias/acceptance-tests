@@ -7,7 +7,7 @@
       "id": 1,
       "status": "pass",
       "in": {
-        "id": "osmnode:2562438641"
+        "ids": "osmnode:2562438641"
       },
       "expected": {
         "properties": [
