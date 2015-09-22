@@ -46,7 +46,7 @@
       "expected": {
         "properties": [
           {
-            "id": "26489964",
+            "gid": "osm:venue:26489964",
             "layer": "venue",
             "source": "osm"
           }
@@ -70,7 +70,7 @@
       "expected": {
         "properties": [
           {
-            "id": "poi-address-osmnode-26489964",
+            "gid": "osm:address:poi-address-osmnode-26489964",
             "layer": "address",
             "source": "osm"
           }
