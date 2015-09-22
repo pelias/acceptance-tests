@@ -7,12 +7,12 @@
       "id": 1,
       "status": "pass",
       "in": {
-        "ids": "osmnode:2562438641"
+        "ids": "osm:venue:2562438641"
       },
       "expected": {
         "properties": [
           {
-            "id": "2562438641",
+            "gid": "osm:venue:2562438641",
             "layer": "venue",
             "source": "osm"
           }
