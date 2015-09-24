@@ -18,6 +18,22 @@
           }
         ]
       }
+    },
+    {
+      "id": 2,
+      "status": "pass",
+      "in": {
+        "ids": "osm:venue:5013364"
+      },
+      "expected": {
+        "properties": [
+          {
+            "gid": "osm:venue:5013364",
+            "layer": "venue",
+            "source": "osm"
+          }
+        ]
+      }
     }
   ]
 }
