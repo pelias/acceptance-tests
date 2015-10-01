@@ -13,9 +13,12 @@ You will need to have `npm` version `2.0` or higher installed.
 ## Usage
 
 ```
+# default to running all tests against production
 npm test
-npm test -- -e prod
-npm test -- -e stage -t dev
+# specify an environment manually
+npm test -- -e bigdev
+# specify an environment and only run tests that work against dev (small dataset of just NYC and London)
+npm test -- -e dev -t dev
 ```
 
 ## Test Case Files
