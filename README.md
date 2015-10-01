@@ -12,7 +12,7 @@ You will need to have `npm` version `2.0` or higher installed.
 
 ## Usage
 
-```
+```bash
 # default to running all tests against production
 npm test
 # specify an environment manually
