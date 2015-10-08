@@ -4,8 +4,7 @@
   "tests": [
     {
       "id": 14,
-      "status": "fail",
-      "issue": "https://github.com/pelias/pelias/issues/73",
+      "status": "pass",
       "type": "dev",
       "user": "hkrishna",
       "in": {
@@ -14,14 +13,6 @@
       "expected": {
         "properties": [
           {
-            "country": "United States",
-            "region": "New York",
-            "county": "New York County",
-            "country_a": "USA",
-            "localadmin": "Manhattan",
-            "locality": "New York",
-            "name": "Statue of Liberty",
-            "neighbourhood": "Southern Tip",
             "label": "Statue of Liberty, Manhattan, NY"
           }
         ]

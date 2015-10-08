@@ -16,15 +16,13 @@
       "expected": {
         "properties": [
           {
-            "layer": "localadmin",
-            "name": "Brooklyn",
-            "country_a": "USA",
-            "country": "United States",
-            "region": "New York",
-            "region_a": "NY",
-            "county": "Kings County",
-            "label": "Brooklyn, Kings County, NY",
-            "source": "qs"
+            "label": "Brooklyn, New York, NY"
+          },
+          {
+            "label": "Brooklyn, Kings County, NY"
+          },
+          {
+            "label": "Brooklyn, Wellington City, New Zealand"
           }
         ]
       }
@@ -39,17 +37,12 @@
         "focus.point.lon": -73.990342,
         "text": "new york"
       },
-      "unexpected": {
+      "expected": {
         "properties": [
           {
-            "name": "New York City",
-            "country_a": "USA",
-            "country": "United States",
-            "region": "New York",
-            "region_a": "NY",
-            "county": "New York County",
-            "localadmin": "Manhattan",
-            "locality": "New York",
+            "label": "New York, NY"
+          },
+          {
             "label": "New York City, Manhattan, NY"
           }
         ]

@@ -175,8 +175,7 @@
     },
     {
       "id": "9",
-      "status": "fail",
-      "issue": "non definitive 'palo alto' (common name globally)",
+      "status": "pass",
       "in": {
         "text": "palo alto",
         "layers": "coarse"
@@ -184,12 +183,7 @@
       "expected": {
         "properties": [
           {
-            "label": "Palo Alto, Santa Clara County, CA",
-            "country_a": "USA",
-            "country": "United States",
-            "region": "California",
-            "region_a": "CA",
-            "county": "Santa Clara County"
+            "label": "Palo Alto, Santa Clara County, CA"
           }
         ]
       }
@@ -204,12 +198,7 @@
       "expected": {
         "properties": [
           {
-            "label": "Palo Alto, Santa Clara County, CA",
-            "country_a": "USA",
-            "country": "United States",
-            "region": "California",
-            "region_a": "CA",
-            "county": "Santa Clara County"
+            "label": "Palo Alto, Santa Clara County, CA"
           }
         ]
       }

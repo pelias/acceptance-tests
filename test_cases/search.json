@@ -4,8 +4,7 @@
   "tests": [
     {
       "id": 1,
-      "status": "fail",
-      "issue": "non definitive 'brooklyn' (common name globally)",
+      "status": "pass",
       "user": "Randy",
       "type": "dev",
       "in": {
@@ -14,13 +13,10 @@
       "expected": {
         "properties": [
           {
-            "name": "Brooklyn",
-            "country_a": "USA",
-            "country": "United States",
-            "region": "New York",
-            "region_a": "NY",
-            "county": "Kings County",
-            "label": "Brooklyn, Kings County, NY"
+            "label": "Brooklyn, New York, NY"
+          },
+          {
+            "label": "Brooklyn, Wellington City, New Zealand"
           }
         ]
       }
@@ -36,12 +32,9 @@
       "expected": {
         "properties": [
           {
-            "name": "Brooklyn",
-            "country_a": "USA",
-            "country": "United States",
-            "region": "New York",
-            "region_a": "NY",
-            "county": "Kings County",
+            "label": "Brooklyn, New York, NY"
+          },
+          {
             "label": "Brooklyn, Kings County, NY"
           }
         ]
@@ -49,13 +42,7 @@
     },
     {
       "id": 4,
-      "status": "fail",
-      "issue": "non definitive 'brooklyn' (common name globally)",
-      "notes": [
-        "this is a non definitive 'philadelphia' (common name globally)",
-        "due to admin weighting this record *should* actually rank higher",
-        "because it matches 'philadelphia' in the name AND the admin field"
-      ],
+      "status": "pass",
       "user": "Diana",
       "type": "dev",
       "in": {
@@ -64,12 +51,7 @@
       "expected": {
         "properties": [
           {
-            "label": "Philadelphia, Philadelphia County, PA",
-            "name": "Philadelphia",
-            "region": "Pennsylvania",
-            "country": "United States",
-            "region_a": "PA",
-            "county": "Philadelphia County"
+            "label": "Philadelphia, Philadelphia County, PA"
           }
         ]
       }
@@ -85,20 +67,14 @@
       "expected": {
         "properties": [
           {
-            "label": "Philadelphia, Philadelphia County, PA",
-            "name": "Philadelphia",
-            "region": "Pennsylvania",
-            "country": "United States",
-            "region_a": "PA",
-            "county": "Philadelphia County"
+            "label": "Philadelphia, Philadelphia County, PA"
           }
         ]
       }
     },
     {
       "id": 5,
-      "status": "fail",
-      "issue": "https://github.com/pelias/api/issues/149",
+      "status": "pass",
       "type": "dev",
       "user": "Randy",
       "in": {
@@ -107,14 +83,9 @@
       "expected": {
         "properties": [
           {
-            "name": "New York City",
-            "country_a": "USA",
-            "country": "United States",
-            "region": "New York",
-            "region_a": "NY",
-            "county": "New York County",
-            "localadmin": "Manhattan",
-            "locality": "New York",
+            "label": "New York County, NY"
+          },
+          {
             "label": "New York City, Manhattan, NY"
           }
         ]
@@ -122,8 +93,7 @@
     },
     {
       "id": "5:2",
-      "status": "fail",
-      "issue": "non definitive 'new york city' (common name globally)",
+      "status": "pass",
       "type": "dev",
       "user": "missinglink",
       "in": {
@@ -132,14 +102,6 @@
       "expected": {
         "properties": [
           {
-            "name": "New York City",
-            "country_a": "USA",
-            "country": "United States",
-            "region": "New York",
-            "region_a": "NY",
-            "county": "New York County",
-            "localadmin": "Manhattan",
-            "locality": "New York",
             "label": "New York City, Manhattan, NY"
           }
         ]
@@ -156,14 +118,6 @@
       "expected": {
         "properties": [
           {
-            "name": "New York City",
-            "country_a": "USA",
-            "country": "United States",
-            "region": "New York",
-            "region_a": "NY",
-            "county": "New York County",
-            "localadmin": "Manhattan",
-            "locality": "New York",
             "label": "New York City, Manhattan, NY"
           }
         ]
@@ -180,10 +134,7 @@
       "expected": {
         "properties": [
           {
-            "label": "130 Dean Street, Brooklyn, NY",
-            "name": "130 Dean Street",
-            "country": "United States",
-            "region": "New York"
+            "label": "130 Dean Street, Brooklyn, NY"
           }
         ]
       }
@@ -199,13 +150,7 @@
       "expected": {
         "properties": [
           {
-            "label": "Billerica, Middlesex County, MA",
-            "county": "Middlesex County",
-            "name": "Billerica",
-            "country_a": "USA",
-            "country": "United States",
-            "region": "Massachusetts",
-            "region_a": "MA"
+            "label": "Billerica, Middlesex County, MA"
           }
         ]
       }
@@ -221,19 +166,18 @@
       "expected": {
         "properties": [
           {
-            "label": "Billerica, Middlesex County, MA",
-            "county": "Middlesex County",
-            "name": "Billerica",
-            "country_a": "USA",
-            "country": "United States",
-            "region": "Massachusetts",
-            "region_a": "MA"
+            "label": "Billerica, Middlesex County, MA"
           }
         ]
       }
     },
     {
       "id": "1425586777012:0",
+      "status": "fail",
+      "notes": [
+        "we don't support 'sq' here, when using 'square' instead the address",
+        "parser kicks in and only shows street addresses"
+      ],
       "user": "feedback-app",
       "type": "dev",
       "in": {
@@ -255,8 +199,7 @@
     },
     {
       "id": "1425586777012:2",
-      "status": "fail",
-      "issue": "non definitive 'portland' (common name globally)",
+      "status": "pass",
       "user": "feedback-app",
       "type": "dev",
       "in": {
@@ -265,12 +208,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Portland",
-            "country_a": "USA",
-            "country": "United States",
-            "region": "Oregon",
-            "region_a": "OR",
-            "county": "Multnomah County",
             "label": "Portland, Multnomah County, OR"
           }
         ]
@@ -287,12 +224,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Portland",
-            "country_a": "USA",
-            "country": "United States",
-            "region": "Oregon",
-            "region_a": "OR",
-            "county": "Multnomah County",
             "label": "Portland, Multnomah County, OR"
           }
         ]
@@ -308,10 +239,6 @@
       "expected": {
         "properties": [
           {
-            "name": "Paris",
-            "country_a": "FRA",
-            "country": "France",
-            "region": "Paris",
             "label": "Paris, France"
           }
         ]
@@ -331,9 +258,6 @@
       "expected": {
         "properties": [
           {
-            "name": "France",
-            "country": "France",
-            "country_a": "FRA",
             "label": "France"
           }
         ]
@@ -350,9 +274,12 @@
       "expected": {
         "properties": [
           {
-            "name": "London",
-            "country_a": "GBR",
-            "country": "United Kingdom",
+            "label": "London, Greater London, United Kingdom"
+          },
+          {
+            "label": "London, Middlesex, Canada"
+          },
+          {
             "label": "London, United Kingdom"
           }
         ]
@@ -369,15 +296,7 @@
       "expected": {
         "properties": [
           {
-            "layer": "neighbourhood",
-            "name": "Chelsea",
-            "country_a": "USA",
-            "country": "United States",
-            "region": "New York",
-            "region_a": "NY",
-            "county": "New York County",
-            "label": "Chelsea, New York County, NY",
-            "source": "qs"
+            "label": "Chelsea, New York County, NY"
           }
         ]
       }
@@ -385,8 +304,6 @@
     {
       "id": 11,
       "status": "pass",
-      "issue": "https://github.com/pelias/api/issues/150",
-      "note": "attempting to fix this by adding weight to admin category when not searching for address",
       "type": "dev",
       "user": "hkrishna",
       "in": {
@@ -395,14 +312,9 @@
       "expected": {
         "properties": [
           {
-            "name": "SoHo",
-            "country_a": "USA",
-            "country": "United States",
-            "region": "New York",
-            "region_a": "NY",
-            "county": "New York County",
-            "localadmin": "Manhattan",
-            "locality": "New York",
+            "label": "Soho, New York County, NY"
+          },
+          {
             "label": "SoHo, Manhattan, NY"
           }
         ]
@@ -418,15 +330,7 @@
       "expected": {
         "properties": [
           {
-            "layer": "venue",
-            "name": "Perugia San Francesco d'Assisi – Umbria International Airport",
-            "country_a": "ITA",
-            "country": "Italy",
-            "region": "Umbria",
-            "county": "Provincia di Perugia",
-            "localadmin": "Perugia",
-            "label": "Perugia San Francesco d'Assisi – Umbria International Airport, Perugia, Umbria",
-            "source": "gn"
+            "label": "Perugia San Francesco d'Assisi – Umbria International Airport, Perugia, Italy"
           }
         ]
       }
@@ -442,14 +346,6 @@
       "expected": {
         "properties": [
           {
-            "country": "United States",
-            "region": "New York",
-            "region_a": "NY",
-            "county": "New York County",
-            "country_a": "USA",
-            "localadmin": "Manhattan",
-            "locality": "New York",
-            "name": "101 Saint Marks Place",
             "neighbourhood": "East Village",
             "label": "101 Saint Marks Place, Manhattan, NY"
           }
@@ -491,12 +387,13 @@
       "expected": {
         "properties": [
           {
-            "name": "7 Simon-Dach-Straße",
-            "country_a": "DEU",
-            "region": "Bayern",
-            "county": "Erlangen-Hoechstadt",
-            "locality": "Uttenreuth",
-            "label": "7 Simon-Dach-Straße, Uttenreuth, Bayern"
+            "label": "7 Simon-Dach-Straße, Uttenreuth, Germany"
+          },
+          {
+            "label": "7 Simon-Dach-Straße, Bielefeld, Germany"
+          },
+          {
+            "label": "7 Simon-Dach-Straße, Berlin, Germany"
           }
         ]
       },
@@ -507,7 +404,6 @@
       "status": "pass",
       "user": "Diana",
       "type": "dev",
-      "endpoint": "search",
       "in": {
         "focus.point.lat": 40.744243,
         "focus.point.lon": -73.990342,
@@ -548,7 +444,7 @@
         "properties": [{
           "name": "Statue of Liberty",
           "country_a": "USA",
-          "country": "New York"
+          "region": "New York"
         }]
       },
       "unexpected": {
@@ -568,7 +464,7 @@
         "properties": [{
           "name": "Statue of Liberty",
           "country_a": "FRA",
-          "country": "Paris"
+          "region": "Paris"
         }]
       },
       "unexpected": {
