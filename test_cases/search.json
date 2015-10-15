@@ -472,6 +472,75 @@
           "country_a": "USA"
         }]
       }
+    },
+    {
+      "id": 21,
+      "user": "stephen",
+      "priorityThresh": 1,
+      "notes": [
+        "normally Lancaster, CA is returned first for \"Lancaster\" input while",
+        "this test demonstrates that Lancaster, PA shows first when given a viewport ",
+        "of southeastern PA"
+      ],
+      "in": {
+        "text": "Lancaster",
+        "focus.viewport.min_lat": "39.676006",
+        "focus.viewport.min_lon": "-77.448335",
+        "focus.viewport.max_lat": "40.489749",
+        "focus.viewport.max_lon": "-75.173684"
+      },
+      "expected": {
+        "properties": [{
+          "name": "Lancaster",
+          "region": "Pennsylvania"
+        }]
+      }
+    },
+    {
+      "id": 22,
+      "user": "stephen",
+      "priorityThresh": 1,
+      "notes": [
+        "normally Paris, FR is returned first for \"Paris\" input while",
+        "this test demonstrates that Paris, TN shows first when given a viewport ",
+        "of Tennessee"
+      ],
+      "in": {
+        "text": "Paris",
+        "focus.viewport.min_lat": "34.635221",
+        "focus.viewport.min_lon": "-90.823908",
+        "focus.viewport.max_lat": "38.004041",
+        "focus.viewport.max_lon": "-82.197798"
+      },
+      "expected": {
+        "properties": [{
+          "name": "Paris",
+          "region": "Tennessee"
+        }]
+      }
+    },
+    {
+      "id": 23,
+      "user": "stephen",
+      "priorityThresh": 1,
+      "notes": [
+        "normally Manchester, GB is returned first for \"Manchester\" input while",
+        "this test demonstrates that Manchester, NH shows first when given a viewport ",
+        "of New England"
+      ],
+      "in": {
+        "text": "Manchester",
+        "focus.viewport.min_lat": "40.594598",
+        "focus.viewport.min_lon": "-78.676080",
+        "focus.viewport.max_lat": "47.087877",
+        "focus.viewport.max_lon": "-65.323911"
+      },
+      "expected": {
+        "properties": [{
+          "name": "Manchester",
+          "region": "New Hampshire"
+        }]
+      }
     }
   ]
 }
