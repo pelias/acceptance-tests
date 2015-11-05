@@ -172,6 +172,26 @@
       }
     },
     {
+      "id": 9,
+      "status": "pass",
+      "user": "Randy",
+      "in": {
+        "text": "15 call street billerica, ma"
+      },
+      "expected": {
+        "priorityThresh": 1,
+        "properties": [
+          {
+            "name": "15 Call Street",
+            "country": "United States",
+            "region": "Massachusetts",
+            "county": "Middlesex County",
+            "label": "15 Call Street, Billerica, MA"
+          }
+        ]
+      }
+    },
+    {
       "id": "1425586777012:0",
       "status": "fail",
       "notes": [
