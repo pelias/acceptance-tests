@@ -1,7 +1,7 @@
 {
-  "name": "GET /search/coarse",
-  "priorityThresh": 3,
-  "endpoint": "search/coarse",
+  "name": "search coarse",
+  "priorityThresh": 5,
+  "endpoint": "search",
   "tests": [
     {
       "id": 1,
@@ -9,21 +9,20 @@
       "user": "Diana",
       "type": "dev",
       "in": {
-        "lat": 40.744243,
-        "lon": -73.990342,
-        "input": "brooklyn"
+        "focus.point.lat": 40.744243,
+        "focus.point.lon": -73.990342,
+        "text": "brooklyn"
       },
       "expected": {
         "properties": [
           {
-            "layer": "local_admin",
-            "name": "Brooklyn",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "New York",
-            "admin1_abbr": "NY",
-            "admin2": "Kings County",
-            "text": "Brooklyn, Kings County, NY"
+            "label": "Brooklyn, New York, NY"
+          },
+          {
+            "label": "Brooklyn, Kings County, NY"
+          },
+          {
+            "label": "Brooklyn, Wellington City, New Zealand"
           }
         ]
       }
@@ -34,22 +33,17 @@
       "user": "Diana",
       "type": "dev",
       "in": {
-        "lat": 40.744243,
-        "lon": -73.990342,
-        "input": "new york"
+        "focus.point.lat": 40.744243,
+        "focus.point.lon": -73.990342,
+        "text": "new york"
       },
-      "unexpected": {
+      "expected": {
         "properties": [
           {
-            "name": "New York City",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "New York",
-            "admin1_abbr": "NY",
-            "admin2": "New York County",
-            "local_admin": "Manhattan",
-            "locality": "New York",
-            "text": "New York City, Manhattan, NY"
+            "label": "New York, NY"
+          },
+          {
+            "label": "New York City, Manhattan, NY"
           }
         ]
       }

@@ -1,0 +1,22 @@
+{
+  "name": "landmarks",
+  "priorityThresh": 5,
+  "tests": [
+    {
+      "id": 14,
+      "status": "pass",
+      "type": "dev",
+      "user": "hkrishna",
+      "in": {
+        "text": "statue of liberty"
+      },
+      "expected": {
+        "properties": [
+          {
+            "label": "Statue of Liberty, Manhattan, NY"
+          }
+        ]
+      }
+    }
+  ]
+}

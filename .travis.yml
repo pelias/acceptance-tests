@@ -1,5 +1,0 @@
-language: node_js
-script:
-  - "node test.js -e prod"
-node_js:
-  - "0.10"

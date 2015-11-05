@@ -1,13 +1,13 @@
 {
   "name": "exact matches",
-  "priorityThresh": 1,
+  "priorityThresh": 5,
   "tests": [
     {
       "id": 1,
       "status": "pass",
       "user": "sevko",
       "in": {
-        "input": "100 20th street"
+        "text": "100 20th street"
       },
       "expected": {
         "properties": [
@@ -22,7 +22,7 @@
       "status": "pass",
       "user": "sevko",
       "in": {
-        "input": "40 20th street"
+        "text": "40 20th street"
       },
       "expected": {
         "properties": [
@@ -37,7 +37,7 @@
       "status": "pass",
       "user": "sevko",
       "in": {
-        "input": "120 42nd Street"
+        "text": "120 42nd Street"
       },
       "expected": {
         "properties": [
@@ -53,7 +53,7 @@
       "user": "sevko",
       "type": "dev",
       "in": {
-        "input": "358 41st street, ny"
+        "text": "358 41st street, ny"
       },
       "expected": {
         "properties": [
@@ -69,7 +69,7 @@
       "user": "sevko",
       "type": "dev",
       "in": {
-        "input": "1359 54 street, ny"
+        "text": "1359 54 street, ny"
       },
       "expected": {
         "properties": [
@@ -85,7 +85,7 @@
       "user": "sevko",
       "type": "dev",
       "in": {
-        "input": "310 7 street, ny"
+        "text": "310 7 street, ny"
       },
       "expected": {
         "properties": [
@@ -101,7 +101,7 @@
       "user": "sevko",
       "type": "dev",
       "in": {
-        "input": "921 83 street, ny"
+        "text": "921 83 street, ny"
       },
       "expected": {
         "properties": [
@@ -117,7 +117,7 @@
       "user": "sevko",
       "type": "dev",
       "in": {
-        "input": "518 3 street, ny"
+        "text": "518 3 street, ny"
       },
       "expected": {
         "properties": [

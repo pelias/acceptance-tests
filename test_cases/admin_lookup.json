@@ -1,6 +1,6 @@
 {
   "name": "admin lookup",
-  "priorityThresh": 3,
+  "priorityThresh": 5,
   "tests": [
     {
       "id": "1",
@@ -8,32 +8,40 @@
       "user": "sevko",
       "endpoint": "reverse",
       "in": {
-        "lat": 46.65132155014943,
-        "lon": 14.61353302001953
+        "point.lat": 46.65132155014943,
+        "point.lon": 14.61353302001953
       },
       "expected": {
-        "properties": [{
-          "admin2": "Voelkermarkt"
-        }]
+        "properties": [
+          {
+            "county": "Voelkermarkt"
+          }
+        ]
       },
       "unexpected": {
-        "properties": [{
-          "admin2": "Vã¶lkermarkt"
-        }]
+        "properties": [
+          {
+            "county": "Vã¶lkermarkt"
+          }
+        ]
       }
     },
     {
       "id": "2",
       "status": "pass",
+      "issue": "https://github.com/pelias/api/issues/150",
       "type": "dev",
+      "description": "checking for County to be part of the admin2 value",
       "in": {
-        "input": "bronx",
-        "layers": "admin2"
+        "text": "bronx",
+        "layers": "county"
       },
       "expected": {
-        "properties": [{
-          "admin2": "Bronx County"
-        }]
+        "properties": [
+          {
+            "county": "Bronx County"
+          }
+        ]
       }
     },
     {
@@ -41,13 +49,15 @@
       "status": "pass",
       "type": "dev",
       "in": {
-        "input": "Lake, MT",
-        "layers": "admin2"
+        "text": "Lake, MT",
+        "layers": "county"
       },
       "expected": {
-        "properties": [{
-          "admin2": "Lake County"
-        }]
+        "properties": [
+          {
+            "county": "Lake County"
+          }
+        ]
       }
     },
     {
@@ -55,18 +65,22 @@
       "status": "pass",
       "endpoint": "reverse",
       "in": {
-        "lat": -40.806533324215565,
-        "lon": 144.8101043701172
+        "point.lat": -40.806533324215565,
+        "point.lon": 144.8101043701172
       },
       "expected": {
-        "properties": [{
-          "admin2": "Circular Head"
-        }]
+        "properties": [
+          {
+            "county": "Circular Head"
+          }
+        ]
       },
       "unexpected": {
-        "properties": [{
-          "admin2": "Circular Head (m)"
-        }]
+        "properties": [
+          {
+            "county": "Circular Head (m)"
+          }
+        ]
       }
     },
     {
@@ -75,18 +89,22 @@
       "endpoint": "reverse",
       "type": "dev",
       "in": {
-        "lat": 51.515049,
-        "lon": -0.093229
+        "point.lat": 51.515049,
+        "point.lon": -0.093229
       },
       "expected": {
-        "properties": [{
-          "admin1": "London"
-        }]
+        "properties": [
+          {
+            "region": "London"
+          }
+        ]
       },
       "unexpected": {
-        "properties": [{
-          "admin1": "City And County Of The City Of London"
-        }]
+        "properties": [
+          {
+            "region": "City And County Of The City Of London"
+          }
+        ]
       }
     },
     {
@@ -94,19 +112,21 @@
       "status": "pass",
       "type": "dev",
       "in": {
-        "layers": "neighborhood",
-        "input": "hoboken"
+        "layers": "neighbourhood",
+        "text": "hoboken"
       },
       "expected": {
-        "properties": [{
-          "name": "West Hoboken",
-          "alpha3": "USA",
-          "admin0": "United States",
-          "admin1": "New Jersey",
-          "admin1_abbr": "NJ",
-          "admin2": "Hudson County",
-          "text": "West Hoboken, Hudson County, NJ"
-        }]
+        "properties": [
+          {
+            "name": "West Hoboken",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "New Jersey",
+            "region_a": "NJ",
+            "county": "Hudson County",
+            "label": "West Hoboken, Hudson County, NJ"
+          }
+        ]
       }
     },
     {
@@ -114,20 +134,21 @@
       "status": "pass",
       "type": "dev",
       "in": {
-        "input": "mission, ca",
-        "layers": "admin"
+        "text": "mission, ca",
+        "layers": "coarse"
       },
       "expected": {
-        "priorityThresh": 2,
-        "properties": [{
-          "name": "Mission",
-          "alpha3": "USA",
-          "admin0": "United States",
-          "admin1": "California",
-          "admin1_abbr": "CA",
-          "admin2": "San Francisco County",
-          "text": "Mission, San Francisco County, CA"
-        }]
+        "properties": [
+          {
+            "name": "Mission",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "California",
+            "region_a": "CA",
+            "county": "San Francisco County",
+            "label": "Mission, San Francisco County, CA"
+          }
+        ]
       }
     },
     {
@@ -135,39 +156,51 @@
       "status": "pass",
       "type": "dev",
       "in": {
-        "input": "crown heights",
-        "layers": "admin"
+        "text": "crown heights",
+        "layers": "coarse"
       },
       "expected": {
-        "priorityThresh": 3,
-        "properties": [{
-          "text": "Crown Heights, Kings County, NY",
-          "name": "Crown Heights",
-          "alpha3": "USA",
-          "admin0": "United States",
-          "admin1": "New York",
-          "admin1_abbr": "NY",
-          "admin2": "Kings County"
-        }]
+        "properties": [
+          {
+            "label": "Crown Heights, Kings County, NY",
+            "name": "Crown Heights",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "New York",
+            "region_a": "NY",
+            "county": "Kings County"
+          }
+        ]
       }
     },
     {
       "id": "9",
       "status": "pass",
-      "type": "dev",
       "in": {
-        "input": "palo alto",
-        "layers": "admin"
+        "text": "palo alto",
+        "layers": "coarse"
       },
       "expected": {
-        "properties": [{
-          "text": "Palo Alto, Santa Clara County, CA",
-          "alpha3": "USA",
-          "admin0": "United States",
-          "admin1": "California",
-          "admin1_abbr": "CA",
-          "admin2": "Santa Clara County"
-        }]
+        "properties": [
+          {
+            "label": "Palo Alto, Santa Clara County, CA"
+          }
+        ]
+      }
+    },
+    {
+      "id": "9-1",
+      "status": "pass",
+      "in": {
+        "text": "palo alto, ca",
+        "layers": "coarse"
+      },
+      "expected": {
+        "properties": [
+          {
+            "label": "Palo Alto, Santa Clara County, CA"
+          }
+        ]
       }
     },
     {
@@ -175,36 +208,44 @@
       "status": "pass",
       "endpoint": "reverse",
       "in": {
-        "lat": 51.47945855891035,
-        "lon": -3.2018280029296875
+        "point.lat": 51.47945855891035,
+        "point.lon": -3.2018280029296875
       },
       "expected": {
-        "properties": [{
-          "admin1": "Cardiff"
-        }]
+        "properties": [
+          {
+            "region": "Cardiff"
+          }
+        ]
       },
       "unexpected": {
-        "properties": [{
-          "admin1": "Caerdydd#Cardiff"
-        }]
+        "properties": [
+          {
+            "region": "Caerdydd#Cardiff"
+          }
+        ]
       }
     },
     {
       "id": "15",
       "status": "pass",
       "in": {
-        "input": "cardiff, gbr",
-        "layers": "admin"
+        "text": "cardiff, gbr",
+        "layers": "coarse"
       },
       "expected": {
-        "properties": [{
-          "admin1": "Cardiff"
-        }]
+        "properties": [
+          {
+            "region": "Cardiff"
+          }
+        ]
       },
       "unexpected": {
-        "properties": [{
-          "admin1": "Caerdydd#Cardiff"
-        }]
+        "properties": [
+          {
+            "region": "Caerdydd#Cardiff"
+          }
+        ]
       }
     },
     {
@@ -212,18 +253,22 @@
       "status": "pass",
       "endpoint": "reverse",
       "in": {
-        "lat": 51.52754263322114,
-        "lon": -3.115997314453125
+        "point.lat": 51.52754263322114,
+        "point.lon": -3.115997314453125
       },
       "expected": {
-        "properties": [{
-          "admin1": "Cardiff"
-        }]
+        "properties": [
+          {
+            "region": "Cardiff"
+          }
+        ]
       },
       "unexpected": {
-        "properties": [{
-          "admin1": "Caerdydd#Cardiff"
-        }]
+        "properties": [
+          {
+            "region": "Caerdydd#Cardiff"
+          }
+        ]
       }
     },
     {
@@ -231,18 +276,22 @@
       "status": "pass",
       "endpoint": "reverse",
       "in": {
-        "lat": 53.08654986822245,
-        "lon": -3.393487930297851
+        "point.lat": 53.08654986822245,
+        "point.lon": -3.393487930297851
       },
       "expected": {
-        "properties": [{
-          "admin1": "Denbighshire"
-        }]
+        "properties": [
+          {
+            "region": "Denbighshire"
+          }
+        ]
       },
       "unexpected": {
-        "properties": [{
-          "admin2": "Sir Ddinbych#Denbighshire"
-        }]
+        "properties": [
+          {
+            "county": "Sir Ddinbych#Denbighshire"
+          }
+        ]
       }
     },
     {
@@ -250,22 +299,26 @@
       "status": "pass",
       "type": "dev",
       "in": {
-        "input": "Vista Center",
-        "layers": "neighborhood"
+        "text": "Vista Center",
+        "layers": "neighbourhood"
       },
       "expected": {
-        "properties": [{
-          "admin0": "United States",
-          "alpha3": "USA",
-          "admin1": "New Jersey",
-          "admin1_abbr": "NJ",
-          "admin2": "Ocean County"
-        }]
+        "properties": [
+          {
+            "country": "United States",
+            "country_a": "USA",
+            "region": "New Jersey",
+            "region_a": "NJ",
+            "county": "Ocean County"
+          }
+        ]
       },
       "unexpected": {
-        "properties": [{
-          "admin2": "Ocean"
-        }]
+        "properties": [
+          {
+            "county": "Ocean"
+          }
+        ]
       }
     },
     {
@@ -273,22 +326,26 @@
       "status": "pass",
       "type": "dev",
       "in": {
-        "input": "Yadkin Trail",
-        "layers": "neighborhood"
+        "text": "Yadkin Trail",
+        "layers": "neighbourhood"
       },
       "expected": {
-        "properties": [{
-          "admin0": "United States",
-          "alpha3": "USA",
-          "admin1": "North Carolina",
-          "admin1_abbr": "NC",
-          "admin2": "Moore County"
-        }]
+        "properties": [
+          {
+            "country": "United States",
+            "country_a": "USA",
+            "region": "North Carolina",
+            "region_a": "NC",
+            "county": "Moore County"
+          }
+        ]
       },
       "unexpected": {
-        "properties": [{
-          "admin2": "Moore"
-        }]
+        "properties": [
+          {
+            "county": "Moore"
+          }
+        ]
       }
     },
     {
@@ -296,22 +353,26 @@
       "status": "pass",
       "type": "dev",
       "in": {
-        "input": "Hillside, Santa Clara",
-        "layers": "neighborhood"
+        "text": "Hillside, Santa Clara",
+        "layers": "neighbourhood"
       },
       "expected": {
-        "properties": [{
-          "admin0": "United States",
-          "alpha3": "USA",
-          "admin1": "California",
-          "admin1_abbr": "CA",
-          "admin2": "Santa Clara County"
-        }]
+        "properties": [
+          {
+            "country": "United States",
+            "country_a": "USA",
+            "region": "California",
+            "region_a": "CA",
+            "county": "Santa Clara County"
+          }
+        ]
       },
       "unexpected": {
-        "properties": [{
-          "admin2": "Moore"
-        }]
+        "properties": [
+          {
+            "county": "Moore"
+          }
+        ]
       }
     },
     {
@@ -319,20 +380,24 @@
       "status": "pass",
       "type": "dev",
       "in": {
-        "input": "Cardiff, GBR",
-        "layers": "admin"
+        "text": "Cardiff, GBR",
+        "layers": "coarse"
       },
       "expected": {
-        "properties": [{
-          "alpha3": "GBR",
-          "admin0": "United Kingdom",
-          "admin1": "Cardiff"
-        }]
+        "properties": [
+          {
+            "country_a": "GBR",
+            "country": "United Kingdom",
+            "region": "Cardiff"
+          }
+        ]
       },
       "unexpected": {
-        "properties": [{
-          "admin1": "Caerdydd#cardiff"
-        }]
+        "properties": [
+          {
+            "region": "Caerdydd#cardiff"
+          }
+        ]
       }
     },
     {
@@ -340,22 +405,26 @@
       "status": "pass",
       "type": "dev",
       "in": {
-        "input": "ringland",
-        "layers": "neighborhood"
+        "text": "ringland",
+        "layers": "neighbourhood"
       },
       "expected": {
-        "properties": [{
-          "alpha3": "GBR",
-          "admin0": "United Kingdom",
-          "admin1": "Newport",
-          "admin2": "Newport City"
-        }]
+        "properties": [
+          {
+            "country_a": "GBR",
+            "country": "United Kingdom",
+            "region": "Newport",
+            "county": "Newport City"
+          }
+        ]
       },
       "unexpected": {
-        "properties": [{
-          "admin1": "Casnewydd#Newport",
-          "admin2": "Newport"
-        }]
+        "properties": [
+          {
+            "region": "Casnewydd#Newport",
+            "county": "Newport"
+          }
+        ]
       }
     },
     {
@@ -363,19 +432,22 @@
       "status": "pass",
       "type": "dev",
       "in": {
-        "input": "california",
-        "layers": "admin1"
+        "text": "california",
+        "layers": "region"
       },
       "expected": {
-        "properties": [{
-          "layer": "admin1",
-          "name": "California",
-          "alpha3": "USA",
-          "admin0": "United States",
-          "admin1": "California",
-          "admin1_abbr": "CA",
-          "text": "California, CA"
-        }]
+        "properties": [
+          {
+            "layer": "region",
+            "name": "California",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "California",
+            "region_a": "CA",
+            "label": "California, CA",
+            "source": "qs"
+          }
+        ]
       }
     }
   ]

@@ -1,0 +1,39 @@
+{
+  "name": "GET /place",
+  "endpoint": "place",
+  "priorityThresh": 1,
+  "tests": [
+    {
+      "id": 1,
+      "status": "pass",
+      "in": {
+        "ids": "osm:venue:2562438641"
+      },
+      "expected": {
+        "properties": [
+          {
+            "gid": "osm:venue:2562438641",
+            "layer": "venue",
+            "source": "osm"
+          }
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "status": "pass",
+      "in": {
+        "ids": "osm:venue:5013364"
+      },
+      "expected": {
+        "properties": [
+          {
+            "gid": "osm:venue:5013364",
+            "layer": "venue",
+            "source": "osm"
+          }
+        ]
+      }
+    }
+  ]
+}

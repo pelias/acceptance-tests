@@ -1,0 +1,309 @@
+{
+  "name": "address parsing",
+  "priorityThresh": 5,
+  "endpoint": "search",
+  "tests": [
+    {
+      "id": 1,
+      "status": "pass",
+      "user": "Harish",
+      "type": "dev",
+      "in": {
+        "text": "101 saint mark pl 10009"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "101 Saint Marks Place",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "New York",
+            "region_a": "NY",
+            "county": "New York County",
+            "localadmin": "Manhattan",
+            "locality": "New York",
+            "neighbourhood": "East Village",
+            "postalcode": "10009",
+            "housenumber": "101",
+            "street": "Saint Marks Place",
+            "label": "101 Saint Marks Place, Manhattan, NY"
+          }
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "status": "pass",
+      "issue": "https://github.com/pelias/api/issues/187",
+      "user": "Harish",
+      "type": "dev",
+      "notes": [
+        "at last count there are 21 exact matches for '1 water street' in",
+        "new york state, the manhattan result should sort to the top due to it",
+        "also being part of 'new york city' and therefore admin matching twice"
+      ],
+      "in": {
+        "text": "1 water st manhattan ny"
+      },
+      "expected": {
+        "properties": [
+          {
+            "label": "1 Water Street, Manhattan, NY"
+          }
+        ]
+      }
+    },
+    {
+      "id": 2.2,
+      "status": "pass",
+      "user": "Diana",
+      "type": "dev",
+      "in": {
+        "text": "1 water st manhattan ny"
+      },
+      "expected": {
+        "properties": [
+          {
+            "label": "1 Water Street, Manhattan, NY"
+          }
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "status": "pass",
+      "user": "Harish",
+      "type": "dev",
+      "in": {
+        "text": "450 w 37th st, new york, ny 11232"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "450 37th Street",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "New York",
+            "region_a": "NY",
+            "county": "Kings County",
+            "localadmin": "Brooklyn",
+            "locality": "New York",
+            "neighbourhood": "Windsor Teraace",
+            "postalcode": "11232",
+            "housenumber": "450",
+            "street": "37th Street",
+            "label": "450 37th Street, Brooklyn, NY"
+          }
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "status": "pass",
+      "user": "Harish",
+      "type": "dev",
+      "in": {
+        "text": "starbucks 10010"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Starbucks",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "New York",
+            "region_a": "NY",
+            "county": "New York County",
+            "localadmin": "Manhattan",
+            "locality": "New York",
+            "neighbourhood": "Midtown South",
+            "postalcode": "10010",
+            "housenumber": "304",
+            "street": "Park Avenue South",
+            "label": "Starbucks, Manhattan, NY"
+          }
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "status": "pass",
+      "user": "Harish",
+      "type": "dev",
+      "in": {
+        "text": "455 43rd st new york ny 11232"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "455 43rd Street",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "New York",
+            "region_a": "NY",
+            "county": "Kings County",
+            "localadmin": "Brooklyn",
+            "locality": "New York",
+            "neighbourhood": "Sunset Park",
+            "postalcode": "11232",
+            "housenumber": "455",
+            "street": "43rd Street",
+            "label": "455 43rd Street, Brooklyn, NY"
+          }
+        ]
+      }
+    },
+    {
+      "id": 6,
+      "status": "pass",
+      "user": "Harish",
+      "type": "dev",
+      "in": {
+        "text": "1 main st ny 11201"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "1 Main Street",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "New York",
+            "region_a": "NY",
+            "county": "Kings County",
+            "localadmin": "Brooklyn",
+            "locality": "New York",
+            "neighbourhood": "DUMBO",
+            "postalcode": "11201",
+            "housenumber": "1",
+            "street": "Main Street",
+            "label": "1 Main Street, Brooklyn, NY"
+          }
+        ]
+      }
+    },
+    {
+      "id": 7,
+      "status": "pass",
+      "user": "Harish",
+      "in": {
+        "text": "186 Tuskegee St SE Atlanta GA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "186 Tuskegee Street Southeast",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "Georgia",
+            "region_a": "GA",
+            "county": "Fulton County",
+            "locality": "Atlanta",
+            "neighbourhood": "Peoplestown",
+            "postalcode": "30315",
+            "housenumber": "186",
+            "street": "Tuskegee Street Southeast",
+            "label": "186 Tuskegee Street Southeast, Atlanta, GA"
+          }
+        ]
+      }
+    },
+    {
+      "id": 8,
+      "status": "pass",
+      "user": "Harish",
+      "in": {
+        "text": "3122 16th St San Francisco, CA 94103"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "3122 16th Street",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "California",
+            "region_a": "CA",
+            "county": "San Francisco County",
+            "locality": "San Francisco",
+            "neighbourhood": "Mission Dolores",
+            "postalcode": "94103",
+            "housenumber": "3122",
+            "street": "16th Street",
+            "label": "3122 16th Street, San Francisco, CA"
+          }
+        ]
+      }
+    },
+    {
+      "id": 9,
+      "status": "pass",
+      "user": "Harish",
+      "in": {
+        "text": "3010 20th St San Francisco CA 94110"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "3010 20th Street",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "California",
+            "region_a": "CA",
+            "county": "San Francisco County",
+            "locality": "San Francisco",
+            "neighbourhood": "Inner Mission",
+            "postalcode": "94110",
+            "housenumber": "3010",
+            "street": "20th Street",
+            "label": "3010 20th Street, San Francisco, CA"
+          }
+        ]
+      }
+    },
+    {
+      "id": 10,
+      "status": "pass",
+      "user": "Harish",
+      "in": {
+        "text": "3577 Jackson St San Francisco, CA 94118"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "3577 Jackson Street",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "California",
+            "region_a": "CA",
+            "county": "San Francisco County",
+            "locality": "San Francisco",
+            "neighbourhood": "Presidio Heights",
+            "postalcode": "94118",
+            "housenumber": "3577",
+            "street": "Jackson Street",
+            "label": "3577 Jackson Street, San Francisco, CA"
+          }
+        ]
+      }
+    },
+    {
+      "id": 11,
+      "status": "pass",
+      "user": "Harish",
+      "type": "dev",
+      "in": {
+        "text": "whole foods NY"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Whole Foods",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "New York",
+            "region_a": "NY"
+          }
+        ]
+      }
+    }
+  ]
+}

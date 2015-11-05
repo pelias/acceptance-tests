@@ -1,6 +1,6 @@
 {
-  "name": "GET /search",
-  "priorityThresh": 3,
+  "name": "quattroshapes popularity",
+  "priorityThresh": 5,
   "comment": "Test cases for boosting Quattro records by popularity values.",
   "tests": [
     {
@@ -9,20 +9,35 @@
       "status": "pass",
       "type": "dev",
       "in": {
-        "layers": "admin",
-        "input": "chelsea"
+        "layers": "coarse",
+        "text": "chelsea"
       },
       "expected": {
-        "priorityThresh": 1,
-        "properties": [{
-          "name": "Chelsea",
-          "alpha3": "USA",
-          "admin0": "United States",
-          "admin1": "New York",
-          "admin1_abbr": "NY",
-          "admin2": "New York County",
-          "text": "Chelsea, New York County, NY"
-        }]
+        "properties": [
+          {
+            "label": "Chelsea, New York County, NY"
+          },
+          {
+            "label": "Chelsea, Greater London, United Kingdom"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1-1",
+      "user": "sevko",
+      "status": "pass",
+      "type": "dev",
+      "in": {
+        "layers": "coarse",
+        "text": "chelsea, ny"
+      },
+      "expected": {
+        "properties": [
+          {
+            "label": "Chelsea, New York County, NY"
+          }
+        ]
       }
     },
     {
@@ -31,20 +46,32 @@
       "status": "pass",
       "type": "dev",
       "in": {
-        "layers": "neighborhood",
-        "input": "williamsburg"
+        "layers": "neighbourhood",
+        "text": "williamsburg"
       },
       "expected": {
-        "priorityThresh": 1,
-        "properties": [{
-          "name": "Williamsburg",
-          "alpha3": "USA",
-          "admin0": "United States",
-          "admin1": "New York",
-          "admin1_abbr": "NY",
-          "admin2": "Kings County",
-          "text": "Williamsburg, Kings County, NY"
-        }]
+        "properties": [
+          {
+            "label": "Williamsburg, Kings County, NY"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2-1",
+      "user": "sevko",
+      "status": "pass",
+      "type": "dev",
+      "in": {
+        "layers": "neighbourhood",
+        "text": "williamsburg, ny"
+      },
+      "expected": {
+        "properties": [
+          {
+            "label": "Williamsburg, Kings County, NY"
+          }
+        ]
       }
     },
     {
@@ -53,20 +80,35 @@
       "status": "pass",
       "type": "dev",
       "in": {
-        "layers": "admin",
-        "input": "ridgewood"
+        "layers": "coarse",
+        "text": "ridgewood"
       },
       "expected": {
-        "priorityThresh": 1,
-        "properties": [{
-          "name": "Ridgewood",
-          "alpha3": "USA",
-          "admin0": "United States",
-          "admin1": "New York",
-          "admin1_abbr": "NY",
-          "admin2": "Queens County",
-          "text": "Ridgewood, Queens County, NY"
-        }]
+        "properties": [
+          {
+            "label": "Ridgewood, Queens County, NY"
+          },
+          {
+            "label": "Ridgewood, Bergen County, NJ"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3-1",
+      "user": "sevko",
+      "status": "pass",
+      "type": "dev",
+      "in": {
+        "layers": "coarse",
+        "text": "ridgewood, ny"
+      },
+      "expected": {
+        "properties": [
+          {
+            "label": "Ridgewood, Queens County, NY"
+          }
+        ]
       }
     }
   ]

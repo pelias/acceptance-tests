@@ -1,3 +1,5 @@
 node_modules
 .idea
+.validate.json
 errors-*.json
+failures
