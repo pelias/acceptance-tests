@@ -176,17 +176,17 @@
       "status": "pass",
       "user": "Randy",
       "in": {
-        "input": "15 call street billerica, ma"
+        "text": "15 call street billerica, ma"
       },
       "expected": {
         "priorityThresh": 1,
         "properties": [
           {
             "name": "15 Call Street",
-            "admin0": "United States",
-            "admin1": "Massachusetts",
-            "admin2": "Middlesex County",
-            "text": "15 Call Street, Billerica, MA"
+            "country": "United States",
+            "region": "Massachusetts",
+            "county": "Middlesex County",
+            "label": "15 Call Street, Billerica, MA"
           }
         ]
       }
