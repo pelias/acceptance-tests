@@ -1,0 +1,74 @@
+{
+  "name": "address matching",
+  "priorityThresh": 5,
+  "endpoint": "search",
+  "tests": [
+    {
+      "id": 1,
+      "status": "pass",
+      "user": "dianashk",
+      "type": "dev",
+      "in": {
+        "text": "30 w 26 st"
+      },
+      "expected": {
+        "properties": [
+          {
+            "label": "30 West 26 Street, Manhattan, NY"
+          }
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "status": "pass",
+      "user": "dianashk",
+      "type": "dev",
+      "in": {
+        "text": "507 hackney rd"
+      },
+      "expected": {
+        "properties": [
+          {
+            "label": "507 Hackney Road, Cambridge Heath, Greater London"
+          },
+          {
+            "label": "Hackney Cycles, Cambridge Heath, Greater London"
+          }
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "status": "pass",
+      "user": "dianashk",
+      "type": "dev",
+      "in": {
+        "text": "49 Kay Street"
+      },
+      "expected": {
+        "properties": [
+          {
+            "street": "Kay Street"
+          }
+        ]
+      },
+      "unexpected": {
+        "properties": [
+          {
+            "street": "Kay Drive"
+          },
+          {
+            "street": "Kay Avenue"
+          },
+          {
+            "street": "Kay Road"
+          },
+          {
+            "street": "De Kay Street"
+          }
+        ]
+      }
+    }
+  ]
+}

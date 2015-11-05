@@ -95,6 +95,13 @@
             "label": "450 37th Street, Brooklyn, NY"
           }
         ]
+      },
+      "unexpected": {
+        "properties": [
+          {
+            "postalcode": "10018"
+          }
+        ]
       }
     },
     {
