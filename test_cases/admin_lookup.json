@@ -296,7 +296,12 @@
     },
     {
       "id": "13",
-      "status": "pass",
+      "status": "fail",
+      "description": [
+        "all words in query text are address stop-words,",
+        "so must condition in query is actually a blank string"
+      ],
+      "issue": "https://github.com/pelias/api/issues/357",
       "type": "dev",
       "in": {
         "text": "Vista Center",
