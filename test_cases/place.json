@@ -7,13 +7,30 @@
       "id": 1,
       "status": "pass",
       "in": {
-        "id": "osmnode:2562438641"
+        "ids": "osm:venue:2562438641"
       },
       "expected": {
         "properties": [
           {
-            "id": "2562438641",
-            "layer": "osmnode"
+            "gid": "osm:venue:2562438641",
+            "layer": "venue",
+            "source": "osm"
+          }
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "status": "pass",
+      "in": {
+        "ids": "osm:venue:5013364"
+      },
+      "expected": {
+        "properties": [
+          {
+            "gid": "osm:venue:5013364",
+            "layer": "venue",
+            "source": "osm"
           }
         ]
       }

@@ -9,26 +9,24 @@
       "user": "Harish",
       "type": "dev",
       "in": {
-        "input": "101 saint mark pl 10009"
+        "text": "101 saint mark pl 10009"
       },
       "expected": {
         "properties": [
           {
             "name": "101 Saint Marks Place",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "New York",
-            "admin1_abbr": "NY",
-            "admin2": "New York County",
-            "local_admin": "Manhattan",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "New York",
+            "region_a": "NY",
+            "county": "New York County",
+            "localadmin": "Manhattan",
             "locality": "New York",
-            "neighborhood": "East Village",
-            "address": {
-              "zip": "10009",
-              "number": "101",
-              "street": "Saint Marks Place"
-            },
-            "text": "101 Saint Marks Place, Manhattan, NY"
+            "neighbourhood": "East Village",
+            "postalcode": "10009",
+            "housenumber": "101",
+            "street": "Saint Marks Place",
+            "label": "101 Saint Marks Place, Manhattan, NY"
           }
         ]
       }
@@ -45,12 +43,14 @@
         "also being part of 'new york city' and therefore admin matching twice"
       ],
       "in": {
-        "input": "1 water st manhattan ny"
+        "text": "1 water st manhattan ny"
       },
       "expected": {
-        "properties": [{
-          "text": "1 Water Street, Manhattan, NY"
-        }]
+        "properties": [
+          {
+            "label": "1 Water Street, Manhattan, NY"
+          }
+        ]
       }
     },
     {
@@ -59,12 +59,14 @@
       "user": "Diana",
       "type": "dev",
       "in": {
-        "input": "1 water st manhattan ny"
+        "text": "1 water st manhattan ny"
       },
       "expected": {
-        "properties": [{
-          "text": "1 Water Street, Manhattan, NY"
-        }]
+        "properties": [
+          {
+            "label": "1 Water Street, Manhattan, NY"
+          }
+        ]
       }
     },
     {
@@ -73,26 +75,31 @@
       "user": "Harish",
       "type": "dev",
       "in": {
-        "input": "450 w 37th st, new york, ny 11232"
+        "text": "450 w 37th st, new york, ny 11232"
       },
       "expected": {
         "properties": [
           {
             "name": "450 37th Street",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "New York",
-            "admin1_abbr": "NY",
-            "admin2": "Kings County",
-            "local_admin": "Brooklyn",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "New York",
+            "region_a": "NY",
+            "county": "Kings County",
+            "localadmin": "Brooklyn",
             "locality": "New York",
-            "neighborhood": "Windsor Teraace",
-            "address": {
-              "zip": "11232",
-              "number": "450",
-              "street": "37th Street"
-            },
-            "text": "450 37th Street, Brooklyn, NY"
+            "neighbourhood": "Windsor Teraace",
+            "postalcode": "11232",
+            "housenumber": "450",
+            "street": "37th Street",
+            "label": "450 37th Street, Brooklyn, NY"
+          }
+        ]
+      },
+      "unexpected": {
+        "properties": [
+          {
+            "postalcode": "10018"
           }
         ]
       }
@@ -103,26 +110,24 @@
       "user": "Harish",
       "type": "dev",
       "in": {
-        "input": "starbucks 10010"
+        "text": "starbucks 10010"
       },
       "expected": {
         "properties": [
           {
             "name": "Starbucks",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "New York",
-            "admin1_abbr": "NY",
-            "admin2": "New York County",
-            "local_admin": "Manhattan",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "New York",
+            "region_a": "NY",
+            "county": "New York County",
+            "localadmin": "Manhattan",
             "locality": "New York",
-            "neighborhood": "Midtown South",
-            "address": {
-              "zip": "10010",
-              "number": "304",
-              "street": "Park Avenue South"
-            },
-            "text": "Starbucks, Manhattan, NY"
+            "neighbourhood": "Midtown South",
+            "postalcode": "10010",
+            "housenumber": "304",
+            "street": "Park Avenue South",
+            "label": "Starbucks, Manhattan, NY"
           }
         ]
       }
@@ -133,26 +138,24 @@
       "user": "Harish",
       "type": "dev",
       "in": {
-        "input": "455 43rd st new york ny 11232"
+        "text": "455 43rd st new york ny 11232"
       },
       "expected": {
         "properties": [
           {
             "name": "455 43rd Street",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "New York",
-            "admin1_abbr": "NY",
-            "admin2": "Kings County",
-            "local_admin": "Brooklyn",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "New York",
+            "region_a": "NY",
+            "county": "Kings County",
+            "localadmin": "Brooklyn",
             "locality": "New York",
-            "neighborhood": "Sunset Park",
-            "address": {
-              "zip": "11232",
-              "number": "455",
-              "street": "43rd Street"
-            },
-            "text": "455 43rd Street, Brooklyn, NY"
+            "neighbourhood": "Sunset Park",
+            "postalcode": "11232",
+            "housenumber": "455",
+            "street": "43rd Street",
+            "label": "455 43rd Street, Brooklyn, NY"
           }
         ]
       }
@@ -163,26 +166,24 @@
       "user": "Harish",
       "type": "dev",
       "in": {
-        "input": "1 main st ny 11201"
+        "text": "1 main st ny 11201"
       },
       "expected": {
         "properties": [
           {
             "name": "1 Main Street",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "New York",
-            "admin1_abbr": "NY",
-            "admin2": "Kings County",
-            "local_admin": "Brooklyn",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "New York",
+            "region_a": "NY",
+            "county": "Kings County",
+            "localadmin": "Brooklyn",
             "locality": "New York",
-            "neighborhood": "DUMBO",
-            "address": {
-              "zip": "11201",
-              "number": "1",
-              "street": "Main Street"
-            },
-            "text": "1 Main Street, Brooklyn, NY"
+            "neighbourhood": "DUMBO",
+            "postalcode": "11201",
+            "housenumber": "1",
+            "street": "Main Street",
+            "label": "1 Main Street, Brooklyn, NY"
           }
         ]
       }
@@ -192,25 +193,23 @@
       "status": "pass",
       "user": "Harish",
       "in": {
-        "input": "186 Tuskegee St SE Atlanta GA"
+        "text": "186 Tuskegee St SE Atlanta GA"
       },
       "expected": {
         "properties": [
           {
             "name": "186 Tuskegee Street Southeast",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "Georgia",
-            "admin1_abbr": "GA",
-            "admin2": "Fulton County",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "Georgia",
+            "region_a": "GA",
+            "county": "Fulton County",
             "locality": "Atlanta",
-            "neighborhood": "Peoplestown",
-            "address": {
-              "zip": "30315",
-              "number": "186",
-              "street": "Tuskegee Street Southeast"
-            },
-            "text": "186 Tuskegee Street Southeast, Atlanta, GA"
+            "neighbourhood": "Peoplestown",
+            "postalcode": "30315",
+            "housenumber": "186",
+            "street": "Tuskegee Street Southeast",
+            "label": "186 Tuskegee Street Southeast, Atlanta, GA"
           }
         ]
       }
@@ -220,25 +219,23 @@
       "status": "pass",
       "user": "Harish",
       "in": {
-        "input": "3122 16th St San Francisco, CA 94103"
+        "text": "3122 16th St San Francisco, CA 94103"
       },
       "expected": {
         "properties": [
           {
             "name": "3122 16th Street",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "California",
-            "admin1_abbr": "CA",
-            "admin2": "San Francisco County",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "California",
+            "region_a": "CA",
+            "county": "San Francisco County",
             "locality": "San Francisco",
-            "neighborhood": "Mission Dolores",
-            "address": {
-              "zip": "94103",
-              "number": "3122",
-              "street": "16th Street"
-            },
-            "text": "3122 16th Street, San Francisco, CA"
+            "neighbourhood": "Mission Dolores",
+            "postalcode": "94103",
+            "housenumber": "3122",
+            "street": "16th Street",
+            "label": "3122 16th Street, San Francisco, CA"
           }
         ]
       }
@@ -248,25 +245,23 @@
       "status": "pass",
       "user": "Harish",
       "in": {
-        "input": "3010 20th St San Francisco CA 94110"
+        "text": "3010 20th St San Francisco CA 94110"
       },
       "expected": {
         "properties": [
           {
             "name": "3010 20th Street",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "California",
-            "admin1_abbr": "CA",
-            "admin2": "San Francisco County",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "California",
+            "region_a": "CA",
+            "county": "San Francisco County",
             "locality": "San Francisco",
-            "neighborhood": "Inner Mission",
-            "address": {
-              "zip": "94110",
-              "number": "3010",
-              "street": "20th Street"
-            },
-            "text": "3010 20th Street, San Francisco, CA"
+            "neighbourhood": "Inner Mission",
+            "postalcode": "94110",
+            "housenumber": "3010",
+            "street": "20th Street",
+            "label": "3010 20th Street, San Francisco, CA"
           }
         ]
       }
@@ -276,26 +271,23 @@
       "status": "pass",
       "user": "Harish",
       "in": {
-        "input": "3577 Jackson St San Francisco, CA 94118"
+        "text": "3577 Jackson St San Francisco, CA 94118"
       },
       "expected": {
         "properties": [
           {
             "name": "3577 Jackson Street",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "California",
-            "admin1_abbr": "CA",
-            "admin2": "San Francisco County",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "California",
+            "region_a": "CA",
+            "county": "San Francisco County",
             "locality": "San Francisco",
-            "neighborhood": "Presidio Heights",
-            "category": [],
-            "address": {
-              "zip": "94118",
-              "number": "3577",
-              "street": "Jackson Street"
-            },
-            "text": "3577 Jackson Street, San Francisco, CA"
+            "neighbourhood": "Presidio Heights",
+            "postalcode": "94118",
+            "housenumber": "3577",
+            "street": "Jackson Street",
+            "label": "3577 Jackson Street, San Francisco, CA"
           }
         ]
       }
@@ -306,16 +298,16 @@
       "user": "Harish",
       "type": "dev",
       "in": {
-        "input": "whole foods NY"
+        "text": "whole foods NY"
       },
       "expected": {
         "properties": [
           {
             "name": "Whole Foods",
-            "alpha3": "USA",
-            "admin0": "United States",
-            "admin1": "New York",
-            "admin1_abbr": "NY"
+            "country_a": "USA",
+            "country": "United States",
+            "region": "New York",
+            "region_a": "NY"
           }
         ]
       }

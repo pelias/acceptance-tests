@@ -1,5 +1,3 @@
-#### status of [pelias.mapzen.com](http://pelias.mapzen.com): [![Build Status](https://travis-ci.org/pelias/acceptance-tests.png)](https://travis-ci.org/pelias/acceptance-tests)
-
 # acceptance tests
 
 This repository contains all of the Pelias API "acceptance" tests, which are automated tests used to identify
@@ -14,10 +12,13 @@ You will need to have `npm` version `2.0` or higher installed.
 
 ## Usage
 
-```
+```bash
+# default to running all tests against production
 npm test
-npm test -- -e prod
-npm test -- -e stage -t dev
+# specify an environment manually
+npm test -- -e bigdev
+# specify an environment and only run tests that work against dev (small dataset of just NYC and London)
+npm test -- -e dev -t dev
 ```
 
 ## Test Case Files

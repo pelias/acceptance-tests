@@ -5,24 +5,24 @@
     {
       "id": 14,
       "status": "fail",
-      "issue": "https://github.com/pelias/pelias/issues/73",
+      "description": [
+        "because there is no indication of importance or popularity in our data",
+        "we have no way of knowing how to properly sort the results.",
+        "When they all have a name that matches the query, sort order of results",
+        "is based purely on order at import time or some variable ES search process.",
+        "In order to really fix this test, we must find definitive source of popularity data",
+        "for POIs that have common names."
+      ],
+      "issue": "https://github.com/pelias/pelias/issues/171",
       "type": "dev",
       "user": "hkrishna",
       "in": {
-        "input": "statue of liberty"
+        "text": "statue of liberty"
       },
       "expected": {
         "properties": [
           {
-            "admin0": "United States",
-            "admin1": "New York",
-            "admin2": "New York County",
-            "alpha3": "USA",
-            "local_admin": "Manhattan",
-            "locality": "New York",
-            "name": "Statue of Liberty",
-            "neighborhood": "Southern Tip",
-            "text": "Statue of Liberty, Manhattan, NY"
+            "label": "Statue of Liberty, Manhattan, NY"
           }
         ]
       }

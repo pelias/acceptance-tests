@@ -1,0 +1,216 @@
+{
+  "name": "autocomplete admin areas",
+  "priorityThresh": 5,
+  "endpoint": "autocomplete",
+  "tests": [
+    {
+      "id": 1,
+      "status": "pass",
+      "user": "Diana",
+      "type": "dev",
+      "in": {
+        "text": "brooklyn"
+      },
+      "expected": {
+        "properties": [
+          {
+            "label": "Brooklyn, New York, NY"
+          },
+          {
+            "label": "Brooklyn, Wellington City, New Zealand"
+          }
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "status": "pass",
+      "user": "Diana",
+      "type": "dev",
+      "in": {
+        "text": "new york"
+      },
+      "expected": {
+        "properties": [
+          {
+            "label": "New York, NY"
+          },
+          {
+            "label": "New York City, Manhattan, NY"
+          }
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "status": "pass",
+      "user": "missinglink",
+      "in": {
+        "text": "london"
+      },
+      "expected": {
+        "properties": [
+          {
+            "label": "London, Greater London, United Kingdom"
+          },
+          {
+            "label": "London, Middlesex, Canada"
+          }
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "status": "pass",
+      "user": "missinglink",
+      "in": {
+        "text": "san francisco"
+      },
+      "expected": {
+        "properties": [
+          {
+            "label": "San Francisco, San Francisco County, CA"
+          },
+          {
+            "label": "San Francisco Bay Area, San Francisco, CA"
+          },
+          {
+            "label": "San Francisco County, CA"
+          },
+          {
+            "label": "City of San Francisco, San Francisco, CA"
+          }
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "status": "pass",
+      "user": "missinglink",
+      "in": {
+        "text": "victoria"
+      },
+      "expected": {
+        "properties": [
+          {
+            "label": "Victoria, Australia"
+          },
+          {
+            "label": "Victoria, VICTORIA, Canada"
+          }
+        ]
+      }
+    },
+    {
+      "id": 7,
+      "status": "pass",
+      "user": "missinglink",
+      "in": {
+        "text": "wales"
+      },
+      "expected": {
+        "priorityThresh": 1,
+        "properties": [
+          {
+            "label": "Wales, United Kingdom"
+          }
+        ]
+      }
+    },
+    {
+      "id": 8,
+      "status": "pass",
+      "user": "missinglink",
+      "in": {
+        "text": "new south wales"
+      },
+      "expected": {
+        "priorityThresh": 3,
+        "properties": [
+          {
+            "label": "New South Wales, Australia"
+          }
+        ]
+      }
+    },
+    {
+      "id": 9,
+      "status": "pass",
+      "user": "missinglink",
+      "in": {
+        "text": "california"
+      },
+      "expected": {
+        "priorityThresh": 1,
+        "properties": [
+          {
+            "label": "California, CA"
+          }
+        ]
+      }
+    },
+    {
+      "id": 10,
+      "status": "pass",
+      "user": "missinglink",
+      "in": {
+        "text": "west bengal"
+      },
+      "expected": {
+        "priorityThresh": 1,
+        "properties": [
+          {
+            "label": "West Bengal, India"
+          }
+        ]
+      }
+    },
+    {
+      "id": 11,
+      "status": "pass",
+      "user": "missinglink",
+      "in": {
+        "text": "madrid"
+      },
+      "expected": {
+        "properties": [
+          {
+            "label": "Madrid, Spain"
+          }
+        ]
+      }
+    },
+    {
+      "id": 12,
+      "status": "pass",
+      "user": "missinglink",
+      "notes": [ "from mapillary home page" ],
+      "in": {
+        "text": "malmo"
+      },
+      "expected": {
+        "priorityThresh": 1,
+        "properties": [
+          {
+            "label": "Malmö, Skåne, Sweden"
+          }
+        ]
+      }
+    },
+    {
+      "id": 13,
+      "status": "pass",
+      "user": "missinglink",
+      "in": {
+        "text": "Singarpuram"
+      },
+      "expected": {
+        "properties": [
+          {
+            "label": "Singarpuram, Madurai, India"
+          }
+        ]
+      }
+    }
+  ]
+}

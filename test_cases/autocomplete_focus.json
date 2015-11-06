@@ -1,0 +1,105 @@
+{
+  "name": "autocomplete focus",
+  "priorityThresh": 5,
+  "endpoint": "autocomplete",
+  "tests": [
+    {
+      "id": 1,
+      "status": "pass",
+      "user": "Diana",
+      "type": "dev",
+      "in": {
+        "focus.point.lat": 40.744243,
+        "focus.point.lon": -73.990342,
+        "text": "DiDi dumpling"
+      },
+      "expected": {
+        "properties": [
+          {
+            "label": "DiDi Dumpling, Manhattan, NY"
+          }
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "status": "pass",
+      "user": "missinglink",
+      "notes": [ "NYC union square more important when focussed on NYC" ],
+      "type": "dev",
+      "in": {
+        "focus.point.lat": 40.744243,
+        "focus.point.lon": -73.990342,
+        "text": "union square"
+      },
+      "expected": {
+        "priorityThresh": 1,
+        "properties": [
+          {
+            "label": "Union Square, New York County, NY"
+          }
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "status": "pass",
+      "user": "missinglink",
+      "notes": [ "SF union square more important when focussed on SF" ],
+      "type": "dev",
+      "in": {
+        "focus.point.lat": 37.769316,
+        "focus.point.lon": -122.484223,
+        "text": "union square"
+      },
+      "expected": {
+        "priorityThresh": 1,
+        "properties": [
+          {
+            "label": "Union Square, San Francisco County, CA"
+          }
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "status": "pass",
+      "user": "missinglink",
+      "notes": [ "Berlin hard rock cafe more important when focussed on Berlin" ],
+      "type": "dev",
+      "in": {
+        "focus.point.lat": 52.5070540,
+        "focus.point.lon": 13.3217140,
+        "text": "hard rock cafe"
+      },
+      "expected": {
+        "priorityThresh": 1,
+        "properties": [
+          {
+            "label": "Hard Rock Cafe Berlin, Berlin, Germany"
+          }
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "status": "pass",
+      "user": "missinglink",
+      "notes": [ "NYC hard rock cafe more important when focussed on NYC" ],
+      "type": "dev",
+      "in": {
+        "focus.point.lat": 40.744243,
+        "focus.point.lon": -73.990342,
+        "text": "hard rock cafe"
+      },
+      "expected": {
+        "priorityThresh": 1,
+        "properties": [
+          {
+            "label": "Hard Rock Cafe, Manhattan, NY"
+          }
+        ]
+      }
+    }
+  ]
+}

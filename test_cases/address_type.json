@@ -15,15 +15,18 @@
         "Ensure address records are stored in the 'osmaddress' layer."
       ],
       "in": {
-        "input": "102 Fleet Street",
-        "lat": 51.53177,
-        "lon": -0.06672
+        "text": "102 Fleet Street",
+        "focus.point.lat": 51.53177,
+        "focus.point.lon": -0.06672
       },
       "expected": {
-        "properties": [{
-          "id": "address-osmnode-1401849738",
-          "layer": "osmaddress"
-        }]
+        "properties": [
+          {
+            "id": "address-osmnode-1401849738",
+            "layer": "address",
+            "source": "osm"
+          }
+        ]
       }
     },
     {
@@ -36,15 +39,18 @@
         "related: test(3)"
       ],
       "in": {
-        "input": "Shepherd and Flock",
-        "lat": 51.219671,
-        "lon": -0.779389
+        "text": "Shepherd and Flock",
+        "focus.point.lat": 51.219671,
+        "focus.point.lon": -0.779389
       },
       "expected": {
-        "properties": [{
-          "id": "26489964",
-          "layer": "osmnode"
-        }]
+        "properties": [
+          {
+            "gid": "osm:venue:26489964",
+            "layer": "venue",
+            "source": "osm"
+          }
+        ]
       }
     },
     {
@@ -57,15 +63,18 @@
         "related: test(2)"
       ],
       "in": {
-        "input": "22 Moor Park Lane",
-        "lat": 51.219671,
-        "lon": -0.779389
+        "text": "22 Moor Park Lane",
+        "focus.point.lat": 51.219671,
+        "focus.point.lon": -0.779389
       },
       "expected": {
-        "properties": [{
-          "id": "poi-address-osmnode-26489964",
-          "layer": "osmaddress"
-        }]
+        "properties": [
+          {
+            "gid": "osm:address:poi-address-osmnode-26489964",
+            "layer": "address",
+            "source": "osm"
+          }
+        ]
       }
     }
   ]

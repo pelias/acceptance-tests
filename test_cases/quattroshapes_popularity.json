@@ -6,23 +6,21 @@
     {
       "id": 1,
       "user": "sevko",
-      "status": "fail",
-      "issue": "non definitive 'chelsea' (common name globally)",
+      "status": "pass",
       "type": "dev",
       "in": {
-        "layers": "admin",
-        "input": "chelsea"
+        "layers": "coarse",
+        "text": "chelsea"
       },
       "expected": {
-        "properties": [{
-          "name": "Chelsea",
-          "alpha3": "USA",
-          "admin0": "United States",
-          "admin1": "New York",
-          "admin1_abbr": "NY",
-          "admin2": "New York County",
-          "text": "Chelsea, New York County, NY"
-        }]
+        "properties": [
+          {
+            "label": "Chelsea, New York County, NY"
+          },
+          {
+            "label": "Chelsea, Greater London, United Kingdom"
+          }
+        ]
       }
     },
     {
@@ -31,41 +29,32 @@
       "status": "pass",
       "type": "dev",
       "in": {
-        "layers": "admin",
-        "input": "chelsea, ny"
+        "layers": "coarse",
+        "text": "chelsea, ny"
       },
       "expected": {
-        "properties": [{
-          "name": "Chelsea",
-          "alpha3": "USA",
-          "admin0": "United States",
-          "admin1": "New York",
-          "admin1_abbr": "NY",
-          "admin2": "New York County",
-          "text": "Chelsea, New York County, NY"
-        }]
+        "properties": [
+          {
+            "label": "Chelsea, New York County, NY"
+          }
+        ]
       }
     },
     {
       "id": 2,
       "user": "sevko",
-      "status": "fail",
-      "issue": "non definitive 'neighborhood' (common name globally)",
+      "status": "pass",
       "type": "dev",
       "in": {
-        "layers": "neighborhood",
-        "input": "williamsburg"
+        "layers": "neighbourhood",
+        "text": "williamsburg"
       },
       "expected": {
-        "properties": [{
-          "name": "Williamsburg",
-          "alpha3": "USA",
-          "admin0": "United States",
-          "admin1": "New York",
-          "admin1_abbr": "NY",
-          "admin2": "Kings County",
-          "text": "Williamsburg, Kings County, NY"
-        }]
+        "properties": [
+          {
+            "label": "Williamsburg, Kings County, NY"
+          }
+        ]
       }
     },
     {
@@ -74,41 +63,35 @@
       "status": "pass",
       "type": "dev",
       "in": {
-        "layers": "neighborhood",
-        "input": "williamsburg, ny"
+        "layers": "neighbourhood",
+        "text": "williamsburg, ny"
       },
       "expected": {
-        "properties": [{
-          "name": "Williamsburg",
-          "alpha3": "USA",
-          "admin0": "United States",
-          "admin1": "New York",
-          "admin1_abbr": "NY",
-          "admin2": "Kings County",
-          "text": "Williamsburg, Kings County, NY"
-        }]
+        "properties": [
+          {
+            "label": "Williamsburg, Kings County, NY"
+          }
+        ]
       }
     },
     {
       "id": 3,
       "user": "sevko",
-      "status": "fail",
-      "issue": "non definitive 'ridgewood' (common name globally)",
+      "status": "pass",
       "type": "dev",
       "in": {
-        "layers": "admin",
-        "input": "ridgewood"
+        "layers": "coarse",
+        "text": "ridgewood"
       },
       "expected": {
-        "properties": [{
-          "name": "Ridgewood",
-          "alpha3": "USA",
-          "admin0": "United States",
-          "admin1": "New York",
-          "admin1_abbr": "NY",
-          "admin2": "Queens County",
-          "text": "Ridgewood, Queens County, NY"
-        }]
+        "properties": [
+          {
+            "label": "Ridgewood, Queens County, NY"
+          },
+          {
+            "label": "Ridgewood, Bergen County, NJ"
+          }
+        ]
       }
     },
     {
@@ -117,19 +100,15 @@
       "status": "pass",
       "type": "dev",
       "in": {
-        "layers": "admin",
-        "input": "ridgewood, ny"
+        "layers": "coarse",
+        "text": "ridgewood, ny"
       },
       "expected": {
-        "properties": [{
-          "name": "Ridgewood",
-          "alpha3": "USA",
-          "admin0": "United States",
-          "admin1": "New York",
-          "admin1_abbr": "NY",
-          "admin2": "Queens County",
-          "text": "Ridgewood, Queens County, NY"
-        }]
+        "properties": [
+          {
+            "label": "Ridgewood, Queens County, NY"
+          }
+        ]
       }
     }
   ]
