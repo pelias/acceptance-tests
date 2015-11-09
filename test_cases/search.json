@@ -407,13 +407,34 @@
       "expected": {
         "properties": [
           {
-            "label": "7 Simon-Dach-Straße, Uttenreuth, Germany"
+            "label": "Simon-Dach-Straße 7, Uttenreuth, Germany"
           },
           {
-            "label": "7 Simon-Dach-Straße, Bielefeld, Germany"
+            "label": "Simon-Dach-Straße 7, Bielefeld, Germany"
           },
           {
-            "label": "7 Simon-Dach-Straße, Berlin, Germany"
+            "label": "Simon-Dach-Straße 7, Berlin, Germany"
+          }
+        ]
+      },
+      "status": "pass"
+    },
+    {
+      "id": "1427414405152:4",
+      "user": "sevko",
+      "in": {
+        "text": "Simon-Dach-Straße 7"
+      },
+      "expected": {
+        "properties": [
+          {
+            "label": "Simon-Dach-Straße 7, Uttenreuth, Germany"
+          },
+          {
+            "label": "Simon-Dach-Straße 7, Bielefeld, Germany"
+          },
+          {
+            "label": "Simon-Dach-Straße 7, Berlin, Germany"
           }
         ]
       },
