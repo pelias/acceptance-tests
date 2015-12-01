@@ -69,6 +69,31 @@
           }
         ]
       }
+    },
+    {
+      "id": 4,
+      "status": "pass",
+      "user": "dianashk",
+      "description": "postalcodes should not strip leading 0's",
+      "in": {
+        "text": "339 W Main St, Cheshire, 06410"
+      },
+      "expected": {
+        "properties": [
+          {
+            "postalcode": "06410",
+            "country": "United States",
+            "region": "Connecticut"
+          }
+        ]
+      },
+      "unexpected": {
+        "properties": [
+          {
+            "postalcode": "6410"
+          }
+        ]
+      }
     }
   ]
 }
