@@ -142,7 +142,7 @@
       },
       "expected": {
         "properties": [{
-          "label": "1 Grolmanstraße, Berlin, Germany"
+          "label": "Grolmanstraße 1, Berlin, Germany"
         }]
       }
     },
