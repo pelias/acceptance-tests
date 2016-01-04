@@ -93,10 +93,14 @@
       "expected": {
         "properties": [
           {
-            "label": "Victoria, Australia"
+            "region": "Victoria",
+            "country": "Australia"
           },
           {
-            "label": "Victoria, VICTORIA, Canada"
+            "locality": "VICTORIA",
+            "region": "British Columbia",
+            "country": "Canada"
+
           }
         ]
       }
