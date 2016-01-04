@@ -93,10 +93,16 @@
       "expected": {
         "properties": [
           {
-            "label": "Victoria, Australia"
+            "region": "Victoria",
+            "country": "Australia",
+            "layer": "region"
           },
           {
-            "label": "Victoria, VICTORIA, Canada"
+            "locality": "VICTORIA",
+            "region": "British Columbia",
+            "country": "Canada",
+            "layer": "locality"
+
           }
         ]
       }
@@ -175,7 +181,12 @@
       "expected": {
         "properties": [
           {
-            "label": "Madrid, Spain"
+            "locality": "Madrid",
+            "region": "Madrid",
+            "country": "Spain",
+            "layer": "locality"
+
+
           }
         ]
       }
