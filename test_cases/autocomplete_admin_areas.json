@@ -94,12 +94,14 @@
         "properties": [
           {
             "region": "Victoria",
-            "country": "Australia"
+            "country": "Australia",
+            "layer": "region"
           },
           {
             "locality": "VICTORIA",
             "region": "British Columbia",
-            "country": "Canada"
+            "country": "Canada",
+            "layer": "locality"
 
           }
         ]
@@ -181,7 +183,8 @@
           {
             "locality": "Madrid",
             "region": "Madrid",
-            "country": "Spain"
+            "country": "Spain",
+            "layer": "locality"
 
 
           }
