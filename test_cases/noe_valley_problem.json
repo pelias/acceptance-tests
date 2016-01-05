@@ -1,0 +1,55 @@
+{
+  "name": "Noe Valley Problem",
+  "description": "Test case from https://github.com/pelias/pelias/issues/210",
+  "endpoint": "autocomplete",
+  "priorityThresh": 1,
+  "tests": [
+    {
+      "id": "1432771203570:1",
+      "user": "riordan",
+      "in": {
+        "text": "Noe Valley"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Noe Valley"
+          }
+        ]
+      },
+      "status": "fail"
+    },
+    {
+      "id": "1432771203570:2",
+      "user": "riordan",
+      "in": {
+        "text": "451 Fog Hill Road"
+      },
+      "expected": {
+        "properties": [
+          {
+            "label": "451 Fog Hill Road, Austerlitz, NY",
+            "housenumber": "451",
+            "street": "Fog Hill Road"
+          }
+        ]
+      },
+      "status": "fail"
+    },
+    {
+      "id": "1432771203570:3",
+      "user": "riordan",
+      "in": {
+        "text": "1030 Flintlock Road"
+      },
+      "expected": {
+        "properties": [
+          {
+          "label": "1030 Flintlock Road, Fairfield, CT"
+          }
+        ]
+      },
+      "status": "fail"
+    }
+  ]
+}
