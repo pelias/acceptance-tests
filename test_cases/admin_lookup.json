@@ -296,10 +296,9 @@
     },
     {
       "id": "13",
-      "status": "fail",
+      "status": "pass",
       "description": [
-        "all words in query text are address stop-words,",
-        "so must condition in query is actually a blank string"
+        "all words in query text are potential address stop-words"
       ],
       "issue": "https://github.com/pelias/api/issues/357",
       "type": "dev",
