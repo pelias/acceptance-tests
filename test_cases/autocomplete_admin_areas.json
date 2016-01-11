@@ -69,16 +69,10 @@
       "expected": {
         "properties": [
           {
-            "label": "San Francisco, San Francisco County, CA"
-          },
-          {
-            "label": "San Francisco Bay Area, San Francisco, CA"
-          },
-          {
-            "label": "San Francisco County, CA"
-          },
-          {
-            "label": "City of San Francisco, San Francisco, CA"
+            "region": "California",
+            "county": "San Francisco County",
+            "locality": "San Francisco",
+            "layer": "locality"
           }
         ]
       }
