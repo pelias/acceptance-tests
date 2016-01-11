@@ -1,0 +1,30 @@
+{
+  "name": "poi address matching",
+  "priorityThresh": 5,
+  "endpoint": "search",
+  "tests": [
+    {
+      "id": 1,
+      "status": "fail",
+      "user": "dianashk",
+      "type": "dev",
+      "in": {
+        "text": "30 West 26th st, Manhattan, NY"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Samsung Accelerator",
+            "housenumber": "30",
+            "street": "West 26th Street",
+            "postalcode": "10010",
+            "region_a": "NY",
+            "localadmin": "Manhattan",
+            "locality": "New York",
+            "label": "Samsung Accelerator, Manhattan, NY"
+          }
+        ]
+      }
+    }
+  ]
+}
