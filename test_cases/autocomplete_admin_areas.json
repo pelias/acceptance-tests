@@ -23,6 +23,86 @@
       }
     },
     {
+      "id": "1-1",
+      "status": "pass",
+      "user": "Riordan",
+      "priorityThresh": 1,
+      "in": {
+        "text": "broo"
+      },
+      "expected": {
+        "properties": [
+          {
+            "label": "Brooklyn, New York, NY"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1-2",
+      "status": "fail",
+      "user": "Riordan",
+      "priorityThresh": 1,
+      "in": {
+        "text": "brook"
+      },
+      "expected": {
+        "properties": [
+          {
+            "label": "Brooklyn, New York, NY"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1-3",
+      "status": "pass",
+      "user": "Riordan",
+      "priorityThresh": 1,
+      "in": {
+        "text": "brookl"
+      },
+      "expected": {
+        "properties": [
+          {
+            "label": "Brooklyn, New York, NY"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1-4",
+      "status": "fail",
+      "user": "Riordan",
+      "priorityThresh": 1,
+      "in": {
+        "text": "brookly"
+      },
+      "expected": {
+        "properties": [
+          {
+            "label": "Brooklyn, New York, NY"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1-5",
+      "status": "pass",
+      "user": "Riordan",
+      "priorityThresh": 1,
+      "in": {
+        "text": "brooklyn"
+      },
+      "expected": {
+        "properties": [
+          {
+            "label": "Brooklyn, New York, NY"
+          }
+        ]
+      }
+    },
+    {
       "id": 2,
       "status": "pass",
       "user": "Diana",
