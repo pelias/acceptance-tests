@@ -602,7 +602,7 @@
     },
     {
       "id": 24,
-      "status": "pass",
+      "status": "fail",
       "user": "riordan",
       "notes": [ "SF Zoo should show up in SF. Logged by @nvkelso in: https://github.com/pelias/pelias/issues/183" ],
       "in": {
