@@ -6,6 +6,10 @@
     {
       "id": 1,
       "status": "fail",
+      "issue": "https://github.com/pelias/api/issues/283",
+      "description": [
+        "Where poi has a full address, searching for that address should return POI as well."
+      ],
       "user": "dianashk",
       "type": "dev",
       "in": {
