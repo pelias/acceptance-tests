@@ -453,6 +453,29 @@
           }
         ]
       }
+    },
+    {
+      "id": "19",
+      "status": "fail",
+      "issue": "https://github.com/pelias/pelias/issues/144",
+      "description": [
+        "Problem in the QS data, so should be fixed once we move to WOF"
+      ],
+      "in": {
+        "text": "5 West 4th Avenue Canada"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "address",
+            "housenumber": "5",
+            "street": "West 4th Avenue",
+            "country_a": "CAN",
+            "country": "Canada",
+            "locality": "Vancouver"
+          }
+        ]
+      }
     }
   ]
 }
