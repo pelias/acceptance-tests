@@ -27,6 +27,8 @@
       "status": "pass",
       "user": "Riordan",
       "priorityThresh": 1,
+      "description": ["K-stemming on Autocomplete is leading to strange results",
+         "for the progressive characters in `brooklyn`, leading to jitter"],
       "in": {
         "text": "broo"
       },
@@ -43,6 +45,8 @@
       "status": "fail",
       "user": "Riordan",
       "priorityThresh": 1,
+      "description": ["K-stemming on Autocomplete is leading to strange results",
+         "for the progressive characters in `brooklyn`, leading to jitter"],
       "in": {
         "text": "brook"
       },
@@ -59,6 +63,8 @@
       "status": "pass",
       "user": "Riordan",
       "priorityThresh": 1,
+      "description": ["K-stemming on Autocomplete is leading to strange results",
+         "for the progressive characters in `brooklyn`, leading to jitter"],
       "in": {
         "text": "brookl"
       },
@@ -75,6 +81,8 @@
       "status": "fail",
       "user": "Riordan",
       "priorityThresh": 1,
+      "description": ["K-stemming on Autocomplete is leading to strange results",
+         "for the progressive characters in `brooklyn`, leading to jitter"],
       "in": {
         "text": "brookly"
       },
@@ -91,6 +99,8 @@
       "status": "pass",
       "user": "Riordan",
       "priorityThresh": 1,
+      "description": ["K-stemming on Autocomplete is leading to strange results",
+         "for the progressive characters in `brooklyn`, leading to jitter"],
       "in": {
         "text": "brooklyn"
       },
