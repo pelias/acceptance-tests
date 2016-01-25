@@ -120,6 +120,32 @@
           }
         ]
       }
+    },
+    {
+      "id": 25,
+      "status": "fail",
+      "user": "randyme",
+      "notes": [ "Autocomplete is not prioritizing local address.",
+      "Issue filed in: https://github.com/pelias/pelias/issues/240" ],
+      "in": {
+        "focus.point.lat": 40.744131,
+        "focus.point.lon": -73.990424,
+        "text": "1 madison ave"
+      },
+      "expected": {
+        "priorityThresh": 1,
+        "properties": [
+          {
+            "name": "1 Madison Avenue",
+            "layer": "address",
+            "housenumber": "1",
+            "street": "Madison Avenue",
+            "region": "New York",
+            "localadmin": "Manhattan",
+            "locality": "New York"
+          }
+        ]
+      }
     }
   ]
 }
