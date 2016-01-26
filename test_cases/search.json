@@ -1,624 +1,548 @@
 {
-  "name": "search",
-  "priorityThresh": 5,
-  "tests": [
-    {
-      "id": 1,
-      "status": "pass",
-      "user": "Randy",
-      "type": "dev",
-      "in": {
-        "text": "brooklyn"
-      },
-      "expected": {
-        "properties": [
-          {
-            "label": "Brooklyn, New York, NY"
-          },
-          {
-            "label": "Brooklyn, Wellington City, New Zealand"
-          }
-        ]
-      }
-    },
-    {
-      "id": 2,
-      "status": "pass",
-      "user": "Randy",
-      "type": "dev",
-      "in": {
-        "text": "brooklyn, ny"
-      },
-      "expected": {
-        "properties": [
-          {
-            "label": "Brooklyn, New York, NY"
-          },
-          {
-            "label": "Brooklyn, Kings County, NY"
-          }
-        ]
-      }
-    },
-    {
-      "id": 4,
-      "status": "pass",
-      "user": "Diana",
-      "type": "dev",
-      "in": {
-        "text": "philadelphia"
-      },
-      "expected": {
-        "properties": [
-          {
-            "label": "Philadelphia, Philadelphia County, PA"
-          }
-        ]
-      }
-    },
-    {
-      "id": "4-1",
-      "status": "pass",
-      "user": "Diana",
-      "type": "dev",
-      "in": {
-        "text": "philadelphia, pa"
-      },
-      "expected": {
-        "properties": [
-          {
-            "label": "Philadelphia, Philadelphia County, PA"
-          }
-        ]
-      }
-    },
-    {
-      "id": 5,
-      "status": "pass",
-      "type": "dev",
-      "user": "Randy",
-      "in": {
-        "text": "new york, new york"
-      },
-      "expected": {
-        "properties": [
-          {
-            "label": "New York County, NY"
-          },
-          {
-            "label": "New York City, Manhattan, NY"
-          }
-        ]
-      }
-    },
-    {
-      "id": "5:2",
-      "status": "pass",
-      "type": "dev",
-      "user": "missinglink",
-      "in": {
-        "text": "new york city"
-      },
-      "expected": {
-        "properties": [
-          {
-            "label": "New York City, Manhattan, NY"
-          }
-        ]
-      }
-    },
-    {
-      "id": "5:3",
-      "status": "pass",
-      "type": "dev",
-      "user": "missinglink",
-      "in": {
-        "text": "new york city, usa"
-      },
-      "expected": {
-        "properties": [
-          {
-            "label": "New York City, Manhattan, NY"
-          }
-        ]
-      }
-    },
-    {
-      "id": 6,
-      "status": "pass",
-      "type": "dev",
-      "user": "Randy",
-      "in": {
-        "text": "130 dean street brooklyn, ny"
-      },
-      "expected": {
-        "properties": [
-          {
-            "label": "130 Dean Street, Brooklyn, NY"
-          }
-        ]
-      }
-    },
-    {
-      "id": 7,
-      "status": "pass",
-      "type": "dev",
-      "user": "Randy",
-      "in": {
-        "text": "billerica"
-      },
-      "expected": {
-        "properties": [
-          {
-            "label": "Billerica, Middlesex County, MA"
-          }
-        ]
-      }
-    },
-    {
-      "id": 8,
-      "status": "pass",
-      "type": "dev",
-      "user": "Randy",
-      "in": {
-        "text": "billerica, ma"
-      },
-      "expected": {
-        "properties": [
-          {
-            "label": "Billerica, Middlesex County, MA"
-          }
-        ]
-      }
-    },
-    {
-      "id": 9,
-      "status": "pass",
-      "user": "Randy",
-      "in": {
-        "text": "15 call street billerica, ma"
-      },
-      "expected": {
-        "priorityThresh": 1,
-        "properties": [
-          {
-            "name": "15 Call Street",
-            "country": "United States",
-            "region": "Massachusetts",
-            "county": "Middlesex County",
-            "label": "15 Call Street, Billerica, MA"
-          }
-        ]
-      }
-    },
-    {
-      "id": "1425586777012:0",
-      "status": "fail",
-      "notes": [
-        "we don't support 'sq' here, when using 'square' instead the address",
-        "parser kicks in and only shows street addresses"
-      ],
-      "user": "feedback-app",
-      "type": "dev",
-      "in": {
-        "text": "union sq"
-      },
-      "expected": {
-        "properties": [
-          {
-            "name": "Union Square",
-            "country_a": "USA",
-            "country": "United States",
-            "region": "California",
-            "region_a": "CA",
-            "county": "San Francisco County",
-            "label": "Union Square, San Francisco County, CA"
-          }
-        ]
-      }
-    },
-    {
-      "id": "1425586777012:2",
-      "status": "pass",
-      "user": "feedback-app",
-      "type": "dev",
-      "in": {
-        "text": "portland"
-      },
-      "expected": {
-        "properties": [
-          {
-            "label": "Portland, Multnomah County, OR"
-          }
-        ]
-      }
-    },
-    {
-      "id": "1425586777012:2-1",
-      "status": "pass",
-      "user": "feedback-app",
-      "type": "dev",
-      "in": {
-        "text": "portland, oregon"
-      },
-      "expected": {
-        "properties": [
-          {
-            "label": "Portland, Multnomah County, OR"
-          }
-        ]
-      }
-    },
-    {
-      "id": "1425586777012:3",
-      "status": "pass",
-      "user": "feedback-app",
-      "in": {
-        "text": "paris"
-      },
-      "expected": {
-        "properties": [
-          {
-            "label": "Paris, France"
-          }
-        ]
-      }
-    },
-    {
-      "id": "1425586777012:4",
-      "status": "pass",
-      "notes": [
-        "the quattroshapes data contains entries for 'France' in",
-        "French Guiana (GUF), not sure of the politics behind this"
-      ],
-      "user": "feedback-app",
-      "in": {
-        "text": "france"
-      },
-      "expected": {
-        "properties": [
-          {
-            "label": "France"
-          }
-        ]
-      }
-    },
-    {
-      "id": "1425586777012:6",
-      "status": "pass",
-      "user": "feedback-app",
-      "type": "dev",
-      "in": {
-        "text": "london"
-      },
-      "expected": {
-        "properties": [
-          {
-            "label": "London, Greater London, United Kingdom"
-          },
-          {
-            "label": "London, Middlesex, Canada"
-          },
-          {
-            "label": "London, United Kingdom"
-          }
-        ]
-      }
-    },
-    {
-      "id": 10,
-      "status": "pass",
-      "user": "hkrishna",
-      "type": "dev",
-      "in": {
-        "text": "chelsea, new york"
-      },
-      "expected": {
-        "properties": [
-          {
-            "label": "Chelsea, New York County, NY"
-          }
-        ]
-      }
-    },
-    {
-      "id": 11,
-      "status": "pass",
-      "type": "dev",
-      "user": "hkrishna",
-      "in": {
-        "text": "soho, new york"
-      },
-      "expected": {
-        "properties": [
-          {
-            "label": "Soho, New York County, NY"
-          },
-          {
-            "label": "SoHo, Manhattan, NY"
-          }
-        ]
-      }
-    },
-    {
-      "id": "1426085141587:0",
-      "status": "pass",
-      "user": "feedback-app",
-      "in": {
-        "text": "perugia airport"
-      },
-      "expected": {
-        "properties": [
-          {
-            "label": "Perugia San Francesco d'Assisi – Umbria International Airport, Perugia, Italy"
-          }
-        ]
-      }
-    },
-    {
-      "id": 15,
-      "status": "pass",
-      "type": "dev",
-      "user": "hkrishna",
-      "in": {
-        "text": "101 saint marks pl, new york"
-      },
-      "expected": {
-        "properties": [
-          {
-            "neighbourhood": "East Village",
-            "label": "101 Saint Marks Place, Manhattan, NY"
-          }
-        ]
-      }
-    },
-    {
-      "id": 18,
-      "user": "sevko",
-      "status": "fail",
-      "issue": "https://github.com/pelias/api/issues/151",
-      "type": "dev",
-      "in": {
-        "text": "newark airport"
-      },
-      "expected": {
-        "properties": [
-          {
-            "name": "Newark Liberty International Airport",
-            "country_a": "USA",
-            "country": "United States",
-            "region": "New Jersey",
-            "region_a": "NJ",
-            "county": "Essex County",
-            "localadmin": "Newark",
-            "locality": "Newark",
-            "neighbourhood": "Dayton",
-            "label": "Newark Liberty International Airport, Newark, NJ"
-          }
-        ]
-      }
-    },
-    {
-      "id": "1427414405152:3",
-      "user": "sevko",
-      "in": {
-        "text": "7 Simon-Dach-Straße"
-      },
-      "expected": {
-        "properties": [
-          {
-            "label": "Simon-Dach-Straße 7, Uttenreuth, Germany"
-          },
-          {
-            "label": "Simon-Dach-Straße 7, Bielefeld, Germany"
-          },
-          {
-            "label": "Simon-Dach-Straße 7, Berlin, Germany"
-          }
-        ]
-      },
-      "status": "pass"
-    },
-    {
-      "id": "1427414405152:4",
-      "user": "sevko",
-      "in": {
-        "text": "Simon-Dach-Straße 7"
-      },
-      "expected": {
-        "properties": [
-          {
-            "label": "Simon-Dach-Straße 7, Uttenreuth, Germany"
-          },
-          {
-            "label": "Simon-Dach-Straße 7, Bielefeld, Germany"
-          },
-          {
-            "label": "Simon-Dach-Straße 7, Berlin, Germany"
-          }
-        ]
-      },
-      "status": "pass"
-    },
-    {
-      "id": 19,
-      "status": "pass",
-      "user": "Diana",
-      "type": "dev",
-      "in": {
-        "focus.point.lat": 40.744243,
-        "focus.point.lon": -73.990342,
-        "text": "30 West 26th Street",
-        "layers": "address",
-        "sources": "osm"
-      },
-      "expected": {
-        "properties": [
-          {
-            "layer": "address",
-            "name": "30 West 26th Street",
-            "country_a": "USA",
-            "country": "United States",
-            "region": "New York",
-            "region_a": "NY",
-            "county": "New York County",
-            "localadmin": "Manhattan",
-            "locality": "New York",
-            "neighbourhood": "Flatiron District",
-            "postalcode": "10010",
-            "housenumber": "30",
-            "street": "West 26th Street",
-            "label": "30 West 26th Street, Manhattan, NY",
-            "source": "osm"
-          }
-        ]
-      }
-    },
-    {
-      "id": 20,
-      "user": "orangejulius",
-      "in": {
-        "text": "statue of liberty",
-        "boundary.country": "USA"
-      },
-      "expected": {
-        "properties": [{
-          "name": "Statue of Liberty",
-          "country_a": "USA",
-          "region": "New York"
-        }]
-      },
-      "unexpected": {
-        "properties": [{
-          "country_a": "FRA"
-        }]
-      }
-    },
-    {
-      "id": 20,
-      "user": "orangejulius",
-      "in": {
-        "text": "statue of liberty",
-        "boundary.country": "FRA"
-      },
-      "expected": {
-        "properties": [{
-          "name": "Statue of Liberty",
-          "country_a": "FRA",
-          "region": "Paris"
-        }]
-      },
-      "unexpected": {
-        "properties": [{
-          "country_a": "USA"
-        }]
-      }
-    },
-    {
-      "id": "1426636804303:51",
-      "user": "feedback-app",
-      "in": {
-        "text": "4th and King"
-      },
-      "expected": {
-        "properties": [
-          {
-            "name": "San Francisco 4th & King Street Station",
-            "country_a": "USA"
-          }
-        ],
-        "priorityThresh": 2
-      },
-      "status": "pass"
-    },
-    {
-      "id": 21,
-      "user": "stephen",
-      "priorityThresh": 1,
-      "notes": [
-        "normally Lancaster, CA is returned first for \"Lancaster\" input while",
-        "this test demonstrates that Lancaster, PA shows first when given a viewport ",
-        "of southeastern PA"
-      ],
-      "in": {
-        "text": "Lancaster",
-        "focus.viewport.min_lat": "39.676006",
-        "focus.viewport.min_lon": "-77.448335",
-        "focus.viewport.max_lat": "40.489749",
-        "focus.viewport.max_lon": "-75.173684"
-      },
-      "expected": {
-        "properties": [{
-          "name": "Lancaster",
-          "region": "Pennsylvania"
-        }]
-      }
-    },
-    {
-      "id": 22,
-      "user": "stephen",
-      "priorityThresh": 1,
-      "notes": [
-        "normally Paris, FR is returned first for \"Paris\" input while",
-        "this test demonstrates that Paris, TN shows first when given a viewport ",
-        "of Tennessee"
-      ],
-      "in": {
-        "text": "Paris",
-        "focus.viewport.min_lat": "34.635221",
-        "focus.viewport.min_lon": "-90.823908",
-        "focus.viewport.max_lat": "38.004041",
-        "focus.viewport.max_lon": "-82.197798"
-      },
-      "expected": {
-        "properties": [{
-          "name": "Paris",
-          "region": "Tennessee"
-        }]
-      }
-    },
-    {
-      "id": 23,
-      "user": "stephen",
-      "priorityThresh": 1,
-      "notes": [
-        "normally Manchester, GB is returned first for \"Manchester\" input while",
-        "this test demonstrates that Manchester, NH shows first when given a viewport ",
-        "of New England"
-      ],
-      "in": {
-        "text": "Manchester",
-        "focus.viewport.min_lat": "40.594598",
-        "focus.viewport.min_lon": "-78.676080",
-        "focus.viewport.max_lat": "47.087877",
-        "focus.viewport.max_lon": "-65.323911"
-      },
-      "expected": {
-        "properties": [{
-          "name": "Manchester",
-          "region": "New Hampshire"
-        }]
-      }
-    },
-    {
-      "id": 24,
-      "status": "fail",
-      "user": "riordan",
-      "notes": [ "SF Zoo should show up in SF. Logged by @nvkelso in: https://github.com/pelias/pelias/issues/183" ],
-      "in": {
-        "focus.point.lat": 37.743618,
-        "focus.point.lon": -122.426117,
-        "text": "zoo"
-      },
-      "expected": {
-        "priorityThresh": 1,
-        "properties": [
-          {
-            "label": "San Francisco Zoo, San Francisco, CA",
-            "name": "San Francisco Zoo"
-          }
-        ]
-      }
-    }
-  ]
+	"name": "search",
+	"priorityThresh": 5,
+	"tests": [{
+		"id": 1,
+		"status": "pass",
+		"user": "Randy",
+		"type": "dev",
+		"in": {
+			"text": "brooklyn",
+			"sources": "quattroshapes"
+		},
+		"expected": {
+			"properties": [{
+				"label": "Brooklyn, New York, NY"
+			}, {
+				"label": "Brooklyn, Wellington City, New Zealand"
+			}]
+		}
+	}, {
+		"id": 2,
+		"status": "pass",
+		"user": "Randy",
+		"type": "dev",
+		"in": {
+			"text": "brooklyn, ny",
+			"sources": "quattroshapes"
+		},
+		"expected": {
+			"properties": [{
+				"label": "Brooklyn, New York, NY"
+			}, {
+				"label": "Brooklyn, Kings County, NY"
+			}]
+		}
+	}, {
+		"id": 4,
+		"status": "pass",
+		"user": "Diana",
+		"type": "dev",
+		"in": {
+			"text": "philadelphia",
+			"sources": "quattroshapes"
+		},
+		"expected": {
+			"properties": [{
+				"label": "Philadelphia, Philadelphia County, PA"
+			}]
+		}
+	}, {
+		"id": "4-1",
+		"status": "pass",
+		"user": "Diana",
+		"type": "dev",
+		"in": {
+			"text": "philadelphia, pa",
+			"sources": "quattroshapes"
+		},
+		"expected": {
+			"properties": [{
+				"label": "Philadelphia, Philadelphia County, PA"
+			}]
+		}
+	}, {
+		"id": 5,
+		"status": "pass",
+		"type": "dev",
+		"user": "Randy",
+		"in": {
+			"text": "new york, new york",
+			"sources": "quattroshapes"
+		},
+		"expected": {
+			"properties": [{
+				"label": "New York County, NY"
+			}, {
+				"label": "New York City, Manhattan, NY"
+			}]
+		}
+	}, {
+		"id": "5:2",
+		"status": "pass",
+		"type": "dev",
+		"user": "missinglink",
+		"in": {
+			"text": "new york city",
+			"sources": "quattroshapes"
+		},
+		"expected": {
+			"properties": [{
+				"label": "New York City, Manhattan, NY"
+			}]
+		}
+	}, {
+		"id": "5:3",
+		"status": "pass",
+		"type": "dev",
+		"user": "missinglink",
+		"in": {
+			"text": "new york city, usa",
+			"sources": "quattroshapes"
+		},
+		"expected": {
+			"properties": [{
+				"label": "New York City, Manhattan, NY"
+			}]
+		}
+	}, {
+		"id": 6,
+		"status": "pass",
+		"type": "dev",
+		"user": "Randy",
+		"in": {
+			"text": "130 dean street brooklyn, ny"
+		},
+		"expected": {
+			"properties": [{
+				"label": "130 Dean Street, Brooklyn, NY"
+			}]
+		}
+	}, {
+		"id": 7,
+		"status": "pass",
+		"type": "dev",
+		"user": "Randy",
+		"in": {
+			"text": "billerica",
+			"sources": "quattroshapes"
+		},
+		"expected": {
+			"properties": [{
+				"label": "Billerica, Middlesex County, MA"
+			}]
+		}
+	}, {
+		"id": 8,
+		"status": "pass",
+		"type": "dev",
+		"user": "Randy",
+		"in": {
+			"text": "billerica, ma",
+			"sources": "quattroshapes"
+		},
+		"expected": {
+			"properties": [{
+				"label": "Billerica, Middlesex County, MA"
+			}]
+		}
+	}, {
+		"id": 9,
+		"status": "pass",
+		"user": "Randy",
+		"in": {
+			"text": "15 call street billerica, ma"
+		},
+		"expected": {
+			"priorityThresh": 1,
+			"properties": [{
+				"name": "15 Call Street",
+				"country": "United States",
+				"region": "Massachusetts",
+				"county": "Middlesex County",
+				"label": "15 Call Street, Billerica, MA"
+			}]
+		}
+	}, {
+		"id": "1425586777012:0",
+		"status": "fail",
+		"notes": [
+			"we don't support 'sq' here, when using 'square' instead the address",
+			"parser kicks in and only shows street addresses"
+		],
+		"user": "feedback-app",
+		"type": "dev",
+		"in": {
+			"text": "union sq",
+			"sources": "quattroshapes"
+		},
+		"expected": {
+			"properties": [{
+				"name": "Union Square",
+				"country_a": "USA",
+				"country": "United States",
+				"region": "California",
+				"region_a": "CA",
+				"county": "San Francisco County",
+				"label": "Union Square, San Francisco County, CA"
+			}]
+		}
+	}, {
+		"id": "1425586777012:2",
+		"status": "pass",
+		"user": "feedback-app",
+		"type": "dev",
+		"in": {
+			"text": "portland",
+			"sources": "quattroshapes"
+		},
+		"expected": {
+			"properties": [{
+				"label": "Portland, Multnomah County, OR"
+			}]
+		}
+	}, {
+		"id": "1425586777012:2-1",
+		"status": "pass",
+		"user": "feedback-app",
+		"type": "dev",
+		"in": {
+			"text": "portland, oregon",
+			"sources": "quattroshapes"
+		},
+		"expected": {
+			"properties": [{
+				"label": "Portland, Multnomah County, OR"
+			}]
+		}
+	}, {
+		"id": "1425586777012:3",
+		"status": "pass",
+		"user": "feedback-app",
+		"in": {
+			"text": "paris",
+			"sources": "quattroshapes"
+		},
+		"expected": {
+			"properties": [{
+				"label": "Paris, France"
+			}]
+		}
+	}, {
+		"id": "1425586777012:4",
+		"status": "pass",
+		"notes": [
+			"the quattroshapes data contains entries for 'France' in",
+			"French Guiana (GUF), not sure of the politics behind this"
+		],
+		"user": "feedback-app",
+		"in": {
+			"text": "france",
+			"sources": "quattroshapes"
+		},
+		"expected": {
+			"properties": [{
+				"label": "France"
+			}]
+		}
+	}, {
+		"id": "1425586777012:6",
+		"status": "pass",
+		"user": "feedback-app",
+		"type": "dev",
+		"in": {
+			"text": "london",
+			"sources": "quattroshapes"
+		},
+		"expected": {
+			"properties": [{
+				"label": "London, Greater London, United Kingdom"
+			}, {
+				"label": "London, Middlesex, Canada"
+			}, {
+				"label": "London, United Kingdom"
+			}]
+		}
+	}, {
+		"id": 10,
+		"status": "pass",
+		"user": "hkrishna",
+		"type": "dev",
+		"in": {
+			"text": "chelsea, new york",
+			"sources": "quattroshapes"
+		},
+		"expected": {
+			"properties": [{
+				"label": "Chelsea, New York County, NY"
+			}]
+		}
+	}, {
+		"id": 11,
+		"status": "pass",
+		"type": "dev",
+		"user": "hkrishna",
+		"in": {
+			"text": "soho, new york",
+			"sources": "quattroshapes"
+		},
+		"expected": {
+			"properties": [{
+				"label": "Soho, New York County, NY"
+			}, {
+				"label": "SoHo, Manhattan, NY"
+			}]
+		}
+	}, {
+		"id": "1426085141587:0",
+		"status": "pass",
+		"user": "feedback-app",
+		"in": {
+			"text": "perugia airport"
+		},
+		"expected": {
+			"properties": [{
+				"label": "Perugia San Francesco d'Assisi – Umbria International Airport, Perugia, Italy"
+			}]
+		}
+	}, {
+		"id": 15,
+		"status": "pass",
+		"type": "dev",
+		"user": "hkrishna",
+		"in": {
+			"text": "101 saint marks pl, new york"
+		},
+		"expected": {
+			"properties": [{
+				"neighbourhood": "East Village",
+				"label": "101 Saint Marks Place, Manhattan, NY"
+			}]
+		}
+	}, {
+		"id": 18,
+		"user": "sevko",
+		"status": "fail",
+		"issue": "https://github.com/pelias/api/issues/151",
+		"type": "dev",
+		"in": {
+			"text": "newark airport"
+		},
+		"expected": {
+			"properties": [{
+				"name": "Newark Liberty International Airport",
+				"country_a": "USA",
+				"country": "United States",
+				"region": "New Jersey",
+				"region_a": "NJ",
+				"county": "Essex County",
+				"localadmin": "Newark",
+				"locality": "Newark",
+				"neighbourhood": "Dayton",
+				"label": "Newark Liberty International Airport, Newark, NJ"
+			}]
+		}
+	}, {
+		"id": "1427414405152:3",
+		"user": "sevko",
+		"in": {
+			"text": "7 Simon-Dach-Straße"
+		},
+		"expected": {
+			"properties": [{
+				"label": "Simon-Dach-Straße 7, Uttenreuth, Germany"
+			}, {
+				"label": "Simon-Dach-Straße 7, Bielefeld, Germany"
+			}, {
+				"label": "Simon-Dach-Straße 7, Berlin, Germany"
+			}]
+		},
+		"status": "pass"
+	}, {
+		"id": "1427414405152:4",
+		"user": "sevko",
+		"in": {
+			"text": "Simon-Dach-Straße 7"
+		},
+		"expected": {
+			"properties": [{
+				"label": "Simon-Dach-Straße 7, Uttenreuth, Germany"
+			}, {
+				"label": "Simon-Dach-Straße 7, Bielefeld, Germany"
+			}, {
+				"label": "Simon-Dach-Straße 7, Berlin, Germany"
+			}]
+		},
+		"status": "pass"
+	}, {
+		"id": 19,
+		"status": "pass",
+		"user": "Diana",
+		"type": "dev",
+		"in": {
+			"focus.point.lat": 40.744243,
+			"focus.point.lon": -73.990342,
+			"text": "30 West 26th Street",
+			"layers": "address",
+			"sources": "osm"
+		},
+		"expected": {
+			"properties": [{
+				"layer": "address",
+				"name": "30 West 26th Street",
+				"country_a": "USA",
+				"country": "United States",
+				"region": "New York",
+				"region_a": "NY",
+				"county": "New York County",
+				"localadmin": "Manhattan",
+				"locality": "New York",
+				"neighbourhood": "Flatiron District",
+				"postalcode": "10010",
+				"housenumber": "30",
+				"street": "West 26th Street",
+				"label": "30 West 26th Street, Manhattan, NY",
+				"source": "osm"
+			}]
+		}
+	}, {
+		"id": 20,
+		"user": "orangejulius",
+		"in": {
+			"text": "statue of liberty",
+			"boundary.country": "USA",
+			"sources": "quattroshapes, openstreetmap"
+		},
+		"expected": {
+			"properties": [{
+				"name": "Statue of Liberty",
+				"country_a": "USA",
+				"region": "New York"
+			}]
+		},
+		"unexpected": {
+			"properties": [{
+				"country_a": "FRA"
+			}]
+		}
+	}, {
+		"id": 20,
+		"user": "orangejulius",
+		"in": {
+			"text": "statue of liberty",
+			"boundary.country": "FRA"
+		},
+		"expected": {
+			"properties": [{
+				"name": "Statue of Liberty",
+				"country_a": "FRA",
+				"region": "Paris"
+			}]
+		},
+		"unexpected": {
+			"properties": [{
+				"country_a": "USA"
+			}]
+		}
+	}, {
+		"id": "1426636804303:51",
+		"user": "feedback-app",
+		"in": {
+			"text": "4th and King"
+		},
+		"expected": {
+			"properties": [{
+				"name": "San Francisco 4th & King Street Station",
+				"country_a": "USA"
+			}],
+			"priorityThresh": 2
+		},
+		"status": "pass"
+	}, {
+		"id": 21,
+		"user": "stephen",
+		"priorityThresh": 1,
+		"notes": [
+			"normally Lancaster, CA is returned first for \"Lancaster\" input while",
+			"this test demonstrates that Lancaster, PA shows first when given a viewport ",
+			"of southeastern PA"
+		],
+		"in": {
+			"text": "Lancaster",
+			"focus.viewport.min_lat": "39.676006",
+			"focus.viewport.min_lon": "-77.448335",
+			"focus.viewport.max_lat": "40.489749",
+			"focus.viewport.max_lon": "-75.173684",
+			"sources": "quattroshapes"
+		},
+		"expected": {
+			"properties": [{
+				"name": "Lancaster",
+				"region": "Pennsylvania"
+			}]
+		}
+	}, {
+		"id": 22,
+		"user": "stephen",
+		"priorityThresh": 1,
+		"notes": [
+			"normally Paris, FR is returned first for \"Paris\" input while",
+			"this test demonstrates that Paris, TN shows first when given a viewport ",
+			"of Tennessee"
+		],
+		"in": {
+			"text": "Paris",
+			"focus.viewport.min_lat": "34.635221",
+			"focus.viewport.min_lon": "-90.823908",
+			"focus.viewport.max_lat": "38.004041",
+			"focus.viewport.max_lon": "-82.197798",
+			"sources": "quattroshapes"
+		},
+		"expected": {
+			"properties": [{
+				"name": "Paris",
+				"region": "Tennessee"
+			}]
+		}
+	}, {
+		"id": 23,
+		"user": "stephen",
+		"priorityThresh": 1,
+		"notes": [
+			"normally Manchester, GB is returned first for \"Manchester\" input while",
+			"this test demonstrates that Manchester, NH shows first when given a viewport ",
+			"of New England"
+		],
+		"in": {
+			"text": "Manchester",
+			"focus.viewport.min_lat": "40.594598",
+			"focus.viewport.min_lon": "-78.676080",
+			"focus.viewport.max_lat": "47.087877",
+			"focus.viewport.max_lon": "-65.323911",
+			"sources": "quattroshapes"
+		},
+		"expected": {
+			"properties": [{
+				"name": "Manchester",
+				"region": "New Hampshire"
+			}]
+		}
+	}, {
+		"id": 24,
+		"status": "fail",
+		"user": "riordan",
+		"notes": ["SF Zoo should show up in SF. Logged by @nvkelso in: https://github.com/pelias/pelias/issues/183"],
+		"in": {
+			"focus.point.lat": 37.743618,
+			"focus.point.lon": -122.426117,
+			"text": "zoo"
+		},
+		"expected": {
+			"priorityThresh": 1,
+			"properties": [{
+				"label": "San Francisco Zoo, San Francisco, CA",
+				"name": "San Francisco Zoo"
+			}]
+		}
+	}]
 }

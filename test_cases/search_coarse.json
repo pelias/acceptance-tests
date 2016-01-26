@@ -11,7 +11,8 @@
       "in": {
         "focus.point.lat": 40.744243,
         "focus.point.lon": -73.990342,
-        "text": "brooklyn"
+        "text": "brooklyn",
+        "sources": "quattroshapes"
       },
       "expected": {
         "properties": [
@@ -35,7 +36,8 @@
       "in": {
         "focus.point.lat": 40.744243,
         "focus.point.lon": -73.990342,
-        "text": "new york"
+        "text": "new york",
+        "sources": "quattroshapes"
       },
       "expected": {
         "properties": [
