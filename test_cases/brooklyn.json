@@ -59,7 +59,7 @@
       }
     },
     {
-      "id": 4,
+      "id": "4-autocomplete",
       "status": "pass",
       "user": "Julian",
       "type": "dev",
@@ -82,13 +82,10 @@
       "status": "pass",
       "user": "Julian",
       "type": "dev",
-      "endpoint": "autocomplete",
       "in": {
-        "text": "brooklyn",
-        "layers": "locality",
-        "boundary.country": "USA"
+        "text": "brooklyn"
       },
-      "unexpected": {
+      "expected": {
         "properties": [
           {
             "name": "Brooklyn",
@@ -102,12 +99,11 @@
       "status": "pass",
       "user": "Julian",
       "type": "dev",
-      "endpoint": "autocomplete",
       "in": {
         "text": "brooklyn",
-        "layers": "locality,localadmin"
+        "layers": "locality"
       },
-      "expected": {
+      "unexpected": {
         "properties": [
           {
             "name": "Brooklyn",
@@ -122,41 +118,6 @@
       "user": "Julian",
       "type": "dev",
       "in": {
-        "text": "brooklyn"
-      },
-      "expected": {
-        "properties": [
-          {
-            "name": "Brooklyn",
-            "region": "New York"
-          }
-        ]
-      }
-    },
-    {
-      "id": 8,
-      "status": "pass",
-      "user": "Julian",
-      "type": "dev",
-      "in": {
-        "text": "brooklyn",
-        "layers": "locality"
-      },
-      "unexpected": {
-        "properties": [
-          {
-            "name": "Brooklyn",
-            "region": "New York"
-          }
-        ]
-      }
-    },
-    {
-      "id": 9,
-      "status": "pass",
-      "user": "Julian",
-      "type": "dev",
-      "in": {
         "text": "brooklyn",
         "layers": "locality,localadmin"
       },
@@ -170,51 +131,13 @@
       }
     },
     {
-      "id": 10,
+      "id": "8-autocomplete",
       "status": "pass",
       "user": "Julian",
       "type": "dev",
       "endpoint": "autocomplete",
       "in": {
         "text": "brooklyn"
-      },
-      "expected": {
-        "properties": [
-          {
-            "name": "Brooklyn",
-            "region": "New York"
-          }
-        ]
-      }
-    },
-    {
-      "id": 11,
-      "status": "pass",
-      "user": "Julian",
-      "type": "dev",
-      "endpoint": "autocomplete",
-      "in": {
-        "text": "brooklyn",
-        "layers": "locality"
-      },
-      "unexpected": {
-        "properties": [
-          {
-            "name": "Brooklyn",
-            "region": "New York"
-          }
-        ]
-      }
-    },
-    {
-      "id": 12,
-      "status": "pass",
-      "user": "Julian",
-      "type": "dev",
-      "endpoint": "autocomplete",
-      "in": {
-        "text": "brooklyn",
-        "layers": "locality,localadmin"
       },
       "expected": {
         "properties": [

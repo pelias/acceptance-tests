@@ -56,7 +56,7 @@
       }
     },
     {
-      "id": 4,
+      "id": "4-autocomplete",
       "status": "pass",
       "user": "Julian",
       "endpoint": "autocomplete",
@@ -77,11 +77,8 @@
       "id": 5,
       "status": "pass",
       "user": "Julian",
-      "endpoint": "autocomplete",
       "in": {
-        "text": "san francisco",
-        "layers": "locality",
-        "boundary.country": "USA"
+        "text": "san francisco"
       },
       "expected": {
         "properties": [
@@ -96,11 +93,43 @@
       "id": 6,
       "status": "pass",
       "user": "Julian",
-      "endpoint": "autocomplete",
       "in": {
         "text": "san francisco",
-        "layers": "locality,localadmin",
-        "boundary.country": "USA"
+        "layers": "locality"
+      },
+      "expected": {
+        "properties": [
+          {
+            "region": "California",
+            "name": "San Francisco"
+          }
+        ]
+      }
+    },
+    {
+      "id": 7,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "san francisco",
+        "layers": "locality,localadmin"
+      },
+      "expected": {
+        "properties": [
+          {
+            "region": "California",
+            "name": "San Francisco"
+          }
+        ]
+      }
+    },
+    {
+      "id": "8-autocomplete",
+      "status": "pass",
+      "user": "Julian",
+      "endpoint": "autocomplete",
+      "in": {
+        "text": "san francisco"
       },
       "expected": {
         "properties": [
