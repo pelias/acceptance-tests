@@ -34,7 +34,8 @@
       "description": "checking for County to be part of the admin2 value",
       "in": {
         "text": "bronx",
-        "layers": "county"
+        "layers": "county",
+        "sources": "quattroshapes, osm"
       },
       "expected": {
         "properties": [
@@ -50,7 +51,8 @@
       "type": "dev",
       "in": {
         "text": "Lake, MT",
-        "layers": "county"
+        "layers": "county",
+        "sources": "quattroshapes, osm"
       },
       "expected": {
         "properties": [
@@ -113,7 +115,8 @@
       "type": "dev",
       "in": {
         "layers": "neighbourhood",
-        "text": "hoboken"
+        "text": "hoboken",
+        "sources": "quattroshapes, osm"
       },
       "expected": {
         "properties": [
@@ -135,7 +138,8 @@
       "type": "dev",
       "in": {
         "text": "mission, ca",
-        "layers": "coarse"
+        "layers": "coarse",
+        "sources": "quattroshapes, osm"
       },
       "expected": {
         "properties": [
@@ -157,7 +161,8 @@
       "type": "dev",
       "in": {
         "text": "crown heights",
-        "layers": "coarse"
+        "layers": "coarse",
+        "sources": "quattroshapes, osm"
       },
       "expected": {
         "properties": [
@@ -178,7 +183,8 @@
       "status": "pass",
       "in": {
         "text": "palo alto",
-        "layers": "coarse"
+        "layers": "coarse",
+        "sources": "quattroshapes, osm"
       },
       "expected": {
         "properties": [
@@ -193,7 +199,8 @@
       "status": "pass",
       "in": {
         "text": "palo alto, ca",
-        "layers": "coarse"
+        "layers": "coarse",
+        "sources": "quattroshapes, osm"
       },
       "expected": {
         "properties": [
@@ -304,7 +311,8 @@
       "type": "dev",
       "in": {
         "text": "Vista Center",
-        "layers": "neighbourhood"
+        "layers": "neighbourhood",
+        "sources": "quattroshapes, osm"
       },
       "expected": {
         "properties": [
@@ -331,7 +339,8 @@
       "type": "dev",
       "in": {
         "text": "Yadkin Trail",
-        "layers": "neighbourhood"
+        "layers": "neighbourhood",
+        "sources": "quattroshapes, osm"
       },
       "expected": {
         "properties": [
@@ -358,7 +367,8 @@
       "type": "dev",
       "in": {
         "text": "Hillside, Santa Clara",
-        "layers": "neighbourhood"
+        "layers": "neighbourhood",
+        "sources": "quattroshapes, osm"
       },
       "expected": {
         "properties": [
@@ -385,7 +395,8 @@
       "type": "dev",
       "in": {
         "text": "Cardiff, GBR",
-        "layers": "coarse"
+        "layers": "coarse",
+        "sources": "quattroshapes, osm"
       },
       "expected": {
         "properties": [
@@ -410,7 +421,8 @@
       "type": "dev",
       "in": {
         "text": "ringland",
-        "layers": "neighbourhood"
+        "layers": "neighbourhood",
+        "sources": "quattroshapes, osm"
       },
       "expected": {
         "properties": [
@@ -437,7 +449,8 @@
       "type": "dev",
       "in": {
         "text": "california",
-        "layers": "region"
+        "layers": "region",
+        "sources": "quattroshapes, osm"
       },
       "expected": {
         "properties": [
