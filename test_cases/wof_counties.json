@@ -1,0 +1,121 @@
+{
+  "name": "Who's on First counties",
+  "priorityThresh": 1,
+  "tests": [
+    {
+      "id": 1,
+      "status": "pass",
+      "user": "Stephen",
+      "description": "chosen for diacriticals",
+      "in": {
+        "text": "Villares De Órbigo, Spain",
+        "sources": "wof"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "localadmin",
+            "name": "Villares De Órbigo",
+            "localadmin": "Villares De Órbigo",
+            "region": "León",
+            "macroregion": "Castilla Y León",
+            "country": "Spain",
+            "country_a": "ESP"
+          }
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "status": "pass",
+      "user": "Stephen",
+      "description": "chosen since it's also not the name of a city",
+      "in": {
+        "text": "Potter, PA",
+        "sources": "wof"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "county",
+            "name": "Potter",
+            "county": "Potter",
+            "region": "Pennsylvania",
+            "region_a": "PA",
+            "country": "United States",
+            "country_a": "USA"
+          }
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "status": "pass",
+      "user": "Stephen",
+      "description": "chosen because users think it's a city",
+      "in": {
+        "text": "Maui, Hawaii",
+        "sources": "wof"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "county",
+            "name": "Maui",
+            "county": "Maui",
+            "region": "Hawaii",
+            "region_a": "HI",
+            "country": "United States",
+            "country_a": "USA"
+          }
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "status": "pass",
+      "user": "Stephen",
+      "description": "chosen because France and complicated hierarchy",
+      "in": {
+        "text": "Arzacq-Arraziguet",
+        "sources": "wof"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "county",
+            "name": "Arzacq-Arraziguet",
+            "county": "Arzacq-Arraziguet",
+            "macrocounty": "Pau",
+            "region": "Pyrénées-Atlantiques",
+            "macroregion": "Aquitaine",
+            "country": "France",
+            "country_a": "FRA"
+          }
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "status": "pass",
+      "user": "Stephen",
+      "description": "chosen for diacriticals",
+      "in": {
+        "text": "KoÅobrzeski, Poland",
+        "sources": "wof"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "county",
+            "name": "KoÅobrzeski",
+            "county": "KoÅobrzeski",
+            "region": "Zachodniopomorskie",
+            "country": "Poland",
+            "country_a": "POL"
+          }
+        ]
+      }
+    }
+  ]
+}

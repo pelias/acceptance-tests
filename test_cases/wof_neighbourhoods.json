@@ -1,0 +1,139 @@
+{
+  "name": "Who's on First neighbourhoods",
+  "priorityThresh": 1,
+  "tests": [
+    {
+      "id": 1,
+      "status": "pass",
+      "user": "Stephen",
+      "in": {
+        "text": "Weeksville, Brooklyn, New York",
+        "sources": "wof"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "neighbourhood",
+            "name": "Weeksville",
+            "neighbourhood": "Weeksville",
+            "locality": "New York",
+            "localadmin": "Brooklyn",
+            "county": "Kings",
+            "region": "New York",
+            "region_a": "NY",
+            "country": "United States",
+            "country_a": "US"
+          }
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "status": "pass",
+      "user": "Stephen",
+      "in": {
+        "text": "Reparto Vista Alegre, Cuba",
+        "layers": "locality",
+        "boundary.country": "USA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "neighbourhood",
+            "name": "Reparto Vista Alegre",
+            "neighbourhood": "Reparto Vista Alegre",
+            "region": "Santiago de Cuba",
+            "country": "Cuba",
+            "country_a": "CUB"
+          }
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "status": "pass",
+      "user": "Stephen",
+      "in": {
+        "text": "Nuevo Cristóbal, Panama",
+        "sources": "wof"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "neighbourhood",
+            "name": "Nuevo Cristóbal",
+            "neighbourhood": "Nuevo Cristóbal",
+            "country": "Panama",
+            "country_a": "PAN"
+          }
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "status": "pass",
+      "user": "Stephen",
+      "in": {
+        "text": "Gaddiannaram, India",
+        "sources": "wof"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "neighbourhood",
+            "name": "Gaddiannaram",
+            "neighbourhood": "Gaddiannaram",
+            "locality": "Hyderābād",
+            "region": "Andhra Pradesh",
+            "country": "India",
+            "country_a": "IND"
+          }
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "status": "pass",
+      "user": "Stephen",
+      "in": {
+        "text": "９丁目, Japan",
+        "sources": "wof"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "neighbourhood",
+            "name": "９丁目",
+            "neighbourhood": "９丁目",
+            "locality": "Hiratsuka",
+            "region": "Kanagawa",
+            "country": "Japan",
+            "country_a": "JPN"
+          }
+        ]
+      }
+    },
+    {
+      "id": 6,
+      "status": "pass",
+      "user": "Stephen",
+      "in": {
+        "text": "Taman Taynton View, Malaysia",
+        "sources": "wof"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "neighbourhood",
+            "name": "Taman Taynton View",
+            "neighbourhood": "Taman Taynton View",
+            "locality": "Cheras",
+            "region": "Selangor",
+            "country": "Malaysia",
+            "country_a": "MYS"
+          }
+        ]
+      }
+    }
+  ]
+}

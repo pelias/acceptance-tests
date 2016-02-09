@@ -1,0 +1,166 @@
+{
+  "name": "Who's on First counties",
+  "priorityThresh": 1,
+  "tests": [
+    {
+      "id": 1,
+      "status": "pass",
+      "user": "Stephen",
+      "description": "",
+      "in": {
+        "text": "United States",
+        "sources": "wof"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "country",
+            "name": "United States",
+            "country": "United States",
+            "country_a": "USA"
+          }
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "status": "pass",
+      "user": "Stephen",
+      "description": "",
+      "in": {
+        "text": "Canada",
+        "sources": "wof"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "country",
+            "name": "Canada",
+            "country": "Canada",
+            "country_a": "CAN"
+          }
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "status": "pass",
+      "user": "Stephen",
+      "description": "",
+      "in": {
+        "text": "Netherlands",
+        "sources": "wof"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "country",
+            "name": "Netherlands",
+            "country": "Netherlands",
+            "country_a": "NLD"
+          }
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "status": "pass",
+      "user": "Stephen",
+      "description": "",
+      "in": {
+        "text": "Burkina Faso",
+        "sources": "wof"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "country",
+            "name": "Burkina Faso",
+            "country": "Burkina Faso",
+            "country_a": "BFA"
+          }
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "status": "pass",
+      "user": "Stephen",
+      "description": "",
+      "in": {
+        "text": "DEU",
+        "sources": "wof"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "country",
+            "name": "Germany",
+            "country": "Germany",
+            "country_a": "DEU"
+          }
+        ]
+      }
+    },
+    {
+      "id": 6,
+      "status": "pass",
+      "user": "Stephen",
+      "description": "",
+      "in": {
+        "text": "USA",
+        "sources": "wof"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "country",
+            "name": "United States",
+            "country": "United States",
+            "country_a": "USA"
+          }
+        ]
+      }
+    },
+    {
+      "id": 7,
+      "status": "pass",
+      "user": "Stephen",
+      "description": "",
+      "in": {
+        "text": "LUX",
+        "sources": "wof"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "country",
+            "name": "Luxembourg",
+            "country": "Luxembourg",
+            "country_a": "LUX"
+          }
+        ]
+      }
+    },
+    {
+      "id": 8,
+      "status": "pass",
+      "user": "Stephen",
+      "description": "",
+      "in": {
+        "text": "BOL",
+        "sources": "wof"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "country",
+            "name": "Bolivia",
+            "country": "Bolivia",
+            "country_a": "BOL"
+          }
+        ]
+      }
+    }
+  ]
+}

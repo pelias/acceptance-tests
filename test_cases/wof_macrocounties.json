@@ -1,0 +1,97 @@
+{
+  "name": "Who's on First macrocounties",
+  "priorityThresh": 1,
+  "tests": [
+    {
+      "id": 1,
+      "status": "pass",
+      "user": "Stephen",
+      "description": "chosen for punctuation",
+      "in": {
+        "text": "Saint-Die-Des-Vosges, France",
+        "sources": "wof"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "macrocounty",
+            "name": "Saint-Die-Des-Vosges",
+            "macrocounty": "Saint-Die-Des-Vosges,",
+            "region": "Vosges",
+            "macroregion": "Lorraine",
+            "country": "France",
+            "country_a": "FRA"
+          }
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "status": "pass",
+      "user": "Stephen",
+      "description": "chosen for diacriticals + Münster Rebellion... YOLO!",
+      "in": {
+        "text": "Münster, DE",
+        "sources": "wof"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "macrocounty",
+            "name": "Münster",
+            "macrocounty": "Münster",
+            "region": "Nordrhein-Westfalen",
+            "country": "Germany",
+            "country_a": "DEU"
+          }
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "status": "pass",
+      "user": "Stephen",
+      "description": "",
+      "in": {
+        "text": "Perpignan, France",
+        "sources": "wof"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "macrocounty",
+            "name": "Perpignan",
+            "macrocounty": "Perpignan",
+            "region": "Pyrénées-Orientales",
+            "macroregion": "Languedoc-Roussillon",
+            "country": "France",
+            "country_a": "FRA"
+          }
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "status": "pass",
+      "user": "Stephen",
+      "description": "chosen for punctuation",
+      "in": {
+        "text": "Les Sables-D'Olonne, France",
+        "sources": "wof"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "macrocounty",
+            "name": "Les Sables-D'Olonne",
+            "macrocounty": "Les Sables-D'Olonne",
+            "region": "Vendée",
+            "macroregion": "Pays De La Loire",
+            "country": "France",
+            "country_a": "FRA"
+          }
+        ]
+      }
+    }
+  ]
+}
