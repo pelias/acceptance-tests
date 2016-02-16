@@ -19,7 +19,7 @@
             "region": "Pennsylvania",
             "region_a": "PA",
             "country": "United States",
-            "country_a": "US"
+            "country_a": "USA"
           }
         ]
       }
@@ -41,7 +41,7 @@
             "region": "New Mexico",
             "region_a": "NM",
             "country": "United States",
-            "country_a": "US"
+            "country_a": "USA"
           }
         ]
       }
@@ -83,7 +83,7 @@
             "layer": "region",
             "name": "Prince Edward Island",
             "region": "Prince Edward Island",
-            "region_a": "PEI",
+            "region_a": "PE",
             "country": "Canada",
             "country_a": "CAN"
           }
