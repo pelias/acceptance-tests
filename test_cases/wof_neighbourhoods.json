@@ -33,8 +33,7 @@
       "user": "Stephen",
       "in": {
         "text": "Reparto Vista Alegre, Cuba",
-        "layers": "locality",
-        "boundary.country": "USA"
+        "sources": "wof"
       },
       "expected": {
         "properties": [
