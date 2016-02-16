@@ -21,7 +21,7 @@
             "region": "New York",
             "region_a": "NY",
             "country": "United States",
-            "country_a": "US"
+            "country_a": "USA"
           }
         ]
       }
@@ -44,7 +44,7 @@
             "region": "New Mexico",
             "region_a": "NM",
             "country": "United States",
-            "country_a": "US"
+            "country_a": "USA"
           }
         ]
       }
@@ -63,11 +63,11 @@
             "layer": "locality",
             "name": "Truth or Consequences",
             "locality": "Truth or Consequences",
-            "county": "Socorro",
+            "county": "Sierra",
             "region": "New Mexico",
             "region_a": "NM",
             "country": "United States",
-            "country_a": "US"
+            "country_a": "USA"
           }
         ]
       }
@@ -163,7 +163,7 @@
       "user": "Stephen",
       "in": {
         "text": "San Jaun, Puerto Rico",
-        "layers": "locality"
+        "sources": "wof"
       },
       "expected": {
         "properties": [
@@ -184,7 +184,7 @@
       "user": "Stephen",
       "in": {
         "text": "london england",
-        "boundary.country": "GBR"
+        "sources": "wof"
       },
       "expected": {
         "properties": [
