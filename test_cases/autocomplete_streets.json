@@ -1,6 +1,6 @@
 {
   "name": "Autocomplete Streets",
-  "priorityThresh": 1,
+  "priorityThresh": 3,
   "endpoint": "autocomplete",
   "notes": "When searching for an address, after an abbreviation for the place has been typed, continuing to type the placename should improve or keep the top result as the same (e.g. st, stre, street). Related to: https://github.com/pelias/pelias/issues/165",
   "tests": [
