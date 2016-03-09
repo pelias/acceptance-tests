@@ -73,7 +73,7 @@
       "expected": {
         "properties": [
           {
-            "gid": "openstreetmap:address:venue:26489964",
+            "gid": "openstreetmap:address:way:338854694",
             "layer": "address",
             "source": "openstreetmap"
           }
