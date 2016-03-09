@@ -25,7 +25,8 @@
           {
             "gid": "openstreetmap:address:node:1401849738",
             "layer": "address",
-            "source": "openstreetmap"
+            "source": "openstreetmap",
+            "id": "node:1401849738"
           }
         ]
       }
@@ -50,7 +51,8 @@
           {
             "gid": "openstreetmap:venue:way:338854694",
             "layer": "venue",
-            "source": "openstreetmap"
+            "source": "openstreetmap",
+            "id": "way:338854694"
           }
         ]
       }
@@ -75,7 +77,8 @@
           {
             "gid": "openstreetmap:address:way:338854694",
             "layer": "address",
-            "source": "openstreetmap"
+            "source": "openstreetmap",
+            "id": "way:338854694"
           }
         ]
       }
