@@ -14,7 +14,7 @@
       "expected": {
         "properties": [
           {
-            "label": "Brooklyn, New York, NY"
+            "label": "Brooklyn, New York, NY, USA"
           },
           {
             "label": "Brooklyn, Wellington City, New Zealand"
@@ -35,7 +35,7 @@
       "expected": {
         "properties": [
           {
-            "label": "Brooklyn, New York, NY"
+            "label": "Brooklyn, New York, NY, USA"
           }
         ]
       }
@@ -53,7 +53,7 @@
       "expected": {
         "properties": [
           {
-            "label": "Brooklyn, New York, NY"
+            "label": "Brooklyn, New York, NY, USA"
           }
         ]
       }
@@ -71,7 +71,7 @@
       "expected": {
         "properties": [
           {
-            "label": "Brooklyn, New York, NY"
+            "label": "Brooklyn, New York, NY, USA"
           }
         ]
       }
@@ -89,7 +89,7 @@
       "expected": {
         "properties": [
           {
-            "label": "Brooklyn, New York, NY"
+            "label": "Brooklyn, New York, NY, USA"
           }
         ]
       }
@@ -107,7 +107,7 @@
       "expected": {
         "properties": [
           {
-            "label": "Brooklyn, New York, NY"
+            "label": "Brooklyn, New York, NY, USA"
           }
         ]
       }
@@ -123,10 +123,10 @@
       "expected": {
         "properties": [
           {
-            "label": "New York, NY"
+            "label": "New York, NY, USA"
           },
           {
-            "label": "New York City, Manhattan, NY"
+            "label": "New York City, Manhattan, NY, USA"
           }
         ]
       }
@@ -182,7 +182,7 @@
             "layer": "region"
           },
           {
-            "locality": "VICTORIA",
+            "locality": "Victoria",
             "region": "British Columbia",
             "country": "Canada",
             "layer": "locality"
@@ -234,7 +234,7 @@
         "priorityThresh": 1,
         "properties": [
           {
-            "label": "California, CA"
+            "label": "California, USA"
           }
         ]
       }
