@@ -124,7 +124,7 @@
             "region": "New Jersey",
             "region_a": "NJ",
             "county": "Hudson County",
-            "label": "West Hoboken, Hudson County, NJ"
+            "label": "West Hoboken, Hoboken, NJ, USA"
           }
         ]
       }
@@ -146,7 +146,7 @@
             "region": "California",
             "region_a": "CA",
             "county": "San Francisco County",
-            "label": "Mission, San Francisco County, CA"
+            "label": "Mission, San Francisco, CA, USA"
           }
         ]
       }
@@ -162,7 +162,7 @@
       "expected": {
         "properties": [
           {
-            "label": "Crown Heights, Kings County, NY",
+            "label": "Crown Heights, Kings County, NY, USA",
             "name": "Crown Heights",
             "country_a": "USA",
             "country": "United States",
@@ -183,7 +183,7 @@
       "expected": {
         "properties": [
           {
-            "label": "Palo Alto, Santa Clara County, CA"
+            "label": "Palo Alto, Santa Clara County, CA, USA"
           }
         ]
       }
@@ -198,7 +198,7 @@
       "expected": {
         "properties": [
           {
-            "label": "Palo Alto, Santa Clara County, CA"
+            "label": "Palo Alto, Santa Clara County, CA, USA"
           }
         ]
       }
@@ -448,8 +448,8 @@
             "country": "United States",
             "region": "California",
             "region_a": "CA",
-            "label": "California, CA",
-            "source": "qs"
+            "label": "California, USA",
+            "source": "whosonfirst"
           }
         ]
       }

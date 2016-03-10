@@ -14,7 +14,9 @@
       "expected": {
         "properties": [
           {
-            "label": "30 West 26 Street, Manhattan, NY"
+            "layer": "address",
+            "housenumber": "30",
+            "street": "West 26th Street"
           }
         ]
       }
@@ -30,10 +32,13 @@
       "expected": {
         "properties": [
           {
-            "label": "507 Hackney Road, Cambridge Heath, Greater London"
+            "housenumber": "507",
+            "street": "Hackney Road"
           },
           {
-            "label": "Hackney Cycles, Cambridge Heath, Greater London"
+            "name": "Hackney Cycles",
+            "housenumber": "507",
+            "street": "Hackney Road"
           }
         ]
       }
