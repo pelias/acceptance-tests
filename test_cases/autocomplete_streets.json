@@ -136,9 +136,7 @@
           {
             "layer": "address",
             "housenumber": "424",
-            "street": "Clay Avenue",
-            "locality": "Waco",
-            "region": "Texas"
+            "street": "Clay Avenue"
           }
         ]
       }
@@ -155,9 +153,7 @@
           {
             "layer": "address",
             "housenumber": "424",
-            "street": "Clay Avenue",
-            "locality": "Waco",
-            "region": "Texas"
+            "street": "Clay Avenue"
           }
         ]
       }
@@ -174,9 +170,7 @@
           {
             "layer": "address",
             "housenumber": "424",
-            "street": "Clay Avenue",
-            "locality": "Waco",
-            "region": "Texas"
+            "street": "Clay Avenue"
           }
         ]
       }
@@ -193,9 +187,7 @@
           {
             "layer": "address",
             "housenumber": "424",
-            "street": "Clay Avenue",
-            "locality": "Waco",
-            "region": "Texas"
+            "street": "Clay Avenue"
           }
         ]
       }
@@ -214,9 +206,7 @@
           {
             "layer": "address",
             "housenumber": "198",
-            "street": "Baker Street",
-            "locality": "Corning",
-            "region": "New York"
+            "street": "Baker Street"
           }
         ]
       }
@@ -235,9 +225,7 @@
           {
             "layer": "address",
             "housenumber": "198",
-            "street": "Baker Street",
-            "locality": "Corning",
-            "region": "New York"
+            "street": "Baker Street"
           }
         ]
       }
@@ -256,9 +244,7 @@
           {
             "layer": "address",
             "housenumber": "198",
-            "street": "Baker Street",
-            "locality": "Corning",
-            "region": "New York"
+            "street": "Baker Street"
           }
         ]
       }
@@ -277,9 +263,7 @@
           {
             "layer": "address",
             "housenumber": "198",
-            "street": "Baker Street",
-            "locality": "Corning",
-            "region": "New York"
+            "street": "Baker Street"
           }
         ]
       }
@@ -296,9 +280,7 @@
           {
             "layer": "address",
             "housenumber": "451",
-            "street": "Fog Hill Road",
-            "locality": "Austerlitz",
-            "region": "New York"
+            "street": "Fog Hill Road"
           }
         ]
       }
@@ -315,9 +297,7 @@
           {
             "layer": "address",
             "housenumber": "451",
-            "street": "Fog Hill Road",
-            "locality": "Austerlitz",
-            "region": "New York"
+            "street": "Fog Hill Road"
           }
         ]
       }
@@ -334,9 +314,7 @@
           {
             "layer": "address",
             "housenumber": "451",
-            "street": "Fog Hill Road",
-            "locality": "Austerlitz",
-            "region": "New York"
+            "street": "Fog Hill Road"
           }
         ]
       }
