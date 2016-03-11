@@ -1,6 +1,6 @@
 {
   "name": "Autocomplete Streets",
-  "priorityThresh": 3,
+  "priorityThresh": 1,
   "endpoint": "autocomplete",
   "notes": "When searching for an address, after an abbreviation for the place has been typed, continuing to type the placename should improve or keep the top result as the same (e.g. st, stre, street). Related to: https://github.com/pelias/pelias/issues/165",
   "tests": [
@@ -16,10 +16,7 @@
           {
             "layer": "address",
             "housenumber": "90",
-            "street": "Vermilyea Avenue",
-            "locality": "New York",
-            "region": "New York",
-            "postalcode": "10034"
+            "street": "Vermilyea Avenue"
           }
         ]
       }
@@ -36,10 +33,7 @@
           {
             "layer": "address",
             "housenumber": "90",
-            "street": "Vermilyea Avenue",
-            "locality": "New York",
-            "region": "New York",
-            "postalcode": "10034"
+            "street": "Vermilyea Avenue"
           }
         ]
       }
@@ -56,10 +50,7 @@
           {
             "layer": "address",
             "housenumber": "90",
-            "street": "Vermilyea Avenue",
-            "locality": "New York",
-            "region": "New York",
-            "postalcode": "10034"
+            "street": "Vermilyea Avenue"
           }
         ]
       }
@@ -76,10 +67,7 @@
           {
             "layer": "address",
             "housenumber": "90",
-            "street": "Vermilyea Avenue",
-            "locality": "New York",
-            "region": "New York",
-            "postalcode": "10034"
+            "street": "Vermilyea Avenue"
           }
         ]
       }
@@ -96,10 +84,7 @@
           {
             "layer": "address",
             "housenumber": "90",
-            "street": "Vermilyea Avenue",
-            "locality": "New York",
-            "region": "New York",
-            "postalcode": "10034"
+            "street": "Vermilyea Avenue"
           }
         ]
       }
@@ -116,10 +101,7 @@
           {
             "layer": "address",
             "housenumber": "90",
-            "street": "Vermilyea Avenue",
-            "locality": "New York",
-            "region": "New York",
-            "postalcode": "10034"
+            "street": "Vermilyea Avenue"
           }
         ]
       }
