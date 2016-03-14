@@ -300,7 +300,26 @@
           }
         ]
       }
+    },
+    {
+      "id": "5",
+      "status": "pass",
+      "user": "missinglink",
+      "description": "https://github.com/pelias/api/issues/370",
+      "in": {
+        "text": "Hämeenkatu 1, Tampere"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "address",
+            "housenumber": "1",
+            "street": "Hämeenkatu",
+            "locality": "Tampere",
+            "country": "Finland"
+          }
+        ]
+      }
     }
-
   ]
 }
