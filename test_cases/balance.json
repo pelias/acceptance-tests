@@ -86,7 +86,7 @@
     },
     {
       "id": 4,
-      "status": "fail",
+      "status": "pass",
       "endpoint": "search",
       "issue": "https://github.com/pelias/api/issues/346",
       "description": [
@@ -105,6 +105,34 @@
           {
             "name": "McDonald's",
             "layer": "venue",
+            "localadmin": "Manhattan",
+            "locality": "New York"
+          }
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "status": "pass",
+      "endpoint": "autocomplete",
+      "issue": "https://github.com/pelias/api/issues/328",
+      "description": [
+        "When focus point is specified, results should slightly favor",
+        "nearby POIs, while still surfacing larger regions further away"
+      ],
+      "user": "dianashk",
+      "type": "dev",
+      "in": {
+        "text": "katzs deli",
+        "focus.point.lat": 40.74686681162143,
+        "focus.point.lon": -73.98983001708986
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Katz's Delicatessen",
+            "country_a": "USA",
+            "region": "New York",
             "localadmin": "Manhattan",
             "locality": "New York"
           }
