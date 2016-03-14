@@ -91,6 +91,27 @@
           }
         ]
       }
+    },
+    {
+      "id": "2",
+      "status": "pass",
+      "description": "https://github.com/pelias/api/issues/287",
+      "user": "missinglink",
+      "priorityThresh": 5,
+      "in": {
+        "text": "didi",
+        "focus.point.lat": "40.744243",
+        "focus.point.lon": "-73.990342"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "venue",
+            "name": "DiDi Dumpling",
+            "region": "New York"
+          }
+        ]
+      }
     }
   ]
 }
