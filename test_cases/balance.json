@@ -1,0 +1,116 @@
+{
+  "name": "poi vs. admin areas balance",
+  "priorityThresh": 5,
+  "endpoint": "search",
+  "tests": [
+    {
+      "id": 1,
+      "status": "pass",
+      "endpoint": "autocomplete",
+      "issue": "https://github.com/pelias/api/issues/346",
+      "description": [
+        "When focus point is specified, results should slightly favor",
+        "nearby POIs, while still surfacing larger regions further away"
+      ],
+      "user": "dianashk",
+      "type": "dev",
+      "in": {
+        "text": "starbucks",
+        "focus.point.lat": 40.743987,
+        "focus.point.lon": -73.990417
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Starbucks",
+            "layer": "venue",
+            "localadmin": "Manhattan",
+            "locality": "New York"
+          }
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "status": "pass",
+      "endpoint": "search",
+      "issue": "https://github.com/pelias/api/issues/346",
+      "description": [
+        "When focus point is specified, results should slightly favor",
+        "nearby POIs, while still surfacing larger regions further away"
+      ],
+      "user": "dianashk",
+      "type": "dev",
+      "in": {
+        "text": "starbucks",
+        "focus.point.lat": 40.743987,
+        "focus.point.lon": -73.990417
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Starbucks",
+            "layer": "venue",
+            "localadmin": "Manhattan",
+            "locality": "New York"
+          }
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "status": "pass",
+      "endpoint": "autocomplete",
+      "issue": "https://github.com/pelias/api/issues/346",
+      "description": [
+        "When focus point is specified, results should slightly favor",
+        "nearby POIs, while still surfacing larger regions further away"
+      ],
+      "user": "dianashk",
+      "type": "dev",
+      "in": {
+        "text": "mcdonalds",
+        "focus.point.lat": 40.743987,
+        "focus.point.lon": -73.990417
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "McDonald's",
+            "layer": "venue",
+            "localadmin": "Manhattan",
+            "locality": "New York"
+          }
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "status": "fail",
+      "endpoint": "search",
+      "issue": "https://github.com/pelias/api/issues/346",
+      "description": [
+        "When focus point is specified, results should slightly favor",
+        "nearby POIs, while still surfacing larger regions further away"
+      ],
+      "user": "dianashk",
+      "type": "dev",
+      "in": {
+        "text": "mcdonalds",
+        "focus.point.lat": 40.743987,
+        "focus.point.lon": -73.990417
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "McDonald's",
+            "layer": "venue",
+            "localadmin": "Manhattan",
+            "locality": "New York"
+          }
+        ]
+      }
+    }
+  ]
+}
+
