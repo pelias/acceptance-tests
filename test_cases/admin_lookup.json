@@ -162,13 +162,14 @@
       "expected": {
         "properties": [
           {
-            "label": "Crown Heights, Kings County, NY, USA",
+            "label": "Crown Heights, Brooklyn, NY, USA",
             "name": "Crown Heights",
             "country_a": "USA",
             "country": "United States",
             "region": "New York",
             "region_a": "NY",
-            "county": "Kings County"
+            "county": "Kings County",
+            "localadmin": "Brooklyn"
           }
         ]
       }
@@ -417,8 +418,7 @@
           {
             "country_a": "GBR",
             "country": "United Kingdom",
-            "region": "Newport",
-            "county": "Newport City"
+            "region": "Newport"
           }
         ]
       },
