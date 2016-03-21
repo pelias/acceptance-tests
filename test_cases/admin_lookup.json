@@ -134,13 +134,14 @@
       "status": "pass",
       "type": "dev",
       "in": {
-        "text": "mission, ca",
+        "text": "mission, san francisco",
         "layers": "coarse"
       },
       "expected": {
         "properties": [
           {
             "name": "Mission",
+            "layer": "neighbourhood",
             "country_a": "USA",
             "country": "United States",
             "region": "California",
