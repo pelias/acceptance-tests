@@ -124,7 +124,7 @@
             "region": "New Jersey",
             "region_a": "NJ",
             "county": "Hudson County",
-            "label": "West Hoboken, Hudson County, NJ"
+            "label": "West Hoboken, Hoboken, NJ, USA"
           }
         ]
       }
@@ -134,19 +134,20 @@
       "status": "pass",
       "type": "dev",
       "in": {
-        "text": "mission, ca",
+        "text": "mission, san francisco",
         "layers": "coarse"
       },
       "expected": {
         "properties": [
           {
             "name": "Mission",
+            "layer": "neighbourhood",
             "country_a": "USA",
             "country": "United States",
             "region": "California",
             "region_a": "CA",
             "county": "San Francisco County",
-            "label": "Mission, San Francisco County, CA"
+            "label": "Mission, San Francisco, CA, USA"
           }
         ]
       }
@@ -162,13 +163,14 @@
       "expected": {
         "properties": [
           {
-            "label": "Crown Heights, Kings County, NY",
+            "label": "Crown Heights, Brooklyn, NY, USA",
             "name": "Crown Heights",
             "country_a": "USA",
             "country": "United States",
             "region": "New York",
             "region_a": "NY",
-            "county": "Kings County"
+            "county": "Kings County",
+            "localadmin": "Brooklyn"
           }
         ]
       }
@@ -183,7 +185,7 @@
       "expected": {
         "properties": [
           {
-            "label": "Palo Alto, Santa Clara County, CA"
+            "label": "Palo Alto, Santa Clara County, CA, USA"
           }
         ]
       }
@@ -198,7 +200,7 @@
       "expected": {
         "properties": [
           {
-            "label": "Palo Alto, Santa Clara County, CA"
+            "label": "Palo Alto, Santa Clara County, CA, USA"
           }
         ]
       }
@@ -417,8 +419,7 @@
           {
             "country_a": "GBR",
             "country": "United Kingdom",
-            "region": "Newport",
-            "county": "Newport City"
+            "region": "Newport"
           }
         ]
       },
@@ -448,8 +449,30 @@
             "country": "United States",
             "region": "California",
             "region_a": "CA",
-            "label": "California, CA",
-            "source": "qs"
+            "label": "California, USA"
+          }
+        ]
+      }
+    },
+    {
+      "id": "19",
+      "status": "fail",
+      "issue": "https://github.com/pelias/pelias/issues/144",
+      "description": [
+        "Problem in the QS data, so should be fixed once we move to WOF"
+      ],
+      "in": {
+        "text": "5 West 4th Avenue Canada"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "address",
+            "housenumber": "5",
+            "street": "West 4th Avenue",
+            "country_a": "CAN",
+            "country": "Canada",
+            "locality": "Vancouver"
           }
         ]
       }

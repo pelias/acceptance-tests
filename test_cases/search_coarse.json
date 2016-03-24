@@ -16,10 +16,7 @@
       "expected": {
         "properties": [
           {
-            "label": "Brooklyn, New York, NY"
-          },
-          {
-            "label": "Brooklyn, Kings County, NY"
+            "label": "Brooklyn, New York, NY, USA"
           },
           {
             "label": "Brooklyn, Wellington City, New Zealand"
@@ -40,10 +37,10 @@
       "expected": {
         "properties": [
           {
-            "label": "New York, NY"
+            "label": "New York, USA"
           },
           {
-            "label": "New York City, Manhattan, NY"
+            "label": "New York City, New York, NY, USA"
           }
         ]
       }

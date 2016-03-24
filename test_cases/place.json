@@ -7,14 +7,15 @@
       "id": 1,
       "status": "pass",
       "in": {
-        "ids": "osm:venue:2562438641"
+        "ids": "openstreetmap:venue:node:2562438641"
       },
       "expected": {
         "properties": [
           {
-            "gid": "osm:venue:2562438641",
+            "gid": "openstreetmap:venue:node:2562438641",
             "layer": "venue",
-            "source": "osm"
+            "source": "openstreetmap",
+            "id": "node:2562438641"
           }
         ]
       }
@@ -23,14 +24,15 @@
       "id": 2,
       "status": "pass",
       "in": {
-        "ids": "osm:venue:5013364"
+        "ids": "openstreetmap:venue:way:5013364"
       },
       "expected": {
         "properties": [
           {
-            "gid": "osm:venue:5013364",
+            "gid": "openstreetmap:venue:way:5013364",
             "layer": "venue",
-            "source": "osm"
+            "source": "openstreetmap",
+            "id": "way:5013364"
           }
         ]
       }
