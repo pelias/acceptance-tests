@@ -12,7 +12,7 @@
       },
       "expected": {
         "properties": [{
-          "label": "San Francisco, San Francisco County, CA"
+          "label": "San Francisco, San Francisco County, CA, USA"
         }]
       }
     },
@@ -25,7 +25,7 @@
       },
       "expected": {
         "properties": [{
-          "label": "30 West 26th Street, Manhattan, NY"
+          "label": "30 West 26th Street, Manhattan, NY, USA"
         }]
       }
     },
@@ -51,7 +51,7 @@
       },
       "expected": {
         "properties": [{
-          "label": "California, CA"
+          "label": "California, USA"
         }]
       }
     },
@@ -129,7 +129,7 @@
       },
       "expected": {
         "properties": [{
-          "label": "Hackney City Farm, Haggerston, Greater London"
+          "label": "Hackney City Farm, Haggerston, United Kingdom"
         }]
       }
     },

@@ -16,7 +16,7 @@
       "expected": {
         "properties": [
           {
-            "label": "DiDi Dumpling, Manhattan, NY"
+            "label": "DiDi Dumpling, Manhattan, NY, USA"
           }
         ]
       }
@@ -36,7 +36,7 @@
         "priorityThresh": 1,
         "properties": [
           {
-            "label": "Union Square, New York County, NY"
+            "label": "Union Square, New York County, NY, USA"
           }
         ]
       }
@@ -56,7 +56,7 @@
         "priorityThresh": 1,
         "properties": [
           {
-            "label": "Union Square, San Francisco County, CA"
+            "label": "Union Square, San Francisco County, CA, USA"
           }
         ]
       }
@@ -96,7 +96,7 @@
         "priorityThresh": 1,
         "properties": [
           {
-            "label": "Hard Rock Cafe, Manhattan, NY"
+            "label": "Hard Rock Cafe, Manhattan, NY, USA"
           }
         ]
       }
@@ -115,8 +115,34 @@
         "priorityThresh": 1,
         "properties": [
           {
-            "label": "San Francisco Zoo, San Francisco, CA",
+            "label": "San Francisco Zoo, San Francisco, CA, USA",
             "name": "San Francisco Zoo"
+          }
+        ]
+      }
+    },
+    {
+      "id": 25,
+      "status": "fail",
+      "user": "randyme",
+      "notes": [ "Autocomplete is not prioritizing local address.",
+      "Issue filed in: https://github.com/pelias/pelias/issues/240" ],
+      "in": {
+        "focus.point.lat": 40.744131,
+        "focus.point.lon": -73.990424,
+        "text": "1 madison ave"
+      },
+      "expected": {
+        "priorityThresh": 1,
+        "properties": [
+          {
+            "name": "1 Madison Avenue",
+            "layer": "address",
+            "housenumber": "1",
+            "street": "Madison Avenue",
+            "region": "New York",
+            "localadmin": "Manhattan",
+            "locality": "New York"
           }
         ]
       }

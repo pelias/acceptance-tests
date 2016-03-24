@@ -1,0 +1,144 @@
+{
+  "name": "San Francisco",
+  "priorityThresh": 1,
+  "tests": [
+    {
+      "id": 1,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "san francisco",
+        "boundary.country": "USA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "region": "California",
+            "name": "San Francisco"
+          }
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "san francisco",
+        "layers": "locality",
+        "boundary.country": "USA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "region": "California",
+            "name": "San Francisco"
+          }
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "san francisco",
+        "layers": "locality,localadmin",
+        "boundary.country": "USA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "region": "California",
+            "name": "San Francisco"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4-autocomplete",
+      "status": "pass",
+      "user": "Julian",
+      "endpoint": "autocomplete",
+      "in": {
+        "text": "san francisco",
+        "boundary.country": "USA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "region": "California",
+            "name": "San Francisco"
+          }
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "san francisco"
+      },
+      "expected": {
+        "properties": [
+          {
+            "region": "California",
+            "name": "San Francisco"
+          }
+        ]
+      }
+    },
+    {
+      "id": 6,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "san francisco",
+        "layers": "locality"
+      },
+      "expected": {
+        "properties": [
+          {
+            "region": "California",
+            "name": "San Francisco"
+          }
+        ]
+      }
+    },
+    {
+      "id": 7,
+      "status": "pass",
+      "user": "Julian",
+      "in": {
+        "text": "san francisco",
+        "layers": "locality,localadmin"
+      },
+      "expected": {
+        "properties": [
+          {
+            "region": "California",
+            "name": "San Francisco"
+          }
+        ]
+      }
+    },
+    {
+      "id": "8-autocomplete",
+      "status": "pass",
+      "user": "Julian",
+      "endpoint": "autocomplete",
+      "in": {
+        "text": "san francisco"
+      },
+      "expected": {
+        "properties": [
+          {
+            "region": "California",
+            "name": "San Francisco"
+          }
+        ]
+      }
+    }
+  ]
+}

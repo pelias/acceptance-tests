@@ -9,6 +9,7 @@
   "tests": [
     {
       "id": "1",
+      "status": "pass",
       "user": "missinglink",
       "endpoint": "search",
       "description": [
@@ -22,19 +23,21 @@
       "expected": {
         "properties": [
           {
-            "id": "address-osmnode-1401849738",
+            "gid": "openstreetmap:address:node:1401849738",
             "layer": "address",
-            "source": "osm"
+            "source": "openstreetmap",
+            "id": "node:1401849738"
           }
         ]
       }
     },
     {
       "id": "2",
+      "status": "pass",
       "user": "missinglink",
       "endpoint": "search",
       "description": [
-        "Ensure address records are stored in the 'osmaddress' layer.",
+        "Ensure address records are stored in the 'address' layer.",
         "Ensure POI records are cloned to 2x different layers",
         "related: test(3)"
       ],
@@ -46,19 +49,21 @@
       "expected": {
         "properties": [
           {
-            "gid": "osm:venue:26489964",
+            "gid": "openstreetmap:venue:way:338854694",
             "layer": "venue",
-            "source": "osm"
+            "source": "openstreetmap",
+            "id": "way:338854694"
           }
         ]
       }
     },
     {
       "id": "3",
+      "status": "pass",
       "user": "missinglink",
       "endpoint": "search",
       "description": [
-        "Ensure address records are stored in the 'osmaddress' layer.",
+        "Ensure address records are stored in the 'address' layer.",
         "Ensure POI records are cloned to 2x different layers",
         "related: test(2)"
       ],
@@ -70,9 +75,10 @@
       "expected": {
         "properties": [
           {
-            "gid": "osm:address:poi-address-osmnode-26489964",
+            "gid": "openstreetmap:address:way:338854694",
             "layer": "address",
-            "source": "osm"
+            "source": "openstreetmap",
+            "id": "way:338854694"
           }
         ]
       }
