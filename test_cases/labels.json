@@ -109,7 +109,12 @@
     },
     {
       "id": 9,
-      "status": "pass",
+      "status": "fail",
+      "issue": "https://github.com/pelias/pelias/issues/292",
+      "description": [
+        "Dungannon is showing up as a region, when it should be a locality.",
+        "The label is also generated incorrectly given the information available to it."
+      ],
       "user": "missinglink",
       "in": {
         "text": "1 Main St, Dungannon, United Kingdom"
