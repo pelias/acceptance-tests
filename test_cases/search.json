@@ -282,7 +282,9 @@
     },
     {
       "id": "1425586777012:6",
-      "status": "pass",
+      "status": "fail",
+      "issue": "https://github.com/pelias/pelias/issues/293",
+      "description": "data issue",
       "user": "feedback-app",
       "type": "dev",
       "in": {
@@ -313,7 +315,7 @@
       "expected": {
         "properties": [
           {
-            "label": "Chelsea, New York County, NY, USA"
+            "label": "Chelsea, Manhattan, NY, USA"
           }
         ]
       }
@@ -328,9 +330,6 @@
       },
       "expected": {
         "properties": [
-          {
-            "label": "Soho, New York County, NY, USA"
-          },
           {
             "label": "SoHo, Manhattan, NY, USA"
           }
