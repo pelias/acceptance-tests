@@ -36,7 +36,7 @@
     "validate"
   ],
   "homepage": "https://github.com/pelias/acceptance-tests",
-  "engines" : {
-    "npm" : "~2.0.0"
+  "engines": {
+    "npm": "~2.0.0"
   }
 }
