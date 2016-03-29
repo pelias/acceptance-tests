@@ -96,7 +96,9 @@
     },
     {
       "id": 8,
-      "status": "pass",
+      "status": "fail",
+      "issue": "https://github.com/pelias/pelias/issues/299",
+      "description": "label generation might need to be tweaked",
       "user": "missinglink",
       "in": {
         "text": "Madrid, Spain"
