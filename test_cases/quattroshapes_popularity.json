@@ -6,7 +6,9 @@
     {
       "id": 1,
       "user": "sevko",
-      "status": "pass",
+      "status": "fail",
+      "issue": "https://github.com/pelias/pelias/issues/300",
+      "description": "not showing up in results at all now. cause unknown.",
       "type": "dev",
       "in": {
         "layers": "coarse",
