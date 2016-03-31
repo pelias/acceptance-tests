@@ -142,14 +142,14 @@
       "expected": {
         "properties": [
           {
-            "name": "Mission",
+            "name": "Mission District",
             "layer": "neighbourhood",
             "country_a": "USA",
             "country": "United States",
             "region": "California",
             "region_a": "CA",
             "county": "San Francisco County",
-            "label": "Mission, San Francisco, CA, USA"
+            "label": "Mission District, San Francisco, CA, USA"
           }
         ]
       }
