@@ -6,7 +6,9 @@
     {
       "id": 1,
       "user": "sevko",
-      "status": "pass",
+      "status": "fail",
+      "issue": "https://github.com/pelias/pelias/issues/300",
+      "description": "not showing up in results at all now. cause unknown.",
       "type": "dev",
       "in": {
         "layers": "coarse",
@@ -15,10 +17,10 @@
       "expected": {
         "properties": [
           {
-            "label": "Chelsea, New York County, NY"
+            "label": "Chelsea, Manhattan, NY, USA"
           },
           {
-            "label": "Chelsea, Greater London, United Kingdom"
+            "label": "Chelsea, London, United Kingdom"
           }
         ]
       }
@@ -26,7 +28,9 @@
     {
       "id": "1-1",
       "user": "sevko",
-      "status": "pass",
+      "status": "fail",
+      "issue": "https://github.com/pelias/pelias/issues/294",
+      "description": "fails due to over-boosting population and popularity, trumping admin property matches",
       "type": "dev",
       "in": {
         "layers": "coarse",
@@ -35,7 +39,7 @@
       "expected": {
         "properties": [
           {
-            "label": "Chelsea, New York County, NY"
+            "label": "Chelsea, Manhattan, NY, USA"
           }
         ]
       }
@@ -52,7 +56,7 @@
       "expected": {
         "properties": [
           {
-            "label": "Williamsburg, Kings County, NY"
+            "label": "Williamsburg, Brooklyn, NY, USA"
           }
         ]
       }
@@ -69,7 +73,7 @@
       "expected": {
         "properties": [
           {
-            "label": "Williamsburg, Kings County, NY"
+            "label": "Williamsburg, Brooklyn, NY, USA"
           }
         ]
       }
@@ -86,10 +90,10 @@
       "expected": {
         "properties": [
           {
-            "label": "Ridgewood, Queens County, NY"
+            "label": "Ridgewood, Brooklyn, NY, USA"
           },
           {
-            "label": "Ridgewood, Bergen County, NJ"
+            "label": "Ridgewood, Bergen County, NJ, USA"
           }
         ]
       }
@@ -106,7 +110,7 @@
       "expected": {
         "properties": [
           {
-            "label": "Ridgewood, Queens County, NY"
+            "label": "Ridgewood, Brooklyn, NY, USA"
           }
         ]
       }

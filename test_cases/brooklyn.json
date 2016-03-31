@@ -30,7 +30,7 @@
         "layers": "locality",
         "boundary.country": "USA"
       },
-      "unexpected": {
+      "expected": {
         "properties": [
           {
             "name": "Brooklyn",
@@ -103,7 +103,7 @@
         "text": "brooklyn",
         "layers": "locality"
       },
-      "unexpected": {
+      "expected": {
         "properties": [
           {
             "name": "Brooklyn",

@@ -16,10 +16,7 @@
           {
             "layer": "address",
             "housenumber": "90",
-            "street": "Vermilyea Avenue",
-            "locality": "New York",
-            "region": "New York",
-            "postalcode": "10034"
+            "street": "Vermilyea Avenue"
           }
         ]
       }
@@ -36,10 +33,7 @@
           {
             "layer": "address",
             "housenumber": "90",
-            "street": "Vermilyea Avenue",
-            "locality": "New York",
-            "region": "New York",
-            "postalcode": "10034"
+            "street": "Vermilyea Avenue"
           }
         ]
       }
@@ -56,10 +50,7 @@
           {
             "layer": "address",
             "housenumber": "90",
-            "street": "Vermilyea Avenue",
-            "locality": "New York",
-            "region": "New York",
-            "postalcode": "10034"
+            "street": "Vermilyea Avenue"
           }
         ]
       }
@@ -76,10 +67,7 @@
           {
             "layer": "address",
             "housenumber": "90",
-            "street": "Vermilyea Avenue",
-            "locality": "New York",
-            "region": "New York",
-            "postalcode": "10034"
+            "street": "Vermilyea Avenue"
           }
         ]
       }
@@ -96,10 +84,7 @@
           {
             "layer": "address",
             "housenumber": "90",
-            "street": "Vermilyea Avenue",
-            "locality": "New York",
-            "region": "New York",
-            "postalcode": "10034"
+            "street": "Vermilyea Avenue"
           }
         ]
       }
@@ -116,10 +101,7 @@
           {
             "layer": "address",
             "housenumber": "90",
-            "street": "Vermilyea Avenue",
-            "locality": "New York",
-            "region": "New York",
-            "postalcode": "10034"
+            "street": "Vermilyea Avenue"
           }
         ]
       }
@@ -136,9 +118,7 @@
           {
             "layer": "address",
             "housenumber": "424",
-            "street": "Clay Avenue",
-            "locality": "Waco",
-            "region": "Texas"
+            "street": "Clay Avenue"
           }
         ]
       }
@@ -155,9 +135,7 @@
           {
             "layer": "address",
             "housenumber": "424",
-            "street": "Clay Avenue",
-            "locality": "Waco",
-            "region": "Texas"
+            "street": "Clay Avenue"
           }
         ]
       }
@@ -174,9 +152,7 @@
           {
             "layer": "address",
             "housenumber": "424",
-            "street": "Clay Avenue",
-            "locality": "Waco",
-            "region": "Texas"
+            "street": "Clay Avenue"
           }
         ]
       }
@@ -193,9 +169,7 @@
           {
             "layer": "address",
             "housenumber": "424",
-            "street": "Clay Avenue",
-            "locality": "Waco",
-            "region": "Texas"
+            "street": "Clay Avenue"
           }
         ]
       }
@@ -214,9 +188,7 @@
           {
             "layer": "address",
             "housenumber": "198",
-            "street": "Baker Street",
-            "locality": "Corning",
-            "region": "New York"
+            "street": "Baker Street"
           }
         ]
       }
@@ -235,9 +207,7 @@
           {
             "layer": "address",
             "housenumber": "198",
-            "street": "Baker Street",
-            "locality": "Corning",
-            "region": "New York"
+            "street": "Baker Street"
           }
         ]
       }
@@ -256,9 +226,7 @@
           {
             "layer": "address",
             "housenumber": "198",
-            "street": "Baker Street",
-            "locality": "Corning",
-            "region": "New York"
+            "street": "Baker Street"
           }
         ]
       }
@@ -277,9 +245,7 @@
           {
             "layer": "address",
             "housenumber": "198",
-            "street": "Baker Street",
-            "locality": "Corning",
-            "region": "New York"
+            "street": "Baker Street"
           }
         ]
       }
@@ -296,9 +262,7 @@
           {
             "layer": "address",
             "housenumber": "451",
-            "street": "Fog Hill Road",
-            "locality": "Austerlitz",
-            "region": "New York"
+            "street": "Fog Hill Road"
           }
         ]
       }
@@ -315,9 +279,7 @@
           {
             "layer": "address",
             "housenumber": "451",
-            "street": "Fog Hill Road",
-            "locality": "Austerlitz",
-            "region": "New York"
+            "street": "Fog Hill Road"
           }
         ]
       }
@@ -334,13 +296,30 @@
           {
             "layer": "address",
             "housenumber": "451",
-            "street": "Fog Hill Road",
-            "locality": "Austerlitz",
-            "region": "New York"
+            "street": "Fog Hill Road"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5",
+      "status": "pass",
+      "user": "missinglink",
+      "description": "https://github.com/pelias/api/issues/370",
+      "in": {
+        "text": "Hämeenkatu 1, Tampere"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "address",
+            "housenumber": "1",
+            "street": "Hämeenkatu",
+            "locality": "Tampere",
+            "country": "Finland"
           }
         ]
       }
     }
-
   ]
 }

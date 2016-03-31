@@ -12,7 +12,7 @@
       },
       "expected": {
         "properties": [{
-          "label": "San Francisco, San Francisco County, CA"
+          "label": "San Francisco, San Francisco County, CA, USA"
         }]
       }
     },
@@ -25,7 +25,7 @@
       },
       "expected": {
         "properties": [{
-          "label": "30 West 26th Street, Manhattan, NY"
+          "label": "30 West 26th Street, Manhattan, NY, USA"
         }]
       }
     },
@@ -51,7 +51,7 @@
       },
       "expected": {
         "properties": [{
-          "label": "California, CA"
+          "label": "California, USA"
         }]
       }
     },
@@ -96,7 +96,9 @@
     },
     {
       "id": 8,
-      "status": "pass",
+      "status": "fail",
+      "issue": "https://github.com/pelias/pelias/issues/299",
+      "description": "label generation might need to be tweaked",
       "user": "missinglink",
       "in": {
         "text": "Madrid, Spain"
@@ -109,7 +111,12 @@
     },
     {
       "id": 9,
-      "status": "pass",
+      "status": "fail",
+      "issue": "https://github.com/pelias/pelias/issues/292",
+      "description": [
+        "Dungannon is showing up as a region, when it should be a locality.",
+        "The label is also generated incorrectly given the information available to it."
+      ],
       "user": "missinglink",
       "in": {
         "text": "1 Main St, Dungannon, United Kingdom"
@@ -129,7 +136,7 @@
       },
       "expected": {
         "properties": [{
-          "label": "Hackney City Farm, Haggerston, Greater London"
+          "label": "Hackney City Farm, Haggerston, United Kingdom"
         }]
       }
     },

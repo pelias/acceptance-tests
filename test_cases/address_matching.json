@@ -14,7 +14,9 @@
       "expected": {
         "properties": [
           {
-            "label": "30 West 26 Street, Manhattan, NY"
+            "layer": "address",
+            "housenumber": "30",
+            "street": "West 26th Street"
           }
         ]
       }
@@ -30,17 +32,22 @@
       "expected": {
         "properties": [
           {
-            "label": "507 Hackney Road, Cambridge Heath, Greater London"
+            "housenumber": "507",
+            "street": "Hackney Road"
           },
           {
-            "label": "Hackney Cycles, Cambridge Heath, Greater London"
+            "name": "Hackney Cycles",
+            "housenumber": "507",
+            "street": "Hackney Road"
           }
         ]
       }
     },
     {
       "id": 3,
-      "status": "pass",
+      "status": "fail",
+      "issue": "https://github.com/pelias/pelias/issues/296",
+      "description": "Need to decide if a result is more relevant when the house number matches or the street name",
       "user": "dianashk",
       "type": "dev",
       "in": {

@@ -13,7 +13,7 @@
       "expected": {
         "properties": [
           {
-            "label": "Brooklyn, New York, NY"
+            "label": "Brooklyn, New York, NY, USA"
           },
           {
             "label": "Brooklyn, Wellington City, New Zealand"
@@ -32,10 +32,7 @@
       "expected": {
         "properties": [
           {
-            "label": "Brooklyn, New York, NY"
-          },
-          {
-            "label": "Brooklyn, Kings County, NY"
+            "label": "Brooklyn, New York, NY, USA"
           }
         ]
       }
@@ -51,7 +48,7 @@
       "expected": {
         "properties": [
           {
-            "label": "Philadelphia, Philadelphia County, PA"
+            "label": "Philadelphia, Philadelphia County, PA, USA"
           }
         ]
       }
@@ -67,7 +64,7 @@
       "expected": {
         "properties": [
           {
-            "label": "Philadelphia, Philadelphia County, PA"
+            "label": "Philadelphia, Philadelphia County, PA, USA"
           }
         ]
       }
@@ -83,10 +80,10 @@
       "expected": {
         "properties": [
           {
-            "label": "New York County, NY"
+            "label": "New York County, NY, USA"
           },
           {
-            "label": "New York City, Manhattan, NY"
+            "label": "New York City, New York, NY, USA"
           }
         ]
       }
@@ -102,7 +99,7 @@
       "expected": {
         "properties": [
           {
-            "label": "New York City, Manhattan, NY"
+            "label": "New York City, New York, NY, USA"
           }
         ]
       }
@@ -118,7 +115,7 @@
       "expected": {
         "properties": [
           {
-            "label": "New York City, Manhattan, NY"
+            "label": "New York City, New York, NY, USA"
           }
         ]
       }
@@ -134,7 +131,7 @@
       "expected": {
         "properties": [
           {
-            "label": "130 Dean Street, Brooklyn, NY"
+            "label": "130 Dean Street, Brooklyn, NY, USA"
           }
         ]
       }
@@ -150,7 +147,7 @@
       "expected": {
         "properties": [
           {
-            "label": "Billerica, Middlesex County, MA"
+            "label": "Billerica, Middlesex County, MA, USA"
           }
         ]
       }
@@ -166,7 +163,7 @@
       "expected": {
         "properties": [
           {
-            "label": "Billerica, Middlesex County, MA"
+            "label": "Billerica, Middlesex County, MA, USA"
           }
         ]
       }
@@ -186,7 +183,7 @@
             "country": "United States",
             "region": "Massachusetts",
             "county": "Middlesex County",
-            "label": "15 Call Street, Billerica, MA"
+            "label": "15 Call Street, Billerica, MA, USA"
           }
         ]
       }
@@ -212,7 +209,7 @@
             "region": "California",
             "region_a": "CA",
             "county": "San Francisco County",
-            "label": "Union Square, San Francisco County, CA"
+            "label": "Union Square, San Francisco County, CA, USA"
           }
         ]
       }
@@ -228,7 +225,7 @@
       "expected": {
         "properties": [
           {
-            "label": "Portland, Multnomah County, OR"
+            "label": "Portland, Multnomah County, OR, USA"
           }
         ]
       }
@@ -244,14 +241,16 @@
       "expected": {
         "properties": [
           {
-            "label": "Portland, Multnomah County, OR"
+            "label": "Portland, Multnomah County, OR, USA"
           }
         ]
       }
     },
     {
       "id": "1425586777012:3",
-      "status": "pass",
+      "status": "fail",
+      "issue": "https://github.com/pelias/pelias/issues/299",
+      "description": "label generation might need to be tweaked",
       "user": "feedback-app",
       "in": {
         "text": "paris"
@@ -285,7 +284,9 @@
     },
     {
       "id": "1425586777012:6",
-      "status": "pass",
+      "status": "fail",
+      "issue": "https://github.com/pelias/pelias/issues/293",
+      "description": "data issue",
       "user": "feedback-app",
       "type": "dev",
       "in": {
@@ -316,7 +317,7 @@
       "expected": {
         "properties": [
           {
-            "label": "Chelsea, New York County, NY"
+            "label": "Chelsea, Manhattan, NY, USA"
           }
         ]
       }
@@ -332,10 +333,7 @@
       "expected": {
         "properties": [
           {
-            "label": "Soho, New York County, NY"
-          },
-          {
-            "label": "SoHo, Manhattan, NY"
+            "label": "SoHo, Manhattan, NY, USA"
           }
         ]
       }
@@ -367,7 +365,7 @@
         "properties": [
           {
             "neighbourhood": "East Village",
-            "label": "101 Saint Marks Place, Manhattan, NY"
+            "label": "101 Saint Marks Place, Manhattan, NY, USA"
           }
         ]
       }
@@ -393,7 +391,7 @@
             "localadmin": "Newark",
             "locality": "Newark",
             "neighbourhood": "Dayton",
-            "label": "Newark Liberty International Airport, Newark, NJ"
+            "label": "Newark Liberty International Airport, Newark, NJ, USA"
           }
         ]
       }
@@ -450,7 +448,7 @@
         "focus.point.lon": -73.990342,
         "text": "30 West 26th Street",
         "layers": "address",
-        "sources": "osm"
+        "sources": "openstreetmap"
       },
       "expected": {
         "properties": [
@@ -468,8 +466,8 @@
             "postalcode": "10010",
             "housenumber": "30",
             "street": "West 26th Street",
-            "label": "30 West 26th Street, Manhattan, NY",
-            "source": "osm"
+            "label": "30 West 26th Street, Manhattan, NY, USA",
+            "source": "openstreetmap"
           }
         ]
       }
@@ -614,7 +612,7 @@
         "priorityThresh": 1,
         "properties": [
           {
-            "label": "San Francisco Zoo, San Francisco, CA",
+            "label": "San Francisco Zoo, San Francisco, CA, USA",
             "name": "San Francisco Zoo"
           }
         ]

@@ -21,7 +21,7 @@
     },
     {
       "id": 2,
-      "status": "fail",
+      "status": "pass",
       "user": "Julian",
       "in": {
         "text": "san francisco",
@@ -39,7 +39,7 @@
     },
     {
       "id": 3,
-      "status": "fail",
+      "status": "pass",
       "user": "Julian",
       "in": {
         "text": "san francisco",
@@ -57,7 +57,7 @@
     },
     {
       "id": "4-autocomplete",
-      "status": "fail",
+      "status": "pass",
       "user": "Julian",
       "endpoint": "autocomplete",
       "in": {
@@ -91,7 +91,7 @@
     },
     {
       "id": 6,
-      "status": "fail",
+      "status": "pass",
       "user": "Julian",
       "in": {
         "text": "san francisco",
@@ -108,7 +108,7 @@
     },
     {
       "id": 7,
-      "status": "fail",
+      "status": "pass",
       "user": "Julian",
       "in": {
         "text": "san francisco",
@@ -125,7 +125,7 @@
     },
     {
       "id": "8-autocomplete",
-      "status": "fail",
+      "status": "pass",
       "user": "Julian",
       "endpoint": "autocomplete",
       "in": {
