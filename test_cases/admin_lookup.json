@@ -85,7 +85,9 @@
     },
     {
       "id": "5",
-      "status": "pass",
+      "status": "fail",
+      "issue": "https://github.com/pelias/pelias/issues/297",
+      "description": "not sure it's an actual failure. needs discussion",
       "endpoint": "reverse",
       "type": "dev",
       "in": {
@@ -102,7 +104,7 @@
       "unexpected": {
         "properties": [
           {
-            "region": "City And County Of The City Of London"
+            "region": "City and County of the City of London"
           }
         ]
       }
@@ -356,7 +358,9 @@
     },
     {
       "id": "15",
-      "status": "pass",
+      "status": "fail",
+      "issue": "https://github.com/pelias/pelias/issues/294",
+      "description": "cause is still unclear. see issue for future findings.",
       "type": "dev",
       "in": {
         "text": "Hillside, Santa Clara",
