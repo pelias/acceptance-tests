@@ -17,9 +17,6 @@
         "properties": [
           {
             "label": "Brooklyn, New York, NY, USA"
-          },
-          {
-            "label": "Brooklyn, Wellington City, New Zealand"
           }
         ]
       }
@@ -43,6 +40,14 @@
           },
           {
             "label": "New York City, New York, NY, USA"
+          }
+        ]
+      },
+      "unexpected": {
+        "properties": [
+          {
+            "name": "New York",
+            "localadmin": "Brooklyn"
           }
         ]
       }

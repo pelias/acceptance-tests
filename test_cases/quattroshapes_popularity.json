@@ -6,9 +6,8 @@
     {
       "id": 1,
       "user": "sevko",
-      "status": "fail",
+      "status": "pass",
       "issue": "https://github.com/pelias/pelias/issues/300",
-      "description": "not showing up in results at all now. cause unknown.",
       "type": "dev",
       "in": {
         "layers": "coarse",
@@ -28,9 +27,8 @@
     {
       "id": "1-1",
       "user": "sevko",
-      "status": "fail",
+      "status": "pass",
       "issue": "https://github.com/pelias/pelias/issues/294",
-      "description": "fails due to over-boosting population and popularity, trumping admin property matches",
       "type": "dev",
       "in": {
         "layers": "coarse",
