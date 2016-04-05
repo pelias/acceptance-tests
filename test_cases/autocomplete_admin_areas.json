@@ -15,9 +15,6 @@
         "properties": [
           {
             "label": "Brooklyn, New York, NY, USA"
-          },
-          {
-            "label": "Brooklyn, Wellington City, New Zealand"
           }
         ]
       }
@@ -114,7 +111,9 @@
     },
     {
       "id": 2,
-      "status": "pass",
+      "status": "fail",
+      "issue": "https://github.com/pelias/pelias/issues/295",
+      "description": "data issue",
       "user": "Diana",
       "type": "dev",
       "in": {
@@ -133,7 +132,9 @@
     },
     {
       "id": 3,
-      "status": "pass",
+      "status": "fail",
+      "issue": "https://github.com/pelias/pelias/issues/293",
+      "description": "data issue",
       "user": "missinglink",
       "in": {
         "text": "london"
