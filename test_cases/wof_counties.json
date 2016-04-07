@@ -61,8 +61,8 @@
         "properties": [
           {
             "layer": "county",
-            "name": "Maui",
-            "county": "Maui",
+            "name": "Maui County",
+            "county": "Maui County",
             "region": "Hawaii",
             "region_a": "HI",
             "country": "United States",
