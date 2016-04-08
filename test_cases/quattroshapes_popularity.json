@@ -88,7 +88,7 @@
       "expected": {
         "properties": [
           {
-            "label": "Ridgewood, Brooklyn, NY, USA"
+            "label": "Ridgewood, Queens, NY, USA"
           },
           {
             "label": "Ridgewood, Bergen County, NJ, USA"
@@ -108,7 +108,7 @@
       "expected": {
         "properties": [
           {
-            "label": "Ridgewood, Brooklyn, NY, USA"
+            "label": "Ridgewood, Queens, NY, USA"
           }
         ]
       }
