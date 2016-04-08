@@ -21,7 +21,7 @@
             "region": "New York",
             "region_a": "NY",
             "county": "New York County",
-            "localadmin": "Manhattan",
+            "borough": "Manhattan",
             "locality": "New York",
             "neighbourhood": "Greenwich Village"
           }
@@ -45,7 +45,7 @@
             "region": "New York",
             "region_a": "NY",
             "county": "New York County",
-            "localadmin": "Manhattan",
+            "borough": "Manhattan",
             "locality": "New York",
             "neighbourhood": "Greenwich Village"
           }
@@ -69,7 +69,7 @@
             "region": "New York",
             "region_a": "NY",
             "county": "New York County",
-            "localadmin": "Manhattan",
+            "borough": "Manhattan",
             "locality": "New York",
             "neighbourhood": "Greenwich Village"
           }
@@ -93,7 +93,7 @@
             "region": "New York",
             "region_a": "NY",
             "county": "New York County",
-            "localadmin": "Manhattan",
+            "borough": "Manhattan",
             "locality": "New York",
             "neighbourhood": "Greenwich Village"
           }
@@ -117,7 +117,7 @@
             "region": "New York",
             "region_a": "NY",
             "county": "New York County",
-            "localadmin": "Manhattan",
+            "borough": "Manhattan",
             "locality": "New York",
             "name": "30 West 26th Street"
           }
@@ -141,7 +141,7 @@
             "region": "New York",
             "region_a": "NY",
             "county": "New York County",
-            "localadmin": "Manhattan",
+            "borough": "Manhattan",
             "locality": "New York",
             "name": "30 West 26th Street"
           }
@@ -165,7 +165,7 @@
             "region": "New York",
             "region_a": "NY",
             "county": "New York County",
-            "localadmin": "Manhattan",
+            "borough": "Manhattan",
             "locality": "New York",
             "name": "30 West 26th Street"
           }
