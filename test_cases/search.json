@@ -457,7 +457,7 @@
             "region": "New York",
             "region_a": "NY",
             "county": "New York County",
-            "localadmin": "Manhattan",
+            "borough": "Manhattan",
             "locality": "New York",
             "neighbourhood": "Flatiron District",
             "postalcode": "10010",
