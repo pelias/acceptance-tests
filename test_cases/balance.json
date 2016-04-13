@@ -24,7 +24,7 @@
           {
             "name": "Starbucks",
             "layer": "venue",
-            "localadmin": "Manhattan",
+            "county": "New York County",
             "locality": "New York"
           }
         ]
@@ -51,7 +51,7 @@
           {
             "name": "Starbucks",
             "layer": "venue",
-            "localadmin": "Manhattan",
+            "county": "New York County",
             "locality": "New York"
           }
         ]
@@ -78,7 +78,7 @@
           {
             "name": "McDonald's",
             "layer": "venue",
-            "localadmin": "Manhattan",
+            "county": "New York County",
             "locality": "New York"
           }
         ]
@@ -86,7 +86,7 @@
     },
     {
       "id": 4,
-      "status": "pass",
+      "status": "fail",
       "endpoint": "search",
       "issue": "https://github.com/pelias/api/issues/346",
       "description": [
@@ -105,7 +105,7 @@
           {
             "name": "McDonald's",
             "layer": "venue",
-            "localadmin": "Manhattan",
+            "county": "New York County",
             "locality": "New York"
           }
         ]
@@ -133,7 +133,7 @@
             "name": "Katz's Delicatessen",
             "country_a": "USA",
             "region": "New York",
-            "localadmin": "Manhattan",
+            "county": "New York County",
             "locality": "New York"
           }
         ]
