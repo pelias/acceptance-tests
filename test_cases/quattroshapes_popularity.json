@@ -7,6 +7,7 @@
       "id": 1,
       "user": "sevko",
       "status": "pass",
+      "issue": "https://github.com/pelias/pelias/issues/300",
       "type": "dev",
       "in": {
         "layers": "coarse",
@@ -15,7 +16,7 @@
       "expected": {
         "properties": [
           {
-            "label": "Chelsea, New York County, NY, USA"
+            "label": "Chelsea, Manhattan, NY, USA"
           },
           {
             "label": "Chelsea, London, United Kingdom"
@@ -27,6 +28,7 @@
       "id": "1-1",
       "user": "sevko",
       "status": "pass",
+      "issue": "https://github.com/pelias/pelias/issues/294",
       "type": "dev",
       "in": {
         "layers": "coarse",
@@ -35,7 +37,7 @@
       "expected": {
         "properties": [
           {
-            "label": "Chelsea, New York County, NY, USA"
+            "label": "Chelsea, Manhattan, NY, USA"
           }
         ]
       }
@@ -86,7 +88,7 @@
       "expected": {
         "properties": [
           {
-            "label": "Ridgewood, Queens County, NY, USA"
+            "label": "Ridgewood, Queens, NY, USA"
           },
           {
             "label": "Ridgewood, Bergen County, NJ, USA"
@@ -106,7 +108,7 @@
       "expected": {
         "properties": [
           {
-            "label": "Ridgewood, Queens County, NY, USA"
+            "label": "Ridgewood, Queens, NY, USA"
           }
         ]
       }

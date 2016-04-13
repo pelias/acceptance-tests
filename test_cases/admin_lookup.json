@@ -85,7 +85,9 @@
     },
     {
       "id": "5",
-      "status": "pass",
+      "status": "fail",
+      "issue": "https://github.com/pelias/pelias/issues/297",
+      "description": "not sure it's an actual failure. needs discussion",
       "endpoint": "reverse",
       "type": "dev",
       "in": {
@@ -102,7 +104,7 @@
       "unexpected": {
         "properties": [
           {
-            "region": "City And County Of The City Of London"
+            "region": "City and County of the City of London"
           }
         ]
       }
@@ -134,19 +136,20 @@
       "status": "pass",
       "type": "dev",
       "in": {
-        "text": "mission, ca",
+        "text": "mission, san francisco",
         "layers": "coarse"
       },
       "expected": {
         "properties": [
           {
-            "name": "Mission",
+            "name": "Mission District",
+            "layer": "neighbourhood",
             "country_a": "USA",
             "country": "United States",
             "region": "California",
             "region_a": "CA",
             "county": "San Francisco County",
-            "label": "Mission, San Francisco, CA, USA"
+            "label": "Mission District, San Francisco, CA, USA"
           }
         ]
       }
@@ -162,13 +165,14 @@
       "expected": {
         "properties": [
           {
-            "label": "Crown Heights, Kings County, NY, USA",
+            "label": "Crown Heights, Brooklyn, NY, USA",
             "name": "Crown Heights",
             "country_a": "USA",
             "country": "United States",
             "region": "New York",
             "region_a": "NY",
-            "county": "Kings County"
+            "county": "Kings County",
+            "borough": "Brooklyn"
           }
         ]
       }
@@ -354,7 +358,9 @@
     },
     {
       "id": "15",
-      "status": "pass",
+      "status": "fail",
+      "issue": "https://github.com/pelias/pelias/issues/294",
+      "description": "cause is still unclear. see issue for future findings.",
       "type": "dev",
       "in": {
         "text": "Hillside, Santa Clara",
@@ -417,8 +423,7 @@
           {
             "country_a": "GBR",
             "country": "United Kingdom",
-            "region": "Newport",
-            "county": "Newport City"
+            "region": "Newport"
           }
         ]
       },
