@@ -278,9 +278,7 @@
     },
     {
       "id": "1425586777012:3",
-      "status": "fail",
-      "issue": "https://github.com/pelias/pelias/issues/299",
-      "description": "label generation might need to be tweaked",
+      "status": "pass",
       "user": "feedback-app",
       "in": {
         "text": "paris"
