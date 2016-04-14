@@ -183,6 +183,19 @@
           "label": "McDonald's, Singapore, Singapore"
         }]
       }
+    },
+    {
+      "id": 14,
+      "status": "pass",
+      "user": "julian",
+      "in": {
+        "text": "France"
+      },
+      "expected": {
+        "properties": [{
+          "label": "France"
+        }]
+      }
     }
   ]
 }
