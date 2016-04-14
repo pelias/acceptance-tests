@@ -45,7 +45,9 @@
       "expected": {
         "properties": [
           {
-            "label": "Philadelphia, Philadelphia County, PA, USA"
+            "name": "Philadelphia",
+            "region": "Pennsylvania",
+            "country_a": "USA"
           }
         ]
       }
@@ -61,7 +63,9 @@
       "expected": {
         "properties": [
           {
-            "label": "Philadelphia, Philadelphia County, PA, USA"
+            "name": "Philadelphia",
+            "region": "Pennsylvania",
+            "country_a": "USA"
           }
         ]
       }
@@ -77,10 +81,16 @@
       "expected": {
         "properties": [
           {
-            "label": "New York County, NY, USA"
+            "name": "New York County",
+            "layer": "county",
+            "region_a": "NY",
+            "country_a": "USA"
           },
           {
-            "label": "New York City, New York, NY, USA"
+            "name": "New York City",
+            "layer": "locality",
+            "region_a": "NY",
+            "country_a": "USA"
           }
         ]
       }
@@ -96,7 +106,10 @@
       "expected": {
         "properties": [
           {
-            "label": "New York City, New York, NY, USA"
+            "name": "New York City",
+            "layer": "locality",
+            "region_a": "NY",
+            "country_a": "USA"
           }
         ]
       }
@@ -112,7 +125,10 @@
       "expected": {
         "properties": [
           {
-            "label": "New York City, New York, NY, USA"
+            "name": "New York City",
+            "layer": "locality",
+            "region_a": "NY",
+            "country_a": "USA"
           }
         ]
       }
@@ -128,7 +144,11 @@
       "expected": {
         "properties": [
           {
-            "label": "130 Dean Street, Brooklyn, NY, USA"
+            "name": "130 Dean Street",
+            "borough": "Brooklyn",
+            "locality": "New York",
+            "region_a": "NY",
+            "country_a": "USA"
           }
         ]
       }
@@ -144,7 +164,10 @@
       "expected": {
         "properties": [
           {
-            "label": "Billerica, Middlesex County, MA, USA"
+            "name": "Billerica",
+            "county": "Middlesex County",
+            "region_a": "MA",
+            "country_a": "USA"
           }
         ]
       }
@@ -160,7 +183,10 @@
       "expected": {
         "properties": [
           {
-            "label": "Billerica, Middlesex County, MA, USA"
+            "name": "Billerica",
+            "county": "Middlesex County",
+            "region_a": "MA",
+            "country_a": "USA"
           }
         ]
       }
@@ -180,7 +206,8 @@
             "country": "United States",
             "region": "Massachusetts",
             "county": "Middlesex County",
-            "label": "15 Call Street, Billerica, MA, USA"
+            "region_a": "MA",
+            "country_a": "USA"
           }
         ]
       }
@@ -222,7 +249,10 @@
       "expected": {
         "properties": [
           {
-            "label": "Portland, Multnomah County, OR, USA"
+            "name": "Portland",
+            "county": "Multnomah County",
+            "region_a": "OR",
+            "country_a": "USA"
           }
         ]
       }
@@ -238,16 +268,17 @@
       "expected": {
         "properties": [
           {
-            "label": "Portland, Multnomah County, OR, USA"
+            "name": "Portland",
+            "county": "Multnomah County",
+            "region_a": "OR",
+            "country_a": "USA"
           }
         ]
       }
     },
     {
       "id": "1425586777012:3",
-      "status": "fail",
-      "issue": "https://github.com/pelias/pelias/issues/299",
-      "description": "label generation might need to be tweaked",
+      "status": "pass",
       "user": "feedback-app",
       "in": {
         "text": "paris"
@@ -255,7 +286,8 @@
       "expected": {
         "properties": [
           {
-            "label": "Paris, France"
+            "name": "Paris",
+            "country": "France"
           }
         ]
       }
@@ -274,7 +306,7 @@
       "expected": {
         "properties": [
           {
-            "label": "France"
+            "name": "France"
           }
         ]
       }
@@ -314,7 +346,11 @@
       "expected": {
         "properties": [
           {
-            "label": "Chelsea, Manhattan, NY, USA"
+            "name": "Chelsea",
+            "layer": "neighbourhood",
+            "borough": "Manhattan",
+            "region_a": "NY",
+            "country_a": "USA"
           }
         ]
       }
@@ -330,7 +366,11 @@
       "expected": {
         "properties": [
           {
-            "label": "SoHo, Manhattan, NY, USA"
+            "name": "SoHo",
+            "layer": "neighbourhood",
+            "borough": "Manhattan",
+            "region_a": "NY",
+            "country_a": "USA"
           }
         ]
       }
@@ -345,7 +385,9 @@
       "expected": {
         "properties": [
           {
-            "label": "Perugia San Francesco d'Assisi – Umbria International Airport, Perugia, Italy"
+            "name": "Perugia San Francesco d'Assisi – Umbria International Airport",
+            "region": "Perugia",
+            "country_a": "ITA"
           }
         ]
       }
@@ -361,8 +403,10 @@
       "expected": {
         "properties": [
           {
+            "name": "101 Saint Marks Place",
             "neighbourhood": "East Village",
-            "label": "101 Saint Marks Place, Manhattan, NY, USA"
+            "region_a": "NY",
+            "country_a": "USA"
           }
         ]
       }
@@ -463,7 +507,6 @@
             "postalcode": "10010",
             "housenumber": "30",
             "street": "West 26th Street",
-            "label": "30 West 26th Street, Manhattan, NY, USA",
             "source": "openstreetmap"
           }
         ]

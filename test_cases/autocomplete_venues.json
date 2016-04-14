@@ -14,7 +14,7 @@
       "expected": {
         "properties": [
           {
-            "label": "DiDi Dumpling, Manhattan, NY, USA"
+            "label": "DiDi Dumpling, Manhattan, New York, NY, USA"
           }
         ]
       }
@@ -29,7 +29,7 @@
       "expected": {
         "properties": [
           {
-            "label": "Hackney City Farm, Haggerston, United Kingdom"
+            "label": "Hackney City Farm, London, England, United Kingdom"
           }
         ]
       }
@@ -76,7 +76,7 @@
       "expected": {
         "properties": [
           {
-            "label": "Waiotapu, Rotorua District, New Zealand"
+            "label": "Waiotapu, New Zealand"
           }
         ]
       }

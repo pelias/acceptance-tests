@@ -12,7 +12,7 @@
       },
       "expected": {
         "properties": [{
-          "label": "San Francisco, San Francisco County, CA, USA"
+          "label": "San Francisco, CA, USA"
         }]
       }
     },
@@ -25,7 +25,7 @@
       },
       "expected": {
         "properties": [{
-          "label": "30 West 26th Street, Manhattan, NY, USA"
+          "label": "30 West 26th Street, Manhattan, New York, NY, USA"
         }]
       }
     },
@@ -101,9 +101,7 @@
     },
     {
       "id": 8,
-      "status": "fail",
-      "issue": "https://github.com/pelias/pelias/issues/299",
-      "description": "label generation might need to be tweaked",
+      "status": "pass",
       "user": "missinglink",
       "in": {
         "text": "Madrid, Spain"
@@ -141,7 +139,7 @@
       },
       "expected": {
         "properties": [{
-          "label": "Hackney City Farm, Haggerston, United Kingdom"
+          "label": "Hackney City Farm, London, England, United Kingdom"
         }]
       }
     },
@@ -180,7 +178,20 @@
       },
       "expected": {
         "properties": [{
-          "label": "McDonald's, Central Singapore, Singapore"
+          "label": "McDonald's, Singapore, Singapore"
+        }]
+      }
+    },
+    {
+      "id": 14,
+      "status": "pass",
+      "user": "julian",
+      "in": {
+        "text": "France"
+      },
+      "expected": {
+        "properties": [{
+          "label": "France"
         }]
       }
     }

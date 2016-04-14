@@ -165,7 +165,7 @@
       "expected": {
         "properties": [
           {
-            "label": "Crown Heights, Brooklyn, NY, USA",
+            "label": "Crown Heights, Brooklyn, New York, NY, USA",
             "name": "Crown Heights",
             "country_a": "USA",
             "country": "United States",
@@ -187,7 +187,7 @@
       "expected": {
         "properties": [
           {
-            "label": "Palo Alto, Santa Clara County, CA, USA"
+            "label": "Palo Alto, CA, USA"
           }
         ]
       }
@@ -202,7 +202,7 @@
       "expected": {
         "properties": [
           {
-            "label": "Palo Alto, Santa Clara County, CA, USA"
+            "label": "Palo Alto, CA, USA"
           }
         ]
       }
