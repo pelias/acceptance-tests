@@ -26,7 +26,7 @@
             "postalcode": "10009",
             "housenumber": "101",
             "street": "Saint Marks Place",
-            "label": "101 Saint Marks Place, Manhattan, NY, USA"
+            "label": "101 Saint Marks Place, Manhattan, New York, NY, USA"
           }
         ]
       }
@@ -48,7 +48,7 @@
       "expected": {
         "properties": [
           {
-            "label": "1 Water Street, Manhattan, NY, USA"
+            "label": "1 Water Street, Manhattan, New York, NY, USA"
           }
         ]
       }
@@ -64,7 +64,7 @@
       "expected": {
         "properties": [
           {
-            "label": "1 Water Street, Manhattan, NY, USA"
+            "label": "1 Water Street, Manhattan, New York, NY, USA"
           }
         ]
       }
@@ -93,7 +93,7 @@
             "postalcode": "11232",
             "housenumber": "450",
             "street": "37th Street",
-            "label": "450 37th Street, Brooklyn, NY, USA"
+            "label": "450 37th Street, Brooklyn, New York, NY, USA"
           }
         ]
       },
@@ -128,7 +128,7 @@
             "postalcode": "10010",
             "housenumber": "304",
             "street": "Park Avenue South",
-            "label": "Starbucks, Manhattan, NY, USA"
+            "label": "Starbucks, Manhattan, New York, NY, USA"
           }
         ]
       }
@@ -156,7 +156,7 @@
             "postalcode": "11232",
             "housenumber": "455",
             "street": "43rd Street",
-            "label": "455 43rd Street, Brooklyn, NY, USA"
+            "label": "455 43rd Street, Brooklyn, New York, NY, USA"
           }
         ]
       }
@@ -184,7 +184,7 @@
             "postalcode": "11201",
             "housenumber": "1",
             "street": "Main Street",
-            "label": "1 Main Street, Brooklyn, NY, USA"
+            "label": "1 Main Street, Brooklyn, New York, NY, USA"
           }
         ]
       }

@@ -16,7 +16,7 @@
       "expected": {
         "properties": [
           {
-            "label": "Chelsea, Manhattan, NY, USA"
+            "label": "Chelsea, Manhattan, New York, NY, USA"
           },
           {
             "label": "Chelsea, London, United Kingdom"
@@ -37,7 +37,7 @@
       "expected": {
         "properties": [
           {
-            "label": "Chelsea, Manhattan, NY, USA"
+            "label": "Chelsea, Manhattan, New York, NY, USA"
           }
         ]
       }
@@ -54,7 +54,7 @@
       "expected": {
         "properties": [
           {
-            "label": "Williamsburg, Brooklyn, NY, USA"
+            "label": "Williamsburg, Brooklyn, New York, NY, USA"
           }
         ]
       }
@@ -71,7 +71,7 @@
       "expected": {
         "properties": [
           {
-            "label": "Williamsburg, Brooklyn, NY, USA"
+            "label": "Williamsburg, Brooklyn, New York, NY, USA"
           }
         ]
       }
@@ -88,7 +88,7 @@
       "expected": {
         "properties": [
           {
-            "label": "Ridgewood, Queens, NY, USA"
+            "label": "Ridgewood, Queens, New York, NY, USA"
           },
           {
             "label": "Ridgewood, Bergen County, NJ, USA"
@@ -108,7 +108,7 @@
       "expected": {
         "properties": [
           {
-            "label": "Ridgewood, Queens, NY, USA"
+            "label": "Ridgewood, Queens, New York, NY, USA"
           }
         ]
       }

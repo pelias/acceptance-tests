@@ -12,7 +12,7 @@
       },
       "expected": {
         "properties": [{
-          "label": "San Francisco, San Francisco County, CA, USA"
+          "label": "San Francisco, CA, USA"
         }]
       }
     },
@@ -25,7 +25,7 @@
       },
       "expected": {
         "properties": [{
-          "label": "30 West 26th Street, Manhattan, NY, USA"
+          "label": "30 West 26th Street, Manhattan, New York, NY, USA"
         }]
       }
     },
@@ -141,7 +141,7 @@
       },
       "expected": {
         "properties": [{
-          "label": "Hackney City Farm, Haggerston, United Kingdom"
+          "label": "Hackney City Farm, London, England, United Kingdom"
         }]
       }
     },
@@ -180,7 +180,7 @@
       },
       "expected": {
         "properties": [{
-          "label": "McDonald's, Central Singapore, Singapore"
+          "label": "McDonald's, Singapore, Singapore"
         }]
       }
     }
