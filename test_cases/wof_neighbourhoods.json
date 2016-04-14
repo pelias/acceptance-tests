@@ -16,7 +16,7 @@
             "layer": "neighbourhood",
             "name": "Weeksville",
             "locality": "New York",
-            "localadmin": "Brooklyn",
+            "borough": "Brooklyn",
             "county": "Kings County",
             "region": "New York",
             "region_a": "NY",
@@ -99,8 +99,8 @@
           {
             "layer": "neighbourhood",
             "name": "９丁目",
-            "locality": "Hiratsuka",
-            "region": "Kanagawa",
+            "locality": "Hachiōji",
+            "region": "Tokyo",
             "country": "Japan",
             "country_a": "JPN"
           }

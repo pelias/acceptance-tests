@@ -67,9 +67,10 @@
     },
     {
       "id": 4,
-      "status": "pass",
+      "status": "fail",
       "user": "Stephen",
-      "description": "",
+      "issue": "https://github.com/whosonfirst/whosonfirst-data/issues/250",
+      "description": "seems to be a data issue, country is set to Europe",
       "in": {
         "text": "Dél-Dunántúl, HU",
         "sources": "wof"

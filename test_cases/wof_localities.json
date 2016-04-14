@@ -16,8 +16,7 @@
             "layer": "locality",
             "name": "New York",
             "locality": "New York",
-            "localadmin": "Brooklyn",
-            "county": "Kings County",
+            "county": "Richmond County",
             "region": "New York",
             "region_a": "NY",
             "country": "United States",
@@ -106,8 +105,7 @@
           {
             "layer": "locality",
             "name": "Carmel-by-the-Sea",
-            "locality": "Carmel-by-the-Sea",
-            "county": "Monterey",
+            "county": "Monterey County",
             "region": "California",
             "region_a": "CA",
             "country": "United States",
@@ -159,7 +157,9 @@
     },
     {
       "id": 8,
-      "status": "pass",
+      "status": "fail",
+      "issue": "https://github.com/pelias/acceptance-tests/issues/213",
+      "description": "returns the right result second, cause unknown",
       "user": "Stephen",
       "in": {
         "text": "San Jaun, Puerto Rico",
@@ -183,7 +183,7 @@
       "status": "pass",
       "user": "Stephen",
       "in": {
-        "text": "london england",
+        "text": "London, England",
         "sources": "wof"
       },
       "expected": {
@@ -191,7 +191,29 @@
           {
             "macroregion": "England",
             "name": "London",
-            "country": ""
+            "country": "United Kingdom",
+            "country_a": "GBR"
+          }
+        ]
+      }
+    },
+    {
+      "id": 10,
+      "status": "pass",
+      "user": "Stephen",
+      "description": "chosen for diacriticals + Münster Rebellion... YOLO!",
+      "in": {
+        "text": "Münster, DE",
+        "sources": "wof"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "locality",
+            "name": "Münster",
+            "region": "Nordrhein-Westfalen",
+            "country": "Germany",
+            "country_a": "DEU"
           }
         ]
       }

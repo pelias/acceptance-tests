@@ -4,8 +4,12 @@
   "tests": [
     {
       "id": 1,
-      "status": "pass",
+      "status": "fail",
       "user": "Stephen",
+      "issue": [
+        "https://github.com/pelias/api/issues/495",
+        "https://github.com/pelias/api/issues/484"
+      ],
       "description": "chosen for punctuation",
       "in": {
         "text": "Saint-Die-Des-Vosges, France",
@@ -16,7 +20,6 @@
           {
             "layer": "macrocounty",
             "name": "Saint-Die-Des-Vosges",
-            "macrocounty": "Saint-Die-Des-Vosges",
             "region": "Vosges",
             "macroregion": "Lorraine",
             "country": "France",
@@ -27,9 +30,14 @@
     },
     {
       "id": 2,
-      "status": "pass",
+      "status": "fail",
       "user": "Stephen",
-      "description": "chosen for diacriticals + Münster Rebellion... YOLO!",
+      "issue": "https://github.com/pelias/api/issues/484",
+      "description": [
+        "chosen for diacriticals + Münster Rebellion... YOLO!",
+        "name of macrocounty and locality, also DE conflicts with DEU",
+        "legitimate results should only be from Germany or Delaware, not Indiana and France as they are now"
+      ],
       "in": {
         "text": "Münster, DE",
         "sources": "wof"
@@ -39,7 +47,6 @@
           {
             "layer": "macrocounty",
             "name": "Münster",
-            "macrocounty": "Münster",
             "region": "Nordrhein-Westfalen",
             "country": "Germany",
             "country_a": "DEU"
@@ -49,8 +56,9 @@
     },
     {
       "id": 3,
-      "status": "pass",
+      "status": "fail",
       "user": "Stephen",
+      "issue": "https://github.com/pelias/api/issues/484",
       "description": "",
       "in": {
         "text": "Perpignan, France",
@@ -61,7 +69,6 @@
           {
             "layer": "macrocounty",
             "name": "Perpignan",
-            "macrocounty": "Perpignan",
             "region": "Pyrénées-Orientales",
             "macroregion": "Languedoc-Roussillon",
             "country": "France",
@@ -72,8 +79,9 @@
     },
     {
       "id": 4,
-      "status": "pass",
+      "status": "fail",
       "user": "Stephen",
+      "issue": "https://github.com/pelias/api/issues/484",
       "description": "chosen for punctuation",
       "in": {
         "text": "Les Sables-D'Olonne, France",
@@ -83,8 +91,7 @@
         "properties": [
           {
             "layer": "macrocounty",
-            "name": "Les Sables-D'Olonne",
-            "macrocounty": "Les Sables-D'Olonne",
+            "name": "Les Sables-d'Olonne",
             "region": "Vendée",
             "macroregion": "Pays De La Loire",
             "country": "France",

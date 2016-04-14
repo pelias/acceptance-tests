@@ -6,16 +6,17 @@
       "id": 1,
       "status": "pass",
       "user": "Stephen",
+      "description": "chosen for diacriticals",
       "in": {
         "text": "Villares De Órbigo, Spain",
-        "sources": "wof"
+        "sources": "wof",
+        "layers": "localadmin"
       },
       "expected": {
         "properties": [
           {
             "layer": "localadmin",
             "name": "Villares De Órbigo",
-            "localadmin": "Villares De Órbigo",
             "region": "León",
             "macroregion": "Castilla Y León",
             "country": "Spain",
@@ -30,14 +31,15 @@
       "user": "Stephen",
       "in": {
         "text": "Norwood Young America, Minnesota, US",
-        "sources": "wof"
+        "sources": "wof",
+        "layers": "localadmin"
       },
       "expected": {
         "properties": [
           {
             "layer": "localadmin",
             "name": "Norwood Young America",
-            "localadmin": "Norwood Young America",
+            "county": "Carver County",
             "region": "Minnesota",
             "region_a": "MN",
             "country": "United States",
@@ -59,7 +61,6 @@
           {
             "layer": "localadmin",
             "name": "Aliquippa",
-            "localadmin": "Aliquippa",
             "region": "Pennsylvania",
             "region_a": "PA",
             "country": "United States",
