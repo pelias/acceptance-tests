@@ -480,6 +480,27 @@
           }
         ]
       }
+    },
+    {
+      "id": "20",
+      "status": "pass",
+      "in": {
+        "text": "1 Hämeenkatu, Tampere, Finland"
+      },
+      "expected": {
+        "properties": [
+          {
+            "housenumber": "1",
+            "street": "Hämeenkatu",
+            "name": "Hämeenkatu 1",
+            "locality": "Turku",
+            "region": "Southwest Finland",
+            "macroregion": "Lounais-Suomen Avi#Sydvästra Finlands Rfv",
+            "country": "Finland",
+            "country_a": "FIN"
+          }
+        ]
+      }
     }
   ]
 }
