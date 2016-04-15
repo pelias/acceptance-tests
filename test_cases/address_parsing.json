@@ -48,7 +48,11 @@
       "expected": {
         "properties": [
           {
-            "label": "1 Water Street, Manhattan, New York, NY, USA"
+            "name": "1 Water Street",
+            "borough": "Manhattan",
+            "locality": "New York",
+            "region_a": "NY",
+            "country_a": "USA"
           }
         ]
       }
@@ -64,7 +68,11 @@
       "expected": {
         "properties": [
           {
-            "label": "1 Water Street, Manhattan, New York, NY, USA"
+            "name": "1 Water Street",
+            "borough": "Manhattan",
+            "locality": "New York",
+            "region_a": "NY",
+            "country_a": "USA"
           }
         ]
       }
