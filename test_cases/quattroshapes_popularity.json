@@ -16,10 +16,17 @@
       "expected": {
         "properties": [
           {
-            "label": "Chelsea, Manhattan, New York, NY, USA"
+            "name": "Chelsea",
+            "layer": "neighbourhood",
+            "locality": "New York",
+            "region_a": "NY",
+            "country_a": "USA"
           },
           {
-            "label": "Chelsea, London, United Kingdom"
+            "name": "Chelsea",
+            "layer": "neighbourhood",
+            "locality": "London",
+            "country_a": "GBR"
           }
         ]
       }
@@ -37,7 +44,11 @@
       "expected": {
         "properties": [
           {
-            "label": "Chelsea, Manhattan, New York, NY, USA"
+            "name": "Chelsea",
+            "layer": "neighbourhood",
+            "locality": "New York",
+            "region_a": "NY",
+            "country_a": "USA"
           }
         ]
       }
@@ -54,7 +65,12 @@
       "expected": {
         "properties": [
           {
-            "label": "Williamsburg, Brooklyn, New York, NY, USA"
+            "name": "Williamsburg",
+            "layer": "neighbourhood",
+            "borough": "Brooklyn",
+            "locality": "New York",
+            "region_a": "NY",
+            "country_a": "USA"
           }
         ]
       }
@@ -71,7 +87,12 @@
       "expected": {
         "properties": [
           {
-            "label": "Williamsburg, Brooklyn, New York, NY, USA"
+            "name": "Williamsburg",
+            "layer": "neighbourhood",
+            "borough": "Brooklyn",
+            "locality": "New York",
+            "region_a": "NY",
+            "country_a": "USA"
           }
         ]
       }
@@ -88,10 +109,17 @@
       "expected": {
         "properties": [
           {
-            "label": "Ridgewood, Queens, New York, NY, USA"
+            "name": "Ridgewood",
+            "borough": "Queens",
+            "locality": "New York",
+            "region_a": "NY",
+            "country_a": "USA"
           },
           {
-            "label": "Ridgewood, Bergen County, NJ, USA"
+            "name": "Ridgewood",
+            "county": "Bergen County",
+            "region_a": "NJ",
+            "country_a": "USA"
           }
         ]
       }
@@ -108,7 +136,10 @@
       "expected": {
         "properties": [
           {
-            "label": "Ridgewood, Queens, New York, NY, USA"
+            "name": "Ridgewood",
+            "county": "Bergen County",
+            "region_a": "NJ",
+            "country_a": "USA"
           }
         ]
       }
