@@ -165,6 +165,44 @@
           }
         ]
       }
+    },
+    {
+      "id": 9,
+      "status": "pass",
+      "user": "Diana",
+      "description": "https://github.com/pelias/api/issues/166",
+      "in": {
+        "text": "Sweden"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "country",
+            "name": "Sweden",
+            "country": "Sweden",
+            "country_a": "SWE"
+          }
+        ]
+      }
+    },
+    {
+      "id": 10,
+      "status": "pass",
+      "user": "Diana",
+      "description": "https://github.com/pelias/api/issues/166",
+      "in": {
+        "text": "Finland"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "country",
+            "name": "Finland",
+            "country": "Finland",
+            "country_a": "FIN"
+          }
+        ]
+      }
     }
   ]
 }
