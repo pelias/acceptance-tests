@@ -311,6 +311,40 @@
           }
         ]
       }
+    },
+    {
+      "id": 14,
+      "status": "pass",
+      "user": "missinglink",
+      "description": "partially complete major city name",
+      "issue": "https://github.com/pelias/pelias/issues/143",
+      "in": {
+        "text": "Pari"
+      },
+      "expected": {
+        "properties": [
+          {
+            "label": "Paris, France"
+          }
+        ]
+      }
+    },
+    {
+      "id": 15,
+      "status": "pass",
+      "user": "missinglink",
+      "description": "partially complete major city name",
+      "issue": "https://github.com/pelias/pelias/issues/143",
+      "in": {
+        "text": "Londo"
+      },
+      "expected": {
+        "properties": [
+          {
+            "label": "London, England, United Kingdom"
+          }
+        ]
+      }
     }
   ]
 }
