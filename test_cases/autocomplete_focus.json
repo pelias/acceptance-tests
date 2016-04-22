@@ -146,6 +146,37 @@
           }
         ]
       }
+    },
+    {
+      "id": 26,
+      "status": "pass",
+      "user": "missinglink",
+      "notes": [
+        "tight markering clustering around focus.",
+        "when given a query which matches many results, the chosen results",
+        "should be as 'tightly' clustered around the focus point as possible",
+        "note: this test is not ideal, I would really like to confirm this:",
+        "http://missinglink.embed.s3.amazonaws.com/pelias_clustering.png",
+        "however the test suite doesn't currently support this behaviour."
+      ],
+      "in": {
+        "focus.point.lat": 40.744131,
+        "focus.point.lon": -73.990424,
+        "text": "w 26th st"
+      },
+      "expected": {
+        "priorityThresh": 1,
+        "distanceThresh": 100,
+        "properties": [
+          {
+            "region": "New York",
+            "borough": "Manhattan"
+          }
+        ],
+        "coordinates": [
+          [ -73.990424, 40.744131 ]
+        ]
+      }
     }
   ]
 }

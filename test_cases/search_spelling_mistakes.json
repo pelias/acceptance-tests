@@ -1,0 +1,23 @@
+{
+  "name": "search_spelling_mistakes",
+  "priorityThresh": 1,
+  "tests": [
+    {
+      "id": 1,
+      "status": "pass",
+      "user": "missinglink",
+      "in": {
+        "text": "neu yorp"
+      },
+      "expected": {
+        "properties": [
+          { "name": "New York" },
+          { "name": "New York" },
+          { "name": "New York" },
+          { "name": "New York" },
+          { "name": "New York" }
+        ]
+      }
+    }
+  ]
+}

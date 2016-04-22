@@ -1,0 +1,134 @@
+{
+  "name": "autocomplete daly city",
+  "notes": "https://github.com/pelias/pelias/issues/191",
+  "endpoint": "autocomplete",
+  "priorityThresh": 5,
+  "tests": [
+    {
+      "id": "1",
+      "status": "pass",
+      "user": "missinglink",
+      "priorityThresh": 1,
+      "in": {
+        "focus.point.lat": "37.769316",
+        "focus.point.lon": "-122.484223",
+        "text": "dal"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Daly City"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "status": "pass",
+      "user": "missinglink",
+      "priorityThresh": 1,
+      "in": {
+        "focus.point.lat": "37.769316",
+        "focus.point.lon": "-122.484223",
+        "text": "daly"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Daly City"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3",
+      "status": "pass",
+      "user": "missinglink",
+      "priorityThresh": 1,
+      "in": {
+        "focus.point.lat": "37.769316",
+        "focus.point.lon": "-122.484223",
+        "text": "daly "
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Daly City"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4",
+      "status": "pass",
+      "user": "missinglink",
+      "priorityThresh": 1,
+      "in": {
+        "focus.point.lat": "37.769316",
+        "focus.point.lon": "-122.484223",
+        "text": "daly c"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Daly City"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5",
+      "status": "pass",
+      "user": "missinglink",
+      "priorityThresh": 1,
+      "in": {
+        "focus.point.lat": "37.769316",
+        "focus.point.lon": "-122.484223",
+        "text": "daly ci"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Daly City"
+          }
+        ]
+      }
+    },
+    {
+      "id": "6",
+      "status": "pass",
+      "user": "missinglink",
+      "priorityThresh": 1,
+      "in": {
+        "focus.point.lat": "37.769316",
+        "focus.point.lon": "-122.484223",
+        "text": "daly cit"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Daly City"
+          }
+        ]
+      }
+    },
+    {
+      "id": "7",
+      "status": "pass",
+      "user": "missinglink",
+      "priorityThresh": 1,
+      "in": {
+        "focus.point.lat": "37.769316",
+        "focus.point.lon": "-122.484223",
+        "text": "daly city"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Daly City"
+          }
+        ]
+      }
+    }
+  ]
+}
