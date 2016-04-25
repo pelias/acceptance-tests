@@ -343,6 +343,36 @@
           }
         ]
       }
+    },
+    {
+      "id": "7",
+      "status": "pass",
+      "user": "missinglink",
+      "description": [ "house number provided in 3rd position instead of 1st" ],
+      "in": {
+        "text": "glasgow street 18, kelburn, wellington"
+      },
+      "expected": {
+        "priorityThresh": 1,
+        "properties": [
+          { "label": "18 Glasgow Street, Wellington, New Zealand" }
+        ]
+      }
+    },
+    {
+      "id": "8",
+      "status": "pass",
+      "user": "missinglink",
+      "description": [ "house number provided in 3rd position instead of 1st" ],
+      "in": {
+        "text": "grolmanstrasse 51, charlottenburg, berlin"
+      },
+      "expected": {
+        "priorityThresh": 1,
+        "properties": [
+          { "label": "Grolmanstraße 51, Berlin, Germany" }
+        ]
+      }
     }
   ]
 }
