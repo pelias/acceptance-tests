@@ -320,6 +320,29 @@
           }
         ]
       }
+    },
+    {
+      "id": "6",
+      "status": "pass",
+      "user": "missinglink",
+      "description": "query ending with a single digit",
+      "notes": [
+        "priorityThresh set to 5 as some sources contain the abbreviated",
+        "form Grolmanstr."
+      ],
+      "in": {
+        "text": "grolmanstr 1"
+      },
+      "expected": {
+        "priorityThresh": 5,
+        "properties": [
+          {
+            "layer": "address",
+            "housenumber": "1",
+            "street": "Grolmanstraße"
+          }
+        ]
+      }
     }
   ]
 }
