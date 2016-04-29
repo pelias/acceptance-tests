@@ -110,7 +110,7 @@
       "id": "2-1",
       "status": "fail",
       "user": "riordan",
-      "issue": "https://github.com/pelias/pelias/issues/331"
+      "issue": "https://github.com/pelias/pelias/issues/331",
       "in": {
         "text": "424 Clay Av"
       },
