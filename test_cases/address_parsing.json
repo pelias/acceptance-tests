@@ -79,7 +79,7 @@
     },
     {
       "id": 3,
-      "status": "fail",
+      "status": "pass",
       "isssue": "https://github.com/pelias/api/issues/456",
       "description": "result in the wrong zipcode and city shows up first",
       "user": "Harish",

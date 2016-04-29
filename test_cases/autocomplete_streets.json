@@ -252,7 +252,7 @@
     },
     {
       "id": "4-1",
-      "status": "fail",
+      "status": "pass",
       "user": "riordan",
       "in": {
         "text": "451 Fog Hill"
@@ -269,7 +269,7 @@
     },
     {
       "id": "4-2",
-      "status": "fail",
+      "status": "pass",
       "user": "riordan",
       "in": {
         "text": "451 Fog Hill rd"
@@ -286,7 +286,7 @@
     },
     {
       "id": "4-3",
-      "status": "fail",
+      "status": "pass",
       "user": "riordan",
       "in": {
         "text": "451 Fog Hill Road"
