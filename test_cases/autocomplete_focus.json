@@ -177,6 +177,68 @@
           [ -73.990424, 40.744131 ]
         ]
       }
+    },
+    {
+      "id": 27,
+      "status": "fail",
+      "user": "julian",
+      "notes": [
+        "Searching for New York City with a focus in Stamford, CT"
+      ],
+      "issue": "https://github.com/pelias/pelias/issues/164",
+      "in": {
+        "focus.point.lat": 41.05343,
+        "focus.point.lon": -73.53873,
+        "text": "New York"
+      },
+      "expected": {
+        "priorityThresh": 1,
+        "distanceThresh": 100,
+        "properties": [
+          {
+            "name": "New York",
+            "layer": "locality",
+            "region": "New York"
+          }
+        ],
+        "coordinates": [
+          [ -73.93827, 40.663931 ]
+        ]
+      }
+    },
+    {
+      "id": 28,
+      "status": "fail",
+      "user": "julian",
+      "notes": [
+        "Searching for New York City with a focus in Stamford, CT"
+      ],
+      "description": [
+        "currently marked as failing due to https://github.com/pelias/pelias/issues/330"
+      ],
+      "issue": [
+        "https://github.com/pelias/pelias/issues/330",
+        "https://github.com/pelias/pelias/issues/164"
+      ],
+      "in": {
+        "focus.point.lat": 41.05343,
+        "focus.point.lon": -73.53873,
+        "text": "New York, NY"
+      },
+      "expected": {
+        "priorityThresh": 1,
+        "distanceThresh": 100,
+        "properties": [
+          {
+            "name": "New York",
+            "layer": "locality",
+            "region": "New York"
+          }
+        ],
+        "coordinates": [
+          [ -73.93827, 40.663931 ]
+        ]
+      }
     }
   ]
 }

@@ -101,6 +101,21 @@
           }
         ]
       }
+    },
+    {
+      "id": 5,
+      "status": "pass",
+      "user": "missinglink",
+      "description": [ "borough matching, no delimiter" ],
+      "in": {
+        "text": "190 dean street brooklyn"
+      },
+      "expected": {
+        "priorityThresh": 1,
+        "properties": [
+          { "label": "190 Dean Street, Brooklyn, New York, NY, USA" }
+        ]
+      }
     }
   ]
 }
