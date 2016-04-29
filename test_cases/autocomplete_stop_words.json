@@ -40,14 +40,15 @@
       "id": "3",
       "status": "pass",
       "user": "missinglink",
-      "priorityThresh": 5,
+      "description": [ "case of a query ending in a directional (west)" ],
+      "priorityThresh": 3,
       "in": {
-        "text": "3001 west"
+        "text": "moscone west"
       },
       "expected": {
         "properties": [
           {
-            "name": "3001 West 30th Court"
+            "name": "Moscone Convention Center West"
           }
         ]
       }
