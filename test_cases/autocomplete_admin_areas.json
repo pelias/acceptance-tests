@@ -39,7 +39,7 @@
     },
     {
       "id": "1-2",
-      "status": "fail",
+      "status": "pass",
       "user": "Riordan",
       "priorityThresh": 1,
       "description": ["K-stemming on Autocomplete is leading to strange results",
@@ -75,7 +75,7 @@
     },
     {
       "id": "1-4",
-      "status": "fail",
+      "status": "pass",
       "user": "Riordan",
       "priorityThresh": 1,
       "description": ["K-stemming on Autocomplete is leading to strange results",
