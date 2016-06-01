@@ -86,7 +86,7 @@
     },
     {
       "id": 4,
-      "status": "fail",
+      "status": "pass",
       "endpoint": "search",
       "issue": "https://github.com/pelias/api/issues/346",
       "description": [

@@ -358,9 +358,9 @@
     },
     {
       "id": "15",
-      "status": "fail",
+      "status": "pass",
       "issue": "https://github.com/pelias/pelias/issues/294",
-      "description": "cause is still unclear. see issue for future findings.",
+      "description": "there are several Hillsides, ensure the correct one comes up",
       "type": "dev",
       "in": {
         "text": "Hillside, Santa Clara",
