@@ -141,7 +141,7 @@
             "housenumber": "1",
             "street": "Madison Avenue",
             "region": "New York",
-            "localadmin": "Manhattan",
+            "borough": "Manhattan",
             "locality": "New York"
           }
         ]
