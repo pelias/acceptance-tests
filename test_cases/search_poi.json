@@ -47,7 +47,7 @@
     },
     {
       "id": "searchpoi-3",
-      "status": "pass",
+      "status": "fail",
       "description": "Searching with focus on",
       "issue": "https://github.com/pelias/pelias/issues/185",
       "user": "riordan",
