@@ -9,11 +9,11 @@
       "description": "@nvkelso couldn't find Target in Eureka while visiting home",
       "issue": "https://github.com/pelias/pelias/issues/185",
       "user": "riordan",
-      "priorityThresh": 1,
       "in": {
         "text": "Target Eureka CA"
       },
       "expected": {
+        "priorityThresh": 1,
         "properties": [
           {
             "layer": "venue",
@@ -30,11 +30,11 @@
       "description": "@nvkelso couldn't find Target in Eureka while visiting home",
       "issue": "https://github.com/pelias/pelias/issues/185",
       "user": "riordan",
-      "priorityThresh": 1,
       "in": {
         "text": "Target Eureka California"
       },
       "expected": {
+        "priorityThresh": 1,
         "properties": [
           {
             "layer": "venue",
@@ -47,17 +47,17 @@
     },
     {
       "id": "searchpoi-3",
-      "status": "pass",
+      "status": "fail",
       "description": "Searching with focus on",
       "issue": "https://github.com/pelias/pelias/issues/185",
       "user": "riordan",
-      "priorityThresh": 1,
       "in": {
         "text": "Target",
         "focus.point.lat": "40.801944",
         "focus.point.lon": "-124.163611"
       },
       "expected": {
+        "priorityThresh": 1,
         "properties": [
           {
             "layer": "venue",
