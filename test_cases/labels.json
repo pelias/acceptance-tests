@@ -70,7 +70,7 @@
     },
     {
       "id": 6,
-      "status": "fail",
+      "status": "pass",
       "issue": "https://github.com/pelias/pelias/issues/294",
       "description": [
         "The WOF record expected in the results has no popularity/population data,",
