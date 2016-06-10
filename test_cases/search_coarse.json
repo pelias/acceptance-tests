@@ -47,7 +47,7 @@
         "properties": [
           {
             "name": "New York",
-            "localadmin": "Brooklyn"
+            "borough": "Brooklyn"
           }
         ]
       }

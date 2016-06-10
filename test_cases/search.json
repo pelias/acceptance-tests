@@ -572,7 +572,6 @@
     {
       "id": 21,
       "user": "stephen",
-      "priorityThresh": 1,
       "notes": [
         "normally Lancaster, CA is returned first for \"Lancaster\" input while",
         "this test demonstrates that Lancaster, PA shows first when given a viewport ",
@@ -586,6 +585,7 @@
         "focus.viewport.max_lon": "-75.173684"
       },
       "expected": {
+        "priorityThresh": 1,
         "properties": [{
           "name": "Lancaster",
           "region": "Pennsylvania"
@@ -595,7 +595,6 @@
     {
       "id": 22,
       "user": "stephen",
-      "priorityThresh": 1,
       "notes": [
         "normally Paris, FR is returned first for \"Paris\" input while",
         "this test demonstrates that Paris, TN shows first when given a viewport ",
@@ -609,6 +608,7 @@
         "focus.viewport.max_lon": "-82.197798"
       },
       "expected": {
+        "priorityThresh": 1,
         "properties": [{
           "name": "Paris",
           "region": "Tennessee"
@@ -618,7 +618,6 @@
     {
       "id": 23,
       "user": "stephen",
-      "priorityThresh": 1,
       "notes": [
         "normally Manchester, GB is returned first for \"Manchester\" input while",
         "this test demonstrates that Manchester, NH shows first when given a viewport ",
@@ -632,6 +631,7 @@
         "focus.viewport.max_lon": "-65.323911"
       },
       "expected": {
+        "priorityThresh": 1,
         "properties": [{
           "name": "Manchester",
           "region": "New Hampshire"

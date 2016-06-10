@@ -23,7 +23,7 @@
             "street": "West 26th Street",
             "postalcode": "10010",
             "region_a": "NY",
-            "localadmin": "Manhattan",
+            "borough": "Manhattan",
             "locality": "New York",
             "label": "Samsung Accelerator, Manhattan, NY, USA"
           }

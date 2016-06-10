@@ -123,7 +123,7 @@
     },
     {
       "id": 25,
-      "status": "fail",
+      "status": "pass",
       "user": "randyme",
       "notes": [ "Autocomplete is not prioritizing local address.",
       "Issue filed in: https://github.com/pelias/pelias/issues/240" ],
@@ -141,7 +141,7 @@
             "housenumber": "1",
             "street": "Madison Avenue",
             "region": "New York",
-            "localadmin": "Manhattan",
+            "borough": "Manhattan",
             "locality": "New York"
           }
         ]
