@@ -1,6 +1,6 @@
 {
   "name": "tizen sdk: places",
-  "priorityThresh": 5,
+  "priorityThresh": 1,
   "description": [
     "maps_service_search_place (const maps_coordinates_h position, int distance, const maps_place_filter_h filter): Queries a Place information by a coordinates position and a distance",
     "maps_service_search_place_by_area (const maps_area_h boundary, const maps_place_filter_h filter): Queries a Place information by a coordinates boundary",
@@ -11,12 +11,12 @@
   "tests": [
     {
       "id": "maps_service_search_place",
-      "status": "fail",
+      "status": "pass",
       "user": "dianashk",
       "endpoint": "nearby",
       "in": {
-        "boundary.circle.lon": -73.99875,
-        "boundary.circle.lat": 40.722880,
+        "point.lon": -73.977234,
+        "point.lat": 40.752601,
         "boundary.circle.radius": 10,
         "categories": "transport"
       },
@@ -31,15 +31,17 @@
     },
     {
       "id": "maps_service_search_place_by_area",
-      "status": "fail",
+      "status": "pass",
       "user": "dianashk",
       "endpoint": "nearby",
       "in": {
-        "boundary.rect.min_lat": 40.707710007867334,
-        "boundary.rect.min_lon": -74.01763916015625,
-        "boundary.rect.max_lat": 40.759220487652186,
-        "boundary.rect.max_lon": -73.97300720214844,
-        "categories": "transport"
+        "point.lon": -73.977234,
+        "point.lat": 40.752601,
+        "boundary.rect.min_lat": 40.7,
+        "boundary.rect.min_lon": -74.0,
+        "boundary.rect.max_lat": 40.8,
+        "boundary.rect.max_lon": -73.0,
+        "categories": "transport,entertainment"
       },
       "expected": {
         "properties": [
@@ -57,6 +59,8 @@
       "endpoint": "search",
       "in": {
         "text": "Roosevelt",
+        "point.lon": -73.99875,
+        "point.lat": 40.722880,
         "boundary.rect.min_lat": 40.707710007867334,
         "boundary.rect.min_lon": -74.01763916015625,
         "boundary.rect.max_lat": 40.759220487652186,
@@ -79,11 +83,13 @@
       "user": "dianashk",
       "endpoint": "nearby",
       "in": {
-        "boundary.rect.min_lat": 40.707710007867334,
-        "boundary.rect.min_lon": -74.01763916015625,
-        "boundary.rect.max_lat": 40.759220487652186,
-        "boundary.rect.max_lon": -73.97300720214844,
-        "categories": "transport"
+        "point.lon": -73.977234,
+        "point.lat": 40.752601,
+        "boundary.rect.min_lat": 40.7,
+        "boundary.rect.min_lon": -74.0,
+        "boundary.rect.max_lat": 40.8,
+        "boundary.rect.max_lon": -73.0,
+        "categories": "transport,entertainment"
       },
       "expected": {
         "properties": [

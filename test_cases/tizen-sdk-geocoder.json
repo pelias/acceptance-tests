@@ -1,6 +1,6 @@
 {
   "name": "tizen sdk: geocode",
-  "priorityThresh": 5,
+  "priorityThresh": 1,
   "description": [
     "maps_service_geocode (const char *address): Gets the position coordinates for a given address",
     "maps_service_geocode_inside_area (const char *address, const maps_area_h bounds): Gets the position for a given address, within the specified bounding box",
@@ -10,8 +10,9 @@
   ],
   "tests": [
     {
-      "id": "maps_service_geocode",
+      "id": "maps_service_geocode & maps_service_multi_reverse_geocode",
       "status": "pass",
+      "description": "don't support batch reverse, implement using single calls in the SDK wrapper",
       "user": "dianashk",
       "endpoint": "search",
       "in": {
@@ -60,10 +61,10 @@
       "user": "dianashk",
       "endpoint": "search",
       "in": {
-        "housenumber": "30",
-        "street": "w 26th street",
-        "state": "new york",
-        "postcode": "10010"
+        "text.housenumber": "30",
+        "text.street": "w 26th street",
+        "text.state": "new york",
+        "text.postcode": "10010"
       },
       "expected": {
         "properties": [
@@ -85,22 +86,9 @@
       "expected": {
         "properties": [
           {
-            "name": "Flatiron Hotel"
+            "name": "9 West 26th Street"
           }
         ]
-      }
-    },
-    {
-      "id": "maps_service_geocode",
-      "status": "fail",
-      "description": "don't support batch reverse, implement using single calls in the SDK wrapper",
-      "user": "dianashk",
-      "endpoint": "reverse",
-      "in": {
-        "points": [[-73.989231,40.744022],[-73.989231,40.744022]]
-      },
-      "expected": {
-        "properties": [{}]
       }
     }
   ]
