@@ -65,7 +65,10 @@
       "status": "fail",
       "endpoint": "reverse",
       "description": "Reverse does not fall back to point-in-polygon for admin areas",
-      "issue": "https://github.com/pelias/pelias/wiki/Reverse-Geocoding,-Part-Deux",
+      "issue": [
+        "https://github.com/pelias/pelias/issues/360",
+        "https://github.com/pelias/pelias/wiki/Reverse-Geocoding,-Part-Deux"
+      ],
       "in": {
         "point.lat": -40.806533324215565,
         "point.lon": 144.8101043701172
