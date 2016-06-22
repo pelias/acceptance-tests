@@ -1,1 +1,1 @@
-pattern = "(?i):shipit:|:\+1:|LGTM"
+pattern = "(?i):\+1:"
