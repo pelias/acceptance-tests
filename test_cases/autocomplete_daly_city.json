@@ -2,19 +2,20 @@
   "name": "autocomplete daly city",
   "notes": "https://github.com/pelias/pelias/issues/191",
   "endpoint": "autocomplete",
-  "priorityThresh": 5,
+  "priorityThresh": 1,
   "tests": [
     {
       "id": "1",
       "status": "pass",
       "user": "missinglink",
-      "priorityThresh": 1,
+      "description": "for this short of an autocomplete text, it's ok for Daly City to show up a bit lower",
       "in": {
         "focus.point.lat": "37.769316",
         "focus.point.lon": "-122.484223",
         "text": "dal"
       },
       "expected": {
+        "priorityThresh": 3,
         "properties": [
           {
             "name": "Daly City"
@@ -26,7 +27,6 @@
       "id": "2",
       "status": "pass",
       "user": "missinglink",
-      "priorityThresh": 1,
       "in": {
         "focus.point.lat": "37.769316",
         "focus.point.lon": "-122.484223",
@@ -44,7 +44,6 @@
       "id": "3",
       "status": "pass",
       "user": "missinglink",
-      "priorityThresh": 1,
       "in": {
         "focus.point.lat": "37.769316",
         "focus.point.lon": "-122.484223",
@@ -62,7 +61,6 @@
       "id": "4",
       "status": "pass",
       "user": "missinglink",
-      "priorityThresh": 1,
       "in": {
         "focus.point.lat": "37.769316",
         "focus.point.lon": "-122.484223",
@@ -80,7 +78,6 @@
       "id": "5",
       "status": "pass",
       "user": "missinglink",
-      "priorityThresh": 1,
       "in": {
         "focus.point.lat": "37.769316",
         "focus.point.lon": "-122.484223",
@@ -98,7 +95,6 @@
       "id": "6",
       "status": "pass",
       "user": "missinglink",
-      "priorityThresh": 1,
       "in": {
         "focus.point.lat": "37.769316",
         "focus.point.lon": "-122.484223",
@@ -116,7 +112,6 @@
       "id": "7",
       "status": "pass",
       "user": "missinglink",
-      "priorityThresh": 1,
       "in": {
         "focus.point.lat": "37.769316",
         "focus.point.lon": "-122.484223",
