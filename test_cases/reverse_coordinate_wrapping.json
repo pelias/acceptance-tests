@@ -6,7 +6,8 @@
   "tests": [
     {
       "id": 3,
-      "status": "pass",
+      "status": "fail",
+      "issue": "https://github.com/pelias/wof-pip-service/issues/40",
       "description": "base case (no wrapping) for a reverse query in NYC",
       "user": "sev",
       "type": "dev",
@@ -31,7 +32,8 @@
     },
     {
       "id": 4,
-      "status": "pass",
+      "status": "fail",
+      "issue": "https://github.com/pelias/wof-pip-service/issues/40",
       "description": "same effective coordinate as base case with positive longitude wrapping",
       "user": "sev",
       "type": "dev",
@@ -56,7 +58,8 @@
     },
     {
       "id": 5,
-      "status": "pass",
+      "status": "fail",
+      "issue": "https://github.com/pelias/wof-pip-service/issues/40",
       "description": "same effective coordinate as base case with negative longitude wrapping",
       "user": "sev",
       "type": "dev",
@@ -81,7 +84,8 @@
     },
     {
       "id": 5,
-      "status": "pass",
+      "status": "fail",
+      "issue": "https://github.com/pelias/wof-pip-service/issues/40",
       "description": "same effective coordinate as base case with double negative longitude wrapping",
       "user": "sev",
       "type": "dev",
