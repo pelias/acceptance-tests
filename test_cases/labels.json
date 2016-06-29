@@ -194,6 +194,23 @@
           "label": "France"
         }]
       }
+    },
+    {
+      "id": 15,
+      "status": "fail",
+      "description": "geonnames localadmin records should not have borough or locality component in label",
+      "issue": "https://github.com/pelias/wof-admin-lookup/issues/49",
+      "user": "julian",
+      "in": {
+        "text": "city of new york",
+        "sources": "geonames",
+        "layers": "localadmin"
+      },
+      "expected": {
+        "properties": [{
+          "label": "City of New York, NY, USA"
+        }]
+      }
     }
   ]
 }
