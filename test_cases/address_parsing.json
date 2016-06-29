@@ -132,11 +132,7 @@
             "county": "New York County",
             "borough": "Manhattan",
             "locality": "New York",
-            "neighbourhood": "Midtown South",
-            "postalcode": "10010",
-            "housenumber": "304",
-            "street": "Park Avenue South",
-            "label": "Starbucks, Manhattan, New York, NY, USA"
+            "postalcode": "10010"
           }
         ]
       }
