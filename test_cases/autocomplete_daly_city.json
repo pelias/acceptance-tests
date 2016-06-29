@@ -8,12 +8,14 @@
       "id": "1",
       "status": "pass",
       "user": "missinglink",
+      "description": "for this short of an autocomplete text, it's ok for Daly City to show up a bit lower",
       "in": {
         "focus.point.lat": "37.769316",
         "focus.point.lon": "-122.484223",
         "text": "dal"
       },
       "expected": {
+        "priorityThresh": 3,
         "properties": [
           {
             "name": "Daly City"
