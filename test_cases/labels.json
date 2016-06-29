@@ -211,6 +211,23 @@
           "label": "City of New York, NY, USA"
         }]
       }
+    },
+    {
+      "id": 16,
+      "status": "fail",
+      "description": "geonames country records should not have duplicate country in the label",
+      "issue": "https://github.com/pelias/wof-admin-lookup/issues/49",
+      "user": "julian",
+      "in": {
+        "text": "china",
+        "sources": "geonames",
+        "layers": "country"
+      },
+      "expected": {
+        "properties": [{
+          "label": "People's Republic of China"
+        }]
+      }
     }
   ]
 }
