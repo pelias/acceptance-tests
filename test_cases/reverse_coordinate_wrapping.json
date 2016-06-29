@@ -7,6 +7,7 @@
     {
       "id": 3,
       "status": "pass",
+      "description": "base case (no wrapping) for a reverse query in NYC",
       "user": "sev",
       "type": "dev",
       "in": {
@@ -31,6 +32,7 @@
     {
       "id": 4,
       "status": "pass",
+      "description": "same effective coordinate as base case with positive longitude wrapping",
       "user": "sev",
       "type": "dev",
       "in": {
@@ -55,6 +57,7 @@
     {
       "id": 5,
       "status": "pass",
+      "description": "same effective coordinate as base case with negative longitude wrapping",
       "user": "sev",
       "type": "dev",
       "in": {
@@ -79,6 +82,7 @@
     {
       "id": 5,
       "status": "pass",
+      "description": "same effective coordinate as base case with double negative longitude wrapping",
       "user": "sev",
       "type": "dev",
       "in": {
@@ -152,6 +156,7 @@
       "id": 8,
       "status": "pass",
       "user": "orangejulius",
+      "description": "latitude wrapping (this also requires the longitude to change)",
       "type": "dev",
       "in": {
         "point.lat": 139.255869,
