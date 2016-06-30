@@ -110,7 +110,9 @@
     },
     {
       "id": 6,
-      "status": "pass",
+      "status": "fail",
+      "description": "elasticsearch <2 handled longitude wrapping and now does not",
+      "issue": "https://github.com/pelias/api/issues/570",
       "user": "orangejulius",
       "type": "dev",
       "in": {
@@ -134,7 +136,9 @@
     },
     {
       "id": 7,
-      "status": "pass",
+      "status": "fail",
+      "description": "elasticsearch <2 handled longitude wrapping and now does not",
+      "issue": "https://github.com/pelias/api/issues/570",
       "user": "orangejulius",
       "type": "dev",
       "in": {
@@ -158,7 +162,9 @@
     },
     {
       "id": 8,
-      "status": "pass",
+      "status": "fail",
+      "description": "elasticsearch <2 handled longitude wrapping and now does not",
+      "issue": "https://github.com/pelias/api/issues/570",
       "user": "orangejulius",
       "description": "latitude wrapping (this also requires the longitude to change)",
       "type": "dev",
