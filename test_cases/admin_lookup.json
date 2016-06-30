@@ -363,15 +363,21 @@
     },
     {
       "id": "15",
-      "status": "pass",
+      "status": "fail",
       "issue": "https://github.com/pelias/pelias/issues/294",
-      "description": "there are several Hillsides, ensure the correct one comes up",
+      "description": [
+        "there are several Hillsides, ensure the correct one comes up",
+        "this behaviour is broken, the Santa Clara County MUST come first!",
+        "added priorityThresh:1 as Hillside, Hillside (Melton), Australia",
+        "should not be returned before 'Hillside, CA, USA'"
+      ],
       "type": "dev",
       "in": {
         "text": "Hillside, Santa Clara",
         "layers": "neighbourhood"
       },
       "expected": {
+        "priorityThresh": 1,
         "properties": [
           {
             "country": "United States",
