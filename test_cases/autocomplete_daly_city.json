@@ -6,9 +6,15 @@
   "tests": [
     {
       "id": "1",
-      "status": "pass",
+      "status": "fail",
       "user": "missinglink",
-      "description": "for this short of an autocomplete text, it's ok for Daly City to show up a bit lower",
+      "description": [
+        "'Daly City' city not returned for 'dal' due to other more relevant..",
+        "results such as 'Dal, Sweden' matching.",
+        "'Daly City' is correctly returned from 'daly' (4 chars) onwards",
+        "This behaviour will fluctuate with changes to regional/local balance"
+      ],
+      "priorityThresh": 1,
       "in": {
         "focus.point.lat": "37.769316",
         "focus.point.lon": "-122.484223",
@@ -27,12 +33,17 @@
       "id": "2",
       "status": "pass",
       "user": "missinglink",
+      "description": [
+        "as per above, except there are other places closer to the focus",
+        "point than the centroid of Daly City"
+      ],
       "in": {
         "focus.point.lat": "37.769316",
         "focus.point.lon": "-122.484223",
         "text": "daly"
       },
       "expected": {
+        "priorityThresh": 5,
         "properties": [
           {
             "name": "Daly City"
@@ -44,12 +55,17 @@
       "id": "3",
       "status": "pass",
       "user": "missinglink",
+      "description": [
+        "as per above, except there are other places closer to the focus",
+        "point than the centroid of Daly City"
+      ],
       "in": {
         "focus.point.lat": "37.769316",
         "focus.point.lon": "-122.484223",
         "text": "daly "
       },
       "expected": {
+        "priorityThresh": 5,
         "properties": [
           {
             "name": "Daly City"
