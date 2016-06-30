@@ -79,6 +79,7 @@
         "text": "new york, new york"
       },
       "expected": {
+        "priorityThresh": 6,
         "properties": [
           {
             "name": "New York County",
