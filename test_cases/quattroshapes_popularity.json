@@ -2,6 +2,10 @@
   "name": "quattroshapes popularity",
   "priorityThresh": 5,
   "comment": "Test cases for boosting Quattro records by popularity values.",
+  "info": [
+    "use the following query to test which records have a higher population",
+    "https://gist.github.com/missinglink/da2b0132fe9ecdf2dc4ac7c07a9cfef5"
+  ],
   "tests": [
     {
       "id": 1,
@@ -114,12 +118,6 @@
             "locality": "New York",
             "region_a": "NY",
             "country_a": "USA"
-          },
-          {
-            "name": "Ridgewood",
-            "county": "Bergen County",
-            "region_a": "NJ",
-            "country_a": "USA"
           }
         ]
       }
@@ -137,8 +135,9 @@
         "properties": [
           {
             "name": "Ridgewood",
-            "county": "Bergen County",
-            "region_a": "NJ",
+            "borough": "Queens",
+            "locality": "New York",
+            "region_a": "NY",
             "country_a": "USA"
           }
         ]
