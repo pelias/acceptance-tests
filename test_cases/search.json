@@ -79,6 +79,7 @@
         "text": "new york, new york"
       },
       "expected": {
+        "priorityThresh": 6,
         "properties": [
           {
             "name": "New York County",
@@ -378,11 +379,13 @@
     {
       "id": "1426085141587:0",
       "status": "pass",
+      "issue": "https://github.com/pelias/api/issues/151",
       "user": "feedback-app",
       "in": {
         "text": "perugia airport"
       },
       "expected": {
+        "priorityThresh": 10,
         "properties": [
           {
             "name": "Perugia San Francesco d'Assisi – Umbria International Airport",

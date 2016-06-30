@@ -2,12 +2,18 @@
   "name": "autocomplete daly city",
   "notes": "https://github.com/pelias/pelias/issues/191",
   "endpoint": "autocomplete",
-  "priorityThresh": 5,
+  "priorityThresh": 1,
   "tests": [
     {
       "id": "1",
-      "status": "pass",
+      "status": "fail",
       "user": "missinglink",
+      "description": [
+        "'Daly City' city not returned for 'dal' due to other more relevant..",
+        "results such as 'Dal, Sweden' matching.",
+        "'Daly City' is correctly returned from 'daly' (4 chars) onwards",
+        "This behaviour will fluctuate with changes to regional/local balance"
+      ],
       "priorityThresh": 1,
       "in": {
         "focus.point.lat": "37.769316",
@@ -15,6 +21,7 @@
         "text": "dal"
       },
       "expected": {
+        "priorityThresh": 3,
         "properties": [
           {
             "name": "Daly City"
@@ -26,13 +33,17 @@
       "id": "2",
       "status": "pass",
       "user": "missinglink",
-      "priorityThresh": 1,
+      "description": [
+        "as per above, except there are other places closer to the focus",
+        "point than the centroid of Daly City"
+      ],
       "in": {
         "focus.point.lat": "37.769316",
         "focus.point.lon": "-122.484223",
         "text": "daly"
       },
       "expected": {
+        "priorityThresh": 5,
         "properties": [
           {
             "name": "Daly City"
@@ -44,13 +55,17 @@
       "id": "3",
       "status": "pass",
       "user": "missinglink",
-      "priorityThresh": 1,
+      "description": [
+        "as per above, except there are other places closer to the focus",
+        "point than the centroid of Daly City"
+      ],
       "in": {
         "focus.point.lat": "37.769316",
         "focus.point.lon": "-122.484223",
         "text": "daly "
       },
       "expected": {
+        "priorityThresh": 5,
         "properties": [
           {
             "name": "Daly City"
@@ -62,7 +77,6 @@
       "id": "4",
       "status": "pass",
       "user": "missinglink",
-      "priorityThresh": 1,
       "in": {
         "focus.point.lat": "37.769316",
         "focus.point.lon": "-122.484223",
@@ -80,7 +94,6 @@
       "id": "5",
       "status": "pass",
       "user": "missinglink",
-      "priorityThresh": 1,
       "in": {
         "focus.point.lat": "37.769316",
         "focus.point.lon": "-122.484223",
@@ -98,7 +111,6 @@
       "id": "6",
       "status": "pass",
       "user": "missinglink",
-      "priorityThresh": 1,
       "in": {
         "focus.point.lat": "37.769316",
         "focus.point.lon": "-122.484223",
@@ -116,7 +128,6 @@
       "id": "7",
       "status": "pass",
       "user": "missinglink",
-      "priorityThresh": 1,
       "in": {
         "focus.point.lat": "37.769316",
         "focus.point.lon": "-122.484223",

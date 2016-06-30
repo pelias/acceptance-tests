@@ -4,7 +4,11 @@
   "tests": [
     {
       "id": 1,
-      "status": "pass",
+      "status": "fail",
+      "notes": [
+        "this was wishful thinking, at one point this test passed but it",
+        "wasn't due to any specific spelling correction algorithm"
+      ],
       "user": "missinglink",
       "in": {
         "text": "neu yorp"
