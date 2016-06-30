@@ -37,13 +37,13 @@
         "as per above, except there are other places closer to the focus",
         "point than the centroid of Daly City"
       ],
-      "priorityThresh": 5,
       "in": {
         "focus.point.lat": "37.769316",
         "focus.point.lon": "-122.484223",
         "text": "daly"
       },
       "expected": {
+        "priorityThresh": 5,
         "properties": [
           {
             "name": "Daly City"
@@ -59,13 +59,13 @@
         "as per above, except there are other places closer to the focus",
         "point than the centroid of Daly City"
       ],
-      "priorityThresh": 5,
       "in": {
         "focus.point.lat": "37.769316",
         "focus.point.lon": "-122.484223",
         "text": "daly "
       },
       "expected": {
+        "priorityThresh": 5,
         "properties": [
           {
             "name": "Daly City"
