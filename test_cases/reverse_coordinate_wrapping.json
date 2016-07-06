@@ -6,7 +6,7 @@
   "tests": [
     {
       "id": 3,
-      "status": "fail",
+      "status": "pass",
       "issue": "https://github.com/pelias/wof-pip-service/issues/40",
       "description": "base case (no wrapping) for a reverse query in NYC",
       "user": "sev",
