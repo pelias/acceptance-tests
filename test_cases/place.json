@@ -20,8 +20,29 @@
         ]
       }
     },
+
     {
       "id": 2,
+      "status": "fail",
+      "issue": "https://github.com/pelias/api/issues/441",
+      "description": "shortened source name should also work",
+      "in": {
+        "ids": "osm:venue:node:2562438641"
+      },
+      "expected": {
+        "properties": [
+          {
+            "gid": "openstreetmap:venue:node:2562438641",
+            "layer": "venue",
+            "source": "openstreetmap",
+            "id": "node:2562438641"
+          }
+        ]
+      }
+    },
+
+    {
+      "id": 3,
       "status": "pass",
       "in": {
         "ids": "openstreetmap:venue:way:5013364"
