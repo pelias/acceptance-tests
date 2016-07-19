@@ -239,6 +239,32 @@
           [ -73.93827, 40.663931 ]
         ]
       }
+    },
+    {
+      "id": 29,
+      "status": "fail",
+      "user": "julian",
+      "notes": [
+        "searching for San Francisco via autocomplete with a focus in NYC"
+      ],
+      "issue": "https://github.com/pelias/pelias/issues/330",
+      "in": {
+        "focus.point.lat": 40.744131,
+        "focus.point.lon": -73.990424,
+        "text": "San Francisco"
+      },
+      "expected": {
+        "properties": [
+          {
+            "region": "California",
+            "name": "San Francisco",
+            "layer": "locality"
+          }
+        ],
+        "coordinates": [
+          [ -122.431272, 37.778008 ]
+        ]
+      }
     }
   ]
 }
