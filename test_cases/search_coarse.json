@@ -23,7 +23,7 @@
     },
     {
       "id": 2,
-      "status": "fail",
+      "status": "pass",
       "issue": "https://github.com/pelias/pelias/issues/295",
       "description": "data issue",
       "user": "Diana",
