@@ -1,0 +1,49 @@
+{
+  "name": "encoding, or fun with diacritics",
+  "priorityThresh": 1,
+  "tests": [
+    {
+      "id": 1,
+      "status": "pass",
+      "endpoint": "search",
+      "description": "make sure that results return the appropriate accents on results",
+      "in": {
+        "text": "mexico city"
+      },
+      "expected": {
+        "properties": [
+          {
+            "source": "geonames",
+            "label": "Mexico City, Cuauhtémoc, Mexico",
+            "locality": "Cuauhtémoc",
+            "county": "Cuauhtémoc",
+            "region": "Ciudad de México",
+            "name": "Mexico City",
+            "country": "Mexico"
+          }
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "status": "pass",
+      "endpoint": "search",
+      "description": "make sure that results return the appropriate accents on results",
+      "in": {
+        "text": "pärnu, estonia"
+      },
+      "expected": {
+        "properties": [
+          {
+            "source": "geonames",
+            "name": "Pärnu",
+            "region": "Pärnumaa",
+            "locality": "Pärnu",
+            "label": "Pärnu, Estonia",
+            "country": "Estonia"
+          }
+        ]
+      }
+    }
+  ]
+}
