@@ -27,7 +27,7 @@
       "type": "dev",
       "in": {
         "text": "brooklyn",
-        "layers": "locality",
+        "layers": "borough",
         "boundary.country": "USA"
       },
       "expected": {
@@ -46,7 +46,7 @@
       "type": "dev",
       "in": {
         "text": "brooklyn",
-        "layers": "locality,localadmin",
+        "layers": "borough",
         "boundary.country": "USA"
       },
       "expected": {
@@ -101,7 +101,7 @@
       "type": "dev",
       "in": {
         "text": "brooklyn",
-        "layers": "locality"
+        "layers": "borough"
       },
       "expected": {
         "properties": [
@@ -119,7 +119,7 @@
       "type": "dev",
       "in": {
         "text": "brooklyn",
-        "layers": "locality,localadmin"
+        "layers": "borough"
       },
       "expected": {
         "properties": [
