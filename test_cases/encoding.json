@@ -14,8 +14,6 @@
         "properties": [
           {
             "source": "geonames",
-            "label": "Mexico City, Cuauhtémoc, Mexico",
-            "locality": "Cuauhtémoc",
             "county": "Cuauhtémoc",
             "region": "Ciudad de México",
             "name": "Mexico City",
