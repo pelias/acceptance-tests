@@ -14,8 +14,6 @@
         "properties": [
           {
             "source": "geonames",
-            "label": "Mexico City, Cuauhtémoc, Mexico",
-            "locality": "Cuauhtémoc",
             "county": "Cuauhtémoc",
             "region": "Ciudad de México",
             "name": "Mexico City",
@@ -41,6 +39,48 @@
             "locality": "Pärnu",
             "label": "Pärnu, Estonia",
             "country": "Estonia"
+          }
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "status": "pass",
+      "endpoint": "search",
+      "description": "the Chambéry accent issue, with the accented e represented as 1 character",
+      "in":{
+        "text": "Chambéry"
+      },
+      "expected": {
+        "properties": [
+          {
+            "source": "geonames",
+            "name": "Chambéry",
+            "macroregion": "Rhône-Alpes",
+            "locality": "Chambéry",
+            "label": "Chambéry, France",
+            "country": "France"
+          }
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "status": "fail",
+      "endpoint": "search",
+      "description": "the Chambéry accent issue, with the accented e represented as 2 characters",
+      "in":{
+        "text": "Chambéry"
+      },
+      "expected": {
+        "properties": [
+          {
+            "source": "geonames",
+            "name": "Chambéry",
+            "macroregion": "Rhône-Alpes",
+            "locality": "Chambéry",
+            "label": "Chambéry, France",
+            "country": "France"
           }
         ]
       }
