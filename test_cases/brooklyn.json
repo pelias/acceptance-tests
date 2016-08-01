@@ -40,26 +40,7 @@
       }
     },
     {
-      "id": 3,
-      "status": "pass",
-      "user": "Julian",
-      "type": "dev",
-      "in": {
-        "text": "brooklyn",
-        "layers": "borough",
-        "boundary.country": "USA"
-      },
-      "expected": {
-        "properties": [
-          {
-            "name": "Brooklyn",
-            "region": "New York"
-          }
-        ]
-      }
-    },
-    {
-      "id": "4-autocomplete",
+      "id": "3-autocomplete",
       "status": "pass",
       "user": "Julian",
       "type": "dev",
@@ -78,7 +59,7 @@
       }
     },
     {
-      "id": 5,
+      "id": 4,
       "status": "pass",
       "user": "Julian",
       "type": "dev",
@@ -95,7 +76,7 @@
       }
     },
     {
-      "id": 6,
+      "id": 5,
       "status": "pass",
       "user": "Julian",
       "type": "dev",
@@ -113,25 +94,7 @@
       }
     },
     {
-      "id": 7,
-      "status": "pass",
-      "user": "Julian",
-      "type": "dev",
-      "in": {
-        "text": "brooklyn",
-        "layers": "borough"
-      },
-      "expected": {
-        "properties": [
-          {
-            "name": "Brooklyn",
-            "region": "New York"
-          }
-        ]
-      }
-    },
-    {
-      "id": "8-autocomplete",
+      "id": "6-autocomplete",
       "status": "pass",
       "user": "Julian",
       "type": "dev",
