@@ -23,7 +23,7 @@
 
     {
       "id": 2,
-      "status": "fail",
+      "status": "pass",
       "issue": "https://github.com/pelias/api/issues/441",
       "description": "shortened source name should also work",
       "in": {
