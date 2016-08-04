@@ -47,6 +47,7 @@
       "id": 3,
       "status": "pass",
       "endpoint": "search",
+      "issue": "https://github.com/pelias/api/issues/600",
       "description": "the Chambéry accent issue, with the accented e represented as 1 character",
       "in":{
         "text": "Chambéry"
@@ -69,6 +70,7 @@
       "status": "fail",
       "endpoint": "search",
       "description": "the Chambéry accent issue, with the accented e represented as 2 characters",
+      "issue": "https://github.com/pelias/api/issues/600",
       "in":{
         "text": "Chambéry"
       },
