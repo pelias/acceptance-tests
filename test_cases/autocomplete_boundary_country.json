@@ -1,0 +1,32 @@
+
+{
+  "name": "autocomplete boundary.country",
+  "priorityThresh": 5,
+  "endpoint": "autocomplete",
+  "tests": [
+    {
+      "id": 1,
+      "status": "pass",
+      "user": "julian",
+      "type": "dev",
+      "in": {
+        "boundary.country": "USA",
+        "text": "London"
+      },
+      "unexpected" : {
+        "properties": [
+          {
+            "country_a": "GBR"
+          }
+        ]
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "London"
+          }
+        ]
+      }
+    }
+  ]
+}
