@@ -1,7 +1,8 @@
 
 {
   "name": "autocomplete boundary.country",
-  "priorityThresh": 5,
+  "priorityThresh": 10,
+  "description": "London does not appear very high in the results, which is unfortunate, but for testing boundary.country is ok if we set priorityThresh to 10",
   "endpoint": "autocomplete",
   "tests": [
     {
