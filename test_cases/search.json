@@ -451,13 +451,8 @@
       "expected": {
         "properties": [
           {
-            "label": "Simon-Dach-Straße 7, Uttenreuth, Germany"
-          },
-          {
-            "label": "Simon-Dach-Straße 7, Bielefeld, Germany"
-          },
-          {
-            "label": "Simon-Dach-Straße 7, Berlin, Germany"
+            "housenumber": "7",
+            "street": "Simon-Dach-Straße"
           }
         ]
       },
@@ -472,13 +467,8 @@
       "expected": {
         "properties": [
           {
-            "label": "Simon-Dach-Straße 7, Uttenreuth, Germany"
-          },
-          {
-            "label": "Simon-Dach-Straße 7, Bielefeld, Germany"
-          },
-          {
-            "label": "Simon-Dach-Straße 7, Berlin, Germany"
+            "housenumber": "7",
+            "street": "Simon-Dach-Straße"
           }
         ]
       },
