@@ -82,8 +82,8 @@
         "priorityThresh": 6,
         "properties": [
           {
-            "name": "New York County",
-            "layer": "county",
+            "name": "New York",
+            "layer": "locality",
             "region_a": "NY",
             "country_a": "USA"
           },
