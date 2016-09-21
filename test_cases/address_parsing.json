@@ -195,8 +195,11 @@
     },
     {
       "id": 7,
-      "status": "pass",
-      "description": [ "was failing due to a double-space in the street name" ],
+      "status": "fail",
+      "description": [
+        "was failing due to a double-space in the street name",
+        "will work when post-directionals are fixed in schema" 
+      ],
       "issue": [ "https://github.com/pelias/openaddresses/issues/69 (comment 1)" ],
       "user": "Harish",
       "in": {
