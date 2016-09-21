@@ -380,7 +380,7 @@
     },
     {
       "id": "1426085141587:0",
-      "status": "pass",
+      "status": "fail",
       "issue": "https://github.com/pelias/api/issues/151",
       "user": "feedback-app",
       "in": {
