@@ -494,10 +494,13 @@
     },
     {
       "id": "20",
-      "status": "pass",
+      "status": "fail",
       "in": {
         "text": "1 Hämeenkatu, Tampere, Finland"
       },
+      "description": [
+        "waiting on libpostal to fix diacritical issues"
+      ],
       "expected": {
         "properties": [
           {
