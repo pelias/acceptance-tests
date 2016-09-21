@@ -78,7 +78,7 @@
       "user": "dianashk",
       "description": "postalcodes should not strip leading 0's",
       "in": {
-        "text": "339 W Main St, Cheshire, 06410"
+        "text": "461 W Main St, Cheshire, 06410"
       },
       "expected": {
         "properties": [
