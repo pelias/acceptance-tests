@@ -5,11 +5,11 @@
   "tests": [
     {
       "id": 1,
-      "status": "fail",
+      "status": "pass",
       "user": "Harish",
       "type": "dev",
       "in": {
-        "text": "101 saint mark pl 10009"
+        "text": "101 saint marks pl 10009"
       },
       "expected": {
         "properties": [
