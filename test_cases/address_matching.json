@@ -6,6 +6,8 @@
     {
       "id": 1,
       "status": "fail",
+      "issue": "https://github.com/pelias/pelias/issues/424",
+      "description": "libpostal doesn't yet understand street names without ordinal sufffixes",
       "user": "dianashk",
       "type": "dev",
       "in": {
