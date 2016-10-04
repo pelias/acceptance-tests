@@ -501,6 +501,7 @@
       "description": [
         "waiting on libpostal to fix diacritical issues"
       ],
+      "issue": "https://github.com/pelias/pelias/issues/425",
       "expected": {
         "properties": [
           {
