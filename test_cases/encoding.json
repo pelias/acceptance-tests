@@ -47,7 +47,10 @@
       "id": 3,
       "status": "fail",
       "endpoint": "search",
-      "issue": "https://github.com/pelias/api/issues/600",
+      "issue": [
+        "https://github.com/pelias/api/issues/600",
+        "https://github.com/pelias/pelias/issues/426"
+      ],
       "description": [
         "the Chambéry accent issue, with the accented e represented as 1 character",
         "waiting for libpostal to address diacriticals"
