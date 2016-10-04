@@ -101,6 +101,7 @@
       "user": "sevko",
       "type": "dev",
       "description": "libpostal id's `921` as postcode",
+      "issue": "https://github.com/pelias/pelias/issues/427",
       "in": {
         "text": "921 83 street, ny"
       },
