@@ -9,7 +9,7 @@
       "user": "Harish",
       "type": "dev",
       "in": {
-        "text": "101 saint mark pl 10009"
+        "text": "101 saint marks pl 10009"
       },
       "expected": {
         "properties": [
@@ -85,7 +85,7 @@
       "user": "Harish",
       "type": "dev",
       "in": {
-        "text": "450 w 37th st, new york, ny 11232"
+        "text": "450 37th st, new york, ny 11232"
       },
       "expected": {
         "properties": [
@@ -196,7 +196,9 @@
     {
       "id": 7,
       "status": "pass",
-      "description": [ "was failing due to a double-space in the street name" ],
+      "description": [
+        "was failing due to a double-space in the street name"
+      ],
       "issue": [ "https://github.com/pelias/openaddresses/issues/69 (comment 1)" ],
       "user": "Harish",
       "in": {

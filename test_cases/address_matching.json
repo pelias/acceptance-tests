@@ -5,7 +5,9 @@
   "tests": [
     {
       "id": 1,
-      "status": "pass",
+      "status": "fail",
+      "issue": "https://github.com/pelias/pelias/issues/424",
+      "description": "libpostal doesn't yet understand street names without ordinal sufffixes",
       "user": "dianashk",
       "type": "dev",
       "in": {
@@ -32,11 +34,6 @@
       "expected": {
         "properties": [
           {
-            "housenumber": "507",
-            "street": "Hackney Road"
-          },
-          {
-            "name": "Hackney Cycles",
             "housenumber": "507",
             "street": "Hackney Road"
           }
@@ -83,7 +80,7 @@
       "user": "dianashk",
       "description": "postalcodes should not strip leading 0's",
       "in": {
-        "text": "339 W Main St, Cheshire, 06410"
+        "text": "461 W Main St, Cheshire, 06410"
       },
       "expected": {
         "properties": [

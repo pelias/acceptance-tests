@@ -70,11 +70,15 @@
     },
     {
       "id": 6,
-      "status": "pass",
-      "issue": "https://github.com/pelias/pelias/issues/294",
+      "status": "fail",
+      "issue": [
+        "https://github.com/pelias/pelias/issues/294",
+        "https://github.com/pelias/pelias/issues/428"
+      ],
       "description": [
         "The WOF record expected in the results has no popularity/population data,",
-        "so there is nothing to help boost it to the top, especially since we don't boost admin matching enough."
+        "so there is nothing to help boost it to the top, especially since we don't boost admin matching enough.",
+        "libpostal doesn't recognize this as a region"
       ],
       "user": "missinglink",
       "in": {
