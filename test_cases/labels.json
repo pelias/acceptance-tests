@@ -71,7 +71,10 @@
     {
       "id": 6,
       "status": "fail",
-      "issue": "https://github.com/pelias/pelias/issues/294",
+      "issue": [
+        "https://github.com/pelias/pelias/issues/294",
+        "https://github.com/pelias/pelias/issues/428"
+      ],
       "description": [
         "The WOF record expected in the results has no popularity/population data,",
         "so there is nothing to help boost it to the top, especially since we don't boost admin matching enough.",
