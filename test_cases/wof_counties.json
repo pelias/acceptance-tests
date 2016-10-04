@@ -62,6 +62,7 @@
         "sources": "wof"
       },
       "expected": {
+        "priorityThresh": 2,
         "properties": [
           {
             "layer": "county",
