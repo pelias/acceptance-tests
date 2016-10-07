@@ -494,10 +494,14 @@
     },
     {
       "id": "20",
-      "status": "pass",
+      "status": "fail",
       "in": {
         "text": "1 Hämeenkatu, Tampere, Finland"
       },
+      "description": [
+        "waiting on libpostal to fix diacritical issues"
+      ],
+      "issue": "https://github.com/pelias/pelias/issues/425",
       "expected": {
         "properties": [
           {
