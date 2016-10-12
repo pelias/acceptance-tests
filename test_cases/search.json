@@ -194,9 +194,9 @@
     },
     {
       "id": 9,
-      "status": "fail",
+      "status": "pass",
       "issue": "https://github.com/openaddresses/openaddresses/pull/1892",
-      "description": "test fails due to data entry issue with openaddresses",
+      "description": "test failed due to data entry issue with openaddresses",
       "user": "Randy",
       "in": {
         "text": "15 call street billerica, ma"

@@ -42,7 +42,7 @@
     },
     {
       "id": 3,
-      "status": "fail",
+      "status": "pass",
       "issue": "https://github.com/pelias/pelias/issues/296",
       "description": "Need to decide if a result is more relevant when the house number matches or the street name",
       "user": "dianashk",
