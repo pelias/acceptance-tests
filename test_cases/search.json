@@ -583,6 +583,29 @@
           }
         ]
       }
+    },
+    {
+      "id": 25,
+      "status": "pass",
+      "user": "trescube",
+      "notes": [
+        "test ES query size hardcoding to lower score address matches are returned",
+        "https://github.com/pelias/pelias/issues/434"
+      ],
+      "in": {
+        "text": "82 Whitney Ave, Hamilton, Ontario",
+        "size": 1
+      },
+      "expected": {
+        "priorityThresh": 1,
+        "properties": {
+          "layer": "address",
+          "housenumber": "82",
+          "street": "Whitney Avenue",
+          "locality": "Hamilton",
+          "region": "Ontario"
+        }
+      }
     }
   ]
 }
