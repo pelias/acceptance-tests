@@ -1,5 +1,5 @@
 {
-  "name": "autocomplete street fallback",
+  "name": "search street fallback",
   "priorityThresh": 5,
   "endpoint": "search",
   "description": [
