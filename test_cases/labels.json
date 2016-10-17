@@ -201,7 +201,7 @@
     },
     {
       "id": 15,
-      "status": "fail",
+      "status": "pass",
       "description": "geonnames localadmin records should not have borough or locality component in label",
       "issue": "https://github.com/pelias/wof-admin-lookup/issues/49",
       "user": "julian",
