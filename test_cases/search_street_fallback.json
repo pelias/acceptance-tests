@@ -13,7 +13,7 @@
       "user": "missinglink",
       "issue": "https://github.com/pelias/openstreetmap/issues/28",
       "in": {
-        "text": "grolmanstraße, berlin"
+        "text": "grolmanstraße, berlin, germany"
       },
       "expected": {
         "coordinates": [ 13.324042, 52.503915 ],
