@@ -22,10 +22,6 @@
             "country_a": "DEU",
             "street": "Grolmanstraße",
             "layer": "street"
-          },{
-            "country_a": "DEU",
-            "street": "Grolmanstraße",
-            "layer": "address"
           }
         ]
       }
@@ -43,10 +39,6 @@
             "country_a": "NZL",
             "street": "Glen Road",
             "layer": "street"
-          },{
-            "country_a": "NZL",
-            "street": "Glen Road",
-            "layer": "address"
           }
         ]
       }
