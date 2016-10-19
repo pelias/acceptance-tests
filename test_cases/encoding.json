@@ -13,7 +13,6 @@
       "expected": {
         "properties": [
           {
-            "source": "geonames",
             "county": "Cuauhtémoc",
             "region": "Ciudad de México",
             "name": "Mexico City",
@@ -33,7 +32,6 @@
       "expected": {
         "properties": [
           {
-            "source": "geonames",
             "name": "Pärnu",
             "region": "Pärnumaa",
             "locality": "Pärnu",
@@ -61,7 +59,6 @@
       "expected": {
         "properties": [
           {
-            "source": "geonames",
             "name": "Chambéry",
             "macroregion": "Rhône-Alpes",
             "locality": "Chambéry",
@@ -83,7 +80,6 @@
       "expected": {
         "properties": [
           {
-            "source": "geonames",
             "name": "Chambéry",
             "macroregion": "Rhône-Alpes",
             "locality": "Chambéry",

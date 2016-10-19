@@ -32,7 +32,7 @@
     },
     {
       "id": 4,
-      "status": "fail",
+      "status": "pass",
       "issue": "https://github.com/pelias/wof-pip-service/issues/40",
       "description": "same effective coordinate as base case with positive longitude wrapping",
       "user": "sev",
@@ -58,7 +58,7 @@
     },
     {
       "id": 5,
-      "status": "fail",
+      "status": "pass",
       "issue": "https://github.com/pelias/wof-pip-service/issues/40",
       "description": "same effective coordinate as base case with negative longitude wrapping",
       "user": "sev",
@@ -84,7 +84,7 @@
     },
     {
       "id": 5,
-      "status": "fail",
+      "status": "pass",
       "issue": "https://github.com/pelias/wof-pip-service/issues/40",
       "description": "same effective coordinate as base case with double negative longitude wrapping",
       "user": "sev",
@@ -110,7 +110,7 @@
     },
     {
       "id": 6,
-      "status": "fail",
+      "status": "pass",
       "description": "elasticsearch <2 handled longitude wrapping and now does not",
       "issue": "https://github.com/pelias/api/issues/570",
       "user": "orangejulius",
@@ -136,7 +136,7 @@
     },
     {
       "id": 7,
-      "status": "fail",
+      "status": "pass",
       "description": "elasticsearch <2 handled longitude wrapping and now does not",
       "issue": "https://github.com/pelias/api/issues/570",
       "user": "orangejulius",
@@ -162,7 +162,7 @@
     },
     {
       "id": 8,
-      "status": "fail",
+      "status": "pass",
       "description": "elasticsearch <2 handled longitude wrapping and now does not",
       "issue": "https://github.com/pelias/api/issues/570",
       "user": "orangejulius",
