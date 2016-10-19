@@ -13,7 +13,7 @@
       "user": "missinglink",
       "issue": "https://github.com/pelias/openstreetmap/issues/28",
       "in": {
-        "text": "grolmanstraße, berlin"
+        "text": "grolmanstraße, berlin, germany"
       },
       "expected": {
         "coordinates": [ 13.324042, 52.503915 ],
@@ -22,10 +22,6 @@
             "country_a": "DEU",
             "street": "Grolmanstraße",
             "layer": "street"
-          },{
-            "country_a": "DEU",
-            "street": "Grolmanstraße",
-            "layer": "address"
           }
         ]
       }
@@ -43,10 +39,6 @@
             "country_a": "NZL",
             "street": "Glen Road",
             "layer": "street"
-          },{
-            "country_a": "NZL",
-            "street": "Glen Road",
-            "layer": "address"
           }
         ]
       }
