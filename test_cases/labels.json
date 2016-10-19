@@ -232,6 +232,140 @@
           "label": "People's Republic of China"
         }]
       }
+    },
+    {
+      "id": 17,
+      "status": "pass",
+      "description": "locality in US dependency should have dependency as least granular field",
+      "issue": "https://github.com/pelias/api/issues/628",
+      "user": "trescube",
+      "in": {
+        "text": "bayamon, pr",
+        "sources": "wof",
+        "layers": "locality"
+      },
+      "expected": {
+        "properties": [
+          {
+            "label": "Bayamón, PR"
+          }
+        ]
+      }
+    },
+    {
+      "id": 18,
+      "status": "pass",
+      "description": "locality in US dependency should have dependency as least granular field",
+      "issue": "https://github.com/pelias/api/issues/628",
+      "user": "trescube",
+      "in": {
+        "text": "aasu, as",
+        "sources": "wof",
+        "layers": "locality"
+      },
+      "expected": {
+        "properties": [
+          {
+            "label": "Aasu, AS"
+          }
+        ]
+      }
+    },
+    {
+      "id": 19,
+      "status": "pass",
+      "description": "locality in non-US dependency should still include country",
+      "issue": "https://github.com/pelias/labels/issues/5",
+      "user": "trescube",
+      "in": {
+        "text": "George Hill, Anguilla",
+        "sources": "wof",
+        "layers": "locality",
+        "boundary.country": "GBR"
+      },
+      "expected": {
+        "properties": [
+          {
+            "label": "George Hill, United Kingdom"
+          }
+        ]
+      }
+    },
+    {
+      "id": 20,
+      "status": "pass",
+      "description": "locality in non-US dependency should still include country",
+      "issue": "https://github.com/pelias/labels/issues/5",
+      "user": "trescube",
+      "in": {
+        "text": "Tórshavn faroe islands",
+        "sources": "wof",
+        "layers": "locality"
+      },
+      "expected": {
+        "properties": [
+          {
+            "label": "Tórshavn, Denmark"
+          }
+        ]
+      }
+    },
+    {
+      "id": 21,
+      "status": "pass",
+      "description": "locality in non-US dependency should still include country",
+      "issue": "https://github.com/pelias/labels/issues/5",
+      "user": "trescube",
+      "in": {
+        "text": "Hog Bay Bermuda",
+        "sources": "wof",
+        "layers": "locality"
+      },
+      "expected": {
+        "properties": [
+          {
+            "label": "Hog Bay, United Kingdom"
+          }
+        ]
+      }
+    },
+    {
+      "id": 22,
+      "status": "pass",
+      "description": "locality in non-US dependency should still include country",
+      "issue": "https://github.com/pelias/labels/issues/5",
+      "user": "trescube",
+      "in": {
+        "text": "Adamstown, Pitcairn Islands",
+        "sources": "wof",
+        "layers": "locality"
+      },
+      "expected": {
+        "properties": [
+          {
+            "label": "Adamstown, United Kingdom"
+          }
+        ]
+      }
+    },
+    {
+      "id": 22,
+      "status": "pass",
+      "description": "non-US dependency should still just be the parent country",
+      "issue": "https://github.com/pelias/labels/issues/5",
+      "user": "trescube",
+      "in": {
+        "text": "Bermuda",
+        "sources": "wof",
+        "layers": "dependency"
+      },
+      "expected": {
+        "properties": [
+          {
+            "label": "United Kingdom"
+          }
+        ]
+      }
     }
   ]
 }
