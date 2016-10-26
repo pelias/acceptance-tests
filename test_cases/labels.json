@@ -286,7 +286,7 @@
       "expected": {
         "properties": [
           {
-            "label": "George Hill, United Kingdom"
+            "label": "George Hill, Anguilla"
           }
         ]
       }
@@ -305,7 +305,7 @@
       "expected": {
         "properties": [
           {
-            "label": "Tórshavn, Denmark"
+            "label": "Tórshavn, Faroe Islands"
           }
         ]
       }
@@ -324,7 +324,7 @@
       "expected": {
         "properties": [
           {
-            "label": "Hog Bay, United Kingdom"
+            "label": "Hog Bay, Bermuda"
           }
         ]
       }
@@ -343,7 +343,7 @@
       "expected": {
         "properties": [
           {
-            "label": "Adamstown, United Kingdom"
+            "label": "Adamstown, Pitcairn Islands"
           }
         ]
       }
@@ -362,7 +362,7 @@
       "expected": {
         "properties": [
           {
-            "label": "Bermuda, United Kingdom"
+            "label": "Bermuda"
           }
         ]
       }
