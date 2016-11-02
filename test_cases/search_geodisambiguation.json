@@ -1,0 +1,36 @@
+{
+  "name": "search geodisambiguation",
+  "priorityThresh": 1,
+  "endpoint": "search",
+  "tests": [
+    {
+      "id": 1,
+      "status": "fail",
+      "user": "Stephen",
+      "issue": "https://github.com/pelias/whosonfirst/issues/106",
+      "notes": [
+        "priorityThresh set to 2 as there is another record geonames:locality:5178027",
+        "which comes in first due to it having a population of 9438 which was not",
+        "imported correctly for the wof record.",
+        "when the issue above is resolved we can revert to priorityThresh:1"
+      ],
+      "in": {
+        "text": "Aliquippa, PA",
+        "sources": "wof"
+      },
+      "expected": {
+        "priorityThresh": 2,
+        "properties": [
+          {
+            "layer": "localadmin",
+            "name": "Aliquippa",
+            "region": "Pennsylvania",
+            "region_a": "PA",
+            "country": "United States",
+            "country_a": "USA"
+          }
+        ]
+      }
+    }
+  ]
+}

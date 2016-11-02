@@ -286,7 +286,7 @@
       "expected": {
         "properties": [
           {
-            "label": "George Hill, United Kingdom"
+            "label": "George Hill, Anguilla"
           }
         ]
       }
@@ -305,7 +305,7 @@
       "expected": {
         "properties": [
           {
-            "label": "Tórshavn, Denmark"
+            "label": "Tórshavn, Faroe Islands"
           }
         ]
       }
@@ -324,7 +324,7 @@
       "expected": {
         "properties": [
           {
-            "label": "Hog Bay, United Kingdom"
+            "label": "Hog Bay, Bermuda"
           }
         ]
       }
@@ -343,7 +343,7 @@
       "expected": {
         "properties": [
           {
-            "label": "Adamstown, United Kingdom"
+            "label": "Adamstown, Pitcairn Islands"
           }
         ]
       }
@@ -351,7 +351,7 @@
     {
       "id": 22,
       "status": "pass",
-      "description": "non-US dependency should still just be the parent country",
+      "description": "non-US dependency should still include the parent country",
       "issue": "https://github.com/pelias/labels/issues/5",
       "user": "trescube",
       "in": {
@@ -362,7 +362,7 @@
       "expected": {
         "properties": [
           {
-            "label": "United Kingdom"
+            "label": "Bermuda"
           }
         ]
       }
