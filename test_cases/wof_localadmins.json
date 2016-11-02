@@ -52,25 +52,18 @@
       "id": 3,
       "status": "pass",
       "user": "Stephen",
-      "issue": "https://github.com/pelias/whosonfirst/issues/106",
-      "notes": [
-        "priorityThresh set to 2 as there is another record geonames:locality:5178027",
-        "which comes in first due to it having a population of 9438 which was not",
-        "imported correctly for the wof record.",
-        "when the issue above is resolved we can revert to priorityThresh:1"
-      ],
       "in": {
-        "text": "Aliquippa, PA",
+        "text": "Zickrick, SD",
         "sources": "wof"
       },
       "expected": {
-        "priorityThresh": 2,
+        "priorityThresh": 1,
         "properties": [
           {
             "layer": "localadmin",
-            "name": "Aliquippa",
-            "region": "Pennsylvania",
-            "region_a": "PA",
+            "name": "Zickrick",
+            "region": "South Dakota",
+            "region_a": "SD",
             "country": "United States",
             "country_a": "USA"
           }
