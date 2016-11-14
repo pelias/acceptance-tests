@@ -65,7 +65,10 @@
       "status": "fail",
       "user": "trescube",
       "type": "dev",
-      "notes": "house number not found should fallback to street",
+      "notes": [
+          "house number not found should fallback to street",
+          "https://github.com/pelias/pelias/issues/454"
+      ],
       "in": {
         "address": "1220 Calle de Lago",
         "city": "Socorro",
