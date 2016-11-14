@@ -115,33 +115,6 @@
         ]
       }
     },
-    {
-      "id": 5,
-      "status": "pass",
-      "user": "trescube",
-      "type": "dev",
-      "notes": "house number and street not found should fallback to city",
-      "in": {
-        "address": "1090 Trescube Boulevard",
-        "city": "Lancaster",
-        "state": "PA"
-      },
-      "expected": {
-        "properties": [
-          {
-            "layer": "locality",
-            "name": "Lancaster",
-            "country_a": "USA",
-            "country": "United States",
-            "region": "Pennsylvania",
-            "region_a": "PA",
-            "county": "Lancaster County",
-            "locality": "Lancaster",
-            "label": "Lancaster, PA, USA"
-          }
-        ]
-      }
-    },
 
 
     {
@@ -356,29 +329,6 @@
     },
     {
       "id": 303,
-      "status": "pass",
-      "user": "trescube",
-      "type": "dev",
-      "notes": "",
-      "in": {
-        "city": "Beijing",
-        "country": "China"
-      },
-      "expected": {
-        "properties": [
-          {
-            "layer": "locality",
-            "name": "Beijing",
-            "country_a": "CHN",
-            "country": "China",
-            "locality": "Beijing",
-            "label": "Beijing, China"
-          }
-        ]
-      }
-    },
-    {
-      "id": 304,
       "status": "pass",
       "user": "trescube",
       "type": "dev",
