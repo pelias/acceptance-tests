@@ -1,7 +1,7 @@
 {
   "name": "component geocoding",
   "priorityThresh": 1,
-  "endpoint": "component",
+  "endpoint": "beta/component",
   "tests": [
     {
       "id": 1,
@@ -205,10 +205,10 @@
       "type": "dev",
       "notes": "exercises treating locality as borough when latter not explicitly supplied",
       "in": {
-        "city": "Manhattan",
-        "state": "NY"
+        "city": "Manhattan"
       },
       "expected": {
+        "priorityThresh": 3,
         "properties": [
           {
             "layer": "borough",
@@ -221,6 +221,17 @@
             "locality": "New York",
             "borough": "Manhattan",
             "label": "Manhattan, New York, NY, USA"
+          },
+          {
+            "layer": "locality",
+            "name": "Manhattan",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "Kansas",
+            "region_a": "KS",
+            "county": "Riley County",
+            "locality": "Manhattan",
+            "label": "Manhattan, KS, USA"
           }
         ]
       }
