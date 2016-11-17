@@ -1,0 +1,973 @@
+{
+  "name": "component geocoding",
+  "priorityThresh": 1,
+  "endpoint": "beta/component",
+  "tests": [
+    {
+      "id": 1,
+      "status": "pass",
+      "user": "trescube",
+      "type": "dev",
+      "notes": "full address found should return that result",
+      "in": {
+        "address": "1090 North Charlotte Street",
+        "city": "Lancaster",
+        "state": "PA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "address",
+            "name": "1090 North Charlotte Street",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "Pennsylvania",
+            "region_a": "PA",
+            "county": "Lancaster County",
+            "locality": "Lancaster",
+            "housenumber": "1090",
+            "street": "North Charlotte Street",
+            "label": "1090 North Charlotte Street, Lancaster, PA, USA"
+          }
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "status": "pass",
+      "user": "trescube",
+      "type": "dev",
+      "notes": "no house number supplied should use street result",
+      "in": {
+        "address": "North Charlotte Street",
+        "city": "Lancaster",
+        "state": "PA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "street",
+            "name": "North Charlotte Street",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "Pennsylvania",
+            "region_a": "PA",
+            "county": "Lancaster County",
+            "locality": "Lancaster",
+            "street": "North Charlotte Street",
+            "label": "North Charlotte Street, Lancaster, PA, USA"
+          }
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "status": "fail",
+      "user": "trescube",
+      "type": "dev",
+      "notes": [
+          "house number not found should fallback to street",
+          "https://github.com/pelias/pelias/issues/454"
+      ],
+      "in": {
+        "address": "1220 Calle de Lago",
+        "city": "Socorro",
+        "state": "NM"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "street",
+            "name": "Calle de Lago",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "New Mexico",
+            "region_a": "NM",
+            "county": "Socorro County",
+            "locality": "Socorro",
+            "street": "Calle de Lago",
+            "label": "Calle de Lago, Socorro, NM, USA"
+          }
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "status": "pass",
+      "user": "trescube",
+      "type": "dev",
+      "notes": "house number and street not found should fallback to city",
+      "in": {
+        "address": "1090 Trescube Boulevard",
+        "city": "Lancaster",
+        "state": "PA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "locality",
+            "name": "Lancaster",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "Pennsylvania",
+            "region_a": "PA",
+            "county": "Lancaster County",
+            "locality": "Lancaster",
+            "label": "Lancaster, PA, USA"
+          }
+        ]
+      }
+    },
+
+
+    {
+      "id": 100,
+      "status": "pass",
+      "user": "trescube",
+      "type": "dev",
+      "notes": "unambiguous neighbourhood",
+      "in": {
+        "neighbourhood": "Dumbo",
+        "borough": "Brooklyn"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "neighbourhood",
+            "name": "DUMBO",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "New York",
+            "locality": "New York",
+            "borough": "Brooklyn",
+            "neighbourhood": "DUMBO",
+            "label": "DUMBO, Brooklyn, New York, NY, USA"
+          }
+        ]
+      }
+    },
+    {
+      "id": 101,
+      "status": "pass",
+      "user": "trescube",
+      "type": "dev",
+      "notes": "ambiguous neighbourhood",
+      "in": {
+        "neighbourhood": "Chelsea"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "neighbourhood",
+            "name": "Chelsea",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "New York",
+            "locality": "New York",
+            "borough": "Manhattan",
+            "neighbourhood": "Chelsea",
+            "label": "Chelsea, Manhattan, New York, NY, USA"
+          }
+        ]
+      }
+    },
+    {
+      "id": 102,
+      "status": "pass",
+      "user": "trescube",
+      "type": "dev",
+      "notes": "unambiguous neighbourhood",
+      "in": {
+        "neighbourhood": "Noho"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "neighbourhood",
+            "name": "NoHo",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "New York",
+            "locality": "New York",
+            "borough": "Manhattan",
+            "neighbourhood": "NoHo",
+            "label": "NoHo, Manhattan, New York, NY, USA"
+          }
+        ]
+      }
+    },
+
+
+    {
+      "id": 200,
+      "status": "pass",
+      "user": "trescube",
+      "type": "dev",
+      "notes": "exercises treating locality as borough when latter not explicitly supplied",
+      "in": {
+        "city": "Manhattan"
+      },
+      "expected": {
+        "priorityThresh": 3,
+        "properties": [
+          {
+            "layer": "borough",
+            "name": "Manhattan",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "New York",
+            "region_a": "NY",
+            "county": "New York County",
+            "locality": "New York",
+            "borough": "Manhattan",
+            "label": "Manhattan, New York, NY, USA"
+          },
+          {
+            "layer": "locality",
+            "name": "Manhattan",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "Kansas",
+            "region_a": "KS",
+            "county": "Riley County",
+            "locality": "Manhattan",
+            "label": "Manhattan, KS, USA"
+          }
+        ]
+      }
+    },
+    {
+      "id": 201,
+      "status": "pass",
+      "user": "trescube",
+      "type": "dev",
+      "notes": "borough",
+      "in": {
+        "borough": "Manhattan",
+        "city": "New York",
+        "state": "NY"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "borough",
+            "name": "Manhattan",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "New York",
+            "region_a": "NY",
+            "county": "New York County",
+            "locality": "New York",
+            "borough": "Manhattan",
+            "label": "Manhattan, New York, NY, USA"
+          }
+        ]
+      }
+    },
+
+
+    {
+      "id": 300,
+      "status": "pass",
+      "user": "trescube",
+      "type": "dev",
+      "notes": "just city/state",
+      "in": {
+        "city": "Socorro",
+        "state": "NM"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "locality",
+            "name": "Socorro",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "New Mexico",
+            "region_a": "NM",
+            "county": "Socorro County",
+            "locality": "Socorro",
+            "label": "Socorro, NM, USA"
+          }
+        ]
+      }
+    },
+    {
+      "id": 301,
+      "status": "pass",
+      "user": "trescube",
+      "type": "dev",
+      "notes": "city/state/country",
+      "in": {
+        "city": "New York",
+        "state": "NY",
+        "country": "USA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "locality",
+            "name": "New York",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "New York",
+            "region_a": "NY",
+            "locality": "New York",
+            "label": "New York, NY, USA"
+          }
+        ]
+      }
+    },
+    {
+      "id": 302,
+      "status": "pass",
+      "user": "trescube",
+      "type": "dev",
+      "notes": "",
+      "in": {
+        "city": "Paris",
+        "country": "France"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "locality",
+            "name": "Paris",
+            "country_a": "FRA",
+            "country": "France",
+            "locality": "Paris",
+            "label": "Paris, France"
+          }
+        ]
+      }
+    },
+    {
+      "id": 303,
+      "status": "pass",
+      "user": "trescube",
+      "type": "dev",
+      "notes": "",
+      "in": {
+        "city": "Beijing",
+        "country": "China"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "locality",
+            "name": "Beijing",
+            "country_a": "CHN",
+            "country": "China",
+            "locality": "Beijing",
+            "label": "Beijing, China"
+          }
+        ]
+      }
+    },
+
+    {
+      "id": 400,
+      "status": "pass",
+      "user": "trescube",
+      "type": "dev",
+      "notes": "ambiguous localadmin",
+      "in": {
+        "city": "Zickrick"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "localadmin",
+            "name": "Zickrick",
+            "country_a": "USA",
+            "country": "United States",
+            "localadmin": "Zickrick",
+            "label": "Zickrick, SD, USA"
+          }
+        ]
+      }
+    },
+    {
+      "id": 401,
+      "status": "pass",
+      "user": "trescube",
+      "type": "dev",
+      "notes": "ambiguous localadmin",
+      "in": {
+        "city": "Zumbehl"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "localadmin",
+            "name": "Zumbehl",
+            "country_a": "USA",
+            "country": "United States",
+            "localadmin": "Zumbehl",
+            "label": "Zumbehl, MO, USA"
+          }
+        ]
+      }
+    },
+    {
+      "id": 402,
+      "status": "pass",
+      "user": "trescube",
+      "type": "dev",
+      "notes": "unambiguous localadmin by country",
+      "in": {
+        "city": "Aastad",
+        "country": "United States"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "localadmin",
+            "name": "Aastad",
+            "country_a": "USA",
+            "country": "United States",
+            "region_a": "MN",
+            "region": "Minnesota",
+            "localadmin": "Aastad",
+            "label": "Aastad, MN, USA"
+          }
+        ]
+      }
+    },
+    {
+      "id": 403,
+      "status": "pass",
+      "user": "trescube",
+      "type": "dev",
+      "notes": "unambiguous localadmin by state",
+      "in": {
+        "city": "Bloominggrove",
+        "state": "Ohio"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "localadmin",
+            "name": "Bloominggrove",
+            "country_a": "USA",
+            "country": "United States",
+            "region_a": "OH",
+            "region": "Ohio",
+            "localadmin": "Bloominggrove",
+            "label": "Bloominggrove, OH, USA"
+          }
+        ]
+      }
+    },
+
+
+    {
+      "id": 500,
+      "status": "pass",
+      "user": "trescube",
+      "type": "dev",
+      "notes": "ambiguous county",
+      "in": {
+        "county": "Lancaster"
+      },
+      "expected": {
+        "priorityThresh": 2,
+        "properties": [
+          {
+            "layer": "county",
+            "name": "Lancaster County",
+            "country_a": "USA",
+            "country": "United States",
+            "region_a": "PA",
+            "region": "Pennsylvania",
+            "label": "Lancaster County, PA, USA"
+          },
+          {
+            "layer": "county",
+            "name": "Lancaster County",
+            "country_a": "USA",
+            "country": "United States",
+            "region_a": "NE",
+            "region": "Nebraska",
+            "label": "Lancaster County, NE, USA"
+          }
+        ]
+      }
+    },
+    {
+      "id": 501,
+      "status": "pass",
+      "user": "trescube",
+      "type": "dev",
+      "notes": "unambiguous county",
+      "in": {
+        "county": "Lancaster",
+        "state": "PA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "county",
+            "name": "Lancaster County",
+            "country_a": "USA",
+            "country": "United States",
+            "region_a": "PA",
+            "region": "Pennsylvania",
+            "label": "Lancaster County, PA, USA"
+          }
+        ]
+      }
+    },
+    {
+      "id": 502,
+      "status": "pass",
+      "user": "trescube",
+      "type": "dev",
+      "notes": "unambiguous county",
+      "in": {
+        "county": "L'Hermenault"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "county",
+            "name": "L'Hermenault",
+            "country_a": "FRA",
+            "country": "France",
+            "region": "Vendée",
+            "label": "L'Hermenault, France"
+          }
+        ]
+      }
+    },
+    {
+      "id": 503,
+      "status": "pass",
+      "user": "trescube",
+      "type": "dev",
+      "notes": "unambiguous county",
+      "in": {
+        "county": "重庆市",
+        "country": "China"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "county",
+            "name": "重庆市",
+            "country_a": "CHN",
+            "country": "China",
+            "region": "Chongqing",
+            "county": "重庆市",
+            "label": "重庆市, China"
+          }
+        ]
+      }
+    },
+
+    {
+      "id": 600,
+      "status": "pass",
+      "user": "trescube",
+      "type": "dev",
+      "notes": "macrocounty should be queried with county input",
+      "in": {
+        "county": "Gießen"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "macrocounty",
+            "name": "Gießen",
+            "country_a": "DEU",
+            "country": "Germany",
+            "macrocounty": "Gießen",
+            "label": "Gießen, Germany"
+          }
+        ]
+      }
+    },
+    {
+      "id": 601,
+      "status": "pass",
+      "user": "trescube",
+      "type": "dev",
+      "notes": "macrocounty should be queried with county input",
+      "in": {
+        "county": "Mittelfranken",
+        "country": "Germany"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "macrocounty",
+            "name": "Mittelfranken",
+            "country_a": "DEU",
+            "country": "Germany",
+            "macrocounty": "Mittelfranken",
+            "label": "Mittelfranken, Germany"
+          }
+        ]
+      }
+    },
+    {
+      "id": 602,
+      "status": "pass",
+      "user": "trescube",
+      "type": "dev",
+      "notes": "macrocounty should be queried with county input",
+      "in": {
+        "county": "Arnsberg"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "macrocounty",
+            "name": "Arnsberg",
+            "country_a": "DEU",
+            "country": "Germany",
+            "macrocounty": "Arnsberg",
+            "label": "Arnsberg, Germany"
+          }
+        ]
+      }
+    },
+
+
+    {
+      "id": 700,
+      "status": "pass",
+      "user": "trescube",
+      "type": "dev",
+      "notes": "state-only abbreviation",
+      "in": {
+        "state": "PA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "region",
+            "name": "Pennsylvania",
+            "country_a": "USA",
+            "country": "United States",
+            "region_a": "PA",
+            "region": "Pennsylvania",
+            "label": "Pennsylvania, USA"
+          }
+        ]
+      }
+    },
+    {
+      "id": 701,
+      "status": "pass",
+      "user": "trescube",
+      "type": "dev",
+      "notes": "state-only full name",
+      "in": {
+        "state": "New Mexico"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "region",
+            "name": "New Mexico",
+            "country_a": "USA",
+            "country": "United States",
+            "region_a": "NM",
+            "region": "New Mexico",
+            "label": "New Mexico, USA"
+          }
+        ]
+      }
+    },
+    {
+      "id": 702,
+      "status": "pass",
+      "user": "trescube",
+      "type": "dev",
+      "notes": "non-US region",
+      "in": {
+        "state": "Senakis Raioni"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "region",
+            "name": "Senakis Raioni",
+            "country_a": "GEO",
+            "country": "Georgia",
+            "region": "Senakis Raioni",
+            "label": "Senakis Raioni, Georgia"
+          }
+        ]
+      }
+    },
+
+    {
+      "id": 800,
+      "status": "pass",
+      "user": "trescube",
+      "type": "dev",
+      "notes": "macroregion should be queried with state input",
+      "in": {
+        "state": "Marche"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "macroregion",
+            "name": "Marche",
+            "country_a": "ITA",
+            "country": "Italy",
+            "macroregion": "Marche",
+            "label": "Marche, Italy"
+          }
+        ]
+      }
+    },
+    {
+      "id": 801,
+      "status": "pass",
+      "user": "trescube",
+      "type": "dev",
+      "notes": "macroregion should be queried with state input",
+      "in": {
+        "state": "Marche"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "macroregion",
+            "name": "Marche",
+            "country_a": "ITA",
+            "country": "Italy",
+            "macroregion": "Marche",
+            "label": "Marche, Italy"
+          }
+        ]
+      }
+    },
+    {
+      "id": 802,
+      "status": "pass",
+      "user": "trescube",
+      "type": "dev",
+      "notes": "macroregion should be queried with state input",
+      "in": {
+        "state": "Pohjois Suomi",
+        "country": "Finland"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "macroregion",
+            "name": "Pohjois-Suomi",
+            "country_a": "FIN",
+            "country": "Finland",
+            "macroregion": "Pohjois-Suomi",
+            "label": "Pohjois-Suomi, Finland"
+          }
+        ]
+      }
+    },
+
+
+    {
+      "id": 900,
+      "status": "pass",
+      "user": "trescube",
+      "type": "dev",
+      "notes": "dependency-only",
+      "in": {
+        "country": "United States Virgin Islands"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "dependency",
+            "name": "United States Virgin Islands",
+            "country_a": "USA",
+            "country": "United States",
+            "dependency": "United States Virgin Islands",
+            "label": "United States Virgin Islands"
+          }
+        ]
+      }
+    },
+    {
+      "id": 901,
+      "status": "pass",
+      "user": "trescube",
+      "type": "dev",
+      "notes": "country name with dependency layer",
+      "in": {
+        "country": "United States",
+        "layers": "dependency"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "dependency",
+            "name": "United States Virgin Islands",
+            "country_a": "USA",
+            "country": "United States",
+            "dependency": "United States Virgin Islands",
+            "label": "United States Virgin Islands"
+          }
+        ]
+      }
+    },
+    {
+      "id": 902,
+      "status": "pass",
+      "user": "trescube",
+      "type": "dev",
+      "notes": "british dependency",
+      "in": {
+        "country": "Bermuda"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "dependency",
+            "name": "Bermuda",
+            "country_a": "GBR",
+            "country": "United Kingdom",
+            "dependency": "Bermuda",
+            "label": "Bermuda"
+          }
+        ]
+      }
+    },
+
+    {
+      "id": 1000,
+      "status": "pass",
+      "user": "trescube",
+      "type": "dev",
+      "notes": "country-only",
+      "in": {
+        "country": "USA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "country",
+            "name": "United States",
+            "country_a": "USA",
+            "country": "United States",
+            "label": "United States"
+          }
+        ]
+      }
+    },
+    {
+      "id": 1001,
+      "status": "pass",
+      "user": "trescube",
+      "type": "dev",
+      "notes": "country-only",
+      "in": {
+        "country": "US"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "country",
+            "name": "United States",
+            "country_a": "USA",
+            "country": "United States",
+            "label": "United States"
+          }
+        ]
+      }
+    },
+    {
+      "id": 1002,
+      "status": "pass",
+      "user": "trescube",
+      "type": "dev",
+      "notes": "country-only",
+      "in": {
+        "country": "United States"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "country",
+            "name": "United States",
+            "country_a": "USA",
+            "country": "United States",
+            "label": "United States"
+          }
+        ]
+      }
+    },
+    {
+      "id": 1003,
+      "status": "pass",
+      "user": "trescube",
+      "type": "dev",
+      "notes": "country-only",
+      "in": {
+        "country": "THA",
+        "sources": "whosonfirst"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "country",
+            "name": "Thailand",
+            "country_a": "THA",
+            "country": "Thailand",
+            "label": "Thailand"
+          }
+        ]
+      }
+    },
+    {
+      "id": 1004,
+      "status": "pass",
+      "user": "trescube",
+      "type": "dev",
+      "notes": "country-only",
+      "in": {
+        "country": "FR"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "country",
+            "name": "France",
+            "country_a": "FRA",
+            "country": "France",
+            "label": "France"
+          }
+        ]
+      }
+    },
+    {
+      "id": 1005,
+      "status": "pass",
+      "user": "trescube",
+      "type": "dev",
+      "notes": "country-only",
+      "in": {
+        "country": "Australia",
+        "sources": "whosonfirst"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "country",
+            "name": "Australia",
+            "country_a": "AUS",
+            "country": "Australia",
+            "label": "Australia"
+          }
+        ]
+      }
+    }
+
+  ]
+}
