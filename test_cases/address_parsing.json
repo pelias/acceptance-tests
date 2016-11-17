@@ -318,6 +318,54 @@
           }
         ]
       }
+    },
+    {
+      "id": 12,
+      "status": "pass",
+      "user": "trescube",
+      "type": "dev",
+      "notes": [
+        "this test verifies that an iso2 country matches"
+      ],
+      "in": {
+        "text": "30 West 26th Street, New York, NY, US"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "address",
+            "country_a": "USA",
+            "region": "New York",
+            "region_a": "NY",
+            "locality": "New York",
+            "housenumber": "30",
+            "street": "West 26th Street"
+          }
+        ]
+      }
+    },
+    {
+      "id": 13,
+      "status": "pass",
+      "user": "trescube",
+      "type": "dev",
+      "notes": [
+        "this test verifies that an iso2 country matches"
+      ],
+      "in": {
+        "text": "grolmanstraße 51, berlin, de"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "address",
+            "country_a": "DEU",
+            "locality": "Berlin",
+            "housenumber": "51",
+            "street": "Grolmanstraße"
+          }
+        ]
+      }
     }
   ]
 }
