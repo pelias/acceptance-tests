@@ -95,11 +95,11 @@
       "status": "pass",
       "user": "missinglink",
       "in": {
-        "text": "Arbil, Iraq"
+        "text": "Erbil, Iraq"
       },
       "expected": {
         "properties": [{
-          "label": "Arbil, Iraq"
+          "label": "Erbil, Iraq"
         }]
       }
     },
@@ -349,7 +349,7 @@
       }
     },
     {
-      "id": 22,
+      "id": 23,
       "status": "pass",
       "description": "non-US dependency should still include the parent country",
       "issue": "https://github.com/pelias/labels/issues/5",
