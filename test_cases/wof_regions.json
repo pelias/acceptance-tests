@@ -155,11 +155,12 @@
     },
     {
       "id": 8,
-      "status": "pass",
+      "status": "fail",
       "user": "Stephen",
       "description": "",
+      "notes": "libpostal identifies this as a city/country even though it's a WOF region",
       "in": {
-        "text": "Xaçmaz, AZ",
+        "text": "Xaçmaz, Azerbaijan",
         "sources": "wof"
       },
       "expected": {

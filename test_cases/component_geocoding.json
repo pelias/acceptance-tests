@@ -11,8 +11,8 @@
       "notes": "full address found should return that result",
       "in": {
         "address": "1090 North Charlotte Street",
-        "city": "Lancaster",
-        "state": "PA"
+        "locality": "Lancaster",
+        "region": "PA"
       },
       "expected": {
         "properties": [
@@ -40,8 +40,8 @@
       "notes": "no house number supplied should use street result",
       "in": {
         "address": "North Charlotte Street",
-        "city": "Lancaster",
-        "state": "PA"
+        "locality": "Lancaster",
+        "region": "PA"
       },
       "expected": {
         "properties": [
@@ -71,8 +71,8 @@
       ],
       "in": {
         "address": "1220 Calle de Lago",
-        "city": "Socorro",
-        "state": "NM"
+        "locality": "Socorro",
+        "region": "NM"
       },
       "expected": {
         "properties": [
@@ -99,8 +99,8 @@
       "notes": "house number and street not found should fallback to city",
       "in": {
         "address": "1090 Trescube Boulevard",
-        "city": "Lancaster",
-        "state": "PA"
+        "locality": "Lancaster",
+        "region": "PA"
       },
       "expected": {
         "properties": [
@@ -205,7 +205,7 @@
       "type": "dev",
       "notes": "exercises treating locality as borough when latter not explicitly supplied",
       "in": {
-        "city": "Manhattan"
+        "locality": "Manhattan"
       },
       "expected": {
         "priorityThresh": 3,
@@ -244,8 +244,8 @@
       "notes": "borough",
       "in": {
         "borough": "Manhattan",
-        "city": "New York",
-        "state": "NY"
+        "locality": "New York",
+        "region": "NY"
       },
       "expected": {
         "properties": [
@@ -273,8 +273,8 @@
       "type": "dev",
       "notes": "just city/state",
       "in": {
-        "city": "Socorro",
-        "state": "NM"
+        "locality": "Socorro",
+        "region": "NM"
       },
       "expected": {
         "properties": [
@@ -299,8 +299,8 @@
       "type": "dev",
       "notes": "city/state/country",
       "in": {
-        "city": "New York",
-        "state": "NY",
+        "locality": "New York",
+        "region": "NY",
         "country": "USA"
       },
       "expected": {
@@ -325,7 +325,7 @@
       "type": "dev",
       "notes": "",
       "in": {
-        "city": "Paris",
+        "locality": "Paris",
         "country": "France"
       },
       "expected": {
@@ -348,7 +348,7 @@
       "type": "dev",
       "notes": "",
       "in": {
-        "city": "Beijing",
+        "locality": "Beijing",
         "country": "China"
       },
       "expected": {
@@ -372,7 +372,7 @@
       "type": "dev",
       "notes": "ambiguous localadmin",
       "in": {
-        "city": "Zickrick"
+        "locality": "Zickrick"
       },
       "expected": {
         "properties": [
@@ -394,7 +394,7 @@
       "type": "dev",
       "notes": "ambiguous localadmin",
       "in": {
-        "city": "Zumbehl"
+        "locality": "Zumbehl"
       },
       "expected": {
         "properties": [
@@ -416,7 +416,7 @@
       "type": "dev",
       "notes": "unambiguous localadmin by country",
       "in": {
-        "city": "Aastad",
+        "locality": "Aastad",
         "country": "United States"
       },
       "expected": {
@@ -441,8 +441,8 @@
       "type": "dev",
       "notes": "unambiguous localadmin by state",
       "in": {
-        "city": "Bloominggrove",
-        "state": "Ohio"
+        "locality": "Bloominggrove",
+        "region": "Ohio"
       },
       "expected": {
         "properties": [
@@ -502,7 +502,7 @@
       "notes": "unambiguous county",
       "in": {
         "county": "Lancaster",
-        "state": "PA"
+        "region": "PA"
       },
       "expected": {
         "properties": [
@@ -641,7 +641,7 @@
       "type": "dev",
       "notes": "state-only abbreviation",
       "in": {
-        "state": "PA"
+        "region": "PA"
       },
       "expected": {
         "properties": [
@@ -664,7 +664,7 @@
       "type": "dev",
       "notes": "state-only full name",
       "in": {
-        "state": "New Mexico"
+        "region": "New Mexico"
       },
       "expected": {
         "properties": [
@@ -687,7 +687,7 @@
       "type": "dev",
       "notes": "non-US region",
       "in": {
-        "state": "Senakis Raioni"
+        "region": "Senakis Raioni"
       },
       "expected": {
         "properties": [
@@ -702,6 +702,30 @@
         ]
       }
     },
+    {
+      "id": 703,
+      "status": "pass",
+      "user": "Stephen",
+      "description": "",
+      "notes": "similar to wof_regions/#8 but uses component geocoding to show that region works",
+      "in": {
+        "region": "Xaçmaz",
+        "country": "Azerbaijan",
+        "sources": "wof"
+      },
+      "expected": {
+        "priorityThresh": 2,
+        "properties": [
+          {
+            "layer": "region",
+            "name": "Xaçmaz",
+            "region": "Xaçmaz",
+            "country": "Azerbaijan",
+            "country_a": "AZE"
+          }
+        ]
+      }
+    },
 
     {
       "id": 800,
@@ -710,7 +734,7 @@
       "type": "dev",
       "notes": "macroregion should be queried with state input",
       "in": {
-        "state": "Marche"
+        "region": "Marche"
       },
       "expected": {
         "properties": [
@@ -732,7 +756,7 @@
       "type": "dev",
       "notes": "macroregion should be queried with state input",
       "in": {
-        "state": "Marche"
+        "region": "Marche"
       },
       "expected": {
         "properties": [
@@ -754,7 +778,7 @@
       "type": "dev",
       "notes": "macroregion should be queried with state input",
       "in": {
-        "state": "Pohjois Suomi",
+        "region": "Pohjois Suomi",
         "country": "Finland"
       },
       "expected": {

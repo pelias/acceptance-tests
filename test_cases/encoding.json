@@ -26,6 +26,7 @@
       "status": "pass",
       "endpoint": "search",
       "description": "make sure that results return the appropriate accents on results",
+      "notes": "https://github.com/pelias/api/issues/731",
       "in": {
         "text": "pärnu, estonia"
       },
@@ -43,7 +44,7 @@
     },
     {
       "id": 3,
-      "status": "fail",
+      "status": "pass",
       "endpoint": "search",
       "issue": [
         "https://github.com/pelias/api/issues/600",
@@ -63,27 +64,6 @@
             "macroregion": "Rhône-Alpes",
             "locality": "Chambéry",
             "label": "Chambéry, France",
-            "country": "France"
-          }
-        ]
-      }
-    },
-    {
-      "id": 4,
-      "status": "fail",
-      "endpoint": "search",
-      "description": "the Chambéry accent issue, with the accented e represented as 2 characters",
-      "issue": "https://github.com/pelias/api/issues/600",
-      "in":{
-        "text": "Chambéry"
-      },
-      "expected": {
-        "properties": [
-          {
-            "name": "Chambéry",
-            "macroregion": "Rhône-Alpes",
-            "locality": "Chambéry",
-            "label": "Chambéry, France",
             "country": "France"
           }
         ]
