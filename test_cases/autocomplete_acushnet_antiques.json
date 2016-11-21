@@ -2,7 +2,7 @@
   "name": "autocomplete acushnet antiques",
   "notes": "https://github.com/pelias/pelias/issues/271",
   "endpoint": "autocomplete",
-  "priorityThresh": 1,
+  "priorityThresh": 3,
   "tests": [
     {
       "id": "1",
