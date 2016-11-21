@@ -2,6 +2,7 @@
   "name": "autocomplete boundary.rect",
   "priorityThresh": 3,
   "endpoint": "autocomplete",
+  "description": "bounding box approximating argentina should return san francisco, argentina",
   "tests": [
     {
       "id": 1,
@@ -9,17 +10,17 @@
       "user": "Julian",
       "type": "dev",
       "in": {
-        "boundary.rect.min_lat":19,
-        "boundary.rect.max_lat":20,
-        "boundary.rect.min_lon":-99,
-        "boundary.rect.max_lon":-98,
+        "boundary.rect.min_lat":-73,
+        "boundary.rect.max_lat":-21,
+        "boundary.rect.min_lon":-73,
+        "boundary.rect.max_lon":-53,
         "text": "san francisco"
       },
       "expected": {
         "properties": [
           {
               "name": "San Francisco",
-              "country_a": "MEX"
+              "country_a": "ARG"
           }
         ]
       },
