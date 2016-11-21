@@ -11,7 +11,8 @@
         "text": "IHOP",
         "focus.point.lon": -73.944108,
         "focus.point.lat": 40.815263,
-        "layers": "venue"
+        "layers": "venue",
+        "sources": "osm"
       },
       "expected": {
         "properties": [
