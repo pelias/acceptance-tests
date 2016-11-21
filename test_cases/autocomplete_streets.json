@@ -110,6 +110,7 @@
       "id": "2-1",
       "status": "fail",
       "user": "riordan",
+      "description": "Clay Ave should rank higher than Clayton Ave with this input",
       "issue": "https://github.com/pelias/pelias/issues/331",
       "in": {
         "text": "424 Clay Av"
@@ -119,7 +120,7 @@
           {
             "layer": "address",
             "housenumber": "424",
-            "street": "Clay Avenue"
+            "street": "Clay Ave"
           }
         ]
       }
@@ -136,7 +137,7 @@
           {
             "layer": "address",
             "housenumber": "424",
-            "street": "Clay Avenue"
+            "street": "Clay Ave"
           }
         ]
       }
