@@ -180,7 +180,7 @@
     },
     {
       "id": 27,
-      "status": "fail",
+      "status": "pass",
       "user": "julian",
       "notes": [
         "Searching for New York City with a focus in Stamford, CT"
@@ -202,13 +202,13 @@
           }
         ],
         "coordinates": [
-          [ -73.93827, 40.663931 ]
+          [ -73.895946, 40.664912 ]
         ]
       }
     },
     {
       "id": 28,
-      "status": "fail",
+      "status": "pass",
       "user": "julian",
       "notes": [
         "Searching for New York City with a focus in Stamford, CT"
@@ -236,13 +236,13 @@
           }
         ],
         "coordinates": [
-          [ -73.93827, 40.663931 ]
+          [ -73.895946, 40.664912 ]
         ]
       }
     },
     {
       "id": 29,
-      "status": "fail",
+      "status": "pass",
       "user": "julian",
       "notes": [
         "searching for San Francisco via autocomplete with a focus in NYC"
