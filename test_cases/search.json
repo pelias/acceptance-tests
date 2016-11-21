@@ -560,7 +560,7 @@
             "country_a": "USA"
           }
         ],
-        "priorityThresh": 2
+        "priorityThresh": 3
       },
       "status": "pass"
     },
