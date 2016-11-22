@@ -240,7 +240,6 @@
             "county": "San Francisco County",
             "locality": "San Francisco",
             "neighbourhood": "Mission Dolores",
-            "postalcode": "94103",
             "housenumber": "3122",
             "street": "16th Street",
             "label": "3122 16th Street, San Francisco, CA, USA"
@@ -284,7 +283,7 @@
       "expected": {
         "properties": [
           {
-            "name": "3577 Jackson Street",
+            "name": "3577 Jackson St",
             "country_a": "USA",
             "country": "United States",
             "region": "California",
@@ -293,8 +292,8 @@
             "locality": "San Francisco",
             "postalcode": "94118",
             "housenumber": "3577",
-            "street": "Jackson Street",
-            "label": "3577 Jackson Street, San Francisco, CA, USA"
+            "street": "Jackson St",
+            "label": "3577 Jackson St, San Francisco, CA, USA"
           }
         ]
       }

@@ -10,7 +10,7 @@
       "type": "dev",
       "notes": "full address found should return that result",
       "in": {
-        "address": "1090 North Charlotte Street",
+        "address": "1090 N Charlotte Street",
         "locality": "Lancaster",
         "region": "PA"
       },
@@ -18,7 +18,7 @@
         "properties": [
           {
             "layer": "address",
-            "name": "1090 North Charlotte Street",
+            "name": "1090 N Charlotte Street",
             "country_a": "USA",
             "country": "United States",
             "region": "Pennsylvania",
@@ -26,8 +26,8 @@
             "county": "Lancaster County",
             "locality": "Lancaster",
             "housenumber": "1090",
-            "street": "North Charlotte Street",
-            "label": "1090 North Charlotte Street, Lancaster, PA, USA"
+            "street": "N Charlotte Street",
+            "label": "1090 N Charlotte Street, Lancaster, PA, USA"
           }
         ]
       }

@@ -70,19 +70,20 @@
     },
     {
       "id": 4,
-      "status": "pass",
+      "status": "fail",
+      "description": "the record was deleted in OSM, has been added back, should be fixed soon",
       "endpoint": "place",
       "in": {
-        "ids": "openstreetmap:venue:node:3971304160"
+        "ids": "openstreetmap:venue:node:4509430011"
       },
       "expected": {
         "properties": [
           {
-            "gid": "openstreetmap:venue:node:3971304160",
+            "gid": "openstreetmap:venue:node:4509430011",
             "layer": "venue",
             "source": "openstreetmap",
-            "id": "node:3971304160",
-            "source_id": "node:3971304160",
+            "id": "node:4509430011",
+            "source_id": "node:4509430011",
             "name": "Inday"
           }
         ]
