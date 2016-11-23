@@ -62,7 +62,7 @@
     },
     {
       "id": 3,
-      "status": "fail",
+      "status": "pass",
       "user": "trescube",
       "type": "dev",
       "notes": [
