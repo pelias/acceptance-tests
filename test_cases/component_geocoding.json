@@ -118,7 +118,81 @@
         ]
       }
     },
-
+    {
+      "id": 5,
+      "status": "pass",
+      "user": "trescube",
+      "type": "dev",
+      "notes": "libpostal parses as postcode/road",
+      "in": {
+        "address": "1338 Kobbe Ave",
+        "locality": "San Francisco",
+        "region": "CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "address",
+            "name": "1338 Kobbe Ave",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "California",
+            "region_a": "CA",
+            "locality": "San Francisco",
+            "label": "1338 Kobbe Ave, San Francisco, CA, USA"
+          }
+        ]
+      }
+    },
+    {
+      "id": 6,
+      "status": "pass",
+      "user": "trescube",
+      "type": "dev",
+      "notes": "libpostal parses as house_number/road, non-US address",
+      "in": {
+        "address": "Grolmanstrasse 51",
+        "locality": "Berlin"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "address",
+            "name": "Grolmanstraße 51",
+            "country_a": "DEU",
+            "country": "Germany",
+            "locality": "Berlin",
+            "label": "Grolmanstraße 51, Berlin, Germany"
+          }
+        ]
+      }
+    },
+    {
+      "id": 7,
+      "status": "pass",
+      "user": "trescube",
+      "type": "dev",
+      "notes": "libpostal parses as house_number/suburb/road, non-US address",
+      "in": {
+        "address": "5 russian hill pl",
+        "locality": "San Francisco",
+        "region": "CA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "address",
+            "name": "5 Russian Hill Pl",
+            "country_a": "USA",
+            "country": "United States",
+            "region": "California",
+            "region_a": "CA",
+            "locality": "San Francisco",
+            "label": "5 Russian Hill Pl, San Francisco, CA, USA"
+          }
+        ]
+      }
+    },
 
     {
       "id": 100,
