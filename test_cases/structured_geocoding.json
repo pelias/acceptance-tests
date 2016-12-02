@@ -1,7 +1,7 @@
 {
-  "name": "component geocoding",
+  "name": "structured geocoding",
   "priorityThresh": 1,
-  "endpoint": "beta/component",
+  "endpoint": "search/structured",
   "tests": [
     {
       "id": 1,
@@ -781,7 +781,7 @@
       "status": "pass",
       "user": "Stephen",
       "description": "",
-      "notes": "similar to wof_regions/#8 but uses component geocoding to show that region works",
+      "notes": "similar to wof_regions/#8 but uses structured geocoding to show that region works",
       "in": {
         "region": "Xaçmaz",
         "country": "Azerbaijan",
