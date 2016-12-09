@@ -1083,6 +1083,31 @@
           }
         ]
       }
+    },
+
+    {
+      "id": 1100,
+      "status": "pass",
+      "user": "trescube",
+      "type": "dev",
+      "notes": "query+street",
+      "in": {
+        "query": "police",
+        "address": "1090 N Charlotte Street",
+        "locality": "Lancaster",
+        "region": "PA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "venue",
+            "name": "Lancaster Bureau of Police",
+            "locality": "Lancaster",
+            "region_a": "PA",
+            "label": "Lancaster Bureau of Police, Lancaster, PA, USA"
+          }
+        ]
+      }
     }
 
   ]
