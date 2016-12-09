@@ -1114,6 +1114,30 @@
       "status": "pass",
       "user": "trescube",
       "type": "dev",
+      "notes": "query+address should also search category",
+      "in": {
+        "query": "nightlife",
+        "address": "1090 N Charlotte Street",
+        "locality": "Lancaster",
+        "region": "PA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "venue",
+            "name": "Chameleon Club",
+            "locality": "Lancaster",
+            "region_a": "PA",
+            "label": "Chameleon Club, Lancaster, PA, USA"
+          }
+        ]
+      }
+    },
+    {
+      "id": 1102,
+      "status": "pass",
+      "user": "trescube",
+      "type": "dev",
       "notes": "query+street should ignore street",
       "in": {
         "query": "police",
@@ -1134,7 +1158,7 @@
       }
     },
     {
-      "id": 1102,
+      "id": 1103,
       "status": "pass",
       "user": "trescube",
       "type": "dev",
@@ -1159,7 +1183,7 @@
       }
     },
     {
-      "id": 1103,
+      "id": 1104,
       "status": "pass",
       "user": "trescube",
       "type": "dev",
@@ -1183,7 +1207,7 @@
       }
     },
     {
-      "id": 1104,
+      "id": 1105,
       "status": "pass",
       "user": "trescube",
       "type": "dev",
