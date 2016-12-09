@@ -193,6 +193,24 @@
         ]
       }
     },
+    {
+      "id": 8,
+      "status": "pass",
+      "user": "trescube",
+      "type": "dev",
+      "notes": "number+street-only input should return address before street",
+      "in": {
+        "address": "1090 n charlotte st"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "address",
+            "name": "1090 N Charlotte St"
+          }
+        ]
+      }
+    },
 
     {
       "id": 100,
