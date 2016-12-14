@@ -1,0 +1,186 @@
+{
+  "name": "mount/saint/fort standardization",
+  "priorityThresh": 1,
+  "tests": [
+    {
+      "id": 1,
+      "status": "pass",
+      "user": "trescube",
+      "type": "dev",
+      "notes": "mt should be expanded to mount",
+      "endpoint": "search",
+      "in": {
+        "text": "Mt Pleasant, SC"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "locality",
+            "name": "Mount Pleasant",
+            "country_a": "USA",
+            "region_a": "SC",
+            "label": "Mount Pleasant, SC, USA"
+          }
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "status": "pass",
+      "user": "trescube",
+      "type": "dev",
+      "notes": "ft should be expanded to fort",
+      "endpoint": "search",
+      "in": {
+        "text": "Ft Worth, TX"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "locality",
+            "name": "Fort Worth",
+            "country_a": "USA",
+            "region_a": "TX",
+            "label": "Fort Worth, TX, USA"
+          }
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "status": "pass",
+      "user": "trescube",
+      "type": "dev",
+      "notes": "sainte should be abbreviated to ste",
+      "endpoint": "search",
+      "in": {
+        "text": "Sault Sainte Marie, MI"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "locality",
+            "name": "Sault Ste. Marie",
+            "country_a": "USA",
+            "region_a": "MI",
+            "label": "Sault Ste. Marie, MI, USA"
+          }
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "status": "pass",
+      "user": "trescube",
+      "type": "dev",
+      "notes": "saint should be abbreviated to st",
+      "endpoint": "search",
+      "in": {
+        "text": "Saint Louis, MO"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "locality",
+            "name": "St. Louis",
+            "country_a": "USA",
+            "region_a": "MO",
+            "label": "St. Louis, MO, USA"
+          }
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "status": "pass",
+      "user": "trescube",
+      "type": "dev",
+      "notes": "mt should be expanded to mount",
+      "endpoint": "search/structured",
+      "in": {
+        "locality": "Mt Pleasant",
+        "region": "SC"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "locality",
+            "name": "Mount Pleasant",
+            "country_a": "USA",
+            "region_a": "SC",
+            "label": "Mount Pleasant, SC, USA"
+          }
+        ]
+      }
+    },
+    {
+      "id": 6,
+      "status": "pass",
+      "user": "trescube",
+      "type": "dev",
+      "notes": "ft should be expanded to fort",
+      "endpoint": "search/structured",
+      "in": {
+        "locality": "Ft Worth",
+        "region": "TX"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "locality",
+            "name": "Fort Worth",
+            "country_a": "USA",
+            "region_a": "TX",
+            "label": "Fort Worth, TX, USA"
+          }
+        ]
+      }
+    },
+    {
+      "id": 7,
+      "status": "pass",
+      "user": "trescube",
+      "type": "dev",
+      "notes": "sainte should be abbreviated to ste",
+      "endpoint": "search/structured",
+      "in": {
+        "locality": "Sault Sainte Marie",
+        "region": "MI"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "locality",
+            "name": "Sault Ste. Marie",
+            "country_a": "USA",
+            "region_a": "MI",
+            "label": "Sault Ste. Marie, MI, USA"
+          }
+        ]
+      }
+    },
+    {
+      "id": 8,
+      "status": "pass",
+      "user": "trescube",
+      "type": "dev",
+      "notes": "saint should be abbreviated to st",
+      "endpoint": "search/structured",
+      "in": {
+        "locality": "Saint Louis",
+        "region": "MO"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "locality",
+            "name": "St. Louis",
+            "country_a": "USA",
+            "region_a": "MO",
+            "label": "St. Louis, MO, USA"
+          }
+        ]
+      }
+    }
+  ]
+}
