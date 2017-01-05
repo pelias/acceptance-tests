@@ -639,19 +639,19 @@
       "type": "dev",
       "notes": "unambiguous county",
       "in": {
-        "county": "重庆市",
+        "county": "Chongqing",
         "country": "China"
       },
       "expected": {
         "properties": [
           {
             "layer": "county",
-            "name": "重庆市",
+            "name": "Chongqing",
             "country_a": "CHN",
             "country": "China",
             "region": "Chongqing",
-            "county": "重庆市",
-            "label": "重庆市, China"
+            "county": "Chongqing",
+            "label": "Chongqing, China"
           }
         ]
       }
