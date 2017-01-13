@@ -193,6 +193,24 @@
         ]
       }
     },
+    {
+      "id": 8,
+      "status": "pass",
+      "user": "trescube",
+      "type": "dev",
+      "notes": "number+street-only input should return address before street",
+      "in": {
+        "address": "1090 n charlotte st"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "address",
+            "name": "1090 N Charlotte St"
+          }
+        ]
+      }
+    },
 
     {
       "id": 100,
@@ -621,19 +639,19 @@
       "type": "dev",
       "notes": "unambiguous county",
       "in": {
-        "county": "重庆市",
+        "county": "Chongqing",
         "country": "China"
       },
       "expected": {
         "properties": [
           {
             "layer": "county",
-            "name": "重庆市",
+            "name": "Chongqing",
             "country_a": "CHN",
             "country": "China",
             "region": "Chongqing",
-            "county": "重庆市",
-            "label": "重庆市, China"
+            "county": "Chongqing",
+            "label": "Chongqing, China"
           }
         ]
       }
@@ -1062,6 +1080,150 @@
             "country_a": "AUS",
             "country": "Australia",
             "label": "Australia"
+          }
+        ]
+      }
+    },
+
+    {
+      "id": 1100,
+      "status": "pass",
+      "user": "trescube",
+      "type": "dev",
+      "notes": "query+address should ignore address",
+      "in": {
+        "query": "police",
+        "address": "1090 N Charlotte Street",
+        "locality": "Lancaster",
+        "region": "PA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "venue",
+            "name": "Lancaster Bureau of Police",
+            "locality": "Lancaster",
+            "region_a": "PA",
+            "label": "Lancaster Bureau of Police, Lancaster, PA, USA"
+          }
+        ]
+      }
+    },
+    {
+      "id": 1101,
+      "status": "pass",
+      "user": "trescube",
+      "type": "dev",
+      "notes": "query+address should also search category",
+      "in": {
+        "query": "nightlife",
+        "address": "1090 N Charlotte Street",
+        "locality": "Lancaster",
+        "region": "PA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "venue",
+            "name": "Chameleon Club",
+            "locality": "Lancaster",
+            "region_a": "PA",
+            "label": "Chameleon Club, Lancaster, PA, USA"
+          }
+        ]
+      }
+    },
+    {
+      "id": 1102,
+      "status": "pass",
+      "user": "trescube",
+      "type": "dev",
+      "notes": "query+street should ignore street",
+      "in": {
+        "query": "police",
+        "address": "N Charlotte Street",
+        "locality": "Lancaster",
+        "region": "PA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "venue",
+            "name": "Lancaster Bureau of Police",
+            "locality": "Lancaster",
+            "region_a": "PA",
+            "label": "Lancaster Bureau of Police, Lancaster, PA, USA"
+          }
+        ]
+      }
+    },
+    {
+      "id": 1103,
+      "status": "pass",
+      "user": "trescube",
+      "type": "dev",
+      "notes": "non-existent query+address should fallback to address",
+      "in": {
+        "query": "unsupported query",
+        "address": "1090 N Charlotte Street",
+        "locality": "Lancaster",
+        "region": "PA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "address",
+            "housenumber": "1090",
+            "street": "N Charlotte St",
+            "locality": "Lancaster",
+            "region_a": "PA",
+            "label": "1090 N Charlotte St, Lancaster, PA, USA"
+          }
+        ]
+      }
+    },
+    {
+      "id": 1104,
+      "status": "pass",
+      "user": "trescube",
+      "type": "dev",
+      "notes": "non-existent query+street should fallback to street",
+      "in": {
+        "query": "unsupported query",
+        "address": "N Charlotte Street",
+        "locality": "Lancaster",
+        "region": "PA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "street",
+            "street": "North Charlotte Street",
+            "locality": "Lancaster",
+            "region_a": "PA",
+            "label": "North Charlotte Street, Lancaster, PA, USA"
+          }
+        ]
+      }
+    },
+    {
+      "id": 1105,
+      "status": "pass",
+      "user": "trescube",
+      "type": "dev",
+      "notes": "non-existent query+locality should fallback to locality",
+      "in": {
+        "query": "unsupported query",
+        "locality": "Lancaster",
+        "region": "PA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "locality",
+            "locality": "Lancaster",
+            "region_a": "PA",
+            "label": "Lancaster, PA, USA"
           }
         ]
       }
