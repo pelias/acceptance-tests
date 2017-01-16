@@ -1090,9 +1090,9 @@
       "status": "pass",
       "user": "trescube",
       "type": "dev",
-      "notes": "query+address should ignore address",
+      "notes": "venue+address should ignore address",
       "in": {
-        "query": "police",
+        "venue": "police",
         "address": "1090 N Charlotte Street",
         "locality": "Lancaster",
         "region": "PA"
@@ -1114,9 +1114,9 @@
       "status": "pass",
       "user": "trescube",
       "type": "dev",
-      "notes": "query+address should also search category",
+      "notes": "venue+address should also search category",
       "in": {
-        "query": "nightlife",
+        "venue": "nightlife",
         "address": "1090 N Charlotte Street",
         "locality": "Lancaster",
         "region": "PA"
@@ -1138,9 +1138,9 @@
       "status": "pass",
       "user": "trescube",
       "type": "dev",
-      "notes": "query+street should ignore street",
+      "notes": "venue+street should ignore street",
       "in": {
-        "query": "police",
+        "venue": "police",
         "address": "N Charlotte Street",
         "locality": "Lancaster",
         "region": "PA"
@@ -1162,9 +1162,9 @@
       "status": "pass",
       "user": "trescube",
       "type": "dev",
-      "notes": "non-existent query+address should fallback to address",
+      "notes": "non-existent venue+address should fallback to address",
       "in": {
-        "query": "unsupported query",
+        "venue": "unsupported venue",
         "address": "1090 N Charlotte Street",
         "locality": "Lancaster",
         "region": "PA"
@@ -1187,9 +1187,9 @@
       "status": "pass",
       "user": "trescube",
       "type": "dev",
-      "notes": "non-existent query+street should fallback to street",
+      "notes": "non-existent venue+street should fallback to street",
       "in": {
-        "query": "unsupported query",
+        "venue": "unsupported venue",
         "address": "N Charlotte Street",
         "locality": "Lancaster",
         "region": "PA"
@@ -1211,9 +1211,9 @@
       "status": "pass",
       "user": "trescube",
       "type": "dev",
-      "notes": "non-existent query+locality should fallback to locality",
+      "notes": "non-existent venue+locality should fallback to locality",
       "in": {
-        "query": "unsupported query",
+        "venue": "unsupported venue",
         "locality": "Lancaster",
         "region": "PA"
       },
