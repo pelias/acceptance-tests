@@ -133,11 +133,17 @@
         "text": "424 Clay Ave"
       },
       "expected": {
+        "priorityThresh": 2,
         "properties": [
           {
             "layer": "address",
             "housenumber": "424",
             "street": "Clay Ave"
+          },
+          {
+            "layer": "address",
+            "housenumber": "424",
+            "street": "Clay Avenue"
           }
         ]
       }
