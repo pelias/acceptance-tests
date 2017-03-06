@@ -461,7 +461,7 @@
             "layer": "locality",
             "locality": "Pago Pago",
             "dependency": "American Samoa",
-            "dependency_a": "AS",
+            "dependency_a": "ASM",
             "country": "United States",
             "country_a": "USA"
           }
