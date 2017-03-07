@@ -1,0 +1,353 @@
+{
+  "name": "reverse coarse",
+  "priorityThresh": 1,
+  "endpoint": "reverse",
+  "tests": [
+    {
+      "id": 1,
+      "status": "pass",
+      "user": "trescube",
+      "description": "layers=coarse should search all coarse layers (down to neighbourhood)",
+      "type": "dev",
+      "in": {
+        "point.lat": 40.744260,
+        "point.lon": -73.990400,
+        "layers": "coarse"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "neighbourhood",
+            "neighbourhood": "Flatiron District",
+            "borough": "Manhattan",
+            "locality": "New York",
+            "county": "New York County",
+            "region": "New York",
+            "country": "United States"
+          }
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "status": "pass",
+      "user": "trescube",
+      "description": "layers=coarse should search all coarse layers (includes localadmin)",
+      "type": "dev",
+      "in": {
+        "point.lat": 40.042013,
+        "point.lon": -76.301163,
+        "layers": "coarse"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "neighbourhood",
+            "neighbourhood": "Rossmere",
+            "locality": "Lancaster",
+            "localadmin": "Lancaster",
+            "county": "Lancaster County",
+            "region": "Pennsylvania",
+            "country": "United States"
+          }
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "status": "pass",
+      "user": "trescube",
+      "description": "layers=coarse should search all coarse layers (includes dependency)",
+      "type": "dev",
+      "in": {
+        "point.lat": 18.406523,
+        "point.lon": -66.063914,
+        "layers": "coarse"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "locality",
+            "locality": "San Juan",
+            "county": "Municipio de San Juan",
+            "region": "Puerto Rico",
+            "dependency": "Puerto Rico",
+            "country": "United States"
+          }
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "status": "pass",
+      "user": "trescube",
+      "description": "layers=coarse should search all coarse layers (includes macrocounty/macroregion)",
+      "type": "dev",
+      "in": {
+        "point.lat": 45.525755,
+        "point.lon": 3.70626,
+        "layers": "coarse"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "localadmin",
+            "localadmin": "Saint-Ferreol-Des-Cotes",
+            "county": "Ambert",
+            "macrocounty": "Ambert",
+            "region": "Puy-de-Dôme",
+            "macroregion": "Auvergne",
+            "country": "France"
+          }
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "status": "pass",
+      "user": "trescube",
+      "description": "layers=coarse should return most granular layer, which is county in this case",
+      "type": "dev",
+      "in": {
+        "point.lat": 33.214722,
+        "point.lon": -106.363415,
+        "layers": "coarse"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "county",
+            "county": "Sierra County",
+            "region": "New Mexico",
+            "country": "United States"
+          }
+        ]
+      }
+    },
+
+    {
+      "id": 10,
+      "status": "pass",
+      "user": "trescube",
+      "description": "specified layer should return that layer when found",
+      "type": "dev",
+      "in": {
+        "point.lat": 40.744260,
+        "point.lon": -73.990400,
+        "layers": "neighbourhood"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "neighbourhood",
+            "neighbourhood": "Flatiron District",
+            "borough": "Manhattan",
+            "locality": "New York",
+            "county": "New York County",
+            "region": "New York",
+            "country": "United States"
+          }
+        ]
+      }
+    },
+    {
+      "id": 11,
+      "status": "pass",
+      "user": "trescube",
+      "description": "more granular results should be ignored when layers don't specify them",
+      "type": "dev",
+      "in": {
+        "point.lat": 40.744260,
+        "point.lon": -73.990400,
+        "layers": "borough"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "borough",
+            "borough": "Manhattan",
+            "locality": "New York",
+            "county": "New York County",
+            "region": "New York",
+            "country": "United States"
+          }
+        ]
+      }
+    },
+    {
+      "id": 12,
+      "status": "pass",
+      "user": "trescube",
+      "description": "more granular results should be ignored when layers don't specify them",
+      "type": "dev",
+      "in": {
+        "point.lat": 40.744260,
+        "point.lon": -73.990400,
+        "layers": "locality"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "locality",
+            "locality": "New York",
+            "county": "New York County",
+            "region": "New York",
+            "country": "United States"
+          }
+        ]
+      }
+    },
+    {
+      "id": 13,
+      "status": "pass",
+      "user": "trescube",
+      "description": "more granular results should be ignored when layers don't specify them",
+      "type": "dev",
+      "in": {
+        "point.lat": 40.042013,
+        "point.lon": -76.301163,
+        "layers": "localadmin"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "localadmin",
+            "localadmin": "Lancaster",
+            "county": "Lancaster County",
+            "region": "Pennsylvania",
+            "country": "United States"
+          }
+        ]
+      }
+    },
+    {
+      "id": 14,
+      "status": "pass",
+      "user": "trescube",
+      "description": "more granular results should be ignored when layers don't specify them",
+      "type": "dev",
+      "in": {
+        "point.lat": 40.744260,
+        "point.lon": -73.990400,
+        "layers": "county"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "county",
+            "county": "New York County",
+            "region": "New York",
+            "country": "United States"
+          }
+        ]
+      }
+    },
+    {
+      "id": 15,
+      "status": "pass",
+      "user": "trescube",
+      "description": "more granular results should be ignored when layers don't specify them",
+      "type": "dev",
+      "in": {
+        "point.lat": 45.525755,
+        "point.lon": 3.70626,
+        "layers": "macrocounty"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "macrocounty",
+            "macrocounty": "Ambert",
+            "region": "Puy-de-Dôme",
+            "macroregion": "Auvergne",
+            "country": "France"
+          }
+        ]
+      }
+    },
+    {
+      "id": 16,
+      "status": "pass",
+      "user": "trescube",
+      "description": "more granular results should be ignored when layers don't specify them",
+      "type": "dev",
+      "in": {
+        "point.lat": 40.744260,
+        "point.lon": -73.990400,
+        "layers": "region"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "region",
+            "region": "New York",
+            "country": "United States"
+          }
+        ]
+      }
+    },
+    {
+      "id": 17,
+      "status": "pass",
+      "user": "trescube",
+      "description": "more granular results should be ignored when layers don't specify them",
+      "type": "dev",
+      "in": {
+        "point.lat": 45.525755,
+        "point.lon": 3.70626,
+        "layers": "macroregion"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "macroregion",
+            "macroregion": "Auvergne",
+            "country": "France"
+          }
+        ]
+      }
+    },
+    {
+      "id": 18,
+      "status": "pass",
+      "user": "trescube",
+      "description": "more granular results should be ignored when layers don't specify them",
+      "type": "dev",
+      "in": {
+        "point.lat": 18.406523,
+        "point.lon": -66.063914,
+        "layers": "dependency"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "dependency",
+            "dependency": "Puerto Rico",
+            "country": "United States"
+          }
+        ]
+      }
+    },
+    {
+      "id": 19,
+      "status": "pass",
+      "user": "trescube",
+      "description": "more granular results should be ignored when layers don't specify them",
+      "type": "dev",
+      "in": {
+        "point.lat": 40.744260,
+        "point.lon": -73.990400,
+        "layers": "country"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "country",
+            "country": "United States"
+          }
+        ]
+      }
+    }
+
+  ]
+}
