@@ -16,13 +16,13 @@
       "user": "dianashk",
       "endpoint": "search",
       "in": {
-        "text": "30 w 26th street, new york"
+        "text": "1 Main St, Richlandtown, PA"
       },
       "expected": {
         "properties": [
           {
-            "name": "30 West 26th Street",
-            "region_a": "NY"
+            "name": "1 Main St",
+            "region_a": "PA"
           }
         ]
       }

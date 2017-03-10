@@ -33,11 +33,19 @@
         "text": "1705 P St NW, Washington, district of columbia"
       },
       "expected": {
+        "priorityThresh": 2,
         "properties": [
           {
             "layer": "address",
             "housenumber": "1705",
             "street": "P Street Nw",
+            "locality": "Washington",
+            "region": "District of Columbia"
+          },
+          {
+            "layer": "address",
+            "housenumber": "1705",
+            "street": "P Street Northwest",
             "locality": "Washington",
             "region": "District of Columbia"
           }
