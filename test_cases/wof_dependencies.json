@@ -84,7 +84,7 @@
             "layer": "dependency",
             "name": "Puerto Rico",
             "dependency": "Puerto Rico",
-            "dependency_a": "PR",
+            "dependency_a": "PRI",
             "country": "United States",
             "country_a": "USA"
           }
@@ -107,7 +107,7 @@
             "layer": "dependency",
             "name": "American Samoa",
             "dependency": "American Samoa",
-            "dependency_a": "AS",
+            "dependency_a": "ASM",
             "country": "United States",
             "country_a": "USA"
           }
