@@ -15,16 +15,16 @@
       "user": "dianashk",
       "endpoint": "nearby",
       "in": {
-        "point.lon": -73.977234,
-        "point.lat": 40.752601,
+        "point.lon": -74.937712,
+        "point.lat": 40.235771,
         "boundary.circle.radius": 10,
-        "categories": "transport"
+        "categories": "food:pizza"
       },
       "expected": {
         "properties": [
           {
-            "name": "Grand Central Terminal",
-            "region_a": "NY"
+            "name": "Brother's pizza",
+            "region_a": "PA"
           }
         ]
       }
@@ -35,19 +35,20 @@
       "user": "dianashk",
       "endpoint": "nearby",
       "in": {
-        "point.lon": -73.977234,
-        "point.lat": 40.752601,
-        "boundary.rect.min_lat": 40.7,
-        "boundary.rect.min_lon": -74.0,
-        "boundary.rect.max_lat": 40.8,
-        "boundary.rect.max_lon": -73.0,
-        "categories": "transport,entertainment"
+        "point.lon": -74.937712,
+        "point.lat": 40.235771,
+        "boundary.rect.min_lat": 40.235974,
+        "boundary.rect.min_lon": -74.937158,
+        "boundary.rect.max_lat": 40.228095,
+        "boundary.rect.max_lon": -74.944906,
+        "categories": "finance"
       },
       "expected": {
         "properties": [
           {
-            "name": "Grand Central Terminal",
-            "region_a": "NY"
+            "name": "Wells Fargo",
+            "localadmin": "Newtown",
+            "region_a": "PA"
           }
         ]
       }
@@ -83,19 +84,20 @@
       "user": "dianashk",
       "endpoint": "nearby",
       "in": {
-        "point.lon": -73.977234,
-        "point.lat": 40.752601,
-        "boundary.rect.min_lat": 40.7,
-        "boundary.rect.min_lon": -74.0,
-        "boundary.rect.max_lat": 40.8,
-        "boundary.rect.max_lon": -73.0,
-        "categories": "transport,entertainment"
+        "point.lon": -74.937712,
+        "point.lat": 40.235771,
+        "boundary.rect.min_lat": 40.235974,
+        "boundary.rect.min_lon": -74.937158,
+        "boundary.rect.max_lat": 40.228095,
+        "boundary.rect.max_lon": -74.944906,
+        "categories": "finance"
       },
       "expected": {
         "properties": [
           {
-            "name": "Grand Central Terminal",
-            "region_a": "NY"
+            "name": "Wells Fargo",
+            "localadmin": "Newtown",
+            "region_a": "PA"
           }
         ]
       }
