@@ -12,6 +12,7 @@
   "author": "mapzen",
   "main": "index.js",
   "scripts": {
+    "config": "node -e \"console.log(JSON.stringify(require( 'pelias-config' ).generate(), null, 2))\"",
     "test": "./node_modules/pelias-fuzzy-tester/bin/fuzzy-tester",
     "lint": "jshint .",
     "validate": "npm ls"
