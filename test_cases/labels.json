@@ -369,7 +369,7 @@
     },
     {
       "id": 24,
-      "status": "fail",
+      "status": "pass",
       "description": "Washington, D.C. venues should have District of Columbia abbreviation",
       "issue": "https://github.com/pelias/labels/issues/14",
       "user": "julian",
@@ -379,7 +379,7 @@
       "expected": {
         "properties": [
           {
-            "label": "National Air and Space Museum, Washington, D.C., USA"
+            "label": "National Air and Space Museum, Washington, DC, USA"
           }
         ]
       }
