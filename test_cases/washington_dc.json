@@ -4,7 +4,7 @@
   "tests": [
     {
       "id": 1,
-      "status": "fail",
+      "status": "pass",
       "user": "julian",
       "description": "address searches in washington DC should work when 'district of columbia' is abbreviated",
       "issue": "https://github.com/pelias/pelias/issues/509",
@@ -12,11 +12,19 @@
         "text": "1705 P St NW, Washington, dc"
       },
       "expected": {
+        "priorityThresh": 2,
         "properties": [
           {
             "layer": "address",
             "housenumber": "1705",
             "street": "P Street Nw",
+            "locality": "Washington",
+            "region": "District of Columbia"
+          },
+          {
+            "layer": "address",
+            "housenumber": "1705",
+            "street": "P Street Northwest",
             "locality": "Washington",
             "region": "District of Columbia"
           }
