@@ -1,14 +1,15 @@
 {
-  "name": "search_postalcodes",
-  "notes": "For testing postalcode searches",
+  "name": "structured_postalcodes",
+  "notes": "For testing postalcode structured searches",
   "priorityThresh": 1,
+  "endpoint": "search/structured",
   "tests": [
     {
-      "id": "searchpostal-1",
+      "id": "structuredpostal-1",
       "status": "pass",
       "user": "diana",
       "in": {
-        "text": "90210"
+        "postalcode": "90210"
       },
       "expected": {
         "properties": [
@@ -22,11 +23,11 @@
       }
     },
     {
-      "id": "searchpostal-2",
+      "id": "structuredpostal-2",
       "status": "pass",
       "user": "diana",
       "in": {
-        "text": "LA1 1DL"
+        "postalcode": "LA1 1DL"
       },
       "expected": {
         "properties": [
@@ -40,36 +41,13 @@
       }
     },
     {
-      "id": "searchpostal-3",
-      "status": "pass",
-      "user": "diana",
-      "in": {
-        "text": "M2M 1C8"
-      },
-      "expected": {
-        "properties": [
-          {
-            "name": "M2M 1C8",
-            "postalcode": "M2M 1C8",
-            "postalcode_gid": "whosonfirst:postalcode:521433719",
-            "confidence": 1,
-            "match_type": "exact",
-            "accuracy": "centroid",
-            "country": "Canada",
-            "region": "Ontario",
-            "locality": "Toronto",
-            "label": "M2M 1C8, Toronto, ON, Canada"
-          }
-        ]
-      }
-    },
-    {
-      "id": "searchpostal-4",
+      "id": "structuredpostal-3",
       "status": "pass",
       "user": "diana",
       "description": "fallback to postalcode when city is not found",
       "in": {
-        "text": "not-an-address, 90210"
+        "address": "not-an-address",
+        "postalcode": "90210"
       },
       "expected": {
         "properties": [
