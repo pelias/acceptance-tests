@@ -15,8 +15,7 @@
           {
             "layer": "locality",
             "name": "New York",
-            "locality": "New York",
-            "county": "Richmond County",
+            "locality": "New York",            
             "region": "New York",
             "region_a": "NY",
             "country": "United States",
