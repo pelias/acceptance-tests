@@ -1,10 +1,9 @@
 language: node_js
 before_script:
-    - npm prune
-    - 'echo "{ \"mapzen\": { \"api_key\": { \"search.mapzen.com\": \"$API_KEY\" } } }" > ~/pelias.json'
+  - npm prune
+  - >-
+    echo "{ \"mapzen\": { \"api_key\": { \"search.mapzen.com\": \"$API_KEY\" } }
+    }" > ~/pelias.json
 node_js:
   - 6
 sudo: false
-cache:
-  directories:
-    - node_modules
