@@ -1,5 +1,5 @@
 {
-  "name": "autocomplete street centroids",
+  "name": "search street centroids",
   "priorityThresh": 1,
   "endpoint": "search",
   "tests": [
