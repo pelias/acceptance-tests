@@ -333,13 +333,15 @@
       "status": "pass",
       "user": "trescube",
       "type": "dev",
-      "notes": "borough",
+      "notes": "tests borough. priorityThresh can be removed when geonames records are deduped properly or removed",
+      "issue": "ttps://github.com/pelias/pelias/issues/322",
       "in": {
         "borough": "Manhattan",
         "locality": "New York",
         "region": "NY"
       },
       "expected": {
+        "priorityThresh": 2,
         "properties": [
           {
             "layer": "borough",
