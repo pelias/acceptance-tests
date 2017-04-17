@@ -5,9 +5,10 @@
   "tests": [
     {
       "id": "1",
-      "status": "pass",
+      "status": "fail",
       "user": "diana",
       "description": "geonames ids in admin hierarchy must not be misrepresented as wof ids",
+      "issue": "https://github.com/pelias/pelias/issues/539",
       "in": {
         "size": 1,
         "sources": "geonames",
