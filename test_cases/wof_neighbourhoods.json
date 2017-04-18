@@ -7,14 +7,14 @@
       "status": "pass",
       "user": "Stephen",
       "in": {
-        "text": "Weeksville, Brooklyn, New York",
+        "text": "Crown Heights, Brooklyn, New York",
         "sources": "wof"
       },
       "expected": {
         "properties": [
           {
             "layer": "neighbourhood",
-            "name": "Weeksville",
+            "name": "Crown Heights",
             "locality": "New York",
             "borough": "Brooklyn",
             "county": "Kings County",
