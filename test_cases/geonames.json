@@ -1,0 +1,34 @@
+{
+  "name": "Geonames Awkwardness",
+  "description": "Tests intended to highlight some of the finer points of geonames data",
+  "priorityThresh": 1,
+  "tests": [
+    {
+      "id": "1",
+      "status": "fail",
+      "user": "diana",
+      "description": "geonames ids in admin hierarchy must not be misrepresented as wof ids",
+      "issue": "https://github.com/pelias/pelias/issues/539",
+      "in": {
+        "size": 1,
+        "sources": "geonames",
+        "text": "Happy Valley, OR"
+      },
+      "expected": {
+        "properties": [
+          {
+            "gid": "geonames:locality:5730183",
+            "locality_gid": "geonames:locality:5730183"
+          }
+        ]
+      },
+      "unexpected": {
+        "properties": [
+          {
+            "locality_gid": "whosonfirst:locality:5730183"
+          }
+        ]
+      }
+    }
+  ]
+}
