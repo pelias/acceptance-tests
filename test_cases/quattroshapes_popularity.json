@@ -38,8 +38,11 @@
     {
       "id": "1-1",
       "user": "sevko",
-      "status": "pass",
-      "issue": "https://github.com/pelias/pelias/issues/294",
+      "status": "fail",
+      "issue": [
+        "https://github.com/pelias/pelias/issues/548",
+        "https://github.com/pelias/pelias/issues/294"
+      ],
       "type": "dev",
       "in": {
         "layers": "coarse",
@@ -125,7 +128,8 @@
     {
       "id": "3-1",
       "user": "sevko",
-      "status": "pass",
+      "status": "fail",
+      "issue": "https://github.com/pelias/pelias/issues/548",
       "type": "dev",
       "in": {
         "layers": "coarse",
