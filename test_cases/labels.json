@@ -86,6 +86,7 @@
         "text": "North West, Singapore"
       },
       "expected": {
+        "priorityThresh": 1,
         "properties": [{
           "label": "North West, Singapore"
         }]
