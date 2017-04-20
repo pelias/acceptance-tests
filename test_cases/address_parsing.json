@@ -319,6 +319,32 @@
           }
         ]
       }
+    },
+    {
+      "id": 11,
+      "status": "pass",
+      "issue": "https://github.com/pelias/pelias/issues/440",
+      "user": "diana",
+      "in": {
+        "text": "301 Commons Park S, Stamford, CT 06902"
+      },
+      "expected": {
+        "properties": [
+          {
+            "housenumber": "301",
+            "street": "Commons Park South",
+            "postalcode": "06902",
+            "confidence": 1,
+            "match_type": "exact",
+            "accuracy": "point",
+            "region": "Connecticut",
+            "region_a": "CT",
+            "localadmin": "Stamford",
+            "locality": "Stamford",
+            "label": "301 Commons Park South, Stamford, CT, USA"
+          }
+        ]
+      }
     }
   ]
 }
