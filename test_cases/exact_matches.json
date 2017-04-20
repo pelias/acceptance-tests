@@ -97,7 +97,7 @@
     },
     {
       "id": 8,
-      "status": "fail",
+      "status": "pass",
       "user": "sevko",
       "type": "dev",
       "description": "libpostal id's `921` as postcode",
