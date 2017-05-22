@@ -466,6 +466,7 @@
       "type": "dev",
       "notes": "ambiguous localadmin",
       "in": {
+        "sources": "wof",
         "locality": "Zickrick"
       },
       "expected": {
@@ -488,6 +489,7 @@
       "type": "dev",
       "notes": "ambiguous localadmin",
       "in": {
+        "sources": "wof",
         "locality": "Zumbehl"
       },
       "expected": {
@@ -510,6 +512,7 @@
       "type": "dev",
       "notes": "unambiguous localadmin by country",
       "in": {
+        "sources": "wof",
         "locality": "Aastad",
         "country": "United States"
       },
@@ -535,6 +538,7 @@
       "type": "dev",
       "notes": "unambiguous localadmin by state",
       "in": {
+        "sources": "wof",
         "locality": "Bloominggrove",
         "region": "Ohio"
       },
