@@ -13,7 +13,7 @@
       "expected": {
         "properties": [
           {
-            "county": "Cuauhtémoc",
+            "county": "Benito Juárez",
             "region": "Ciudad de México",
             "name": "Mexico City",
             "country": "Mexico"
@@ -33,10 +33,10 @@
       "expected": {
         "properties": [
           {
-            "name": "Pärnu",
+            "name": "Parnu",
             "region": "Pärnumaa",
-            "locality": "Pärnu",
-            "label": "Pärnu, Estonia",
+            "locality": "Parnu",
+            "label": "Parnu, Estonia",
             "country": "Estonia"
           }
         ]
