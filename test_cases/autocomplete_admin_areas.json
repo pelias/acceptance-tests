@@ -29,7 +29,7 @@
         "text": "broo"
       },
       "expected": {
-        "priorityThresh": 1,
+        "priorityThresh": 5,
         "properties": [
           {
             "label": "Brooklyn, New York, NY, USA"
@@ -47,7 +47,7 @@
         "text": "brook"
       },
       "expected": {
-        "priorityThresh": 1,
+        "priorityThresh": 5,
         "properties": [
           {
             "label": "Brooklyn, New York, NY, USA"
@@ -65,7 +65,7 @@
         "text": "brookl"
       },
       "expected": {
-        "priorityThresh": 1,
+        "priorityThresh": 5,
         "properties": [
           {
             "label": "Brooklyn, New York, NY, USA"
@@ -83,7 +83,7 @@
         "text": "brookly"
       },
       "expected": {
-        "priorityThresh": 1,
+        "priorityThresh": 5,
         "properties": [
           {
             "label": "Brooklyn, New York, NY, USA"
@@ -101,7 +101,7 @@
         "text": "brooklyn"
       },
       "expected": {
-        "priorityThresh": 1,
+        "priorityThresh": 5,
         "properties": [
           {
             "label": "Brooklyn, New York, NY, USA"
