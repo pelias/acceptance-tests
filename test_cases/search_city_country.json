@@ -439,12 +439,13 @@
       "type": "dev",
       "notes": "Bermuda is a dependency",
       "in": {
+        "layers": "locality",
         "text": "hamilton, bermuda"
       },
       "expected": {
         "properties": [
           {
-            "layer": "locality",
+            "gid": "whosonfirst:locality:890442097",
             "locality": "Hamilton",
             "dependency": "Bermuda",
             "country": "United Kingdom",
