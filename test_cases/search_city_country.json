@@ -147,6 +147,7 @@
         "text": "maseru, lesotho"
       },
       "expected": {
+        "priorityThresh": 2,
         "properties": [
           {
             "layer": "locality",
