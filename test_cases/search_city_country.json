@@ -545,10 +545,12 @@
       "status": "pass",
       "user": "trescube",
       "type": "dev",
+      "notes": "region altname currently ranks higher than mid-size locality",
       "in": {
         "text": "Vientiane, laos"
       },
       "expected": {
+        "priorityThresh": 2,
         "properties": [
           {
             "layer": "locality",
