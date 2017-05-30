@@ -147,10 +147,10 @@
         "properties": [
           {
             "layer": "locality",
-            "name": "Città del Vaticano",
-            "locality": "Città del Vaticano",
+            "name": "Vatican City",
+            "locality": "Vatican City",
             "region": "Vatican",
-            "country": "Vatican",
+            "country": "Vatican City",
             "country_a": "VAT"
           }
         ]
