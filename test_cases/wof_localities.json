@@ -60,8 +60,8 @@
         "properties": [
           {
             "layer": "locality",
-            "name": "Truth or Consequences",
-            "locality": "Truth or Consequences",
+            "name": "Truth Or Consequences",
+            "locality": "Truth Or Consequences",
             "county": "Sierra County",
             "region": "New Mexico",
             "region_a": "NM",
