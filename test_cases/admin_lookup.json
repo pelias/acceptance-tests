@@ -123,15 +123,15 @@
         "text": "hoboken"
       },
       "expected": {
+        "priorityThresh": 2,
         "properties": [
           {
-            "name": "West Hoboken",
-            "country_a": "USA",
-            "country": "United States",
-            "region": "New Jersey",
-            "region_a": "NJ",
-            "county": "Hudson County",
-            "label": "West Hoboken, Hoboken, NJ, USA"
+            "gid": "whosonfirst:neighbourhood:85801273",
+            "name": "Hoboken"
+          },
+          {
+            "gid": "whosonfirst:neighbourhood:420509993",
+            "name": "Hoboken"
           }
         ]
       }
