@@ -483,12 +483,13 @@
       "type": "dev",
       "notes": "Anguilla is a dependency",
       "in": {
+        "layers": "locality",
         "text": "the valley, Anguilla"
       },
       "expected": {
         "properties": [
           {
-            "layer": "locality",
+            "gid": "whosonfirst:locality:890441875",
             "locality": "The Valley",
             "dependency": "Anguilla",
             "country": "United Kingdom",
