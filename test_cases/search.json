@@ -360,7 +360,7 @@
     },
     {
       "id": 11,
-      "status": "fail",
+      "status": "pass",
       "description": "SoHo was accidentally renamed Soho, should be fixed soon",
       "issue": "https://github.com/whosonfirst-data/whosonfirst-data/issues/744",
       "type": "dev",
