@@ -202,10 +202,12 @@
       "status": "pass",
       "user": "trescube",
       "type": "dev",
+      "notes": "region currently ranks higher than mid-size locality",
       "in": {
         "text": "toledo, spain"
       },
       "expected": {
+        "priorityThresh": 2,
         "properties": [
           {
             "layer": "locality",
