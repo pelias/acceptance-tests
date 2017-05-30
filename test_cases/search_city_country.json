@@ -345,8 +345,8 @@
       "expected": {
         "properties": [
           {
-            "layer": "locality",
-            "locality": "Sendai",
+            "gid": "whosonfirst:locality:102031919",
+            "locality": "Sendai-shi",
             "country": "Japan",
             "country_a": "JPN"
           }
