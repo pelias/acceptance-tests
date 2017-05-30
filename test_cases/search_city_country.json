@@ -32,6 +32,7 @@
         "text": "Tena ecuador"
       },
       "expected": {
+        "priorityThresh": 2,
         "properties": [
           {
             "layer": "locality",
