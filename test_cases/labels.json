@@ -302,12 +302,13 @@
       "in": {
         "text": "Tórshavn faroe islands",
         "sources": "wof",
-        "layers": "locality"
+        "layers": "locality",
+        "lang": "da"
       },
       "expected": {
         "properties": [
           {
-            "label": "Tórshavn, Faroe Islands"
+            "label": "Tórshavn, Færøerne"
           }
         ]
       }
