@@ -524,10 +524,12 @@
       "status": "pass",
       "user": "trescube",
       "type": "dev",
+      "notes": "region currently ranks higher than mid-size locality",
       "in": {
         "text": "phuket tha"
       },
       "expected": {
+        "priorityThresh": 2,
         "properties": [
           {
             "layer": "locality",
