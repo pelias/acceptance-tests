@@ -262,6 +262,7 @@
       "user": "trescube",
       "type": "dev",
       "in": {
+        "lang": "pl",
         "text": "Poznań, poland"
       },
       "expected": {
@@ -269,7 +270,7 @@
           {
             "layer": "locality",
             "locality": "Poznań",
-            "country": "Poland",
+            "country": "Polska",
             "country_a": "POL"
           }
         ]
