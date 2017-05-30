@@ -384,7 +384,7 @@
         "properties": [
           {
             "layer": "locality",
-            "locality": "Truth or Consequences",
+            "locality": "Truth Or Consequences",
             "region_a": "NM",
             "country": "United States",
             "country_a": "USA"
