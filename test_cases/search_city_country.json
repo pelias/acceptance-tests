@@ -2,7 +2,7 @@
   "name": "search city/country",
   "priorityThresh": 1,
   "endpoint": "search",
-  "notes": "these tests test functionality to match libpostal city/country analysis",
+  "notes": "these tests test functionality to match libpostal city/country analysis, these can be moved to a general placeholder test area",
   "tests": [
     {
       "id": 1,
