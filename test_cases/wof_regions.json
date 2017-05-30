@@ -123,11 +123,8 @@
       "expected": {
         "properties": [
           {
-            "layer": "region",
-            "name": "Centar župa",
-            "region": "Centar župa",
-            "country": "Macedonia",
-            "country_a": "MKD"
+            "gid": "whosonfirst:region:85674385",
+            "name": "Centar Zupa Municipality"
           }
         ]
       }
