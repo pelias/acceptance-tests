@@ -282,13 +282,14 @@
       "user": "trescube",
       "type": "dev",
       "in": {
-        "text": "Apytalaukis, lithuania"
+        "text": "Akmenė, lithuania"
       },
       "expected": {
+        "priorityThresh": 2,
         "properties": [
           {
             "layer": "locality",
-            "locality": "Apytalaukis",
+            "locality": "Akmenė",
             "country": "Lithuania",
             "country_a": "LTU"
           }
