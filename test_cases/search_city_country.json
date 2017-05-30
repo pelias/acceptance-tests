@@ -10,13 +10,13 @@
       "user": "trescube",
       "type": "dev",
       "in": {
-        "text": "macas ecuador"
+        "text": "Palora ecuador"
       },
       "expected": {
         "properties": [
           {
-            "layer": "locality",
-            "locality": "Macas",
+            "gid": "whosonfirst:locality:421177865",
+            "locality": "Palora",
             "country": "Ecuador",
             "country_a": "ECU"
           }
