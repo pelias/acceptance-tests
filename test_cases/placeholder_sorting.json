@@ -328,6 +328,23 @@
       }
     },
     {
+      "id": 502,
+      "status": "pass",
+      "endpoint": "search",
+      "description": "Scotland, GB should outrank counties and cities",
+      "in": {
+        "text": "Scotland"
+      },
+      "expected": {
+        "properties": [
+          {
+            "gid": "whosonfirst:macroregion:404227471",
+            "name": "Scotland"
+          }
+        ]
+      }
+    },
+    {
       "id": 600,
       "status": "pass",
       "endpoint": "search",
