@@ -110,40 +110,6 @@
       "id": 102,
       "status": "pass",
       "endpoint": "search",
-      "description": "continent should rank above everything else",
-      "in": {
-        "text": "antarctica"
-      },
-      "expected": {
-        "properties": [
-          {
-            "gid": "whosonfirst:continent:102191579",
-            "name": "Antarctica"
-          }
-        ]
-      }
-    },
-    {
-      "id": 103,
-      "status": "pass",
-      "endpoint": "search",
-      "description": "continent should rank above everything else",
-      "in": {
-        "text": "antarctica"
-      },
-      "expected": {
-        "properties": [
-          {
-            "gid": "whosonfirst:continent:102191579",
-            "name": "Antarctica"
-          }
-        ]
-      }
-    },
-    {
-      "id": 104,
-      "status": "pass",
-      "endpoint": "search",
       "description": "alt-name continent should rank above everything else",
       "in": {
         "text": "Europa"
