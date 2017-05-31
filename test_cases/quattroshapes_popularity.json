@@ -38,7 +38,7 @@
     {
       "id": "1-1",
       "user": "sevko",
-      "status": "fail",
+      "status": "pass",
       "issue": [
         "https://github.com/pelias/pelias/issues/548",
         "https://github.com/pelias/pelias/issues/294"
@@ -128,7 +128,7 @@
     {
       "id": "3-1",
       "user": "sevko",
-      "status": "fail",
+      "status": "pass",
       "issue": "https://github.com/pelias/pelias/issues/548",
       "type": "dev",
       "in": {

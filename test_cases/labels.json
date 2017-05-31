@@ -44,8 +44,8 @@
     },
     {
       "id": 4,
-      "status": "fail",
-      "description": "This is an odd test so it's not a big shame that it's not passing for now.",
+      "status": "pass",
+      "description": "placeholder matches both California (USA region) and Canada (country)",
       "user": "missinglink",
       "in": {
         "text": "California, CA"
@@ -71,16 +71,12 @@
     },
     {
       "id": 6,
-      "status": "fail",
+      "status": "pass",
       "issue": [
         "https://github.com/pelias/pelias/issues/294",
         "https://github.com/pelias/pelias/issues/428"
       ],
-      "description": [
-        "The WOF record expected in the results has no popularity/population data,",
-        "so there is nothing to help boost it to the top, especially since we don't boost admin matching enough.",
-        "libpostal doesn't recognize this as a region"
-      ],
+      "description": "libpostal/placeholder get this now",
       "user": "missinglink",
       "in": {
         "text": "North West, Singapore"

@@ -544,7 +544,7 @@
       "description": "Dundee has 0 population: https://github.com/pelias/pelias/issues/526",
       "priorityThresh": 10,
       "in": {
-        "text": "Dundee, Scotland"
+        "text": "Dundee"
       },
       "expected": {
         "properties": [

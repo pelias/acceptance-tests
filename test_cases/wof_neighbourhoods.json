@@ -28,7 +28,7 @@
     },
     {
       "id": 2,
-      "status": "fail",
+      "status": "pass",
       "issue": "https://github.com/pelias/pelias/issues/548",
       "user": "Stephen",
       "in": {
