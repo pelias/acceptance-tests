@@ -467,6 +467,23 @@
       "id": 800,
       "status": "pass",
       "endpoint": "search",
+      "description": "very popular neighbourhood should rank higher than mid-size city",
+      "in": {
+        "text": "Chelsea"
+      },
+      "expected": {
+        "properties": [
+          {
+            "gid": "whosonfirst:neighbourhood:85810589",
+            "name": "Chelsea"
+          }
+        ]
+      }
+    },
+    {
+      "id": 900,
+      "status": "pass",
+      "endpoint": "search",
       "description": "mid-size city should rank higher than county",
       "in": {
         "text": "Socorro, NM"
@@ -481,7 +498,7 @@
       }
     },
     {
-      "id": 801,
+      "id": 901,
       "status": "pass",
       "endpoint": "search",
       "description": "mid-size cities should be ordered by descending population",
@@ -498,7 +515,7 @@
       }
     },
     {
-      "id": 802,
+      "id": 902,
       "status": "pass",
       "endpoint": "search",
       "description": "mid-size cities should be ordered by distance to center point",
@@ -517,7 +534,7 @@
       }
     },
     {
-      "id": 900,
+      "id": 1000,
       "status": "pass",
       "endpoint": "search",
       "description": "macrocounty",
@@ -534,7 +551,7 @@
       }
     },
     {
-      "id": 1000,
+      "id": 1100,
       "status": "pass",
       "endpoint": "search",
       "description": "county",
@@ -551,7 +568,7 @@
       }
     },
     {
-      "id": 1001,
+      "id": 1101,
       "status": "pass",
       "endpoint": "search",
       "description": "county",
@@ -568,7 +585,7 @@
       }
     },
     {
-      "id": 1100,
+      "id": 1200,
       "status": "pass",
       "endpoint": "search",
       "description": "macrohood",
@@ -585,7 +602,7 @@
       }
     },
     {
-      "id": 1100,
+      "id": 1201,
       "status": "pass",
       "endpoint": "search",
       "description": "macrohood",
@@ -602,7 +619,7 @@
       }
     },
     {
-      "id": 1101,
+      "id": 1201,
       "status": "pass",
       "endpoint": "search",
       "description": "macrohood > popular neighbourhood",
@@ -619,7 +636,7 @@
       }
     },
     {
-      "id": 1200,
+      "id": 1300,
       "status": "pass",
       "endpoint": "search",
       "description": "popular neighbourhood > non-popular neighbourhood",
@@ -636,7 +653,7 @@
       }
     },
     {
-      "id": 1201,
+      "id": 1301,
       "status": "pass",
       "endpoint": "search",
       "description": "popular neighbourhood > small cities",
@@ -653,7 +670,7 @@
       }
     },
     {
-      "id": 1202,
+      "id": 1302,
       "status": "pass",
       "endpoint": "search",
       "description": "popular neighbourhood > small cities",
@@ -670,7 +687,7 @@
       }
     },
     {
-      "id": 1203,
+      "id": 1303,
       "status": "pass",
       "endpoint": "search",
       "description": "unambiguous neighbourhood in Paris",
@@ -687,7 +704,7 @@
       }
     },
     {
-      "id": 1204,
+      "id": 1304,
       "status": "pass",
       "endpoint": "search",
       "description": "popular neighbourhood > small city > non-popular neighbourhood",
@@ -704,7 +721,7 @@
       }
     },
     {
-      "id": 1300,
+      "id": 1400,
       "status": "pass",
       "endpoint": "search",
       "description": "small cities should be found and ordered by population descending",
@@ -728,7 +745,7 @@
       }
     },
     {
-      "id": 1400,
+      "id": 1500,
       "status": "pass",
       "endpoint": "search",
       "description": "non-popular neighbourhoods should be found",
@@ -744,7 +761,5 @@
         ]
       }
     }
-
-
   ]
 }
