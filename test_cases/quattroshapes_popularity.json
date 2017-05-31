@@ -14,7 +14,7 @@
       "issue": "https://github.com/pelias/pelias/issues/300",
       "type": "dev",
       "in": {
-        "layers": "coarse",
+        "layers": "neighbourhood",
         "text": "chelsea"
       },
       "expected": {
