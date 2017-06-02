@@ -79,19 +79,15 @@
         "text": "new york, new york"
       },
       "expected": {
-        "priorityThresh": 6,
+        "priorityThresh": 2,
         "properties": [
           {
-            "name": "New York",
-            "layer": "locality",
-            "region_a": "NY",
-            "country_a": "USA"
+            "gid": "whosonfirst:locality:85977539",
+            "name": "New York"
           },
           {
-            "name": "New York City",
-            "layer": "locality",
-            "region_a": "NY",
-            "country_a": "USA"
+            "gid": "whosonfirst:county:102081863",
+            "name": "New York County"
           }
         ]
       }
@@ -107,10 +103,8 @@
       "expected": {
         "properties": [
           {
-            "name": "New York City",
-            "layer": "locality",
-            "region_a": "NY",
-            "country_a": "USA"
+            "gid": "whosonfirst:locality:85977539",
+            "name": "New York"
           }
         ]
       }
@@ -126,10 +120,8 @@
       "expected": {
         "properties": [
           {
-            "name": "New York City",
-            "layer": "locality",
-            "region_a": "NY",
-            "country_a": "USA"
+            "gid": "whosonfirst:locality:85977539",
+            "name": "New York"
           }
         ]
       }
@@ -361,7 +353,6 @@
     {
       "id": 11,
       "status": "pass",
-      "description": "SoHo was accidentally renamed Soho, should be fixed soon",
       "issue": "https://github.com/whosonfirst-data/whosonfirst-data/issues/744",
       "type": "dev",
       "user": "hkrishna",

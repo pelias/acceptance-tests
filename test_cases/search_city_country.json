@@ -2,7 +2,7 @@
   "name": "search city/country",
   "priorityThresh": 1,
   "endpoint": "search",
-  "notes": "these tests test functionality to match libpostal city/country analysis",
+  "notes": "these tests test functionality to match libpostal city/country analysis, these can be moved to a general placeholder test area",
   "tests": [
     {
       "id": 1,
@@ -10,13 +10,13 @@
       "user": "trescube",
       "type": "dev",
       "in": {
-        "text": "macas ecuador"
+        "text": "Palora ecuador"
       },
       "expected": {
         "properties": [
           {
-            "layer": "locality",
-            "locality": "Macas",
+            "gid": "whosonfirst:locality:421177865",
+            "locality": "Palora",
             "country": "Ecuador",
             "country_a": "ECU"
           }
@@ -32,6 +32,7 @@
         "text": "Tena ecuador"
       },
       "expected": {
+        "priorityThresh": 2,
         "properties": [
           {
             "layer": "locality",
@@ -146,6 +147,7 @@
         "text": "maseru, lesotho"
       },
       "expected": {
+        "priorityThresh": 2,
         "properties": [
           {
             "layer": "locality",
@@ -177,9 +179,10 @@
     },
     {
       "id": 10,
-      "status": "pass",
+      "status": "fail",
       "user": "trescube",
       "type": "dev",
+      "notes": "WOF currently lacks 'Cairo' as an altname for the city: https://whosonfirst.mapzen.com/spelunker/id/421174399",
       "in": {
         "text": "Cairo, EGY"
       },
@@ -199,10 +202,12 @@
       "status": "pass",
       "user": "trescube",
       "type": "dev",
+      "notes": "region currently ranks higher than mid-size locality",
       "in": {
         "text": "toledo, spain"
       },
       "expected": {
+        "priorityThresh": 2,
         "properties": [
           {
             "layer": "locality",
@@ -257,6 +262,7 @@
       "user": "trescube",
       "type": "dev",
       "in": {
+        "lang": "pl",
         "text": "Poznań, poland"
       },
       "expected": {
@@ -264,7 +270,7 @@
           {
             "layer": "locality",
             "locality": "Poznań",
-            "country": "Poland",
+            "country": "Polska",
             "country_a": "POL"
           }
         ]
@@ -276,13 +282,14 @@
       "user": "trescube",
       "type": "dev",
       "in": {
-        "text": "Apytalaukis, lithuania"
+        "text": "Akmenė, lithuania"
       },
       "expected": {
+        "priorityThresh": 2,
         "properties": [
           {
             "layer": "locality",
-            "locality": "Apytalaukis",
+            "locality": "Akmenė",
             "country": "Lithuania",
             "country_a": "LTU"
           }
@@ -338,8 +345,8 @@
       "expected": {
         "properties": [
           {
-            "layer": "locality",
-            "locality": "Sendai",
+            "gid": "whosonfirst:locality:102031919",
+            "locality": "Sendai-shi",
             "country": "Japan",
             "country_a": "JPN"
           }
@@ -377,7 +384,7 @@
         "properties": [
           {
             "layer": "locality",
-            "locality": "Truth or Consequences",
+            "locality": "Truth Or Consequences",
             "region_a": "NM",
             "country": "United States",
             "country_a": "USA"
@@ -432,12 +439,13 @@
       "type": "dev",
       "notes": "Bermuda is a dependency",
       "in": {
+        "layers": "locality",
         "text": "hamilton, bermuda"
       },
       "expected": {
         "properties": [
           {
-            "layer": "locality",
+            "gid": "whosonfirst:locality:890442097",
             "locality": "Hamilton",
             "dependency": "Bermuda",
             "country": "United Kingdom",
@@ -475,12 +483,13 @@
       "type": "dev",
       "notes": "Anguilla is a dependency",
       "in": {
+        "layers": "locality",
         "text": "the valley, Anguilla"
       },
       "expected": {
         "properties": [
           {
-            "layer": "locality",
+            "gid": "whosonfirst:locality:890441875",
             "locality": "The Valley",
             "dependency": "Anguilla",
             "country": "United Kingdom",
@@ -515,10 +524,12 @@
       "status": "pass",
       "user": "trescube",
       "type": "dev",
+      "notes": "region currently ranks higher than mid-size locality",
       "in": {
         "text": "phuket tha"
       },
       "expected": {
+        "priorityThresh": 2,
         "properties": [
           {
             "layer": "locality",
@@ -534,10 +545,12 @@
       "status": "pass",
       "user": "trescube",
       "type": "dev",
+      "notes": "region altname currently ranks higher than mid-size locality",
       "in": {
         "text": "Vientiane, laos"
       },
       "expected": {
+        "priorityThresh": 2,
         "properties": [
           {
             "layer": "locality",

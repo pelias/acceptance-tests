@@ -67,7 +67,7 @@
         "text": "brooklyn"
       },
       "expected": {
-        "priorityThresh": 5,
+        "priorityThresh": 4,
         "properties": [
           {
             "name": "Brooklyn",

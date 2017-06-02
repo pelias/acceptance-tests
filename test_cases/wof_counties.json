@@ -79,10 +79,10 @@
     },
     {
       "id": 5,
-      "status": "fail",
+      "status": "pass",
       "issue": "https://github.com/pelias/pelias/issues/548",
       "user": "Stephen",
-      "description": "chosen for diacriticals, should pass again when we switch to placeholder",
+      "description": "works with switch to placeholder",
       "in": {
         "text": "KoÅobrzeski, Poland",
         "sources": "wof"

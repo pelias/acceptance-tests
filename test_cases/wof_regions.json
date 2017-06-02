@@ -123,11 +123,8 @@
       "expected": {
         "properties": [
           {
-            "layer": "region",
-            "name": "Centar župa",
-            "region": "Centar župa",
-            "country": "Macedonia",
-            "country_a": "MKD"
+            "gid": "whosonfirst:region:85674385",
+            "name": "Centar Zupa Municipality"
           }
         ]
       }
@@ -177,9 +174,9 @@
     },
     {
       "id": 9,
-      "status": "pass",
+      "status": "fail",
       "user": "Stephen",
-      "description": "",
+      "description": "fails since placeholder indexes 'Democratic Republic of Congo' but not 'Congo'",
       "in": {
         "text": "Kasaï-Oriental, Congo",
         "sources": "wof"
@@ -187,6 +184,7 @@
       "expected": {
         "properties": [
           {
+            "gid": "whosonfirst:region:85670011",
             "layer": "region",
             "name": "Kasaï-Oriental",
             "region": "Kasaï-Oriental",

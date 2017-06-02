@@ -28,7 +28,7 @@
     },
     {
       "id": 2,
-      "status": "fail",
+      "status": "pass",
       "issue": "https://github.com/pelias/pelias/issues/548",
       "user": "Stephen",
       "in": {
@@ -93,6 +93,7 @@
       "user": "Stephen",
       "in": {
         "text": "９丁目, Japan",
+        "lang": "ja",
         "sources": "wof"
       },
       "expected": {
@@ -100,9 +101,9 @@
           {
             "layer": "neighbourhood",
             "name": "９丁目",
-            "locality": "Hachiōji",
-            "region": "Tokyo",
-            "country": "Japan",
+            "locality": "八王子市",
+            "region": "東京都",
+            "country": "日本",
             "country_a": "JPN"
           }
         ]
