@@ -16,7 +16,7 @@
             "layer": "locality",
             "name": "New York",
             "locality": "New York",
-            "county": "Richmond County",
+            "county": "Kings County",
             "region": "New York",
             "region_a": "NY",
             "country": "United States",
@@ -60,8 +60,8 @@
         "properties": [
           {
             "layer": "locality",
-            "name": "Truth or Consequences",
-            "locality": "Truth or Consequences",
+            "name": "Truth Or Consequences",
+            "locality": "Truth Or Consequences",
             "county": "Sierra County",
             "region": "New Mexico",
             "region_a": "NM",
@@ -147,10 +147,10 @@
         "properties": [
           {
             "layer": "locality",
-            "name": "Città del Vaticano",
-            "locality": "Città del Vaticano",
+            "name": "Vatican City",
+            "locality": "Vatican City",
             "region": "Vatican",
-            "country": "Vatican",
+            "country": "Vatican City",
             "country_a": "VAT"
           }
         ]
