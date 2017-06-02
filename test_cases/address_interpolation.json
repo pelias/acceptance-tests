@@ -31,6 +31,7 @@
       "user": "missinglink",
       "status": "fail",
       "description": "fails when specifying size param",
+      "issue": "https://github.com/pelias/pelias/issues/562",
       "in": {
         "text": "475f west 26th street, new york",
         "size": 1
@@ -79,6 +80,7 @@
       "user": "missinglink",
       "status": "fail",
       "description": "interpolation service not queried when admin info omittted",
+      "issue": "https://github.com/pelias/api/issues/897",
       "in": {
         "text": "257 west 26th street"
       },
