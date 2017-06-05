@@ -347,7 +347,63 @@
           }
         ]
       }
+    },
+    {
+      "id": 20,
+      "status": "pass",
+      "user": "trescube",
+      "description": "address/venue/street not found should fallback to coarse reverse (no layers specified)",
+      "type": "dev",
+      "in": {
+        "point.lat": 34.119423,
+        "point.lon": -106.284351
+      },
+      "expected": {
+        "properties": [
+          {
+            "gid": "whosonfirst:county:102081575",
+            "name": "Socorro County"
+          }
+        ]
+      }
+    },
+    {
+      "id": 21,
+      "status": "pass",
+      "user": "trescube",
+      "description": "address/venue/street not found should fallback to coarse reverse (no layers specified)",
+      "type": "dev",
+      "in": {
+        "point.lat": 57.672717,
+        "point.lon": 36.002802
+      },
+      "expected": {
+        "properties": [
+          {
+            "gid": "whosonfirst:county:1108735021",
+            "name": "Maksatikhinskij"
+          }
+        ]
+      }
+    },
+    {
+      "id": 22,
+      "status": "pass",
+      "user": "trescube",
+      "description": "https://github.com/pelias/pelias/issues/585, should fallback to coarse",
+      "type": "dev",
+      "in": {
+        "point.lat": 38.260674,
+        "point.lon": -8.5448
+      },
+      "expected": {
+        "properties": [
+          {
+            "gid": "whosonfirst:region:85687359",
+            "name": "Setúbal"
+          }
+        ]
+      }
     }
-
   ]
 }
