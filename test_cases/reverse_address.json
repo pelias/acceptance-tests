@@ -76,10 +76,7 @@
       "unexpected": {
         "properties": [
           {
-            "gid": "whosonfirst:locality:101717221"
-          },
-          {
-            "gid": "whosonfirst:localadmin:404487867"
+            "layer": "locality"
           }
         ]
       }
@@ -105,7 +102,7 @@
       "unexpected": {
         "properties": [
           {
-            "gid": "whosonfirst:locality:101717221"
+            "layer": "locality"
           }
         ]
       }
@@ -131,7 +128,7 @@
       "unexpected": {
         "properties": [
           {
-            "gid": "whosonfirst:locality:101717221"
+            "layer": "locality"
           }
         ]
       }
@@ -157,7 +154,7 @@
       "unexpected": {
         "properties": [
           {
-            "gid": "whosonfirst:locality:101717221"
+            "layer": "locality"
           }
         ]
       }
