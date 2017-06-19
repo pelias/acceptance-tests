@@ -62,7 +62,7 @@
     },
     {
       "id": "4",
-      "status": "fail",
+      "status": "pass",
       "endpoint": "reverse",
       "description": "Reverse does not fall back to point-in-polygon for admin areas",
       "issue": [
