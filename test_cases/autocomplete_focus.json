@@ -133,13 +133,20 @@
         "text": "1 madison ave"
       },
       "expected": {
-        "priorityThresh": 1,
+        "priorityThresh": 2,
         "properties": [
           {
-            "name": "1 Madison Avenue",
             "layer": "address",
             "housenumber": "1",
             "street": "Madison Avenue",
+            "region": "New York",
+            "borough": "Manhattan",
+            "locality": "New York"
+          },
+          {
+            "layer": "address",
+            "housenumber": "1",
+            "street": "Madison Ave",
             "region": "New York",
             "borough": "Manhattan",
             "locality": "New York"

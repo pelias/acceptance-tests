@@ -55,12 +55,20 @@
         "text": "24 Rue de Sèvres, 75007 Paris, Fr"
       },
       "expected": {
+        "priorityThresh": 2,
         "properties": [
           {
             "layer": "address",
             "country_a": "FRA",
             "locality": "Paris",
             "street": "Rue de Sèvres",
+            "housenumber": "24"
+          },
+          {
+            "layer": "address",
+            "country_a": "FRA",
+            "locality": "Paris",
+            "street": "Rue De Sevres",
             "housenumber": "24"
           }
         ]
