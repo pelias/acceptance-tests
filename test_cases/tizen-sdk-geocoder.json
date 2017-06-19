@@ -81,12 +81,14 @@
       "endpoint": "reverse",
       "in": {
         "point.lon": -73.989231,
-        "point.lat": 40.744022
+        "point.lat": 40.744022,
+        "layers": "address"
       },
       "expected": {
         "properties": [
           {
-            "name": "9 West 26th Street"
+            "name": "9 West 26th Street",
+            "distance": 0
           }
         ]
       }

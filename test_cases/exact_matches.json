@@ -124,7 +124,12 @@
       "expected": {
         "properties": [
           {
-            "name": "518 3 Street"
+            "name": "518 3rd Street",
+            "locality": "New York"
+          },
+          {
+            "name": "518 3 St",
+            "locality": "New York"
           }
         ]
       }
