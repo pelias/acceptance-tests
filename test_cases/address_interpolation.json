@@ -29,7 +29,7 @@
     {
       "id": "1a",
       "user": "missinglink",
-      "status": "fail",
+      "status": "pass",
       "description": "fails when specifying size param",
       "issue": "https://github.com/pelias/pelias/issues/562",
       "in": {
