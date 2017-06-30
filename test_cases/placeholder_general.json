@@ -76,7 +76,7 @@
     },
     {
       "id": 5,
-      "status": "pass",
+      "status": "fail",
       "endpoint": "search",
       "description": "Fort Hood should be found with full word",
       "in": {
@@ -93,8 +93,26 @@
       }
     },
     {
-      "id": 6,
+      "id": 5.1,
       "status": "pass",
+      "endpoint": "search",
+      "description": "Fort Hood should be found with full word, can be removed when id:5 passes since libpostal/placeholder will both be called",
+      "in": {
+        "text": "Fort Hood, TX",
+        "sources": "wof"
+      },
+      "expected": {
+        "properties": [
+          {
+            "gid": "whosonfirst:locality:101726923",
+            "name": "Fort Hood"
+          }
+        ]
+      }
+    },
+    {
+      "id": 6,
+      "status": "fail",
       "endpoint": "search",
       "description": "Fort Hood should be found with abbreviation",
       "in": {
@@ -105,6 +123,24 @@
           {
             "gid": "whosonfirst:locality:101726923",
             "confidence": 0.6,
+            "name": "Fort Hood"
+          }
+        ]
+      }
+    },
+    {
+      "id": 6.1,
+      "status": "pass",
+      "endpoint": "search",
+      "description": "Fort Hood should be found with abbreviation, can be removed when id:6 passes since libpostal/placeholder will both be called",
+      "in": {
+        "text": "Ft Hood, TX",
+        "sources": "wof"
+      },
+      "expected": {
+        "properties": [
+          {
+            "gid": "whosonfirst:locality:101726923",
             "name": "Fort Hood"
           }
         ]
