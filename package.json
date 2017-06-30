@@ -18,7 +18,7 @@
     "validate": "npm ls"
   },
   "dependencies": {
-    "pelias-fuzzy-tester": "0.9.7"
+    "pelias-fuzzy-tester": "0.9.8"
   },
   "devDependencies": {
     "jshint": "^2.9.4",

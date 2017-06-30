@@ -14,6 +14,7 @@
         "properties": [
           {
             "gid": "whosonfirst:locality:85933297",
+            "confidence": 1,
             "name": "Port St. Lucie"
           }
         ]
@@ -31,6 +32,7 @@
         "properties": [
           {
             "gid": "whosonfirst:locality:85933297",
+            "confidence": 1,
             "name": "Port St. Lucie"
           }
         ]
@@ -48,6 +50,7 @@
         "properties": [
           {
             "gid": "whosonfirst:locality:101735641",
+            "confidence": 1,
             "name": "Sault Ste. Marie"
           }
         ]
@@ -65,6 +68,7 @@
         "properties": [
           {
             "gid": "whosonfirst:locality:101735641",
+            "confidence": 1,
             "name": "Sault Ste. Marie"
           }
         ]
@@ -82,6 +86,7 @@
         "properties": [
           {
             "gid": "whosonfirst:locality:101726923",
+            "confidence": 0.6,
             "name": "Fort Hood"
           }
         ]
@@ -99,6 +104,7 @@
         "properties": [
           {
             "gid": "whosonfirst:locality:101726923",
+            "confidence": 0.6,
             "name": "Fort Hood"
           }
         ]
@@ -116,6 +122,7 @@
         "properties": [
           {
             "gid": "whosonfirst:locality:101720773",
+            "confidence":1,
             "name": "Mount Pleasant"
           }
         ]
@@ -133,6 +140,7 @@
         "properties": [
           {
             "gid": "whosonfirst:locality:101720773",
+            "confidence": 1,
             "name": "Mount Pleasant"
           }
         ]
@@ -150,6 +158,7 @@
         "properties": [
           {
             "gid": "whosonfirst:locality:85922639",
+            "confidence": 1,
             "name": "Carmel-by-the-Sea"
           }
         ]
@@ -167,6 +176,7 @@
         "properties": [
           {
             "gid": "whosonfirst:locality:85922639",
+            "confidence": 1,
             "name": "Carmel-by-the-Sea"
           }
         ]
@@ -184,6 +194,7 @@
         "properties": [
           {
             "gid": "whosonfirst:region:85684523",
+            "confidence": 0.3,
             "name": "County Durham"
           }
         ]
@@ -201,6 +212,7 @@
         "properties": [
           {
             "gid": "whosonfirst:region:85684523",
+            "confidence": 0.3,
             "name": "County Durham"
           }
         ]
@@ -218,6 +230,7 @@
         "properties": [
           {
             "gid": "whosonfirst:locality:85976677",
+            "confidence": 1,
             "name": "Socorro"
           }
         ]
@@ -235,6 +248,7 @@
         "properties": [
           {
             "gid": "whosonfirst:locality:85923517",
+            "confidence": 1,
             "name": "Los Angeles"
           }
         ]
@@ -252,6 +266,7 @@
         "properties": [
           {
             "gid": "whosonfirst:country:85632271",
+            "confidence": 1,
             "name": "Trinidad and Tobago"
           }
         ]
@@ -269,6 +284,7 @@
         "properties": [
           {
             "gid": "whosonfirst:locality:101783387",
+            "confidence": 1,
             "name": "Straß im Straßertale"
           }
         ]
@@ -286,6 +302,7 @@
         "properties": [
           {
             "gid": "whosonfirst:locality:101907543",
+            "confidence": 1,
             "name": "Schöneberg"
           }
         ]
@@ -303,6 +320,7 @@
         "properties": [
           {
             "gid": "whosonfirst:locality:101907543",
+            "confidence": 1,
             "name": "Schöneberg"
           }
         ]
@@ -320,6 +338,7 @@
         "properties": [
           {
             "gid": "whosonfirst:locality:101913783",
+            "confidence": 1,
             "name": "Łódź"
           }
         ]
@@ -337,6 +356,7 @@
         "properties": [
           {
             "gid": "whosonfirst:locality:101913783",
+            "confidence": 1,
             "name": "Łódź"
           }
         ]
@@ -354,6 +374,7 @@
         "properties": [
           {
             "gid": "whosonfirst:neighbourhood:85873821",
+            "confidence": 1,
             "name": "Quartier de la Sorbonne"
           }
         ]
@@ -373,6 +394,7 @@
         "properties": [
           {
             "gid": "whosonfirst:locality:101751765",
+            "confidence": 0.6,
             "name": "Luxembourg City"
           }
         ]
@@ -402,6 +424,7 @@
         "properties": [
           {
             "gid": "whosonfirst:county:102081575",
+            "confidence": 0.4,
             "name": "Socorro County"
           }
         ]
@@ -428,6 +451,7 @@
         "properties": [
           {
             "gid": "whosonfirst:locality:101735809",
+            "confidence": 1,
             "name": "London"
           }
         ]
@@ -460,6 +484,7 @@
         "properties": [
           {
             "gid": "whosonfirst:locality:101735809",
+            "confidence": 1,
             "name": "London"
           }
         ]
@@ -492,6 +517,7 @@
         "properties": [
           {
             "gid": "whosonfirst:locality:85976683",
+            "confidence": 1,
             "name": "Las Vegas",
             "region_a": "NM"
           }
@@ -522,6 +548,7 @@
         "properties": [
           {
             "gid": "whosonfirst:locality:101735809",
+            "confidence": 1,
             "name": "London"
           }
         ]
@@ -550,11 +577,11 @@
         "properties": [
           {
             "gid": "whosonfirst:locality:101750641",
+            "confidence": 1,
             "name": "Dundee"
           }
         ]
       }
     }
-
   ]
 }
