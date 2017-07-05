@@ -55,7 +55,7 @@
         "text": "24 Rue de Sèvres, 75007 Paris, Fr"
       },
       "expected": {
-        "priorityThresh": 2,
+        "priorityThresh": 3,
         "properties": [
           {
             "layer": "address",
