@@ -1,0 +1,368 @@
+{
+  "name": "Placeholder alt names",
+  "priorityThresh": 2,
+  "tests": [
+    {
+      "id": 0,
+      "status": "pass",
+      "user": "lily",
+      "description": [
+        "admin area only. foreign language",
+        "Chinese",
+        "English: Wan Chai (region), Hong Kong (country)"
+      ],
+      "in": {
+        "text": "灣仔, 香港",
+        "lang": "ko"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "완쯔",
+            "country": "홍콩",
+            "country_a": "HKG"
+          }
+        ]
+      }
+    },
+
+    {
+      "id": 1,
+      "status": "fail",
+      "user": "lily",
+      "description": [
+        "address"
+      ],
+      "in": {
+        "text": "553 s main st red lion pa usa",
+        "lang": "es"
+      },
+      "expected": {
+        "properties": [
+          {
+            "region": "Pensilvania",
+            "country": "Estados Unidos"
+          }
+        ]
+      }
+    },
+
+    {
+      "id": 2,
+      "status": "fail",
+      "user": "lily",
+      "description": [
+        "address in French"
+      ],
+      "in": {
+        "text": "37 Rue Des Remparts d’Ainay, Lyon",
+        "lang": "ja"
+      },
+      "expected": {
+        "properties": [
+          {
+            "locality": "リヨン",
+            "country": "フランス"
+          }
+        ]
+      }
+    },
+
+    {
+      "id": 3,
+      "status": "fail",
+      "user": "lily",
+      "description": [
+        "address in French with admin info in Japanese"
+      ],
+      "in": {
+        "text": "3632 Rue Notre-Dame Ouest モントリオール",
+        "lang": "zh"
+      },
+      "expected": {
+        "properties": [
+          {
+            "locality": "蒙特利尔",
+            "country": "加拿大"
+          }
+        ]
+      }
+    },
+
+    {
+      "id": 4,
+      "status": "pass",
+      "user": "lily",
+      "description": [
+        "Yasnaya Polyana (venue) in Russian with admin info in English"
+      ],
+      "in": {
+        "text": "Я́сная Поля́на, Russia",
+        "lang": "bn"
+      },
+      "expected": {
+        "properties": [
+          {
+            "country": "রাশিয়া"
+          }
+        ]
+      }
+    },
+
+    {
+      "id": 5,
+      "status": "fail",
+      "user": "lily",
+      "description": [
+        "interpolated address", "italian"
+      ],
+      "in": {
+        "text": "3 forest street, cape town, south africa",
+        "lang": "it"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "3 Forest Street",
+            "locality": "Città del Capo",
+            "country": "Sud Africa"
+          }
+        ]
+      }
+    },
+
+    {
+      "id": 6,
+      "status": "fail",
+      "user": "lily",
+      "endpoint": "autocomplete",
+      "description": [
+        "autocomplete", "input text and requested language in German"
+      ],
+      "in": {
+        "text": "Österreic",
+        "lang": "de"
+      },
+      "expected": {
+        "properties": [
+          {
+            "country": "Österreich"
+          }
+        ]
+      }
+    },
+
+    {
+      "id": 7,
+      "status": "fail",
+      "user": "lily",
+      "endpoint": "search/structured",
+      "description": [
+        "structured address for 1 world trade center"
+      ],
+      "in": {
+        "address": "285 Fulton St",
+        "borough": "Manhattan",
+        "locality": "New York",
+        "region": "NY",
+        "postalcode": "10007",
+        "lang": "pl"
+      },
+      "expected": {
+        "properties": [
+          {
+            "locality": "Nowy Jork",
+            "country": "Stany Zjednoczone"
+          }
+        ]
+      }
+    },
+
+    {
+      "id": 8,
+      "status": "fail",
+      "user": "lily",
+      "endpoint": "reverse",
+      "description": [
+        "reverse geocoding. address for 1 World Trade Center, New York"
+      ],
+      "in": {
+        "point.lon": "-74.013296",
+        "point.lat": "40.712748",
+        "lang": "pt"
+      },
+      "expected": {
+        "properties": [
+          {
+            "locality": "Nova Iorque",
+            "country": "Estados Unidos"
+          }
+        ]
+      }
+    },
+
+    {
+      "id": 9,
+      "status": "fail",
+      "user": "lily",
+      "endpoint": "nearby",
+      "description": [
+        "nearby search"
+      ],
+      "in": {
+        "point.lon": "-74.013296",
+        "point.lat": "40.712748",
+        "lang": "pt"
+      },
+      "expected": {
+        "properties": [
+          {
+            "locality": "Nova Iorque",
+            "country": "Estados Unidos"
+          }
+        ]
+      }
+    },
+
+    {
+      "id": 10,
+      "status": "fail",
+      "user": "lily",
+      "description": [
+        "address in Estonian, locality (Tallinn) in Finnish, region in English"
+      ],
+      "in": {
+        "text": "Akadeemia tee 15b Tallinna, Harjumaa"
+      },
+      "expected": {
+        "properties": [
+          {
+            "region": "Harjumaa",
+            "locality": "Tallinn",
+            "country": "Estonia"
+          }
+        ]
+      }
+    },
+
+    {
+      "id": 11,
+      "status": "pass",
+      "user": "lily",
+      "description": [
+        "search with boundary circle parameter"
+      ],
+      "in": {
+        "boundary.circle.lat": "31.030974",
+        "boundary.circle.lon": "-98.326329",
+        "boundary.circle.radius": 125,
+        "text": "beverly hills",
+        "lang": "es"
+      },
+      "expected": {
+        "properties": [
+          {
+            "country": "Estados Unidos"
+          }
+        ]
+      }
+    },
+
+    {
+      "id": 12,
+      "status": "pass",
+      "user": "lily",
+      "description": [
+        "search with boundary rect parameter"
+      ],
+      "in": {
+        "boundary.rect.min_lon": "-106.645646",
+        "boundary.rect.min_lat": "25.837164",
+        "boundary.rect.max_lon": "-93.508039",
+        "boundary.rect.max_lat": "36.500704",
+        "text": "beverly hills",
+        "lang": "sr"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Беверли Хилс",
+            "region": "Texas",
+            "country": "Сједињене Америчке Државе"
+          }
+        ]
+      }
+    },
+
+    {
+      "id": 13,
+      "status": "pass",
+      "user": "lily",
+      "description": [
+        "search with focus point parameter", "no RU translation for region"
+      ],
+      "in": {
+        "text": "springfield",
+        "focus.point.lon": "-82.985586",
+        "focus.point.lat": "39.98072",
+        "lang": "ru"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Спрингфилд",
+            "region": "Ohio",
+            "country": "Соединённые Штаты Америки"
+          }
+        ]
+      }
+    },
+
+    {
+      "id": 14,
+      "status": "pass",
+      "user": "lily",
+      "description": [
+        "search with layers parameter", "search for a town in tennessee"
+      ],
+      "in": {
+        "text": "Lebanon",
+        "layers": "locality",
+        "lang": "ar"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "لبنان",
+            "region": "تينيسي",
+            "country": "الولايات المتحدة"
+          }
+        ]
+      }
+    },
+
+    {
+      "id": 15,
+      "status": "fail",
+      "user": "lily",
+      "description": [
+        "search with sources parameter", "Greek input", "St. Petersburg",
+        "returns unrelated results in Greek"
+      ],
+      "in": {
+        "text": "Αγία Πετρούπολη",
+        "sources": "wof"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Αγία Πετρούπολη",
+            "gid": "whosonfirst:locality:85931833"
+
+          }
+        ]
+      }
+    }
+
+  ]
+}
