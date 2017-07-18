@@ -213,6 +213,7 @@
       "in": {
         "point.lon": "-74.013296",
         "point.lat": "40.712748",
+        "layers": "coarse",
         "lang": "pt"
       },
       "expected": {
@@ -483,6 +484,53 @@
           }
         ]
       }
+    },
+
+    {
+      "id": 21,
+      "status": "fail",
+      "user": "lily",
+      "endpoint": "autocomplete",
+      "description": [
+        "lang: russian"
+      ],
+      "in": {
+        "text": "Mooselookmegu",
+        "lang": "ru"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Mooselookmeguntic",
+            "region": "Мэн",
+            "country": "Соединённые Штаты Америки"
+          }
+        ]
+      }
+    },
+
+    {
+      "id": 22,
+      "status": "fail",
+      "user": "lily",
+      "endpoint": "autocomplete",
+      "description": [
+        "autocomplete with only admin info that has translation",
+        "lang: russian"
+      ],
+      "in": {
+        "text": "Germa",
+        "lang": "ru"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Германия",
+            "country_a": "DEU"
+          }
+        ]
+      }
     }
+
   ]
 }
