@@ -96,7 +96,7 @@
             "county": "Ambert",
             "macrocounty": "Ambert",
             "region": "Puy-de-Dôme",
-            "macroregion": "Auvergne",
+            "macroregion": "Auvergne-Rhone-Alpes",
             "country": "France"
           }
         ]
@@ -259,7 +259,7 @@
             "layer": "macrocounty",
             "macrocounty": "Ambert",
             "region": "Puy-de-Dôme",
-            "macroregion": "Auvergne",
+            "macroregion": "Auvergne-Rhone-Alpes",
             "country": "France"
           }
         ]
@@ -301,7 +301,7 @@
         "properties": [
           {
             "layer": "macroregion",
-            "macroregion": "Auvergne",
+            "macroregion": "Auvergne-Rhone-Alpes",
             "country": "France"
           }
         ]
