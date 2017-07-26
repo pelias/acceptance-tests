@@ -7,6 +7,7 @@
       "status": "pass",
       "user": "sevko",
       "endpoint": "reverse",
+      "description": "unexpected value is corruption bug in quattroshapes",
       "in": {
         "point.lat": 46.65132155014943,
         "point.lon": 14.61353302001953
@@ -507,7 +508,7 @@
             "name": "Hämeenkatu 1",
             "locality": "Tampere",
             "region": "Pirkanmaa",
-            "macroregion": "Lansi ja Sisa-Suomi",
+            "macroregion": "West Finland",
             "country": "Finland",
             "country_a": "FIN"
           }

@@ -11,8 +11,8 @@
   "tests": [
     {
       "id": "maps_service_geocode & maps_service_multi_reverse_geocode",
-      "status": "pass",
-      "description": "don't support batch reverse, implement using single calls in the SDK wrapper",
+      "status": "fail",
+      "description": "don't support batch reverse, implement using single calls in the SDK wrapper, potential transient data failure (us/pa/bucks missed in import)",
       "user": "dianashk",
       "endpoint": "search",
       "in": {

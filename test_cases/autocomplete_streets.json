@@ -127,8 +127,9 @@
     },
     {
       "id": "2-2",
-      "status": "pass",
+      "status": "fail",
       "user": "riordan",
+      "description": "potential transient data failure (us/ny/statewide seemingly missed in import)",
       "in": {
         "text": "424 Clay Ave"
       },
@@ -260,8 +261,9 @@
     },
     {
       "id": "4-1",
-      "status": "pass",
+      "status": "fail",
       "user": "riordan",
+      "description": "potential transient data failure (us/ny/statewide seemingly missed in import)",
       "in": {
         "text": "451 Fog Hill"
       },
@@ -277,8 +279,9 @@
     },
     {
       "id": "4-2",
-      "status": "pass",
+      "status": "fail",
       "user": "riordan",
+      "description": "potential transient data failure (us/ny/statewide seemingly missed in import)",
       "in": {
         "text": "451 Fog Hill rd"
       },
@@ -294,8 +297,9 @@
     },
     {
       "id": "4-3",
-      "status": "pass",
+      "status": "fail",
       "user": "riordan",
+      "description": "potential transient data failure (us/ny/statewide seemingly missed in import)",
       "in": {
         "text": "451 Fog Hill Road"
       },

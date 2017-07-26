@@ -115,9 +115,10 @@
     },
     {
       "id": 9,
-      "status": "pass",
+      "status": "fail",
       "user": "sevko",
       "type": "dev",
+      "description": "potential transient data failure (us/ny/city_of_new_york seemingly missed in import)",
       "in": {
         "text": "518 3 street, ny"
       },

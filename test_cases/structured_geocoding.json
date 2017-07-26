@@ -18,7 +18,7 @@
         "properties": [
           {
             "layer": "address",
-            "name": "1090 N Charlotte St",
+            "name": "1090 N Charlotte Street",
             "country_a": "USA",
             "country": "United States",
             "region": "Pennsylvania",
@@ -26,8 +26,8 @@
             "county": "Lancaster County",
             "locality": "Lancaster",
             "housenumber": "1090",
-            "street": "N Charlotte St",
-            "label": "1090 N Charlotte St, Lancaster, PA, USA"
+            "street": "N Charlotte Street",
+            "label": "1090 N Charlotte Street, Lancaster, PA, USA"
           }
         ]
       }
@@ -206,7 +206,7 @@
         "properties": [
           {
             "layer": "address",
-            "name": "1090 N Charlotte St"
+            "name": "1090 N Charlotte Street"
           }
         ]
       }
@@ -780,7 +780,7 @@
     },
     {
       "id": 702,
-      "status": "pass",
+      "status": "fail",
       "user": "trescube",
       "type": "dev",
       "notes": "non-US region",
@@ -816,8 +816,8 @@
         "properties": [
           {
             "layer": "region",
-            "name": "Xaçmaz",
-            "region": "Xaçmaz",
+            "name": "Xacmaz",
+            "region": "Xacmaz",
             "country": "Azerbaijan",
             "country_a": "AZE"
           }
@@ -876,18 +876,18 @@
       "type": "dev",
       "notes": "macroregion should be queried with state input",
       "in": {
-        "region": "Pohjois Suomi",
+        "region": "Northern Finland",
         "country": "Finland"
       },
       "expected": {
         "properties": [
           {
             "layer": "macroregion",
-            "name": "Pohjois-Suomi",
+            "name": "Northern Finland",
             "country_a": "FIN",
             "country": "Finland",
-            "macroregion": "Pohjois-Suomi",
-            "label": "Pohjois-Suomi, Finland"
+            "macroregion": "Northern Finland",
+            "label": "Northern Finland, Finland"
           }
         ]
       }
@@ -907,17 +907,39 @@
         "properties": [
           {
             "layer": "dependency",
-            "name": "United States Virgin Islands",
+            "name": "US Virgin Islands",
             "country_a": "USA",
             "country": "United States",
-            "dependency": "United States Virgin Islands",
-            "label": "United States Virgin Islands"
+            "dependency": "US Virgin Islands",
+            "label": "US Virgin Islands"
           }
         ]
       }
     },
     {
       "id": 901,
+      "status": "fail",
+      "user": "trescube",
+      "type": "dev",
+      "notes": "dependency-only, ES recognizes as 'United States Virgin Islands' but language service updates to 'US Virgin Islands'",
+      "in": {
+        "country": "US Virgin Islands"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "dependency",
+            "name": "US Virgin Islands",
+            "country_a": "USA",
+            "country": "United States",
+            "dependency": "US Virgin Islands",
+            "label": "US Virgin Islands"
+          }
+        ]
+      }
+    },
+    {
+      "id": 902,
       "status": "pass",
       "user": "trescube",
       "type": "dev",
@@ -930,17 +952,17 @@
         "properties": [
           {
             "layer": "dependency",
-            "name": "United States Virgin Islands",
+            "name": "US Virgin Islands",
             "country_a": "USA",
             "country": "United States",
-            "dependency": "United States Virgin Islands",
-            "label": "United States Virgin Islands"
+            "dependency": "US Virgin Islands",
+            "label": "US Virgin Islands"
           }
         ]
       }
     },
     {
-      "id": 902,
+      "id": 903,
       "status": "pass",
       "user": "trescube",
       "type": "dev",
@@ -1180,10 +1202,10 @@
           {
             "layer": "address",
             "housenumber": "1090",
-            "street": "N Charlotte St",
+            "street": "N Charlotte Street",
             "locality": "Lancaster",
             "region_a": "PA",
-            "label": "1090 N Charlotte St, Lancaster, PA, USA"
+            "label": "1090 N Charlotte Street, Lancaster, PA, USA"
           }
         ]
       }

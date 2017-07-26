@@ -123,8 +123,9 @@
     },
     {
       "id": 25,
-      "status": "pass",
+      "status": "fail",
       "user": "randyme",
+      "description": "potential transient data failure (us/ny/city_of_new_york seemingly missed in import)",
       "notes": [ "Autocomplete is not prioritizing local address.",
       "Issue filed in: https://github.com/pelias/pelias/issues/240" ],
       "in": {
