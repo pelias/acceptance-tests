@@ -37,15 +37,16 @@
         "text": "w 26th st, new york"
       },
       "expected": {
-        "coordinates": [ -73.9981, 40.747625 ],
         "properties": [
           {
             "country_a": "USA",
             "street": "West 26th Street",
+            "region": "New York",
             "layer": "street"
           },{
             "country_a": "USA",
             "street": "West 26th Street",
+            "region": "New York",
             "layer": "address"
           }
         ]
