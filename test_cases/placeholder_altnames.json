@@ -27,7 +27,7 @@
     },
     {
       "id": 1,
-      "status": "fail",
+      "status": "pass",
       "user": "lily",
       "description": [
         "address",
@@ -48,7 +48,7 @@
     },
     {
       "id": 2,
-      "status": "fail",
+      "status": "pass",
       "user": "lily",
       "description": [
         "address in French",
@@ -110,7 +110,7 @@
     },
     {
       "id": 5,
-      "status": "fail",
+      "status": "pass",
       "user": "lily",
       "description": [
         "interpolated address",
@@ -153,7 +153,7 @@
     },
     {
       "id": 7,
-      "status": "fail",
+      "status": "pass",
       "user": "lily",
       "endpoint": "search/structured",
       "description": [
@@ -179,7 +179,7 @@
     },
     {
       "id": 8,
-      "status": "fail",
+      "status": "pass",
       "user": "lily",
       "endpoint": "reverse",
       "description": [
@@ -203,7 +203,7 @@
     },
     {
       "id": 9,
-      "status": "fail",
+      "status": "pass",
       "user": "lily",
       "endpoint": "reverse",
       "description": [
@@ -229,7 +229,7 @@
     },
     {
       "id": 10,
-      "status": "fail",
+      "status": "pass",
       "user": "lily",
       "endpoint": "nearby",
       "description": [
@@ -393,7 +393,7 @@
     },
     {
       "id": 17,
-      "status": "fail",
+      "status": "pass",
       "user": "lily",
       "endpoint": "place",
       "description": [
@@ -438,7 +438,7 @@
     },
     {
       "id": 19,
-      "status": "fail",
+      "status": "pass",
       "user": "lily",
       "endpoint": "reverse",
       "description": [
@@ -488,7 +488,7 @@
 
     {
       "id": 21,
-      "status": "fail",
+      "status": "pass",
       "user": "lily",
       "endpoint": "autocomplete",
       "description": [
@@ -511,7 +511,7 @@
 
     {
       "id": 22,
-      "status": "fail",
+      "status": "pass",
       "user": "lily",
       "endpoint": "autocomplete",
       "description": [

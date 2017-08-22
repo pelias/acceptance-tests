@@ -816,8 +816,8 @@
         "properties": [
           {
             "layer": "region",
-            "name": "Xaçmaz",
-            "region": "Xaçmaz",
+            "name": "Xacmaz",
+            "region": "Xacmaz",
             "country": "Azerbaijan",
             "country_a": "AZE"
           }
@@ -907,11 +907,11 @@
         "properties": [
           {
             "layer": "dependency",
-            "name": "United States Virgin Islands",
+            "name": "US Virgin Islands",
             "country_a": "USA",
             "country": "United States",
-            "dependency": "United States Virgin Islands",
-            "label": "United States Virgin Islands"
+            "dependency": "US Virgin Islands",
+            "label": "US Virgin Islands"
           }
         ]
       }
@@ -930,11 +930,11 @@
         "properties": [
           {
             "layer": "dependency",
-            "name": "United States Virgin Islands",
+            "name": "US Virgin Islands",
             "country_a": "USA",
             "country": "United States",
-            "dependency": "United States Virgin Islands",
-            "label": "United States Virgin Islands"
+            "dependency": "US Virgin Islands",
+            "label": "US Virgin Islands"
           }
         ]
       }
