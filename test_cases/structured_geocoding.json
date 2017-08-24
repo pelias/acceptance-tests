@@ -785,17 +785,17 @@
       "type": "dev",
       "notes": "non-US region",
       "in": {
-        "region": "Senakis Raioni"
+        "region": "Kakheti"
       },
       "expected": {
         "properties": [
           {
             "layer": "region",
-            "name": "Senakis Raioni",
+            "name": "Kakheti",
             "country_a": "GEO",
             "country": "Georgia",
-            "region": "Senakis Raioni",
-            "label": "Senakis Raioni, Georgia"
+            "region": "Kakheti",
+            "label": "Kakheti, Georgia"
           }
         ]
       }
