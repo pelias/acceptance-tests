@@ -876,18 +876,18 @@
       "type": "dev",
       "notes": "macroregion should be queried with state input",
       "in": {
-        "region": "Lapland",
+        "region": "Northern Finland",
         "country": "Finland"
       },
       "expected": {
         "properties": [
           {
             "layer": "macroregion",
-            "name": "Lapland",
+            "name": "Northern Finland",
             "country_a": "FIN",
             "country": "Finland",
-            "macroregion": "Lapland",
-            "label": "Lapland, Finland"
+            "macroregion": "Northern Finland",
+            "label": "Northern Finland, Finland"
           }
         ]
       }
