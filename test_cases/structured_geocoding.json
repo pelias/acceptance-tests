@@ -785,17 +785,17 @@
       "type": "dev",
       "notes": "non-US region",
       "in": {
-        "region": "Senakis Raioni"
+        "region": "Kakheti"
       },
       "expected": {
         "properties": [
           {
             "layer": "region",
-            "name": "Senakis Raioni",
+            "name": "Kakheti",
             "country_a": "GEO",
             "country": "Georgia",
-            "region": "Senakis Raioni",
-            "label": "Senakis Raioni, Georgia"
+            "region": "Kakheti",
+            "label": "Kakheti, Georgia"
           }
         ]
       }
@@ -876,18 +876,18 @@
       "type": "dev",
       "notes": "macroregion should be queried with state input",
       "in": {
-        "region": "Pohjois Suomi",
+        "region": "Lapland",
         "country": "Finland"
       },
       "expected": {
         "properties": [
           {
             "layer": "macroregion",
-            "name": "Pohjois-Suomi",
+            "name": "Lapland",
             "country_a": "FIN",
             "country": "Finland",
-            "macroregion": "Pohjois-Suomi",
-            "label": "Pohjois-Suomi, Finland"
+            "macroregion": "Lapland",
+            "label": "Lapland, Finland"
           }
         ]
       }

@@ -52,24 +52,17 @@
       "user": "trescube",
       "type": "dev",
       "in": {
-        "text": "24 Rue de Sèvres, 75007 Paris, Fr"
+        "text": "23 Avenue Duquesne, 75007 Paris, Fr"
       },
       "expected": {
-        "priorityThresh": 3,
+        "priorityThresh": 1,
         "properties": [
           {
             "layer": "address",
             "country_a": "FRA",
             "locality": "Paris",
-            "street": "Rue de Sèvres",
-            "housenumber": "24"
-          },
-          {
-            "layer": "address",
-            "country_a": "FRA",
-            "locality": "Paris",
-            "street": "Rue De Sevres",
-            "housenumber": "24"
+            "street": "23 Avenue Duquesne",
+            "housenumber": "23"
           }
         ]
       }
