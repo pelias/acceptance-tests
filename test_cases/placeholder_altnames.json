@@ -529,6 +529,71 @@
           }
         ]
       }
+    },
+
+    {
+      "id": 23,
+      "status": "pass",
+      "user": "stephen",
+      "endpoint": "search",
+      "description": "spanish spelling of New York",
+      "in": {
+        "text": "30 west 26th street, nueva york, ny"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "address",
+            "housenumber": "30",
+            "street": "W 26 St",
+            "postalcode": "10010"
+          }
+        ]
+      }
+    },
+    {
+      "id": 24,
+      "status": "pass",
+      "user": "stephen",
+      "endpoint": "search",
+      "description": "Kazakh for Socorro, French for New Mexico",
+      "in": {
+        "text": "1220 calle de lago Сокорро Nouveau-Mexique"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "address",
+            "housenumber": "1220",
+            "street": "Calle De Lago",
+            "locality": "Socorro",
+            "region_a": "NM",
+            "country_a": "USA"
+          }
+        ]
+      }
+    },
+    {
+      "id": 25,
+      "status": "pass",
+      "user": "stephen",
+      "endpoint": "search",
+      "description": "Bengali for Toronto, Japanese for Ontario, Farsi/Persian for Canada",
+      "in": {
+        "text": "280 Bloor Street West টরোন্টো オンタリオ州 کانادا"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "address",
+            "housenumber": "280",
+            "street": "Bloor Street West",
+            "locality": "Toronto",
+            "region_a": "ON",
+            "country_a": "CAN"
+          }
+        ]
+      }
     }
 
   ]
