@@ -76,9 +76,9 @@
     },
     {
       "id": 5,
-      "status": "pass",
+      "status": "fail",
       "endpoint": "search",
-      "description": "Fort Hood should be found with full word",
+      "description": "Fort Hood should be found with full word, waiting for work on https://github.com/pelias/placeholder/issues/36",
       "in": {
         "text": "Fort Hood, TX"
       },
@@ -94,9 +94,9 @@
     },
     {
       "id": 6,
-      "status": "pass",
+      "status": "fail",
       "endpoint": "search",
-      "description": "Fort Hood should be found with abbreviation",
+      "description": "Fort Hood should be found with abbreviation, waiting for work on https://github.com/pelias/placeholder/issues/36",
       "in": {
         "text": "Ft Hood, TX"
       },
