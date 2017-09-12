@@ -129,11 +129,12 @@
       "id": "2-2",
       "status": "pass",
       "user": "riordan",
+      "description": [ "OA/OSM import order seems to matter so increase priorityThresh" ],
       "in": {
         "text": "424 Clay Ave"
       },
       "expected": {
-        "priorityThresh": 2,
+        "priorityThresh": 3,
         "properties": [
           {
             "layer": "address",
