@@ -102,7 +102,7 @@
       "id": 5,
       "status": "pass",
       "user": "missinglink",
-      "description": [ "borough matching, no delimiter", "OA/OSM import seems to matter so increase priorityThresh" ],
+      "description": [ "borough matching, no delimiter", "OA/OSM import order seems to matter so increase priorityThresh" ],
       "in": {
         "text": "190 dean street brooklyn"
       },
