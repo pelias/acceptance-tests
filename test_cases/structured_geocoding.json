@@ -908,8 +908,6 @@
           {
             "layer": "dependency",
             "name": "US Virgin Islands",
-            "country_a": "USA",
-            "country": "United States",
             "dependency": "US Virgin Islands",
             "label": "US Virgin Islands"
           }
@@ -931,8 +929,6 @@
           {
             "layer": "dependency",
             "name": "US Virgin Islands",
-            "country_a": "USA",
-            "country": "United States",
             "dependency": "US Virgin Islands",
             "label": "US Virgin Islands"
           }
@@ -953,8 +949,6 @@
           {
             "layer": "dependency",
             "name": "Bermuda",
-            "country_a": "GBR",
-            "country": "United Kingdom",
             "dependency": "Bermuda",
             "label": "Bermuda"
           }
