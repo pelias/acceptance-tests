@@ -72,7 +72,7 @@
             "county": "Municipio de San Juan",
             "region": "Puerto Rico",
             "dependency": "Puerto Rico",
-            "country": "United States"
+            "label": "San Juan, Puerto Rico"
           }
         ]
       }
@@ -322,8 +322,7 @@
         "properties": [
           {
             "layer": "dependency",
-            "dependency": "Puerto Rico",
-            "country": "United States"
+            "dependency": "Puerto Rico"
           }
         ]
       }
