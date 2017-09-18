@@ -102,12 +102,12 @@
       "id": 5,
       "status": "pass",
       "user": "missinglink",
-      "description": [ "borough matching, no delimiter" ],
+      "description": [ "borough matching, no delimiter", "OA/OSM import order seems to matter so increase priorityThresh" ],
       "in": {
         "text": "190 dean street brooklyn"
       },
       "expected": {
-        "priorityThresh": 1,
+        "priorityThresh": 2,
         "properties": [
           { "label": "190 Dean Street, Brooklyn, New York, NY, USA" }
         ]

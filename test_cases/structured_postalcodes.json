@@ -59,6 +59,27 @@
           }
         ]
       }
+    },
+    {
+      "id": "structuredpostal-4",
+      "status": "pass",
+      "user": "julian",
+      "description": "postalcode and country does not fall back to country",
+      "issue": "https://github.com/pelias/api/issues/973",
+      "in": {
+        "postalcode": "83278",
+        "country": "United States"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "postalcode",
+            "name": "83278",
+            "county": "Custer County",
+            "region": "Idaho"
+          }
+        ]
+      }
     }
   ]
 }
