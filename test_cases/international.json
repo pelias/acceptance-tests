@@ -33,6 +33,7 @@
       "id": "0-1",
       "status": "pass",
       "user": "lily",
+      "description": "can be removed depending on resolution of above",
       "in": {
         "text": "553 St. Kilda Road St Kilda West 3004",
         "boundary.country": "AUS"
