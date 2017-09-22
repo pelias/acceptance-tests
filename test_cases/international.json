@@ -175,10 +175,12 @@
     },
     {
       "id": 9,
-      "status": "pass",
+      "status": "fail",
       "user": "lily",
       "description": [
-        "Russian street name in native langauge passes"
+        "Russian street name in native langauge passes",
+        "Leningrad/St Petersburg are the same thing but currently different polygons and records",
+        "Waiting for resolution on https://github.com/whosonfirst-data/whosonfirst-data/issues/948"
       ],
       "in": {
         "text": "15 Фурштатская улица Saint Petersburg 191028",
