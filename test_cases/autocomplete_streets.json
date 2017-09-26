@@ -12,7 +12,13 @@
         "text": "90 Vermilyea"
       },
       "expected": {
+        "priorityThresh": 2,
         "properties": [
+          {
+            "layer": "address",
+            "housenumber": "90",
+            "street": "Vermilyea Avenue"
+          },
           {
             "layer": "address",
             "housenumber": "90",
@@ -29,7 +35,13 @@
         "text": "90 Vermilyea A"
       },
       "expected": {
+        "priorityThresh": 2,
         "properties": [
+          {
+            "layer": "address",
+            "housenumber": "90",
+            "street": "Vermilyea Avenue"
+          },
           {
             "layer": "address",
             "housenumber": "90",
@@ -46,7 +58,13 @@
         "text": "90 Vermilyea Av"
       },
       "expected": {
+        "priorityThresh": 2,
         "properties": [
+          {
+            "layer": "address",
+            "housenumber": "90",
+            "street": "Vermilyea Avenue"
+          },
           {
             "layer": "address",
             "housenumber": "90",
@@ -63,7 +81,13 @@
         "text": "90 Vermilyea Ave"
       },
       "expected": {
+        "priorityThresh": 2,
         "properties": [
+          {
+            "layer": "address",
+            "housenumber": "90",
+            "street": "Vermilyea Avenue"
+          },
           {
             "layer": "address",
             "housenumber": "90",
@@ -80,7 +104,13 @@
         "text": "90 Vermilyea Aven"
       },
       "expected": {
+        "priorityThresh": 2,
         "properties": [
+          {
+            "layer": "address",
+            "housenumber": "90",
+            "street": "Vermilyea Avenue"
+          },
           {
             "layer": "address",
             "housenumber": "90",
@@ -97,7 +127,13 @@
         "text": "90 Vermilyea Avenue"
       },
       "expected": {
+        "priorityThresh": 2,
         "properties": [
+          {
+            "layer": "address",
+            "housenumber": "90",
+            "street": "Vermilyea Avenue"
+          },
           {
             "layer": "address",
             "housenumber": "90",
