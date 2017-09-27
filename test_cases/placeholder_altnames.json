@@ -594,7 +594,25 @@
           }
         ]
       }
+    },
+    {
+      "id": 26,
+      "status": "pass",
+      "user": "julian",
+      "description": "from mapillary home page",
+      "in": {
+        "text": "malmo",
+        "lang": "sv"
+      },
+      "expected": {
+        "priorityThresh": 1,
+        "properties": [
+          {
+            "name": "Malmö",
+            "country": "Sverige"
+          }
+        ]
+      }
     }
-
   ]
 }
