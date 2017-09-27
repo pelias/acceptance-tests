@@ -4,7 +4,7 @@
   "tests": [
     {
       "id": 2,
-      "status": "fail",
+      "status": "pass",
       "user": "Stephen",
       "issue": "https://github.com/pelias/pelias/issues/311",
       "description": [
@@ -19,8 +19,8 @@
         "properties": [
           {
             "layer": "county",
-            "name": "Potter",
-            "county": "Potter",
+            "name": "Potter County",
+            "county": "Potter County",
             "region": "Pennsylvania",
             "region_a": "PA",
             "country": "United States",
@@ -59,6 +59,7 @@
       "description": "chosen because France and complicated hierarchy",
       "in": {
         "text": "Arzacq-Arraziguet",
+        "lang": "fr",
         "sources": "wof"
       },
       "expected": {
@@ -69,8 +70,8 @@
             "name": "Arzacq-Arraziguet",
             "county": "Arzacq-Arraziguet",
             "macrocounty": "Pau",
-            "region": "Pyrénées-Atlantiques",
-            "macroregion": "Aquitaine",
+            "region": "Département des Basses-Pyrénées",
+            "macroregion": "Nouvelle-Aquitaine",
             "country": "France",
             "country_a": "FRA"
           }

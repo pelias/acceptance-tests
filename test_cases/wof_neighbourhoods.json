@@ -72,6 +72,7 @@
       "user": "Stephen",
       "in": {
         "text": "Gaddiannaram, India",
+        "lang": "en",
         "sources": "wof"
       },
       "expected": {
@@ -79,7 +80,7 @@
           {
             "layer": "neighbourhood",
             "name": "Gaddiannaram",
-            "locality": "Hyderābād",
+            "locality": "Hyderabad",
             "region": "Andhra Pradesh",
             "country": "India",
             "country_a": "IND"
@@ -115,6 +116,7 @@
       "user": "Stephen",
       "in": {
         "text": "Taman Taynton View, Malaysia",
+        "lang": "ms",
         "sources": "wof"
       },
       "expected": {

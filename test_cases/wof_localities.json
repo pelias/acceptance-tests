@@ -158,12 +158,12 @@
     },
     {
       "id": 8,
-      "status": "fail",
+      "status": "pass",
       "issue": "https://github.com/pelias/acceptance-tests/issues/213",
       "description": "returns the right result second, cause unknown",
       "user": "Stephen",
       "in": {
-        "text": "San Jaun, Puerto Rico",
+        "text": "San Juan, Puerto Rico",
         "sources": "wof"
       },
       "expected": {

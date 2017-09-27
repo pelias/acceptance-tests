@@ -152,12 +152,13 @@
     },
     {
       "id": 8,
-      "status": "fail",
+      "status": "pass",
       "user": "Stephen",
       "description": "",
       "notes": "libpostal identifies this as a city/country even though it's a WOF region",
       "in": {
         "text": "Xaçmaz, Azerbaijan",
+        "lang": "az",
         "sources": "wof"
       },
       "expected": {
@@ -166,7 +167,7 @@
             "layer": "region",
             "name": "Xaçmaz",
             "region": "Xaçmaz",
-            "country": "Azerbaijan",
+            "country": "Azərbaycan",
             "country_a": "AZE"
           }
         ]
@@ -174,7 +175,7 @@
     },
     {
       "id": 9,
-      "status": "fail",
+      "status": "pass",
       "user": "Stephen",
       "description": "fails since placeholder indexes 'Democratic Republic of Congo' but not 'Congo'",
       "in": {
@@ -186,9 +187,9 @@
           {
             "gid": "whosonfirst:region:85670011",
             "layer": "region",
-            "name": "Kasaï-Oriental",
-            "region": "Kasaï-Oriental",
-            "country": "Democratic Republic of the Congo",
+            "name": "Kasaï-Occidental Province",
+            "region": "Kasaï-Occidental Province",
+            "country": "Democratic Republic of Congo",
             "country_a": "COD"
           }
         ]
