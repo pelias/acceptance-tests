@@ -9,12 +9,8 @@
   "tests": [
     {
       "id": 0,
-      "status": "fail",
+      "status": "pass",
       "user": "lily",
-      "description": [
-        "with introduction of https://github.com/pelias/wof-admin-lookup/pull/143, address point is no longer in Melbourne, it's in St. Kilda West",
-        "waiting for resolution on https://github.com/whosonfirst-data/whosonfirst-data/issues/955"
-      ],
       "in": {
         "text": "553 St. Kilda Road Melbourne 3004",
         "boundary.country": "AUS"
@@ -24,25 +20,6 @@
           {
             "name": "553 St Kilda Road",
             "locality": "Melbourne",
-            "country_a": "AUS"
-          }
-        ]
-      }
-    },
-    {
-      "id": "0-1",
-      "status": "pass",
-      "user": "lily",
-      "description": "can be removed depending on resolution of above",
-      "in": {
-        "text": "553 St. Kilda Road St Kilda West 3004",
-        "boundary.country": "AUS"
-      },
-      "expected": {
-        "properties": [
-          {
-            "name": "553 St Kilda Road",
-            "locality": "St Kilda West",
             "country_a": "AUS"
           }
         ]
