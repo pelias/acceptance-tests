@@ -176,9 +176,12 @@
     },
     {
       "id": 12,
-      "status": "pass",
+      "status": "fail",
       "user": "trescube",
-      "description": "more granular results should be ignored when layers don't specify them",
+      "description": [
+        "more granular results should be ignored when layers don't specify them",
+        "fails with the introduction of https://github.com/pelias/api/pull/1002, which uses the first hierarchy of a WOF record instead of calling all polygons"
+      ],
       "type": "dev",
       "in": {
         "point.lat": 40.744260,
