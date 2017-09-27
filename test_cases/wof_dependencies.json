@@ -4,7 +4,7 @@
   "tests": [
     {
       "id": 1,
-      "status": "pass",
+      "status": "fail",
       "user": "trescube",
       "description": "",
       "in": {
@@ -26,7 +26,7 @@
     },
     {
       "id": 2,
-      "status": "pass",
+      "status": "fail",
       "user": "trescube",
       "description": "",
       "in": {
@@ -48,7 +48,7 @@
     },
     {
       "id": 3,
-      "status": "pass",
+      "status": "fail",
       "user": "trescube",
       "description": "",
       "in": {
@@ -70,7 +70,7 @@
     },
     {
       "id": 4,
-      "status": "pass",
+      "status": "fail",
       "user": "trescube",
       "description": "",
       "in": {
@@ -93,7 +93,7 @@
     },
     {
       "id": 5,
-      "status": "pass",
+      "status": "fail",
       "user": "trescube",
       "description": "",
       "in": {
@@ -116,7 +116,7 @@
     },
     {
       "id": 6,
-      "status": "pass",
+      "status": "fail",
       "user": "trescube",
       "description": "",
       "in": {
