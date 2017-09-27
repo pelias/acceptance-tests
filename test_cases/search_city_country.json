@@ -447,9 +447,7 @@
           {
             "gid": "whosonfirst:locality:890442097",
             "locality": "Hamilton",
-            "dependency": "Bermuda",
-            "country": "United Kingdom",
-            "country_a": "GBR"
+            "dependency": "Bermuda"
           }
         ]
       }
@@ -469,9 +467,7 @@
             "layer": "locality",
             "locality": "Pago Pago",
             "dependency": "American Samoa",
-            "dependency_a": "ASM",
-            "country": "United States",
-            "country_a": "USA"
+            "dependency_a": "ASM"
           }
         ]
       }
@@ -491,9 +487,7 @@
           {
             "gid": "whosonfirst:locality:890441875",
             "locality": "The Valley",
-            "dependency": "Anguilla",
-            "country": "United Kingdom",
-            "country_a": "GBR"
+            "dependency": "Anguilla"
           }
         ]
       }
