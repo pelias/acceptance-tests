@@ -652,12 +652,12 @@
         "properties": [
           {
             "layer": "county",
-            "name": "Chongqing",
+            "name": "Chongqing Shi",
             "country_a": "CHN",
             "country": "China",
             "region": "Chongqing",
-            "county": "Chongqing",
-            "label": "Chongqing, China"
+            "county": "Chongqing Shi",
+            "label": "Chongqing Shi, China"
           }
         ]
       }

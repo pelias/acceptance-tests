@@ -34,7 +34,7 @@
         "properties": [
           {
             "name": "Parnu",
-            "region": "Pärnumaa",
+            "region": "Pärnu County",
             "locality": "Parnu",
             "label": "Parnu, Estonia",
             "country": "Estonia"
@@ -61,7 +61,7 @@
         "properties": [
           {
             "name": "Chambéry",
-            "macroregion": "Rhône-Alpes",
+            "macroregion": "Auvergne-Rhone-Alpes",
             "locality": "Chambéry",
             "label": "Chambéry, France",
             "country": "France"

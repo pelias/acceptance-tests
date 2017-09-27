@@ -69,7 +69,7 @@
     },
     {
       "id": 3,
-      "status": "fail",
+      "status": "pass",
       "user": "lily",
       "description": [
         "address in French with admin info in Japanese",
@@ -132,7 +132,7 @@
     },
     {
       "id": 6,
-      "status": "fail",
+      "status": "pass",
       "user": "lily",
       "endpoint": "autocomplete",
       "description": [
@@ -252,7 +252,7 @@
     },
     {
       "id": 11,
-      "status": "fail",
+      "status": "pass",
       "user": "lily",
       "description": [
         "address in Estonian, locality (Tallinn) in Finnish, region in English"
@@ -313,7 +313,7 @@
         "properties": [
           {
             "name": "Беверли Хилс",
-            "region": "Texas",
+            "region": "Тексас",
             "country": "Сједињене Америчке Државе"
           }
         ]
@@ -325,7 +325,6 @@
       "user": "lily",
       "description": [
         "search with focus point parameter",
-        "no RU translation for region",
         "lang: russian"
       ],
       "in": {
@@ -338,7 +337,7 @@
         "properties": [
           {
             "name": "Спрингфилд",
-            "region": "Ohio",
+            "region": "Огайо",
             "country": "Соединённые Штаты Америки"
           }
         ]
@@ -430,7 +429,7 @@
         "properties": [
           {
             "name": "Дамаскъс",
-            "region": "Oregon",
+            "region": "Орегон",
             "country": "Съединени американски щати"
           }
         ]
