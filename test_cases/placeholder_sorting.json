@@ -552,9 +552,9 @@
     },
     {
       "id": 1101,
-      "status": "pass",
+      "status": "fail",
       "endpoint": "search",
-      "description": "county",
+      "description": "county. failed because of space temporarily at the end of the name",
       "in": {
         "text": "Nordsachsen"
       },
