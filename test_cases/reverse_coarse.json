@@ -72,7 +72,7 @@
             "county": "Municipio de San Juan",
             "region": "Puerto Rico",
             "dependency": "Puerto Rico",
-            "country": "United States"
+            "label": "San Juan, Puerto Rico"
           }
         ]
       }
@@ -176,9 +176,12 @@
     },
     {
       "id": 12,
-      "status": "pass",
+      "status": "fail",
       "user": "trescube",
-      "description": "more granular results should be ignored when layers don't specify them",
+      "description": [
+        "more granular results should be ignored when layers don't specify them",
+        "fails with the introduction of https://github.com/pelias/api/pull/1002, which uses the first hierarchy of a WOF record instead of calling all polygons"
+      ],
       "type": "dev",
       "in": {
         "point.lat": 40.744260,
@@ -322,8 +325,7 @@
         "properties": [
           {
             "layer": "dependency",
-            "dependency": "Puerto Rico",
-            "country": "United States"
+            "dependency": "Puerto Rico"
           }
         ]
       }
@@ -401,6 +403,166 @@
           {
             "gid": "whosonfirst:region:85687359",
             "name": "Setúbal"
+          }
+        ]
+      }
+    },
+    {
+      "id": 23,
+      "status": "pass",
+      "user": "trescube",
+      "description": "only look for empires",
+      "type": "dev",
+      "in": {
+        "point.lat": 54.709749,
+        "point.lon": 20.514126,
+        "layers": "empire"
+      },
+      "expected": {
+        "properties": [
+          {
+            "gid": "whosonfirst:empire:874393555",
+            "name": "Russia"
+          }
+        ]
+      }
+    },
+    {
+      "id": 24,
+      "status": "pass",
+      "user": "trescube",
+      "description": "only look for empires",
+      "type": "dev",
+      "in": {
+        "point.lat": 36.129463,
+        "point.lon": -5.3467,
+        "layers": "empire"
+      },
+      "expected": {
+        "properties": [
+          {
+            "gid": "whosonfirst:empire:136253055",
+            "name": "United Kingdom"
+          }
+        ]
+      }
+    },
+    {
+      "id": 25,
+      "status": "pass",
+      "user": "trescube",
+      "description": "only look for continents",
+      "type": "dev",
+      "in": {
+        "point.lat": 12.264674,
+        "point.lon": -3.311809,
+        "layers": "continent"
+      },
+      "expected": {
+        "properties": [
+          {
+            "gid": "whosonfirst:continent:102191573",
+            "name": "Africa"
+          }
+        ]
+      }
+    },
+    {
+      "id": 26,
+      "status": "pass",
+      "user": "trescube",
+      "description": "only look for continents",
+      "type": "dev",
+      "in": {
+        "point.lat": -77.335330,
+        "point.lon": -1.681634,
+        "layers": "continent"
+      },
+      "expected": {
+        "properties": [
+          {
+            "gid": "whosonfirst:continent:102191579",
+            "name": "Antarctica"
+          }
+        ]
+      }
+    },
+    {
+      "id": 27,
+      "status": "pass",
+      "user": "trescube",
+      "description": "only look for marineareas",
+      "type": "dev",
+      "in": {
+        "point.lat": 38.048214,
+        "point.lon": -76.294635,
+        "layers": "marinearea"
+      },
+      "expected": {
+        "properties": [
+          {
+            "gid": "whosonfirst:marinearea:404528937",
+            "name": "Chesapeake Bay"
+          }
+        ]
+      }
+    },
+    {
+      "id": 28,
+      "status": "pass",
+      "user": "trescube",
+      "description": "only look for marineareas",
+      "type": "dev",
+      "in": {
+        "point.lat": 73.313889,
+        "point.lon": 158.845395,
+        "layers": "marinearea"
+      },
+      "expected": {
+        "properties": [
+          {
+            "gid": "whosonfirst:marinearea:404528973",
+            "name": "East Siberian Sea"
+          }
+        ]
+      }
+    },
+    {
+      "id": 29,
+      "status": "pass",
+      "user": "trescube",
+      "description": "only look for oceans",
+      "type": "dev",
+      "in": {
+        "point.lat": -23.175327,
+        "point.lon": -20.666009,
+        "layers": "ocean"
+      },
+      "expected": {
+        "properties": [
+          {
+            "gid": "whosonfirst:ocean:404528719",
+            "name": "South Atlantic Ocean"
+          }
+        ]
+      }
+    },
+    {
+      "id": 30,
+      "status": "pass",
+      "user": "trescube",
+      "description": "only look for oceans",
+      "type": "dev",
+      "in": {
+        "point.lat": 2.041589,
+        "point.lon": 87.221323,
+        "layers": "ocean"
+      },
+      "expected": {
+        "properties": [
+          {
+            "gid": "whosonfirst:ocean:404528717",
+            "name": "Indian Ocean"
           }
         ]
       }
