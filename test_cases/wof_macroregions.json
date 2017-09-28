@@ -9,6 +9,7 @@
       "description": "",
       "in": {
         "text": "Észak-Alföld",
+        "lang": "hu",
         "sources": "wof"
       },
       "expected": {
@@ -17,7 +18,7 @@
             "layer": "macroregion",
             "name": "Észak-Alföld",
             "macroregion": "Észak-Alföld",
-            "country": "Hungary",
+            "country": "Magyarország",
             "country_a": "HUN"
           }
         ]
@@ -30,6 +31,7 @@
       "description": "",
       "in": {
         "text": "Comunidad Foral De Navarra, ES",
+        "lang": "es",
         "sources": "wof"
       },
       "expected": {
@@ -38,7 +40,7 @@
             "layer": "macroregion",
             "name": "Comunidad Foral De Navarra",
             "macroregion": "Comunidad Foral De Navarra",
-            "country": "Spain",
+            "country": "España",
             "country_a": "ESP"
           }
         ]
@@ -51,6 +53,7 @@
       "description": "",
       "in": {
         "text": "Île-De-France, France",
+        "lang": "fr",
         "sources": "wof"
       },
       "expected": {
@@ -67,12 +70,13 @@
     },
     {
       "id": 4,
-      "status": "fail",
+      "status": "pass",
       "user": "Stephen",
       "issue": "https://github.com/whosonfirst/whosonfirst-data/issues/250",
       "description": "seems to be a data issue, country is set to Europe",
       "in": {
         "text": "Dél-Dunántúl, HU",
+        "lang": "hu",
         "sources": "wof"
       },
       "expected": {
@@ -81,7 +85,7 @@
             "layer": "macroregion",
             "name": "Dél-Dunántúl",
             "macroregion": "Dél-Dunántúl",
-            "country": "Hungary",
+            "country": "Magyarország",
             "country_a": "HUN"
           }
         ]
@@ -94,6 +98,7 @@
       "description": "",
       "in": {
         "text": "Sardegna, Italy",
+        "lang": "it",
         "sources": "wof"
       },
       "expected": {
@@ -102,7 +107,7 @@
             "layer": "macroregion",
             "name": "Sardegna",
             "macroregion": "Sardegna",
-            "country": "Italy",
+            "country": "Italia",
             "country_a": "ITA"
           }
         ]
@@ -115,6 +120,7 @@
       "description": "",
       "in": {
         "text": "Közép-Magyarország, Hungary",
+        "lang": "hu",
         "sources": "wof"
       },
       "expected": {
@@ -123,7 +129,7 @@
             "layer": "macroregion",
             "name": "Közép-Magyarország",
             "macroregion": "Közép-Magyarország",
-            "country": "Hungary",
+            "country": "Magyarország",
             "country_a": "HUN"
           }
         ]

@@ -10,6 +10,7 @@
       "in": {
         "text": "Villares De Órbigo, Spain",
         "sources": "wof",
+        "lang": "es",
         "layers": "localadmin"
       },
       "expected": {
@@ -17,9 +18,9 @@
           {
             "layer": "localadmin",
             "name": "Villares De Órbigo",
-            "region": "León",
+            "region": "Provincia de León",
             "macroregion": "Castilla Y León",
-            "country": "Spain",
+            "country": "España",
             "country_a": "ESP"
           }
         ]

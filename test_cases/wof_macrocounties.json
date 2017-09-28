@@ -4,7 +4,7 @@
   "tests": [
     {
       "id": 1,
-      "status": "fail",
+      "status": "pass",
       "user": "Stephen",
       "issue": [
         "https://github.com/pelias/api/issues/495",
@@ -13,15 +13,17 @@
       "description": "chosen for punctuation",
       "in": {
         "text": "Saint-Die-Des-Vosges, France",
-        "sources": "wof"
+        "sources": "wof",
+        "lang": "fr",
+        "layers": "macrocounty"
       },
       "expected": {
         "properties": [
           {
             "layer": "macrocounty",
             "name": "Saint-Die-Des-Vosges",
-            "region": "Vosges",
-            "macroregion": "Lorraine",
+            "region": "Massif des Vosges",
+            "macroregion": "Grand Est",
             "country": "France",
             "country_a": "FRA"
           }
@@ -30,7 +32,7 @@
     },
     {
       "id": 2,
-      "status": "fail",
+      "status": "pass",
       "user": "Stephen",
       "issue": "https://github.com/pelias/api/issues/484",
       "description": [
@@ -40,6 +42,8 @@
       ],
       "in": {
         "text": "Münster, DE",
+        "lang": "de",
+        "layers": "macrocounty",
         "sources": "wof"
       },
       "expected": {
@@ -47,8 +51,8 @@
           {
             "layer": "macrocounty",
             "name": "Münster",
-            "region": "Nordrhein-Westfalen",
-            "country": "Germany",
+            "macrocounty": "Münster",
+            "country": "Deutschland",
             "country_a": "DEU"
           }
         ]
@@ -79,21 +83,23 @@
     },
     {
       "id": 4,
-      "status": "fail",
+      "status": "pass",
       "user": "Stephen",
       "issue": "https://github.com/pelias/api/issues/484",
       "description": "chosen for punctuation",
       "in": {
         "text": "Les Sables-D'Olonne, France",
-        "sources": "wof"
+        "lang": "fr",
+        "sources": "wof",
+        "layers": "macrocounty"
       },
       "expected": {
         "properties": [
           {
             "layer": "macrocounty",
-            "name": "Les Sables-d'Olonne",
+            "name": "Les Sables-D'Olonne",
             "region": "Vendée",
-            "macroregion": "Pays De La Loire",
+            "macroregion": "Pays de la Loire",
             "country": "France",
             "country_a": "FRA"
           }
