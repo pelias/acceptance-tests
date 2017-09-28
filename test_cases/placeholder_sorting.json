@@ -743,6 +743,26 @@
           }
         ]
       }
+    },
+    {
+      "id": 1600,
+      "status": "fail",
+      "endpoint": "search",
+      "description": "county should be after locality generally",
+      "issue": [
+        "https://github.com/pelias/placeholder/issues/55"
+      ],
+      "in": {
+        "text": "pärnu, estonia"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Parnu",
+            "layer": "locality"
+          }
+        ]
+      }
     }
   ]
 }
