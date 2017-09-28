@@ -28,17 +28,16 @@
       "description": "make sure that results return the appropriate accents on results",
       "notes": "https://github.com/pelias/api/issues/731",
       "in": {
+        "lang": "et",
         "text": "pärnu, estonia"
       },
       "expected": {
         "priorityThresh": 2,
         "properties": [
           {
-            "name": "Parnu",
-            "region": "Pärnu County",
-            "locality": "Parnu",
-            "label": "Parnu, Estonia",
-            "country": "Estonia"
+            "name": "Pärnu maakond",
+            "region": "Pärnu maakond",
+            "country": "Eesti"
           }
         ]
       }
