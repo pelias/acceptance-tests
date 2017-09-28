@@ -69,7 +69,7 @@
           {
             "layer": "locality",
             "locality": "San Juan",
-            "county": "Municipio de San Juan",
+            "county": "San Juan",
             "region": "Puerto Rico",
             "dependency": "Puerto Rico",
             "label": "San Juan, Puerto Rico"
@@ -383,7 +383,7 @@
         "properties": [
           {
             "gid": "whosonfirst:county:1108735021",
-            "name": "Maksatikhinskij"
+            "name": "Maksatikhinskiy"
           }
         ]
       }
@@ -402,7 +402,7 @@
         "properties": [
           {
             "gid": "whosonfirst:region:85687359",
-            "name": "Setúbal"
+            "name": "Setúbal District"
           }
         ]
       }
