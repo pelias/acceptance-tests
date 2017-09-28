@@ -7,6 +7,7 @@
       "status": "fail",
       "user": "trescube",
       "description": "",
+      "issue": "https://github.com/pelias/placeholder/issues/54",
       "in": {
         "text": "Anguilla",
         "sources": "wof",
@@ -29,6 +30,7 @@
       "status": "fail",
       "user": "trescube",
       "description": "",
+      "issue": "https://github.com/pelias/placeholder/issues/54",
       "in": {
         "text": "Bermuda",
         "sources": "wof",
@@ -51,6 +53,7 @@
       "status": "fail",
       "user": "trescube",
       "description": "",
+      "issue": "https://github.com/pelias/placeholder/issues/54",
       "in": {
         "text": "Faroe Islands",
         "sources": "wof",
@@ -73,6 +76,7 @@
       "status": "fail",
       "user": "trescube",
       "description": "",
+      "issue": "https://github.com/pelias/placeholder/issues/54",
       "in": {
         "text": "Puerto Rico",
         "sources": "wof",
@@ -96,6 +100,7 @@
       "status": "fail",
       "user": "trescube",
       "description": "",
+      "issue": "https://github.com/pelias/placeholder/issues/54",
       "in": {
         "text": "American Samoa",
         "sources": "wof",
@@ -119,6 +124,7 @@
       "status": "fail",
       "user": "trescube",
       "description": "",
+      "issue": "https://github.com/pelias/placeholder/issues/54",
       "in": {
         "text": "Niue",
         "sources": "wof",
