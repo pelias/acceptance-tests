@@ -273,9 +273,12 @@
     },
     {
       "id": 19,
-      "status": "pass",
+      "status": "fail",
       "description": "locality in non-US dependency should still include country",
-      "issue": "https://github.com/pelias/labels/issues/5",
+      "issue": [
+        "https://github.com/pelias/labels/issues/5",
+        "https://github.com/pelias/placeholder/issues/54"
+      ],
       "user": "trescube",
       "in": {
         "text": "George Hill, Anguilla",
@@ -293,9 +296,12 @@
     },
     {
       "id": 20,
-      "status": "pass",
+      "status": "fail",
       "description": "locality in non-US dependency should still include country",
-      "issue": "https://github.com/pelias/labels/issues/5",
+      "issue": [
+        "https://github.com/pelias/labels/issues/5",
+        "https://github.com/pelias/placeholder/issues/54"
+      ],
       "user": "trescube",
       "in": {
         "text": "Tórshavn faroe islands",
