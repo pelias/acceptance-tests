@@ -494,10 +494,11 @@
     },
     {
       "id": 26,
-      "status": "pass",
+      "status": "fail",
       "user": "trescube",
       "type": "dev",
       "notes": "New Caledonia is a dependency",
+      "issue": "https://github.com/pelias/wof-admin-lookup/issues/156",
       "in": {
         "text": "Bourail, new caledonia"
       },
