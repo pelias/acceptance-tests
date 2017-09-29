@@ -130,7 +130,7 @@
     },
     {
       "id": 6,
-      "status": "fail",
+      "status": "pass",
       "user": "Lily",
       "type": "dev",
       "description": [

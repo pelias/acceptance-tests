@@ -305,7 +305,7 @@
         "properties": [
           {
             "gid": "whosonfirst:macroregion:404227535",
-            "name": "Sardegna"
+            "name": "Sardinia"
           }
         ]
       }
@@ -322,7 +322,7 @@
         "properties": [
           {
             "gid": "whosonfirst:macroregion:404227361",
-            "name": "Andalucía"
+            "name": "Andalusia"
           }
         ]
       }
@@ -431,9 +431,10 @@
     },
     {
       "id": 701,
-      "status": "pass",
+      "status": "fail",
       "endpoint": "search",
       "description": "borough should rank higher than county",
+      "issue": "https://github.com/pelias/placeholder/issues/55",
       "in": {
         "text": "Queens"
       },
@@ -552,9 +553,9 @@
     },
     {
       "id": 1101,
-      "status": "pass",
+      "status": "fail",
       "endpoint": "search",
-      "description": "county",
+      "description": "county. failed because of space temporarily at the end of the name",
       "in": {
         "text": "Nordsachsen"
       },
@@ -740,6 +741,26 @@
           {
             "gid": "whosonfirst:neighbourhood:85821441",
             "name": "Getz"
+          }
+        ]
+      }
+    },
+    {
+      "id": 1600,
+      "status": "fail",
+      "endpoint": "search",
+      "description": "county should be after locality generally",
+      "issue": [
+        "https://github.com/pelias/placeholder/issues/55"
+      ],
+      "in": {
+        "text": "pärnu, estonia"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Parnu",
+            "layer": "locality"
           }
         ]
       }

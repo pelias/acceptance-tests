@@ -4,9 +4,9 @@
   "tests": [
     {
       "id": 1,
-      "status": "pass",
+      "status": "fail",
       "user": "Stephen",
-      "description": "chosen for diacriticals",
+      "description": "chosen for diacriticals. space at the end of the name",
       "in": {
         "text": "Villares De Órbigo, Spain",
         "sources": "wof",
@@ -17,8 +17,8 @@
           {
             "layer": "localadmin",
             "name": "Villares De Órbigo",
-            "region": "León",
-            "macroregion": "Castilla Y León",
+            "region": "Leon",
+            "macroregion": "Castile and Leon",
             "country": "Spain",
             "country_a": "ESP"
           }

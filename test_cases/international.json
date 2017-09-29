@@ -282,7 +282,7 @@
     },
     {
       "id": 14,
-      "status": "fail",
+      "status": "pass",
       "user": "lily",
       "description": [
         "Street exists in OSM data but returns various addresses instead of street centroid"
@@ -295,6 +295,7 @@
         "properties": [
           {
             "name": "Paseo de la Reforma",
+            "layer": "street",
             "locality": "Mexico City",
             "country_a": "MEX"
           }

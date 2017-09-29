@@ -15,8 +15,8 @@
         "properties": [
           {
             "layer": "macroregion",
-            "name": "Észak-Alföld",
-            "macroregion": "Észak-Alföld",
+            "name": "Northern Great Plain",
+            "macroregion": "Northern Great Plain",
             "country": "Hungary",
             "country_a": "HUN"
           }
@@ -36,8 +36,8 @@
         "properties": [
           {
             "layer": "macroregion",
-            "name": "Comunidad Foral De Navarra",
-            "macroregion": "Comunidad Foral De Navarra",
+            "name": "Navarra",
+            "macroregion": "Navarra",
             "country": "Spain",
             "country_a": "ESP"
           }
@@ -57,8 +57,8 @@
         "properties": [
           {
             "layer": "macroregion",
-            "name": "Île-De-France",
-            "macroregion": "Île-De-France",
+            "name": "Ile-of-France",
+            "macroregion": "Ile-of-France",
             "country": "France",
             "country_a": "FRA"
           }
@@ -100,8 +100,8 @@
         "properties": [
           {
             "layer": "macroregion",
-            "name": "Sardegna",
-            "macroregion": "Sardegna",
+            "name": "Sardinia",
+            "macroregion": "Sardinia",
             "country": "Italy",
             "country_a": "ITA"
           }
@@ -121,8 +121,8 @@
         "properties": [
           {
             "layer": "macroregion",
-            "name": "Közép-Magyarország",
-            "macroregion": "Közép-Magyarország",
+            "name": "Central Hungary",
+            "macroregion": "Central Hungary",
             "country": "Hungary",
             "country_a": "HUN"
           }
