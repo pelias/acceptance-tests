@@ -179,10 +179,10 @@
     },
     {
       "id": 10,
-      "status": "fail",
+      "status": "pass",
       "user": "trescube",
       "type": "dev",
-      "notes": "WOF currently lacks 'Cairo' as an altname for the city: https://whosonfirst.mapzen.com/spelunker/id/421174399",
+      "notes": "WOF previously lacked 'Cairo' as an altname for the city: https://whosonfirst.mapzen.com/spelunker/id/421174399",
       "in": {
         "text": "Cairo, EGY"
       },

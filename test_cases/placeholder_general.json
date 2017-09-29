@@ -566,7 +566,7 @@
     },
     {
       "id": 28,
-      "status": "fail",
+      "status": "pass",
       "endpoint": "search",
       "description": "Dundee has 0 population: https://github.com/pelias/pelias/issues/526",
       "priorityThresh": 10,
