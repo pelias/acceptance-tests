@@ -294,7 +294,8 @@
         "priorityThresh": 1,
         "properties": [
           {
-            "label": "Malmö, Sweden"
+            "name": "Malmo",
+            "country": "Sweden"
           }
         ]
       }

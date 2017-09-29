@@ -26,8 +26,7 @@
             "county": "Lancaster County",
             "locality": "Lancaster",
             "housenumber": "1090",
-            "street": "N Charlotte St",
-            "label": "1090 N Charlotte St, Lancaster, PA, USA"
+            "street": "N Charlotte St"
           }
         ]
       }
@@ -54,8 +53,7 @@
             "region_a": "PA",
             "county": "Lancaster County",
             "locality": "Lancaster",
-            "street": "North Charlotte Street",
-            "label": "North Charlotte Street, Lancaster, PA, USA"
+            "street": "North Charlotte Street"
           }
         ]
       }
@@ -85,8 +83,7 @@
             "region_a": "NM",
             "county": "Socorro County",
             "locality": "Socorro",
-            "street": "Calle de Lago",
-            "label": "Calle de Lago, Socorro, NM, USA"
+            "street": "Calle de Lago"
           }
         ]
       }
@@ -112,8 +109,7 @@
             "region": "Pennsylvania",
             "region_a": "PA",
             "county": "Lancaster County",
-            "locality": "Lancaster",
-            "label": "Lancaster, PA, USA"
+            "locality": "Lancaster"
           }
         ]
       }
@@ -138,8 +134,7 @@
             "country": "United States",
             "region": "California",
             "region_a": "CA",
-            "locality": "San Francisco",
-            "label": "1338 Kobbe Ave, San Francisco, CA, USA"
+            "locality": "San Francisco"
           }
         ]
       }
@@ -161,8 +156,7 @@
             "name": "Grolmanstraße 51",
             "country_a": "DEU",
             "country": "Germany",
-            "locality": "Berlin",
-            "label": "Grolmanstraße 51, Berlin, Germany"
+            "locality": "Berlin"
           }
         ]
       }
@@ -187,8 +181,7 @@
             "country": "United States",
             "region": "California",
             "region_a": "CA",
-            "locality": "San Francisco",
-            "label": "5 Russian Hill Pl, San Francisco, CA, USA"
+            "locality": "San Francisco"
           }
         ]
       }
@@ -232,8 +225,7 @@
             "region": "New York",
             "locality": "New York",
             "borough": "Brooklyn",
-            "neighbourhood": "DUMBO",
-            "label": "DUMBO, Brooklyn, New York, NY, USA"
+            "neighbourhood": "DUMBO"
           }
         ]
       }
@@ -257,8 +249,7 @@
             "region": "New York",
             "locality": "New York",
             "borough": "Manhattan",
-            "neighbourhood": "Chelsea",
-            "label": "Chelsea, Manhattan, New York, NY, USA"
+            "neighbourhood": "Chelsea"
           }
         ]
       }
@@ -282,8 +273,7 @@
             "region": "New York",
             "locality": "New York",
             "borough": "Manhattan",
-            "neighbourhood": "NoHo",
-            "label": "NoHo, Manhattan, New York, NY, USA"
+            "neighbourhood": "NoHo"
           }
         ]
       }
@@ -311,8 +301,7 @@
             "region_a": "NY",
             "county": "New York County",
             "locality": "New York",
-            "borough": "Manhattan",
-            "label": "Manhattan, New York, NY, USA"
+            "borough": "Manhattan"
           },
           {
             "layer": "locality",
@@ -322,8 +311,7 @@
             "region": "Kansas",
             "region_a": "KS",
             "county": "Riley County",
-            "locality": "Manhattan",
-            "label": "Manhattan, KS, USA"
+            "locality": "Manhattan"
           }
         ]
       }
@@ -352,8 +340,7 @@
             "region_a": "NY",
             "county": "New York County",
             "locality": "New York",
-            "borough": "Manhattan",
-            "label": "Manhattan, New York, NY, USA"
+            "borough": "Manhattan"
           }
         ]
       }
@@ -380,8 +367,7 @@
             "region": "New Mexico",
             "region_a": "NM",
             "county": "Socorro County",
-            "locality": "Socorro",
-            "label": "Socorro, NM, USA"
+            "locality": "Socorro"
           }
         ]
       }
@@ -406,8 +392,7 @@
             "country": "United States",
             "region": "New York",
             "region_a": "NY",
-            "locality": "New York",
-            "label": "New York, NY, USA"
+            "locality": "New York"
           }
         ]
       }
@@ -429,8 +414,7 @@
             "name": "Paris",
             "country_a": "FRA",
             "country": "France",
-            "locality": "Paris",
-            "label": "Paris, France"
+            "locality": "Paris"
           }
         ]
       }
@@ -452,8 +436,7 @@
             "name": "Beijing",
             "country_a": "CHN",
             "country": "China",
-            "locality": "Beijing",
-            "label": "Beijing, China"
+            "locality": "Beijing"
           }
         ]
       }
@@ -476,8 +459,7 @@
             "name": "Zickrick",
             "country_a": "USA",
             "country": "United States",
-            "localadmin": "Zickrick",
-            "label": "Zickrick, SD, USA"
+            "localadmin": "Zickrick"
           }
         ]
       }
@@ -499,8 +481,7 @@
             "name": "Zumbehl",
             "country_a": "USA",
             "country": "United States",
-            "localadmin": "Zumbehl",
-            "label": "Zumbehl, MO, USA"
+            "localadmin": "Zumbehl"
           }
         ]
       }
@@ -525,8 +506,7 @@
             "country": "United States",
             "region_a": "MN",
             "region": "Minnesota",
-            "localadmin": "Aastad",
-            "label": "Aastad, MN, USA"
+            "localadmin": "Aastad"
           }
         ]
       }
@@ -551,8 +531,7 @@
             "country": "United States",
             "region_a": "OH",
             "region": "Ohio",
-            "localadmin": "Bloominggrove",
-            "label": "Bloominggrove, OH, USA"
+            "localadmin": "Bloominggrove"
           }
         ]
       }
@@ -577,8 +556,7 @@
             "country_a": "USA",
             "country": "United States",
             "region_a": "PA",
-            "region": "Pennsylvania",
-            "label": "Lancaster County, PA, USA"
+            "region": "Pennsylvania"
           },
           {
             "layer": "county",
@@ -586,8 +564,7 @@
             "country_a": "USA",
             "country": "United States",
             "region_a": "NE",
-            "region": "Nebraska",
-            "label": "Lancaster County, NE, USA"
+            "region": "Nebraska"
           }
         ]
       }
@@ -610,8 +587,7 @@
             "country_a": "USA",
             "country": "United States",
             "region_a": "PA",
-            "region": "Pennsylvania",
-            "label": "Lancaster County, PA, USA"
+            "region": "Pennsylvania"
           }
         ]
       }
@@ -632,8 +608,7 @@
             "name": "L'Hermenault",
             "country_a": "FRA",
             "country": "France",
-            "region": "Vendée",
-            "label": "L'Hermenault, France"
+            "region": "Vendée"
           }
         ]
       }
@@ -652,12 +627,11 @@
         "properties": [
           {
             "layer": "county",
-            "name": "Chongqing",
+            "name": "Chongqing Shi",
             "country_a": "CHN",
             "country": "China",
             "region": "Chongqing",
-            "county": "Chongqing",
-            "label": "Chongqing, China"
+            "county": "Chongqing Shi"
           }
         ]
       }
@@ -679,8 +653,7 @@
             "name": "Gießen",
             "country_a": "DEU",
             "country": "Germany",
-            "macrocounty": "Gießen",
-            "label": "Gießen, Germany"
+            "macrocounty": "Gießen"
           }
         ]
       }
@@ -702,8 +675,7 @@
             "name": "Mittelfranken",
             "country_a": "DEU",
             "country": "Germany",
-            "macrocounty": "Mittelfranken",
-            "label": "Mittelfranken, Germany"
+            "macrocounty": "Mittelfranken"
           }
         ]
       }
@@ -724,8 +696,7 @@
             "name": "Arnsberg",
             "country_a": "DEU",
             "country": "Germany",
-            "macrocounty": "Arnsberg",
-            "label": "Arnsberg, Germany"
+            "macrocounty": "Arnsberg"
           }
         ]
       }
@@ -749,8 +720,7 @@
             "country_a": "USA",
             "country": "United States",
             "region_a": "PA",
-            "region": "Pennsylvania",
-            "label": "Pennsylvania, USA"
+            "region": "Pennsylvania"
           }
         ]
       }
@@ -772,8 +742,7 @@
             "country_a": "USA",
             "country": "United States",
             "region_a": "NM",
-            "region": "New Mexico",
-            "label": "New Mexico, USA"
+            "region": "New Mexico"
           }
         ]
       }
@@ -794,8 +763,7 @@
             "name": "Kakheti",
             "country_a": "GEO",
             "country": "Georgia",
-            "region": "Kakheti",
-            "label": "Kakheti, Georgia"
+            "region": "Kakheti"
           }
         ]
       }
@@ -841,8 +809,7 @@
             "name": "Marche",
             "country_a": "ITA",
             "country": "Italy",
-            "macroregion": "Marche",
-            "label": "Marche, Italy"
+            "macroregion": "Marche"
           }
         ]
       }
@@ -863,8 +830,7 @@
             "name": "Marche",
             "country_a": "ITA",
             "country": "Italy",
-            "macroregion": "Marche",
-            "label": "Marche, Italy"
+            "macroregion": "Marche"
           }
         ]
       }
@@ -886,8 +852,7 @@
             "name": "Northern Finland",
             "country_a": "FIN",
             "country": "Finland",
-            "macroregion": "Northern Finland",
-            "label": "Northern Finland, Finland"
+            "macroregion": "Northern Finland"
           }
         ]
       }
@@ -908,8 +873,7 @@
           {
             "layer": "dependency",
             "name": "US Virgin Islands",
-            "dependency": "US Virgin Islands",
-            "label": "US Virgin Islands"
+            "dependency": "US Virgin Islands"
           }
         ]
       }
@@ -929,8 +893,7 @@
           {
             "layer": "dependency",
             "name": "US Virgin Islands",
-            "dependency": "US Virgin Islands",
-            "label": "US Virgin Islands"
+            "dependency": "US Virgin Islands"
           }
         ]
       }
@@ -949,8 +912,7 @@
           {
             "layer": "dependency",
             "name": "Bermuda",
-            "dependency": "Bermuda",
-            "label": "Bermuda"
+            "dependency": "Bermuda"
           }
         ]
       }
@@ -971,8 +933,7 @@
             "layer": "country",
             "name": "United States",
             "country_a": "USA",
-            "country": "United States",
-            "label": "United States"
+            "country": "United States"
           }
         ]
       }
@@ -992,8 +953,7 @@
             "layer": "country",
             "name": "United States",
             "country_a": "USA",
-            "country": "United States",
-            "label": "United States"
+            "country": "United States"
           }
         ]
       }
@@ -1013,8 +973,7 @@
             "layer": "country",
             "name": "United States",
             "country_a": "USA",
-            "country": "United States",
-            "label": "United States"
+            "country": "United States"
           }
         ]
       }
@@ -1035,8 +994,7 @@
             "layer": "country",
             "name": "Thailand",
             "country_a": "THA",
-            "country": "Thailand",
-            "label": "Thailand"
+            "country": "Thailand"
           }
         ]
       }
@@ -1056,8 +1014,7 @@
             "layer": "country",
             "name": "France",
             "country_a": "FRA",
-            "country": "France",
-            "label": "France"
+            "country": "France"
           }
         ]
       }
@@ -1078,8 +1035,7 @@
             "layer": "country",
             "name": "Australia",
             "country_a": "AUS",
-            "country": "Australia",
-            "label": "Australia"
+            "country": "Australia"
           }
         ]
       }
@@ -1103,8 +1059,7 @@
             "layer": "venue",
             "name": "Lancaster Bureau of Police",
             "locality": "Lancaster",
-            "region_a": "PA",
-            "label": "Lancaster Bureau of Police, Lancaster, PA, USA"
+            "region_a": "PA"
           }
         ]
       }
@@ -1127,8 +1082,7 @@
             "layer": "venue",
             "name": "Chameleon Club",
             "locality": "Lancaster",
-            "region_a": "PA",
-            "label": "Chameleon Club, Lancaster, PA, USA"
+            "region_a": "PA"
           }
         ]
       }
@@ -1151,8 +1105,7 @@
             "layer": "venue",
             "name": "Lancaster Bureau of Police",
             "locality": "Lancaster",
-            "region_a": "PA",
-            "label": "Lancaster Bureau of Police, Lancaster, PA, USA"
+            "region_a": "PA"
           }
         ]
       }
@@ -1176,8 +1129,7 @@
             "housenumber": "1090",
             "street": "N Charlotte St",
             "locality": "Lancaster",
-            "region_a": "PA",
-            "label": "1090 N Charlotte St, Lancaster, PA, USA"
+            "region_a": "PA"
           }
         ]
       }
@@ -1200,8 +1152,7 @@
             "layer": "street",
             "street": "North Charlotte Street",
             "locality": "Lancaster",
-            "region_a": "PA",
-            "label": "North Charlotte Street, Lancaster, PA, USA"
+            "region_a": "PA"
           }
         ]
       }
@@ -1222,8 +1173,7 @@
           {
             "layer": "locality",
             "locality": "Lancaster",
-            "region_a": "PA",
-            "label": "Lancaster, PA, USA"
+            "region_a": "PA"
           }
         ]
       }
