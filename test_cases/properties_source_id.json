@@ -70,8 +70,8 @@
     },
     {
       "id": 4,
-      "status": "fail",
-      "description": "the record was deleted in OSM, has been added back, should be fixed soon",
+      "status": "pass",
+      "description": "OSM venue",
       "endpoint": "place",
       "in": {
         "ids": "openstreetmap:venue:node:4509430011"
@@ -84,7 +84,7 @@
             "source": "openstreetmap",
             "id": "node:4509430011",
             "source_id": "node:4509430011",
-            "name": "Inday"
+            "name": "INDAY"
           }
         ]
       }
