@@ -57,14 +57,13 @@
     },
     {
       "id": "maps_service_geocode_by_structured_address",
-      "status": "fail",
+      "status": "pass",
       "user": "dianashk",
-      "endpoint": "search",
+      "endpoint": "search/structured",
       "in": {
-        "text.housenumber": "30",
-        "text.street": "w 26th street",
-        "text.state": "new york",
-        "text.postcode": "10010"
+        "address": "30 w 26th street",
+        "region": "new york",
+        "postalcode": "10010"
       },
       "expected": {
         "properties": [
