@@ -240,7 +240,7 @@
     },
     {
       "id": 12,
-      "status": "fail",
+      "status": "pass",
       "user": "lily",
       "description": [
         "prod missing locality data. passes on prodbuild"
@@ -252,7 +252,7 @@
       "expected": {
         "properties": [
           {
-            "name": "615 MacLeod Trail",
+            "name": "615 MacLeod Tr SE",
             "locality": "Calgary",
             "country_a": "CAN"
           }

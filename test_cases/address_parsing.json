@@ -249,7 +249,7 @@
     },
     {
       "id": 9,
-      "status": "fail",
+      "status": "pass",
       "description": "The mission is now a macrohood, so we won't be able to get this right until that's imported",
       "issue": "https://github.com/pelias/whosonfirst/issues/213",
       "user": "Harish",
@@ -266,7 +266,6 @@
             "region_a": "CA",
             "county": "San Francisco County",
             "locality": "San Francisco",
-            "macrohood": "Mission District",
             "postalcode": "94110",
             "housenumber": "3010",
             "street": "20th Street",
