@@ -59,6 +59,33 @@
           }
         ]
       }
+    },
+    {
+      "id": 4,
+      "status": "pass",
+      "description": "the place endpoint should return multiple results when multiple ids are specified",
+      "in": {
+        "ids": "whosonfirst:region:85688525,whosonfirst:locality:101928027"
+      },
+      "expected": {
+        "priorityThresh": 2,
+        "properties": [
+          {
+            "gid": "whosonfirst:region:85688525",
+            "layer": "region",
+            "source": "whosonfirst",
+            "id": "85688525",
+            "name": "North Dakota"
+          },
+          {
+            "gid": "whosonfirst:locality:101928027",
+            "layer": "locality",
+            "source": "whosonfirst",
+            "id": "101928027",
+            "name": "Cape Town"
+          }
+        ]
+      }
     }
   ]
 }
