@@ -6,6 +6,7 @@
     {
       "id": 1,
       "status": "pass",
+      "description": "place endpoint should return the desired record",
       "in": {
         "ids": "openstreetmap:venue:node:2562438641"
       },
@@ -43,6 +44,8 @@
     {
       "id": 3,
       "status": "pass",
+      "description": "the correct OSM way should be returned even when there is an OSM node with the same ID",
+      "issue": "https://github.com/pelias/api/issues/317",
       "in": {
         "ids": "openstreetmap:venue:way:5013364"
       },
