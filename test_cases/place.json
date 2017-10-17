@@ -86,6 +86,25 @@
           }
         ]
       }
+    },
+    {
+      "id": 5,
+      "status": "fail",
+      "description": "Records from other layers should not be returned",
+      "issue": "https://github.com/pelias/pelias/issues/643",
+      "in": {
+        "ids": "openstreetmap:address:node:2420772655"
+      },
+      "expected": {
+        "properties": [
+          {
+            "gid": "openstreetmap:address:node:2420772655",
+            "layer": "address",
+            "source": "openstreetmap",
+            "id": "node:2420772655"
+          }
+        ]
+      }
     }
   ]
 }
