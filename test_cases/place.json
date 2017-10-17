@@ -105,6 +105,25 @@
           }
         ]
       }
+    },
+    {
+      "id": 6,
+      "status": "fail",
+      "description": "Records from other sources should not be returned",
+      "issue": "https://github.com/pelias/pelias/issues/672",
+      "in": {
+        "ids": "whosonfirst:locality:123"
+      },
+      "unexpected": {
+        "properties": [
+          {
+            "gid": "geonames:locality:123",
+            "layer": "locality",
+            "source": "geonames",
+            "id": "123"
+          }
+        ]
+      }
     }
   ]
 }
