@@ -1,0 +1,280 @@
+{
+  "name": "Single-token admin areas analysis should search for venues",
+  "endpoint": "search",
+  "priorityThresh": 10,
+  "distanceThresh": 50,
+  "tests": [
+    {
+      "id": 1,
+      "user": "trescube",
+      "status": "pass",
+      "description": "there should be nothing named New York near Socorro, NM",
+      "in": {
+        "text": "new york",
+        "focus.point.lat": "34.060746",
+        "focus.point.lon": "-106.900002"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "locality"
+          }
+        ]
+      },
+      "unexpected": {
+        "properties": [
+          {
+            "layer": "venue"
+          }
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "user": "trescube",
+      "status": "pass",
+      "description": [
+        "libpostal thinks \"school\" is a city",
+        "there should be schools near Socorro, NM"
+      ],
+      "in": {
+        "text": "school",
+        "focus.point.lat": "34.060746",
+        "focus.point.lon": "-106.900002"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "venue"
+          }
+        ]
+      },
+      "unexpected": {
+        "properties": [
+          {
+            "layer": "neighbourhood"
+          }
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "user": "trescube",
+      "status": "pass",
+      "description": [
+        "libpostal thinks \"school\" is a city",
+        "there should be schools near Bangkok, Thailand"
+      ],
+      "in": {
+        "text": "school",
+        "focus.point.lat": "13.724560",
+        "focus.point.lon": "100.493026"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "venue"
+          }
+        ]
+      },
+      "unexpected": {
+        "properties": [
+          {
+            "layer": "neighbourhood"
+          }
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "user": "trescube",
+      "status": "pass",
+      "description": [
+        "libpostal thinks \"Pizza\" is a city",
+        "there should be pizza places near Anchorage, AK"
+      ],
+      "in": {
+        "text": "pizza",
+        "focus.point.lat": "61.195136",
+        "focus.point.lon": "-149.868003"
+      },
+      "expected": {
+        "priorityThresh": 1,
+        "properties": [
+          {
+            "layer": "venue"
+          }
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "user": "trescube",
+      "status": "pass",
+      "description": [
+        "libpostal thinks \"restaurant\" is a city",
+        "there should be restaurants near Toronto, Ontario"
+      ],
+      "in": {
+        "text": "restaurant",
+        "focus.point.lat": "43.656791",
+        "focus.point.lon": "-79.460932"
+      },
+      "expected": {
+        "priorityThresh": 1,
+        "properties": [
+          {
+            "layer": "venue"
+          }
+        ]
+      }
+    },
+    {
+      "id": 6,
+      "user": "trescube",
+      "status": "pass",
+      "description": [
+        "India should be single-token analyzed and return country first"
+      ],
+      "in": {
+        "text": "india",
+        "focus.point.lat": "43.656791",
+        "focus.point.lon": "-79.460932"
+      },
+      "expected": {
+        "priorityThresh": 1,
+        "properties": [
+          {
+            "layer": "country",
+            "name": "India"
+          }
+        ]
+      }
+    },
+    {
+      "id": 7,
+      "user": "trescube",
+      "status": "pass",
+      "description": [
+        "India should be single-token analyzed and return country first"
+      ],
+      "in": {
+        "text": "university",
+        "focus.point.lat": "30.059483",
+        "focus.point.lon": "31.223444"
+      },
+      "expected": {
+        "priorityThresh": 5,
+        "properties": [
+          {
+            "layer": "venue"
+          }
+        ]
+      }
+    },
+    {
+      "id": 8,
+      "user": "trescube",
+      "status": "pass",
+      "description": [
+        "libpostal thinks \"gym\" is a city",
+        "there should be gyms near New York, NY"
+      ],
+      "in": {
+        "text": "gym",
+        "focus.point.lat": "40.697403",
+        "focus.point.lon": "-74.119763"
+      },
+      "expected": {
+        "priorityThresh": 3,
+        "properties": [
+          {
+            "layer": "venue"
+          }
+        ]
+      }
+    },
+    {
+      "id": 9,
+      "user": "trescube",
+      "status": "pass",
+      "description": [
+        "libpostal thinks \"island\" is a country",
+        "there should be islands near New York, NY"
+      ],
+      "in": {
+        "text": "island",
+        "focus.point.lat": "40.697403",
+        "focus.point.lon": "-74.119763"
+      },
+      "expected": {
+        "priorityThresh": 3,
+        "properties": [
+          {
+            "layer": "venue"
+          }
+        ]
+      }
+    },
+    {
+      "id": 10,
+      "user": "trescube",
+      "status": "pass",
+      "description": [
+        "libpostal thinks \"college\" is a city",
+        "there should be colleges in San Francisco, CA"
+      ],
+      "in": {
+        "text": "college",
+        "focus.point.lat": "37.757694",
+        "focus.point.lon": "-122.472619"
+      },
+      "expected": {
+        "priorityThresh": 3,
+        "properties": [
+          {
+            "layer": "venue"
+          }
+        ]
+      }
+    },
+    {
+      "id": 11,
+      "user": "trescube",
+      "status": "pass",
+      "description": [
+        "libpostal thinks \"island\" is a country",
+        "without focus point, no venues should be searched for"
+      ],
+      "in": {
+        "text": "island"
+      },
+      "unexpected": {
+        "properties": [
+          {
+            "layer": "venue"
+          }
+        ]
+      }
+    },
+    {
+      "id": 12,
+      "user": "trescube",
+      "status": "pass",
+      "description": [
+        "libpostal thinks \"college\" is a city",
+        "without focus point, no venues should be searched for"
+      ],
+      "in": {
+        "text": "college"
+      },
+      "unexpected": {
+        "properties": [
+          {
+            "layer": "venue"
+          }
+        ]
+      }
+    }
+  ]
+}
