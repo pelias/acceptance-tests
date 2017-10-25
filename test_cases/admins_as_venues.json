@@ -275,6 +275,29 @@
           }
         ]
       }
+    },
+    {
+      "id": 13,
+      "user": "trescube",
+      "status": "pass",
+      "description": [
+        "libpostal thinks \"college\" is a city",
+        "there should be colleges in San Francisco, CA"
+      ],
+      "in": {
+        "text": "college",
+        "layers": "locality",
+        "focus.point.lat": "37.757694",
+        "focus.point.lon": "-122.472619"
+      },
+      "unexpected": {
+        "priorityThresh": 10,
+        "properties": [
+          {
+            "layer": "venue"
+          }
+        ]
+      }
     }
   ]
 }
