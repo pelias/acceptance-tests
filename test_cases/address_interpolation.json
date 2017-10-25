@@ -7,6 +7,7 @@
     {
       "id": 1,
       "user": "missinglink",
+      "status": "pass",
       "in": {
         "text": "475f west 26th street, new york"
       },
@@ -54,6 +55,7 @@
     },
     {
       "id": 2,
+      "status": "pass",
       "user": "missinglink",
       "description": "interpolated address (between two different datasets)",
       "in": {
@@ -102,6 +104,7 @@
     },
     {
       "id": 3,
+      "status": "pass",
       "user": "missinglink",
       "in": {
         "text": "rigaer strasse 11, berlin"
@@ -151,6 +154,7 @@
     },
     {
       "id": 5,
+      "status": "pass",
       "user": "missinglink",
       "description": [ "must not interpolate in center of park" ],
       "in": {
@@ -174,23 +178,24 @@
     },
     {
       "id": 6,
+      "status": "pass",
       "user": "missinglink",
       "in": {
-        "text": "16 glasgow street, wellington"
+        "text": "19 glasgow street, wellington"
       },
       "expected": {
         "properties": [
           {
             "layer": "address",
             "source": "mixed",
-            "housenumber": "16",
+            "housenumber": "19",
             "street": "Glasgow Street",
             "match_type": "interpolated",
             "accuracy": "point"
           }
         ],
         "coordinates": [
-          [ 174.7670925, -41.2886487 ]
+          [ 174.767101, -41.2887933 ]
         ]
       }
     }

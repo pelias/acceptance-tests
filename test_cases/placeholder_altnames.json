@@ -369,17 +369,19 @@
     },
     {
       "id": 16,
-      "status": "fail",
+      "status": "pass",
       "user": "lily",
       "description": [
         "search with sources parameter",
         "Greek input",
         "St. Petersburg",
-        "returns unrelated results in Greek"
+        "returns unrelated results in Greek",
+        "lang: greek"
       ],
       "in": {
         "text": "Αγία Πετρούπολη",
-        "sources": "wof"
+        "sources": "wof",
+        "lang": "el"
       },
       "expected": {
         "properties": [
