@@ -282,7 +282,7 @@
       "status": "pass",
       "description": [
         "libpostal thinks \"college\" is a city",
-        "there should be colleges in San Francisco, CA"
+        "specifying layers should not include venues"
       ],
       "in": {
         "text": "college",
@@ -292,6 +292,28 @@
       },
       "unexpected": {
         "priorityThresh": 10,
+        "properties": [
+          {
+            "layer": "venue"
+          }
+        ]
+      }
+    },
+    {
+      "id": 14,
+      "user": "trescube",
+      "status": "pass",
+      "description": [
+        "libpostal thinks \"union square\" is a neighbourhood",
+        "there should be other union squares in New York City"
+      ],
+      "in": {
+        "text": "union square",
+        "focus.point.lat": "40.697403",
+        "focus.point.lon": "-74.119763"
+      },
+      "expected": {
+        "priorityThresh": 5,
         "properties": [
           {
             "layer": "venue"
