@@ -23,7 +23,7 @@
             "region": "서울",
             "country": "한국",
             "country_a": "KOR",
-            "label": "한국 서울 종로구 서울 스타벅스"
+            "label": "한국 서울특별시 종로구 스타벅스"
           }
         ]
       }
@@ -52,7 +52,7 @@
             "country": "한국",
             "neighbourhood": "상암동",
             "country_a": "KOR",
-            "label": "한국 서울특별시 아파트 상암동 상암월드컵파크 2단지"
+            "label": "한국 서울특별시 상암동 상암월드컵파크 2단지"
           }
         ]
       }
@@ -72,11 +72,11 @@
           {
             "layer": "venue",
             "street": "서강로9길",
-            "county": "포항시 남구",
+            "county": "포항시",
             "region": "경상북도",
             "country": "한국",
             "country_a": "KOR",
-            "label": "한국 경상북도 포항시 남구 포항공과대학교 기계실험동"
+            "label": "한국 경상북도 포항시 포항공과대학교 기계실험동"
           }
         ]
       }
@@ -208,7 +208,7 @@
     },
     {
       "id": 9,
-      "status": "pass",
+      "status": "fail",
       "user": "Hanbyul",
       "description": [
         "input is Pohangjukdo Market (it's a supermarket)",
@@ -223,13 +223,13 @@
         "properties": [
           {
             "layer": "venue",
-            "name": "포항죽도시장 (Pohangjukdo Market)",
+            "name": "포항죽도시장",
             "country": "한국",
             "country_a": "KOR",
-            "region": "대구",
-            "county": "달서구",
-            "locality": "대구",
-            "label": "한국 대구 달서구 포항죽도시장 (Pohangjukdo Market)"
+            "region": "경북",
+            "county": "포항시",
+            "locality": "북구",
+            "label": "한국 경북 포항시 포항죽도시장"
           }
         ]
       }
@@ -251,13 +251,13 @@
         "properties": [
           {
             "layer": "venue",
-            "name": "포항죽도시장 (Pohangjukdo Market)",
+            "name": "포항죽도시장",
             "country": "한국",
             "country_a": "KOR",
-            "region": "대구",
-            "county": "달서구",
-            "locality": "대구",
-            "label": "한국 대구 달서구 포항죽도시장 (Pohangjukdo Market)"
+            "region": "경북",
+            "county": "포항시",
+            "locality": "북구",
+            "label": "한국 경북 포항시 포항죽도시장"
           }
         ]
       }
