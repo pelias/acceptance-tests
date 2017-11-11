@@ -1,0 +1,241 @@
+{
+  "name": "search_intersections",
+  "notes": "For testing intersection searches",
+  "priorityThresh": 1,
+  "tests": [
+    {
+      "id": "searchinter-1",
+      "status": "pass",
+      "type": "almost-dev",
+      "user": "oleksandr",
+      "note": "Here Mapzen's intersection goes",
+      "in": {
+        "text": "6 av and w26"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "intersection",
+            "name": "6th Avenue & West 26th Street"
+          }
+        ]
+      }
+    },
+    {
+      "id": "searchinter-2",
+      "status": "pass",
+      "type": "almost-dev",
+      "user": "oleksandr",
+      "note": "One of the forms of the input that is supported for intersections: 'street & street'",
+      "in": {
+        "text": "Bay and 72"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "intersection",
+            "name": "72nd Street & Bay Parkway"
+          }
+        ]
+      }
+    },
+    {
+      "id": "searchinter-3",
+      "status": "pass",
+      "type": "almost-dev",
+      "user": "oleksandr",
+      "note": "Second of the forms of the input that is supported for intersections: 'street AND street' + order of street inputs does not matter",
+      "in": {
+        "text": "72 and Bay"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "intersection",
+            "name": "72nd Street & Bay Parkway"
+          }
+        ]
+      }
+    },
+    {
+      "id": "searchinter-4",
+      "status": "pass",
+      "type": "almost-dev",
+      "user": "oleksandr",
+      "note": "Support of 'av' and 'str",
+      "in": {
+        "text": "20 av & 65 str"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "intersection",
+            "name": "20th Avenue & 65th Street"
+          }
+        ]
+      }
+    },
+    {
+      "id": "searchinter-5",
+      "status": "pass",
+      "type": "almost-dev",
+      "user": "oleksandr",
+      "note": "Support of just the numerical parts of the street names",
+      "in": {
+        "text": "20 and 65"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "intersection",
+            "name": "20th Avenue & 65th Street"
+          }
+        ]
+      }
+    },
+    {
+      "id": "searchinter-6",
+      "status": "pass",
+      "type": "almost-dev",
+      "user": "oleksandr",
+      "in": {
+        "text": "whitehall & pearl"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "intersection",
+            "name": "Pearl Street & Whitehall Street"
+          }
+        ]
+      }
+    },
+    {
+      "id": "searchinter-7",
+      "status": "pass",
+      "type": "almost-dev",
+      "user": "oleksandr",
+      "in": {
+        "text": "pearl and whitehall"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "intersection",
+            "name": "Pearl Street & Whitehall Street"
+          }
+        ]
+      }
+    },
+    {
+      "id": "searchinter-8",
+      "status": "pass",
+      "type": "almost-dev",
+      "user": "oleksandr",
+      "note": "The fallback strategy works so if no result is returned after the intersection query when '&' and 'and' is present in the text",
+      "in": {
+        "text": "Barnes & Noble"
+      },
+      "expected": {
+        "priorityThresh": 2,
+        "properties": [
+          {
+            "layer": "venue",
+            "name": "Barnes & Noble"
+          }
+        ]
+      }
+    },
+    {
+      "id": "searchinter-9",
+      "status": "pass",
+      "type": "almost-dev",
+      "user": "oleksandr",
+      "note": "The intersection query sorts results by distance: i.e. 5 and 86 with the focus point 'Times Square', the Manhattan result is first",
+      "in": {
+        "text": "5 and 86",
+ 	"focus.point.lat": "40.75889",
+        "focus.point.lon": "-73.98513"
+      },
+      "expected": {
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                 -73.960414,
+                 40.781545
+            ]
+        },
+        "properties": [
+          {
+            "layer": "intersection",
+            "name": "5th Avenue & East 86th Street"
+          }
+        ]
+      }
+    },
+    {
+      "id": "searchinter-10",
+      "status": "pass",
+      "type": "almost-dev",
+      "user": "oleksandr",
+      "note": "The intersection query sorts results by distance: i.e. 5 and 86 with the focus point 'Bay Ridge', the Brooklyn result is first",
+      "in": {
+        "text": "5 and 86",
+        "focus.point.lat": "40.626164",
+        "focus.point.lon": "-74.032950"
+      },
+      "expected": {
+        "geometry": {
+            "type": "Point",
+            "coordinates": [
+                 -74.026214,
+                 40.621491
+            ]
+        },
+        "properties": [
+          {
+            "layer": "intersection",
+            "name": "5th Avenue & 86th Street"
+          }
+        ]
+      }
+    },
+    {
+      "id": "searchinter-11",
+      "status": "pass",
+      "type": "almost-dev",
+      "user": "oleksandr",
+      "note": "Another fallback strategy example when intersection query is hit first",
+      "in": {
+        "text": "pc richard and son"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "venue",
+            "name": "P.C. Richard & Son"
+          }
+        ]
+      }
+    },
+    {
+      "id": "searchinter-12",
+      "status": "pass",
+      "type": "almost-dev",
+      "user": "oleksandr",
+      "note": "Another fallback strategy example when intersection query is hit first",
+      "in": {
+        "text": "broadway & w72"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "intersection",
+            "name": "Broadway & West 72nd Street"
+          }
+        ]
+      }
+    }
+  ]
+}
+
