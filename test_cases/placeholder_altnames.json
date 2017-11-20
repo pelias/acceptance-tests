@@ -132,12 +132,13 @@
     },
     {
       "id": 6,
-      "status": "pass",
+      "status": "fail",
       "user": "lily",
       "endpoint": "autocomplete",
       "description": [
         "autocomplete",
-        "input text and lang in German"
+        "input text and lang in German",
+        "autocomplete is not yet capable of _searching_ on non-default names"
       ],
       "in": {
         "text": "Österreic",
@@ -439,7 +440,7 @@
     },
     {
       "id": 19,
-      "status": "pass",
+      "status": "fail",
       "user": "lily",
       "endpoint": "reverse",
       "description": [
@@ -447,6 +448,7 @@
         "point is at border of Vatican City and Italy",
         "lang: swedish"
       ],
+      "issue": "https://github.com/pelias/pelias/issues/686",
       "in": {
         "point.lon": "12.457532",
         "point.lat": "41.903966",

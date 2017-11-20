@@ -59,7 +59,7 @@
       }
     },{
       "id": 3,
-      "status": "fail",
+      "status": "pass",
       "user": "missinglink",
       "issue": "https://github.com/pelias/pelias/issues/545",
       "in": {

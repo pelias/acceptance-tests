@@ -137,7 +137,7 @@
         "many institutions are called oxford college. looking for the one in Georgia"
       ],
       "in": {
-        "text": "Oxford College"
+        "text": "Oxford College, oxford, ga"
       },
       "expected": {
         "properties": [
