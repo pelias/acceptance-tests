@@ -89,7 +89,7 @@
     },
     {
       "id": 5,
-      "status": "fail",
+      "status": "pass",
       "description": "Records from other layers should not be returned",
       "issue": "https://github.com/pelias/pelias/issues/643",
       "in": {

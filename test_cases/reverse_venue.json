@@ -5,7 +5,7 @@
   "tests": [
     {
       "id": 1,
-      "status": "fail",
+      "status": "pass",
       "user": "julian",
       "description": "until we finalize the /nearby endpoint, /reverse should still be able to return Geonames venues",
       "issue": "https://github.com/pelias/api/issues/930",
