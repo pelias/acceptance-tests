@@ -66,6 +66,7 @@
         "postalcode": "10010"
       },
       "expected": {
+        "priorityThresh": 2,
         "properties": [
           {
             "name": "30 West 26th Street",

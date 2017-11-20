@@ -175,11 +175,12 @@
     },
     {
       "id": 9,
-      "status": "pass",
+      "status": "fail",
       "user": "lily",
       "description": [
         "Russian street name in native langauge passes"
       ],
+      "issue": "https://github.com/pelias/pelias/issues/685",
       "in": {
         "text": "15 Фурштатская улица Saint Petersburg 191028",
         "boundary.country": "RUS"
