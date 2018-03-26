@@ -1177,7 +1177,26 @@
           }
         ]
       }
+    },
+    {
+      "id": 1201,
+      "status": "pass",
+      "user": "julian",
+      "notes": "saint should be handled when not-abbreviated",
+      "issue": "https://github.com/pelias/api/issues/1077",
+      "in": {
+        "locality": "saint-pavace",
+        "country": "France"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "locality",
+            "locality": "Saint-Pavace",
+            "country": "France"
+          }
+        ]
+      }
     }
-
   ]
 }
