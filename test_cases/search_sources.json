@@ -1,0 +1,24 @@
+{
+  "name": "search sources",
+  "tests": [
+    {
+      "id": "1",
+      "status": "pass",
+      "user": "tiranno",
+      "endpoint": "search",
+      "description": "Ensure there are only geonames records when filtering for geonames",
+      "issue": "https://github.com/pelias/pelias/issues/670",
+      "in": {
+        "text": "portland",
+        "source": "gn"
+      },
+      "expected": {
+        "properties": [
+          {
+            "source": "geonames"
+          }
+        ]
+      }
+    }
+  ]
+}
