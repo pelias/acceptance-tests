@@ -1,21 +1,40 @@
 {
   "name": "search sources",
+  "endpoint": "search",
+  "priorityThresh": 1,
   "tests": [
     {
       "id": "1",
       "status": "pass",
       "user": "tiranno",
-      "endpoint": "search",
       "description": "Ensure there are only geonames records when filtering for geonames",
       "issue": "https://github.com/pelias/pelias/issues/670",
       "in": {
-        "text": "portland",
-        "source": "gn"
+        "text": "Portland, OR",
+        "source": "geonames"
       },
       "expected": {
         "properties": [
           {
             "source": "geonames"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "status": "pass",
+      "user": "tiranno",
+      "description": "Ensure there are only whosonfirst records when filtering for whosonfirst",
+      "issue": "https://github.com/pelias/pelias/issues/670",
+      "in": {
+        "text": "Portland, OR",
+        "sources": "whosonfirst"
+      },
+      "expected": {
+        "properties": [
+          {
+            "source": "whosonfirst"
           }
         ]
       }
