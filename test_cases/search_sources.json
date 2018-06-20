@@ -1,7 +1,7 @@
 {
   "name": "search sources",
   "endpoint": "search",
-  "priorityThresh": 2,
+  "priorityThresh": 9,
   "tests": [
     {
       "id": "1",
