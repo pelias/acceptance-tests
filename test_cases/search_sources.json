@@ -4,14 +4,29 @@
   "priorityThresh": 9,
   "tests": [
     {
-      "id": "1",
+      "id": 1,
       "status": "pass",
-      "user": "tiranno",
-      "description": "Ensure there are only geonames records when filtering for geonames",
-      "issue": "https://github.com/pelias/pelias/issues/670",
+      "endpoint": "search",
+      "description": "Admin-only query with undefined `sources` should return WhosOnFirst",
       "in": {
         "text": "Portland, OR",
-        "source": "geonames"
+      },
+      "expected": {
+        "properties": [
+          {
+            "source": "whosonfirst",
+          }
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "status": "pass",
+      "endpoint": "search",
+      "description": "Admin-only query requesting Geonames returns only Geonames",
+      "in": {
+        "text": "Portland, OR",
+        "sources": "geonames"
       },
       "expected": {
         "properties": [
@@ -22,11 +37,10 @@
       }
     },
     {
-      "id": "2",
+      "id": 3,
       "status": "pass",
-      "user": "tiranno",
-      "description": "Ensure there are only whosonfirst records when filtering for whosonfirst",
-      "issue": "https://github.com/pelias/pelias/issues/670",
+      "endpoint": "search",
+      "description": "Admin-only query requesting WhosOnFirst returns only WhosOnFirst",
       "in": {
         "text": "Portland, OR",
         "sources": "whosonfirst"
