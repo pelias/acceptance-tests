@@ -9,12 +9,12 @@
       "endpoint": "search",
       "description": "Admin-only query with undefined `sources` should return WhosOnFirst",
       "in": {
-        "text": "Portland, OR",
+        "text": "Lusaka, Zambia"
       },
       "expected": {
         "properties": [
           {
-            "source": "whosonfirst",
+            "source": "whosonfirst"
           }
         ]
       }
@@ -25,7 +25,7 @@
       "endpoint": "search",
       "description": "Admin-only query requesting Geonames returns only Geonames",
       "in": {
-        "text": "Portland, OR",
+        "text": "Kathmandu, Nepal",
         "sources": "geonames"
       },
       "expected": {
@@ -42,7 +42,7 @@
       "endpoint": "search",
       "description": "Admin-only query requesting WhosOnFirst returns only WhosOnFirst",
       "in": {
-        "text": "Portland, OR",
+        "text": "Yangon, Myanmar",
         "sources": "whosonfirst"
       },
       "expected": {
