@@ -212,6 +212,7 @@
       },
       "expected": {
         "properties": [{
+          "source": "geonames",
           "label": "City of New York, NY, USA"
         }]
       }
