@@ -2,6 +2,11 @@
   "name": "French addresses",
   "priorityThresh": 1,
   "endpoint": "search",
+  "normalizers": {
+    "street": [
+      "toUpperCase"
+    ]
+  },
   "tests": [
     {
       "id": 1,
