@@ -6,7 +6,8 @@
   "tests": [
     {
       "id": "structuredpostal-1",
-      "status": "pass",
+      "status": "fail",
+      "issue": "https://github.com/pelias/pelias/issues/692",
       "user": "diana",
       "in": {
         "postalcode": "90210"
@@ -42,7 +43,8 @@
     },
     {
       "id": "structuredpostal-3",
-      "status": "pass",
+      "status": "fail",
+      "issue": "https://github.com/pelias/pelias/issues/692",
       "user": "diana",
       "description": "fallback to postalcode when city is not found",
       "in": {
