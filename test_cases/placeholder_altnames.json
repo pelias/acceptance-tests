@@ -230,7 +230,7 @@
     },
     {
       "id": 10,
-      "status": "pass",
+      "status": "fail",
       "user": "lily",
       "endpoint": "nearby",
       "description": [
