@@ -11,7 +11,7 @@
   "tests": [
     {
       "id": "maps_service_search_place",
-      "status": "pass",
+      "status": "fail",
       "user": "dianashk",
       "endpoint": "nearby",
       "in": {
@@ -31,7 +31,7 @@
     },
     {
       "id": "maps_service_search_place_by_area",
-      "status": "pass",
+      "status": "fail",
       "user": "dianashk",
       "endpoint": "nearby",
       "in": {
@@ -79,7 +79,7 @@
     },
     {
       "id": "maps_service_search_place_by_list",
-      "status": "pass",
+      "status": "fail",
       "description": "?????? how is this different from by_area?",
       "user": "dianashk",
       "endpoint": "nearby",
@@ -104,7 +104,7 @@
     },
     {
       "id": "maps_service_get_place_details",
-      "status": "pass",
+      "status": "fail",
       "user": "dianashk",
       "endpoint": "place",
       "in": {
