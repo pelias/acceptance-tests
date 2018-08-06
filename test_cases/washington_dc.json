@@ -17,7 +17,7 @@
           {
             "layer": "address",
             "housenumber": "1705",
-            "street": "P Street Nw",
+            "street": "P Street NW",
             "locality": "Washington",
             "region": "District of Columbia"
           },
@@ -46,7 +46,7 @@
           {
             "layer": "address",
             "housenumber": "1705",
-            "street": "P Street Nw",
+            "street": "P Street NW",
             "locality": "Washington",
             "region": "District of Columbia"
           },
@@ -94,7 +94,7 @@
           {
             "layer": "address",
             "housenumber": "641",
-            "street": "S Street Nw",
+            "street": "S Street NW",
             "locality": "Washington",
             "region": "District of Columbia"
           }

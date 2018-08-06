@@ -69,6 +69,7 @@
       },
       "expected": {
         "coordinates": [ -73.9981, 40.747625 ],
+        "distanceThresh": 1500,
         "properties": [
           {
             "country_a": "USA",
