@@ -1198,6 +1198,28 @@
           }
         ]
       }
+    },
+    {
+      "id": 1202,
+      "status": "fail",
+      "user": "julian",
+      "notes": "saint should be handled when not-abbreviated in address searches",
+      "issue": "https://github.com/pelias/pelias/issues/737",
+      "in": {
+        "address": "412 saint patrick st",
+        "locality": "donaldsonville"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "address",
+            "housenumber": "412",
+            "street": "St Patrick St",
+            "locality": "Donaldsonville",
+            "region": "Louisiana"
+          }
+        ]
+      }
     }
   ]
 }
