@@ -262,7 +262,7 @@
     },
     {
       "id": 13,
-      "status": "fail",
+      "status": "pass",
       "user": "lily",
       "description": [
         "Eliminate abbreviation in parens. Gets neighborhood, Kurla East, instead of a venue"
