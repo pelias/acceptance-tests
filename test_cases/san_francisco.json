@@ -75,9 +75,11 @@
         "boundary.country": "USA"
       },
       "expected": {
+        "distanceThresh": 2000,
         "properties": [
           {
             "region": "California",
+            "layer": "locality",
             "name": "San Francisco"
           }
         ],
@@ -154,9 +156,11 @@
         "text": "san francisco"
       },
       "expected": {
+        "distanceThresh": 2000,
         "properties": [
           {
             "region": "California",
+            "layer": "locality",
             "name": "San Francisco"
           }
         ],
