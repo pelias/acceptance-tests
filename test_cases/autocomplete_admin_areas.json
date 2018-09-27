@@ -152,7 +152,7 @@
     },
     {
       "id": 4,
-      "status": "fail",
+      "status": "pass",
       "user": "missinglink",
       "description": "a geonames country record is coming in above California",
       "issue": "https://github.com/pelias/pelias/issues/748",

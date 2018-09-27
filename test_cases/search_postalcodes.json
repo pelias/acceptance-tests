@@ -42,7 +42,7 @@
     },
     {
       "id": "searchpostal-3",
-      "status": "fail",
+      "status": "pass",
       "issue": "https://github.com/pelias/pelias/issues/692",
       "user": "diana",
       "in": {
