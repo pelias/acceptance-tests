@@ -1,6 +1,7 @@
 {
   "name": "autocomplete stop words",
   "notes": "https://github.com/pelias/schema/issues/105",
+  "description": "old test, need to specify location in order to get a reasonable number of results",
   "endpoint": "autocomplete",
   "priorityThresh": 5,
   "tests": [
@@ -10,7 +11,7 @@
       "user": "missinglink",
       "priorityThresh": 5,
       "in": {
-        "text": "world trade center"
+        "text": "world trade center, valbonne"
       },
       "expected": {
         "properties": [
