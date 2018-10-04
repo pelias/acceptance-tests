@@ -6,11 +6,11 @@
   "tests": [
     {
       "id": "1",
-      "status": "pass",
+      "status": "fail",
       "user": "missinglink",
       "description": [
         "the venue should be retrieved using only a few characters due to the focus",
-        "point being directly on top of the venue"
+        "point being directly on top of the venue. Geonames results currently interfering"
       ],
       "in": {
         "focus.point.lat": "41.652889",
@@ -25,7 +25,7 @@
     },
     {
       "id": "2",
-      "status": "pass",
+      "status": "fail",
       "user": "missinglink",
       "description": [
         "as above except using a prefix of 'antique'"
@@ -43,7 +43,7 @@
     },
     {
       "id": "3",
-      "status": "pass",
+      "status": "fail",
       "user": "missinglink",
       "description": [
         "as above except using the full token of the stem of 'antiques'"

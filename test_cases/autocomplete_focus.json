@@ -173,7 +173,7 @@
       },
       "expected": {
         "priorityThresh": 1,
-        "distanceThresh": 100,
+        "distanceThresh": 200,
         "properties": [
           {
             "region": "New York",

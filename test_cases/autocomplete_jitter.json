@@ -15,7 +15,7 @@
         "text": "190 dea"
       },
       "expected": {
-        "priorityThresh": 2,
+        "priorityThresh": 5,
         "properties": [
           {
             "housenumber": "190",
