@@ -1,0 +1,67 @@
+{
+  "name": "search focus.point",
+  "priorityThresh": 1,
+  "endpoint": "search",
+  "tests": [
+    {
+      "id": 1,
+      "status": "fail",
+      "in": {
+        "focus.point.lat": 42.64,
+        "focus.point.lon": -84.7,
+        "text": "10010"
+      },
+      "description": "searching for a NYC postal code from Michigan should return that postal code before any other countries",
+      "issue": "https://github.com/pelias/api/issues/1206",
+      "expected": {
+        "properties": [
+          {
+            "name": "10010",
+            "layer": "postalcode",
+            "region": "New York"
+          }
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "status": "pass",
+      "in": {
+        "focus.point.lat": 60.20,
+        "focus.point.lon": 24.99,
+        "text": "93277"
+      },
+      "description": "searching for a Finish/American postal code from Helsinki should return the Finish version before other countries",
+      "issue": "https://github.com/pelias/api/issues/1206",
+      "expected": {
+        "properties": [
+          {
+            "name": "93277",
+            "layer": "postalcode",
+            "country": "Finland"
+          }
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "status": "fail",
+      "in": {
+        "focus.point.lat": 44.05,
+        "focus.point.lon": -121.30,
+        "text": "93277"
+      },
+      "description": "searching for a Finish/American postal code from Bend, Oregon should return the American version before other countries",
+      "issue": "https://github.com/pelias/api/issues/1206",
+      "expected": {
+        "properties": [
+          {
+            "name": "93277",
+            "layer": "postalcode",
+            "country_a": "USA"
+          }
+        ]
+      }
+    }
+  ]
+}
