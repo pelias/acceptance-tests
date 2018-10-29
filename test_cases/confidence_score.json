@@ -30,6 +30,87 @@
           }
         ]
       }
+    },
+    {
+      "id": 2,
+      "status": "pass",
+      "user": "Julian",
+      "description": "Exact match address using search with IDs query should have confidence score 1",
+      "type": "dev",
+      "in": {
+        "text": "30 W 26th St, New York, NY 10010"
+      },
+      "expected": {
+        "properties": [
+          {
+            "country_a": "USA",
+            "postalcode": "10010",
+            "confidence": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "status": "pass",
+      "user": "Julian",
+      "description": "Street fallback leads to lower confidence score",
+      "type": "dev",
+      "in": {
+        "text": "9999999 W 26th St, New York, NY 10010"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "street",
+            "locality": "New York",
+            "region": "New York",
+            "country_a": "USA",
+            "confidence": 0.8
+          }
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "status": "pass",
+      "user": "Julian",
+      "description": "Locality fallback leads to lower confidence score",
+      "type": "dev",
+      "in": {
+        "text": "9999999 AcceptanceTest St, New York, NY 10010"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "locality",
+            "locality": "New York",
+            "region": "New York",
+            "country_a": "USA",
+            "confidence": 0.6
+          }
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "status": "pass",
+      "user": "Julian",
+      "description": "Exact matche even with no admin areas gives full confidence",
+      "type": "dev",
+      "in": {
+        "text": "5708 Squeezepenny Lane"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "address",
+            "region": "Texas",
+            "country_a": "USA",
+            "confidence": 1
+          }
+        ]
+      }
     }
   ]
 }
