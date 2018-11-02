@@ -112,6 +112,24 @@
           { "label": "190 Dean Street, Brooklyn, New York, NY, USA" }
         ]
       }
+    },
+    {
+      "id": 6,
+      "status": "pass",
+      "user": "julian",
+      "description": "postalcode matches should come first",
+      "in": {
+        "text": "22 HENSON STREET, NSW, 2204"
+      },
+      "expected": {
+        "priorityThresh": 1,
+        "properties": [{
+          "name": "22 Henson Street",
+          "region_a": "NSW",
+          "postalcode": "2204",
+          "country_a": "AUS"
+        }]
+      }
     }
   ]
 }
