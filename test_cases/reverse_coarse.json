@@ -70,7 +70,6 @@
             "layer": "locality",
             "locality": "San Juan",
             "county": "San Juan",
-            "region": "Puerto Rico",
             "dependency": "Puerto Rico",
             "label": "San Juan, Puerto Rico"
           }
