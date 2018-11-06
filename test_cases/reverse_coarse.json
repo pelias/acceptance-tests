@@ -42,8 +42,7 @@
       "expected": {
         "properties": [
           {
-            "layer": "neighbourhood",
-            "neighbourhood": "Rossmere",
+            "layer": "locality",
             "locality": "Lancaster",
             "localadmin": "Lancaster",
             "county": "Lancaster County",
