@@ -4,9 +4,10 @@
   "tests": [
     {
       "id": 0,
-      "status": "pass",
+      "status": "fail",
       "user": "lily",
       "description": [
+        "Search for Wan Chai area of HKG. Seems to have lost KO translation at some point",
         "admin area only",
         "input: Chinese",
         "lang: korean"
