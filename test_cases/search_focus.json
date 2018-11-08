@@ -45,7 +45,7 @@
     },
     {
       "id": 3,
-      "status": "fail",
+      "status": "pass",
       "in": {
         "focus.point.lat": 44.05,
         "focus.point.lon": -121.30,
