@@ -62,6 +62,26 @@
           }
         ]
       }
+    },
+    {
+      "id": 4,
+      "status": "fail",
+      "in": {
+        "focus.point.lat": 38.001,
+        "focus.point.lon": -102.001,
+        "text": "93277"
+      },
+      "description": "searching for a Finish/American postal code from central USA should return the American version before other countries",
+      "issue": "https://github.com/pelias/api/issues/1206",
+      "expected": {
+        "properties": [
+          {
+            "name": "93277",
+            "layer": "postalcode",
+            "country_a": "USA"
+          }
+        ]
+      }
     }
   ]
 }
