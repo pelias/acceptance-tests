@@ -10,7 +10,7 @@
         "text": "38 carrington st, deakin, ACT, australia"
       },
       "description": "Canberra Address",
-      "issue": "https://github.com/pelias/api/issues/1206",
+      "issue": "https://github.com/whosonfirst-data/whosonfirst-data/issues/1349",
       "expected": {
         "properties": [
           {
@@ -30,8 +30,8 @@
       "in": {
         "text": "164 commercial rd, prahran, vic"
       },
-      "description": "searching for a NYC postal code from Michigan should return that postal code before any other countries",
-      "issue": "https://github.com/pelias/api/issues/1206",
+      "description": "Victoria, Australia address test",
+      "issue": "https://github.com/whosonfirst-data/whosonfirst-data/issues/1393",
       "expected": {
         "properties": [
           {
