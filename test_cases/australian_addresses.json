@@ -44,6 +44,25 @@
           }
         ]
       }
+    },
+    {
+      "id": 3,
+      "status": "pass",
+      "in": {
+        "text": "41 Tristania St, rivett, ACT"
+      },
+      "description": "General Australian suburb address test",
+      "expected": {
+        "properties": [
+          {
+            "name": "41 Tristania Street",
+            "layer": "address",
+            "locality": "Rivett",
+            "region_a": "ACT",
+            "country_a": "AUS"
+          }
+        ]
+      }
     }
   ]
 }
