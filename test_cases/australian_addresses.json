@@ -9,7 +9,7 @@
       "in": {
         "text": "38 carrington st, deakin, ACT, australia"
       },
-      "description": "searching for a NYC postal code from Michigan should return that postal code before any other countries",
+      "description": "Canberra Address",
       "issue": "https://github.com/pelias/api/issues/1206",
       "expected": {
         "properties": [
