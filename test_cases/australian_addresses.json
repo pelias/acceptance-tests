@@ -5,7 +5,7 @@
   "tests": [
     {
       "id": 1,
-      "status": "fail",
+      "status": "pass",
       "in": {
         "text": "38 carrington st, deakin, ACT, australia"
       },
@@ -19,6 +19,27 @@
             "locality": "Deakin",
             "region": "Australian Capital Territory",
             "region_a": "ACT",
+            "country_a": "AUS"
+          }
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "status": "fail",
+      "in": {
+        "text": "164 commercial rd, prahran, vic"
+      },
+      "description": "searching for a NYC postal code from Michigan should return that postal code before any other countries",
+      "issue": "https://github.com/pelias/api/issues/1206",
+      "expected": {
+        "properties": [
+          {
+            "name": "164 Commercial Rd",
+            "layer": "address",
+            "locality": "Prahran",
+            "region": "Victoria",
+            "region_a": "VIC",
             "country_a": "AUS"
           }
         ]
