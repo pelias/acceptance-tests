@@ -26,6 +26,24 @@
           }
         ]
       }
+    },
+    {
+      "id": 15,
+      "status": "pass",
+      "user": "julian",
+      "in": {
+        "text": "australian war memorial, canberra, australia"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Australian War Memorial",
+            "locality": "Campbell",
+            "region_a": "ACT",
+            "country_a": "AUS"
+          }
+        ]
+      }
     }
   ]
 }
