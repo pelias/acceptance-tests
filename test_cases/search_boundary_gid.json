@@ -1,0 +1,41 @@
+{
+  "name": "search boundary.gid",
+  "priorityThresh": 1,
+  "endpoint": "search",
+  "tests": [
+    {
+      "id": 1,
+      "status": "pass",
+      "in": {
+        "boundary.gid": "whosonfirst:country:85632545",
+        "text": "berlin"
+      },
+      "description": "searching for Berlins in the country of El Salvador should return Berlin , El Salvador",
+      "expected": {
+        "properties": [
+          {
+            "name": "Berlín",
+            "country_gid": "whosonfirst:country:85632545"
+          }
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "status": "pass",
+      "in": {
+        "boundary.gid": "whosonfirst:region:85688753",
+        "text": "paris"
+      },
+      "description": "searching for Paris in the state of Texas returns Paris, TX",
+      "expected": {
+        "properties": [
+          {
+            "name": "Paris",
+            "region_gid": "whosonfirst:region:85688753"
+          }
+        ]
+      }
+    }
+  ]
+}
