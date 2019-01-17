@@ -232,7 +232,8 @@
     },
     {
       "id": 9,
-      "status": "fail",
+      "status": "pass",
+      "issue": "https://github.com/pelias/pelias/issues/748",
       "user": "missinglink",
       "in": {
         "text": "california"
