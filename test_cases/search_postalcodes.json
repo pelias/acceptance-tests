@@ -66,6 +66,31 @@
       }
     },
     {
+      "id": "searchpostal-3.1",
+      "status": "pass",
+      "issue": "https://github.com/pelias/pelias/issues/692",
+      "user": "diana",
+      "in": {
+        "text": "M2M1C8"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "M2M 1C8",
+            "postalcode": "M2M 1C8",
+            "postalcode_gid": "whosonfirst:postalcode:521433719",
+            "confidence": 1,
+            "match_type": "exact",
+            "accuracy": "centroid",
+            "country": "Canada",
+            "region": "Ontario",
+            "locality": "Toronto",
+            "label": "M2M 1C8, Toronto, ON, Canada"
+          }
+        ]
+      }
+    },
+    {
       "id": "searchpostal-4",
       "status": "fail",
       "issue": "https://github.com/pelias/pelias/issues/692",
