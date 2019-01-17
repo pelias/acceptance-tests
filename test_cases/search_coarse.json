@@ -25,7 +25,7 @@
       "id": 2,
       "status": "pass",
       "issue": "https://github.com/pelias/pelias/issues/295",
-      "description": "data issue",
+      "description": "data issue: new york city was parented by brooklyn in early WOF data",
       "user": "Diana",
       "type": "dev",
       "in": {
@@ -35,9 +35,6 @@
       },
       "expected": {
         "properties": [
-          {
-            "label": "New York, USA"
-          },
           {
             "label": "New York, NY, USA"
           }

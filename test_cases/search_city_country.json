@@ -545,7 +545,7 @@
         "text": "Vientiane, laos"
       },
       "expected": {
-        "priorityThresh": 2,
+        "priorityThresh": 3,
         "properties": [
           {
             "layer": "locality",

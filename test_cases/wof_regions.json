@@ -94,7 +94,7 @@
       "id": 5,
       "status": "pass",
       "user": "Stephen",
-      "description": "",
+      "description": "while it's a region, the region should be deduped with the county of the same name",
       "in": {
         "text": "Dadra and Nagar Haveli, IN",
         "sources": "wof"
@@ -102,7 +102,7 @@
       "expected": {
         "properties": [
           {
-            "layer": "region",
+            "layer": "county",
             "name": "Dadra and Nagar Haveli",
             "region": "Dadra and Nagar Haveli",
             "country": "India",
