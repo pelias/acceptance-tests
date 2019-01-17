@@ -56,7 +56,7 @@
       "id": 4,
       "status": "pass",
       "user": "Stephen",
-      "description": "chosen because France and complicated hierarchy",
+      "description": "chosen because France and complicated hierarchy. This county exists but should be deduped with the localadmin of the same name",
       "in": {
         "text": "Arzacq-Arraziguet",
         "sources": "wof"
@@ -65,7 +65,7 @@
         "priorityThresh": 2,
         "properties": [
           {
-            "layer": "county",
+            "layer": "localadmin",
             "name": "Arzacq-Arraziguet",
             "county": "Arzacq-Arraziguet",
             "macrocounty": "Pau",
