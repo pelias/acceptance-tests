@@ -1,0 +1,54 @@
+{
+  "name": "Deduplication",
+  "priorityThresh": 5,
+  "tests": [
+    {
+      "id": 1,
+      "status": "pass",
+      "user": "julian",
+      "description": "admin areas with the same name and shared hierarchy should be deduped",
+      "in": {
+        "boundary.country": "AUS",
+        "layers": "coarse",
+        "text": "kambah"
+      },
+      "expected": {
+        "properties": [{
+          "layer": "locality",
+          "name": "Kambah"
+        }]
+      },
+      "unexpected": {
+        "properties": [
+          {
+            "layer": "neighbourhood"
+          },
+          {
+            "layer": "localadmin"
+          }
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "status": "pass",
+      "user": "julian",
+      "description": "deduplication should not remove admin areas with the same name but no shared hierarchy",
+      "in": {
+        "boundary.country": "USA",
+        "layers": "coarse",
+        "text": "pennsylvania"
+      },
+      "expected": {
+        "properties": [{
+          "name": "Pennsylvania",
+          "layer": "region"
+        }, {
+          "name": "Pennsylvania",
+          "layer": "localadmin",
+          "region": "Illinois"
+        }]
+      }
+    }
+  ]
+}
