@@ -88,6 +88,7 @@
         "text": "450 37th st, new york, ny 11232"
       },
       "expected": {
+        "priorityThresh": 1,
         "properties": [
           {
             "name": "450 37th Street",
@@ -104,11 +105,28 @@
             "label": "450 37th Street, Brooklyn, New York, NY, USA"
           }
         ]
+      }
+    },
+    {
+      "id": 3.1,
+      "status": "pass",
+      "isssue": "https://github.com/pelias/api/issues/456",
+      "description": "result with the wrong zipcode will be returned, but should have lower ranking than zipcoe match ",
+      "user": "julian",
+      "type": "dev",
+      "in": {
+        "text": "450 37th st, new york, ny 11232"
       },
-      "unexpected": {
+      "expected": {
         "properties": [
           {
-            "postalcode": "10018"
+            "name": "450 West 37th Street",
+            "country_a": "USA",
+            "region_a": "NY",
+            "locality": "New York",
+            "postalcode": "10018",
+            "housenumber": "450",
+            "street": "West 37th Street"
           }
         ]
       }
