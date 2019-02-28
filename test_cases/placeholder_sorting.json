@@ -553,7 +553,7 @@
     },
     {
       "id": 1101,
-      "status": "fail",
+      "status": "pass",
       "endpoint": "search",
       "description": "county. failed because of space temporarily at the end of the name",
       "in": {
