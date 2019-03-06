@@ -45,7 +45,7 @@
           "layer": "region"
         }, {
           "name": "Pennsylvania",
-          "layer": "localadmin",
+          "layer": "neighbourhood",
           "region": "Illinois"
         }]
       }
