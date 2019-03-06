@@ -225,14 +225,14 @@
       "expected": {
         "properties": [
           {
-            "region": "Cardiff"
+            "county": "Cardiff County"
           }
         ]
       },
       "unexpected": {
         "properties": [
           {
-            "region": "Caerdydd#Cardiff"
+            "county": "Caerdydd#Cardiff"
           }
         ]
       }
@@ -247,14 +247,14 @@
       "expected": {
         "properties": [
           {
-            "region": "Cardiff"
+            "locality": "Cardiff"
           }
         ]
       },
       "unexpected": {
         "properties": [
           {
-            "region": "Caerdydd#Cardiff"
+            "locality": "Caerdydd#Cardiff"
           }
         ]
       }
