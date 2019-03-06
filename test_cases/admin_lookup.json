@@ -431,15 +431,14 @@
           {
             "country_a": "GBR",
             "country": "United Kingdom",
-            "region": "Newport"
+            "county": "Newport"
           }
         ]
       },
       "unexpected": {
         "properties": [
           {
-            "region": "Casnewydd#Newport",
-            "county": "Newport"
+            "region": "Casnewydd#Newport"
           }
         ]
       }
