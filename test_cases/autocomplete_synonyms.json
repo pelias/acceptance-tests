@@ -1,0 +1,61 @@
+{
+  "name": "autocomplete synonyms",
+  "priorityThresh": 5,
+  "endpoint": "autocomplete",
+  "tests": [
+    {
+      "id": 1,
+      "status": "pass",
+      "in": {
+        "text": "mt tabor park, portland, or"
+      },
+      "description": "Mt/mount should be a valid synonym",
+      "issue": "https://github.com/pelias/pelias/issues/256",
+      "expected": {
+        "properties": [
+          {
+            "name": "Mount Tabor Park",
+            "locality": "Portland",
+            "region_a": "OR"
+          }
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "status": "pass",
+      "in": {
+        "text": "mount tabor park, portland, or"
+      },
+      "description": "Mt/mount should be a valid synonym",
+      "issue": "https://github.com/pelias/pelias/issues/256",
+      "expected": {
+        "properties": [
+          {
+            "name": "Mount Tabor Park",
+            "locality": "Portland",
+            "region_a": "OR"
+          }
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "status": "pass",
+      "in": {
+        "text": "ucsf mt zion, san francisco, ca"
+      },
+      "description": "Mt/mount should be a valid synonym",
+      "issue": "https://github.com/pelias/pelias/issues/256",
+      "expected": {
+        "properties": [
+          {
+            "name": "UCSF Mount Zion Campus",
+            "locality": "San Francisco",
+            "region_a": "CA"
+          }
+        ]
+      }
+    }
+  ]
+}
