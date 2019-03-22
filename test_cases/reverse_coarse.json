@@ -356,7 +356,8 @@
       "type": "dev",
       "in": {
         "point.lat": 34.119423,
-        "point.lon": -106.284351
+        "point.lon": -106.284351,
+        "layers": "coarse"
       },
       "expected": {
         "properties": [
@@ -375,7 +376,8 @@
       "type": "dev",
       "in": {
         "point.lat": 57.672717,
-        "point.lon": 36.002802
+        "point.lon": 36.002802,
+        "layers": "coarse"
       },
       "expected": {
         "properties": [
@@ -394,7 +396,8 @@
       "type": "dev",
       "in": {
         "point.lat": 38.260674,
-        "point.lon": -8.5448
+        "point.lon": -8.5448,
+        "layers": "coarse"
       },
       "expected": {
         "properties": [
