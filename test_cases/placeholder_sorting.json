@@ -735,11 +735,12 @@
       "id": 1500,
       "status": "pass",
       "endpoint": "search",
-      "description": "non-popular neighbourhoods should be found",
+      "description": "non-popular neighbourhoods should be found, don't have to be first",
       "in": {
         "text": "Getz"
       },
       "expected": {
+        "priorityThresh": 5,
         "properties": [
           {
             "gid": "whosonfirst:neighbourhood:85821441",
