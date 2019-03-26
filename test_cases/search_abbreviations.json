@@ -4,8 +4,9 @@
   "tests": [
     {
       "id": 1,
-      "status": "fail",
+      "status": "pass",
       "issue": "https://github.com/pelias/pelias/issues/737",
+      "description": "saint unabbreviated in data and query",
       "user": "julian",
       "in": {
         "text": "412 Saint Patrick St, donaldsonville, la"
@@ -15,7 +16,7 @@
           {
              "layer": "address",
              "housenumber": "412",
-             "street": "St Patrick St",
+             "street": "Saint Patrick Street",
              "locality": "Donaldsonville",
              "region": "Louisiana"
           }
@@ -26,6 +27,7 @@
       "id": 2,
       "status": "pass",
       "user": "julian",
+      "description": "saint unabbreviated in data, abbreviated in query",
       "in": {
         "text": "412 St Patrick St, donaldsonville, la"
       },
@@ -34,7 +36,7 @@
           {
              "layer": "address",
              "housenumber": "412",
-             "street": "St Patrick St",
+             "street": "Saint Patrick Street",
              "locality": "Donaldsonville",
              "region": "Louisiana"
           }
