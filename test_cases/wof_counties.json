@@ -19,8 +19,8 @@
         "properties": [
           {
             "layer": "county",
-            "name": "Potter",
-            "county": "Potter",
+            "name": "Potter County",
+            "county": "Potter County",
             "region": "Pennsylvania",
             "region_a": "PA",
             "country": "United States",
@@ -65,10 +65,10 @@
         "priorityThresh": 2,
         "properties": [
           {
-            "layer": "localadmin",
+            "layer": "locality",
             "name": "Arzacq-Arraziguet",
             "county": "Arzacq-Arraziguet",
-            "macrocounty": "Pau",
+            "macrocounty": "arrondissement of Pau",
             "region": "Pyrénées-Atlantiques",
             "macroregion": "New Aquitaine",
             "country": "France",

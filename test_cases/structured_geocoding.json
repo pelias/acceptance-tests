@@ -463,10 +463,10 @@
         "properties": [
           {
             "layer": "localadmin",
-            "name": "Zickrick",
+            "name": "Zickrick Township",
             "country_a": "USA",
             "country": "United States",
-            "localadmin": "Zickrick"
+            "localadmin": "Zickrick Township"
           }
         ]
       }
@@ -485,10 +485,10 @@
         "properties": [
           {
             "layer": "localadmin",
-            "name": "Zumbehl",
+            "name": "Zumbehl Township",
             "country_a": "USA",
             "country": "United States",
-            "localadmin": "Zumbehl"
+            "localadmin": "Zumbehl Township"
           }
         ]
       }
@@ -508,12 +508,12 @@
         "properties": [
           {
             "layer": "localadmin",
-            "name": "Aastad",
+            "name": "Aastad Township",
             "country_a": "USA",
             "country": "United States",
             "region_a": "MN",
             "region": "Minnesota",
-            "localadmin": "Aastad"
+            "localadmin": "Aastad Township"
           }
         ]
       }
@@ -526,19 +526,19 @@
       "notes": "unambiguous localadmin by state",
       "in": {
         "sources": "wof",
-        "locality": "Bloominggrove",
+        "locality": "Bloominggrove Township",
         "region": "Ohio"
       },
       "expected": {
         "properties": [
           {
             "layer": "localadmin",
-            "name": "Bloominggrove",
+            "name": "Bloominggrove Township",
             "country_a": "USA",
             "country": "United States",
             "region_a": "OH",
             "region": "Ohio",
-            "localadmin": "Bloominggrove"
+            "localadmin": "Bloominggrove Township"
           }
         ]
       }
@@ -658,10 +658,10 @@
         "properties": [
           {
             "layer": "macrocounty",
-            "name": "Gießen",
+            "name": "Giessen Government Region",
             "country_a": "DEU",
             "country": "Germany",
-            "macrocounty": "Gießen"
+            "macrocounty": "Giessen Government Region"
           }
         ]
       }
@@ -680,10 +680,10 @@
         "properties": [
           {
             "layer": "macrocounty",
-            "name": "Mittelfranken",
+            "name": "Middle Franconia",
             "country_a": "DEU",
             "country": "Germany",
-            "macrocounty": "Mittelfranken"
+            "macrocounty": "Middle Franconia"
           }
         ]
       }
@@ -701,10 +701,10 @@
         "properties": [
           {
             "layer": "macrocounty",
-            "name": "Arnsberg",
+            "name": "Arnsberg Government Region",
             "country_a": "DEU",
             "country": "Germany",
-            "macrocounty": "Arnsberg"
+            "macrocounty": "Arnsberg Government Region"
           }
         ]
       }

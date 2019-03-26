@@ -44,8 +44,8 @@
           "name": "Pennsylvania",
           "layer": "region"
         }, {
-          "name": "Pennsylvania",
-          "layer": "neighbourhood",
+          "name": "Pennsylvania Township",
+          "layer": "localadmin",
           "region": "Illinois"
         }]
       }
