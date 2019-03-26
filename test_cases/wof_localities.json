@@ -158,22 +158,20 @@
     },
     {
       "id": 8,
-      "status": "fail",
+      "status": "pass",
       "issue": "https://github.com/pelias/acceptance-tests/issues/213",
       "description": "returns the right result second, cause unknown",
       "user": "Stephen",
       "in": {
-        "text": "San Jaun, Puerto Rico",
+        "text": "San Juan, Puerto Rico",
         "sources": "wof"
       },
       "expected": {
         "properties": [
           {
             "locality": "San Juan",
-            "region": "Puerto Rico",
-            "region_a": "PRI",
-            "country": "United States",
-            "country_a": "USA",
+            "dependency": "Puerto Rico",
+            "dependency_a": "PRI",
             "name": "San Juan"
           }
         ]
