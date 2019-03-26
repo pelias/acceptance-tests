@@ -87,6 +87,27 @@
           }
         ]
       }
+    },
+    {
+      "id": 5,
+      "status": "fail",
+      "user": "julian",
+      "issue": "https://github.com/pelias/schema/issues/335",
+      "description": "Av abbreviation for Avenue",
+      "in": {
+        "text": "1320 E Edinger Ave, santa ana, CA"
+      },
+      "expected": {
+        "properties": [
+          {
+             "layer": "address",
+             "housenumber": "1320",
+             "street": "E Edinger Av",
+             "locality": "Santa Ana",
+             "region": "California"
+          }
+        ]
+      }
     }
   ]
 }
