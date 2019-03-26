@@ -1208,7 +1208,7 @@
     },
     {
       "id": 1202,
-      "status": "fail",
+      "status": "pass",
       "user": "julian",
       "notes": "saint should be handled when not-abbreviated in address searches",
       "issue": "https://github.com/pelias/pelias/issues/737",
@@ -1221,7 +1221,7 @@
           {
             "layer": "address",
             "housenumber": "412",
-            "street": "St Patrick St",
+            "street": "Saint Patrick Street",
             "locality": "Donaldsonville",
             "region": "Louisiana"
           }
