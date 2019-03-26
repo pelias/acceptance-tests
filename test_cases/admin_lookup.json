@@ -90,7 +90,7 @@
     },
     {
       "id": "5",
-      "status": "fail",
+      "status": "pass",
       "issue": "https://github.com/pelias/pelias/issues/297",
       "description": "not sure it's an actual failure. needs discussion",
       "endpoint": "reverse",
@@ -102,7 +102,7 @@
       "expected": {
         "properties": [
           {
-            "region": "London"
+            "locality": "London"
           }
         ]
       },
