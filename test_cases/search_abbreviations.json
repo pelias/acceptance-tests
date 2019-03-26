@@ -1,5 +1,5 @@
 {
-  "name": "search",
+  "name": "search abbreviations",
   "priorityThresh": 5,
   "tests": [
     {
