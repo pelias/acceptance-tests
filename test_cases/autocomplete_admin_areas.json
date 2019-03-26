@@ -295,7 +295,7 @@
       "status": "fail",
       "user": "missinglink",
       "notes": [ "from mapillary home page" ],
-      "description": "geonames result coming first",
+      "description": "geonames result coming first, not deduplicated due to diacritical",
       "issue": "https://github.com/pelias/pelias/issues/482",
       "in": {
         "text": "malmo"
