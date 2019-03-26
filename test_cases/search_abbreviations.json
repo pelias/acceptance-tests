@@ -25,8 +25,9 @@
     },
     {
       "id": 2,
-      "status": "pass",
+      "status": "fail",
       "user": "julian",
+      "issue": "https://github.com/pelias/pelias/issues/737",
       "description": "saint unabbreviated in data, abbreviated in query",
       "in": {
         "text": "412 St Patrick St, donaldsonville, la"
@@ -39,6 +40,50 @@
              "street": "Saint Patrick Street",
              "locality": "Donaldsonville",
              "region": "Louisiana"
+          }
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "status": "pass",
+      "user": "julian",
+      "issue": "https://github.com/pelias/pelias/issues/737",
+      "description": "saint abbreviated in data, abbreviated in query",
+      "in": {
+        "text": "3929 St Marks Avenue, Niagara Falls, ON, Canada"
+      },
+      "expected": {
+        "properties": [
+          {
+             "layer": "address",
+             "housenumber": "3929",
+             "street": "St Marks Avenue",
+             "locality": "Niagara Falls",
+             "region": "Ontario",
+             "country": "Canada"
+          }
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "status": "fail",
+      "user": "julian",
+      "issue": "https://github.com/pelias/pelias/issues/737",
+      "description": "saint abbreviated in data, unabbreviated in query",
+      "in": {
+        "text": "3929 Siant Marks Avenue, Niagara Falls, ON, Canada"
+      },
+      "expected": {
+        "properties": [
+          {
+             "layer": "address",
+             "housenumber": "3929",
+             "street": "St Marks Avenue",
+             "locality": "Niagara Falls",
+             "region": "Ontario",
+             "country": "Canada"
           }
         ]
       }
