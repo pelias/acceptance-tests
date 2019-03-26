@@ -212,6 +212,8 @@
         "priorityThresh": 1,
         "properties": [
           {
+            "name": "Wales",
+            "country": "United Kingdom",
             "label": "Wales, United Kingdom"
           }
         ]
