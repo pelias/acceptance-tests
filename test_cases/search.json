@@ -530,7 +530,7 @@
       },
       "expected": {
         "properties": [{
-          "name": "Statue of Liberty",
+          "name": "Statue of Liberty replica",
           "country_a": "FRA",
           "region": "Paris"
         }]
