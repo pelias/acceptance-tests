@@ -123,9 +123,6 @@
         "properties": [
           {
             "label": "New York, NY, USA"
-          },
-          {
-            "label": "New York City, Manhattan, NY, USA"
           }
         ]
       }
@@ -142,10 +139,16 @@
       "expected": {
         "properties": [
           {
-            "label": "London, Greater London, United Kingdom"
+            "name": "London",
+            "macroregion": "England",
+            "country": "United Kingdom",
+            "label": "London, England, United Kingdom"
           },
           {
-            "label": "London, Middlesex, Canada"
+            "name": "London",
+            "region": "Ontario",
+            "country": "Canada",
+            "label": "London, ON, Canada"
           }
         ]
       }
@@ -209,6 +212,8 @@
         "priorityThresh": 1,
         "properties": [
           {
+            "name": "Wales",
+            "country": "United Kingdom",
             "label": "Wales, United Kingdom"
           }
         ]
@@ -290,7 +295,7 @@
       "status": "fail",
       "user": "missinglink",
       "notes": [ "from mapillary home page" ],
-      "description": "geonames result coming first",
+      "description": "geonames result coming first, not deduplicated due to diacritical",
       "issue": "https://github.com/pelias/pelias/issues/482",
       "in": {
         "text": "malmo"

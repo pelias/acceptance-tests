@@ -434,9 +434,12 @@
       "status": "fail",
       "endpoint": "search",
       "description": "borough should rank higher than county",
-      "issue": "https://github.com/pelias/placeholder/issues/55",
+      "issue": [
+        "https://github.com/pelias/placeholder/issues/55",
+        "https://github.com/whosonfirst-data/whosonfirst-data/issues/1555"
+      ],
       "in": {
-        "text": "Queens"
+        "text": "Queens, new york"
       },
       "expected": {
         "properties": [
@@ -529,7 +532,7 @@
         "properties": [
           {
             "gid": "whosonfirst:macrocounty:404227565",
-            "name": "Mittelfranken"
+            "name": "Middle Franconia"
           }
         ]
       }
@@ -699,7 +702,7 @@
         "properties": [
           {
             "gid": "whosonfirst:neighbourhood:85873785",
-            "name": "Les Halles"
+            "name": "Halles"
           }
         ]
       }
@@ -732,11 +735,12 @@
       "id": 1500,
       "status": "pass",
       "endpoint": "search",
-      "description": "non-popular neighbourhoods should be found",
+      "description": "non-popular neighbourhoods should be found, don't have to be first",
       "in": {
         "text": "Getz"
       },
       "expected": {
+        "priorityThresh": 5,
         "properties": [
           {
             "gid": "whosonfirst:neighbourhood:85821441",

@@ -308,7 +308,7 @@
     },
     {
       "id": "1425586777012:6",
-      "status": "fail",
+      "status": "pass",
       "issue": "https://github.com/pelias/pelias/issues/293",
       "description": "data issue",
       "user": "feedback-app",
@@ -319,13 +319,15 @@
       "expected": {
         "properties": [
           {
-            "label": "London, Greater London, United Kingdom"
+            "name": "London",
+            "country": "United Kingdom",
+            "label": "London, England, United Kingdom"
           },
           {
-            "label": "London, Middlesex, Canada"
-          },
-          {
-            "label": "London, United Kingdom"
+            "name": "London",
+            "region": "Ontario",
+            "country": "Canada",
+            "label": "London, ON, Canada"
           }
         ]
       }
@@ -528,7 +530,7 @@
       },
       "expected": {
         "properties": [{
-          "name": "Statue of Liberty",
+          "name": "Statue of Liberty replica",
           "country_a": "FRA",
           "region": "Paris"
         }]

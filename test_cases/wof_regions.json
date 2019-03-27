@@ -164,8 +164,8 @@
         "properties": [
           {
             "layer": "region",
-            "name": "Xaçmaz",
-            "region": "Xaçmaz",
+            "name": "Xacmaz",
+            "region": "Xacmaz",
             "country": "Azerbaijan",
             "country_a": "AZE"
           }
@@ -186,9 +186,9 @@
           {
             "gid": "whosonfirst:region:85670011",
             "layer": "region",
-            "name": "Kasaï-Oriental",
-            "region": "Kasaï-Oriental",
-            "country": "Democratic Republic of the Congo",
+            "name": "Kasaï-Occidental Province",
+            "region": "Kasaï-Occidental Province",
+            "country": "Democratic Republic of Congo",
             "country_a": "COD"
           }
         ]

@@ -47,7 +47,7 @@
         "properties": [
           {
             "name": "Wells Fargo",
-            "localadmin": "Newtown",
+            "localadmin": "Newtown Township",
             "region_a": "PA"
           }
         ]
@@ -96,7 +96,7 @@
         "properties": [
           {
             "name": "Wells Fargo",
-            "localadmin": "Newtown",
+            "localadmin": "Newtown Township",
             "region_a": "PA"
           }
         ]

@@ -195,7 +195,7 @@
           {
             "gid": "whosonfirst:region:85684523",
             "confidence": 0.3,
-            "name": "County Durham"
+            "name": "Durham"
           }
         ]
       }
@@ -213,7 +213,7 @@
           {
             "gid": "whosonfirst:region:85684523",
             "confidence": 0.3,
-            "name": "County Durham"
+            "name": "Durham"
           }
         ]
       }
@@ -238,9 +238,9 @@
     },
     {
       "id": 14,
-      "status": "pass",
+      "status": "fail",
       "endpoint": "search",
-      "description": "abbreviating periods should be removed",
+      "description": "abbreviating periods should be removed. Returns wildly incorrect result",
       "in": {
         "text": "L.A. C.A."
       },

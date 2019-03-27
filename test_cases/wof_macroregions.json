@@ -36,8 +36,8 @@
         "properties": [
           {
             "layer": "macroregion",
-            "name": "Navarra",
-            "macroregion": "Navarra",
+            "name": "Navarre",
+            "macroregion": "Navarre",
             "country": "Spain",
             "country_a": "ESP"
           }
