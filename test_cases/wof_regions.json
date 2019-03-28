@@ -152,7 +152,7 @@
     },
     {
       "id": 8,
-      "status": "fail",
+      "status": "pass",
       "user": "Stephen",
       "description": "",
       "notes": "libpostal identifies this as a city/country even though it's a WOF region",
@@ -174,7 +174,7 @@
     },
     {
       "id": 9,
-      "status": "fail",
+      "status": "pass",
       "user": "Stephen",
       "description": "fails since placeholder indexes 'Democratic Republic of Congo' but not 'Congo'",
       "in": {
