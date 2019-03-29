@@ -44,8 +44,8 @@
     },
     {
       "id": 4,
-      "status": "pass",
-      "description": "placeholder matches both California (USA region) and Canada (country)",
+      "status": "fail",
+      "description": "technically incorrect query for california. Should return the US state, not Canada or the California in Chile",
       "user": "missinglink",
       "in": {
         "text": "California, CA"
@@ -90,7 +90,7 @@
     },
     {
       "id": 7,
-      "status": "fail",
+      "status": "pass",
       "user": "missinglink",
       "description": "hierarchy for the county of Erbil is missing in WOF",
       "issue": "https://github.com/pelias/wof-admin-lookup/issues/156",
