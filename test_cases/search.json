@@ -550,7 +550,13 @@
       "expected": {
         "properties": [
           {
-            "name": "San Francisco 4th & King Street Station",
+            "name": "4th & King",
+            "locality": "San Francisco",
+            "country_a": "USA"
+          },
+          {
+            "name": "San Francisco 4th & King Street",
+            "locality": "San Francisco",
             "country_a": "USA"
           }
         ],
