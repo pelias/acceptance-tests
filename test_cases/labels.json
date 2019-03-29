@@ -90,7 +90,7 @@
     },
     {
       "id": 7,
-      "status": "fail",
+      "status": "pass",
       "user": "missinglink",
       "description": "hierarchy for the county of Erbil is missing in WOF",
       "issue": "https://github.com/pelias/wof-admin-lookup/issues/156",
