@@ -16,11 +16,11 @@
       "expected": {
         "properties": [
           {
-            "gid": "openstreetmap:venue:node:2562438641",
+            "gid": "openstreetmap:venue:node/2562438641",
             "layer": "venue",
             "source": "openstreetmap",
-            "id": "node:2562438641",
-            "source_id": "node:2562438641"
+            "id": "node/2562438641",
+            "source_id": "node/2562438641"
           }
         ]
       }
@@ -59,11 +59,11 @@
         "priorityThresh": 2,
         "properties": [
           {
-            "gid": "openstreetmap:venue:way:248143769",
+            "gid": "openstreetmap:venue:way/248143769",
             "layer": "venue",
-            "id": "way:248143769",
+            "id": "way/248143769",
             "source": "openstreetmap",
-            "source_id": "way:248143769",
+            "source_id": "way/248143769",
             "name": "Flatiron Hotel"
           }
         ]
@@ -75,16 +75,16 @@
       "description": "OSM venue",
       "endpoint": "place",
       "in": {
-        "ids": "openstreetmap:venue:node:4509430011"
+        "ids": "openstreetmap:venue:node/4509430011"
       },
       "expected": {
         "properties": [
           {
-            "gid": "openstreetmap:venue:node:4509430011",
+            "gid": "openstreetmap:venue:node/4509430011",
             "layer": "venue",
             "source": "openstreetmap",
-            "id": "node:4509430011",
-            "source_id": "node:4509430011",
+            "id": "node/4509430011",
+            "source_id": "node/4509430011",
             "name": "INDAY"
           }
         ]

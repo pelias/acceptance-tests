@@ -108,7 +108,7 @@
       "user": "dianashk",
       "endpoint": "place",
       "in": {
-        "ids": "openstreetmap:venue:node:357621540"
+        "ids": "openstreetmap:venue:node/357621540"
       },
       "expected": {
         "properties": [
