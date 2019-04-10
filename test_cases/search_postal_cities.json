@@ -1,0 +1,95 @@
+{
+  "name": "search postal cities",
+  "priorityThresh": 1,
+  "tests": [
+    {
+      "id": 1,
+      "status": "fail",
+      "issue": "https://github.com/pelias/pelias/issues/456",
+      "description": "fails only due to lack of trl abbreviation",
+      "in": {
+        "text": "7030 broomshedge trl, winter garden FL 34787"
+      },
+      "expected": {
+        "properties": [{
+          "name": "7030 Broomshedge Trail",
+          "layer": "address",
+          "locality": "Winter Garden",
+          "region_a": "FL"
+        }]
+      }
+    },
+    {
+      "id": 2,
+      "status": "fail",
+      "issue": "https://github.com/pelias/pelias/issues/167",
+      "in": {
+        "text": "110A Sage Street, Davis, CA"
+      },
+      "expected": {
+        "properties": [{
+          "housenumber": "110A",
+          "street": "Sage Street",
+          "layer": "address",
+          "locality": "Davis",
+          "region_a": "CA"
+        }]
+      }
+    },
+    {
+      "id": 3,
+      "status": "fail",
+      "issue": "https://github.com/pelias/pelias/issues/269",
+      "in": {
+        "text": "3 Cameron Court, Nottingham, MD"
+      },
+      "expected": {
+        "properties": [{
+          "housenumber": "3",
+          "street": "Cameron Court",
+          "layer": "address",
+          "locality": "Nottingham",
+          "region_a": "MD",
+          "country_a": "USA"
+        }]
+      }
+    },
+    {
+      "id": 4,
+      "status": "fail",
+      "issue": "https://github.com/pelias/pelias/issues/387",
+      "description": "Locality should be set to Arden, but WOF geometry does not include this address and we need postal cities data for Denmark",
+      "in": {
+        "text": "hobrovej 18, 9510, denmark"
+      },
+      "expected": {
+        "properties": [{
+          "housenumber": "18",
+          "street": "Hobrovej",
+          "layer": "address",
+          "locality": "Arden",
+          "region": "Nordjylland",
+          "country_a": "DNK"
+        }]
+      }
+    },
+    {
+      "id": 5,
+      "status": "fail",
+      "issue": "https://github.com/pelias/pelias/issues/607",
+      "in": {
+        "text": "15364 Kensington Park Dr, Woodbridge, VA"
+      },
+      "expected": {
+        "properties": [{
+          "housenumber": "15364",
+          "street": "Kensington Park Dr",
+          "layer": "address",
+          "locality": "Woodbridge",
+          "region_a": "VA",
+          "country_a": "USA"
+        }]
+      }
+    }
+  ]
+}
