@@ -63,6 +63,44 @@
           }
         ]
       }
+    },
+    {
+      "id": 4,
+      "status": "fail",
+      "in": {
+        "text": "160 Harbachs Rd, Dysart, TAS 7030"
+      },
+      "description": "Tasmanian address",
+      "expected": {
+        "properties": [
+          {
+            "name": "160 Harbachs Road",
+            "layer": "address",
+            "localadmin": "Dysart",
+            "region_a": "TAS",
+            "country_a": "AUS"
+          }
+        ]
+      }
+    },
+    {
+      "id": 4.1,
+      "status": "fail",
+      "in": {
+        "text": "160 Harbachs Rd, Dysart, Tasmania 7030"
+      },
+      "description": "Tasmanian address",
+      "expected": {
+        "properties": [
+          {
+            "name": "160 Harbachs Road",
+            "layer": "address",
+            "localadmin": "Dysart",
+            "region_a": "TAS",
+            "country_a": "AUS"
+          }
+        ]
+      }
     }
   ]
 }
