@@ -28,6 +28,38 @@
           }
         ]
       }
+    },
+    {
+      "id": 2,
+      "status": "pass",
+      "user": "julian",
+      "type": "dev",
+      "in": {
+        "boundary.country": "COL,MEX",
+        "layers": "coarse",
+        "size": 40,
+        "text": "san francisco"
+      },
+      "unexpected" : {
+        "properties": [
+          {
+            "country_a": "USA"
+          }
+        ]
+      },
+      "expected": {
+        "priorityThresh": 40,
+        "properties": [
+          {
+            "name": "San Francisco",
+            "country_a": "COL"
+          },
+          {
+            "name": "San Francisco",
+            "country_a": "MEX"
+          }
+        ]
+      }
     }
   ]
 }
