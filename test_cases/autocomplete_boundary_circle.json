@@ -1,0 +1,33 @@
+{
+  "name": "autocomplete boundary.circle",
+  "priorityThresh": 3,
+  "endpoint": "autocomplete",
+  "tests": [
+    {
+      "id": 1,
+      "status": "pass",
+      "user": "Julian",
+      "description": "test boundary circle with a query for london, and a point ner london, Ontario",
+      "type": "dev",
+      "in": {
+        "boundary.circle.lon": -81.2,
+        "boundary.circle.lat": 42.9,
+        "text": "london"
+      },
+      "expected": {
+        "properties": [
+          {
+              "name": "London",
+              "region": "Ontario",
+              "country_a": "CAN"
+          }
+        ]
+      },
+      "unexpected": {
+        "properties": [{
+          "country_a": "GBR"
+        }]
+      }
+    }
+  ]
+}
