@@ -5,7 +5,7 @@
   "tests": [
     {
       "id": "searchpoi-1",
-      "status": "fail",
+      "status": "pass",
       "description": "@nvkelso couldn't find Target in Eureka while visiting home",
       "issue": "https://github.com/pelias/pelias/issues/185",
       "user": "riordan",
@@ -26,7 +26,7 @@
     },
     {
       "id": "searchpoi-2",
-      "status": "fail",
+      "status": "pass",
       "description": "@nvkelso couldn't find Target in Eureka while visiting home",
       "issue": "https://github.com/pelias/pelias/issues/185",
       "user": "riordan",
