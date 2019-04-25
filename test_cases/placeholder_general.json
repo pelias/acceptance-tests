@@ -195,7 +195,7 @@
       "expected": {
         "properties": [
           {
-            "gid": "whosonfirst:region:85684523",
+            "gid": "whosonfirst:region:1360698621",
             "confidence": 0.3,
             "name": "Durham"
           }
@@ -213,7 +213,7 @@
       "expected": {
         "properties": [
           {
-            "gid": "whosonfirst:region:85684523",
+            "gid": "whosonfirst:region:1360698621",
             "confidence": 0.3,
             "name": "Durham"
           }
