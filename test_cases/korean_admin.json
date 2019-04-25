@@ -35,7 +35,7 @@
     },
     {
       "id": 2,
-      "status": "fail",
+      "status": "pass",
       "user": "Diana",
       "description": "Yongsan-gu (county)",
       "issue": "waiting on Seoul renaming to be published",
@@ -106,7 +106,7 @@
     },
     {
       "id": 4.1,
-      "status": "fail",
+      "status": "pass",
       "user": "Diana",
       "description": "Counties missing native names",
       "in": {
