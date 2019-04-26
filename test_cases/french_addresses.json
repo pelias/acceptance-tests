@@ -106,7 +106,7 @@
     },
     {
       "id": "3-abbrev",
-      "status": "fail",
+      "status": "pass",
       "user": "adefarge",
       "type": "france",
       "issue": "Missing synonyms",
