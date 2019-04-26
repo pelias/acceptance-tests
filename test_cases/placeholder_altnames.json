@@ -4,7 +4,7 @@
   "tests": [
     {
       "id": 0,
-      "status": "fail",
+      "status": "pass",
       "user": "lily",
       "description": [
         "Search for Wan Chai area of HKG. Seems to have lost KO translation at some point",
@@ -232,7 +232,7 @@
     },
     {
       "id": 10,
-      "status": "fail",
+      "status": "pass",
       "user": "lily",
       "endpoint": "nearby",
       "description": [

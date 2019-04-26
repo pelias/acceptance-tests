@@ -216,8 +216,9 @@
     },
     {
       "id": "10",
-      "status": "pass",
+      "status": "fail",
       "endpoint": "reverse",
+      "description": "addresses in Cardiff County should have county name set",
       "in": {
         "point.lat": 51.47945855891035,
         "point.lon": -3.2018280029296875
@@ -225,7 +226,7 @@
       "expected": {
         "properties": [
           {
-            "county": "Cardiff County"
+            "county": "Cardiff"
           }
         ]
       },
@@ -233,6 +234,23 @@
         "properties": [
           {
             "county": "Caerdydd#Cardiff"
+          }
+        ]
+      }
+    },
+    {
+      "id": "10.1",
+      "status": "pass",
+      "endpoint": "reverse",
+      "in": {
+        "point.lat": 51.47945855891035,
+        "point.lon": -3.2018280029296875,
+        "layers": "coarse"
+      },
+      "expected": {
+        "properties": [
+          {
+            "county": "Cardiff"
           }
         ]
       }
@@ -247,7 +265,7 @@
       "expected": {
         "properties": [
           {
-            "locality": "Cardiff"
+            "locality": "Cardiff County"
           }
         ]
       },
@@ -406,7 +424,7 @@
           {
             "country_a": "GBR",
             "country": "United Kingdom",
-            "region": "Cardiff"
+            "county": "Cardiff"
           }
         ]
       },

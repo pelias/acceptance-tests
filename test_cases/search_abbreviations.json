@@ -73,7 +73,7 @@
       "issue": "https://github.com/pelias/pelias/issues/737",
       "description": "saint abbreviated in data, unabbreviated in query",
       "in": {
-        "text": "3929 Siant Marks Avenue, Niagara Falls, ON, Canada"
+        "text": "3929 Saint Marks Avenue, Niagara Falls, ON, Canada"
       },
       "expected": {
         "properties": [
@@ -90,7 +90,7 @@
     },
     {
       "id": 5,
-      "status": "fail",
+      "status": "pass",
       "user": "julian",
       "issue": "https://github.com/pelias/schema/issues/335",
       "description": "Av abbreviation for Avenue",

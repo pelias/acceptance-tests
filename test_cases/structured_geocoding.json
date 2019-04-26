@@ -1051,7 +1051,7 @@
 
     {
       "id": 1100,
-      "status": "pass",
+      "status": "fail",
       "user": "trescube",
       "type": "dev",
       "notes": "venue+address should ignore address",
@@ -1074,7 +1074,7 @@
     },
     {
       "id": 1101,
-      "status": "pass",
+      "status": "fail",
       "user": "trescube",
       "type": "dev",
       "notes": "venue+address should also search category",
@@ -1097,7 +1097,7 @@
     },
     {
       "id": 1102,
-      "status": "pass",
+      "status": "fail",
       "user": "trescube",
       "type": "dev",
       "notes": "venue+street should ignore street",

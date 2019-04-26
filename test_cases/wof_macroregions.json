@@ -67,7 +67,7 @@
     },
     {
       "id": 4,
-      "status": "fail",
+      "status": "pass",
       "user": "Stephen",
       "issue": "https://github.com/whosonfirst/whosonfirst-data/issues/250",
       "description": "seems to be a data issue, country is set to Europe",
@@ -79,8 +79,8 @@
         "properties": [
           {
             "layer": "macroregion",
-            "name": "Dél-Dunántúl",
-            "macroregion": "Dél-Dunántúl",
+            "name": "Southern Transdanubia",
+            "macroregion": "Southern Transdanubia",
             "country": "Hungary",
             "country_a": "HUN"
           }

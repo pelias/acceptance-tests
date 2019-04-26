@@ -6,7 +6,7 @@
   "tests": [
     {
       "id": "1",
-      "status": "fail",
+      "status": "pass",
       "user": "missinglink",
       "description": [
         "'Daly City' city not returned for 'dal' due to other more relevant..",

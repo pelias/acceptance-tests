@@ -67,6 +67,7 @@
     {
       "id": 4,
       "status": "fail",
+      "description": "should pass but placeholder does not know the TAS abbr yet",
       "in": {
         "text": "160 Harbachs Rd, Dysart, TAS 7030"
       },
@@ -85,7 +86,7 @@
     },
     {
       "id": 4.1,
-      "status": "fail",
+      "status": "pass",
       "in": {
         "text": "160 Harbachs Rd, Dysart, Tasmania 7030"
       },
@@ -97,6 +98,25 @@
             "layer": "address",
             "localadmin": "Dysart",
             "region_a": "TAS",
+            "country_a": "AUS"
+          }
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "status": "pass",
+      "in": {
+        "text": "113 Bargara Road, Bundaberg East, QLD, AUS"
+      },
+      "description": "Queensland address",
+      "expected": {
+        "properties": [
+          {
+            "name": "113 Bargara Road",
+            "layer": "address",
+            "locality": "Bundaberg East",
+            "region_a": "QLD",
             "country_a": "AUS"
           }
         ]

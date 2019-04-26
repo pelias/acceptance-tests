@@ -8,15 +8,15 @@
       "status": "pass",
       "description": "place endpoint should return the desired record",
       "in": {
-        "ids": "openstreetmap:venue:node:2562438641"
+        "ids": "openstreetmap:venue:node/2562438641"
       },
       "expected": {
         "properties": [
           {
-            "gid": "openstreetmap:venue:node:2562438641",
+            "gid": "openstreetmap:venue:node/2562438641",
             "layer": "venue",
             "source": "openstreetmap",
-            "id": "node:2562438641"
+            "id": "node/2562438641"
           }
         ]
       }
@@ -27,15 +27,15 @@
       "issue": "https://github.com/pelias/api/issues/441",
       "description": "shortened source name should also work",
       "in": {
-        "ids": "osm:venue:node:2562438641"
+        "ids": "osm:venue:node/2562438641"
       },
       "expected": {
         "properties": [
           {
-            "gid": "openstreetmap:venue:node:2562438641",
+            "gid": "openstreetmap:venue:node/2562438641",
             "layer": "venue",
             "source": "openstreetmap",
-            "id": "node:2562438641"
+            "id": "node/2562438641"
           }
         ]
       }
@@ -47,15 +47,15 @@
       "description": "the correct OSM way should be returned even when there is an OSM node with the same ID",
       "issue": "https://github.com/pelias/api/issues/317",
       "in": {
-        "ids": "openstreetmap:venue:way:5013364"
+        "ids": "openstreetmap:venue:way/5013364"
       },
       "expected": {
         "properties": [
           {
-            "gid": "openstreetmap:venue:way:5013364",
+            "gid": "openstreetmap:venue:way/5013364",
             "layer": "venue",
             "source": "openstreetmap",
-            "id": "way:5013364"
+            "id": "way/5013364"
           }
         ]
       }
@@ -93,15 +93,15 @@
       "description": "Records from other layers should not be returned",
       "issue": "https://github.com/pelias/pelias/issues/643",
       "in": {
-        "ids": "openstreetmap:address:node:2420772655"
+        "ids": "openstreetmap:address:node/2420772655"
       },
       "expected": {
         "properties": [
           {
-            "gid": "openstreetmap:address:node:2420772655",
+            "gid": "openstreetmap:address:node/2420772655",
             "layer": "address",
             "source": "openstreetmap",
-            "id": "node:2420772655"
+            "id": "node/2420772655"
           }
         ]
       }

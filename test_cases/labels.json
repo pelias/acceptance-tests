@@ -298,7 +298,7 @@
     },
     {
       "id": 20,
-      "status": "fail",
+      "status": "pass",
       "description": "locality in non-US dependency should still include country",
       "issue": [
         "https://github.com/pelias/labels/issues/5",

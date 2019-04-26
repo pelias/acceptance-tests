@@ -131,7 +131,7 @@
     },
     {
       "id": 6,
-      "status": "fail",
+      "status": "pass",
       "user": "Diana",
       "description": "existing address in new format",
       "issue": "waiting for Seoul rename to be published",

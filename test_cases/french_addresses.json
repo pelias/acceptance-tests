@@ -51,7 +51,8 @@
       "status": "fail",
       "user": "adefarge",
       "type": "france",
-      "issue": "Missing synonyms",
+      "description": "Missing synonyms",
+      "issue": "https://github.com/pelias/schema/issues/301",
       "in": {
         "text": "20 bd saint-martin paris"
       },
@@ -71,7 +72,8 @@
       "status": "fail",
       "user": "adefarge",
       "type": "france",
-      "issue": "Missing synonyms and split on hyphen",
+      "description": "Missing synonyms and split on hyphen",
+      "issue": "https://github.com/pelias/schema/issues/301",
       "in": {
         "text": "20 bd st martin paris"
       },
@@ -106,10 +108,11 @@
     },
     {
       "id": "3-abbrev",
-      "status": "fail",
+      "status": "pass",
       "user": "adefarge",
       "type": "france",
-      "issue": "Missing synonyms",
+      "description": "Missing synonyms",
+      "issue": "https://github.com/pelias/schema/issues/301",
       "in": {
         "text": "av du maine paris"
       },
@@ -182,7 +185,8 @@
       "status": "fail",
       "user": "adefarge",
       "type": "france",
-      "issue": "Missing synonyms",
+      "description": "Missing synonyms",
+      "issue": "https://github.com/pelias/schema/issues/301",
       "in": {
         "text": "6 r de bellevue mur de bretagne"
       },
@@ -202,15 +206,100 @@
       "status": "fail",
       "user": "adefarge",
       "type": "france",
-      "issue": "Missing synonyms and split on hyphen",
+      "description": "Missing synonyms and split on hyphen",
+      "issue": "https://github.com/pelias/schema/issues/301",
       "in": {
-        "text": "r gay lussac paris"
+        "text": "r gay lussac, paris"
       },
       "expected": {
         "properties": [
           {
             "street": "Rue Gay-Lussac",
             "locality": "Paris",
+            "country_a": "FRA"
+          }
+        ]
+      }
+    },
+    {
+      "id": 9,
+      "status": "pass",
+      "user": "orangejulius",
+      "type": "france",
+      "description": "Missing synonyms and split on hyphen",
+      "issue": "https://github.com/pelias/api/issues/1279",
+      "in": {
+        "text": "160 avenue aristide briand bagneux"
+      },
+      "expected": {
+        "properties": [
+          {
+            "housenumber": "160",
+            "street": "Avenue Aristide Briand",
+            "locality": "Bagneux",
+            "country_a": "FRA"
+          }
+        ]
+      }
+    },
+    {
+      "id": "10",
+      "status": "pass",
+      "user": "orangejulius",
+      "type": "france",
+      "description": "determiner in street name",
+      "issue": "https://github.com/pelias/api/pull/1268",
+      "in": {
+        "text": "40 Rue De L'arsenal, Bordeaux, France"
+      },
+      "expected": {
+        "properties": [
+          {
+            "housenumber": "40",
+            "street": "Rue De L'arsenal",
+            "locality": "Bordeaux",
+            "country_a": "FRA"
+          }
+        ]
+      }
+    },
+    {
+      "id": "10.1",
+      "status": "fail",
+      "user": "orangejulius",
+      "type": "france",
+      "description": "determiner skipped completely",
+      "issue": "https://github.com/pelias/api/pull/1268",
+      "in": {
+        "text": "40 Rue De L arsenal, Bordeaux, France"
+      },
+      "expected": {
+        "properties": [
+          {
+            "housenumber": "40",
+            "street": "Rue De L'arsenal",
+            "locality": "Bordeaux",
+            "country_a": "FRA"
+          }
+        ]
+      }
+    },
+    {
+      "id": "10.2",
+      "status": "fail",
+      "user": "orangejulius",
+      "type": "france",
+      "description": "determiner skipped completely",
+      "issue": "https://github.com/pelias/api/pull/1268",
+      "in": {
+        "text": "40 Rue De arsenal, Bordeaux, France"
+      },
+      "expected": {
+        "properties": [
+          {
+            "housenumber": "40",
+            "street": "Rue De L'arsenal",
+            "locality": "Bordeaux",
             "country_a": "FRA"
           }
         ]

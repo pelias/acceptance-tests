@@ -11,6 +11,7 @@
       "id": 1,
       "status": "pass",
       "user": "missinglink",
+      "description": "text only query will only return street",
       "issue": "https://github.com/pelias/openstreetmap/issues/28",
       "in": {
         "text": "grolmanstr, berlin"
@@ -22,10 +23,6 @@
             "country_a": "DEU",
             "street": "Grolmanstraße",
             "layer": "street"
-          },{
-            "country_a": "DEU",
-            "street": "Grolmanstraße",
-            "layer": "address"
           }
         ]
       }
@@ -43,11 +40,6 @@
             "street": "West 26th Street",
             "region": "New York",
             "layer": "street"
-          },{
-            "country_a": "USA",
-            "street": "West 26th Street",
-            "region": "New York",
-            "layer": "address"
           }
         ]
       }

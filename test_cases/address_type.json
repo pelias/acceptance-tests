@@ -23,10 +23,10 @@
       "expected": {
         "properties": [
           {
-            "gid": "openstreetmap:address:node:1401849738",
+            "gid": "openstreetmap:address:node/1401849738",
             "layer": "address",
             "source": "openstreetmap",
-            "id": "node:1401849738"
+            "id": "node/1401849738"
           }
         ]
       }
@@ -49,10 +49,10 @@
       "expected": {
         "properties": [
           {
-            "gid": "openstreetmap:venue:way:338854694",
+            "gid": "openstreetmap:venue:way/338854694",
             "layer": "venue",
             "source": "openstreetmap",
-            "id": "way:338854694"
+            "id": "way/338854694"
           }
         ]
       }
@@ -75,10 +75,10 @@
       "expected": {
         "properties": [
           {
-            "gid": "openstreetmap:address:way:338854694",
+            "gid": "openstreetmap:address:way/338854694",
             "layer": "address",
             "source": "openstreetmap",
-            "id": "way:338854694"
+            "id": "way/338854694"
           }
         ]
       }

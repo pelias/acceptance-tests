@@ -175,7 +175,7 @@
     },
     {
       "id": 9,
-      "status": "fail",
+      "status": "pass",
       "user": "lily",
       "description": [
         "Russian street name in native langauge passes"
@@ -189,7 +189,7 @@
         "properties": [
           {
             "name": "15 Фурштатская улица",
-            "locality": "Saint Petersburg",
+            "locality": "Saint Petersburg City",
             "country_a": "RUS"
           }
         ]
