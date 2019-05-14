@@ -88,7 +88,7 @@
     },
     {
       "id": 4,
-      "status": "pass",
+      "status": "fail",
       "user": "Lily",
       "type": "dev",
       "description": [
@@ -110,7 +110,7 @@
     },
     {
       "id": 5,
-      "status": "pass",
+      "status": "fail",
       "user": "Lily",
       "type": "dev",
       "description": [

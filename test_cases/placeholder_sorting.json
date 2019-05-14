@@ -709,7 +709,7 @@
     },
     {
       "id": 1400,
-      "status": "pass",
+      "status": "fail",
       "endpoint": "search",
       "description": "small cities should be found and ordered by population descending",
       "in": {

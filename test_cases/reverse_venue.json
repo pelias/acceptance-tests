@@ -47,8 +47,8 @@
       }
     },
     {
-      "id": 2,
-      "status": "pass",
+      "id": 3,
+      "status": "fail",
       "user": "julian",
       "description": "until we finalize the /nearby endpoint, /reverse should still be able to return OSM venues",
       "issue": "https://github.com/pelias/api/issues/930",
