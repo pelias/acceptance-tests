@@ -1,6 +1,14 @@
 {
   "name": "university",
   "priorityThresh": 10,
+  "normalizers": {
+    "name": [
+      "toLowerCase"
+    ],
+    "street": [
+      "toLowerCase"
+    ]
+  },
   "tests": [
     {
       "id": 0,
