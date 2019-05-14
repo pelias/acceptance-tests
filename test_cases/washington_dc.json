@@ -1,6 +1,12 @@
 {
   "name": "washington dc",
   "priorityThresh": 1,
+  "normalizers": {
+    "street": [
+      "toLowerCase",
+      "abbreviateDirectionals"
+    ]
+  },
   "tests": [
     {
       "id": 1,
