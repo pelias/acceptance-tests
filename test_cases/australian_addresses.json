@@ -121,6 +121,25 @@
           }
         ]
       }
+    },
+    {
+      "id": 4.1,
+      "status": "fail",
+      "in": {
+        "text": "113 Bargara Road, Bundaberg East, QLD, AUS"
+      },
+      "description": "Queensland address",
+      "expected": {
+        "properties": [
+          {
+            "name": "113 Bargara Road",
+            "layer": "address",
+            "locality": "Bundaberg East",
+            "region_a": "QLD",
+            "country_a": "AUS"
+          }
+        ]
+      }
     }
   ]
 }
