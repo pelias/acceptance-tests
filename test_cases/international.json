@@ -262,7 +262,7 @@
     },
     {
       "id": 13,
-      "status": "pass",
+      "status": "fail",
       "user": "lily",
       "description": [
         "Eliminate abbreviation in parens. Gets neighborhood, Kurla East, instead of a venue"
@@ -283,7 +283,7 @@
     },
     {
       "id": 14,
-      "status": "pass",
+      "status": "fail",
       "user": "lily",
       "description": [
         "Street exists in OSM data but returns various addresses instead of street centroid"

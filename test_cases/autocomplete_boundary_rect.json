@@ -11,8 +11,8 @@
       "in": {
         "boundary.rect.min_lat":19,
         "boundary.rect.max_lat":20,
-        "boundary.rect.min_lon":-99,
-        "boundary.rect.max_lon":-98,
+        "boundary.rect.min_lon":-98.3,
+        "boundary.rect.max_lon":-98.1,
         "text": "san francisco"
       },
       "expected": {

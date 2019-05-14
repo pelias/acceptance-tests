@@ -1,6 +1,12 @@
 {
   "name": "washington dc",
   "priorityThresh": 1,
+  "normalizers": {
+    "street": [
+      "toLowerCase",
+      "abbreviateDirectionals"
+    ]
+  },
   "tests": [
     {
       "id": 1,
@@ -62,9 +68,9 @@
     },
     {
       "id": 3,
-      "status": "pass",
+      "status": "fail",
       "user": "julian",
-      "description": "venue searches in washington DC should work when 'district of columbia' is abbreviated",
+      "description": "venue searches in washington DC should work when 'district of columbia' is abbreviated. Waiting on update of name from & -> and in OSM",
       "issue": "https://github.com/pelias/pelias/issues/509",
       "in": {
         "text": "busboys and poets, washington dc"

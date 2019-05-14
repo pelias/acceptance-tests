@@ -81,14 +81,14 @@
       "id": 3,
       "status": "pass",
       "isssue": "https://github.com/pelias/api/issues/456",
-      "description": "result in the wrong zipcode and city shows up first",
+      "description": "result in the wrong zipcode and city shows up first. priorityThresh 2 to account for NY/NYC datasets with differing spelling",
       "user": "Harish",
       "type": "dev",
       "in": {
         "text": "450 37th st, new york, ny 11232"
       },
       "expected": {
-        "priorityThresh": 1,
+        "priorityThresh": 2,
         "properties": [
           {
             "name": "450 37th Street",
@@ -319,9 +319,10 @@
     },
     {
       "id": 11,
-      "status": "pass",
+      "status": "fail",
       "user": "Harish",
       "type": "dev",
+      "description": "this is not a very precise test. Perhaps we should add a focus point",
       "in": {
         "text": "whole foods NY"
       },

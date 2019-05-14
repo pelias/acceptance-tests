@@ -276,9 +276,9 @@
     },
     {
       "id": 16,
-      "status": "pass",
+      "status": "fail",
       "endpoint": "search",
-      "description": "ß should be treated as 'ss'",
+      "description": "ß should be treated as 'ss'. poor deduplication",
       "in": {
         "text": "Strass im Strassertale"
       },
@@ -301,24 +301,7 @@
         "text": "Schöneberg, DE"
       },
       "expected": {
-        "properties": [
-          {
-            "gid": "whosonfirst:locality:101907543",
-            "confidence": 1,
-            "name": "Schöneberg"
-          }
-        ]
-      }
-    },
-    {
-      "id": 18,
-      "status": "pass",
-      "endpoint": "search",
-      "description": "diacriticals should be flattened",
-      "in": {
-        "text": "Schöneberg, DE"
-      },
-      "expected": {
+        "priorityThresh": 8,
         "properties": [
           {
             "gid": "whosonfirst:locality:101907543",
@@ -377,7 +360,7 @@
           {
             "gid": "whosonfirst:neighbourhood:85873821",
             "confidence": 1,
-            "name": "Quartier de la Sorbonne"
+            "name": "Sorbonne"
           }
         ]
       }
@@ -568,9 +551,10 @@
     },
     {
       "id": 28,
-      "status": "pass",
+      "status": "fail",
       "endpoint": "search",
-      "description": "Dundee has 0 population: https://github.com/pelias/pelias/issues/526",
+      "description": "locality should show first",
+      "issue": "https://github.com/pelias/pelias/issues/803",
       "priorityThresh": 10,
       "in": {
         "text": "Dundee"

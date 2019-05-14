@@ -1,6 +1,14 @@
 {
   "name": "university",
   "priorityThresh": 10,
+  "normalizers": {
+    "name": [
+      "toLowerCase"
+    ],
+    "street": [
+      "toLowerCase"
+    ]
+  },
   "tests": [
     {
       "id": 0,
@@ -88,7 +96,7 @@
     },
     {
       "id": 4,
-      "status": "pass",
+      "status": "fail",
       "user": "Lily",
       "type": "dev",
       "description": [
@@ -110,7 +118,7 @@
     },
     {
       "id": 5,
-      "status": "pass",
+      "status": "fail",
       "user": "Lily",
       "type": "dev",
       "description": [

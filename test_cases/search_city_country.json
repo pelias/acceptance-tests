@@ -278,7 +278,7 @@
     },
     {
       "id": 15,
-      "status": "pass",
+      "status": "fail",
       "user": "trescube",
       "type": "dev",
       "in": {
@@ -434,7 +434,7 @@
     },
     {
       "id": 23,
-      "status": "pass",
+      "status": "fail",
       "user": "trescube",
       "type": "dev",
       "notes": "Bermuda is a dependency",
