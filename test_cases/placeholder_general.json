@@ -276,9 +276,9 @@
     },
     {
       "id": 16,
-      "status": "pass",
+      "status": "fail",
       "endpoint": "search",
-      "description": "ß should be treated as 'ss'",
+      "description": "ß should be treated as 'ss'. poor deduplication",
       "in": {
         "text": "Strass im Strassertale"
       },
@@ -301,24 +301,7 @@
         "text": "Schöneberg, DE"
       },
       "expected": {
-        "properties": [
-          {
-            "gid": "whosonfirst:locality:101907543",
-            "confidence": 1,
-            "name": "Schöneberg"
-          }
-        ]
-      }
-    },
-    {
-      "id": 18,
-      "status": "pass",
-      "endpoint": "search",
-      "description": "diacriticals should be flattened",
-      "in": {
-        "text": "Schöneberg, DE"
-      },
-      "expected": {
+        "priorityThresh": 8,
         "properties": [
           {
             "gid": "whosonfirst:locality:101907543",
