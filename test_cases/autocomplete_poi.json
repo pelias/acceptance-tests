@@ -117,14 +117,14 @@
       "id": "3",
       "status": "pass",
       "user": "feedback-app",
-      "note": "migrated this test from /search to /autocomplete",
+      "description": "searching for perugia airport",
       "in": {
         "text": "perugia air"
       },
       "expected": {
         "properties": [
           {
-            "name": "Perugia San Francesco d'Assisi – Umbria International Airport",
+            "name": "Aeroporto Internazionale dell'Umbria - Perugia \"San Francesco d'Assisi",
             "region": "Perugia",
             "country_a": "ITA"
           }
