@@ -56,27 +56,32 @@
       "status": "pass",
       "user": "missinglink",
       "in": {
-        "text": "Beach Bablyon"
+        "text": "Beach Babylon"
       },
       "expected": {
         "properties": [
           {
-            "label": "Beach Bablyon, Wellington, New Zealand"
+            "name": "Beach Babylon",
+            "locality": "Wellington",
+            "country": "New Zealand"
           }
         ]
       }
     },
     {
       "id": 5,
-      "status": "pass",
+      "status": "fail",
       "user": "missinglink",
       "in": {
-        "text": "Waiotapu"
+        "text": "Waiotapu, new zealand"
       },
+      "description": "OSM venue for actual Wai-O-Tapu attraction should be first",
       "expected": {
         "properties": [
           {
-            "label": "Waiotapu, New Zealand"
+            "name": "Wai-O-Tapu",
+            "layer": "venue",
+            "country": "New Zealand"
           }
         ]
       }
