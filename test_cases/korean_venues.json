@@ -114,7 +114,7 @@
     },
     {
       "id": 5,
-      "status": "fail",
+      "status": "pass",
       "user": "Hanbyul",
       "description": "input is Gwangmyeong Sung Ae Hospital",
       "issue": "name should not have the english version in ()",
