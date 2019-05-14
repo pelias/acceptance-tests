@@ -1,5 +1,5 @@
 {
-  "name": "autocomplete",
+  "name": "autocomplete venues",
   "priorityThresh": 5,
   "endpoint": "autocomplete",
   "tests": [
