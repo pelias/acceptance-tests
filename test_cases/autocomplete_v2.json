@@ -1,0 +1,55 @@
+{
+  "name": "autocomplete version 2",
+  "priorityThresh": 5,
+  "endpoint": "autocomplete",
+  "tests": [
+    {
+      "id": 1,
+      "status": "pass",
+      "in": {
+        "text": "New South Wales AUS"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "region",
+            "name": "New South Wales",
+            "country_a": "AUS"
+          }
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "status": "pass",
+      "in": {
+        "text": "Manhattan New York Temple"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "venue",
+            "name": "Manhattan New York Temple",
+            "region_a": "New York"
+          }
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "status": "pass",
+      "in": {
+        "text": "Ohio State University Hospital"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "venue",
+            "name": "Ohio State University Hospital",
+            "region_a": "OH"
+          }
+        ]
+      }
+    }
+  ]
+}
