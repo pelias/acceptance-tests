@@ -4,7 +4,7 @@
   "tests": [
     {
       "id": 1,
-      "status": "pass",
+      "status": "fail",
       "endpoint": "search",
       "description": "test it in search results and OSM data",
       "in": {
