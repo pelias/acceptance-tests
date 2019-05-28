@@ -1,0 +1,110 @@
+{
+  "name": "Venue translations",
+  "priorityThresh": 2,
+  "tests": [
+    {
+      "id": 0,
+      "status": "pass",
+      "user": "orangejulius",
+      "description": "venue with multiple translations should return default translation with no lang param",
+      "in": {
+        "text": "عمرو إبن العاص, cairo, egypt",
+        "layers": "venue"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "عمرو إبن العاص",
+            "layer": "venue",
+            "country": "Egypt",
+            "country_a": "EGY"
+          }
+        ]
+      }
+    },
+    {
+      "id": 1,
+      "status": "pass",
+      "user": "orangejulius",
+      "description": "venue with multiple translations should return english translation with lang param",
+      "in": {
+        "text": "عمرو إبن العاص, cairo, egypt",
+        "layers": "venue",
+        "lang": "en"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Mosque of Amr ibn al-As",
+            "layer": "venue",
+            "country": "Egypt",
+            "country_a": "EGY"
+          }
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "status": "pass",
+      "user": "orangejulius",
+      "description": "venue with multiple translations should return spanish translation with lang param",
+      "in": {
+        "text": "عمرو إبن العاص, cairo, egypt",
+        "layers": "venue",
+        "lang": "es"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Mezquita de Amr",
+            "layer": "venue",
+            "country": "Egipto",
+            "country_a": "EGY"
+          }
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "status": "pass",
+      "user": "orangejulius",
+      "description": "venue with multiple translations should return arabic translation with lang param",
+      "in": {
+        "text": "عمرو إبن العاص, cairo, egypt",
+        "layers": "venue",
+        "lang": "ar"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "عمرو إبن العاص",
+            "layer": "venue",
+            "country": "مصر",
+            "country_a": "EGY"
+          }
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "status": "pass",
+      "user": "orangejulius",
+      "description": "venue with multiple translations should return russian translation with lang param",
+      "in": {
+        "text": "statue of liberty, manhattan",
+        "layers": "venue",
+        "lang": "ru"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Статуя Свободы",
+            "layer": "venue",
+            "borough": "Манхэттен",
+            "country_a": "USA"
+          }
+        ]
+      }
+    }
+  ]
+}
