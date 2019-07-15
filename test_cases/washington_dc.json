@@ -68,7 +68,7 @@
     },
     {
       "id": 3,
-      "status": "fail",
+      "status": "pass",
       "user": "julian",
       "description": "venue searches in washington DC should work when 'district of columbia' is abbreviated. Waiting on update of name from & -> and in OSM",
       "issue": "https://github.com/pelias/pelias/issues/509",
