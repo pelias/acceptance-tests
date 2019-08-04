@@ -91,7 +91,7 @@
     },
     {
       "id": 5,
-      "status": "fail",
+      "status": "pass",
       "user": "julian",
       "issue": "https://github.com/pelias/schema/issues/335",
       "description": "Av abbreviation for Avenue",
