@@ -114,7 +114,7 @@
       "id": 6,
       "status": "fail",
       "user": "julian",
-      "issue": "https://github.com/pelias/schema/issues/335",
+      "issue": "https://github.com/pelias/pelias/issues/737",
       "description": "St abbreviation when the data is abbreviated. Limited to single city to induce no results",
       "in": {
         "boundary.gid": "whosonfirst:locality:85929457",
@@ -136,7 +136,7 @@
       "id": "6.1",
       "status": "fail",
       "user": "julian",
-      "issue": "https://github.com/pelias/schema/issues/335",
+      "issue": "https://github.com/pelias/pelias/issues/737",
       "description": "St abbreviation when the data is abbreviated. Limited to single city to induce no results",
       "in": {
         "boundary.gid": "whosonfirst:locality:85929457",
