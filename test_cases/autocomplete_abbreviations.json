@@ -112,7 +112,7 @@
     },
     {
       "id": 6,
-      "status": "fail",
+      "status": "pass",
       "user": "julian",
       "issue": "https://github.com/pelias/pelias/issues/737",
       "description": "Street abbreviation when the data is abbreviated. Limited to single city to induce no results",
@@ -134,7 +134,7 @@
     },
     {
       "id": "6.1",
-      "status": "fail",
+      "status": "pass",
       "user": "julian",
       "issue": "https://github.com/pelias/pelias/issues/737",
       "description": "Street abbreviation when the data is abbreviated. Limited to single city to induce no results",
