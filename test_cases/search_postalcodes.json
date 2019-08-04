@@ -92,7 +92,7 @@
     },
     {
       "id": "searchpostal-4",
-      "status": "fail",
+      "status": "pass",
       "issue": "https://github.com/pelias/pelias/issues/692",
       "user": "diana",
       "description": "fallback to postalcode when city is not found",
