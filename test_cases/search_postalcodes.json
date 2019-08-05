@@ -5,8 +5,9 @@
   "tests": [
     {
       "id": "searchpostal-1",
-      "status": "pass",
+      "status": "fail",
       "issue": "https://github.com/pelias/pelias/issues/692",
+      "description": "currently brings in irrelevant record first, needs better scoring",
       "user": "diana",
       "in": {
         "text": "90210"
@@ -92,7 +93,7 @@
     },
     {
       "id": "searchpostal-4",
-      "status": "fail",
+      "status": "pass",
       "issue": "https://github.com/pelias/pelias/issues/692",
       "user": "diana",
       "description": "fallback to postalcode when city is not found",

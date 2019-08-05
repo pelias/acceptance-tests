@@ -65,13 +65,13 @@
     },
     {
       "id": 4,
-      "status": "fail",
+      "status": "pass",
       "in": {
         "focus.point.lat": 38.001,
         "focus.point.lon": -102.001,
         "text": "93277"
       },
-      "description": "searching for a Finish/American postal code from central USA should return the American version before other countries",
+      "description": "searching for a Finish/American postal code from central USA should return the American version before other countries. suspected flapping test",
       "issue": "https://github.com/pelias/api/issues/1206",
       "expected": {
         "properties": [

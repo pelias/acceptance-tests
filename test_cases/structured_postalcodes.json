@@ -6,7 +6,8 @@
   "tests": [
     {
       "id": "structuredpostal-1",
-      "status": "fail",
+      "status": "pass",
+      "description": "suspected flapping test",
       "issue": "https://github.com/pelias/pelias/issues/692",
       "user": "diana",
       "in": {
@@ -43,10 +44,10 @@
     },
     {
       "id": "structuredpostal-3",
-      "status": "fail",
+      "status": "pass",
       "issue": "https://github.com/pelias/pelias/issues/692",
       "user": "diana",
-      "description": "fallback to postalcode when city is not found",
+      "description": "fallback to postalcode when city is not found. suspected flapping test",
       "in": {
         "address": "not-an-address",
         "postalcode": "90210"

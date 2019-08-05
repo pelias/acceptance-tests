@@ -91,7 +91,7 @@
     },
     {
       "id": 5,
-      "status": "fail",
+      "status": "pass",
       "user": "julian",
       "issue": "https://github.com/pelias/schema/issues/335",
       "description": "Av abbreviation for Avenue",
@@ -112,10 +112,10 @@
     },
     {
       "id": 6,
-      "status": "fail",
+      "status": "pass",
       "user": "julian",
-      "issue": "https://github.com/pelias/schema/issues/335",
-      "description": "St abbreviation when the data is abbreviated. Limited to single city to induce no results",
+      "issue": "https://github.com/pelias/pelias/issues/737",
+      "description": "Street abbreviation when the data is abbreviated. Limited to single city to induce no results",
       "in": {
         "boundary.gid": "whosonfirst:locality:85929457",
         "text": "3 scott street"
@@ -134,10 +134,10 @@
     },
     {
       "id": "6.1",
-      "status": "fail",
+      "status": "pass",
       "user": "julian",
-      "issue": "https://github.com/pelias/schema/issues/335",
-      "description": "St abbreviation when the data is abbreviated. Limited to single city to induce no results",
+      "issue": "https://github.com/pelias/pelias/issues/737",
+      "description": "Street abbreviation when the data is abbreviated. Limited to single city to induce no results",
       "in": {
         "boundary.gid": "whosonfirst:locality:85929457",
         "text": "3 scott st"

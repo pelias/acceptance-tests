@@ -157,7 +157,7 @@
     },
     {
       "id": 8,
-      "status": "pass",
+      "status": "fail",
       "user": "lily",
       "in": {
         "text": "Prolongación Ave. Alfonso Reyes #150 Col. Valle del Poniente Santa Catarina 66196",

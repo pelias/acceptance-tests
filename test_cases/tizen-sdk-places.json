@@ -31,7 +31,7 @@
     },
     {
       "id": "maps_service_search_place_by_area",
-      "status": "fail",
+      "status": "pass",
       "user": "dianashk",
       "endpoint": "nearby",
       "in": {
@@ -79,7 +79,7 @@
     },
     {
       "id": "maps_service_search_place_by_list",
-      "status": "fail",
+      "status": "pass",
       "description": "?????? how is this different from by_area?",
       "user": "dianashk",
       "endpoint": "nearby",
@@ -108,7 +108,7 @@
       "user": "dianashk",
       "endpoint": "place",
       "in": {
-        "ids": "openstreetmap:venue:node/357621540"
+        "ids": "openstreetmap:venue:node/5471154486"
       },
       "expected": {
         "properties": [
