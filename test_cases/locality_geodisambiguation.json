@@ -17,7 +17,7 @@
         "properties": [
           {
             "layer": "address",
-            "name": "83 Bichlachweg",
+            "name": "Bichlachweg 83",
             "county": "Kitzbühel"
           }
         ]
@@ -37,7 +37,7 @@
         "properties": [
           {
             "layer": "address",
-            "name": "83 Bichlachweg",
+            "name": "Bichlachweg 83",
             "county": "Kitzbühel"
           }
         ]
@@ -45,4 +45,3 @@
     }
   ]
 }
-    
