@@ -47,6 +47,25 @@
       }
     },
     {
+      "id": "2-no-hyphen",
+      "status": "pass",
+      "user": "adefarge",
+      "type": "france",
+      "in": {
+        "text": "20 Boulevard Saint Martin, Paris"
+      },
+      "expected": {
+        "properties": [
+          {
+            "housenumber": "20",
+            "street": "Boulevard Saint-martin",
+            "locality": "Paris",
+            "country_a": "FRA"
+          }
+        ]
+      }
+    },
+    {
       "id": "2-abbrev",
       "status": "fail",
       "user": "adefarge",
@@ -300,6 +319,27 @@
             "housenumber": "40",
             "street": "Rue De L'arsenal",
             "locality": "Bordeaux",
+            "country_a": "FRA"
+          }
+        ]
+      }
+    },
+    {
+      "id": "11",
+      "status": "pass",
+      "user": "orangejulius",
+      "type": "france",
+      "description": "address without hyphens",
+      "issue": "https://github.com/pelias/api/pull/1268",
+      "in": {
+        "text": "20 boulevard saint germain, paris, france"
+      },
+      "expected": {
+        "properties": [
+          {
+            "housenumber": "20",
+            "street": "Boulevard Saint-Germain",
+            "locality": "Paris",
             "country_a": "FRA"
           }
         ]
