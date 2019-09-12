@@ -363,6 +363,48 @@
           }
         ]
       }
+    },
+    {
+      "id": 11,
+      "status": "pass",
+      "issue": "https://github.com/pelias/schema/issues/65",
+      "user": "julian",
+      "in": {
+        "text": "Friedrich-Richter-Straße 51"
+      },
+      "expected": {
+        "properties": [
+          {
+            "housenumber": "51",
+            "street": "Friedrich-Richter-Straße",
+            "confidence": 1,
+            "match_type": "exact",
+            "accuracy": "point",
+            "locality": "Berlin"
+          }
+        ]
+      }
+    },
+    {
+      "id": "11.1",
+      "status": "pass",
+      "issue": "https://github.com/pelias/schema/issues/65",
+      "user": "julian",
+      "in": {
+        "text": "Friedrich Richter Straße 51"
+      },
+      "expected": {
+        "properties": [
+          {
+            "housenumber": "51",
+            "street": "Friedrich-Richter-Straße",
+            "confidence": 1,
+            "match_type": "exact",
+            "accuracy": "point",
+            "locality": "Berlin"
+          }
+        ]
+      }
     }
   ]
 }
