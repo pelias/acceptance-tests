@@ -143,6 +143,45 @@
           }
         ]
       }
+    },{
+      "id": 7,
+      "status": "pass",
+      "user": "julian",
+      "description": "single omitted word in street name should still allow match",
+      "issue": "https://github.com/pelias/api/pull/1322",
+      "in": {
+        "text": "621 Martin Luther King Blvd portland or"
+      },
+      "expected": {
+        "properties": [
+          {
+            "housenumber": "621",
+            "street": "SE Martin Luther King Jr Blvd",
+            "locality": "Portland",
+            "region_a": "OR",
+            "country_a": "USA"
+          }
+        ]
+      }
+    },{
+      "id": 8,
+      "status": "pass",
+      "user": "julian",
+      "description": "single omitted word in street name should still allow match",
+      "issue": "https://github.com/pelias/api/pull/1322",
+      "in": {
+        "text": "Carrer Balmes 1, barcelona, barcelona"
+      },
+      "expected": {
+        "properties": [
+          {
+            "housenumber": "1",
+            "street": "Carrer de Balmes",
+            "locality": "Barcelona",
+            "country_a": "ESP"
+          }
+        ]
+      }
     }
   ]
 }
