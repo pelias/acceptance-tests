@@ -2,6 +2,16 @@
   "name": "structured geocoding",
   "priorityThresh": 1,
   "endpoint": "search/structured",
+  "normalizers": {
+    "name": [
+      "toUpperCase",
+      "abbreviateStreetSuffixes"
+    ],
+    "street": [
+      "toUpperCase",
+      "abbreviateStreetSuffixes"
+    ]
+  },
   "tests": [
     {
       "id": 1,

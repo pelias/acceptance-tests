@@ -92,13 +92,14 @@
     },
     {
       "id": "5",
-      "status": "pass",
+      "status": "fail",
       "user": "missinglink",
       "in": {
         "focus.point.lat": "37.769316",
         "focus.point.lon": "-122.484223",
         "text": "daly ci"
       },
+      "description": "Fails with new pelias_paser https://github.com/pelias/api/pull/1287",
       "expected": {
         "properties": [
           {

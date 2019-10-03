@@ -543,6 +543,7 @@
     },
     {
       "id": "1426636804303:51",
+      "status": "fail",
       "user": "feedback-app",
       "in": {
         "text": "4th and King"
@@ -561,8 +562,7 @@
           }
         ],
         "priorityThresh": 2
-      },
-      "status": "pass"
+      }
     },
     {
       "id": 24,

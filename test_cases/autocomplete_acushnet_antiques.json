@@ -61,12 +61,13 @@
     },
     {
       "id": "4",
-      "status": "pass",
+      "status": "fail",
       "user": "missinglink",
       "description": [
         "no focus point, this test assumes the name is unique globally",
         "at time of writing only one document is returned, this test may need to",
-        "be updated if another document is added to the index with a similar name"
+        "be updated if another document is added to the index with a similar name.",
+        "Fails with new pelias_parser https://github.com/pelias/api/pull/1287"
       ],
       "in": {
         "text": "acushnet an"

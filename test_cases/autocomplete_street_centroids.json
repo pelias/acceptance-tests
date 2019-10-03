@@ -103,7 +103,7 @@
       }
     },{
       "id": 5,
-      "status": "pass",
+      "status": "fail",
       "user": "missinglink",
       "in": {
         "sources": "osm",
@@ -124,7 +124,7 @@
       }
     },{
       "id": 6,
-      "status": "pass",
+      "status": "fail",
       "user": "missinglink",
       "in": {
         "sources": "osm",
