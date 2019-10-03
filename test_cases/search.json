@@ -562,8 +562,7 @@
           }
         ],
         "priorityThresh": 2
-      },
-      "status": "pass"
+      }
     },
     {
       "id": 24,
