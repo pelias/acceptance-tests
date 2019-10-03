@@ -197,7 +197,7 @@
     },
     {
       "id": 10,
-      "status": "pass",
+      "status": "fail",
       "user": "Lily",
       "type": "dev",
       "issue": "https://github.com/pelias/api/issues/783",
