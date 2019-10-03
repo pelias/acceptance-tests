@@ -262,7 +262,7 @@
     },
     {
       "id": 12,
-      "status": "fail",
+      "status": "pass",
       "user": "Lily",
       "type": "dev",
       "description": [

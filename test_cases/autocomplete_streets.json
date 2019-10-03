@@ -150,7 +150,7 @@
     },
     {
       "id": "2-1",
-      "status": "fail",
+      "status": "pass",
       "user": "riordan",
       "description": "Clay Ave should rank higher than Clayton Ave with this input",
       "issue": "https://github.com/pelias/pelias/issues/331",

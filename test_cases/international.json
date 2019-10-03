@@ -157,7 +157,7 @@
     },
     {
       "id": 8,
-      "status": "fail",
+      "status": "pass",
       "user": "lily",
       "in": {
         "text": "Prolongación Ave. Alfonso Reyes #150 Col. Valle del Poniente Santa Catarina 66196",
@@ -197,7 +197,7 @@
     },
     {
       "id": 10,
-      "status": "fail",
+      "status": "pass",
       "user": "Lily",
       "type": "dev",
       "issue": "https://github.com/pelias/api/issues/783",
@@ -219,7 +219,7 @@
     },
     {
       "id": 11,
-      "status": "fail",
+      "status": "pass",
       "user": "lily",
       "description": [
         "fallsback to street centroid",
