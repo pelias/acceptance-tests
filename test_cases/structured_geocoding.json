@@ -300,7 +300,7 @@
 
     {
       "id": 200,
-      "status": "fail",
+      "status": "pass",
       "user": "trescube",
       "type": "dev",
       "notes": "exercises treating locality as borough when latter not explicitly supplied. Manhattan, NY population should rank it higher than it is",
