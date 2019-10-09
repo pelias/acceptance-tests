@@ -104,7 +104,7 @@
     },
     {
       "id": "maps_service_get_place_details",
-      "status": "fail",
+      "status": "pass",
       "user": "dianashk",
       "endpoint": "place",
       "in": {

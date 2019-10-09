@@ -304,11 +304,12 @@
       "user": "trescube",
       "type": "dev",
       "notes": "exercises treating locality as borough when latter not explicitly supplied. Manhattan, NY population should rank it higher than it is",
+      "issue": "https://github.com/pelias/pelias/issues/828",
       "in": {
         "locality": "Manhattan"
       },
       "expected": {
-        "priorityThresh": 3,
+        "priorityThresh": 1,
         "properties": [
           {
             "layer": "borough",

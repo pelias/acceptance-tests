@@ -129,9 +129,8 @@
     },
     {
       "id": 3,
-      "status": "fail",
+      "status": "pass",
       "issue": "https://github.com/pelias/pelias/issues/293",
-      "description": "data issue",
       "user": "missinglink",
       "in": {
         "text": "london"
@@ -175,7 +174,7 @@
     },
     {
       "id": 5,
-      "status": "fail",
+      "status": "pass",
       "user": "missinglink",
       "description": "remove partial match results from the top 5 when exact matches are found",
       "issue": "https://github.com/pelias/pelias/issues/646",
@@ -292,7 +291,7 @@
     },
     {
       "id": 12,
-      "status": "fail",
+      "status": "pass",
       "user": "missinglink",
       "notes": [ "from mapillary home page" ],
       "description": "geonames result coming first, not deduplicated due to diacritical",
