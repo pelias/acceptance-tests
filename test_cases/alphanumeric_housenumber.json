@@ -1,0 +1,182 @@
+{
+  "name": "Alphanumeric housenumbers",
+  "priorityThresh": 5,
+  "normalizers": {
+    "name": [
+      "toLowerCase"
+    ],
+    "housenumber": [
+      "toLowerCase"
+    ],
+    "street": [
+      "toLowerCase"
+    ]
+  },
+  "tests": [
+    {
+      "id": 1,
+      "status": "pass",
+      "in": {
+        "text": "Eszék utca 14a budapest hungary"
+      },
+      "description": "hungarian address written the localized way",
+      "expected": {
+        "properties": [
+          {
+            "housenumber": "14a",
+            "street": "Eszék utca",
+            "locality": "Budapest",
+            "country_a": "HUN"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1.1",
+      "status": "pass",
+      "in": {
+        "text": "14a Eszék utca budapest hungary"
+      },
+      "description": "hungarian address written the 'American' way",
+      "expected": {
+        "properties": [
+          {
+            "housenumber": "14a",
+            "street": "Eszék utca",
+            "locality": "Budapest",
+            "country_a": "HUN"
+          }
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "status": "fail",
+      "in": {
+        "text": "Via del Ponticello 38/2 Trieste italy"
+      },
+      "description": "Italian address written the localized way. Libpostal parses housenumber poorly",
+      "expected": {
+        "properties": [
+          {
+            "housenumber": "38/2",
+            "street": "Via Del Ponticello",
+            "locality": "Trieste",
+            "country_a": "ITA"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2.1",
+      "status": "fail",
+      "in": {
+        "text": "38/2 Via del Ponticello Trieste italy"
+      },
+      "description": "Italian address written the 'american' way. Libpostal parses housenumber poorly",
+      "expected": {
+        "properties": [
+          {
+            "housenumber": "38/2",
+            "street": "Via Del Ponticello",
+            "locality": "Trieste",
+            "country_a": "ITA"
+          }
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "status": "pass",
+      "in": {
+        "text": "15А Комсомольская улица minsk belarus"
+      },
+      "description": "Belarusian address written the localized way. Note the Cyrillic character in the query and expected result",
+      "issue": "https://github.com/pelias/pelias/issues/833",
+      "expected": {
+        "properties": [
+          {
+            "housenumber": "15А",
+            "street": "Комсомольская улица",
+            "region": "Minsk",
+            "country_a": "BLR"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3.1",
+      "status": "pass",
+      "in": {
+        "text": "Комсомольская улица 15А minsk belarus"
+      },
+      "description": "Belarusian address written the 'American' way. Note the Cyrillic character in the query and expected result",
+      "issue": "https://github.com/pelias/pelias/issues/833",
+      "expected": {
+        "properties": [
+          {
+            "housenumber": "15А",
+            "street": "Комсомольская улица",
+            "region": "Minsk",
+            "country_a": "BLR"
+          }
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "status": "pass",
+      "in": {
+        "text": "85-23 168th Place queens ny"
+      },
+      "description": "Queens address",
+      "expected": {
+        "properties": [
+          {
+            "housenumber": "85-23",
+            "street": "168th Place",
+            "borough": "Queens",
+            "region": "New York",
+            "country_a": "USA"
+          }
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "status": "pass",
+      "in": {
+        "text": "Ulica ob starem zidovju 10a Izola Slovenia"
+      },
+      "description": "Slovenian address written the localized way",
+      "expected": {
+        "properties": [
+          {
+            "housenumber": "10a",
+            "street": "Ulica ob starem zidovju",
+            "locality": "Izola",
+            "country_a": "SVN"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5.1",
+      "status": "pass",
+      "in": {
+        "text": "10a Ulica ob starem zidovju Izola Slovenia"
+      },
+      "description": "Slovenian address written the 'American' way",
+      "expected": {
+        "properties": [
+          {
+            "housenumber": "10a",
+            "street": "Ulica ob starem zidovju",
+            "locality": "Izola",
+            "country_a": "SVN"
+          }
+        ]
+      }
+    }
+  ]
+}
