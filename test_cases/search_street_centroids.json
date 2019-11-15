@@ -108,15 +108,15 @@
       "in": {
         "sources": "osm",
         "layers": "street",
-        "text": "dionysiou areopagitou, athens"
+        "text": "Διονυσίου Αρεοπαγίτου, Αθήνα"
       },
       "expected": {
         "coordinates": [ 23.726606, 37.969645 ],
         "properties": [
           {
             "country_a": "GRC",
-            "name": "Dionysiou Areopagitou",
-            "street": "Dionysiou Areopagitou",
+            "name": "Διονυσίου Αρεοπαγίτου",
+            "street": "Διονυσίου Αρεοπαγίτου",
             "layer": "street",
             "source": "openstreetmap"
           }
