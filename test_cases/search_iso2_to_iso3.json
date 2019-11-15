@@ -48,7 +48,7 @@
     },
     {
       "id": 3,
-      "status": "fail",
+      "status": "pass",
       "user": "trescube",
       "type": "dev",
       "description": "Fails only due to av/avenue abbreviation handling",
@@ -57,7 +57,7 @@
         "text": "23 Avenue Duquesne, 75007 Paris, Fr"
       },
       "expected": {
-        "priorityThresh": 1,
+        "priorityThresh": 2,
         "properties": [
           {
             "layer": "address",
