@@ -153,11 +153,15 @@
       "status": "pass",
       "user": "riordan",
       "description": "Clay Ave should rank higher than Clayton Ave with this input",
-      "issue": "https://github.com/pelias/pelias/issues/331",
+      "issue": [
+        "https://github.com/pelias/pelias/issues/331",
+        "https://github.com/pelias/api/issues/1385#issuecomment-553821038"
+      ],
       "in": {
         "text": "424 Clay Av"
       },
       "expected": {
+        "priorityThresh": 2,
         "properties": [
           {
             "layer": "address",
@@ -176,7 +180,7 @@
         "text": "424 Clay Ave"
       },
       "expected": {
-        "priorityThresh": 3,
+        "priorityThresh": 2,
         "properties": [
           {
             "layer": "address",
@@ -199,6 +203,7 @@
         "text": "424 Clay Avenu"
       },
       "expected": {
+        "priorityThresh": 2,
         "properties": [
           {
             "layer": "address",
@@ -216,6 +221,7 @@
         "text": "424 Clay Avenue"
       },
       "expected": {
+        "priorityThresh": 2,
         "properties": [
           {
             "layer": "address",
@@ -430,11 +436,12 @@
       "status": "pass",
       "user": "missinglink",
       "description": [ "borough matching, no delimiter" ],
+      "issue": "https://github.com/pelias/api/issues/1385",
       "in": {
         "text": "190 dean street brooklyn"
       },
       "expected": {
-        "priorityThresh": 1,
+        "priorityThresh": 2,
         "properties": [
           { "label": "190 Dean Street, Brooklyn, New York, NY, USA" }
         ]

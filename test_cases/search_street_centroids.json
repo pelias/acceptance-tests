@@ -108,15 +108,15 @@
       "in": {
         "sources": "osm",
         "layers": "street",
-        "text": "dionysiou areopagitou, athens"
+        "text": "Διονυσίου Αρεοπαγίτου, Αθήνα"
       },
       "expected": {
         "coordinates": [ 23.726606, 37.969645 ],
         "properties": [
           {
             "country_a": "GRC",
-            "name": "Dionysiou Areopagitou",
-            "street": "Dionysiou Areopagitou",
+            "name": "Διονυσίου Αρεοπαγίτου",
+            "street": "Διονυσίου Αρεοπαγίτου",
             "layer": "street",
             "source": "openstreetmap"
           }
@@ -124,20 +124,20 @@
       }
     },{
       "id": 6,
-      "status": "fail",
+      "status": "pass",
       "user": "missinglink",
       "in": {
         "sources": "osm",
         "layers": "street",
-        "text": "혜화로, seoul"
+        "text": "Broadway Market, London"
       },
       "expected": {
-        "coordinates": [ 127.000552, 37.586582 ],
+        "coordinates": [ -0.061607, 51.536884 ],
         "properties": [
           {
-            "country_a": "KOR",
-            "name": "혜화로",
-            "street": "혜화로",
+            "country_a": "GBR",
+            "name": "Broadway Market",
+            "street": "Broadway Market",
             "layer": "street",
             "source": "openstreetmap"
           }
