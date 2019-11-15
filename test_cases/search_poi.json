@@ -26,9 +26,12 @@
     },
     {
       "id": "searchpoi-2",
-      "status": "pass",
+      "status": "fail",
       "description": "@nvkelso couldn't find Target in Eureka while visiting home",
-      "issue": "https://github.com/pelias/pelias/issues/185",
+      "issue": [
+        "https://github.com/pelias/pelias/issues/185",
+        "https://github.com/pelias/query/pull/116"
+      ],
       "user": "riordan",
       "in": {
         "text": "Target Eureka California"
