@@ -18,27 +18,31 @@ You will need to have `npm` version `2.0` or higher installed.
 $ npm install
 ```
 
-You'll want to add your api key to the config, and possibly change the endpoints. Both of those should be done
-using a json config file. It can look as follows.
-_Be sure to replace the invalid key with your own API key, which you can sign up for [here](mapzen.com/developers)._
+## Configuration
+
+The acceptance tests need to know how to contact your Pelias instance, and this can be configured through `pelias.json`.
+
+If your Pelias instance has an API key, you can also specify it in the `mapzen`
+section (the name will be [changed soon](https://github.com/pelias/acceptance-tests/issues/465)).
 
 ```javascript
 {
   "mapzen": {
     "api_key": {
-      "search.mapzen.com": "search-XXXXXX"
+      "domain-name-of-your-pelias": "your-api-key"
     }
   },
   "acceptance-tests": {
     "endpoints": {
-      "prod": "http://search.mapzen.com/v1/"
+      "prod": "http://domain-name-of-your-pelias/v1/"
     }
   }
 }
 ```
 
-Once you've saved that config file somewhere, let's say `/etc/config.json` for example. You'll need to set the 
-environment variable `PELIAS_CONFIG` to the path at which the file can be found. So do something like this, but with your path.
+Save that config file somewhere, `/etc/config.json` for example. You'll need to
+set the environment variable `PELIAS_CONFIG` to the path at which the file can
+be found. So do something like this, but with your path.
 
 ```bash
 $ export PELIAS_CONFIG=/etc/config.json
