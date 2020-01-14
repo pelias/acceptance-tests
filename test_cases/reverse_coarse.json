@@ -92,7 +92,7 @@
             "layer": "locality",
             "localadmin": "Saint-Ferreol-Des-Cotes",
             "county": "Ambert",
-            "macrocounty": "arrondissement of Ambert",
+            "macrocounty": "Ambert",
             "region": "Puy-de-Dôme",
             "macroregion": "Auvergne-Rhone-Alpes",
             "country": "France"
@@ -258,7 +258,7 @@
         "properties": [
           {
             "layer": "macrocounty",
-            "macrocounty": "arrondissement of Ambert",
+            "macrocounty": "Ambert",
             "region": "Puy-de-Dôme",
             "macroregion": "Auvergne-Rhone-Alpes",
             "country": "France"
