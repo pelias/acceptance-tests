@@ -431,7 +431,7 @@
     },
     {
       "id": 701,
-      "status": "fail",
+      "status": "pass",
       "endpoint": "search",
       "description": "borough should rank higher than county",
       "issue": [

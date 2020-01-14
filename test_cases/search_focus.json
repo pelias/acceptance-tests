@@ -31,7 +31,7 @@
         "focus.point.lon": 24.99,
         "text": "93277"
       },
-      "description": "searching for a Finish/American postal code from Helsinki should return the Finish version before other countries",
+      "description": "searching for a Finish/American postal code from Helsinki should return the Finish version before other countries. This test is succeptible to fluctuations from build to build, so check history carefully before marking fixed.",
       "issue": "https://github.com/pelias/api/issues/1206",
       "expected": {
         "properties": [
