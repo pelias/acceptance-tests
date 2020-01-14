@@ -216,7 +216,7 @@
     },
     {
       "id": "10",
-      "status": "fail",
+      "status": "pass",
       "endpoint": "reverse",
       "description": "addresses in Cardiff County should have county name set",
       "in": {

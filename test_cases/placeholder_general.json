@@ -112,7 +112,7 @@
     },
     {
       "id": 7,
-      "status": "fail",
+      "status": "pass",
       "endpoint": "search",
       "description": "Mount Pleasant should be found with full word",
       "issue": "https://github.com/whosonfirst-data/whosonfirst-data/issues/1493",
@@ -131,7 +131,7 @@
     },
     {
       "id": 8,
-      "status": "fail",
+      "status": "pass",
       "endpoint": "search",
       "description": "Mount Pleasant should be found with abbreviation",
       "issue": "https://github.com/whosonfirst-data/whosonfirst-data/issues/1493",
