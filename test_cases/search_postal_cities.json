@@ -11,6 +11,7 @@
         "text": "7030 broomshedge trl, winter garden FL 34787"
       },
       "expected": {
+        "priorityThresh": 2,
         "properties": [{
           "name": "7030 Broomshedge Trail",
           "layer": "address",
@@ -27,6 +28,7 @@
         "text": "110A Sage Street, Davis, CA"
       },
       "expected": {
+        "priorityThresh": 2,
         "properties": [{
           "housenumber": "110A",
           "street": "Sage Street",
