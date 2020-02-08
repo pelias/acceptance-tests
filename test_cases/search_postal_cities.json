@@ -90,6 +90,24 @@
           "country_a": "USA"
         }]
       }
+    },
+    {
+      "id": 6,
+      "status": "fail",
+      "issue": "https://github.com/pelias/pelias/issues/396",
+      "in": {
+        "text": "211 Knapp Rd, Syracuse, NY"
+      },
+      "expected": {
+        "properties": [{
+          "housenumber": "211",
+          "street": "Knapp Road",
+          "layer": "address",
+          "locality": "Syracuse",
+          "region_a": "NY",
+          "country_a": "USA"
+        }]
+      }
     }
   ]
 }
