@@ -4,13 +4,14 @@
   "tests": [
     {
       "id": 1,
-      "status": "fail",
+      "status": "pass",
       "issue": "https://github.com/pelias/pelias/issues/456",
-      "description": "fails only due to lack of trl abbreviation",
+      "description": "failed only due to lack of trl abbreviation",
       "in": {
         "text": "7030 broomshedge trl, winter garden FL 34787"
       },
       "expected": {
+        "priorityThresh": 2,
         "properties": [{
           "name": "7030 Broomshedge Trail",
           "layer": "address",
@@ -21,12 +22,13 @@
     },
     {
       "id": 2,
-      "status": "fail",
+      "status": "pass",
       "issue": "https://github.com/pelias/pelias/issues/167",
       "in": {
         "text": "110A Sage Street, Davis, CA"
       },
       "expected": {
+        "priorityThresh": 2,
         "properties": [{
           "housenumber": "110A",
           "street": "Sage Street",
@@ -38,7 +40,7 @@
     },
     {
       "id": 3,
-      "status": "fail",
+      "status": "pass",
       "issue": "https://github.com/pelias/pelias/issues/269",
       "in": {
         "text": "3 Cameron Court, Nottingham, MD"
@@ -75,7 +77,7 @@
     },
     {
       "id": 5,
-      "status": "fail",
+      "status": "pass",
       "issue": "https://github.com/pelias/pelias/issues/607",
       "in": {
         "text": "15364 Kensington Park Dr, Woodbridge, VA"
@@ -87,6 +89,24 @@
           "layer": "address",
           "locality": "Woodbridge",
           "region_a": "VA",
+          "country_a": "USA"
+        }]
+      }
+    },
+    {
+      "id": 6,
+      "status": "pass",
+      "issue": "https://github.com/pelias/pelias/issues/396",
+      "in": {
+        "text": "211 Knapp Rd, Syracuse, NY"
+      },
+      "expected": {
+        "properties": [{
+          "housenumber": "211",
+          "street": "Knapp Road",
+          "layer": "address",
+          "locality": "Syracuse",
+          "region_a": "NY",
           "country_a": "USA"
         }]
       }
