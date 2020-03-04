@@ -86,9 +86,9 @@
     },
     {
       "id": 4,
-      "status": "pass",
+      "status": "fail",
       "endpoint": "search",
-      "issue": "https://github.com/pelias/api/issues/346",
+      "issue": [ "https://github.com/pelias/api/issues/346", "https://github.com/pelias/pelias/issues/849"],
       "description": [
         "When focus point is specified, results should slightly favor",
         "nearby POIs, while still surfacing larger regions further away"
