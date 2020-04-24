@@ -70,6 +70,139 @@
           }
         ]
       }
+    },
+    {
+      "id": 4,
+      "status": "fail",
+      "description": "looking for well known venue, focus point is in the same city",
+      "user": "julian",
+      "in": {
+        "text": "wrigley field",
+        "focus.point.lon": -87.6716,
+        "focus.point.lat": 41.8218
+      },
+      "expected": {
+        "priorityThresh": 1,
+        "properties": [{
+          "layer": "venue",
+          "name": "Wrigley Field",
+          "locality": "Chicago",
+          "region": "Illinois"
+        }]
+      }
+    },
+    {
+      "id": 5,
+      "status": "fail",
+      "description": "looking for transit stop, focus point is in the same city",
+      "user": "julian",
+      "in": {
+        "text": "park & market",
+        "focus.point.lon": -117.156841,
+        "focus.point.lat": 32.707233
+      },
+      "expected": {
+        "priorityThresh": 1,
+        "distanceThresh": 50,
+        "properties": [{
+          "layer": "venue",
+          "name": "Park & Market",
+          "locality": "San Diego",
+          "region": "California"
+        }],
+        "coordinates": [
+          [ -117.153778, 32.710527 ]
+        ]
+      }
+    },
+    {
+      "id": 6,
+      "status": "fail",
+      "description": "looking for an airport",
+      "user": "julian",
+      "in": {
+        "text": "Albuquerque international airport",
+        "focus.point.lat": 35.03773,
+        "focus.point.lon": -106.602979
+      },
+      "expected": {
+        "priorityThresh": 1,
+        "distanceThresh": 50,
+        "properties": [{
+          "layer": "venue",
+          "name": "Albuquerque International Sunport",
+          "locality": "Albuquerque",
+          "region": "New Mexico"
+        }]
+      }
+    },
+    {
+      "id": 6.1,
+      "status": "fail",
+      "description": "looking for an airport",
+      "issue": "https://github.com/pelias/pelias/issues/260",
+      "user": "julian",
+      "in": {
+        "text": "Albuquerque international sunport",
+        "focus.point.lat": 35.03773,
+        "focus.point.lon": -106.602979
+      },
+      "expected": {
+        "priorityThresh": 1,
+        "distanceThresh": 50,
+        "properties": [{
+          "layer": "venue",
+          "name": "Albuquerque International Sunport",
+          "locality": "Albuquerque",
+          "region": "New Mexico"
+        }]
+      }
+    },
+    {
+      "id": 7,
+      "status": "fail",
+      "description": "search for the Empire State Building. focus point is in philly",
+      "user": "julian",
+      "in": {
+        "text": "Empire State Building",
+        "focus.point.lat": 39.983,
+        "focus.point.lon": -74.482
+      },
+      "expected": {
+        "priorityThresh": 1,
+        "distanceThresh": 50,
+        "properties": [{
+          "layer": "venue",
+          "name": "Empire State Building",
+          "locality": "New York",
+          "region": "New York",
+          "country": "United States"
+        }]
+      }
+    },
+    {
+      "id": 8,
+      "status": "fail",
+      "description": "search for the famous La Sagrada Familia",
+      "issue": "https://github.com/pelias/pelias/issues/171",
+      "user": "julian",
+      "in": {
+        "text": "La Sagrada Familia",
+        "focus.point.lat": 39.983,
+        "focus.point.lon": -74.482
+      },
+      "expected": {
+        "priorityThresh": 1,
+        "distanceThresh": 50,
+        "properties": [{
+          "layer": "venue",
+          "name": "Basílica de la Sagrada Família",
+          "housenumber": "403",
+          "street": "Carrer de Mallorca",
+          "locality": "Barcelona",
+          "country": "Spain"
+        }]
+      }
     }
   ]
 }
