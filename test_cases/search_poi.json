@@ -1,5 +1,5 @@
 {
-  "name": "search_poi",
+  "name": "Search POI",
   "notes": "For testing POI searches",
   "priorityThresh": 5,
   "tests": [
