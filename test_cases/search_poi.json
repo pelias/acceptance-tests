@@ -203,6 +203,78 @@
           "country": "Spain"
         }]
       }
+    },
+    {
+      "id": 9,
+      "status": "fail",
+      "description": "search for Phoenix Intl airport with focus point in Phoenix",
+      "issue": "https://github.com/pelias/pelias/issues/260",
+      "user": "julian",
+      "in": {
+        "text": "Phoenix International Airport",
+        "focus.point.lat": 33.44155,
+        "focus.point.lon": -112.09721
+      },
+      "expected": {
+        "priorityThresh": 1,
+        "distanceThresh": 500,
+        "coordinates": [  -112.012869, 33.434743 ],
+        "properties": [{
+          "layer": "venue",
+          "name": "Phoenix Sky Harbor International Airport",
+          "locality": "Phoenix",
+          "region_a": "AZ",
+          "country_a": "USA"
+        }]
+      }
+    },
+    {
+      "id": 9.1,
+      "status": "fail",
+      "description": "search for Phoenix Intl airport with focus point in Phoenix",
+      "issue": "https://github.com/pelias/pelias/issues/260",
+      "user": "julian",
+      "in": {
+        "text": "Phoenix Airport",
+        "focus.point.lat": 33.44155,
+        "focus.point.lon": -112.09721
+      },
+      "expected": {
+        "priorityThresh": 1,
+        "distanceThresh": 500,
+        "coordinates": [  -112.012869, 33.434743 ],
+        "properties": [{
+          "layer": "venue",
+          "name": "Phoenix Sky Harbor International Airport",
+          "locality": "Phoenix",
+          "region_a": "AZ",
+          "country_a": "USA"
+        }]
+      }
+    },
+    {
+      "id": 9.2,
+      "status": "fail",
+      "description": "search for Phoenix Intl airport with focus point in Phoenix",
+      "issue": "https://github.com/pelias/pelias/issues/260",
+      "user": "julian",
+      "in": {
+        "text": "Phoenix sky harbor",
+        "focus.point.lat": 33.44155,
+        "focus.point.lon": -112.09721
+      },
+      "expected": {
+        "priorityThresh": 1,
+        "distanceThresh": 500,
+        "coordinates": [  -112.012869, 33.434743 ],
+        "properties": [{
+          "layer": "venue",
+          "name": "Phoenix Sky Harbor International Airport",
+          "locality": "Phoenix",
+          "region_a": "AZ",
+          "country_a": "USA"
+        }]
+      }
     }
   ]
 }
