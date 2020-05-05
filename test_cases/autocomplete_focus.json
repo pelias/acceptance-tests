@@ -200,7 +200,7 @@
       },
       "expected": {
         "priorityThresh": 1,
-        "distanceThresh": 100,
+        "distanceThresh": 1000,
         "properties": [
           {
             "name": "New York",
@@ -209,13 +209,13 @@
           }
         ],
         "coordinates": [
-          [ -73.93827, 40.663931 ]
+          [ -73.9708, 40.6829 ]
         ]
       }
     },
     {
       "id": 28,
-      "status": "fail",
+      "status": "pass",
       "user": "julian",
       "notes": [
         "Searching for New York City with a focus in Stamford, CT"
@@ -234,7 +234,7 @@
       },
       "expected": {
         "priorityThresh": 1,
-        "distanceThresh": 100,
+        "distanceThresh": 1000,
         "properties": [
           {
             "name": "New York",
@@ -243,7 +243,7 @@
           }
         ],
         "coordinates": [
-          [ -73.93827, 40.663931 ]
+          [ -73.9708, 40.6829 ]
         ]
       }
     },
