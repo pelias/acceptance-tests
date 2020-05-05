@@ -504,6 +504,7 @@
     {
       "id": 20,
       "user": "orangejulius",
+      "status": "fail",
       "in": {
         "text": "statue of liberty",
         "boundary.country": "USA"
