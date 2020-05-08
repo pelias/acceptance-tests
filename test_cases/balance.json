@@ -1,6 +1,6 @@
 {
   "name": "poi vs. admin areas balance",
-  "priorityThresh": 5,
+  "priorityThresh": 1,
   "endpoint": "search",
   "tests": [
     {
