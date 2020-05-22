@@ -103,7 +103,7 @@
       },
       "expected": {
         "priorityThresh": 1,
-        "distanceThresh": 50,
+        "distanceThresh": 600,
         "properties": [{
           "layer": "venue",
           "name": "Park & Market",
