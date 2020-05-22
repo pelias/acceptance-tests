@@ -405,6 +405,29 @@
           }
         ]
       }
+    },
+    {
+      "id": "12",
+      "status": "fail",
+      "issue": "https://github.com/pelias/api/pull/1437",
+      "description": "match_type should be correct on input not parsed well by libpostal",
+      "user": "julian",
+      "in": {
+        "text": "23 Huckleberry Hill, Fort Mitchell, KY"
+      },
+      "expected": {
+        "properties": [
+          {
+            "housenumber": "23",
+            "street": "Huckleberry Hl",
+            "confidence": 1,
+            "match_type": "exact",
+            "accuracy": "point",
+            "locality": "Fort Mitchell",
+            "region_a": "KY"
+          }
+        ]
+      }
     }
   ]
 }
