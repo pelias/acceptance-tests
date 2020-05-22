@@ -20,9 +20,13 @@
         "text": "statue of liberty"
       },
       "expected": {
+        "priorityThresh": 1,
         "properties": [
           {
-            "label": "Statue of Liberty, Manhattan, NY, USA"
+            "name": "Statue of Liberty",
+            "locality": "New York",
+            "country_a": "USA",
+            "label": "Statue of Liberty, Manhattan, New York, NY, USA"
           }
         ]
       }
