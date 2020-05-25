@@ -24,15 +24,18 @@ We think open data, open source, and open strategy win over proprietary solution
 
 # Pelias Geocoder Acceptance Tests
 
-This repository contains all of the Pelias API "acceptance" tests, which are automated tests used to identify
-improvements and regressions between various versions of the API and the underlying data. Since it's
-difficult/impossible to manually verify whether things have begun silently failing (eg, a certain query stopped
-returning the right results) after a data or search logic change, the acceptance tests should provide us with a
-shotgun overview of the status of any Pelias instance.
+This repository contains all of the Pelias Geocoder's "acceptance" tests.
 
-## prerequisites
+Roughly, acceptance tests are the (relatively) small set of tests by which we describe expected
+functionality. As much as possible, by running the acceptance tests we should be able to feel
+confident that nothing major is broken.
 
-You will need to have `npm` version `2.0` or higher installed.
+Acceptance tests can be used to validate a new Pelias installation, aid in new feature development,
+and ensure new features do not result in regressions.
+
+## Prerequisites
+
+Running the acceptance tests requires a [supported version of Node.js](https://github.com/pelias/documentation/blob/master/requirements.md).
 
 ## Setup
 
