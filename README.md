@@ -24,8 +24,6 @@ We think open data, open source, and open strategy win over proprietary solution
 
 # Pelias Geocoder Acceptance Tests
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/pelias/acceptance-tests.svg)](https://greenkeeper.io/)
-
 This repository contains all of the Pelias API "acceptance" tests, which are automated tests used to identify
 improvements and regressions between various versions of the API and the underlying data. Since it's
 difficult/impossible to manually verify whether things have begun silently failing (eg, a certain query stopped
