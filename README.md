@@ -47,30 +47,32 @@ $ npm install
 
 The acceptance tests need to know how to contact your Pelias instance, and this can be configured through `pelias.json`.
 
-If your Pelias instance has an API key, you can also specify it in the `mapzen`
-section (the name will be [changed soon](https://github.com/pelias/acceptance-tests/issues/465)).
+If your Pelias instance has an API key, you can also specify it in the `credentials`
+section.
 
 ```javascript
 {
   "mapzen": {
-    "api_key": {
-      "domain-name-of-your-pelias": "your-api-key"
-    }
   },
   "acceptance-tests": {
     "endpoints": {
       "prod": "http://domain-name-of-your-pelias/v1/"
+    },
+    "credentials": {
+      "domain-name-of-your-pelias": "your-api-key"
     }
   }
 }
 ```
 
-Save that config file somewhere, `/etc/config.json` for example. You'll need to
-set the environment variable `PELIAS_CONFIG` to the path at which the file can
-be found. So do something like this, but with your path.
+By default, Pelias looks for `pelias.json` in your home directory (`~/pelias.json`).
+
+Alternatively, you can put it anywhere, and specify the `PELIAS_CONFIG` environment variable.
+
+For example, to use a central config at `/etc/pelias.json`, use the following:
 
 ```bash
-$ export PELIAS_CONFIG=/etc/config.json
+$ export PELIAS_CONFIG=/etc/pelias.json
 ```
 
 ## Usage
