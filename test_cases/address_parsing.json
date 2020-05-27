@@ -408,7 +408,7 @@
     },
     {
       "id": "12",
-      "status": "fail",
+      "status": "pass",
       "issue": "https://github.com/pelias/api/pull/1437",
       "description": "match_type should be correct on input not parsed well by libpostal",
       "user": "julian",
