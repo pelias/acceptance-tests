@@ -52,8 +52,6 @@ section.
 
 ```javascript
 {
-  "mapzen": {
-  },
   "acceptance-tests": {
     "endpoints": {
       "prod": "http://domain-name-of-your-pelias/v1/"
