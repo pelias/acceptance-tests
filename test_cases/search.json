@@ -504,7 +504,8 @@
     {
       "id": 20,
       "user": "orangejulius",
-      "status": "fail",
+      "issue": "https://github.com/pelias/pelias/issues/171",
+      "status": "pass",
       "in": {
         "text": "statue of liberty",
         "boundary.country": "USA"
