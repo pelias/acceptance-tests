@@ -1062,7 +1062,7 @@
 
     {
       "id": 1100,
-      "status": "fail",
+      "status": "pass",
       "user": "trescube",
       "type": "dev",
       "notes": "venue+address should ignore address",
@@ -1108,7 +1108,7 @@
     },
     {
       "id": 1102,
-      "status": "fail",
+      "status": "pass",
       "user": "trescube",
       "type": "dev",
       "notes": "venue+street should ignore street",
