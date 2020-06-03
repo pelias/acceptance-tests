@@ -75,21 +75,24 @@ $ export PELIAS_CONFIG=/etc/pelias.json
 
 ## Usage
 
-default to running all tests against production
+For full usage, see the [fuzzy-tester usage docs](https://github.com/pelias/fuzzy-tester#command-line-parameters).
+
+With no parameters, all tests are run against the endpoint named `prod` (Defaults to [Geocode Earth](https://geocode.earth) if not overridden).
 
 ```bash
 $ npm test
 ```
 
-specify an environment manually
+Environment names can be specifie with `-e`
 ```bash
 $ npm test -- -e bigdev
 ```
 
-specify an environment and only run tests that work against dev (small dataset of just NYC and London)
+Specific files can be run by passing a file or "glob"
 
 ```bash
-$ npm test -- -e dev -t dev
+$ npm test -- -e dev my_test_suite.json
+$ npm test -- -e dev my_test_suites*.json
 ```
 
 dump results from failing tests into json files, one per failing test
