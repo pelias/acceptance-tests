@@ -48,7 +48,7 @@ $ npm install
 The acceptance tests need to know how to contact your Pelias instance, and this can be configured through `pelias.json`.
 
 If your Pelias instance has an API key, you can also specify it in the `credentials`
-section.
+section. This will be passed along as the `api_key` parameter in the URL.
 
 ```javascript
 {
