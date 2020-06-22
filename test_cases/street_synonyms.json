@@ -1,0 +1,175 @@
+{
+  "name": "street synonyms",
+  "priorityThresh": 1,
+  "normalizers": {
+    "street": [
+      "toLowerCase",
+      "abbreviateDirectionals"
+    ]
+  },
+  "tests": [
+    {
+      "id": 1.1,
+      "status": "pass",
+      "user": "missinglink",
+      "notes": ["R == Rue"],
+      "in": {
+        "text": "R Gay Lussac, Paris"
+      },
+      "expected": {
+        "properties": [
+          { "street": "Rue Gay-Lussac" }
+        ]
+      }
+    },
+    {
+      "id": 1.2,
+      "status": "pass",
+      "user": "missinglink",
+      "notes": ["Rue == Rue"],
+      "in": {
+        "text": "Rue Gay Lussac, Paris"
+      },
+      "expected": {
+        "properties": [
+          {
+            "street": "Rue Gay-Lussac"
+          }
+        ]
+      }
+    },
+    {
+      "id": 2.1,
+      "status": "pass",
+      "user": "missinglink",
+      "notes": ["Av. == Avenida"],
+      "in": {
+        "text": "Av. Juárez, Guadalajara, México"
+      },
+      "expected": {
+        "properties": [
+          { "street": "Avenida Juárez" }
+        ]
+      }
+    },
+    {
+      "id": 2.2,
+      "status": "pass",
+      "user": "missinglink",
+      "notes": ["Avenida == Avenida"],
+      "in": {
+        "text": "Avenida Juárez, Guadalajara, México"
+      },
+      "expected": {
+        "properties": [
+          {
+            "street": "Avenida Juárez"
+          }
+        ]
+      }
+    },
+    {
+      "id": 2.3,
+      "status": "pass",
+      "user": "missinglink",
+      "notes": ["Avenue != Avenida"],
+      "in": {
+        "text": "Avenue Juárez, Guadalajara, México"
+      },
+      "unexpected": {
+        "properties": [
+          {
+            "street": "Avenida Juárez"
+          }
+        ]
+      }
+    },
+    {
+      "id": 3.1,
+      "status": "pass",
+      "user": "missinglink",
+      "notes": ["St == Saint && St == Street"],
+      "in": {
+        "text": "St Patrick St, Donaldsonville, LA"
+      },
+      "expected": {
+        "properties": [
+          { "street": "Saint Patrick Street" }
+        ]
+      }
+    },
+    {
+      "id": 3.2,
+      "status": "pass",
+      "user": "missinglink",
+      "notes": ["Sainte != Saint && St == Street"],
+      "in": {
+        "text": "Sainte Patrick St, Donaldsonville, LA"
+      },
+      "unexpected": {
+        "properties": [
+          { "street": "Saint Patrick Street" }
+        ]
+      }
+    },
+    {
+      "id": 3.3,
+      "status": "pass",
+      "user": "missinglink",
+      "notes": ["St == Saint && Straße != Street"],
+      "in": {
+        "text": "St Patrick Straße, Donaldsonville, LA"
+      },
+      "unexpected": {
+        "properties": [
+          { "street": "Saint Patrick Street" }
+        ]
+      }
+    },
+    {
+      "id": 4.1,
+      "status": "pass",
+      "user": "missinglink",
+      "in": {
+        "text": "W Mt Hope Av. MI USA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "street": "West Mount Hope Avenue"
+          }
+        ]
+      }
+    },
+    {
+      "id": 4.2,
+      "status": "pass",
+      "user": "missinglink",
+      "in": {
+        "text": "West Mount Hope Avenue MI USA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "street": "West Mount Hope Avenue"
+          }
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "status": "pass",
+      "user": "missinglink",
+      "in": {
+        "text": "E 98th Ter, MO, USA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "street": "East 98th Terrace"
+          }
+        ]
+      }
+    }
+  ]
+}
