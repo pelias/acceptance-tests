@@ -3,8 +3,9 @@
   "priorityThresh": 1,
   "normalizers": {
     "street": [
-      "toLowerCase",
-      "abbreviateDirectionals"
+      "toUpperCase",
+      "abbreviateDirectionals",
+      "toLowerCase"
     ]
   },
   "tests": [
