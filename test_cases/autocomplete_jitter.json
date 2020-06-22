@@ -2,6 +2,14 @@
   "name": "autocomplete jitter",
   "priorityThresh": 5,
   "endpoint": "autocomplete",
+  "normalizers": {
+    "street": [
+      "toUpperCase",
+      "abbreviateDirectionals",
+      "abbreviateStreetSuffixes",
+      "toLowerCase"
+    ]
+  },
   "tests": [
     {
       "id": "1.1",
