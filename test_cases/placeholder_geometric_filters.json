@@ -18,6 +18,11 @@
             "country_a": "FRA"
           }
         ]
+      },
+      "unexpected": {
+        "properties": [{
+          "country_a": "CAN"
+        }]
       }
     },
     {
@@ -36,6 +41,11 @@
             "country_a": "CAN"
           }
         ]
+      },
+      "unexpected": {
+        "properties": [{
+          "country_a": "DEU"
+        }]
       }
     }
   ]
