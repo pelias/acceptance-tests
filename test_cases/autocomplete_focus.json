@@ -273,6 +273,28 @@
           [ -122.431272, 37.778008 ]
         ]
       }
+    },
+    {
+      "id": 30,
+      "status": "pass",
+      "user": "missinglink",
+      "description": [ "find NYC address from Orient Point, Long Island" ],
+      "issue": "https://github.com/pelias/pelias/issues/165",
+      "in": {
+        "focus.point.lat": 41.15232,
+        "focus.point.lon": -72.25119,
+        "text": "190 dean street brooklyn"
+      },
+      "expected": {
+        "priorityThresh": 2,
+        "properties": [
+          {
+            "housenumber": "190",
+            "street": "Dean Street",
+            "borough": "Brooklyn"
+          }
+        ]
+      }
     }
   ]
 }
