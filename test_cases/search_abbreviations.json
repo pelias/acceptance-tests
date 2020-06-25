@@ -244,6 +244,25 @@
       }
     },
     {
+      "id": 8.3,
+      "status": "fail",
+      "user": "julian",
+      "in": {
+        "text": "Mt Tabor Park, Portland, OR"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Mount Tabor Park",
+            "layer": "venue",
+            "locality": "Portland",
+            "region_a": "OR",
+            "country_a": "USA"
+          }
+        ]
+      }
+    },
+    {
       "id": 9,
       "status": "fail",
       "user": "missinglink",
