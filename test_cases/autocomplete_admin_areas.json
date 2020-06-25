@@ -174,9 +174,9 @@
     },
     {
       "id": 5,
-      "status": "pass",
+      "status": "fail",
       "user": "missinglink",
-      "description": "remove partial match results from the top 5 when exact matches are found",
+      "description": "remove partial match results from the top 5 when exact matches are found. potentially flaky test",
       "issue": "https://github.com/pelias/pelias/issues/646",
       "in": {
         "text": "victoria"
