@@ -103,7 +103,7 @@
     },
     {
       "id": 24,
-      "status": "fail",
+      "status": "pass",
       "user": "riordan",
       "notes": [ "ID is 24 to match ID from search.json. SF Zoo should show up in SF. Logged by @nvkelso in: https://github.com/pelias/pelias/issues/183" ],
       "in": {
