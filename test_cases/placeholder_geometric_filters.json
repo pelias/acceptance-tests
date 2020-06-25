@@ -14,7 +14,7 @@
       "expected": {
         "properties": [
           {
-            "name": "Saint-Sauveur",
+            "locality": "Saint-Sauveur",
             "country_a": "FRA"
           }
         ]
