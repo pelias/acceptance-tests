@@ -92,7 +92,7 @@
     },
     {
       "id": "5",
-      "status": "fail",
+      "status": "pass",
       "user": "missinglink",
       "in": {
         "focus.point.lat": "37.769316",

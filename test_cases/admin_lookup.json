@@ -288,7 +288,8 @@
       "expected": {
         "properties": [
           {
-            "region": "Cardiff"
+            "county": "Cardiff",
+            "region": "South Glamorgan"
           }
         ]
       },
@@ -311,7 +312,8 @@
       "expected": {
         "properties": [
           {
-            "region": "Denbighshire"
+            "region": "Clwyd",
+            "county": "Denbighshire"
           }
         ]
       },

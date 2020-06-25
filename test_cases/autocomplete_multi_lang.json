@@ -135,7 +135,7 @@
     },
     {
       "id": "6-1",
-      "status": "fail",
+      "status": "pass",
       "user": "Joxit",
       "issue": "https://github.com/pelias/pelias/issues/699",
       "in": {
@@ -195,7 +195,7 @@
     },
     {
       "id": "7-1",
-      "status": "fail",
+      "status": "pass",
       "user": "Joxit",
       "issue": "https://github.com/pelias/pelias/issues/663",
       "in": {
