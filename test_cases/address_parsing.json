@@ -319,10 +319,10 @@
     },
     {
       "id": 11,
-      "status": "fail",
+      "status": "pass",
       "user": "Harish",
       "type": "dev",
-      "description": "this is not a very precise test. Perhaps we should add a focus point",
+      "description": "this is not a very precise test. Perhaps we should add a focus point. Potentially flaky test",
       "in": {
         "text": "whole foods NY"
       },

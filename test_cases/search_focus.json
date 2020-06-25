@@ -5,13 +5,13 @@
   "tests": [
     {
       "id": 1,
-      "status": "fail",
+      "status": "pass",
       "in": {
         "focus.point.lat": 42.64,
         "focus.point.lon": -84.7,
         "text": "10010"
       },
-      "description": "searching for a NYC postal code from Michigan should return that postal code before any other countries",
+      "description": "searching for a NYC postal code from Michigan should return that postal code before any other countries. potentially flaky test",
       "issue": "https://github.com/pelias/api/issues/1206",
       "expected": {
         "properties": [
