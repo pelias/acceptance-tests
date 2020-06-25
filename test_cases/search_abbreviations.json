@@ -139,7 +139,7 @@
     },
     {
       "id": 6.1,
-      "status": "pass",
+      "status": "fail",
       "user": "missinglink",
       "notes": ["R == Rue"],
       "in": {
@@ -169,7 +169,7 @@
     },
     {
       "id": 7.1,
-      "status": "pass",
+      "status": "fail",
       "user": "missinglink",
       "notes": ["Av. == Avenida"],
       "in": {
@@ -215,7 +215,7 @@
     },
     {
       "id": 8.1,
-      "status": "pass",
+      "status": "fail",
       "user": "missinglink",
       "in": {
         "text": "W Mt Hope Av. MI USA"
@@ -245,7 +245,7 @@
     },
     {
       "id": 9,
-      "status": "pass",
+      "status": "fail",
       "user": "missinglink",
       "in": {
         "text": "E 98th Ter, MO, USA"
