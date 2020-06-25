@@ -1,6 +1,6 @@
 {
   "name": "search abbreviations",
-  "priorityThresh": 5,
+  "priorityThresh": 1,
   "tests": [
     {
       "id": 1,
