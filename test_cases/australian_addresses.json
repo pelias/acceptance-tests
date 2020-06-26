@@ -66,8 +66,9 @@
     },
     {
       "id": 4,
-      "status": "fail",
-      "description": "should pass but placeholder does not know the TAS abbr yet",
+      "status": "pass",
+      "description": "WOF historically had the TAS abbreviation wrong for a long time",
+      "issue": "https://github.com/whosonfirst-data/whosonfirst-data/issues/1393",
       "in": {
         "text": "160 Harbachs Rd, Dysart, TAS 7030"
       },
