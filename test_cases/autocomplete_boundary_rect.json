@@ -18,13 +18,13 @@
       "expected": {
         "properties": [
           {
-              "name": "San Francisco",
               "country_a": "MEX"
           }
         ]
       },
       "unexpected": {
         "properties": [{
+          "name": "San Francisco",
           "country_a": "USA"
         }]
       }
