@@ -115,28 +115,6 @@
       }
     },
     {
-      "id": "6",
-      "status": "pass",
-      "type": "dev",
-      "in": {
-        "layers": "neighbourhood",
-        "text": "hoboken"
-      },
-      "expected": {
-        "priorityThresh": 2,
-        "properties": [
-          {
-            "gid": "whosonfirst:neighbourhood:85801273",
-            "name": "Hoboken"
-          },
-          {
-            "gid": "whosonfirst:neighbourhood:420509993",
-            "name": "Hoboken"
-          }
-        ]
-      }
-    },
-    {
       "id": "7",
       "status": "pass",
       "description": "returned by placeholder so it works now",
