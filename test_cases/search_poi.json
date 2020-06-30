@@ -160,7 +160,7 @@
     },
     {
       "id": 7,
-      "status": "fail",
+      "status": "pass",
       "description": "search for the Empire State Building. focus point is in philly",
       "user": "julian",
       "in": {
