@@ -141,6 +141,7 @@
       "id": 6.1,
       "status": "fail",
       "user": "missinglink",
+      "issue": "https://github.com/pelias/schema/issues/301",
       "notes": ["R == Rue"],
       "in": {
         "text": "R Gay Lussac, Paris"
