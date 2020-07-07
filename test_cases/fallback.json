@@ -73,6 +73,36 @@
           }
         ]
       }
+    },
+    {
+      "id": 4,
+      "status": "pass",
+      "user": "julian",
+      "description": "query for a nonexistent street in a city returns that city, rather than instances of that street in other cities",
+      "in": {
+        "text": "california avenue, berlin, germany"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Berlin",
+            "layer": "locality",
+            "country_a": "DEU",
+            "locality": "Berlin",
+            "match_type": "fallback"
+          }
+        ]
+      },
+      "unexpected": {
+        "properties": [
+          {
+            "layer": "street"
+          },
+          {
+            "name": "California Avenue"
+          }
+        ]
+      }
     }
   ]
 }
