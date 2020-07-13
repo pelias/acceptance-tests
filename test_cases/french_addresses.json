@@ -87,7 +87,7 @@
     },
     {
       "id": "2-abbrev",
-      "status": "fail",
+      "status": "pass",
       "user": "adefarge",
       "type": "france",
       "description": "Missing synonyms",

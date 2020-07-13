@@ -69,7 +69,7 @@
     },
     {
       "id": 4,
-      "status": "fail",
+      "status": "pass",
       "user": "julian",
       "issue": "https://github.com/pelias/pelias/issues/737",
       "description": "saint abbreviated in data, unabbreviated in query",

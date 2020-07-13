@@ -25,7 +25,7 @@
     },
     {
       "id": 1.1,
-      "status": "fail",
+      "status": "pass",
       "user": "julian",
       "issue": "https://github.com/pelias/pelias/issues/737",
       "description": "saint unabbreviated in data, abbreviated in query",
@@ -96,7 +96,7 @@
     },
     {
       "id": 4,
-      "status": "fail",
+      "status": "pass",
       "user": "julian",
       "issue": "https://github.com/pelias/pelias/issues/737",
       "description": "saint abbreviated in data, unabbreviated in query",
@@ -141,6 +141,7 @@
       "id": 6.1,
       "status": "fail",
       "user": "missinglink",
+      "issue": "https://github.com/pelias/schema/issues/301",
       "notes": ["R == Rue"],
       "in": {
         "text": "R Gay Lussac, Paris"
@@ -169,7 +170,7 @@
     },
     {
       "id": 7.1,
-      "status": "fail",
+      "status": "pass",
       "user": "missinglink",
       "notes": ["Av. == Avenida"],
       "in": {
@@ -215,7 +216,7 @@
     },
     {
       "id": 8.1,
-      "status": "fail",
+      "status": "pass",
       "user": "missinglink",
       "in": {
         "text": "W Mt Hope Av. MI USA"
@@ -264,7 +265,7 @@
     },
     {
       "id": 9,
-      "status": "fail",
+      "status": "pass",
       "user": "missinglink",
       "in": {
         "text": "E 98th Ter, MO, USA"
