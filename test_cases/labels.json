@@ -220,7 +220,7 @@
     },
     {
       "id": 16,
-      "status": "fail",
+      "status": "pass",
       "description": "geonames country records should not have duplicate country in the label",
       "issue": "https://github.com/pelias/wof-admin-lookup/issues/49",
       "user": "julian",
@@ -231,7 +231,7 @@
       },
       "expected": {
         "properties": [{
-          "label": "People's Republic of China"
+          "label": "China"
         }]
       }
     },
