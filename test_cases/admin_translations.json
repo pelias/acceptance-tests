@@ -266,7 +266,7 @@
       "expected": {
         "properties": [
           {
-            "region": "Harjumaa",
+            "region": "Harju",
             "locality": "Tallinn",
             "country": "Estonia"
           }
