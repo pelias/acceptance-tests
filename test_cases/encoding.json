@@ -35,8 +35,8 @@
         "priorityThresh": 2,
         "properties": [
           {
-            "name": "Pärnu maakond",
-            "region": "Pärnu maakond",
+            "name": "Pärnu",
+            "region": "Pärnu",
             "country": "Eesti"
           }
         ]
