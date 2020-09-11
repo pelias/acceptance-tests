@@ -16,7 +16,7 @@
       "expected": {
         "properties": [
           {
-            "label": "DiDi Dumpling, Manhattan, New York, NY, USA"
+            "label": "DiDi Dumpling, New York, NY, USA"
           }
         ]
       }
@@ -96,7 +96,7 @@
         "priorityThresh": 1,
         "properties": [
           {
-            "label": "Hard Rock Cafe, Manhattan, New York, NY, USA"
+            "label": "Hard Rock Cafe, New York, NY, USA"
           }
         ]
       }

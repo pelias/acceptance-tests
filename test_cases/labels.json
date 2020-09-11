@@ -25,7 +25,7 @@
       },
       "expected": {
         "properties": [{
-          "label": "30 West 26th Street, Manhattan, New York, NY, USA"
+          "label": "30 West 26th Street, New York, NY, USA"
         }]
       }
     },

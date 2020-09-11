@@ -26,7 +26,7 @@
             "postalcode": "10009",
             "housenumber": "101",
             "street": "Saint Marks Place",
-            "label": "101 Saint Marks Place, Manhattan, New York, NY, USA"
+            "label": "101 Saint Marks Place, New York, NY, USA"
           }
         ]
       }
@@ -102,7 +102,7 @@
             "postalcode": "11232",
             "housenumber": "450",
             "street": "37th Street",
-            "label": "450 37th Street, Brooklyn, New York, NY, USA"
+            "label": "450 37th Street, Brooklyn, NY, USA"
           }
         ]
       }
@@ -178,7 +178,7 @@
             "postalcode": "11232",
             "housenumber": "455",
             "street": "43rd Street",
-            "label": "455 43rd Street, Brooklyn, New York, NY, USA"
+            "label": "455 43rd Street, Brooklyn, NY, USA"
           }
         ]
       }
@@ -206,7 +206,7 @@
             "postalcode": "11201",
             "housenumber": "1",
             "street": "Main Street",
-            "label": "1 Main Street, Brooklyn, New York, NY, USA"
+            "label": "1 Main Street, Brooklyn, NY, USA"
           }
         ]
       }

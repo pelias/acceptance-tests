@@ -16,7 +16,12 @@
       "expected": {
         "properties": [
           {
-            "label": "Brooklyn, New York, NY, USA"
+            "name": "Brooklyn",
+            "layer": "borough",
+            "locality": "New York",
+            "region_a": "NY",
+            "country_a": "USA",
+            "label": "Brooklyn, NY, USA"
           }
         ]
       }
