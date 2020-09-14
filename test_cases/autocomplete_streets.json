@@ -443,7 +443,7 @@
       "expected": {
         "priorityThresh": 2,
         "properties": [
-          { "label": "190 Dean Street, Brooklyn, New York, NY, USA" }
+          { "label": "190 Dean Street, Brooklyn, NY, USA" }
         ]
       }
     }

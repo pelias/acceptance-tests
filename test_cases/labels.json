@@ -25,7 +25,7 @@
       },
       "expected": {
         "properties": [{
-          "label": "30 West 26th Street, Manhattan, New York, NY, USA"
+          "label": "30 West 26th Street, New York, NY, USA"
         }]
       }
     },
@@ -389,6 +389,40 @@
         "properties": [
           {
             "label": "National Air and Space Museum, Washington, DC, USA"
+          }
+        ]
+      }
+    },
+    {
+      "id": 25,
+      "status": "pass",
+      "description": "Queens address should use neighbourhood name in label",
+      "issue": "https://github.com/pelias/labels/pull/39",
+      "user": "julian",
+      "in": {
+        "text": "38-04 Broadway, Astoria, NY 11103"
+      },
+      "expected": {
+        "properties": [
+          {
+            "label": "38-04 Broadway, Astoria, NY, USA"
+          }
+        ]
+      }
+    },
+    {
+      "id": 26,
+      "status": "pass",
+      "description": "Manhattan neighbourhood",
+      "issue": "https://github.com/pelias/labels/pull/39",
+      "user": "julian",
+      "in": {
+        "text": "East Village, nyc"
+      },
+      "expected": {
+        "properties": [
+          {
+            "label": "East Village, Manhattan, New York, NY, USA"
           }
         ]
       }
