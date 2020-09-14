@@ -93,7 +93,7 @@
     },
     {
       "id": 5,
-      "status": "fail",
+      "status": "pass",
       "description": "looking for transit stop, focus point is in the same city",
       "user": "julian",
       "in": {
