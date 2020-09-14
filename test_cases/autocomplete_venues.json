@@ -14,7 +14,10 @@
       "expected": {
         "properties": [
           {
-            "label": "DiDi Dumpling, Manhattan, New York, NY, USA"
+            "name": "DiDi Dumpling",
+            "borough": "Manhattan",
+            "region_a": "NY",
+            "country_a": "USA"
           }
         ]
       }
