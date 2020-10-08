@@ -230,6 +230,26 @@
           }
         ]
       }
+    },
+    {
+      "id": "8-1",
+      "status": "pass",
+      "user": "Joxit",
+      "issue": "https://github.com/pelias/api/issues/1296",
+      "in": {
+        "lang": "en",
+        "layers": "venue",
+        "text": "Edo Tokyo Museum"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "venue",
+            "country": "Japan",
+            "name": "Edo Tokyo Museum"
+          }
+        ]
+      }
     }
   ]
 }
