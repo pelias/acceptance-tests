@@ -142,14 +142,6 @@
             "region": "New York",
             "borough": "Manhattan",
             "locality": "New York"
-          },
-          {
-            "layer": "address",
-            "housenumber": "1",
-            "street": "Madison Ave",
-            "region": "New York",
-            "borough": "Manhattan",
-            "locality": "New York"
           }
         ]
       }

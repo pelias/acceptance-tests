@@ -85,7 +85,7 @@
       "expected": {
         "properties": [{
           "housenumber": "15364",
-          "street": "Kensington Park Dr",
+          "street": "Kensington Park Drive",
           "layer": "address",
           "locality": "Woodbridge",
           "region_a": "VA",
