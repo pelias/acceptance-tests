@@ -1,0 +1,122 @@
+{
+  "name": "ISO2->ISO3 internal conversion",
+  "notes": "Ensure both 2 and 3 letter country codes are handled in autocomplete",
+  "priorityThresh": 1,
+  "endpoint": "autocomplete",
+  "tests": [
+    {
+      "id": 1,
+      "status": "fail",
+      "user": "julian",
+      "type": "dev",
+      "in": {
+        "text": "mexico city, mx"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "locality",
+            "country_a": "MEX",
+            "locality": "Mexico City"
+          }
+        ]
+      }
+    },
+    {
+      "id": 1.1,
+      "status": "pass",
+      "user": "julian",
+      "type": "dev",
+      "in": {
+        "text": "mexico city, mex"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "locality",
+            "country_a": "MEX",
+            "locality": "Mexico City"
+          }
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "status": "fail",
+      "user": "julian",
+      "type": "dev",
+      "in": {
+        "text": "327 Rincon de Romos, Aguascalientes, MX"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "address",
+            "country_a": "MEX",
+            "locality": "Aguascalientes",
+            "street": "Rincón De Romos",
+            "housenumber": "327"
+          }
+        ]
+      }
+    },
+    {
+      "id": 2.1,
+      "status": "pass",
+      "user": "julian",
+      "type": "dev",
+      "in": {
+        "text": "327 Rincon de Romos, Aguascalientes, MEX"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "address",
+            "country_a": "MEX",
+            "locality": "Aguascalientes",
+            "street": "Rincón De Romos",
+            "housenumber": "327"
+          }
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "status": "pass",
+      "user": "julian",
+      "type": "dev",
+      "in": {
+        "text": "15 Avenue Accasias, COD"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "address",
+            "country_a": "COD",
+            "street": "Avenue Accasias",
+            "housenumber": "15"
+          }
+        ]
+      }
+    },
+    {
+      "id": 3.1,
+      "status": "fail",
+      "user": "julian",
+      "type": "dev",
+      "in": {
+        "text": "15 Avenue Accasias, CD"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "address",
+            "country_a": "COD",
+            "street": "Avenue Accasias",
+            "housenumber": "15"
+          }
+        ]
+      }
+    }
+  ]
+}
