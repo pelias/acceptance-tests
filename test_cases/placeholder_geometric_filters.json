@@ -37,7 +37,7 @@
       "expected": {
         "properties": [
           {
-            "name": "2000 Main St",
+            "name": "2000 Main Street",
             "country_a": "CAN"
           }
         ]
