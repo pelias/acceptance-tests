@@ -6,9 +6,10 @@
   "tests": [
     {
       "id": 1,
-      "status": "pass",
+      "status": "fail",
       "user": "trescube",
       "type": "dev",
+      "description": "record is currently '1 main' in OA",
       "in": {
         "text": "1 Main St, Richlandtown, PA, US"
       },
@@ -21,6 +22,29 @@
             "region_a": "PA",
             "locality": "Richlandtown",
             "street": "Main St",
+            "housenumber": "1"
+          }
+        ]
+      }
+    },
+    {
+      "id": 1.1,
+      "status": "pass",
+      "user": "trescube",
+      "type": "dev",
+      "description": "record is currently '1 main' in OA",
+      "in": {
+        "text": "1 Main, Richlandtown, PA, US"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "address",
+            "country_a": "USA",
+            "region": "Pennsylvania",
+            "region_a": "PA",
+            "locality": "Richlandtown",
+            "street": "Main",
             "housenumber": "1"
           }
         ]
