@@ -56,8 +56,9 @@
     },
     {
       "id": 4,
-      "status": "pass",
+      "status": "fail",
       "user": "missinglink",
+      "description": "More investigation needed. Test appears to fail due to poor scoring of name vs admin properties",
       "in": {
         "text": "Beach Babylon"
       },
