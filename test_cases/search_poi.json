@@ -5,8 +5,8 @@
   "tests": [
     {
       "id": "searchpoi-1",
-      "status": "pass",
-      "description": "@nvkelso couldn't find Target in Eureka while visiting home",
+      "status": "fail",
+      "description": "@nvkelso couldn't find Target in Eureka while visiting home. flaky test, scoring tied with 'target hill'",
       "issue": "https://github.com/pelias/pelias/issues/185",
       "user": "riordan",
       "in": {
