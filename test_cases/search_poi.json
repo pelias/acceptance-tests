@@ -275,6 +275,102 @@
           "country_a": "USA"
         }]
       }
+    },
+    {
+      "id": 10.1,
+      "status": "fail",
+      "description": "search for Union Square, NYC with focus point",
+      "issue": "https://github.com/pelias/pelias/issues/260",
+      "user": "julian",
+      "in": {
+        "text": "union square",
+        "focus.point.lon": -73.990342,
+        "focus.point.lat": 40.744243
+      },
+      "expected": {
+        "priorityThresh": 1,
+        "distanceThresh": 500,
+        "coordinates": [ -73.99036, 40.734603 ],
+        "properties": [{
+          "layer": "venue",
+          "name": "Union Square",
+          "locality": "New York",
+          "region_a": "NY",
+          "country_a": "USA"
+        }]
+      }
+    },
+    {
+      "id": 10.2,
+      "status": "fail",
+      "description": "search for Union Square, NYC with focus point",
+      "issue": "https://github.com/pelias/pelias/issues/260",
+      "user": "julian",
+      "in": {
+        "text": "union square manhattan ny",
+        "focus.point.lon": -73.990342,
+        "focus.point.lat": 40.744243
+      },
+      "expected": {
+        "priorityThresh": 1,
+        "distanceThresh": 500,
+        "coordinates": [ -73.99036, 40.734603 ],
+        "properties": [{
+          "layer": "venue",
+          "name": "Union Square",
+          "locality": "New York",
+          "region_a": "NY",
+          "country_a": "USA"
+        }]
+      }
+    },
+    {
+      "id": 10.3,
+      "status": "fail",
+      "description": "search for Union Square, NYC with focus point",
+      "issue": "https://github.com/pelias/pelias/issues/260",
+      "user": "julian",
+      "in": {
+        "text": "union square new york ny",
+        "focus.point.lon": -73.990342,
+        "focus.point.lat": 40.744243
+      },
+      "expected": {
+        "priorityThresh": 1,
+        "distanceThresh": 500,
+        "coordinates": [ -73.99036, 40.734603 ],
+        "properties": [{
+          "layer": "venue",
+          "name": "Union Square",
+          "locality": "New York",
+          "region_a": "NY",
+          "country_a": "USA"
+        }]
+      }
+    },
+    {
+      "id": 10.4,
+      "status": "fail",
+      "description": "search for Union Square, NYC with focus point",
+      "issue": "https://github.com/pelias/pelias/issues/260",
+      "user": "julian",
+      "in": {
+        "text": "union square nyc",
+        "focus.point.lon": -73.990342,
+        "focus.point.lat": 40.744243
+      },
+      "expected": {
+        "priorityThresh": 1,
+        "distanceThresh": 500,
+        "coordinates": [ -73.99036, 40.734603 ],
+        "properties": [{
+          "layer": "venue",
+          "name": "Union Square",
+          "locality": "New York",
+          "region_a": "NY",
+          "country_a": "USA"
+        }]
+      }
     }
   ]
 }
