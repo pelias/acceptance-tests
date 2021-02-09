@@ -103,7 +103,7 @@
           {
              "layer": "address",
              "housenumber": "1320",
-             "street": "E Edinger Av",
+             "street": "East Edinger Avenue",
              "locality": "Santa Ana",
              "region": "California"
           }
@@ -125,7 +125,7 @@
           {
              "layer": "address",
              "housenumber": "3",
-             "street": "Scott St",
+             "street": "Scott Street",
              "locality": "Colorado Springs",
              "region": "Colorado"
           }
@@ -147,7 +147,7 @@
           {
              "layer": "address",
              "housenumber": "3",
-             "street": "Scott St",
+             "street": "Scott Street",
              "locality": "Colorado Springs",
              "region": "Colorado"
           }
