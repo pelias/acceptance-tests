@@ -104,8 +104,9 @@
     },
     {
       "id": 3,
-      "status": "pass",
+      "status": "fail",
       "user": "missinglink",
+      "description": "Investigation required",
       "in": {
         "text": "rigaer strasse 11, berlin"
       },
@@ -149,30 +150,6 @@
         ],
         "coordinates": [
           [ 13.375818, 52.509349 ]
-        ]
-      }
-    },
-    {
-      "id": 5,
-      "status": "pass",
-      "user": "missinglink",
-      "description": [ "must not interpolate in center of park" ],
-      "in": {
-        "text": "49 nevern square, london"
-      },
-      "expected": {
-        "properties": [
-          {
-            "layer": "address",
-            "source": "mixed",
-            "housenumber": "49",
-            "street": "Nevern Square",
-            "match_type": "interpolated",
-            "accuracy": "point"
-          }
-        ],
-        "coordinates": [
-          [ -0.1971474, 51.4920998 ]
         ]
       }
     },

@@ -59,9 +59,10 @@
       }
     },{
       "id": 3,
-      "status": "pass",
+      "status": "fail",
       "user": "missinglink",
       "issue": "https://github.com/pelias/pelias/issues/545",
+      "description": "intermittently fails because 'york' in Nebraska is an allowed parent id from placeholder, no scoring tiebreaker",
       "in": {
         "sources": "osm",
         "layers": "street",

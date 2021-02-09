@@ -163,8 +163,7 @@
       "expected": {
         "properties": [
           {
-            "layer": "region",
-            "name": "Xacmaz",
+            "name": "Xaçmaz",
             "region": "Xacmaz",
             "country": "Azerbaijan",
             "country_a": "AZE"
