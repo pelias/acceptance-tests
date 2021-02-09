@@ -197,7 +197,7 @@
       "expected": {
         "properties": [
           {
-            "name": "285 Fulton St",
+            "name": "285 Fulton Street",
             "locality": "Nova Iorque",
             "country": "Estados Unidos"
           }
@@ -550,7 +550,7 @@
           {
             "layer": "address",
             "housenumber": "30",
-            "street": "W 26 St",
+            "street": "West 26th Street",
             "postalcode": "10010"
           }
         ]
