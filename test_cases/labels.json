@@ -99,7 +99,7 @@
       },
       "expected": {
         "properties": [{
-          "label": "Erbil, Iraq"
+          "label": "Erbil, AR, Iraq"
         }]
       }
     },
@@ -182,7 +182,7 @@
       },
       "expected": {
         "properties": [{
-          "label": "McDonald's, Singapore, Singapore"
+          "label": "McDonald's, Singapore"
         }]
       }
     },
@@ -424,6 +424,21 @@
           {
             "label": "East Village, Manhattan, New York, NY, USA"
           }
+        ]
+      }
+    },
+    {
+      "id": 27,
+      "status": "pass",
+      "user": "julian",
+      "description": [ "NZ addresses should include locality, region" ],
+      "in": {
+        "text": "18 glasgow street, kelburn, wellington"
+      },
+      "expected": {
+        "priorityThresh": 1,
+        "properties": [
+          { "label": "18 Glasgow Street, Kelburn, WG, New Zealand" }
         ]
       }
     }
