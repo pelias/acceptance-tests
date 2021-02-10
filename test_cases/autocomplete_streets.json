@@ -412,7 +412,13 @@
       "expected": {
         "priorityThresh": 1,
         "properties": [
-          { "label": "18 Glasgow Street, Kelburn, New Zealand" }
+          {
+            "housenumber": "18",
+            "street": "Glasgow Street",
+            "locality": "Kelburn",
+            "localadmin": "Wellington",
+            "country_a": "NZL"
+          }
         ]
       }
     },
