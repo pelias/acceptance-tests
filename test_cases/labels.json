@@ -182,7 +182,7 @@
       },
       "expected": {
         "properties": [{
-          "label": "McDonald's, Singapore, Singapore"
+          "label": "McDonald's, Singapore"
         }]
       }
     },
