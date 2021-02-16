@@ -1,0 +1,50 @@
+{
+  "name": "autocomplete address",
+  "priorityThresh": 1,
+  "endpoint": "autocomplete",
+  "tests": [
+    {
+      "id": 1,
+      "status": "fail",
+      "issue": "https://github.com/pelias/openstreetmap/pull/549",
+      "description": "popular address (Sydney Opera House) should be returned first",
+      "user": "julian",
+      "in": {
+        "text": "2 Macquarie Street Sydney AUS"
+      },
+      "expected": {
+        "priorityThresh": 1,
+        "properties": [
+          {
+            "housenumber": "2",
+            "street": "Macquarie Street",
+            "locality": "Sydney",
+            "country_a": "AUS"
+          }
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "status": "fail",
+      "issue": "https://github.com/pelias/openstreetmap/pull/549",
+      "description": "popular address (White House) should be returned first",
+      "user": "julian",
+      "in": {
+        "text": "1600 Pennsylvania Avenue"
+      },
+      "expected": {
+        "priorityThresh": 2,
+        "properties": [
+          {
+            "housenumber": "1600",
+            "street": "Pennsylvania Avenue NW",
+            "locality": "Washington",
+            "region_a": "DC",
+            "country_a": "USA"
+          }
+        ]
+      }
+    }
+  ]
+}
