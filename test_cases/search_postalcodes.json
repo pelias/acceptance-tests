@@ -110,6 +110,47 @@
           }
         ]
       }
+    },
+    {
+      "id": "5",
+      "status": "pass",
+      "issue": "https://github.com/pelias/pelias/issues/898",
+      "user": "julian",
+      "in": {
+        "text": "03100",
+        "boundary.country": "FRA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "03100",
+            "layer": "postalcode",
+            "postalcode": "03100",
+            "country_a": "FRA"
+          }
+        ]
+      }
+    },
+    {
+      "id": "5",
+      "status": "pass",
+      "issue": "https://github.com/pelias/pelias/issues/898",
+      "user": "julian",
+      "in": {
+        "text": "04106",
+        "boundary.country": "USA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "04106",
+            "layer": "postalcode",
+            "postalcode": "04106",
+            "region_a": "ME",
+            "country_a": "USA"
+          }
+        ]
+      }
     }
   ]
 }
