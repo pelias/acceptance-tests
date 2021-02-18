@@ -5,7 +5,7 @@
   "tests": [
     {
       "id": 1,
-      "status": "fail",
+      "status": "pass",
       "issue": "https://github.com/pelias/openstreetmap/pull/549",
       "description": "popular address (Sydney Opera House) should be returned first",
       "user": "julian",

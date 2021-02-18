@@ -6,7 +6,7 @@
   "tests": [
     {
       "id": 1,
-      "status": "fail",
+      "status": "pass",
       "user": "julian",
       "type": "dev",
       "in": {
@@ -42,7 +42,7 @@
     },
     {
       "id": 2,
-      "status": "fail",
+      "status": "pass",
       "user": "julian",
       "type": "dev",
       "in": {
@@ -101,7 +101,7 @@
     },
     {
       "id": 3.1,
-      "status": "fail",
+      "status": "pass",
       "user": "julian",
       "type": "dev",
       "in": {
