@@ -109,7 +109,7 @@
       }
     },
     {
-      "id": "4",
+      "id": "5",
       "status": "fail",
       "issue": "https://github.com/pelias/pelias/issues/898",
       "user": "julian",
@@ -130,8 +130,8 @@
       }
     },
     {
-      "id": "5",
-      "status": "fail",
+      "id": "6",
+      "status": "pass",
       "issue": "https://github.com/pelias/pelias/issues/676",
       "user": "julian",
       "in": {
@@ -152,7 +152,7 @@
       }
     },
     {
-      "id": "5.1",
+      "id": "6.1",
       "status": "fail",
       "issue": "https://github.com/pelias/pelias/issues/676",
       "user": "julian",
