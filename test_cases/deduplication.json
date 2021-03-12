@@ -49,6 +49,60 @@
           "region": "Illinois"
         }]
       }
+    },
+    {
+      "id": 3,
+      "status": "fail",
+      "user": "orangejulius",
+      "endpoint": "autocomplete",
+      "description": "Geonames 'City of X' style records should not appear",
+      "issue": "https://github.com/pelias/geonames/issues/395",
+      "in": {
+        "text": "Chicago"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Chicago",
+            "region_a": "IL",
+            "country_a": "USA",
+            "layer": "locality"
+          }
+        ]
+      },
+      "unexpected": {
+        "properties": [
+          {
+            "name": "City of Chicago"
+          }
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "status": "fail",
+      "user": "orangejulius",
+      "endpoint": "autocomplete",
+      "description": "Geonames 'City of X' style records should not appear",
+      "issue": "https://github.com/pelias/geonames/issues/395",
+      "in": {
+        "text": "Philadelphia"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Philadelphia",
+            "layer": "locality"
+          }
+        ]
+      },
+      "unexpected": {
+        "properties": [
+          {
+            "name": "City of Philadelphia"
+          }
+        ]
+      }
     }
   ]
 }
