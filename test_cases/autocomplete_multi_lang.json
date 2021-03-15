@@ -61,7 +61,7 @@
     },
     {
       "id": "2-1",
-      "status": "fail",
+      "status": "pass",
       "user": "Joxit",
       "issue": "https://github.com/pelias/pelias/issues/767",
       "in": {
@@ -98,7 +98,7 @@
     },
     {
       "id": "4-1",
-      "status": "fail",
+      "status": "pass",
       "user": "Joxit",
       "in": {
         "lang": "zh",
@@ -117,7 +117,7 @@
     },
     {
       "id": "5-1",
-      "status": "fail",
+      "status": "pass",
       "user": "Joxit",
       "in": {
         "lang": "de",
@@ -175,7 +175,7 @@
     },
     {
       "id": "6-3",
-      "status": "fail",
+      "status": "pass",
       "user": "Joxit",
       "issue": "https://github.com/pelias/pelias/issues/699",
       "in": {

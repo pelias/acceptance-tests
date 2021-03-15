@@ -207,14 +207,13 @@
     },
     {
       "id": 28,
-      "status": "fail",
+      "status": "pass",
       "user": "julian",
       "notes": [
         "Searching for New York City with a focus in Stamford, CT"
       ],
       "description": [
-        "currently marked as failing due to https://github.com/pelias/pelias/issues/330",
-        "county record coming first"
+        "currently marked as passing since https://github.com/pelias/api/pull/1370"
       ],
       "issue": [
         "https://github.com/pelias/pelias/issues/330",
