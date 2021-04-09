@@ -197,6 +197,26 @@
           }
         ]
       }
+    },
+    {
+      "id": "7",
+      "status": "fail",
+      "description": "postal code in Ontario, Canada. No Canadian postal code records currently",
+      "user": "julian",
+      "in": {
+        "text": "L9E 0K7"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "L9E 0K7",
+            "layer": "postalcode",
+            "postalcode": "L9E 0K7",
+            "region_a": "ON",
+            "country_a": "CAN"
+          }
+        ]
+      }
     }
   ]
 }
