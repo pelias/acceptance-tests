@@ -175,6 +175,28 @@
           }
         ]
       }
+    },
+    {
+      "id": "6.2",
+      "status": "fail",
+      "issue": "https://github.com/pelias/pelias/issues/676",
+      "description": "partial postal code autocomplete query",
+      "user": "julian",
+      "in": {
+        "text": "9021",
+        "boundary.country": "USA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "90210",
+            "layer": "postalcode",
+            "postalcode": "90210",
+            "region_a": "CA",
+            "country_a": "USA"
+          }
+        ]
+      }
     }
   ]
 }
