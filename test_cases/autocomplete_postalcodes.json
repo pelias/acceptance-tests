@@ -90,8 +90,9 @@
     },
     {
       "id": "4",
-      "status": "fail",
+      "status": "pass",
       "issue": "https://github.com/pelias/pelias/issues/898",
+      "description": "postalcode in france with leading zero",
       "user": "julian",
       "in": {
         "text": "03100",
@@ -110,8 +111,9 @@
     },
     {
       "id": "5",
-      "status": "fail",
+      "status": "pass",
       "issue": "https://github.com/pelias/pelias/issues/898",
+      "description": "postalcode in USA with leading zero",
       "user": "julian",
       "in": {
         "text": "04106",
