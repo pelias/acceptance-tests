@@ -297,6 +297,47 @@
           }
         ]
       }
+    },
+    {
+      "id": "9",
+      "status": "fail",
+      "description": "postal code in Berlin, Germany",
+      "user": "julian",
+      "in": {
+        "text": "10407",
+        "boundary.country": "DEU"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "10407",
+            "layer": "postalcode",
+            "postalcode": "10407",
+            "country_a": "DEU"
+          }
+        ]
+      }
+    },
+    {
+      "id": "9.1",
+      "status": "fail",
+      "description": "postal code in Berlin, Germany with additional filters",
+      "user": "julian",
+      "in": {
+        "text": "10407",
+        "layers": "postalcode",
+        "boundary.country": "DEU"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "10407",
+            "layer": "postalcode",
+            "postalcode": "10407",
+            "country_a": "DEU"
+          }
+        ]
+      }
     }
   ]
 }
