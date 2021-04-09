@@ -90,8 +90,9 @@
     },
     {
       "id": "4",
-      "status": "fail",
+      "status": "pass",
       "issue": "https://github.com/pelias/pelias/issues/898",
+      "description": "postalcode in france with leading zero",
       "user": "julian",
       "in": {
         "text": "03100",
@@ -110,8 +111,9 @@
     },
     {
       "id": "5",
-      "status": "fail",
+      "status": "pass",
       "issue": "https://github.com/pelias/pelias/issues/898",
+      "description": "postalcode in USA with leading zero",
       "user": "julian",
       "in": {
         "text": "04106",
@@ -155,6 +157,7 @@
       "id": "6.1",
       "status": "fail",
       "issue": "https://github.com/pelias/pelias/issues/676",
+      "description": "partial postal code autocomplete query, querying only on postalcode layer",
       "user": "julian",
       "in": {
         "text": "9021",
@@ -170,6 +173,216 @@
             "region_a": "CA",
             "country_a": "USA"
           }
+        ]
+      }
+    },
+    {
+      "id": "6.2",
+      "status": "fail",
+      "issue": "https://github.com/pelias/pelias/issues/676",
+      "description": "partial postal code autocomplete query",
+      "user": "julian",
+      "in": {
+        "text": "9021",
+        "boundary.country": "USA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "90210",
+            "layer": "postalcode",
+            "postalcode": "90210",
+            "region_a": "CA",
+            "country_a": "USA"
+          }
+        ]
+      }
+    },
+    {
+      "id": "7",
+      "status": "fail",
+      "description": "postal code in Ontario, Canada. No Canadian postal code records currently",
+      "user": "julian",
+      "in": {
+        "text": "L9E 0K7"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "L9E 0K7",
+            "layer": "postalcode",
+            "postalcode": "L9E 0K7",
+            "region_a": "ON",
+            "country_a": "CAN"
+          }
+        ]
+      }
+    },
+    {
+      "id": "8",
+      "status": "pass",
+      "description": "postal code in Manchester, England",
+      "user": "julian",
+      "in": {
+        "text": "M11 4DQ"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "M11 4DQ",
+            "layer": "postalcode",
+            "postalcode": "M11 4DQ",
+            "country_a": "GBR"
+          }
+        ]
+      }
+    },
+    {
+      "id": "8.1",
+      "status": "pass",
+      "description": "postal code in Manchester, England with additional filters",
+      "user": "julian",
+      "in": {
+        "text": "M11 4DQ",
+        "layers": "postalcode"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "M11 4DQ",
+            "layer": "postalcode",
+            "postalcode": "M11 4DQ",
+            "country_a": "GBR"
+          }
+        ]
+      }
+    },
+    {
+      "id": "9",
+      "status": "pass",
+      "description": "postal code in Melbourne, Australia",
+      "user": "julian",
+      "in": {
+        "text": "3000",
+        "boundary.country": "AUS"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "3000",
+            "layer": "postalcode",
+            "postalcode": "3000",
+            "country_a": "AUS"
+          }
+        ]
+      }
+    },
+    {
+      "id": "9.1",
+      "status": "pass",
+      "description": "postal code in Melbourne, Australia with additional filters",
+      "user": "julian",
+      "in": {
+        "text": "3000",
+        "layers": "postalcode",
+        "boundary.country": "AUS"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "3000",
+            "layer": "postalcode",
+            "postalcode": "3000",
+            "country_a": "AUS"
+          }
+        ]
+      }
+    },
+    {
+      "id": "9",
+      "status": "fail",
+      "description": "postal code in Berlin, Germany",
+      "user": "julian",
+      "in": {
+        "text": "10407",
+        "boundary.country": "DEU"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "10407",
+            "layer": "postalcode",
+            "postalcode": "10407",
+            "country_a": "DEU"
+          }
+        ]
+      }
+    },
+    {
+      "id": "9.1",
+      "status": "fail",
+      "description": "postal code in Berlin, Germany with additional filters",
+      "user": "julian",
+      "in": {
+        "text": "10407",
+        "layers": "postalcode",
+        "boundary.country": "DEU"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "10407",
+            "layer": "postalcode",
+            "postalcode": "10407",
+            "country_a": "DEU"
+          }
+        ]
+      }
+    },
+    {
+      "id": "10",
+      "status": "pass",
+      "description": "postal code in Amsterdam, Netherlands",
+      "user": "julian",
+      "in": {
+        "text": "1011HB"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "1011HB",
+            "layer": "postalcode",
+            "postalcode": "1011HB",
+            "country_a": "NLD"
+          }
+        ],
+        "distanceThresh": 5000,
+        "coordinates": [
+          [ 4.900, 52.36 ]
+        ]
+      }
+    },
+    {
+      "id": "10.1",
+      "status": "pass",
+      "description": "postal code in Amsterdam, Netherlands with additional filters",
+      "user": "julian",
+      "in": {
+        "text": "1011HB",
+        "layers": "postalcode"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "1011HB",
+            "layer": "postalcode",
+            "postalcode": "1011HB",
+            "country_a": "NLD"
+          }
+        ],
+        "distanceThresh": 5000,
+        "coordinates": [
+          [ 4.900, 52.36 ]
         ]
       }
     }
