@@ -217,6 +217,45 @@
           }
         ]
       }
+    },
+    {
+      "id": "8",
+      "status": "pass",
+      "description": "postal code in Manchester, England",
+      "user": "julian",
+      "in": {
+        "text": "M11 4DQ"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "M11 4DQ",
+            "layer": "postalcode",
+            "postalcode": "M11 4DQ",
+            "country_a": "GBR"
+          }
+        ]
+      }
+    },
+    {
+      "id": "8.1",
+      "status": "pass",
+      "description": "postal code in Manchester, England with additional filters",
+      "user": "julian",
+      "in": {
+        "text": "M11 4DQ",
+        "layers": "postalcode"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "M11 4DQ",
+            "layer": "postalcode",
+            "postalcode": "M11 4DQ",
+            "country_a": "GBR"
+          }
+        ]
+      }
     }
   ]
 }
