@@ -338,6 +338,53 @@
           }
         ]
       }
+    },
+    {
+      "id": "10",
+      "status": "pass",
+      "description": "postal code in Amsterdam, Netherlands",
+      "user": "julian",
+      "in": {
+        "text": "1011HB"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "1011HB",
+            "layer": "postalcode",
+            "postalcode": "1011HB",
+            "country_a": "NLD"
+          }
+        ],
+        "distanceThresh": 5000,
+        "coordinates": [
+          [ 4.900, 52.36 ]
+        ]
+      }
+    },
+    {
+      "id": "10.1",
+      "status": "pass",
+      "description": "postal code in Amsterdam, Netherlands with additional filters",
+      "user": "julian",
+      "in": {
+        "text": "1011HB",
+        "layers": "postalcode"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "1011HB",
+            "layer": "postalcode",
+            "postalcode": "1011HB",
+            "country_a": "NLD"
+          }
+        ],
+        "distanceThresh": 5000,
+        "coordinates": [
+          [ 4.900, 52.36 ]
+        ]
+      }
     }
   ]
 }
