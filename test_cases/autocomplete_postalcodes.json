@@ -256,6 +256,47 @@
           }
         ]
       }
+    },
+    {
+      "id": "9",
+      "status": "pass",
+      "description": "postal code in Melbourne, Australia",
+      "user": "julian",
+      "in": {
+        "text": "3000",
+        "boundary.country": "AUS"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "3000",
+            "layer": "postalcode",
+            "postalcode": "3000",
+            "country_a": "AUS"
+          }
+        ]
+      }
+    },
+    {
+      "id": "9.1",
+      "status": "pass",
+      "description": "postal code in Melbourne, Australia with additional filters",
+      "user": "julian",
+      "in": {
+        "text": "3000",
+        "layers": "postalcode",
+        "boundary.country": "AUS"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "3000",
+            "layer": "postalcode",
+            "postalcode": "3000",
+            "country_a": "AUS"
+          }
+        ]
+      }
     }
   ]
 }
