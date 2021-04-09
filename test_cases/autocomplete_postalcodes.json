@@ -157,6 +157,7 @@
       "id": "6.1",
       "status": "fail",
       "issue": "https://github.com/pelias/pelias/issues/676",
+      "description": "partial postal code autocomplete query, querying only on postalcode layer",
       "user": "julian",
       "in": {
         "text": "9021",
