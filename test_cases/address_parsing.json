@@ -2,6 +2,18 @@
   "name": "address parsing",
   "priorityThresh": 5,
   "endpoint": "search",
+  "normalizers": {
+    "name": [
+      "toUpperCase",
+      "abbreviateDirectionals",
+      "toLowerCase"
+    ],
+    "street": [
+      "toUpperCase",
+      "abbreviateDirectionals",
+      "toLowerCase"
+    ]
+  },
   "tests": [
     {
       "id": 1,
@@ -234,8 +246,7 @@
             "locality": "Atlanta",
             "postalcode": "30315",
             "housenumber": "186",
-            "street": "Tuskegee Street Southeast",
-            "label": "186 Tuskegee Street Southeast, Atlanta, GA, USA"
+            "street": "Tuskegee Street Southeast"
           }
         ]
       }

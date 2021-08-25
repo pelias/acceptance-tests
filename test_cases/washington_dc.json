@@ -3,8 +3,9 @@
   "priorityThresh": 1,
   "normalizers": {
     "street": [
-      "toLowerCase",
-      "abbreviateDirectionals"
+      "toUpperCase",
+      "abbreviateDirectionals",
+      "toLowerCase"
     ]
   },
   "tests": [
@@ -24,13 +25,6 @@
             "layer": "address",
             "housenumber": "1705",
             "street": "P Street NW",
-            "locality": "Washington",
-            "region": "District of Columbia"
-          },
-          {
-            "layer": "address",
-            "housenumber": "1705",
-            "street": "P Street Northwest",
             "locality": "Washington",
             "region": "District of Columbia"
           }
@@ -53,13 +47,6 @@
             "layer": "address",
             "housenumber": "1705",
             "street": "P Street NW",
-            "locality": "Washington",
-            "region": "District of Columbia"
-          },
-          {
-            "layer": "address",
-            "housenumber": "1705",
-            "street": "P Street Northwest",
             "locality": "Washington",
             "region": "District of Columbia"
           }
