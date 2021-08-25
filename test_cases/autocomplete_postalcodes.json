@@ -6,9 +6,9 @@
   "tests": [
     {
       "id": "1",
-      "status": "fail",
+      "status": "pass",
       "issue": "https://github.com/pelias/pelias/issues/692",
-      "description": "currently brings in irrelevant record first, needs better scoring",
+      "description": "autocomplete for a complete postalcode",
       "user": "diana",
       "in": {
         "text": "90210"
