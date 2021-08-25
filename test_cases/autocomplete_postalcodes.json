@@ -89,7 +89,7 @@
     },
     {
       "id": "4",
-      "status": "pass",
+      "status": "fail",
       "issue": "https://github.com/pelias/pelias/issues/898",
       "description": "postalcode in france with leading zero",
       "user": "julian",
@@ -110,7 +110,7 @@
     },
     {
       "id": "5",
-      "status": "pass",
+      "status": "fail",
       "issue": "https://github.com/pelias/pelias/issues/898",
       "description": "postalcode in USA with leading zero",
       "user": "julian",
