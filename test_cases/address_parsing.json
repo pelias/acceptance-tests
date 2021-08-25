@@ -2,6 +2,18 @@
   "name": "address parsing",
   "priorityThresh": 5,
   "endpoint": "search",
+  "normalizers": {
+    "name": [
+      "toUpperCase",
+      "abbreviateDirectionals",
+      "toLowerCase"
+    ],
+    "street": [
+      "toUpperCase",
+      "abbreviateDirectionals",
+      "toLowerCase"
+    ]
+  },
   "tests": [
     {
       "id": 1,
