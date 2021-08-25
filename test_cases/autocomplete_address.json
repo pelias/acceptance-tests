@@ -2,6 +2,13 @@
   "name": "autocomplete address",
   "priorityThresh": 1,
   "endpoint": "autocomplete",
+  "normalizers": {
+    "street": [
+      "toUpperCase",
+      "abbreviateDirectionals",
+      "toLowerCase"
+    ]
+  },
   "tests": [
     {
       "id": 1,
