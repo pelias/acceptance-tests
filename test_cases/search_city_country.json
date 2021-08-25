@@ -279,7 +279,7 @@
     },
     {
       "id": 15,
-      "status": "fail",
+      "status": "pass",
       "user": "trescube",
       "type": "dev",
       "in": {
