@@ -473,8 +473,8 @@
       "expected": {
         "properties": [
           {
-            "layer": "localadmin",
-            "name": "Zickrick Township",
+            "layer": "locality",
+            "name": "Zickrick",
             "country_a": "USA",
             "country": "United States",
             "localadmin": "Zickrick Township"
@@ -495,8 +495,8 @@
       "expected": {
         "properties": [
           {
-            "layer": "localadmin",
-            "name": "Zumbehl Township",
+            "layer": "locality",
+            "name": "Zumbehl",
             "country_a": "USA",
             "country": "United States",
             "localadmin": "Zumbehl Township"
@@ -518,8 +518,8 @@
       "expected": {
         "properties": [
           {
-            "layer": "localadmin",
-            "name": "Aastad Township",
+            "layer": "locality",
+            "name": "Aastad",
             "country_a": "USA",
             "country": "United States",
             "region_a": "MN",

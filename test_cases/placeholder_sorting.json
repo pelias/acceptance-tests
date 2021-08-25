@@ -752,7 +752,7 @@
     },
     {
       "id": 1600,
-      "status": "fail",
+      "status": "pass",
       "endpoint": "search",
       "description": "county should be after locality generally",
       "issue": [
