@@ -287,6 +287,30 @@
           }
         ]
       }
+    },
+    {
+      "id": 31,
+      "status": "fail",
+      "user": "joxit",
+      "description": [ "find Vars city in France from Vosges department" ],
+      "issue": "https://github.com/pelias/pelias/issues/165",
+      "in": {
+        "focus.point.lat": 48.036619,
+        "focus.point.lon": 6.5802992,
+        "text": "vars",
+        "lang": "fr"
+      },
+      "expected": {
+        "priorityThresh": 1,
+        "properties": [
+          {
+            "name": "Vars",
+            "localadmin": "Vars",
+            "region": "Haute-Saône",
+            "country": "France"
+          }
+        ]
+      }
     }
   ]
 }
