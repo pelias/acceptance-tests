@@ -217,7 +217,7 @@
       },
       "expected": {
         "priorityThresh": 1,
-        "distanceThresh": 500,
+        "distanceThresh": 1000,
         "coordinates": [  -112.012869, 33.434743 ],
         "properties": [{
           "layer": "venue",
