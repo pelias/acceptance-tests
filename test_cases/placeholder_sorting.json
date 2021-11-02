@@ -144,14 +144,14 @@
       "id": 201,
       "status": "pass",
       "endpoint": "search",
-      "description": "the country Luxembourg should rank higher than cities and regions of the same name",
+      "description": "the city of Luxembourg should rank higher than cities and regions of the same name",
       "in": {
         "text": "Luxembourg"
       },
       "expected": {
         "properties": [
           {
-            "gid": "whosonfirst:country:85633275",
+            "gid": "whosonfirst:locality:101751765",
             "name": "Luxembourg"
           }
         ]
