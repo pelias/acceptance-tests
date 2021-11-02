@@ -132,12 +132,34 @@
       "description": "placeholder supports alpha3 and alpha2 country codes",
       "in": {
         "text": "LUX",
+        "layers": "country",
         "sources": "wof"
       },
       "expected": {
         "properties": [
           {
             "layer": "country",
+            "name": "Luxembourg",
+            "country": "Luxembourg",
+            "country_a": "LUX"
+          }
+        ]
+      }
+    },
+    {
+      "id": 7.1,
+      "status": "pass",
+      "user": "Julian",
+      "issue": "https://github.com/pelias/pelias/issues/263",
+      "description": "placeholder supports alpha3 and alpha2 country codes, Luxembourg is returned as a locality",
+      "in": {
+        "text": "LUX",
+        "sources": "wof"
+      },
+      "expected": {
+        "properties": [
+          {
+            "layer": "locality",
             "name": "Luxembourg",
             "country": "Luxembourg",
             "country_a": "LUX"

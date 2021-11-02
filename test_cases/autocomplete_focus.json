@@ -179,7 +179,7 @@
     },
     {
       "id": 27,
-      "status": "fail",
+      "status": "pass",
       "user": "julian",
       "notes": [
         "Searching for New York City with a focus in Stamford, CT"
@@ -207,7 +207,7 @@
     },
     {
       "id": 28,
-      "status": "fail",
+      "status": "pass",
       "user": "julian",
       "notes": [
         "Searching for New York City with a focus in Stamford, CT"
