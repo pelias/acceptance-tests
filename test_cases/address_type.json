@@ -13,7 +13,7 @@
       "user": "missinglink",
       "endpoint": "search",
       "description": [
-        "Ensure address records are stored in the 'osmaddress' layer."
+        "Ensure address records are stored in the 'address' layer."
       ],
       "in": {
         "text": "102 Fleet Street",
