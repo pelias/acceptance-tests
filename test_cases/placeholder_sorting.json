@@ -127,7 +127,7 @@
       "id": 200,
       "status": "pass",
       "endpoint": "search",
-      "description": "the country Luxembourg should rank higher than cities of the same name",
+      "description": "the country of Belgium should rank higher than cities of the same name",
       "in": {
         "text": "Belgium"
       },
