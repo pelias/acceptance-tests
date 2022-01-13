@@ -1,0 +1,230 @@
+{
+  "name": "search compound street names",
+  "priorityThresh": 5,
+  "endpoint": "search",
+  "description": [
+    "Ensure 6 different forms of the same street name are searchable",
+    "via both the /v1/search and /v1/autocomplete endpoints",
+    "Common in Europe, prominently in the D-A-CH countries",
+    "see: https://github.com/pelias/api/issues/1594"
+  ],
+  "tests": [
+    {
+      "id": 1,
+      "status": "pass",
+      "user": "missinglink",
+      "endpoint": "search",
+      "in": {
+        "text": "Ackermannstraße",
+        "layers": "street",
+        "boundary.gid": "whosonfirst:localadmin:1377692799"
+      },
+      "expected": {
+        "properties": [
+          {
+            "street": "Ackermannstraße"
+          }
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "status": "pass",
+      "user": "missinglink",
+      "endpoint": "search",
+      "in": {
+        "text": "Ackermannstrasse",
+        "layers": "street",
+        "boundary.gid": "whosonfirst:localadmin:1377692799"
+      },
+      "expected": {
+        "properties": [
+          {
+            "street": "Ackermannstraße"
+          }
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "status": "pass",
+      "user": "missinglink",
+      "endpoint": "search",
+      "in": {
+        "text": "Ackermannstr.",
+        "layers": "street",
+        "boundary.gid": "whosonfirst:localadmin:1377692799"
+      },
+      "expected": {
+        "properties": [
+          {
+            "street": "Ackermannstraße"
+          }
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "status": "pass",
+      "user": "missinglink",
+      "endpoint": "search",
+      "in": {
+        "text": "Ackermannstr",
+        "layers": "street",
+        "boundary.gid": "whosonfirst:localadmin:1377692799"
+      },
+      "expected": {
+        "properties": [
+          {
+            "street": "Ackermannstraße"
+          }
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "status": "pass",
+      "user": "missinglink",
+      "endpoint": "search",
+      "in": {
+        "text": "Ackermann Strasse",
+        "layers": "street",
+        "boundary.gid": "whosonfirst:localadmin:1377692799"
+      },
+      "expected": {
+        "properties": [
+          {
+            "street": "Ackermannstraße"
+          }
+        ]
+      }
+    },
+    {
+      "id": 6,
+      "status": "pass",
+      "user": "missinglink",
+      "endpoint": "search",
+      "in": {
+        "text": "Ackermann Straße",
+        "layers": "street",
+        "boundary.gid": "whosonfirst:localadmin:1377692799"
+      },
+      "expected": {
+        "properties": [
+          {
+            "street": "Ackermannstraße"
+          }
+        ]
+      }
+    },
+
+    {
+      "id": 7,
+      "status": "pass",
+      "user": "missinglink",
+      "endpoint": "autocomplete",
+      "in": {
+        "text": "Ackermannstraße",
+        "layers": "street",
+        "boundary.gid": "whosonfirst:localadmin:1377692799"
+      },
+      "expected": {
+        "properties": [
+          {
+            "street": "Ackermannstraße"
+          }
+        ]
+      }
+    },
+    {
+      "id": 8,
+      "status": "pass",
+      "user": "missinglink",
+      "endpoint": "autocomplete",
+      "in": {
+        "text": "Ackermannstrasse",
+        "layers": "street",
+        "boundary.gid": "whosonfirst:localadmin:1377692799"
+      },
+      "expected": {
+        "properties": [
+          {
+            "street": "Ackermannstraße"
+          }
+        ]
+      }
+    },
+    {
+      "id": 9,
+      "status": "pass",
+      "user": "missinglink",
+      "endpoint": "autocomplete",
+      "in": {
+        "text": "Ackermannstr.",
+        "layers": "street",
+        "boundary.gid": "whosonfirst:localadmin:1377692799"
+      },
+      "expected": {
+        "properties": [
+          {
+            "street": "Ackermannstraße"
+          }
+        ]
+      }
+    },
+    {
+      "id": 10,
+      "status": "pass",
+      "user": "missinglink",
+      "endpoint": "autocomplete",
+      "in": {
+        "text": "Ackermannstr",
+        "layers": "street",
+        "boundary.gid": "whosonfirst:localadmin:1377692799"
+      },
+      "expected": {
+        "properties": [
+          {
+            "street": "Ackermannstraße"
+          }
+        ]
+      }
+    },
+    {
+      "id": 11,
+      "status": "pass",
+      "user": "missinglink",
+      "endpoint": "autocomplete",
+      "in": {
+        "text": "Ackermann Strasse",
+        "layers": "street",
+        "boundary.gid": "whosonfirst:localadmin:1377692799"
+      },
+      "expected": {
+        "properties": [
+          {
+            "street": "Ackermannstraße"
+          }
+        ]
+      }
+    },
+    {
+      "id": 12,
+      "status": "pass",
+      "user": "missinglink",
+      "endpoint": "autocomplete",
+      "in": {
+        "text": "Ackermann Straße",
+        "layers": "street",
+        "boundary.gid": "whosonfirst:localadmin:1377692799"
+      },
+      "expected": {
+        "properties": [
+          {
+            "street": "Ackermannstraße"
+          }
+        ]
+      }
+    }
+  ]
+}
