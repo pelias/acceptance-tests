@@ -103,6 +103,31 @@
           }
         ]
       }
+    },
+    {
+      "id": 5,
+      "status": "fail",
+      "user": "orangejulius",
+      "endpoint": "autocomplete",
+      "description": "Geonames 'New York City' record should not appear",
+      "in": {
+        "text": "New York"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "New York",
+            "layer": "locality"
+          }
+        ]
+      },
+      "unexpected": {
+        "properties": [
+          {
+            "name": "New York City"
+          }
+        ]
+      }
     }
   ]
 }
