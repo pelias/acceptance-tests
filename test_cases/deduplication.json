@@ -44,8 +44,8 @@
           "name": "Pennsylvania",
           "layer": "region"
         }, {
-          "name": "Pennsylvania Township",
-          "layer": "localadmin",
+          "name": "Pennsylvania",
+          "layer": "locality",
           "region": "Illinois"
         }]
       }
@@ -100,6 +100,64 @@
         "properties": [
           {
             "name": "City of Philadelphia"
+          }
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "status": "fail",
+      "user": "orangejulius",
+      "endpoint": "autocomplete",
+      "description": "Geonames 'New York City' record should not appear",
+      "in": {
+        "text": "New York"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "New York",
+            "layer": "locality"
+          }
+        ]
+      },
+      "unexpected": {
+        "properties": [
+          {
+            "name": "New York City"
+          },
+          {
+            "name": "City of New York"
+          }
+        ]
+      }
+    },
+    {
+      "id": 6,
+      "status": "fail",
+      "user": "orangejulius",
+      "endpoint": "autocomplete",
+      "description": "Multiple Berlin records should not appear",
+      "in": {
+        "text": "Berlin"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Berlin",
+            "layer": "locality"
+          }
+        ]
+      },
+      "unexpected": {
+        "properties": [
+          {
+            "name": "Berlin",
+            "layer": "region"
+          },
+          {
+            "name": "Berlin",
+            "layer": "localadmin"
           }
         ]
       }
