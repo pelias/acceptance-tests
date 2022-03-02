@@ -128,6 +128,36 @@
           }
         ]
       }
+    },
+    {
+      "id": 6,
+      "status": "fail",
+      "user": "orangejulius",
+      "endpoint": "autocomplete",
+      "description": "Multiple Berlin records should not appear",
+      "in": {
+        "text": "Berlin"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Berlin",
+            "layer": "locality"
+          }
+        ]
+      },
+      "unexpected": {
+        "properties": [
+          {
+            "name": "Berlin",
+            "layer": "region"
+          },
+          {
+            "name": "Berlin",
+            "layer": "localadmin"
+          }
+        ]
+      }
     }
   ]
 }
