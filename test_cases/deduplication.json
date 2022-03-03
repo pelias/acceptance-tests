@@ -161,6 +161,26 @@
           }
         ]
       }
+    },
+    {
+      "id": 7,
+      "status": "pass",
+      "user": "orangejulius",
+      "endpoint": "autocomplete",
+      "description": "City record should appear near the top, even if the preferred record started lower down",
+      "in": {
+        "text": "Anthering, Austria"
+      },
+      "expected": {
+        "priorityThresh": 2,
+        "properties": [
+          {
+            "name": "Anthering",
+            "country_a": "AUT",
+            "layer": "locality"
+          }
+        ]
+      }
     }
   ]
 }
