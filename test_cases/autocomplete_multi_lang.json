@@ -71,7 +71,7 @@
       "expected": {
         "properties": [
           {
-            "layer": "region",
+            "layer": "locality",
             "country": "Ägypten",
             "name": "Kairo"
           }
