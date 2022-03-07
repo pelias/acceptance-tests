@@ -276,7 +276,7 @@
     },
     {
       "id": 16,
-      "status": "fail",
+      "status": "pass",
       "endpoint": "search",
       "description": "ß should be treated as 'ss'. poor deduplication",
       "in": {

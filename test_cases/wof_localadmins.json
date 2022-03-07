@@ -58,7 +58,7 @@
       "status": "pass",
       "user": "Stephen",
       "in": {
-        "text": "Zickrick, SD",
+        "text": "Zickrick Township, SD",
         "sources": "wof"
       },
       "expected": {

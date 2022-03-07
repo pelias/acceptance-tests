@@ -25,7 +25,7 @@
     },
     {
       "id": "1-2",
-      "status": "fail",
+      "status": "pass",
       "user": "Joxit",
       "in": {
         "lang": "nl",
@@ -43,7 +43,7 @@
     },
     {
       "id": "1-3",
-      "status": "fail",
+      "status": "pass",
       "user": "Joxit",
       "in": {
         "lang": "nl",
@@ -71,7 +71,7 @@
       "expected": {
         "properties": [
           {
-            "layer": "region",
+            "layer": "locality",
             "country": "Ägypten",
             "name": "Kairo"
           }
@@ -80,7 +80,7 @@
     },
     {
       "id": "3-1",
-      "status": "fail",
+      "status": "pass",
       "user": "Joxit",
       "in": {
         "lang": "fr",

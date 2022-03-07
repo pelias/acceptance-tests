@@ -72,7 +72,7 @@
     },
     {
       "id": 5,
-      "status": "pass",
+      "status": "fail",
       "type": "dev",
       "user": "Randy",
       "in": {
@@ -84,9 +84,12 @@
           {
             "gid": "whosonfirst:locality:85977539",
             "name": "New York"
-          },
+          }
+        ]
+      },
+      "unexpected": {
+        "properties": [
           {
-            "gid": "whosonfirst:county:102081863",
             "name": "New York County"
           }
         ]
