@@ -186,36 +186,42 @@
     },
     {
       "id": 11,
-      "status": "pass",
+      "status": "fail",
       "endpoint": "search",
-      "description": "GB counties with 'County' prefixed should be found",
+      "description": "GB counties with 'County' prefixed should be found. Does not currently rank first when it should",
       "in": {
         "text": "County Durham, GB"
       },
       "expected": {
         "properties": [
           {
-            "gid": "whosonfirst:region:1360698621",
-            "confidence": 0.3,
-            "name": "Durham"
+            "gid": "whosonfirst:county:1360699055",
+            "confidence": 1,
+            "name": "County Durham"
           }
         ]
       }
     },
     {
       "id": 12,
-      "status": "pass",
+      "status": "fail",
       "endpoint": "search",
-      "description": "GB counties without 'County' prefixed should be found",
+      "description": "GB counties without 'County' prefixed should be found. The city should also be found without dupes",
       "in": {
         "text": "Durham, GB"
       },
       "expected": {
+        "priorityThresh": 2,
         "properties": [
           {
-            "gid": "whosonfirst:region:1360698621",
-            "confidence": 0.3,
-            "name": "Durham"
+            "gid": "whosonfirst:locality:1360756237",
+            "confidence": 1,
+            "name": "City of Durham"
+          },
+          {
+            "gid": "whosonfirst:county:1360699055",
+            "confidence": 0.4,
+            "name": "County Durham"
           }
         ]
       }
