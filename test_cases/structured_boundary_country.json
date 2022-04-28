@@ -1,9 +1,8 @@
-
 {
-  "name": "autocomplete boundary.country",
+  "name": "structured boundary.country",
   "priorityThresh": 1,
   "description": "ensure that only USA results, and especially not GBR results, come back with boundary.country set",
-  "endpoint": "autocomplete",
+  "endpoint": "search/structured",
   "tests": [
     {
       "id": 1,
@@ -12,7 +11,7 @@
       "type": "dev",
       "in": {
         "boundary.country": "USA",
-        "text": "London"
+        "locality": "London"
       },
       "unexpected" : {
         "properties": [
@@ -38,7 +37,7 @@
         "boundary.country": "COL,MEX",
         "layers": "coarse",
         "size": 40,
-        "text": "san francisco"
+        "locality": "san francisco"
       },
       "unexpected" : {
         "properties": [
@@ -68,7 +67,8 @@
       "type": "dev",
       "in": {
         "boundary.country": "GUM",
-        "text": "Hagåtña guam"
+        "locality": "Hagåtña",
+        "country": "guam"
       },
       "expected": {
         "properties": [
