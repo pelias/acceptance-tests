@@ -5,9 +5,8 @@
   "tests": [
     {
       "id": "searchpostal-1",
-      "status": "fail",
+      "status": "pass",
       "issue": "https://github.com/pelias/pelias/issues/692",
-      "description": "currently brings in irrelevant record first, needs better scoring",
       "user": "diana",
       "in": {
         "text": "90210"
@@ -150,6 +149,174 @@
           }
         ]
       }
-    }
+    },
+        {
+          "id": "11",
+          "status": "pass",
+          "description": "postal code in London, England",
+          "user": "missinglink",
+          "in": {
+            "text": "EN52LP"
+          },
+          "expected": {
+            "properties": [
+              {
+                "name": "EN5 2LP",
+                "layer": "postalcode",
+                "postalcode": "EN5 2LP",
+                "locality": "London",
+                "borough": "Barnet",
+                "country_a": "GBR"
+              }
+            ]
+          }
+        },
+        {
+          "id": "11",
+          "status": "pass",
+          "description": "postal code in London, England",
+          "user": "missinglink",
+          "in": {
+            "text": "NW74LS"
+          },
+          "expected": {
+            "properties": [
+              {
+                "name": "NW7 4LS",
+                "layer": "postalcode",
+                "postalcode": "NW7 4LS",
+                "locality": "London",
+                "borough": "Barnet",
+                "country_a": "GBR"
+              }
+            ]
+          }
+        },
+        {
+          "id": "12",
+          "status": "pass",
+          "description": "postal code in London, England",
+          "user": "missinglink",
+          "in": {
+            "text": "E81DN"
+          },
+          "expected": {
+            "properties": [
+              {
+                "name": "E8 1DN",
+                "layer": "postalcode",
+                "postalcode": "E8 1DN",
+                "locality": "London",
+                "borough": "Hackney",
+                "country_a": "GBR"
+              }
+            ]
+          }
+        },
+        {
+          "id": "14",
+          "status": "pass",
+          "description": "postal code in Berlin, Germany",
+          "user": "missinglink",
+          "in": {
+            "text": "10437"
+          },
+          "expected": {
+            "properties": [
+              {
+                "name": "10437",
+                "layer": "postalcode",
+                "postalcode": "10437",
+                "locality": "Berlin",
+                "borough": "Pankow",
+                "country_a": "DEU"
+              }
+            ]
+          }
+        },
+        {
+          "id": "14",
+          "status": "pass",
+          "description": "postal code in Berlin, Germany",
+          "user": "missinglink",
+          "in": {
+            "text": "10119"
+          },
+          "expected": {
+            "properties": [
+              {
+                "name": "10119",
+                "layer": "postalcode",
+                "postalcode": "10119",
+                "locality": "Berlin",
+                "borough": "Mitte",
+                "country_a": "DEU"
+              }
+            ]
+          }
+        },
+        {
+          "id": "15",
+          "status": "pass",
+          "description": "postal code in Berlin, Germany",
+          "user": "missinglink",
+          "in": {
+            "text": "14059"
+          },
+          "expected": {
+            "properties": [
+              {
+                "name": "14059",
+                "layer": "postalcode",
+                "postalcode": "14059",
+                "locality": "Berlin",
+                "borough": "Charlottenburg-Wilmersdorf",
+                "country_a": "DEU"
+              }
+            ]
+          }
+        },
+        {
+          "id": "16",
+          "status": "pass",
+          "description": "postal code in Wipfratal, Germany",
+          "user": "missinglink",
+          "in": {
+            "text": "99310"
+          },
+          "expected": {
+            "properties": [
+              {
+                "name": "99310",
+                "layer": "postalcode",
+                "postalcode": "99310",
+                "localadmin": "Arnstadt",
+                "locality": "Wipfratal",
+                "country_a": "DEU"
+              }
+            ]
+          }
+        },
+        {
+          "id": "17",
+          "status": "pass",
+          "description": "postal code in Wipfratal, Germany",
+          "user": "missinglink",
+          "in": {
+            "text": "99310"
+          },
+          "expected": {
+            "properties": [
+              {
+                "name": "99310",
+                "layer": "postalcode",
+                "postalcode": "99310",
+                "localadmin": "Arnstadt",
+                "locality": "Wipfratal",
+                "country_a": "DEU"
+              }
+            ]
+          }
+        }
   ]
 }
