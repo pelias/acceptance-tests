@@ -1,0 +1,84 @@
+{
+  "name": "autocomplete endonyms",
+  "notes": "https://github.com/pelias/wof-admin-lookup/pull/314",
+  "endpoint": "autocomplete",
+  "priorityThresh": 1,
+  "tests": [
+    {
+      "id": "1.0",
+      "status": "pass",
+      "user": "missinglink",
+      "description": [
+        "Data default label is English"
+      ],
+      "in": {
+        "text": "Reichstag Germany"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Reichstag",
+            "country": "Germany"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1.1",
+      "status": "pass",
+      "user": "missinglink",
+      "description": [
+        "Country local language is German"
+      ],
+      "in": {
+        "text": "Reichstag Deutschland"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Reichstag",
+            "country": "Germany"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2.0",
+      "status": "pass",
+      "user": "missinglink",
+      "description": [
+        "Data default label & local language are German"
+      ],
+      "in": {
+        "text": "Domkloster 4 Köln"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Domkloster 4",
+            "locality": "Cologne"
+          }
+        ]
+      }
+    },
+    {
+      "id": "2.1",
+      "status": "pass",
+      "user": "missinglink",
+      "description": [
+        "Megacity should be retrievable in English also"
+      ],
+      "in": {
+        "text": "Domkloster 4 Cologne"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Domkloster 4",
+            "locality": "Cologne"
+          }
+        ]
+      }
+    }
+  ]
+}
