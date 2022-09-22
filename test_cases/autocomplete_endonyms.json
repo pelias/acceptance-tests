@@ -56,7 +56,8 @@
         "properties": [
           {
             "name": "Domkloster 4",
-            "locality": "Cologne"
+            "locality": "Cologne",
+            "country": "Germany"
           }
         ]
       }
@@ -75,7 +76,8 @@
         "properties": [
           {
             "name": "Domkloster 4",
-            "locality": "Cologne"
+            "locality": "Cologne",
+            "country": "Germany"
           }
         ]
       }
