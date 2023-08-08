@@ -81,6 +81,90 @@
           }
         ]
       }
+    },
+    {
+      "id": "3.1",
+      "status": "pass",
+      "user": "missinglink",
+      "description": [
+        "Region should be retrievable in English"
+      ],
+      "in": {
+        "text": "Domkloster 4, North Rhine Westphalia"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Domkloster 4",
+            "region": "North Rhine-Westphalia",
+            "country": "Germany"
+          }
+        ]
+      }
+    },
+    {
+      "id": "3.2",
+      "status": "pass",
+      "user": "missinglink",
+      "description": [
+        "Region should be retrievable in Deutsch"
+      ],
+      "in": {
+        "text": "Domkloster 4, Nordrhein-Westfalen"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Domkloster 4",
+            "region": "North Rhine-Westphalia",
+            "country": "Germany"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4.1",
+      "status": "pass",
+      "user": "missinglink",
+      "description": [
+        "Region should be retrievable in English"
+      ],
+      "in": {
+        "text": "Dennenlaan 3, South Holland"
+      },
+      "expected": {
+        "priorityThresh": 1,
+        "properties": [
+          {
+            "name": "Dennenlaan 3",
+            "locality": "Alphen aan den Rijn",
+            "region": "South Holland",
+            "country": "Netherlands"
+          }
+        ]
+      }
+    },
+    {
+      "id": "4.2",
+      "status": "pass",
+      "user": "missinglink",
+      "description": [
+        "Region should be retrievable in Dutch"
+      ],
+      "in": {
+        "text": "Dennenlaan 3, Zuid-Holland"
+      },
+      "expected": {
+        "priorityThresh": 1,
+        "properties": [
+          {
+            "name": "Dennenlaan 3",
+            "locality": "Alphen aan den Rijn",
+            "region": "South Holland",
+            "country": "Netherlands"
+          }
+        ]
+      }
     }
   ]
 }
