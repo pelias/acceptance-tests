@@ -1,0 +1,64 @@
+{
+  "name": "Vanity Addresses",
+  "priorityThresh": 1,
+  "endpoint": "autocomplete",
+  "tests": [
+    {
+      "id": 1,
+      "status": "pass",
+      "user": "missinglink",
+      "in": {
+        "text": "One Embarcadero"
+      },
+      "expected": {
+        "properties": [
+          {
+            "region": "California",
+            "locality": "San Francisco",
+            "name": "Embarcadero Center 1"
+          }
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "status": "pass",
+      "user": "missinglink",
+      "in": {
+        "text": "One Brooklyn Bridge Park"
+      },
+      "expected": {
+        "properties": [
+          {
+            "region": "New York",
+            "locality": "New York",
+            "name": "One Brooklyn Bridge Park"
+          }
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "status": "pass",
+      "user": "missinglink",
+      "notes": [
+        "This is the office of the mayor of London",
+        "it doesn't return 'The Gherkin' for the name",
+        "because it's not *officially* named that ;)"
+      ],
+      "in": {
+        "text": "The Gherkin"
+      },
+      "expected": {
+        "priorityThresh": 2,
+        "properties": [
+          {
+            "region": "Greater London",
+            "locality": "London",
+            "name": "30 St Mary Axe"
+          }
+        ]
+      }
+    }
+  ]
+}
