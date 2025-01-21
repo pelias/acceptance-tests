@@ -1,6 +1,6 @@
 {
   "name": "Search Alphanumeric housenumbers",
-  "priorityThresh": 5,
+  "priorityThresh": 1,
   "normalizers": {
     "name": [
       "toLowerCase"
