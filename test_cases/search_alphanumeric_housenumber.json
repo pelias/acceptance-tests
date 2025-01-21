@@ -6,7 +6,8 @@
       "toLowerCase"
     ],
     "housenumber": [
-      "toLowerCase"
+      "toLowerCase",
+      "stripPunctuation"
     ],
     "street": [
       "toLowerCase"
