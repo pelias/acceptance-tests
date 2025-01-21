@@ -1,5 +1,5 @@
 {
-  "name": "Alphanumeric housenumbers",
+  "name": "Search Alphanumeric housenumbers",
   "priorityThresh": 5,
   "normalizers": {
     "name": [
