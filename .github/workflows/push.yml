@@ -19,4 +19,4 @@ jobs:
         run: |
           npm install
           npm run lint && npm ls
-          jq . test_cases/*.json
+          jq . test_cases/*.json > /dev/null
