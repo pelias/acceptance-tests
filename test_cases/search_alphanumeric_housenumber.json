@@ -178,6 +178,24 @@
           }
         ]
       }
+    },
+    {
+      "id": 6,
+      "status": "pass",
+      "in": {
+        "text": "kinkerstraat 175F, amsterdam"
+      },
+      "description": "Dutch address in a building with housenumbers like 175A, 175B, 175C, etc. Without proper sorting the desired result can easily be drowned out",
+      "expected": {
+        "properties": [
+          {
+            "housenumber": "175F",
+            "street": "Kinkerstraat",
+            "locality": "Amsterdam",
+            "country_a": "NLD"
+          }
+        ]
+      }
     }
   ]
 }
