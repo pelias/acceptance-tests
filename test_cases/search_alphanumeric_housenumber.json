@@ -196,6 +196,95 @@
           }
         ]
       }
+    },
+    {
+      "id": "6.1",
+      "status": "fail",
+      "in": {
+        "text": "kinkerstraat 175 F, amsterdam"
+      },
+      "description": "As above, we currently dont support permutations of the unit number, as in this example with a space",
+      "expected": {
+        "properties": [
+          {
+            "housenumber": "175F",
+            "street": "Kinkerstraat",
+            "locality": "Amsterdam",
+            "country_a": "NLD"
+          }
+        ]
+      }
+    },
+    {
+      "id": 7,
+      "status": "pass",
+      "in": {
+        "text": "Vanadiumweg 11C, Amersfoort"
+      },
+      "description": "Dutch address in a building with housenumbers like 175A, 175B, 175C, etc. Without proper sorting the desired result can easily be drowned out",
+      "expected": {
+        "properties": [
+          {
+            "housenumber": "11C",
+            "street": "Vanadiumweg",
+            "locality": "Amersfoort",
+            "country_a": "NLD"
+          }
+        ]
+      }
+    },
+    {
+      "id": "7.1",
+      "status": "pass",
+      "in": {
+        "text": "Vanadiumweg 11, Amersfoort"
+      },
+      "description": "Expect the housenumber 11 (with no unit suffix) to appear before those with a unit suffix",
+      "expected": {
+        "properties": [
+          {
+            "housenumber": "11",
+            "street": "Vanadiumweg",
+            "locality": "Amersfoort",
+            "country_a": "NLD"
+          }
+        ]
+      }
+    },
+    {
+      "id": 8,
+      "status": "pass",
+      "in": {
+        "text": "봉화로167번길 35-7"
+      },
+      "description": "Korean address, there are multiple units at 35-* but none at 35",
+      "expected": {
+        "properties": [
+          {
+            "housenumber": "35-7",
+            "street": "봉화로167번길",
+            "country_a": "KOR"
+          }
+        ]
+      }
+    },
+    {
+      "id": "8.1",
+      "status": "pass",
+      "in": {
+        "text": "봉화로167번길 35"
+      },
+      "description": "As above, query is for 35 without unit suffix. Sorting is arbitrary.",
+      "expected": {
+        "priorityThresh": 10,
+        "properties": [
+          {
+            "housenumber": "35-7",
+            "street": "봉화로167번길",
+            "country_a": "KOR"
+          }
+        ]
+      }
     }
   ]
 }
