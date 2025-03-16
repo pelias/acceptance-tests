@@ -1,0 +1,113 @@
+{
+  "name": "ampersand",
+  "priorityThresh": 10,
+  "normalizers": {
+    "name": [
+      "toLowerCase"
+    ]
+  },
+  "tests": [
+    {
+      "id": 0,
+      "in": {
+        "text": "H&M",
+        "focus.point.lat": 40.74,
+        "focus.point.lon": -74,
+        "boundary.gid": "whosonfirst:locality:85977539"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "H&M",
+            "layer": "venue",
+            "locality": "New York",
+            "region": "New York"
+          }
+        ]
+      }
+    },
+    {
+      "id": 0.1,
+      "in": {
+        "text": "H & M",
+        "focus.point.lat": 40.74,
+        "focus.point.lon": -74.0,
+        "boundary.gid": "whosonfirst:locality:85977539"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "H&M",
+            "layer": "venue",
+            "locality": "New York",
+            "region": "New York"
+          }
+        ]
+      }
+    },
+    {
+      "id": 1.0,
+      "in": {
+        "text": "Press&Books, Heidenheim",
+        "boundary.gid": "whosonfirst:locality:101761787"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Press&Books",
+            "layer": "venue",
+            "locality": "Heidenheim"
+          }
+        ]
+      }
+    },
+    {
+      "id": 1.1,
+      "in": {
+        "text": "Press & Books, Heidenheim",
+        "boundary.gid": "whosonfirst:locality:101761787"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Press&Books",
+            "layer": "venue",
+            "locality": "Heidenheim"
+          }
+        ]
+      }
+    },
+    {
+      "id": 2.0,
+      "in": {
+        "text": "Press&Books, Basel",
+        "boundary.gid": "whosonfirst:locality:101748459"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Press & Books",
+            "layer": "venue",
+            "locality": "Basel"
+          }
+        ]
+      }
+    },
+    {
+      "id": 1.1,
+      "in": {
+        "text": "Press & Books, Basel",
+        "boundary.gid": "whosonfirst:locality:101748459"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "Press & Books",
+            "layer": "venue",
+            "locality": "Basel"
+          }
+        ]
+      }
+    }
+  ]
+}
