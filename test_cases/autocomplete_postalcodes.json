@@ -89,7 +89,7 @@
     },
     {
       "id": "4",
-      "status": "fail",
+      "status": "pass",
       "issue": "https://github.com/pelias/pelias/issues/898",
       "description": "postalcode in france with leading zero",
       "user": "julian",
@@ -110,7 +110,7 @@
     },
     {
       "id": "5",
-      "status": "fail",
+      "status": "pass",
       "issue": "https://github.com/pelias/pelias/issues/898",
       "description": "postalcode in USA with leading zero",
       "user": "julian",
@@ -407,7 +407,7 @@
       }
     },
     {
-      "id": "11",
+      "id": "11.1",
       "status": "pass",
       "description": "postal code in London, England",
       "user": "missinglink",

@@ -1,5 +1,5 @@
 {
-  "name": "Autocomplete POI",
+  "name": "autocomplete POI",
   "notes": "For testing POI autocomplete responses",
   "endpoint": "autocomplete",
   "priorityThresh": 5,

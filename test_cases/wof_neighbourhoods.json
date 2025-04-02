@@ -114,14 +114,14 @@
       "status": "pass",
       "user": "Stephen",
       "in": {
-        "text": "Taman Taynton View, Malaysia",
+        "text": "Taman Taynton, Malaysia",
         "sources": "wof"
       },
       "expected": {
         "properties": [
           {
             "layer": "neighbourhood",
-            "name": "Taman Taynton View",
+            "name": "Taman Taynton",
             "locality": "Kuala Lumpur",
             "region": "Kuala Lumpur",
             "country": "Malaysia",
