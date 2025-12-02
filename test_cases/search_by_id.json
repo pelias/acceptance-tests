@@ -1,0 +1,83 @@
+{
+  "name": "search by id (placeholder)",
+  "priorityThresh": 5,
+  "endpoint": "search",
+  "tests": [
+    {
+      "id": 1,
+      "status": "pass",
+      "issue": "https://github.com/pelias/api/pull/1708",
+      "user": "missinglink",
+      "in": {
+        "text": "300 Burns Bay Road, Sydney, AU"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "300 Burns Bay Road",
+            "layer": "address",
+            "macrocounty": "Sydney",
+            "label": "300 Burns Bay Road, Lane Cove, NSW, Australia"
+          }
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "status": "pass",
+      "issue": "https://github.com/pelias/api/pull/1708",
+      "user": "missinglink",
+      "in": {
+        "text": "1 West Market Street, York, PA"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "1 West Market Street",
+            "layer": "address",
+            "county": "York County",
+            "label": "1 West Market Street, York, PA, USA"
+          }
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "status": "pass",
+      "issue": "https://github.com/pelias/api/pull/1708",
+      "user": "missinglink",
+      "in": {
+        "text": "62 Dawson Street, Melbourne"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "62 Dawson Street",
+            "layer": "address",
+            "macrocounty": "Melbourne",
+            "label": "62 Dawson Street, Coburg North, VIC, Australia"
+          }
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "status": "pass",
+      "issue": "https://github.com/pelias/api/pull/1708",
+      "user": "missinglink",
+      "in": {
+        "text": "1012 Sir Samuel Griffith Drive, Brisbane, AU"
+      },
+      "expected": {
+        "properties": [
+          {
+            "name": "1012 Sir Samuel Griffith Drive",
+            "layer": "address",
+            "macrocounty": "Brisbane",
+            "label": "1012 Sir Samuel Griffith Drive, Mount Coot-tha, QLD, Australia"
+          }
+        ]
+      }
+    }
+  ]
+}
