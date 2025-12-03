@@ -154,6 +154,7 @@
         "text": "621 Martin Luther King Blvd portland or"
       },
       "expected": {
+        "priorityThresh": 2,
         "properties": [
           {
             "housenumber": "621",

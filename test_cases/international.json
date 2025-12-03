@@ -1,5 +1,5 @@
 {
-  "name": "International addresses",
+  "name": "international addresses",
   "priorityThresh": 5,
   "normalizers": {
     "name": [
@@ -189,7 +189,7 @@
         "properties": [
           {
             "name": "Фурштатская улица 15",
-            "locality": "Saint Petersburg City",
+            "locality": "Saint Petersburg",
             "country_a": "RUS"
           }
         ]

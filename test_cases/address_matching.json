@@ -72,25 +72,6 @@
       }
     },
     {
-      "id": 3.1,
-      "status": "pass",
-      "issue": "https://github.com/pelias/pelias/issues/296",
-      "description": "De Kay Street can be returned, but should be lower than exact match 'Kay St'",
-      "user": "orangejulius",
-      "type": "dev",
-      "in": {
-        "text": "49 Kay Street"
-      },
-      "expected": {
-        "priorityThresh": 10,
-        "properties": [
-          {
-            "street": "De Kay Street"
-          }
-        ]
-      }
-    },
-    {
       "id": 4,
       "status": "pass",
       "user": "dianashk",

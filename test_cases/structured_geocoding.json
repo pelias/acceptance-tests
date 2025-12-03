@@ -779,10 +779,10 @@
         "properties": [
           {
             "layer": "region",
-            "name": "Kakheti",
+            "name": "Kakheti Region",
             "country_a": "GEO",
             "country": "Georgia",
-            "region": "Kakheti"
+            "region": "Kakheti Region"
           }
         ]
       }

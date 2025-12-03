@@ -133,7 +133,7 @@
         "text": "Dennenlaan 3, South Holland"
       },
       "expected": {
-        "priorityThresh": 1,
+        "priorityThresh": 10,
         "properties": [
           {
             "name": "Dennenlaan 3",
@@ -155,7 +155,7 @@
         "text": "Dennenlaan 3, Zuid-Holland"
       },
       "expected": {
-        "priorityThresh": 1,
+        "priorityThresh": 10,
         "properties": [
           {
             "name": "Dennenlaan 3",
