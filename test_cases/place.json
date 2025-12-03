@@ -124,6 +124,25 @@
           }
         ]
       }
+    },
+    {
+      "id": 7,
+      "status": "pass",
+      "user": "missinglink",
+      "description": "Geonames name should not be replaced with WOF name",
+      "issue": "https://github.com/pelias/api/pull/1712",
+      "in": {
+        "ids": "geonames:county:1717511"
+      },
+      "expected": {
+        "priorityThresh": 1,
+        "properties": [
+          {
+            "name": "Province of Cebu",
+            "county": "Cebu City"
+          }
+        ]
+      }
     }
   ]
 }
