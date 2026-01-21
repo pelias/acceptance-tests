@@ -153,6 +153,10 @@
         "properties": [
           {
             "name": "Berlin",
+            "gid": "geonames:locality:6547383"
+          },
+          {
+            "name": "Berlin",
             "layer": "region"
           },
           {
