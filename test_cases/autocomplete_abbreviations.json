@@ -2,6 +2,20 @@
   "name": "autocomplete abbreviations",
   "endpoint": "autocomplete",
   "priorityThresh": 5,
+  "normalizers": {
+    "name": [
+      "toUpperCase",
+      "abbreviateDirectionals",
+      "stripPunctuation",
+      "toLowerCase"
+    ],
+    "street": [
+      "toUpperCase",
+      "abbreviateDirectionals",
+      "stripPunctuation",
+      "toLowerCase"
+    ]
+  },
   "tests": [
     {
       "id": 1,
