@@ -7,7 +7,7 @@
       "id": 1,
       "status": "pass",
       "user": "trescube",
-      "description": "there should be no non-address results, lat/lon is for Lancaster, PA",
+      "description": "there should be no coarse results, lat/lon is for Lancaster, PA",
       "type": "dev",
       "in": {
         "point.lat": 40.038123,
@@ -17,6 +17,12 @@
         "properties": [
           {
             "layer": "address"
+          },
+          {
+            "layer": "street"
+          },
+          {
+            "layer": "venue"
           }
         ]
       },
